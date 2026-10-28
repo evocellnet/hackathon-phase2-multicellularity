@@ -6,6 +6,19 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## Status summary (latest first)
 
+### M2 — 2026-10-28 14:25 (t ≈ 2.1 h): pre-registration frozen
+Design went through three review rounds (5 + 3 reviewers + a final pre-registration audit) and is frozen as DESIGN v3.1 / PREREG.md
+(tag `prereg-v1`, 15 hashed inputs) before any eukaryote Ancestra output existed. The reviews changed the project substantially: raw
+Ancestra gains are inflated 2.1–2.6× on simulations, so the primary gain statistic is sequence-level novelty (DIAMOND, all
+proteomes outside the clade); transitions are coded as state changes with an explicit eligibility rule (7 primary eukaryotic origins,
+3 nested complex transitions secondary, 4 prokaryotic descriptive); two stems became path stems after the audit; the relabelling null
+was replaced by a calibrated permutation scheme after it proved anti-conservative on the real tree.
+
+Honest expectation, written before results: with 7 primary stems and 30 control branches the design only detects ≈2–6-fold effects for
+gene-content tests (power at 1.5-fold 13–35%), but is sensitive for the rate test (H9). Running: eukaryote Ancestra `fast` (family
+stage, ~1 h in), prokaryote run (scores stage), Pfam (full + pre-registered subset), gain-ladder and phylogenomics modules being
+built. Next: wait for Ancestra; parse; positive controls; primary tests; then exploratory analyses.
+
 ### M1 — 2026-10-28 12:45 (t ≈ 0.4 h)
 Literature review done (LITERATURE.md, ~9k words, 249 tool-verified references; 16 testable hypotheses H1–H16). Data scouting done:
 151 core + 104 optional eukaryotic candidates, 79 core prokaryotic; sources UniProt 2026_03, EukProt v3, LukProt v1.5.1, NCBI
@@ -31,10 +44,13 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - [~] 0. Setup: environment, record files, generic resources (taxdump, Pfam)
 - [x] 1. Literature review → LITERATURE.md (16 hypotheses; 249 refs)
 - [x] 2. Data scouting → data/species_candidates*.tsv, docs/DATA_SOURCES_SCOUTING.md
-- [~] 2b. HOG parser (mcell.hogs) + simulation validation
-- [~] 4. Dataset build (started early, in parallel with design review)
-- [~] 3. Design → DESIGN.md v1, review round 1 running (5 reviewers)
-- [ ] 5. Ancestra runs (toy test → timing test → full eukaryote run; prokaryote run)
+- [x] 2b. HOG parser (mcell.hogs): exact on true HOGs; Ancestra gains inflated 2.1–2.6× on sims
+- [x] 2c. Statistics engine (mcell.branchstats), calibrated permutation null
+- [~] 2d. Gain-evidence ladder (mcell.gainladder)
+- [~] 2e. Phylogenomics: BUSCO-marker tree, gene trees, H9 and RER (mcell.rates)
+- [x] 4. Dataset: 187 euk (2.97 M proteins) + 82 prok (0.41 M); BUSCO; guide trees (62 edits); transitions.tsv
+- [x] 3. Design → DESIGN.md v3.1 after 3 review rounds; PREREG frozen (tag prereg-v1)
+- [~] 5. Ancestra runs: euk `fast` and prok `fast` running (no 40-proteome timing test: skipped since dataset was under the 3.0 M cap and the watchdog guards memory)
 - [ ] 6. Analyses
 - [ ] 7. Verification by independent agents
 - [ ] 8. Report
