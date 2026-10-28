@@ -43,3 +43,6 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - D0 (t=0): Eukaryote and prokaryote runs kept separate (see M0).
 - D1 (t=0.3h): Dataset build launched before design review completes; taxon changes from review are cheap before the Ancestra run.
 - D2 (t=0.4h): "Eukaryoma" not found → proceed with UniProt + EukProt + LukProt + NCBI; question logged for the user.
+- D3 (t=1.2h): Eukaryote Ancestra `fast` launched (12 threads, 140 GB watchdog) with the guide tree as built; if the round-3 audit changes the tree, only the merge stage is re-run (S0/S2 cached). Prokaryote run (4 threads) and Pfam (8 threads) in parallel.
+- D4 (t=1.3h): Volvocine primary transition coded at the TGV stem (all sampled colonial species descend from it); single- vs two-origin interpretation is a reported caveat; Tetrabaena-tip and Gonium+Volvocaceae rows kept exploratory.
+- D5 (t=1.3h): Eligibility rule refined before results: low-quality species (BUSCO C<50%) do not count toward the ≥2 per side, rather than disqualifying a transition; M must be a single clade. Result: 7 primary eukaryotic origins, 7 secondary (3 nested complex, 4 prokaryotic). Script: scripts/prereg/apply_eligibility.py.
