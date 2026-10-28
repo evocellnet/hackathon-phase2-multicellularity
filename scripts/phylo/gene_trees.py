@@ -3,7 +3,9 @@
 
 DESIGN.md §4.6 H9 / reviews/round2/statistics.md M6: per marker, IQ-TREE
 ``-te`` (LG+G4, 1 thread, seed 11) on the guide tree pruned to the taxa present.
-Fitted once; the H9 stems, the H9 controls and the RER analysis all reuse these
+``-keep-ident`` is required: without it IQ-TREE removes identical sequences
+and re-attaches them as zero-length cherries at the end, which changes the
+fixed topology (caught by the bipartition check). Fitted once; the H9 stems, the H9 controls and the RER analysis all reuse these
 fits.
 
 Site coverage (M6 inclusion "≥ 50 % site coverage") is applied per taxon: a
@@ -61,10 +63,13 @@ def fit_one(m, mdir, gdir, guide_nwk, min_cov, seed):
         with open(te, "w") as fh:
             fh.write(pruned.write(format=9) + "\n")
         r = subprocess.run(["iqtree3", "-s", fa, "-te", te, "-m", "LG+G4", "-T", "1", "-seed", str(seed),
-                            "--prefix", prefix, "-redo", "-quiet"], capture_output=True, text=True)
+                            "-keep-ident", "--prefix", prefix, "-redo", "-quiet"], capture_output=True, text=True)
         if r.returncode != 0:
             return dict(gene=m, status="iqtree_failed", n_taxa=len(keep), err=r.stderr[-300:].replace("\n", " "))
-        lengths = transfer_branch_lengths(pruned, read_tree(prefix + ".treefile"))
+        try:
+            lengths = transfer_branch_lengths(pruned, read_tree(prefix + ".treefile"))
+        except ValueError as e:
+            return dict(gene=m, status="topology_mismatch", n_taxa=len(keep), err=str(e))
         with open(bl_out + ".tmp", "w") as fh:
             fh.write(write_named(pruned, lengths) + "\n")
         os.replace(bl_out + ".tmp", bl_out)

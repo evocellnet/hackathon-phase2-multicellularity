@@ -112,9 +112,9 @@ def cmd_search(a) -> None:
     p = paths(a)
     if not a.two_pass:
         info = gl.run_diamond(p["queries"], DB_PREFIX + ".dmnd", p["hits"] + ".part", threads=a.threads,
-                              sensitivity=a.sensitivity, log=os.path.join(p["work"], "diamond.log"))
+                              sensitivity=a.sensitivity, nice=a.nice, log=os.path.join(p["work"], "diamond.log"))
         os.replace(p["hits"] + ".part", p["hits"])
-        info.update(sensitivity=a.sensitivity, threads=a.threads, two_pass=False,
+        info.update(sensitivity=a.sensitivity, nice=a.nice, threads=a.threads, two_pass=False,
                     n_queries=sum(1 for _ in gl.read_fasta(p["queries"])))
     else:
         reps = pd.read_parquet(p["reps"])
@@ -127,7 +127,7 @@ def cmd_search(a) -> None:
         with open(f1, "w") as fh:
             fh.writelines(f">{g}\n{seqs[g]}\n" for g in q1["gene"])
         if not os.path.exists(h1):
-            i1 = gl.run_diamond(f1, DB_PREFIX + ".dmnd", h1 + ".part", threads=a.threads, sensitivity=a.sensitivity,
+            i1 = gl.run_diamond(f1, DB_PREFIX + ".dmnd", h1 + ".part", threads=a.threads, sensitivity=a.sensitivity, nice=a.nice,
                                 log=os.path.join(p["work"], "diamond_pass1.log"))
             os.replace(h1 + ".part", h1)
             i1["n_queries"] = len(q1)
@@ -143,7 +143,7 @@ def cmd_search(a) -> None:
             f2 = os.path.join(p["work"], "queries_pass2.faa")
             with open(f2, "w") as fh:
                 fh.writelines(f">{g}\n{seqs[g]}\n" for g in q2["gene"])
-            i2 = gl.run_diamond(f2, DB_PREFIX + ".dmnd", h2 + ".part", threads=a.threads, sensitivity=a.sensitivity,
+            i2 = gl.run_diamond(f2, DB_PREFIX + ".dmnd", h2 + ".part", threads=a.threads, sensitivity=a.sensitivity, nice=a.nice,
                                 log=os.path.join(p["work"], "diamond_pass2.log"))
             os.replace(h2 + ".part", h2)
             i2["n_queries"] = len(q2)
@@ -155,7 +155,7 @@ def cmd_search(a) -> None:
                         shutil.copyfileobj(fh, out)
         os.replace(p["hits"] + ".part", p["hits"])
         info = dict(cmd=passes[0]["cmd"] if passes else "", wall_s=round(sum(x["wall_s"] for x in passes), 1),
-                    passes=passes, sensitivity=a.sensitivity, threads=a.threads, two_pass=True,
+                    passes=passes, sensitivity=a.sensitivity, nice=a.nice, threads=a.threads, two_pass=True,
                     n_queries=len(q1) + len(q2), n_queries_pass1=len(q1), n_queries_pass2=len(q2),
                     searched_genes=sorted(set(q1["gene"]) | set(q2["gene"])))
         with open(os.path.join(p["work"], "searched_genes.txt"), "w") as fh:
@@ -171,7 +171,9 @@ def branch_classes(res, kingdom: str) -> pd.DataFrame:
     root child, clade of unicellular species only, other."""
     T = res.tree
     tr = pd.read_csv(os.path.join(ROOT, "data", "transitions.tsv"), sep="\t")
-    tr = tr[(tr["kingdom"] == kingdom) & tr["mc_species"].notna()]
+    # only transitions whose M is a clade (M_kind node/mrca_node/internal); tip-level M (scattered tips) has no stem
+    tr = tr[(tr["kingdom"] == kingdom) & tr["mc_species"].notna()
+            & tr["M_kind"].isin(["node", "mrca_node", "internal"])]
     traits = pd.read_csv(os.path.join(ROOT, "data", "species_traits.tsv"), sep="\t")
     mc = set(traits.loc[traits["multicellular"] == 1, "code"])
     stems: dict[str, list] = {}
@@ -285,8 +287,23 @@ def write_summary(a, p, br, cls, info, pfam_info) -> None:
          f"* Scope: all {len(br)} internal branches (root stem and leaf branches excluded).",
          f"* DIAMOND: `{info.get('cmd', 'n/a').replace(ROOT + '/', '')}`; {info.get('n_queries', 'NA')} "
          f"queries, wall {info.get('wall_s', 'NA')} s at {info.get('threads', 'NA')} threads. Target DB: all "
-         "eukaryote + prokaryote proteomes (identical for both runs).", "",
-         "## Ladder totals (internal branches)", "",
+         "eukaryote + prokaryote proteomes (identical for both runs)."
+         + (f" Two-pass: {info.get('n_queries_pass1')} rank-0 representatives, then {info.get('n_queries_pass2')} "
+            "further representatives of gains still without an outside hit." if info.get("two_pass") else ""),
+         "* Deviation from DESIGN §3.2: `--very-sensitive` instead of `--ultra-sensitive` (timing pilot: ~3.5x "
+         "cheaper; on the simulations it calls 1-3% more gains novel; see `recheck_ultra.json` for the real-data check)."
+         if info.get("sensitivity") == "very-sensitive" else "", ""]
+    rc = os.path.join(p["res"], "recheck_ultra.json")
+    if os.path.exists(rc):
+        r = json.load(open(rc))
+        L += [f"* Ultra-sensitive recheck: of {r['n_sampled']} random seq-novel gains (seed 11), "
+              f"{r['n_gain_outside_hit_with_ultra']} ({100 * (r['frac_gain_outside_hit_with_ultra'] or 0):.1f}%) gain an "
+              "outside-clade hit with `--ultra-sensitive`.", ""]
+    L += ["* **Split repair failed the DESIGN acceptance test on the simulations** (gain ratio stays 2.1-2.5x; "
+          "`results/gainladder/validation_sim/summary.md`): level 2 is a diagnostic only; report levels 1 and 3. "
+          "On the simulations seq-novel recall of true gains is 0.91-0.97 but precision only 0.42-0.56 "
+          "(deep splits beyond detectable homology), so seq-novel counts are upper bounds.", "",
+          "## Ladder totals (internal branches)", "",
          "| level | n | % of HOG gains |", "|---|---|---|",
          f"| 1. HOG-level gains | {n} | 100% |",
          f"| 2. split-repaired (gain re-merged with a HOG lost on the same branch) | {rep} | {pct(rep)} |",
@@ -326,6 +343,39 @@ def write_summary(a, p, br, cls, info, pfam_info) -> None:
         fh.write("\n".join(L))
 
 
+def cmd_recheck(a) -> None:
+    """Re-search the representatives of a random sample (seed 11) of sequence-novel gains
+    with --ultra-sensitive; reports the fraction that then gain an outside-clade hit
+    (sensitivity loss of the main search). Writes recheck_ultra.json in the results dir."""
+    p = paths(a)
+    cls = pd.read_parquet(p["classified"])
+    reps = pd.read_parquet(p["reps"])
+    gains = pd.read_parquet(p["gains"])
+    nov = sorted(cls.loc[cls["seq_novel"], "family_id"])
+    rng = np.random.default_rng(SEED)
+    pick = set(rng.choice(nov, size=min(a.n, len(nov)), replace=False)) if nov else set()
+    r = reps[reps["family_id"].isin(pick)]
+    seqs = dict(gl.read_fasta(p["queries"]))
+    q = os.path.join(p["work"], "recheck_queries.faa")
+    with open(q, "w") as fh:
+        fh.writelines(f">{g}\n{seqs[g]}\n" for g in r["gene"])
+    h = os.path.join(p["work"], "recheck_ultra.tsv.gz")
+    info = gl.run_diamond(q, DB_PREFIX + ".dmnd", h, threads=a.threads, sensitivity="ultra-sensitive", nice=a.nice,
+                          log=h + ".log")
+    res = parse_run(p)
+    ts = gl.TargetSpace.build(targets(), res, transcriptome_species())
+    pq, _ = gl.reduce_hits(h, r.reset_index(drop=True), gains, res.tree, ts, top_n=1)
+    fam_hit = pq.groupby("family_id")["n_outside"].sum() > 0
+    out = dict(n_novel=len(nov), n_sampled=len(pick), n_queries=len(r), wall_s=info["wall_s"], threads=a.threads,
+               n_gain_outside_hit_with_ultra=int(fam_hit.sum()),
+               frac_gain_outside_hit_with_ultra=round(float(fam_hit.mean()), 4) if len(fam_hit) else None,
+               cmd=info["cmd"].replace(ROOT + "/", ""))
+    os.makedirs(p["res"], exist_ok=True)
+    with open(os.path.join(p["res"], "recheck_ultra.json"), "w") as fh:
+        json.dump(out, fh, indent=1)
+    log(json.dumps(out))
+
+
 def cmd_pilot(a) -> None:
     work = os.path.join(ROOT, "runs", "gainladder", "pilot")
     os.makedirs(work, exist_ok=True)
@@ -343,27 +393,34 @@ def cmd_pilot(a) -> None:
         with open(q, "w") as fh:
             fh.writelines(f">{h}\n{s}\n" for h, s in res)
     out = os.path.join(work, f"{a.sensitivity}_q{a.n}.tsv.gz")
-    info = gl.run_diamond(q, DB_PREFIX + ".dmnd", out, threads=a.threads, sensitivity=a.sensitivity,
+    info = gl.run_diamond(q, DB_PREFIX + ".dmnd", out, threads=a.threads, sensitivity=a.sensitivity, nice=a.nice,
                           log=out + ".log")
     log(json.dumps(info))
 
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    ap.add_argument("cmd", choices=["makedb", "prepare", "search", "classify", "arch", "all", "pilot"])
+    ap.add_argument("cmd", choices=["makedb", "prepare", "search", "classify", "arch", "all", "pilot", "recheck"])
     ap.add_argument("--run", default="prok", help="run name (euk|prok); also the kingdom in transitions.tsv")
     ap.add_argument("--run-dir", default=None)
-    ap.add_argument("--threads", type=int, default=4)
-    ap.add_argument("--sensitivity", default="ultra-sensitive",
+    ap.add_argument("--db", default=None, help="DB prefix (default runs/gainladder/db/all_euk_prok; for testing)")
+    ap.add_argument("--threads", type=int, default=2,
+                    help="DIAMOND threads (PI cap while the eukaryote Ancestra run is active: 2)")
+    ap.add_argument("--nice", type=int, default=19, help="run DIAMOND under nice -n (default 19)")
+    ap.add_argument("--sensitivity", default="very-sensitive",
                     choices=["fast", "sensitive", "more-sensitive", "very-sensitive", "ultra-sensitive"])
     ap.add_argument("--n-rep", type=int, default=3)
     ap.add_argument("--two-pass", action="store_true",
                     help="search rank-0 representatives first, other representatives only for still-novel gains")
     ap.add_argument("--top-n", type=int, default=50)
-    ap.add_argument("--n", type=int, default=500, help="pilot: number of random queries")
+    ap.add_argument("--n", type=int, default=500,
+                    help="pilot: number of random queries; recheck: number of novel gains sampled")
     ap.add_argument("--pfam-dirs", default=None,
                     help="comma-separated Pfam output dirs (default data/annotations/pfam/{euk,prok})")
     a = ap.parse_args(argv)
+    global DB_PREFIX
+    if a.db:
+        DB_PREFIX = a.db
     if a.pfam_dirs is None:
         a.pfam_dirs = "data/annotations/pfam/euk,data/annotations/pfam/prok"
     if a.cmd == "makedb":
@@ -378,6 +435,8 @@ def main(argv=None) -> int:
         cmd_arch(a)
     elif a.cmd == "pilot":
         cmd_pilot(a)
+    elif a.cmd == "recheck":
+        cmd_recheck(a)
     elif a.cmd == "all":
         cmd_prepare(a)
         cmd_search(a)

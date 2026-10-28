@@ -1,0 +1,30 @@
+{
+ "finished": "2026-10-28T15:19:33",
+ "pool": [
+  "Diaphoretickes",
+  "Archaeplastida",
+  "Chlorophyta",
+  "UTC_clade",
+  "Alveolata",
+  "Stramenopiles",
+  "Amorphea",
+  "Amoebozoa",
+  "Evosea",
+  "Holomycota"
+ ],
+ "n_pool": 10,
+ "n_pool_without_mc_tips": 1,
+ "U_size": 30,
+ "k": 10,
+ "n_genes_total": 250,
+ "n_genes_genome_only": 250,
+ "seed": 11,
+ "n_draws": 10000,
+ "n_boot": 2000,
+ "primary": {
+  "T_obs": 0.6558441558441558,
+  "p": 0.2693730626937306,
+  "p_mcse": 0.004436341012464327,
+  "min_attainable_p": 9.999000099990002e-05
+ }
+}

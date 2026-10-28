@@ -1,0 +1,15 @@
+set	transition_id	P	M	S	n_genes	r	ci_lo	ci_hi	rate_ratio	frac_genes_pos	u_percentile	diff_vs_controls	ctrl_pi_low	ctrl_pi_high	r_genome_only	ci_lo_genome_only	ci_hi_genome_only	n_genes_genome_only
+primary	T_dictyostelia	Eumycetozoa	Dictyostelia	Myxogastria_Ceratiomyxa	225	0.3096	0.24655	0.37983	1.3629	0.8	0.86364	0.34815	-0.16635	0.26608				0
+primary	T_fungi_hyphae	Eumycota	Amastigomycota	chytridiomyceta	248	0.12706	0.093464	0.16425	1.1355	0.74597	0.86364	0.16561	-0.16635	0.26608	0.12706	0.093464	0.16425	248
+primary	T_metazoa	Choanozoa	Metazoa	Choanoflagellata	250	-0.12254	-0.1787	-0.066121	0.88467	0.352	0.31818	-0.083987	-0.16635	0.26608	-0.13908	-0.18269	-0.091256	242
+primary	T_px_filaments	Ochrophyta	PX_clade	Aureano;Heteaka;Nannsal;Potemal;Bacillariophyta	221	-0.20949	-0.25738	-0.14607	0.811	0.24434	0.13636	-0.17094	-0.16635	0.26608	-0.25511	-0.29074	-0.21109	213
+primary	T_rhodophyta	Rhodophytina	Eurhodophytina	Proteorhodophytina	145	0.1481	0.085125	0.1882	1.1596	0.71724	0.86364	0.18665	-0.16635	0.26608	0.1481	0.085125	0.1882	145
+primary	T_streptophyta	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Mesostigmatophyceae_Chlorokybophyceae	239	-0.012396	-0.041038	0.034437	0.98768	0.48117	0.68182	0.026154	-0.16635	0.26608	0.0010785	-0.037868	0.03763	239
+primary	T_volvocine_tgv	Chlamydomonas_TGV	Gonium_Volvocaceae	Chlamydomonas	177	0.16297	0.083937	0.23302	1.177	0.62147	0.86364	0.20152	-0.16635	0.26608	0.16297	0.083937	0.23302	177
+secondary_nested	T_fungi_pezizomycotina	saccharomyceta	Pezizomycotina	Saccharomycotina	246	-0.28969	-0.31931	-0.22145	0.74849	0.22764	0.045455	-0.25114						
+secondary_nested	T_fungi_agaricomycetes	Agaricomycotina	Agaricomycetes_Dacrymycetes	Tremellales	228	-0.21255	-0.24698	-0.11813	0.80852	0.31579	0.13636	-0.174						
+secondary_nested	T_embryophyta	Anydrophyta	Embryophyta	Zygnematophyceae	238	-0.047003	-0.091487	0.004198	0.95408	0.44538	0.59091	-0.0084527						
+prok_descriptive	T_myxobacteria	Pseudomonadati	Myxococcota	Bdelbac;Pseudomonadota;Thermodesulfobacteriota	121	-0.014954	-0.069411	0.051122	0.98516	0.46281								
+prok_descriptive	T_streptomyces	Actinomycetes	Streptomycetaceae	Bifilon;Cutiacn;Franaln;Micrech;Micrlut;Saccery;Therfus;Mycobacteriales	118	-0.32643	-0.40781	-0.27598	0.72149	0.11864								
+prok_descriptive	T_magnetotactic_mmp	Thermodesulfobacteriota	Desulfobacterales	Geobsul;Nitrvul;Desulfobulbales	110	0.079584	0.033052	0.10717	1.0828	0.65455								
+prok_descriptive	T_methanosarcina	Methanosarcinaceae	Methanosarcina	Methbur;Methmah;Methtin	188	0.38296	0.32168	0.43354	1.4666	0.89894								

@@ -76,7 +76,7 @@ def main():
         fh.write(guide.write(format=9) + "\n")
     prefix = os.path.join(cdir, "concat")
     cmd = ["iqtree3", "-s", sm, "-te", te, "-m", "LG+G4", "-T", str(a.threads), "-seed", str(a.seed),
-           "--prefix", prefix, "-redo", "-quiet"]
+           "-keep-ident", "--prefix", prefix, "-redo", "-quiet"]
     print(" ".join(cmd), flush=True)
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:

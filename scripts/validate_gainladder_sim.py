@@ -134,7 +134,7 @@ def min_outside_distance(sim, truth, m: pd.DataFrame) -> pd.Series:
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--threads", type=int, default=4)
+    ap.add_argument("--threads", type=int, default=2)
     ap.add_argument("--presets", default="fast,accurate")
     ap.add_argument("--sensitivity", default="ultra-sensitive")
     ap.add_argument("--dbsize", default="real", choices=["real", "none"],
@@ -178,7 +178,7 @@ def main(argv=None) -> int:
             hits = os.path.join(w, f"hits_{a.sensitivity}_dbsize-{a.dbsize}.tsv.gz")
             if not os.path.exists(hits):
                 info = gl.run_diamond(q, db["dmnd"], hits + ".part", threads=a.threads, sensitivity=a.sensitivity,
-                                      extra=["--dbsize", str(REAL_DB_LETTERS)] if a.dbsize == "real" else [],
+                                      nice=19, extra=["--dbsize", str(REAL_DB_LETTERS)] if a.dbsize == "real" else [],
                                       log=hits + ".log")
                 os.replace(hits + ".part", hits)
                 log(f"{name}/{preset}: DIAMOND {info['wall_s']} s")

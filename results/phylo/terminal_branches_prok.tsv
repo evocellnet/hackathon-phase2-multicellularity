@@ -1,0 +1,83 @@
+	terminal_bl	root_to_tip	robust_z_log_terminal	occupancy	species	data_type_final	low_quality	busco_C	busco_F
+Sulfaci	1.0877	1.8239	1.5736	0.6586	Sulfolobus acidocaldarius	genome	0	94.8	3.1
+Bdelbac	0.87537	1.7503	1.3641	0.4088	Bdellovibrio bacteriovorus	genome	0	97.6	0.8
+Acidfer	0.79988	1.7521	1.2772	0.3806	Acidimicrobium ferrooxidans	genome	0	93.5	2.4
+Methhun	0.79633	2.0365	1.2729	0.6728	Methanospirillum hungatei JF-1	genome	0	97.4	0.5
+Bifilon	0.73482	2.0767	1.1954	0.3985	Bifidobacterium longum	genome	0	91.9	1.6
+Rubrxyl	0.66814	1.6204	1.1037	0.3919	Rubrobacter xylanophilus	genome	0	96.8	1.6
+Nitrvul	0.66309	1.6692	1.0963	0.4004	Nitratidesulfovibrio vulgaris str. Hildenborough	genome	0	94.4	2.4
+Nannexe	0.6219	1.6916	1.0345	0.386	Nannocystis exedens	genome	0	96.8	1.6
+Methjan	0.58668	1.4536	0.9783	0.6859	Methanocaldococcus jannaschii	genome	0	97.9	1.0
+Bacisub	0.58325	1.363	0.97265	0.4186	Bacillus subtilis	genome	0	100.0	0.0
+Vulginc	0.57435	1.9366	0.95781	0.4048	Vulgatibacter incomptus	genome	0	98.4	0.8
+Methsoe	0.5504	1.7905	0.91675	0.6875	Methanothrix soehngenii	genome	0	95.9	0.5
+Anaedeh	0.54603	1.9083	0.90907	0.4062	Anaeromyxobacter dehalogenans	genome	0	96.8	0.8
+Halioch	0.51012	1.5798	0.84347	0.4086	Haliangium ochraceum	genome	0	97.6	1.6
+Cutiacn	0.47935	1.8212	0.78349	0.4153	Cutibacterium acnes subsp. acnes	genome	0	99.2	0.8
+Geobsul	0.43888	1.445	0.69843	0.4209	Geobacter sulfurreducens	genome	0	98.4	0.8
+Micrlut	0.42964	1.7715	0.67792	0.4184	Micrococcus luteus	genome	0	100.0	0.0
+Gloelit	0.42962	1.7676	0.67787	0.383	Gloeomargarita lithophora Alchichica-D10	genome	0	93.5	5.6
+Eschcol	0.38811	1.6757	0.57991	0.429	Escherichia coli	genome	0	100.0	0.0
+Coryglu	0.38606	1.9368	0.5748	0.4065	Corynebacterium glutamicum	genome	0	98.4	0.8
+Franaln	0.37604	1.7179	0.54943	0.3965	Frankia alni	genome	0	95.2	4.0
+Pseubic	0.33903	1.677	0.44953	0.3918	Pseudanabaena biceps PCC 7429	genome	0	94.4	4.8
+Magnmul	0.33741	1.7257	0.44492	0.3248	Candidatus Magnetoglobus multicellularis str. Araruama	genome	0	83.9	5.6
+Micrech	0.33662	1.6785	0.44265	0.4127	Micromonospora echinospora	genome	0	99.2	0.0
+Gloevio	0.33467	1.4864	0.43706	0.395	Gloeobacter violaceus	genome	0	96.0	3.2
+Desupsy	0.295	1.6494	0.31541	0.3867	Desulfotalea psychrophila	genome	0	89.5	3.2
+Therfus	0.29208	1.634	0.30583	0.4151	Thermobifida fusca TM51	genome	0	98.4	1.6
+Halosal	0.2899	2.0939	0.29858	0.6873	Halobacterium salinarum	genome	0	95.9	0.5
+Methmah	0.2893	1.7821	0.29659	0.7034	Methanohalophilus mahii	genome	0	97.9	0.0
+Saccery	0.2891	1.631	0.29591	0.4117	Saccharopolyspora erythraea	genome	0	99.2	0.8
+MagnspHK1	0.28262	1.6051	0.27407	0.3804	Candidatus Magnetomorum sp. HK-1	genome	0	91.9	3.2
+Desumag	0.27688	1.6652	0.25428	0.3758	Desulfamplus magnetovallimortis	genome	0	91.1	2.4
+Desuaut	0.27571	1.664	0.25019	0.3705	Desulforapulum autotrophicum HRM2	genome	0	93.5	2.4
+Lyngaes	0.273	1.7929	0.24067	0.3779	Lyngbya aestuarii BL J	genome	0	92.7	6.5
+Planaga	0.2703	1.7902	0.23109	0.3667	Planktothrix agardhii	genome	0	89.5	4.8
+Therves	0.24004	1.6504	0.11663	0.3865	Thermosynechococcus vestitus	genome	0	94.4	2.4
+Syneelo	0.23505	1.6245	0.09637	0.4026	Synechococcus elongatus	genome	0	96.8	2.4
+Synesp1111708	0.22764	1.6171	0.065459	0.4039	Synechocystis sp.	genome	0	97.6	2.4
+Halomar	0.21729	2.0213	0.020591	0.6764	Haloarcula marismortui	genome	0	95.4	1.5
+Halovol	0.21525	2.0193	0.011527	0.6985	Haloferax volcanii	genome	0	99.0	0.0
+Methtin	0.21285	1.7056	0.00069359	0.7028	Methanolobus tindarius DSM 2278	genome	0	99.0	0.0
+Methbur	0.21254	1.7053	-0.00069359	0.7024	Methanococcoides burtonii	genome	0	98.5	0.0
+Stancya	0.21064	1.5486	-0.0093563	0.4001	Stanieria cyanosphaera	genome	0	96.8	3.2
+Leptbor	0.20979	1.5478	-0.013246	0.393	Leptolyngbya boryana NIES-2135	genome	0	96.0	3.2
+Desupro	0.2006	1.6544	-0.056474	0.3919	Desulfobulbus propionicus	genome	0	93.5	0.8
+Acarmar	0.18957	1.5999	-0.11099	0.3811	Acaryochloris marina	genome	0	98.4	1.6
+Micraer	0.16119	1.5965	-0.26733	0.4032	Microcystis aeruginosa	genome	0	97.6	2.4
+Cylirac	0.15779	1.633	-0.28789	0.4017	Cylindrospermopsis raciborskii C07	genome	0	96.8	2.4
+Calopar	0.15381	1.629	-0.31257	0.3922	Calothrix parasitica NIES-267	genome	0	95.2	4.8
+Crocsub	0.15324	1.6099	-0.31611	0.389	Crocosphaera subtropica	genome	0	99.2	0.8
+ElecspV4	0.15054	1.6931	-0.33326	0.3647	Candidatus Electronema sp. V4	genome	0	88.7	3.2
+Soracel	0.13813	1.6341	-0.41622	0.3917	Sorangium cellulosum	genome	0	94.4	4.0
+Choncro	0.13511	1.6311	-0.43754	0.3886	Chondromyces crocatus	genome	0	93.5	4.8
+Nocafar	0.13222	1.6829	-0.4584	0.4057	Nocardia farcinica	genome	0	100.0	0.0
+Chrothe	0.12629	1.5369	-0.50266	0.4035	Chroococcidiopsis thermalis	genome	0	99.2	0.8
+Elecsca	0.11981	1.6624	-0.55342	0.4083	Candidatus Electrothrix scaldis	genome	0	95.2	2.4
+Kitaset	0.11844	1.6531	-0.5645	0.4103	Kitasatospora setae	genome	0	100.0	0.0
+Gloecit	0.11485	1.5715	-0.59421	0.3978	Gloeothece citriformis	genome	0	97.6	1.6
+Mycotub	0.10604	1.7689	-0.67112	0.4029	Mycobacterium tuberculosis	genome	0	98.4	0.8
+Scythof	0.10286	1.578	-0.70054	0.3856	Scytonema hofmannii PCC 7110	genome	0	98.4	1.6
+Cystfus	0.099147	1.4956	-0.73594	0.4056	Cystobacter fuscus	genome	0	98.4	1.6
+Noduspu	0.098193	1.5734	-0.74526	0.3863	Nodularia spumigena UHCC 0060	genome	0	96.8	3.2
+Anabcyl	0.095649	1.6203	-0.77058	0.3986	Anabaena cylindrica	genome	0	97.6	2.4
+Methbar	0.09334	1.8721	-0.79413	0.6884	Methanosarcina barkeri MS	genome	0	96.9	0.5
+Alloaur	0.081746	1.4782	-0.92202	0.4003	Allostigmatella aurantiaca	genome	0	97.6	2.4
+Nostpun	0.078167	1.603	-0.96518	0.3903	Nostoc punctiforme	genome	0	97.6	2.4
+Fiscthe	0.075818	1.551	-0.99461	0.3989	Fischerella thermalis JSC-11	genome	0	97.6	2.4
+Chlofri	0.073078	1.5483	-1.0301	0.3988	Chlorogloeopsis fritschii PCC 6912	genome	0	98.4	1.6
+Coracor	0.071604	1.4828	-1.0497	0.4087	Corallococcus coralloides	genome	0	99.2	0.8
+Mycosme	0.069774	1.7327	-1.0747	0.403	Mycolicibacterium smegmatis	genome	0	98.4	1.6
+Myxoxan	0.065952	1.4771	-1.129	0.4107	Myxococcus xanthus	genome	0	98.4	1.6
+Strecoe	0.054847	1.6708	-1.3068	0.4135	Streptomyces coelicolor	genome	0	100.0	0.0
+Streven	0.048149	1.6641	-1.4324	0.3989	Streptomyces venezuelae	genome	0	98.4	0.8
+Jeonsac	0.047115	1.713	-1.4533	0.4205	Jeongeupia sacculi	genome	0	100.0	0.0
+Methmaz	0.046915	1.8257	-1.4574	0.6967	Methanosarcina mazei	genome	0	97.4	0.5
+Nostsp103690	0.044246	1.5691	-1.5139	0.3943	Nostoc sp.	genome	0	96.8	3.2
+Methace	0.041562	1.8203	-1.5742	0.6904	Methanosarcina acetivorans	genome	0	98.5	0.0
+Tricvar	0.034923	1.5595	-1.742	0.3944	Trichormus variabilis	genome	0	96.8	3.2
+Phornig	0.018513	1.5384	-2.354	0.4041	Phormidium nigroviride PCC 7112	genome	0	97.6	1.6
+Micrvag	0.017752	1.5376	-2.3945	0.3994	Microcoleus vaginatus GB1-A3	genome	0	98.4	1.6
+Jeonnae	0.016161	1.682	-2.485	0.4206	Jeongeupia naejangsanensis	genome	0	100.0	0.0
+Jeonchi	0.015187	1.681	-2.545	0.4221	Jeongeupia chitinilytica	genome	0	99.2	0.0

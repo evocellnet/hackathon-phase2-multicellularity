@@ -1,0 +1,5 @@
+analysis	label	scheme	n	k	T_obs	p	p_mcse	min_attainable_p	pooled_diff	pooled_ci_low	pooled_ci_high	pooled_tau2
+primary	primary	permute	7	10	0.65584	0.26937	0.0044363	9.999e-05	0.096166	-0.03783	0.23016	0.0025378
+S1 literal v3 'spec' scheme	sensitivity	spec	7	10	0.65584	9.999e-05	9.999e-05	9.999e-05	0.096166	-0.03783	0.23016	0.0025378
+S2 genome-only taxa	sensitivity	permute	6	7	0.58333	0.62964	0.004829	9.999e-05	0.046019	-0.15945	0.25149	0
+S3 control r on unicellular tips only	sensitivity	permute	7	9	0.70714	0.14579	0.0035289	9.999e-05	0.14825	0.0061206	0.29038	0

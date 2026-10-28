@@ -264,8 +264,10 @@ def write_queries(reps: pd.DataFrame, fasta_paths: Iterable[str], out_faa: str) 
 def run_diamond(query: str, db: str, out: str, threads: int = 4, sensitivity: str = "ultra-sensitive",
                 evalue: float = 1e-5, query_cover: float = 30, max_hsps: int = 1,
                 block_size: float | None = 4, index_chunks: int | None = 1, compress: bool = True,
-                diamond: str = "diamond", extra: Iterable[str] = (), log: str | None = None) -> dict:
-    """``diamond blastp -k 0`` with the ladder's settings; returns timing info."""
+                diamond: str = "diamond", extra: Iterable[str] = (), log: str | None = None,
+                nice: int | None = None) -> dict:
+    """``diamond blastp -k 0`` with the ladder's settings (optionally under ``nice -n``);
+    returns timing info."""
     cmd = [diamond, "blastp", "-q", query, "-d", db, "-o", out, f"--{sensitivity}", "-k", "0",
            "-e", str(evalue), "--query-cover", str(query_cover), "--threads", str(threads),
            "-f", "6", *DIAMOND_COLUMNS]
@@ -278,6 +280,8 @@ def run_diamond(query: str, db: str, out: str, threads: int = 4, sensitivity: st
     if compress:
         cmd += ["--compress", "1"]
     cmd += list(extra)
+    if nice is not None:
+        cmd = ["nice", "-n", str(nice)] + cmd
     t0 = time.time()
     with open(log or os.devnull, "w") as lh:
         subprocess.run(cmd, check=True, stdout=lh, stderr=subprocess.STDOUT)

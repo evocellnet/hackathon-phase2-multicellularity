@@ -50,15 +50,21 @@ def section(set_name):
               f". MAFFT alignment length median {mk['aln_len'].median():.0f} (range {mk['aln_len'].min()}–"
               f"{mk['aln_len'].max()}); after trimAl -automated1 median {mk['trim_len'].median():.0f} "
               f"(range {mk['trim_len'].min()}–{mk['trim_len'].max()}), total {mk['trim_len'].sum():,} columns; "
-              f"species per marker median {mk['n_species'].median():.0f}. Wall time {bm['seconds'] / 60:.0f} min.", ""]
+              f"species per marker median {mk['n_species'].median():.0f}. Wall time {bm.get('wall_total_seconds', bm['seconds']) / 60:.0f} min.", ""]
     if set_name == "prok" and os.path.exists(os.path.join(base, "universal_pairs.tsv")):
         up = pd.read_csv(os.path.join(base, "universal_pairs.tsv"), sep="\t")
         lines += [f"Universal (bacteria+archaea) markers: {len(up)} reciprocal majority best-hit marker pairs found by "
                   f"DIAMOND, {int(up['kept'].sum())} pass the ≥ 50 % per-domain presence filter and are merged into one "
                   f"alignment each (`runs/phylo/prok/universal_pairs.tsv`); they alone inform the Archaea–Bacteria path.", ""]
     pres = pd.read_csv(os.path.join(base, "markers", "species_presence.tsv"), sep="\t").set_index("species")
+    if set_name == "prok":  # a species can only carry universal + its own domain's markers
+        k = bm["kinds"]
+        avail = {"bacteria_odb10": k.get("universal", 0) + k.get("bacteria", 0),
+                 "archaea_odb10": k.get("universal", 0) + k.get("archaea", 0)}
+        pres["frac_markers"] = pres["n_markers"] / pres["busco_lineage"].map(avail)
     low = pres[pres["frac_markers"] < 0.5]
-    lines += [f"Species with single-copy sequences in < 50 % of the kept markers: {len(low)}" +
+    lines += [f"Species with single-copy sequences in < 50 % of the kept markers"
+              f"{' available to their domain' if set_name == 'prok' else ''}: {len(low)}" +
               (": " + ", ".join(f"{s} ({r.frac_markers:.0%})" for s, r in low.sort_values('frac_markers').iterrows())
                if len(low) else "") + ".", ""]
     if st is None:
@@ -90,7 +96,10 @@ def section(set_name):
                      f"{r['occupancy']:.0%} | {r['busco_C']}/{r['busco_F']} |")
     ext = tab[tab["robust_z_log_terminal"] > 3]
     lines += ["", f"Tips with extreme terminal branches (robust z of log length > 3): "
-              + (", ".join(f"{s} ({r.terminal_bl:.2f})" for s, r in ext.iterrows()) if len(ext) else "none") + ".", ""]
+              + (", ".join(f"{s} ({r.terminal_bl:.2f})" for s, r in ext.iterrows()) if len(ext) else "none") + ".",
+              "Unusually short terminal branches (robust z < −3; expected for close congeners, a contamination "
+              "sign otherwise): " + (", ".join(f"{s} ({r.terminal_bl:.3f})" for s, r in
+                                               tab[tab['robust_z_log_terminal'] < -3].iterrows()) or "none") + ".", ""]
     il = pd.Series({n.name: n.dist for n in t.traverse() if not n.is_leaf() and n.up is not None})
     lines += [f"Internal branches: median {il.median():.4f}; {int((il < 1e-5).sum())} of {len(il)} are < 1e-5 "
               f"(effectively zero; usually short/unsupported guide-tree splits).", ""]

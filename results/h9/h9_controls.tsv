@@ -1,0 +1,11 @@
+control	child1	child2	n_tips1	n_tips2	n_mc_tips1	n_mc_tips2	n_genes	r	ci_lo	ci_hi	orientation_sign	r_oriented	r_unicellular_tips_only	n_genes_unicellular_tips_only	r_genome_only
+Diaphoretickes	Archaeplastida	TSAR	46	37	21	9	247	-0.12146	-0.14636	-0.083692	1	-0.12146	-0.11252	247	-0.14123
+Archaeplastida	Rhodophyta_Rhodelphidia	Viridiplantae	10	35	5	16	202	0.14052	0.10188	0.17436	-1	-0.14052	0.124	200	
+Chlorophyta	Mamiellales	UTC_clade	2	18	0	7	183	-0.074343	-0.11715	-0.028576	1	-0.074343	-0.030656	183	-0.074343
+UTC_clade	CS_clade	Ulvophyceae	12	4	6	1	208	-0.3604	-0.43905	-0.30322	-1	0.3604	-0.2562	205	-0.3604
+Alveolata	Ciliophora	Myzozoa	4	4	0	0	85	0.050494	-0.0091292	0.1859	-1	-0.050494	0.050494	85	0.10125
+Stramenopiles	Bigyra	Gyrista	4	18	0	8	159	0.25758	0.22096	0.30319	-1	-0.25758	0.24317	159	0.27472
+Amorphea	Amoebozoa	Obazoa	18	69	7	37	246	-0.13429	-0.18007	-0.10183	1	-0.13429	-0.14719	245	-0.25877
+Amoebozoa	Evosea	Tubulinea	12	4	6	1	242	0.025664	-0.014492	0.052708	-1	-0.025664	-0.035772	240	
+Evosea	Eumycetozoa	Variosea	8	3	6	0	227	0.065135	0.035936	0.11246	1	0.065135		0	
+Holomycota	Fungi	Rotosphaerida	33	2	21	1	167	0.0067008	-0.067136	0.073889	-1	-0.0067008	0.39965	120	-0.2203
