@@ -81,7 +81,7 @@ adds cost without informing the transitions (all prokaryotic transitions are com
   - [~] Co-option index: Metazoa and Streptophyta less co-opted than controls (u=0.024 each); volvocine/red/PX ≈100% co-opted
   - [-] Protein traits (length/disorder on shared single-copy HOGs): within-transition shifts common but not distinct from controls
   - [~] Reversals: odds ratios mixed (0.5–2.0), see results/exploratory/euk/reversals
-  - [ ] structure novelty of sequence-novel gains (Foldseek; Swiss-Prot fallback ready; per-species AFDB download ~10% at t=8h)
+  - [-] Structure (Q6): 85% of stem vs 79% of control seq-novel gains lack a usable AFDB model (OR 1.51, p=0.025); of modelled ones ~24% vs 21% structurally old (Swiss-Prot ref; OR 0.96, p=0.92) — no stem-specific structural novelty signal; underpowered
 - [ ] 9. Verification by independent agents (re-derive headline numbers; citation audit; H9 unaffected by stem-path bug)
 - [~] 10. Report: pre-results sections + Figures 1, 2, S1 drafted (report/REPORT_draft_methods.md)
 
