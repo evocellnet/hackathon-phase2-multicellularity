@@ -61,7 +61,7 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - [x] 4. Dataset: 187 euk (2.97 M proteins) + 82 prok (0.41 M); BUSCO; guide trees (62 edits); transitions.tsv
 - [x] 5a. Method validation: HOG parser exact on true HOGs; Ancestra gains 2.1–2.6× inflated (sims); statistics engine calibrated (permute; parametric bootstrap for H1/H2); gain ladder (split repair rejected; novel precision 0.42–0.56); tree calibration (stem gain bias 1.7–2.2×)
 - [x] 5b. Ancestra prokaryote run (fast; 1.4 h) — dry run; gain ladder; descriptive stats; P1/P2 controls recovered
-- [~] 5c. Ancestra eukaryote run (fast): families done (5.3 h, giant component D8), scoring ~60%, merge pending
+- [x] 5c. Ancestra eukaryote run (fast): done 2026-10-28 22:36 (t=10.3 h); families 5.3 h, scores 3.7 h (peak 84 GB), merge 10 min; verify PASS; 2.22 M genes in HOGs, 750k singletons
 - [~] 5d. Annotation: Pfam pre-registered subset done (269/269); full Pfam 119/187 euk; disorder 112/187 euk
 - [ ] 6. PRIMARY tests (H1/H2, H4, H5, H12 on euk; Holm with H9) + positive controls
   - [x] H9 (genome-wide rate shift): not detected — p = 0.27, pooled ratio 1.10 [0.96, 1.26] (no ≥1.5-fold shift); heterogeneous: faster in Dictyostelia/volvocines/red algae/fungi, slower in Metazoa/PX; seed-sensitive p 0.19–0.61
