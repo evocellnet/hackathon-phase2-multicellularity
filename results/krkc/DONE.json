@@ -1,0 +1,9 @@
+{
+ "step": "krkc_exploratory",
+ "finished": "2026-10-28T15:39:42",
+ "scripts": [
+  "scripts/phylo/krkc_run.py"
+ ],
+ "module": "mcell/krkc.py",
+ "tests": "tests/test_krkc.py (5 passed)"
+}

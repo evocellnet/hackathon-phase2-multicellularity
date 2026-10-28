@@ -1,0 +1,38 @@
+{
+ "finished": "2026-10-28T15:37:59",
+ "n_genes": 250,
+ "tests": {
+  "charge": {
+   "T_obs": 0.42207792207792216,
+   "p": 0.5988401159884011,
+   "p_mcse": 0.004901332792939074,
+   "n": 7.0,
+   "k": 10.0,
+   "k_min": 10.0,
+   "alternative": "two-sided",
+   "n_draws": 10000.0,
+   "seed": 11.0,
+   "scheme": "permute",
+   "min_attainable_p": 9.999000099990002e-05,
+   "p_floor_mc": 9.999000099990002e-05,
+   "p_floor_exact": 1.0202215980483814e-08,
+   "acceptance_rate": 1.0
+  },
+  "polarity": {
+   "T_obs": 0.3051948051948052,
+   "p": 0.1643835616438356,
+   "p_mcse": 0.0037062326735530634,
+   "n": 7.0,
+   "k": 10.0,
+   "k_min": 10.0,
+   "alternative": "two-sided",
+   "n_draws": 10000.0,
+   "seed": 11.0,
+   "scheme": "permute",
+   "min_attainable_p": 9.999000099990002e-05,
+   "p_floor_mc": 9.999000099990002e-05,
+   "p_floor_exact": 1.0202215980483814e-08,
+   "acceptance_rate": 1.0
+  }
+ }
+}

@@ -1,0 +1,251 @@
+	description	tau	n_edges	n_fg	p_perm	n_perm_valid	q_bh	n_transitions	n_trans_up	n_trans_down	consistent_ge4
+325552at2759	WD40 repeat	0.20246	168	88	0.000999	1000	0.24975	5	0	0	False
+937275at2759	tRNA (guanine-N(7)-)-methyltransferase non-catalytic subunit	0.18714	181	94	0.001998	1000	0.24975	6	2	0	False
+330169at2759	Mannosyltransferase	0.30622	212	101	0.004995	1000	0.32111	6	1	0	False
+100698at2759	Helicase, C-terminal	-0.31979	235	113	0.005994	1000	0.32111	7	0	1	False
+160593at2759	Translational activator Gcn1	-0.30884	184	101	0.007992	1000	0.32111	6	0	0	False
+1275837at2759	26S Proteasome non-ATPase regulatory subunit 7/8	-0.17213	246	106	0.008991	1000	0.32111	7	0	0	False
+1428265at2759	Ubiquinol-cytochrome c chaperone, CBP3	0.11107	215	111	0.008991	1000	0.32111	7	0	0	False
+1428854at2759	RNA recognition motif domain	0.19808	248	109	0.013986	1000	0.32468	7	0	0	False
+736068at2759	DNA polymerase alpha/delta/epsilon, subunit B	0.15686	243	112	0.014985	1000	0.32468	7	0	0	False
+1018517at2759	Tetrapyrrole methylase	0.12209	250	114	0.015984	1000	0.32468	7	0	0	False
+1266231at2759	Ribosomal biogenesis, methyltransferase, EMG1/NEP1	-0.19137	263	115	0.016983	1000	0.32468	7	0	0	False
+271586at2759	Tetratricopeptide repeat	0.19764	183	95	0.016983	1000	0.32468	6	1	0	False
+1115196at2759	Ferrodoxin-fold anticodon-binding domain	0.21101	236	115	0.017982	1000	0.32468	7	1	0	False
+1504863at2759	Trafficking protein particle complex subunit	-0.15583	236	112	0.01998	1000	0.32468	7	0	1	False
+1488235at2759	Adenylate kinase isoenzyme 6	0.16651	252	109	0.020979	1000	0.32468	7	1	0	False
+901894at2759	Mannosyltransferase	0.17036	194	97	0.021978	1000	0.32468	5	0	0	False
+179362at2759	Rad50/SbcC-type AAA domain	0.12524	222	90	0.023976	1000	0.32468	7	0	0	False
+491869at2759	Protein arginine methyltransferase NDUFAF7	0.16787	232	108	0.024975	1000	0.32468	7	1	0	False
+1197019at2759	HORMA domain	0.20852	237	112	0.025974	1000	0.32468	7	4	1	False
+1041560at2759	Mitochondrial import inner membrane translocase subunit TIM44	-0.29324	147	83	0.025974	1000	0.32468	5	0	1	False
+858842at2759	DnaJ domain	0.26025	236	110	0.02997	1000	0.34965	7	1	0	False
+761109at2759	Tetratricopeptide repeat	0.18927	221	108	0.031968	1000	0.34965	7	0	0	False
+1324510at2759	NADPH	0.1279	231	100	0.033966	1000	0.34965	7	0	0	False
+917326at2759	Sec1-like protein	-0.17956	262	120	0.033966	1000	0.34965	7	1	0	False
+1129824at2759	Co-chaperone Hsc20	0.22378	220	108	0.034965	1000	0.34965	7	2	0	False
+1558822at2759	LSM domain, eukaryotic/archaea-type	-0.11688	214	101	0.037962	1000	0.36075	7	0	2	False
+1108845at2759	COP9 signalosome complex subunit 2	-0.2096	235	114	0.038961	1000	0.36075	7	1	4	False
+946128at2759	TFIIH p62 subunit, N-terminal	-0.17	191	86	0.048951	1000	0.43706	6	0	2	False
+142542at2759	Transcription initiation factor TFIID subunit 2	-0.20521	181	89	0.050949	1000	0.43922	7	1	0	False
+866359at2759	Eukaryotic translation initiation factor 3 subunit I	-0.24698	188	94	0.054945	1000	0.45788	6	0	0	False
+621827at2759	WD40-repeat-containing domain	0.19733	231	111	0.064935	1000	0.49256	7	3	0	False
+1111142at2759	Transcription factor IIIC subunit 5, HTH domain	0.20207	171	83	0.065934	1000	0.49256	6	2	0	False
+1454155at2759	Cdk-activating kinase assembly factor MAT1, centre	-0.17319	209	103	0.067932	1000	0.49256	7	0	0	False
+974865at2759	Brix domain	0.11148	220	98	0.067932	1000	0.49256	7	0	0	False
+1025450at2759	WD40 repeat	0.15421	210	90	0.06993	1000	0.49256	7	3	0	False
+1259741at2759	GPI-anchor transamidase	-0.23689	243	107	0.070929	1000	0.49256	6	0	2	False
+919955at2759	26S Proteasome non-ATPase regulatory subunit 13	-0.17372	254	114	0.073926	1000	0.49293	7	0	1	False
+774318at2759	Dol-P-Man	0.19763	216	103	0.074925	1000	0.49293	6	1	0	False
+543764at2759	tRNA (adenine(58)-N(1))-methyltransferase non-catalytic subunit TRM6	0.12054	239	108	0.078921	1000	0.4995	7	0	0	False
+1010730at2759	Winged helix-like DNA-binding domain superfamily	-0.14808	258	117	0.080919	1000	0.4995	7	0	0	False
+1398309at2759	CXXC motif containing zinc binding protein, eukaryotic	-0.11333	220	103	0.081918	1000	0.4995	7	0	0	False
+176625at2759	Nrap protein, domain 3	0.16657	229	109	0.086913	1000	0.51112	7	0	0	False
+956854at2759	Tetratricopeptide repeat	0.16015	222	101	0.087912	1000	0.51112	6	0	0	False
+751335at2759	ATPase, V1 complex, subunit H	-0.15727	243	102	0.090909	1000	0.51653	7	0	0	False
+674169at2759	P-loop containing nucleoside triphosphate hydrolase	0.17371	185	104	0.093906	1000	0.5217	7	0	0	False
+817008at2759	Aminoacyl-tRNA synthetase, class Ic	0.11574	258	114	0.1009	1000	0.54836	7	0	1	False
+1264469at2759	Ubiquinone biosynthesis protein Coq4	0.089737	229	113	0.10789	1000	0.57389	7	1	0	False
+1322642at2759	Endonuclease III homolog	0.12844	238	105	0.11389	1000	0.59316	7	1	0	False
+261328at2759	WD40 repeat	-0.16687	161	89	0.12488	1000	0.63712	6	1	0	False
+369837at2759	Translation initiation factor eIF-2B subunit epsilon	0.10732	240	108	0.12787	1000	0.63936	7	1	0	False
+1217666at2759	Ribosome maturation protein SBDS, N-terminal	-0.1036	258	115	0.14386	1000	0.68913	7	0	1	False
+1405146at2759	26S Proteasome non-ATPase regulatory subunit 9	0.12877	238	110	0.14585	1000	0.68913	7	1	0	False
+944899at2759	KRR1 small subunit processome component	0.13113	262	119	0.14785	1000	0.68913	7	0	0	False
+1593937at2759	Ribosomal protein S23/S29, mitochondrial	0.11891	217	97	0.14885	1000	0.68913	7	2	0	False
+924753at2759	tRNA guanosine-2'-O-methyltransferase, TRM11	0.10671	236	113	0.15485	1000	0.68999	7	0	0	False
+604979at2759	WD40-repeat-containing domain	-0.12304	244	107	0.15584	1000	0.68999	7	1	1	False
+39650at2759	DNA polymerase epsilon catalytic subunit	-0.19564	220	107	0.15984	1000	0.68999	7	0	0	False
+1538526at2759	Ribosomal protein L7Ae/L30e/S12e/Gadd45	0.09178	249	111	0.16284	1000	0.68999	7	2	1	False
+1222562at2759	Ribosome biogenesis protein	0.091977	248	111	0.16284	1000	0.68999	7	1	0	False
+453044at2759	Zinc finger, ZPR1-type	0.12581	195	101	0.17083	1000	0.69688	6	0	0	False
+450058at2759	Reduced growth phenotype protein 1	-0.1013	180	100	0.17183	1000	0.69688	7	0	2	False
+844748at2759	Bacterial surface antigen (D15)	0.078655	201	88	0.17283	1000	0.69688	6	1	0	False
+1284731at2759	K Homology domain, type 1	0.15359	230	102	0.17982	1000	0.70314	7	0	1	False
+655400at2759	Ubiquinone biosynthesis monooxygenase COQ6	0.087589	199	104	0.18182	1000	0.70314	7	1	0	False
+996662at2759	Exoribonuclease, phosphorolytic domain 1	0.1467	223	103	0.18282	1000	0.70314	7	0	0	False
+1032689at2759	tRNA (1-methyladenosine) methyltransferase catalytic subunit Gcd14	0.096298	238	103	0.18981	1000	0.71898	7	2	0	False
+1421503at2759	Nuclear cap-binding protein subunit 2	-0.10778	233	109	0.19281	1000	0.71943	7	2	2	False
+1173229at2759	WD40 repeat	0.1495	232	102	0.20679	1000	0.76027	6	0	0	False
+671536at2759	Tetratricopeptide repeat	0.075332	232	102	0.22078	1000	0.78346	7	1	0	False
+1346432at2759	U3 small nucleolar RNA-associated protein 11	0.1328	248	116	0.22278	1000	0.78346	7	1	0	False
+1490022at2759	SUI1 domain	-0.095959	242	109	0.22378	1000	0.78346	7	0	3	False
+1434266at2759	DNA replication complex GINS protein SLD5	0.077708	239	109	0.22577	1000	0.78346	7	1	0	False
+1304061at2759	RNA polymerase II subunit A	-0.16044	205	102	0.22877	1000	0.78346	7	1	0	False
+1348942at2759	TAP46-like protein	0.097343	232	108	0.23876	1000	0.79854	7	1	0	False
+426305at2759	Sda1	0.046985	253	114	0.24076	1000	0.79854	7	0	0	False
+1530008at2759	H/ACA ribonucleoprotein complex subunit	0.084893	188	94	0.24276	1000	0.79854	7	2	0	False
+1379600at2759	Vps53-like, N-terminal	-0.12259	242	112	0.24775	1000	0.80439	7	1	2	False
+625387at2759	TRAPP III complex, Trs85	-0.064496	215	93	0.25275	1000	0.81009	6	0	1	False
+937686at2759	Winged helix-like DNA-binding domain superfamily	-0.077942	248	109	0.26274	1000	0.8193	7	0	0	False
+257318at2759	digestive organ expansion factor homolog	0.10477	252	113	0.26274	1000	0.8193	7	0	0	False
+898782at2759	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase, B subunit	0.11208	200	101	0.26673	1000	0.8193	7	0	2	False
+1358374at2759	Zinc finger, CCCH-type	-0.053907	193	98	0.26873	1000	0.8193	5	0	0	False
+1053181at2759	Checkpoint protein Hus1/Mec3	0.077226	196	100	0.27772	1000	0.81977	7	1	1	False
+1106766at2759	Nuclear pore localisation protein NPL4, C-terminal	-0.12986	255	103	0.27772	1000	0.81977	7	1	0	False
+296129at2759	RNA cytidine acetyltransferase	0.099992	241	108	0.27872	1000	0.81977	7	1	0	False
+1287401at2759	Cytochrome c oxidase assembly protein CtaG/Cox11	-0.084049	236	115	0.2987	1000	0.82374	7	0	0	False
+1645187at2759	PDCD5-like	0.074916	226	109	0.2987	1000	0.82374	7	0	0	False
+1370304at2759	-alpha-acetyltransferase 35, NatC auxiliary subunit	0.14567	236	108	0.2997	1000	0.82374	7	1	0	False
+1617752at2759	Transcription elongation factor SPT4	-0.054658	212	98	0.3017	1000	0.82374	7	0	1	False
+1526152at2759	NADH dehydrogenase 	-0.16689	176	97	0.3017	1000	0.82374	6	1	2	False
+673132at2759	Aminomethyltransferase	0.091326	259	116	0.3037	1000	0.82374	7	0	1	False
+1339553at2759	GPI transamidase subunit PIG-U	-0.11128	199	98	0.30669	1000	0.82374	6	1	1	False
+582756at2759	RFT1	0.085981	224	104	0.31568	1000	0.82374	7	0	0	False
+1257440at2759	PUA domain	0.056812	226	96	0.31768	1000	0.82374	7	0	0	False
+1223488at2759	OPI10 family	-0.086407	197	92	0.31768	1000	0.82374	6	1	0	False
+887370at2759	GPI transamidase component PIG-T	-0.11252	194	95	0.32168	1000	0.82374	6	0	1	False
+1291729at2759	GINS complex, subunit Psf3	0.064164	233	112	0.32667	1000	0.82374	7	1	0	False
+891751at2759	CCAAT-binding factor	0.078134	228	110	0.33067	1000	0.82374	7	0	0	False
+1269244at2759	RWD domain	-0.051537	216	110	0.33267	1000	0.82374	7	0	0	False
+331411at2759	Tetratricopeptide-like helical domain superfamily	-0.090178	204	105	0.34266	1000	0.82374	7	1	2	False
+1194797at2759	Eukaryotic translation initiation factor 3 subunit B	-0.10508	227	106	0.34266	1000	0.82374	7	1	0	False
+1051021at2759	ALG11 mannosyltransferase	0.11046	257	117	0.34565	1000	0.82374	7	0	0	False
+674160at2759	Armadillo-type fold	0.076917	200	101	0.34765	1000	0.82374	7	1	0	False
+687505at2759	DnaJ domain	0.086615	178	84	0.35265	1000	0.82374	7	2	0	False
+1249159at2759	GINS complex, subunit Psf1	-0.061158	242	117	0.35365	1000	0.82374	7	0	0	False
+664730at2759	Pyridoxal phosphate-dependent transferase	0.094854	254	114	0.35465	1000	0.82374	7	2	0	False
+905026at2759	Tetratricopeptide repeat	0.072626	215	101	0.36164	1000	0.82374	7	0	0	False
+396755at2759	Tetratricopeptide repeat	-0.12571	196	97	0.36264	1000	0.82374	6	0	1	False
+1038775at2759	Eukaryotic translation initiation factor 3 subunit F	-0.10412	233	118	0.36364	1000	0.82374	7	1	3	False
+923657at2759	Surfeit locus 1/Shy1	-0.064085	196	96	0.36364	1000	0.82374	7	2	0	False
+83779at2759	Asparagine synthase	0.04659	257	121	0.36863	1000	0.82374	7	2	1	False
+513979at2759	DNA polymerase alpha subunit B	0.095958	231	113	0.37063	1000	0.82374	7	1	0	False
+1455730at2759	SKI-interacting protein, SKIP	-0.1027	225	105	0.37263	1000	0.82374	7	2	0	False
+1432328at2759	Autophagy-related protein 3	-0.065581	228	102	0.37562	1000	0.82374	6	0	1	False
+570797at2759	Winged helix-like DNA-binding domain superfamily	0.097546	235	103	0.38262	1000	0.8261	7	0	1	False
+865202at2759	Initiation factor 2B-related	0.067607	214	94	0.38462	1000	0.8261	6	0	2	False
+836599at2759	26S proteasome non-ATPase regulatory subunit 3	-0.042316	261	115	0.38661	1000	0.8261	7	0	0	False
+299766at2759	DNA polymerase, Y-family, little finger domain	0.033286	202	101	0.39161	1000	0.82968	6	0	0	False
+418107at2759	WD40-repeat-containing domain	0.068692	260	111	0.4016	1000	0.84369	7	0	0	False
+768809at2759	Zinc finger C2H2-type	-0.061537	253	110	0.41259	1000	0.85452	7	1	0	False
+1076134at2759	F-actin-capping protein subunit alpha/beta	-0.10807	191	94	0.41359	1000	0.85452	5	2	2	False
+692986at2759	Conserved oligomeric Golgi complex, subunit 3	-0.092009	225	102	0.44156	1000	0.88911	7	1	2	False
+1323575at2759	GNAT domain	0.068139	242	109	0.44256	1000	0.88911	7	0	1	False
+1003258at2759	GPI mannosyltransferase 1	0.073118	211	99	0.44456	1000	0.88911	6	0	1	False
+1405073at2759	PUA domain	0.041712	254	116	0.44456	1000	0.88911	7	0	1	False
+1094121at2759	ESCRT-II complex, Vps25 subunit	0.053363	207	107	0.45055	1000	0.89084	7	0	1	False
+1138059at2759	Methyltransferase type 11	0.03551	255	117	0.45255	1000	0.89084	7	0	0	False
+1474000at2759	Translocation protein Sec62	-0.15106	157	80	0.48452	1000	0.93204	5	0	1	False
+1426075at2759	Trafficking protein particle complex subunit 2	0.038918	232	110	0.48851	1000	0.93204	7	1	1	False
+1248958at2759	Exportin-2, central domain	0.06426	259	117	0.48951	1000	0.93204	7	1	0	False
+306227at2759	Vacuole morphology and inheritance protein 14	-0.11688	219	100	0.49351	1000	0.93204	6	0	0	False
+1236198at2759	G10 protein	-0.062711	231	112	0.49351	1000	0.93204	7	1	1	False
+375960at2759	DNA polymerase epsilon subunit	-0.036105	238	109	0.5025	1000	0.93204	7	0	1	False
+1459797at2759	Prefoldin subunit 4	0.041235	246	106	0.5025	1000	0.93204	7	1	0	False
+679187at2759	Gamma-tubulin complex component	-0.061315	194	89	0.50649	1000	0.93204	7	1	0	False
+1563319at2759	NADH:ubiquinone oxidoreductase intermediate-associated protein 30	-0.056137	176	89	0.51249	1000	0.93204	7	2	1	False
+975158at2759	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48kDa subunit	0.1055	213	112	0.51449	1000	0.93204	7	1	1	False
+1423847at2759	RNA 3'-terminal phosphate cyclase domain	0.066296	259	114	0.51449	1000	0.93204	7	1	0	False
+1370285at2759	Conserved oligomeric Golgi complex subunit 6	-0.066718	239	116	0.52248	1000	0.93478	7	1	2	False
+1488436at2759	DNA-directed RNA polymerase, 14-18kDa subunit, conserved site	0.033835	246	111	0.52348	1000	0.93478	7	0	0	False
+1552706at2759	Signal recognition particle, SRP19 subunit	0.041502	251	113	0.52747	1000	0.93523	7	2	1	False
+1107630at2759	Dolichyl-phosphate beta-glucosyltransferase	0.056007	208	100	0.53846	1000	0.94768	7	1	0	False
+1338131at2759	PIN domain	0.045057	243	107	0.54845	1000	0.94768	7	1	0	False
+551907at2759	CCAAT-binding factor	0.06027	232	107	0.54845	1000	0.94768	7	1	0	False
+390348at2759	Pyridoxal phosphate-dependent transferase	0.067924	250	113	0.55345	1000	0.94768	7	0	1	False
+1407446at2759	SRP-independent targeting protein 2/TMEM208	0.040476	216	106	0.55345	1000	0.94768	7	0	0	False
+1567796at2759	Prefoldin	-0.05014	241	106	0.56144	1000	0.95175	7	0	0	False
+911863at2759	Protein phosphatase methylesterase 1	0.045769	234	111	0.56344	1000	0.95175	7	1	0	False
+1346165at2759	DNA primase, small subunit	0.05559	244	108	0.57642	1000	0.95316	7	1	0	False
+1251252at2759	Mediator complex, subunit Med6	-0.058303	199	102	0.57642	1000	0.95316	6	1	2	False
+931188at2759	Zinc finger, RING/FYVE/PHD-type	-0.035319	265	118	0.57742	1000	0.95316	7	2	1	False
+549762at2759	Ubiquitin-like modifier-activating enzyme Atg7	0.069557	239	95	0.59041	1000	0.95316	6	0	0	False
+1019762at2759	Signal recognition particle subunit SRP68	0.072824	226	103	0.59341	1000	0.95316	7	1	1	False
+1200489at2759	Exosome complex component CSL4, C-terminal	0.037671	228	98	0.5954	1000	0.95316	7	0	1	False
+1620056at2759	Ribosomal protein/NADH dehydrogenase domain	0.033349	205	106	0.5974	1000	0.95316	7	0	0	False
+1623701at2759	TMEM85/ER membrane protein complex subunit 4	-0.035344	254	115	0.5974	1000	0.95316	7	1	0	False
+1057950at2759	MEMO1 family	0.056357	241	112	0.6024	1000	0.95316	7	0	0	False
+388820at2759	WD40 repeat	0.0428	205	106	0.6024	1000	0.95316	7	1	0	False
+457861at2759	Autophagy protein 5	-0.050908	162	86	0.60639	1000	0.95345	6	0	1	False
+734666at2759	60S ribosomal export protein NMD3	-0.034222	249	114	0.61339	1000	0.95842	7	0	0	False
+383503at2759	Splicing factor 3A subunit 3	-0.050094	230	106	0.61838	1000	0.96022	7	1	0	False
+97116at2759	WD40/YVTN repeat-like-containing domain superfamily	-0.046181	263	113	0.62338	1000	0.962	7	1	1	False
+801857at2759	tRNA-dihydrouridine synthase	0.019726	218	102	0.63037	1000	0.96682	7	1	0	False
+679771at2759	Eukaryotic translation initiation factor 3 subunit M	-0.043694	197	99	0.63936	1000	0.97464	7	1	2	False
+1269649at2759	K Homology domain	-0.048004	249	109	0.64535	1000	0.97493	7	0	0	False
+1228942at2759	Proteasome subunit beta	0.046069	249	109	0.64735	1000	0.97493	7	0	1	False
+1395649at2759	Signal peptidase complex subunit 2	0.038924	214	99	0.66434	1000	0.99019	7	1	1	False
+464990at2759	Eukaryotic translation initiation factor 2A	-0.054452	188	98	0.66833	1000	0.99019	7	0	0	False
+721605at2759	NAD(P)-binding domain	-0.030177	251	114	0.67233	1000	0.99019	7	0	0	False
+355408at2759	Tetratricopeptide repeat-containing domain	-0.04718	245	110	0.67333	1000	0.99019	7	2	0	False
+1161199at2759	Coatomer subunit epsilon	0.035154	247	113	0.68731	1000	0.99573	7	0	0	False
+1128607at2759	Electron transfer flavoprotein, alpha subunit, C-terminal	0.066505	236	109	0.69031	1000	0.99573	7	1	0	False
+1382842at2759	DNA replication complex GINS protein PSF2	0.037763	244	119	0.6973	1000	0.99573	7	0	0	False
+1030907at2759	Golgi to ER traffic protein 4	0.032828	199	104	0.6993	1000	0.99573	7	1	0	False
+1513531at2759	Pre-mRNA-splicing factor Isy1	-0.035125	239	107	0.70529	1000	0.99573	7	1	1	False
+777920at2759	Pescadillo	0.037581	249	112	0.70929	1000	0.99573	7	1	0	False
+392369at2759	GMP synthase, C-terminal	0.045776	238	114	0.71628	1000	0.99573	7	0	0	False
+939345at2759	Repressor of RNA polymerase III transcription MAF1	-0.032521	209	93	0.71728	1000	0.99573	6	0	0	False
+1312453at2759	WD40-repeat-containing domain	-0.039997	156	77	0.72328	1000	0.99573	6	0	2	False
+1287094at2759	Snf7 family	-0.024091	251	116	0.73526	1000	0.99573	7	3	0	False
+722805at2759	WD40/YVTN repeat-like-containing domain superfamily	0.04441	183	95	0.73926	1000	0.99573	6	0	0	False
+1085752at2759	Atg6/Beclin	-0.028021	224	102	0.74725	1000	0.99573	6	2	0	False
+1079827at2759	Ribosomal biogenesis NSA2 family	-0.025035	268	118	0.75025	1000	0.99573	7	0	1	False
+1065019at2759	Diphosphomevalonate decarboxylase	-0.03453	195	91	0.75924	1000	0.99573	5	0	1	False
+720340at2759	Cell division control protein 73, C-terminal	-0.041567	242	113	0.76324	1000	0.99573	7	1	1	False
+1087488at2759	CTLH, C-terminal LisH motif	0.020229	217	108	0.76723	1000	0.99573	7	1	0	False
+1322299at2759	U4/U6 small nuclear ribonucleoprotein Prp3	-0.032922	222	99	0.77822	1000	0.99573	7	1	1	False
+814241at2759	Clp1, N-terminal beta-sandwich domain	0.02592	237	109	0.78422	1000	0.99573	7	0	0	False
+1001705at2759	WD40 repeat	-0.036504	213	104	0.78422	1000	0.99573	7	1	1	False
+1014314at2759	WD40-repeat-containing domain	0.034898	211	105	0.79021	1000	0.99573	7	3	2	False
+1442062at2759	Cytoplasmic tRNA 2-thiolation protein 2	0.028167	223	109	0.79221	1000	0.99573	6	2	0	False
+973442at2759	Elongator complex protein 4	0.019328	167	84	0.79421	1000	0.99573	6	2	1	False
+1112002at2759	WD40 repeat	0.020977	234	113	0.7972	1000	0.99573	7	0	0	False
+1233814at2759	Vacuolar protein sorting-associated protein 29	-0.027313	236	112	0.8012	1000	0.99573	7	2	1	False
+290630at2759	WD40 repeat	0.024212	238	104	0.8022	1000	0.99573	7	3	0	False
+1545004at2759	LSM domain, eukaryotic/archaea-type	0.029781	247	108	0.8032	1000	0.99573	7	2	4	False
+1355894at2759	GNAT domain	0.019326	269	124	0.8042	1000	0.99573	7	4	2	False
+975557at2759	cell division cycle 5-like protein	-0.028098	241	111	0.8042	1000	0.99573	7	2	0	False
+1342242at2759	Aminomethyltransferase, folate-binding domain	-0.0088611	250	110	0.81319	1000	0.99573	7	0	0	False
+1364586at2759	rRNA-processing protein Fcf1/Utp23	0.022137	142	83	0.81518	1000	0.99573	6	3	0	False
+1576404at2759	Pre-mRNA-splicing factor  Cwf15/Cwc15	0.013822	239	112	0.81818	1000	0.99573	7	1	0	False
+341721at2759	Nucleolar complex-associated protein 3	-0.017407	228	104	0.82218	1000	0.99573	7	1	0	False
+1633672at2759	LSM domain, eukaryotic/archaea-type	-0.023893	206	97	0.82318	1000	0.99573	7	0	1	False
+1258856at2759	Vps16, C-terminal	0.021919	201	96	0.82617	1000	0.99573	7	1	0	False
+1525971at2759	Ubiquitin-like protein ATG12	-0.021611	191	95	0.82717	1000	0.99573	6	1	1	False
+878143at2759	CAAX prenyl protease 1	0.014563	233	107	0.83117	1000	0.99573	7	1	0	False
+1079130at2759	Glycosyl transferase, family 4	0.018003	240	105	0.83217	1000	0.99573	7	0	1	False
+1314980at2759	Cleavage and polyadenylation specificity factor subunit 2	0.025761	264	118	0.83516	1000	0.99573	7	3	1	False
+719531at2759	PIGA, GPI anchor biosynthesis	-0.025746	223	102	0.84016	1000	0.99573	6	1	1	False
+1090038at2759	Lipoyltransferase/lipoate-protein ligase	-0.014479	229	101	0.84216	1000	0.99573	7	0	0	False
+1178688at2759	ATPase, OSCP/delta subunit	-0.023961	194	98	0.85115	1000	0.99573	6	1	1	False
+1626636at2759	Zinc finger, double-stranded RNA binding	0.023945	191	94	0.85714	1000	0.99573	7	1	1	False
+1588798at2759	Anamorsin	0.014893	234	101	0.85714	1000	0.99573	7	2	0	False
+779909at2759	WD40 repeat	-0.030167	198	97	0.87213	1000	0.99573	6	1	1	False
+1430056at2759	RNA polymerase Rpb7-like , N-terminal	-0.0096913	247	114	0.87512	1000	0.99573	7	0	0	False
+166920at2759	Condensin complex subunit 1	0.014314	227	109	0.87712	1000	0.99573	7	2	1	False
+87842at2759	Pep3/Vps18/deep orange	-0.016033	219	99	0.87712	1000	0.99573	7	0	0	False
+759498at2759	WD40-repeat-containing domain	0.0097979	243	104	0.87812	1000	0.99573	7	0	0	False
+869548at2759	Winged helix-like DNA-binding domain superfamily	0.010084	241	111	0.88811	1000	0.99573	7	1	1	False
+834694at2759	Mre11, DNA-binding	-0.013675	255	114	0.89111	1000	0.99573	7	0	1	False
+1380409at2759	NFACT, RNA-binding domain	-0.0062679	243	110	0.8961	1000	0.99573	7	0	0	False
+324863at2759	RuvA domain 2-like	-0.0085757	223	103	0.8991	1000	0.99573	7	1	0	False
+708105at2759	Histone acetyltransferase type B catalytic subunit	0.0088676	207	102	0.8991	1000	0.99573	7	2	0	False
+734341at2759	ATP12, ATP synthase F1-assembly protein	-0.010634	239	113	0.9001	1000	0.99573	7	0	0	False
+976469at2759	Eukaryotic translation initiation factor 3 subunit H	-0.0094712	236	114	0.9011	1000	0.99573	7	0	3	False
+1440961at2759	Rad1/Rec1/Rad17	0.011568	164	91	0.90509	1000	0.99573	6	1	0	False
+345441at2759	Phosphoacetylglucosamine mutase	0.010701	236	105	0.91009	1000	0.99573	6	1	0	False
+918816at2759	DNA methyltransferase 1-associated 1	0.0093611	219	102	0.91009	1000	0.99573	7	0	1	False
+1096688at2759	GPN-loop GTPase	-0.0087944	251	110	0.91209	1000	0.99573	7	2	0	False
+1377237at2759	TIP41-like protein	0.0047676	214	105	0.92507	1000	0.999	7	1	0	False
+1194691at2759	26S Proteasome non-ATPase regulatory subunit 6	-0.0061501	257	111	0.92707	1000	0.999	7	0	0	False
+1247641at2759	N-acetylglucosaminyl transferase component	0.011518	187	92	0.93007	1000	0.999	6	3	2	False
+320059at2759	Radical SAM	0.0055785	243	114	0.94006	1000	0.999	7	1	4	False
+1450538at2759	Vta1, C-terminal	-0.0062404	228	104	0.94505	1000	0.999	7	0	1	False
+156083at2759	Pre-mRNA-processing-splicing factor 8	-0.0081603	258	112	0.94605	1000	0.999	7	1	1	False
+1049599at2759	WD40-repeat-containing domain	0.014739	214	104	0.94705	1000	0.999	6	1	1	False
+1309031at2759	CDC45 family	-0.005247	223	115	0.94705	1000	0.999	7	0	2	False
+1193442at2759	Bystin	0.0051939	236	114	0.95105	1000	0.999	7	0	0	False
+598949at2759	AP-3 complex subunit delta	0.011325	199	95	0.96104	1000	0.999	6	1	1	False
+1404162at2759	Origin recognition complex, subunit 2	0.0046606	221	101	0.96304	1000	0.999	6	1	0	False
+1445102at2759	Glycosyltransferase 2-like	0.003219	234	108	0.96703	1000	0.999	7	1	1	False
+293315at2759	DNA polymerase	-0.0040389	168	76	0.96903	1000	0.999	6	1	1	False
+855834at2759	RNA polymerase I specific transcription initiation factor RRN3	0.0041975	205	94	0.97103	1000	0.999	6	1	0	False
+1157302at2759	Eukaryotic translation initiation factor 6	-0.0013062	252	109	0.98202	1000	1	7	1	0	False
+981902at2759	Winged helix-like DNA-binding domain superfamily	-0.0016047	223	100	0.98801	1000	1	7	0	0	False
+1260807at2759	Protohaem IX farnesyltransferase	0.0010582	254	116	0.98901	1000	1	7	1	0	False
+671846at2759	Nuclear pore protein 84/107	0.0013828	157	82	0.99201	1000	1	6	1	1	False
+1182451at2759	SNARE	0.0012746	241	109	0.995	1000	1	7	1	1	False
+245208at2759	Splicing factor 3B subunit 1	-0.00051867	257	113	0.996	1000	1	7	1	1	False
+1220881at2759	TFIIH subunit Tfb4/GTF2H3	-0.0001141	223	107	1	1000	1	7	1	1	False

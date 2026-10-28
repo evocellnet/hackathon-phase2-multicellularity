@@ -1,0 +1,33 @@
+{
+ "finished": "2026-10-28T15:34:44",
+ "n_genes_rer": 250,
+ "n_genes_tested": 250,
+ "n_fg_edges": 126,
+ "n_excluded_edges": 52,
+ "n_bg_edges": 159,
+ "clade_roots": {
+  "Metazoa": "T_metazoa",
+  "Blastocladiomycota_Amastigomycota": "T_fungi_hyphae",
+  "Dictyostelia": "T_dictyostelia",
+  "Klebsormidiophyceae_Phragmoplastophyta": "T_streptophyta",
+  "Eurhodophytina": "T_rhodophyta",
+  "PX_clade": "T_px_filaments",
+  "TGV_clade": "T_volvocine_tgv"
+ },
+ "n_perm": 1000,
+ "seed": 11,
+ "min_sp": 15,
+ "n_p05": 28,
+ "n_q10": 0,
+ "n_q05": 0,
+ "expected_p05": 12.5,
+ "consistency": {
+  "threshold": 0.5,
+  "min_transitions": 4,
+  "observed": 0,
+  "null_mean": 0.517,
+  "null_q95": 2.0,
+  "p": 1.0,
+  "n_null": 1000
+ }
+}

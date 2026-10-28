@@ -1,0 +1,8 @@
+{
+ "step": "rer_busco_exploratory",
+ "finished": "2026-10-28T15:39:42",
+ "scripts": [
+  "scripts/phylo/rer_busco.py",
+  "scripts/phylo/rer_summary.py"
+ ]
+}

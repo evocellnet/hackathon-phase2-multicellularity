@@ -91,7 +91,7 @@ __all__ = [
     "equal_split_mean_path", "h9_gene_stat", "h9_gene_table", "h9_summary", "h9_unit",
     "stem_triples", "control_triples", "drop_tips",
     "master_lengths", "relative_rates", "foreground_nodes", "rer_correlation",
-    "permuted_foregrounds", "rer_permulation_test", "bh",
+    "permuted_foregrounds", "permuted_clade_roots", "clade_mean_rer", "rer_permulation_test", "bh",
 ]
 
 
@@ -538,6 +538,13 @@ def permuted_foregrounds(guide, M_nodes: Iterable[str], n_perm: int = 1000, seed
 
     Returns a list of foreground node sets (each = union of chosen clades).
     """
+    return [foreground_nodes(guide, roots) for roots in
+            permuted_clade_roots(guide, M_nodes, n_perm, seed, size_tol, max_tries)]
+
+
+def permuted_clade_roots(guide, M_nodes: Iterable[str], n_perm: int = 1000, seed: int = SEED,
+                         size_tol: float = 1.5, max_tries: int = 200) -> list:
+    """As :func:`permuted_foregrounds` but returns the chosen clade roots of every permutation."""
     idx = _guide_index(guide)
     roots = _clade_roots(idx, M_nodes)
     sizes = sorted((len(idx[r][1]) for r in roots), reverse=True)
@@ -567,8 +574,24 @@ def permuted_foregrounds(guide, M_nodes: Iterable[str], n_perm: int = 1000, seed
                 break
         if fail:
             continue
-        out.append(foreground_nodes(guide, chosen))
+        out.append(list(chosen))
     return out
+
+
+def clade_mean_rer(rer: pd.DataFrame, guide, roots: Sequence[str]) -> pd.DataFrame:
+    """Genes × clades: mean RER over the non-missing edges at or below each clade root."""
+    cols = list(rer.columns)
+    X = rer.to_numpy(float)
+    ok = ~np.isnan(X)
+    Xf = np.where(ok, X, 0.0)
+    idx = _guide_index(guide)
+    out = {}
+    for r in roots:
+        m = np.array([1.0 if (c in idx and _is_desc(idx, c, r)) else 0.0 for c in cols])
+        n = ok @ m
+        with np.errstate(invalid="ignore", divide="ignore"):
+            out[r] = np.where(n > 0, (Xf @ m) / n, np.nan)
+    return pd.DataFrame(out, index=rer.index)
 
 
 def bh(p) -> np.ndarray:
