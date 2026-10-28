@@ -10,3 +10,4 @@ One line per rule, with the evidence that motivated it. Pruned at each milestone
 6. Give every agent an explicit CPU cap and require `nice -n 19` for non-critical work; four agents each launching 'a few' jobs pushed load to 73 on 24 CPUs and stalled the critical-path Ancestra run (t≈2h).
 7. Check external API rate limits before planning downloads: AFDB/EBI throttles at ~3 req/s (HTTP 429), turning a '1–1.5 h' estimate into 12–13 h; prefer bulk prebuilt databases (e.g. foldseek databases) when they exist.
 8. Before a large Ancestra run on a new kind of data, compute the S0 stage-2 connected-component size distribution from a pilot (scripts/ancestra_patch/component_sizes.py): a 73%-of-genes giant component made the Leiden split the dominant cost (t≈4–6h).
+9. Never use `pkill -f`/`pgrep -f` with a pattern that also appears in your own command line — it kills the calling shell (exit 144, twice at t≈6.3h). Kill by PID.
