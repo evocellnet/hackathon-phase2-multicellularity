@@ -1,0 +1,11 @@
+transition_id	hypothesis	set	stem	k	y	expected	est	var	pi_low	pi_high	percentile	var_floored	u	seq_novel	yhat	resid_s	hog_gains	n_edges
+T_dictyostelia	H1H2	primary	Dictyostelia	20	507	139.75	1.28607	1.17392	-1.98136	0.932557	0.928571	False	0.690476	507	401.378	0.233349	598	1
+T_fungi_hyphae	H1H2	primary	Amastigomycota	20	120	163.5	-0.308217	1.96842	-2.86755	0.810051	0.666667	False	0.5	120	254.714	-0.750454	143	2
+T_metazoa	H1H2	primary	Metazoa	20	594	127.65	1.53452	1.48552	-2.09642	1.02278	0.928571	False	0.833333	594	246.712	0.877475	760	1
+T_px_filaments	H1H2	primary	PX_clade	20	403	110.95	1.2866	1.45579	-2.48126	0.950059	0.97619	False	0.833333	403	241.421	0.511564	542	1
+T_rhodophyta	H1H2	primary	Eurhodophytina	20	62	156.9	-0.923624	2.00484	-2.82647	0.851127	0.452381	False	0.547619	62	89.5571	-0.365277	80	1
+T_streptophyta	H1H2	primary	Klebsormidiophyceae_Phragmoplastophyta	20	189	167.4	0.12102	1.97967	-2.89105	0.786549	0.738095	False	0.642857	189	177.779	0.0610392	239	1
+T_volvocine_tgv	H1H2	primary	Gonium_Volvocaceae	20	88	162.3	-0.60952	2.04487	-2.86021	0.817395	0.5	False	0.928571	88	14.0587	1.80481	165	2
+T_embryophyta	H1H2	secondary	Embryophyta	20	217	103.5	0.737808	1.62192	-2.41207	1.01924	0.785714	False	0.928571	217	76.5458	1.0378	242	1
+T_fungi_agaricomycetes	H1H2	secondary	Agaricomycetes_Dacrymycetes	20	179	103.5	0.545784	1.62192	-2.41207	1.01924	0.738095	False	0.928571	179	54.531	1.18228	199	1
+T_fungi_pezizomycotina	H1H2	secondary	Pezizomycotina	20	200	110.65	0.589934	1.47953	-2.47856	0.952754	0.738095	False	0.833333	200	106.928	0.623995	214	1

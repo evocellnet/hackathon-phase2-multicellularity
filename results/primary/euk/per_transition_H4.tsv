@@ -1,11 +1,11 @@
-transition_id	hypothesis	set	stem	k	y	expected	est	var	pi_low	pi_high	percentile	var_floored	u	d	a	n_u	c_u	pi_u	pi_smoothed	stat_s	reason	n_edges	wgd_flag
-T_dictyostelia	H4	primary	Dictyostelia	20	0.959964	0.389233	0.570732	0.917019	-1.7865	0.872093	0.690476	False	0.690476	694	13	15542	117	0.00752799	False	0.959964		1	False
-T_fungi_hyphae	H4	primary	Amastigomycota	20	-0.0113298	0.28632	-0.297649	0.757187	-1.68359	0.878264	0.309524	False	0.309524	1114	23	15344	327	0.0213113	False	-0.0113298		2	False
-T_metazoa	H4	primary	Metazoa	20	0.680633	0.247367	0.433266	0.68814	-1.64463	0.884328	0.642857	False	0.642857	1338	21	35878	294	0.00819444	False	0.680633		1	False
-T_px_filaments	H4	primary	PX_clade	20	-0.0653898	0.238721	-0.304111	0.674816	-1.63599	0.849269	0.309524	False	0.309524	1661	9	33771	206	0.00609991	False	-0.0653898		1	False
-T_rhodophyta	H4	primary	Eurhodophytina	20	0.994413	0.503796	0.490617	0.717086	-0.949507	1.16342	0.785714	False	0.785714	327	6	10372	77	0.00742383	False	0.994413		1	False
-T_streptophyta	H4	primary	Klebsormidiophyceae_Phragmoplastophyta	20	1.11816	0.404064	0.714096	0.64873	-0.849775	0.76052	0.880952	False	0.880952	1114	23	22036	154	0.00698856	False	1.11816		1	False
-T_volvocine_tgv	H4	primary	Gonium_Volvocaceae	20	-0.349877	0.200951	-0.550827	0.745553	-1.59822	1.06037	0.214286	False	0.214286	2558	15	17731	152	0.00857256	False	-0.349877		2	False
-T_embryophyta	H4	secondary	Embryophyta	20	0.531878	0.13379	0.398087	0.577307	-1.53106	0.733184	0.642857	False	0.642857	1257	38	21417	390	0.0182098	False	0.531878		1	False
-T_fungi_agaricomycetes	H4	secondary	Agaricomycetes_Dacrymycetes	20	0.120125	0.180291	-0.0601661	0.629171	-1.57756	0.758749	0.404762	False	0.404762	352	6	10389	170	0.0163635	False	0.120125		1	False
-T_fungi_pezizomycotina	H4	secondary	Pezizomycotina	20	-0.255676	0.180291	-0.435967	0.629171	-1.57756	0.758749	0.214286	False	0.214286	548	12	9826	287	0.0292082	False	-0.255676		1	False
+transition_id	hypothesis	set	stem	k	y	expected	est	var	pi_low	pi_high	percentile	var_floored	u	n_edges	d	a	n_u	c_u	pi_u	pi_smoothed	stat_s	reason	wgd_flag
+T_dictyostelia	H4	primary	Dictyostelia	20	0.959964	0.389233	0.570732	0.917019	-1.7865	0.872093	0.690476	False	0.690476	1	694	13	15542	117	0.00752799	False	0.959964		False
+T_fungi_hyphae	H4	primary	Amastigomycota	20	-0.0113298	0.28632	-0.297649	0.757187	-1.68359	0.878264	0.309524	False	0.309524	2	1114	23	15344	327	0.0213113	False	-0.0113298		False
+T_metazoa	H4	primary	Metazoa	20	0.680633	0.247367	0.433266	0.68814	-1.64463	0.884328	0.642857	False	0.642857	1	1338	21	35878	294	0.00819444	False	0.680633		False
+T_px_filaments	H4	primary	PX_clade	20	-0.0653898	0.238721	-0.304111	0.674816	-1.63599	0.849269	0.309524	False	0.309524	1	1661	9	33771	206	0.00609991	False	-0.0653898		False
+T_rhodophyta	H4	primary	Eurhodophytina	20	0.994413	0.503796	0.490617	0.717086	-0.949507	1.16342	0.785714	False	0.785714	1	327	6	10372	77	0.00742383	False	0.994413		False
+T_streptophyta	H4	primary	Klebsormidiophyceae_Phragmoplastophyta	20	1.11816	0.404064	0.714096	0.64873	-0.849775	0.76052	0.880952	False	0.880952	1	1114	23	22036	154	0.00698856	False	1.11816		False
+T_volvocine_tgv	H4	primary	Gonium_Volvocaceae	20	-0.349877	0.200951	-0.550827	0.745553	-1.59822	1.06037	0.214286	False	0.214286	2	2558	15	17731	152	0.00857256	False	-0.349877		False
+T_embryophyta	H4	secondary	Embryophyta	20	0.531878	0.13379	0.398087	0.577307	-1.53106	0.733184	0.642857	False	0.642857	1	1257	38	21417	390	0.0182098	False	0.531878		False
+T_fungi_agaricomycetes	H4	secondary	Agaricomycetes_Dacrymycetes	20	0.120125	0.180291	-0.0601661	0.629171	-1.57756	0.758749	0.404762	False	0.404762	1	352	6	10389	170	0.0163635	False	0.120125		False
+T_fungi_pezizomycotina	H4	secondary	Pezizomycotina	20	-0.255676	0.180291	-0.435967	0.629171	-1.57756	0.758749	0.214286	False	0.214286	1	548	12	9826	287	0.0292082	False	-0.255676		False

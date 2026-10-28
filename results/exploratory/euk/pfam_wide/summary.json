@@ -1,0 +1,537 @@
+{
+ "run": "euk",
+ "transitions": [
+  "T_metazoa",
+  "T_fungi_hyphae",
+  "T_dictyostelia",
+  "T_streptophyta",
+  "T_rhodophyta",
+  "T_px_filaments",
+  "T_volvocine_tgv"
+ ],
+ "pool": "U",
+ "n_pool": 30,
+ "n_evaluable_transitions": 7,
+ "n_evaluable_controls": 30,
+ "n_species": 187,
+ "n_pfam_annotated": 187,
+ "pfam_missing": [],
+ "n_domains_total": 18661,
+ "per_transition": [
+  {
+   "transition": "T_metazoa",
+   "evaluable": true,
+   "n_M_annot": 15,
+   "n_S_annot": 8,
+   "n_out_annot": 172,
+   "n_domains": 18661,
+   "n_tested_mwu": 12919,
+   "n_expanded": 1643,
+   "n_expanded_by_test": 1468,
+   "n_gained": 363,
+   "n_contracted": 148,
+   "n_lost": 110,
+   "n_pfam_exp_or_gain": 2006,
+   "n_hog_expanded": 186,
+   "n_both": 117
+  },
+  {
+   "transition": "T_fungi_hyphae",
+   "evaluable": true,
+   "n_M_annot": 26,
+   "n_S_annot": 4,
+   "n_out_annot": 161,
+   "n_domains": 18661,
+   "n_tested_mwu": 8223,
+   "n_expanded": 134,
+   "n_expanded_by_test": 31,
+   "n_gained": 73,
+   "n_contracted": 139,
+   "n_lost": 314,
+   "n_pfam_exp_or_gain": 207,
+   "n_hog_expanded": 69,
+   "n_both": 2
+  },
+  {
+   "transition": "T_dictyostelia",
+   "evaluable": true,
+   "n_M_annot": 6,
+   "n_S_annot": 2,
+   "n_out_annot": 181,
+   "n_domains": 18661,
+   "n_tested_mwu": 5703,
+   "n_expanded": 238,
+   "n_expanded_by_test": 0,
+   "n_gained": 16,
+   "n_contracted": 326,
+   "n_lost": 1356,
+   "n_pfam_exp_or_gain": 254,
+   "n_hog_expanded": 41,
+   "n_both": 12
+  },
+  {
+   "transition": "T_streptophyta",
+   "evaluable": true,
+   "n_M_annot": 12,
+   "n_S_annot": 2,
+   "n_out_annot": 175,
+   "n_domains": 18661,
+   "n_tested_mwu": 7872,
+   "n_expanded": 910,
+   "n_expanded_by_test": 0,
+   "n_gained": 223,
+   "n_contracted": 134,
+   "n_lost": 439,
+   "n_pfam_exp_or_gain": 1133,
+   "n_hog_expanded": 58,
+   "n_both": 25
+  },
+  {
+   "transition": "T_rhodophyta",
+   "evaluable": true,
+   "n_M_annot": 5,
+   "n_S_annot": 2,
+   "n_out_annot": 182,
+   "n_domains": 18661,
+   "n_tested_mwu": 4403,
+   "n_expanded": 122,
+   "n_expanded_by_test": 0,
+   "n_gained": 2,
+   "n_contracted": 148,
+   "n_lost": 508,
+   "n_pfam_exp_or_gain": 124,
+   "n_hog_expanded": 5,
+   "n_both": 0
+  },
+  {
+   "transition": "T_px_filaments",
+   "evaluable": true,
+   "n_M_annot": 9,
+   "n_S_annot": 6,
+   "n_out_annot": 178,
+   "n_domains": 18661,
+   "n_tested_mwu": 8280,
+   "n_expanded": 185,
+   "n_expanded_by_test": 0,
+   "n_gained": 0,
+   "n_contracted": 77,
+   "n_lost": 82,
+   "n_pfam_exp_or_gain": 185,
+   "n_hog_expanded": 121,
+   "n_both": 12
+  },
+  {
+   "transition": "T_volvocine_tgv",
+   "evaluable": true,
+   "n_M_annot": 5,
+   "n_S_annot": 3,
+   "n_out_annot": 182,
+   "n_domains": 18661,
+   "n_tested_mwu": 4476,
+   "n_expanded": 45,
+   "n_expanded_by_test": 0,
+   "n_gained": 0,
+   "n_contracted": 64,
+   "n_lost": 60,
+   "n_pfam_exp_or_gain": 45,
+   "n_hog_expanded": 169,
+   "n_both": 2
+  }
+ ],
+ "convergence_global": [
+  {
+   "flag": "exp_or_gain",
+   "k_min": 2,
+   "scheme": "permute",
+   "n_domains_obs": 370,
+   "null_mean": 643.2107,
+   "null_q95": 1326.0499999999993,
+   "p_perm": 0.7906209379062094,
+   "n_controls": 30
+  },
+  {
+   "flag": "exp_or_gain",
+   "k_min": 3,
+   "scheme": "permute",
+   "n_domains_obs": 75,
+   "null_mean": 101.5662,
+   "null_q95": 247.0,
+   "p_perm": 0.5467453254674532,
+   "n_controls": 30
+  },
+  {
+   "flag": "exp_or_gain",
+   "k_min": 2,
+   "scheme": "matched",
+   "n_domains_obs": 370,
+   "null_mean": 751.0232,
+   "null_q95": 1547.0,
+   "p_perm": 0.8843115688431157,
+   "n_controls": 30
+  },
+  {
+   "flag": "exp_or_gain",
+   "k_min": 3,
+   "scheme": "matched",
+   "n_domains_obs": 75,
+   "null_mean": 122.7707,
+   "null_q95": 301.0,
+   "p_perm": 0.6547345265473453,
+   "n_controls": 30
+  },
+  {
+   "flag": "gained",
+   "k_min": 2,
+   "scheme": "permute",
+   "n_domains_obs": 0,
+   "null_mean": 7.532,
+   "null_q95": 37.0,
+   "p_perm": 1.0,
+   "n_controls": 30
+  },
+  {
+   "flag": "gained",
+   "k_min": 3,
+   "scheme": "permute",
+   "n_domains_obs": 0,
+   "null_mean": 0.1512,
+   "null_q95": 0.0,
+   "p_perm": 1.0,
+   "n_controls": 30
+  },
+  {
+   "flag": "gained",
+   "k_min": 2,
+   "scheme": "matched",
+   "n_domains_obs": 0,
+   "null_mean": 10.1289,
+   "null_q95": 90.0,
+   "p_perm": 1.0,
+   "n_controls": 30
+  },
+  {
+   "flag": "gained",
+   "k_min": 3,
+   "scheme": "matched",
+   "n_domains_obs": 0,
+   "null_mean": 0.08,
+   "null_q95": 0.0,
+   "p_perm": 1.0,
+   "n_controls": 30
+  },
+  {
+   "flag": "lost",
+   "k_min": 2,
+   "scheme": "permute",
+   "n_domains_obs": 421,
+   "null_mean": 191.5838,
+   "null_q95": 408.0499999999993,
+   "p_perm": 0.0433956604339566,
+   "n_controls": 30
+  },
+  {
+   "flag": "lost",
+   "k_min": 3,
+   "scheme": "permute",
+   "n_domains_obs": 30,
+   "null_mean": 12.3106,
+   "null_q95": 38.0,
+   "p_perm": 0.08909109089091091,
+   "n_controls": 30
+  },
+  {
+   "flag": "lost",
+   "k_min": 2,
+   "scheme": "matched",
+   "n_domains_obs": 421,
+   "null_mean": 158.6326,
+   "null_q95": 315.0,
+   "p_perm": 0.0053994600539946005,
+   "n_controls": 30
+  },
+  {
+   "flag": "lost",
+   "k_min": 3,
+   "scheme": "matched",
+   "n_domains_obs": 30,
+   "null_mean": 10.3907,
+   "null_q95": 32.0,
+   "p_perm": 0.062493750624937505,
+   "n_controls": 30
+  },
+  {
+   "flag": "hog_expanded",
+   "k_min": 2,
+   "scheme": "permute",
+   "n_domains_obs": 59,
+   "null_mean": 37.2879,
+   "null_q95": 123.0,
+   "p_perm": 0.19018098190180982,
+   "n_controls": 30
+  },
+  {
+   "flag": "hog_expanded",
+   "k_min": 3,
+   "scheme": "permute",
+   "n_domains_obs": 5,
+   "null_mean": 1.3778,
+   "null_q95": 6.0,
+   "p_perm": 0.0846915308469153,
+   "n_controls": 30
+  },
+  {
+   "flag": "hog_expanded",
+   "k_min": 2,
+   "scheme": "matched",
+   "n_domains_obs": 59,
+   "null_mean": 27.0137,
+   "null_q95": 102.0,
+   "p_perm": 0.15228477152284772,
+   "n_controls": 30
+  },
+  {
+   "flag": "hog_expanded",
+   "k_min": 3,
+   "scheme": "matched",
+   "n_domains_obs": 5,
+   "null_mean": 0.3304,
+   "null_q95": 2.0,
+   "p_perm": 0.009799020097990201,
+   "n_controls": 30
+  }
+ ],
+ "top_convergent": [
+  {
+   "pfam_acc": "PF17921",
+   "pfam_name": "Integrase_H2C2",
+   "k_obs": 6,
+   "k_null_mean": 2.6387,
+   "p_perm": 0.007099290070992901,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_fungi_hyphae;T_dictyostelia;T_streptophyta;T_px_filaments;T_volvocine_tgv"
+  },
+  {
+   "pfam_acc": "PF13632",
+   "pfam_name": "Glyco_trans_2_3",
+   "k_obs": 5,
+   "k_null_mean": 2.2623,
+   "p_perm": 0.0240975902409759,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_dictyostelia;T_streptophyta;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF00754",
+   "pfam_name": "F5_F8_type_C",
+   "k_obs": 5,
+   "k_null_mean": 2.2683,
+   "p_perm": 0.027897210278972105,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_dictyostelia;T_streptophyta;T_px_filaments;T_volvocine_tgv"
+  },
+  {
+   "pfam_acc": "PF27041",
+   "pfam_name": "ZBED1_RNase-like",
+   "k_obs": 4,
+   "k_null_mean": 0.9309,
+   "p_perm": 0.0028997100289971,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_dictyostelia;T_streptophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF04827",
+   "pfam_name": "Plant_tran",
+   "k_obs": 4,
+   "k_null_mean": 1.1372,
+   "p_perm": 0.0065993400659934,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_streptophyta;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF22778",
+   "pfam_name": "VCPO_2nd",
+   "k_obs": 4,
+   "k_null_mean": 1.497,
+   "p_perm": 0.0254974502549745,
+   "q": 0.5555968912912631,
+   "transitions": "T_dictyostelia;T_streptophyta;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF03098",
+   "pfam_name": "An_peroxidase",
+   "k_obs": 4,
+   "k_null_mean": 1.4935,
+   "p_perm": 0.026197380261973803,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_rhodophyta;T_px_filaments;T_volvocine_tgv"
+  },
+  {
+   "pfam_acc": "PF03552",
+   "pfam_name": "Cellulose_synt",
+   "k_obs": 4,
+   "k_null_mean": 1.6864,
+   "p_perm": 0.039396060393960604,
+   "q": 0.5555968912912631,
+   "transitions": "T_dictyostelia;T_streptophyta;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF00931",
+   "pfam_name": "NB-ARC",
+   "k_obs": 4,
+   "k_null_mean": 1.6838,
+   "p_perm": 0.0413958604139586,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_streptophyta;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF00305",
+   "pfam_name": "Lipoxygenase",
+   "k_obs": 4,
+   "k_null_mean": 1.6935,
+   "p_perm": 0.043195680431956804,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_streptophyta;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF13359",
+   "pfam_name": "DDE_Tnp_4",
+   "k_obs": 4,
+   "k_null_mean": 1.6851,
+   "p_perm": 0.0433956604339566,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_streptophyta;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF05699",
+   "pfam_name": "Dimer_Tnp_hAT",
+   "k_obs": 4,
+   "k_null_mean": 1.8703,
+   "p_perm": 0.06459354064593541,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_streptophyta;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF00860",
+   "pfam_name": "Xan_ur_permease",
+   "k_obs": 4,
+   "k_null_mean": 1.873,
+   "p_perm": 0.06519348065193481,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_dictyostelia;T_streptophyta;T_rhodophyta"
+  },
+  {
+   "pfam_acc": "PF03184",
+   "pfam_name": "DDE_1",
+   "k_obs": 4,
+   "k_null_mean": 1.8838,
+   "p_perm": 0.07039296070392961,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_fungi_hyphae;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF00188",
+   "pfam_name": "CAP",
+   "k_obs": 4,
+   "k_null_mean": 2.0707,
+   "p_perm": 0.09719028097190281,
+   "q": 0.5555968912912631,
+   "transitions": "T_metazoa;T_dictyostelia;T_streptophyta;T_rhodophyta"
+  }
+ ],
+ "top_lost": [
+  {
+   "pfam_acc": "PF31193",
+   "pfam_name": "LSM_LSM12_Trypanos",
+   "k_obs": 4,
+   "k_null_mean": 0.7563,
+   "p_perm": 0.0007999200079992001,
+   "q": 0.3547852137284391,
+   "transitions": "T_dictyostelia;T_streptophyta;T_rhodophyta;T_volvocine_tgv"
+  },
+  {
+   "pfam_acc": "PF03590",
+   "pfam_name": "AsnA",
+   "k_obs": 3,
+   "k_null_mean": 0.5536,
+   "p_perm": 0.0036996300369963003,
+   "q": 0.3547852137284391,
+   "transitions": "T_dictyostelia;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF18143",
+   "pfam_name": "HAD_SAK_2",
+   "k_obs": 3,
+   "k_null_mean": 0.5536,
+   "p_perm": 0.0036996300369963003,
+   "q": 0.3547852137284391,
+   "transitions": "T_dictyostelia;T_rhodophyta;T_px_filaments"
+  },
+  {
+   "pfam_acc": "PF16980",
+   "pfam_name": "CitMHS_2",
+   "k_obs": 3,
+   "k_null_mean": 0.5746,
+   "p_perm": 0.0044995500449955,
+   "q": 0.3547852137284391,
+   "transitions": "T_fungi_hyphae;T_streptophyta;T_rhodophyta"
+  },
+  {
+   "pfam_acc": "PF08991",
+   "pfam_name": "CMC4",
+   "k_obs": 3,
+   "k_null_mean": 0.562,
+   "p_perm": 0.0047995200479952005,
+   "q": 0.3547852137284391,
+   "transitions": "T_dictyostelia;T_rhodophyta;T_volvocine_tgv"
+  },
+  {
+   "pfam_acc": "PF01401",
+   "pfam_name": "Peptidase_M2",
+   "k_obs": 3,
+   "k_null_mean": 0.5662,
+   "p_perm": 0.004899510048995101,
+   "q": 0.3547852137284391,
+   "transitions": "T_fungi_hyphae;T_dictyostelia;T_rhodophyta"
+  },
+  {
+   "pfam_acc": "PF00094",
+   "pfam_name": "VWD",
+   "k_obs": 3,
+   "k_null_mean": 0.5752,
+   "p_perm": 0.0052994700529947,
+   "q": 0.3547852137284391,
+   "transitions": "T_fungi_hyphae;T_dictyostelia;T_streptophyta"
+  },
+  {
+   "pfam_acc": "PF01186",
+   "pfam_name": "Lysyl_oxidase",
+   "k_obs": 3,
+   "k_null_mean": 0.5752,
+   "p_perm": 0.0052994700529947,
+   "q": 0.3547852137284391,
+   "transitions": "T_fungi_hyphae;T_dictyostelia;T_streptophyta"
+  },
+  {
+   "pfam_acc": "PF15149",
+   "pfam_name": "CATSPERB_C",
+   "k_obs": 3,
+   "k_null_mean": 0.5752,
+   "p_perm": 0.0052994700529947,
+   "q": 0.3547852137284391,
+   "transitions": "T_fungi_hyphae;T_dictyostelia;T_streptophyta"
+  },
+  {
+   "pfam_acc": "PF17741",
+   "pfam_name": "DUF5578",
+   "k_obs": 3,
+   "k_null_mean": 0.5752,
+   "p_perm": 0.0052994700529947,
+   "q": 0.3547852137284391,
+   "transitions": "T_fungi_hyphae;T_dictyostelia;T_streptophyta"
+  }
+ ],
+ "control_flag_means": {
+  "n_expanded": 585.0,
+  "n_gained": 18.6,
+  "n_lost": 278.2
+ }
+}

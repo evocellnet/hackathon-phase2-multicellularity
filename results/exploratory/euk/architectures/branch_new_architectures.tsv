@@ -1,0 +1,338 @@
+branch	parent	depth	n_desc	n_sister	is_terminal	branch_class	transition_id	stem_path	in_U	new_arch_all	new_arch_multi	new_arch_recombined	cov_desc	cov_outside	in_pool	selected_transition
+Bikonta	Eukaryota	1	98	89	False	within_unicellular			False	783.0	609.0	577.0	1.0	1.0	False	
+Gefioke	Bikonta	2	1	97	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Parapyr	Bikonta	2	1	97	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Diaphoretickes	Bikonta	2	87	11	False	within_unicellular			True	1505.0	1224.0	1188.0	1.0	1.0	True	
+Guilthe	Diaphoretickes	3	1	86	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Archaeplastida	Diaphoretickes	3	46	41	False	within_unicellular			True	196.0	156.0	145.0	1.0	1.0	True	
+Cyanpar	Archaeplastida	4	1	45	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rhodophyta_Rhodelphidia	Archaeplastida	4	10	36	False	within_unicellular			True	6.0	5.0	4.0	1.0	1.0	True	
+Rhodemar	Rhodophyta_Rhodelphidia	5	1	9	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rhodophyta	Rhodophyta_Rhodelphidia	5	9	1	False	within_unicellular			False	24.0	23.0	23.0	1.0	1.0	False	
+Cyanidiophyceae	Rhodophyta	6	2	7	False	within_unicellular			True	3.0	3.0	3.0	1.0	1.0	True	
+Cyanmer	Cyanidiophyceae	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Galdsul	Cyanidiophyceae	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rhodophytina	Rhodophyta	6	7	2	False	within_unicellular			False	28.0	26.0	26.0	1.0	1.0	False	
+Eurhodophytina	Rhodophytina	7	5	2	False	stem	T_rhodophyta	Eurhodophytina	False	12.0	11.0	11.0	1.0	1.0	False	T_rhodophyta
+Bangiaceae	Eurhodophytina	8	2	3	False	within_multicellular			False	10.0	10.0	10.0	1.0	1.0	False	
+Porpumb	Bangiaceae	9	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Pyroyez	Bangiaceae	9	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rhodymeniophycidae	Eurhodophytina	8	3	2	False	nested_stem	T_florideophyceae	Rhodymeniophycidae	False	10.0	9.0	7.0	1.0	1.0	False	
+Choncri	Rhodymeniophycidae	9	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Gracilariaceae	Rhodymeniophycidae	9	2	1	False	within_multicellular			False	18.0	17.0	17.0	1.0	1.0	False	
+Agarchi	Gracilariaceae	10	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Graccho	Gracilariaceae	10	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Proteorhodophytina	Rhodophytina	7	2	5	False	within_unicellular			False	3.0	3.0	3.0	1.0	1.0	False	
+Porppur	Proteorhodophytina	8	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rhodmar	Proteorhodophytina	8	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Viridiplantae	Archaeplastida	4	35	11	False	within_unicellular			True	103.0	84.0	73.0	1.0	1.0	True	
+Prascol	Viridiplantae	5	1	34	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chlorophyta_Streptophyta	Viridiplantae	5	34	1	False	within_unicellular			False	384.0	304.0	276.0	1.0	1.0	False	
+Chlorophyta	Chlorophyta_Streptophyta	6	20	14	False	within_unicellular			True	26.0	26.0	26.0	1.0	1.0	True	
+Mamiellales	Chlorophyta	7	2	18	False	within_unicellular			True	15.0	14.0	14.0	1.0	1.0	True	
+Micrcom	Mamiellales	8	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Ostrtau	Mamiellales	8	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+UTC_clade	Chlorophyta	7	18	2	False	within_unicellular			True	142.0	140.0	137.0	1.0	1.0	True	
+CS_clade	UTC_clade	8	12	6	False	within_unicellular			True	31.0	28.0	28.0	1.0	1.0	True	
+Raphsub	CS_clade	9	1	11	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chlamydomonadales	CS_clade	9	11	1	False	within_unicellular			False	15.0	12.0	12.0	1.0	1.0	False	
+Dunasal	Chlamydomonadales	10	1	10	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Reinhardtinia	Chlamydomonadales	10	10	1	False	within_unicellular			False	83.0	79.0	77.0	1.0	1.0	False	
+Edapdeb	Reinhardtinia	11	1	9	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chlamydomonas_TGV	Reinhardtinia	11	9	1	False	within_unicellular			False	42.0	41.0	41.0	1.0	1.0	False	
+Chlamydomonas	Chlamydomonas_TGV	12	3	6	False	within_unicellular			False	47.0	47.0	47.0	1.0	1.0	False	
+Chlainc	Chlamydomonas	13	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chlarei	Chlamydomonas	13	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chlasch	Chlamydomonas	13	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+TGV_clade	Chlamydomonas_TGV	12	6	3	False	stem	T_volvocine_tgv		False	24.0	23.0	23.0	1.0	1.0	False	
+Tetrsoc	TGV_clade	13	1	5	True	stem	T_volvocales_tetrabaena	Tetrsoc	False	0.0	0.0	0.0	1.0	1.0	False	
+Gonium_Volvocaceae	TGV_clade	13	5	1	False	stem	T_volvocine_tgv;T_volvocales_gv	TGV_clade;Gonium_Volvocaceae	False	46.0	45.0	45.0	1.0	1.0	False	T_volvocine_tgv
+Gonipec	Gonium_Volvocaceae	14	1	4	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Astrephomene_Volvocaceae	Gonium_Volvocaceae	14	4	1	False	within_multicellular			False	8.0	7.0	7.0	1.0	1.0	False	
+Astrgub	Astrephomene_Volvocaceae	15	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Volvocaceae	Astrephomene_Volvocaceae	15	3	1	False	within_multicellular			False	9.0	8.0	8.0	1.0	1.0	False	
+Pleosta	Volvocaceae	16	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Volvafr	Volvocaceae	16	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Volvcar	Volvocaceae	16	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Trebouxiophyceae	UTC_clade	8	2	16	False	within_unicellular			True	3.0	3.0	3.0	1.0	1.0	True	
+Chlovul	Trebouxiophyceae	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Coccsub	Trebouxiophyceae	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Ulvophyceae	UTC_clade	8	4	14	False	within_unicellular			False	4.0	4.0	4.0	1.0	1.0	False	
+Ulvamut	Ulvophyceae	9	1	3	True	stem	T_ulvophyceae	Ulvamut	False	0.0	0.0	0.0	1.0	1.0	False	
+Bryopsidales	Ulvophyceae	9	3	1	False	grey_zone	T_siphonous_coenocytic	Bryopsidales	False	29.0	29.0	28.0	1.0	1.0	False	
+BryospKO2023	Bryopsidales	10	1	2	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Caullen	Bryopsidales	10	1	2	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Ostrque	Bryopsidales	10	1	2	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Streptophyta	Chlorophyta_Streptophyta	6	14	20	False	within_unicellular			False	185.0	138.0	105.0	1.0	1.0	False	
+Klebsormidiophyceae_Phragmoplastophyta	Streptophyta	7	12	2	False	stem	T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	False	174.0	131.0	92.0	1.0	1.0	False	T_streptophyta
+Klebnit	Klebsormidiophyceae_Phragmoplastophyta	8	1	11	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Streptophytina	Klebsormidiophyceae_Phragmoplastophyta	8	11	1	False	within_multicellular			False	128.0	92.0	69.0	1.0	1.0	False	
+Charbra	Streptophytina	9	1	10	True	nested_stem	T_chara	Charbra	False	0.0	0.0	0.0	1.0	1.0	False	
+Coleochaetophyceae_Anydrophyta	Streptophytina	9	10	1	False	within_multicellular			False	59.0	30.0	28.0	1.0	1.0	False	
+Colescu	Coleochaetophyceae_Anydrophyta	10	1	9	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Anydrophyta	Coleochaetophyceae_Anydrophyta	10	9	1	False	within_multicellular			False	155.0	119.0	107.0	1.0	1.0	False	
+Embryophyta	Anydrophyta	11	6	3	False	nested_stem	T_embryophyta	Embryophyta	False	303.0	217.0	141.0	1.0	1.0	False	
+Setaphyta	Embryophyta	12	2	4	False	within_multicellular			False	12.0	12.0	12.0	1.0	1.0	False	
+Marcpol	Setaphyta	13	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Physpat	Setaphyta	13	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Tracheophyta	Embryophyta	12	4	2	False	within_multicellular			False	122.0	101.0	96.0	1.0	1.0	False	
+Selamoe	Tracheophyta	13	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Euphyllophyta	Tracheophyta	13	3	1	False	within_multicellular			False	73.0	56.0	51.0	1.0	1.0	False	
+Ceraric	Euphyllophyta	14	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Magnoliopsida	Euphyllophyta	14	2	1	False	within_multicellular			False	132.0	82.0	47.0	1.0	1.0	False	
+Ambotri	Magnoliopsida	15	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Arabtha	Magnoliopsida	15	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Zygnematophyceae	Anydrophyta	11	3	6	False	other	T_rev_zygnematophyceae	Zygnematophyceae	False	15.0	15.0	15.0	1.0	1.0	False	
+Spirmus	Zygnematophyceae	12	1	2	True	other			False	0.0	0.0	0.0	1.0	1.0	False	
+Zygnematophycidae	Zygnematophyceae	12	2	1	False	other			False	9.0	8.0	8.0	1.0	1.0	False	
+ClosspNIES67	Zygnematophycidae	13	1	1	True	other			False	0.0	0.0	0.0	1.0	1.0	False	
+Mesoend	Zygnematophycidae	13	1	1	True	other			False	0.0	0.0	0.0	1.0	1.0	False	
+Mesostigmatophyceae_Chlorokybophyceae	Streptophyta	7	2	12	False	within_unicellular			False	9.0	9.0	9.0	1.0	1.0	False	
+Chloatm	Mesostigmatophyceae_Chlorokybophyceae	8	1	1	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Mesovir	Mesostigmatophyceae_Chlorokybophyceae	8	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Haptista	Diaphoretickes	3	3	84	False	within_unicellular			True	7.0	7.0	7.0	1.0	1.0	True	
+Raphhet	Haptista	4	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Prymnesiales	Haptista	4	2	1	False	within_unicellular			False	90.0	89.0	89.0	1.0	1.0	False	
+Chrypar	Prymnesiales	5	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Prympar	Prymnesiales	5	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+TSAR	Diaphoretickes	3	37	50	False	within_unicellular			True	72.0	50.0	50.0	1.0	1.0	True	
+Telosub	TSAR	4	1	36	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Sar	TSAR	4	36	1	False	within_unicellular			False	227.0	203.0	202.0	1.0	1.0	False	
+Alveolata	Sar	5	8	28	False	within_unicellular			True	27.0	25.0	25.0	1.0	1.0	True	
+Ciliophora	Alveolata	6	4	4	False	within_unicellular			True	20.0	20.0	20.0	1.0	1.0	True	
+Stencoe	Ciliophora	7	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Intramacronucleata	Ciliophora	7	3	1	False	within_unicellular			False	12.0	10.0	9.0	1.0	1.0	False	
+Platmac	Intramacronucleata	8	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Oligohymenophorea	Intramacronucleata	8	2	1	False	within_unicellular			False	26.0	23.0	23.0	1.0	1.0	False	
+Paratet	Oligohymenophorea	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Tetrthe	Oligohymenophorea	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Myzozoa	Alveolata	6	4	4	False	within_unicellular			True	19.0	9.0	6.0	1.0	1.0	True	
+Perkmar	Myzozoa	7	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Apicomplexa_Chrompodellida	Myzozoa	7	3	1	False	within_unicellular			False	27.0	17.0	16.0	1.0	1.0	False	
+Vitrbra	Apicomplexa_Chrompodellida	8	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Apicomplexa	Apicomplexa_Chrompodellida	8	2	1	False	within_unicellular			False	26.0	13.0	6.0	1.0	1.0	False	
+Plasfal	Apicomplexa	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Toxogon	Apicomplexa	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rhizaria	Sar	5	6	30	False	within_unicellular			False	11.0	11.0	11.0	1.0	1.0	False	
+Plasbra	Rhizaria	6	1	5	True	grey_zone	T_plasmodiophorid_plasmodium	Plasbra	False	0.0	0.0	0.0	1.0	1.0	False	
+Cercozoa	Rhizaria	6	5	1	False	within_unicellular			False	24.0	22.0	22.0	1.0	1.0	False	
+Brevmot	Cercozoa	7	1	4	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Guttvul	Cercozoa	7	1	4	True	stem	T_guttulinopsis	Guttvul	False	0.0	0.0	0.0	1.0	1.0	False	
+Paulmic	Cercozoa	7	1	4	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chlorarachniophyceae	Cercozoa	7	2	3	False	within_unicellular			False	54.0	54.0	54.0	1.0	1.0	False	
+Bigenat	Chlorarachniophyceae	8	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Lothglo	Chlorarachniophyceae	8	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Stramenopiles	Sar	5	22	14	False	within_unicellular			True	91.0	88.0	87.0	1.0	1.0	True	
+Bigyra	Stramenopiles	6	4	18	False	within_unicellular			True	8.0	8.0	8.0	1.0	1.0	True	
+Caferoe	Bigyra	7	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Labyrinthulomycetes	Bigyra	7	3	1	False	within_unicellular			False	16.0	16.0	16.0	1.0	1.0	False	
+LabyspSRHaC	Labyrinthulomycetes	8	1	2	True	grey_zone	T_labyrinthula_nets	LabyspSRHaC	False	0.0	0.0	0.0	1.0	1.0	False	
+Thraustochytriidae	Labyrinthulomycetes	8	2	1	False	within_unicellular			False	71.0	71.0	70.0	1.0	1.0	False	
+Auralim	Thraustochytriidae	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Hondfer	Thraustochytriidae	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Gyrista	Stramenopiles	6	18	4	False	within_unicellular			False	105.0	103.0	103.0	1.0	1.0	False	
+Ochrophyta	Gyrista	7	15	3	False	within_unicellular			False	130.0	120.0	117.0	1.0	1.0	False	
+Aureano	Ochrophyta	8	1	14	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Heteaka	Ochrophyta	8	1	14	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nannsal	Ochrophyta	8	1	14	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Potemal	Ochrophyta	8	1	14	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Bacillariophyta	Ochrophyta	8	2	13	False	within_unicellular			False	6.0	4.0	4.0	1.0	1.0	False	
+Phaetri	Bacillariophyta	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Thalpse	Bacillariophyta	9	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+PX_clade	Ochrophyta	8	9	6	False	stem	T_px_filaments	PX_clade	False	117.0	87.0	82.0	1.0	1.0	False	T_px_filaments
+Phaecon	PX_clade	9	1	8	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Phaeophyceae_Schizocladia	PX_clade	9	6	3	False	within_multicellular			False	36.0	33.0	33.0	1.0	1.0	False	
+Schiisc	Phaeophyceae_Schizocladia	10	1	5	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Phaeophyceae	Phaeophyceae_Schizocladia	10	5	1	False	nested_stem	T_phaeophyceae	Phaeophyceae	False	22.0	20.0	20.0	1.0	1.0	False	
+Discmes	Phaeophyceae	11	1	4	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Dictyotophycidae_Fucophycidae	Phaeophyceae	11	4	1	False	within_multicellular			False	53.0	53.0	53.0	1.0	1.0	False	
+Dictdic	Dictyotophycidae_Fucophycidae	12	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Fucophycidae	Dictyotophycidae_Fucophycidae	12	3	1	False	within_multicellular			False	49.0	48.0	46.0	1.0	1.0	False	
+Ectosil	Fucophycidae	13	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Fucuser	Fucophycidae	13	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Sacclat	Fucophycidae	13	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Xanthophyceae	PX_clade	9	2	7	False	grey_zone	T_xanthophyceae_filaments	Xanthophyceae	False	4.0	3.0	3.0	1.0	1.0	False	
+Tribmin	Xanthophyceae	10	1	1	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Vauclit	Xanthophyceae	10	1	1	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Oomycota	Gyrista	7	3	15	False	grey_zone	T_oomycete_hyphae	Oomycota	False	102.0	100.0	100.0	1.0	1.0	False	
+Saprpar	Oomycota	8	1	2	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Peronosporomycetes	Oomycota	8	2	1	False	grey_zone			False	64.0	63.0	63.0	1.0	1.0	False	
+Phytinf	Peronosporomycetes	9	1	1	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Pytholi	Peronosporomycetes	9	1	1	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Discoba	Bikonta	2	9	89	False	within_unicellular			True	13.0	12.0	12.0	1.0	1.0	True	
+Andagod	Discoba	3	1	8	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Discicristata	Discoba	3	8	1	False	within_unicellular			False	10.0	10.0	10.0	1.0	1.0	False	
+Euglenozoa	Discicristata	4	3	5	False	within_unicellular			True	16.0	15.0	14.0	1.0	1.0	True	
+Euglgra	Euglenozoa	5	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Metakinetoplastina	Euglenozoa	5	2	1	False	within_unicellular			False	23.0	19.0	14.0	1.0	1.0	False	
+Bodosal	Metakinetoplastina	6	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Trypbru	Metakinetoplastina	6	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Heterolobosea	Discicristata	4	5	3	False	within_unicellular			True	25.0	24.0	24.0	1.0	1.0	True	
+Pharkir	Heterolobosea	5	1	4	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Tetramitia	Heterolobosea	5	4	1	False	within_unicellular			False	61.0	59.0	59.0	1.0	1.0	False	
+Acrakon	Tetramitia	6	1	3	True	stem	T_acrasis	Acrakon	False	0.0	0.0	0.0	1.0	1.0	False	
+Neovdam	Tetramitia	6	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Naegleriidae	Tetramitia	6	2	2	False	within_unicellular			False	42.0	42.0	41.0	1.0	1.0	False	
+Naeggru	Naegleriidae	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Willmag	Naegleriidae	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Podiata	Eukaryota	1	89	98	False	within_unicellular			False	323.0	228.0	206.0	1.0	1.0	False	
+Amorphea	Podiata	2	87	2	False	within_unicellular			True	1181.0	859.0	757.0	1.0	1.0	True	
+Amoebozoa	Amorphea	3	18	69	False	within_unicellular			True	377.0	362.0	359.0	1.0	1.0	True	
+Discosea	Amoebozoa	4	2	16	False	within_unicellular			True	14.0	13.0	13.0	1.0	1.0	True	
+Acancas	Discosea	5	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Stygreg	Discosea	5	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Evosea	Amoebozoa	4	12	6	False	within_unicellular			True	130.0	124.0	124.0	1.0	1.0	True	
+Mastbal	Evosea	5	1	11	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Eumycetozoa	Evosea	5	8	4	False	within_unicellular			False	43.0	40.0	39.0	1.0	1.0	False	
+Dictyostelia	Eumycetozoa	6	6	2	False	stem	T_dictyostelia	Dictyostelia	False	146.0	131.0	108.0	1.0	1.0	False	T_dictyostelia
+Acytosteliales	Dictyostelia	7	3	3	False	within_multicellular			False	26.0	25.0	25.0	1.0	1.0	False	
+Cavefas	Acytosteliales	8	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Acytosteliaceae	Acytosteliales	8	2	1	False	within_multicellular			False	16.0	16.0	16.0	1.0	1.0	False	
+Acytsub	Acytosteliaceae	9	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Hetepal	Acytosteliaceae	9	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Dictyosteliales	Dictyostelia	7	3	3	False	within_multicellular			False	22.0	21.0	21.0	1.0	1.0	False	
+Tieglac	Dictyosteliales	8	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Dictyostelium	Dictyosteliales	8	2	1	False	within_multicellular			False	56.0	49.0	37.0	1.0	1.0	False	
+Dictdis	Dictyostelium	9	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Dictpur	Dictyostelium	9	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Myxogastria_Ceratiomyxa	Eumycetozoa	6	2	6	False	within_unicellular			False	13.0	11.0	11.0	1.0	1.0	False	
+Cerafru	Myxogastria_Ceratiomyxa	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Physpol	Myxogastria_Ceratiomyxa	7	1	1	True	grey_zone	T_myxogastria_plasmodium	Physpol	False	0.0	0.0	0.0	1.0	1.0	False	
+Variosea	Evosea	5	3	9	False	within_unicellular			True	92.0	91.0	90.0	1.0	1.0	True	
+Protnoc	Variosea	6	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Cavosteliaceae	Variosea	6	2	1	False	within_unicellular			False	15.0	15.0	15.0	1.0	1.0	False	
+Cavoapo	Cavosteliaceae	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Planfun	Cavosteliaceae	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Tubulinea	Amoebozoa	4	4	14	False	within_unicellular			True	52.0	51.0	51.0	1.0	1.0	True	
+Vermver	Tubulinea	5	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Elardia	Tubulinea	5	3	1	False	within_unicellular			False	77.0	75.0	74.0	1.0	1.0	False	
+Arceint	Elardia	6	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Coprpro	Elardia	6	1	2	True	stem	T_copromyxa	Coprpro	False	0.0	0.0	0.0	1.0	1.0	False	
+Rhizsax	Elardia	6	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Obazoa	Amorphea	3	69	18	False	within_unicellular			True	57.0	43.0	41.0	1.0	1.0	True	
+Pygsbif	Obazoa	4	1	68	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Apusomonadida_Opisthokonta	Obazoa	4	68	1	False	within_unicellular			False	51.0	40.0	36.0	1.0	1.0	False	
+Thectra	Apusomonadida_Opisthokonta	5	1	67	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Opisthokonta	Apusomonadida_Opisthokonta	5	67	1	False	within_unicellular			False	719.0	491.0	395.0	1.0	1.0	False	
+Holomycota	Opisthokonta	6	35	32	False	within_unicellular			True	49.0	39.0	36.0	1.0	1.0	True	
+Fungi	Holomycota	7	33	2	False	within_unicellular			True	28.0	18.0	14.0	1.0	1.0	True	
+Rozeall	Fungi	8	1	32	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Aphelida_Eumycota	Fungi	8	32	1	False	within_unicellular			False	36.0	34.0	29.0	1.0	1.0	False	
+Paratri	Aphelida_Eumycota	9	1	31	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Eumycota	Aphelida_Eumycota	9	31	1	False	within_unicellular			False	173.0	114.0	81.0	1.0	1.0	False	
+Blastocladiomycota_Amastigomycota	Eumycota	10	27	4	False	stem	T_fungi_hyphae		False	32.0	17.0	15.0	1.0	1.0	False	
+Allomac	Blastocladiomycota_Amastigomycota	11	1	26	True	other			False	0.0	0.0	0.0	1.0	1.0	False	
+Amastigomycota	Blastocladiomycota_Amastigomycota	11	26	1	False	stem	T_fungi_hyphae	Blastocladiomycota_Amastigomycota;Amastigomycota	False	134.0	92.0	72.0	1.0	1.0	False	T_fungi_hyphae
+Mucoromycota_Dikarya	Amastigomycota	12	24	2	False	within_multicellular			False	93.0	64.0	48.0	1.0	1.0	False	
+Dikarya	Mucoromycota_Dikarya	13	21	3	False	within_multicellular			False	188.0	106.0	61.0	1.0	1.0	False	
+Ascomycota	Dikarya	14	12	9	False	within_multicellular			False	170.0	85.0	38.0	1.0	1.0	False	
+Taphrinomycotina	Ascomycota	15	4	8	False	within_multicellular			False	8.0	7.0	7.0	1.0	1.0	False	
+Neolirr	Taphrinomycotina	16	1	3	True	nested_stem	T_fungi_neolecta	Neolirr	False	0.0	0.0	0.0	1.0	1.0	False	
+Saitcom	Taphrinomycotina	16	1	3	True	other	T_rev_saitoella	Saitcom	False	0.0	0.0	0.0	1.0	1.0	False	
+Schipom	Taphrinomycotina	16	1	3	True	other	T_rev_schizosaccharomyces	Schipom	False	0.0	0.0	0.0	1.0	1.0	False	
+Taphdef	Taphrinomycotina	16	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+saccharomyceta	Ascomycota	15	8	4	False	within_multicellular			False	73.0	46.0	30.0	1.0	1.0	False	
+Pezizomycotina	saccharomyceta	16	5	3	False	nested_stem	T_fungi_pezizomycotina	Pezizomycotina	False	83.0	53.0	25.0	1.0	1.0	False	
+Pyroomp	Pezizomycotina	17	1	4	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+leotiomyceta	Pezizomycotina	17	4	1	False	within_multicellular			False	101.0	59.0	42.0	1.0	1.0	False	
+Aspenid	leotiomyceta	18	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Zymobre	leotiomyceta	18	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+sordariomyceta	leotiomyceta	18	2	2	False	within_multicellular			False	28.0	23.0	19.0	1.0	1.0	False	
+Botrcin	sordariomyceta	19	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Neurcra	sordariomyceta	19	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Saccharomycotina	saccharomyceta	16	3	5	False	other	T_rev_saccharomycotina	Saccharomycotina	False	56.0	21.0	6.0	1.0	1.0	False	
+Liposta	Saccharomycotina	17	1	2	True	other			False	0.0	0.0	0.0	1.0	1.0	False	
+Sacccer	Saccharomycotina	17	1	2	True	other			False	0.0	0.0	0.0	1.0	1.0	False	
+Yarrlip	Saccharomycotina	17	1	2	True	other			False	0.0	0.0	0.0	1.0	1.0	False	
+Basidiomycota	Dikarya	14	9	12	False	within_multicellular			False	20.0	16.0	15.0	1.0	1.0	False	
+Rhodtor	Basidiomycota	15	1	8	True	other	T_rev_rhodotorula	Rhodtor	False	0.0	0.0	0.0	1.0	1.0	False	
+Ustilaginomycotina_Agaricomycotina	Basidiomycota	15	8	1	False	within_multicellular			False	8.0	7.0	7.0	1.0	1.0	False	
+Ustimay	Ustilaginomycotina_Agaricomycotina	16	1	7	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Wallemiomycotina_Agaricomycotina	Ustilaginomycotina_Agaricomycotina	16	7	1	False	within_multicellular			False	4.0	2.0	2.0	1.0	1.0	False	
+Wallmel	Wallemiomycotina_Agaricomycotina	17	1	6	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Agaricomycotina	Wallemiomycotina_Agaricomycotina	17	6	1	False	within_multicellular			False	11.0	10.0	10.0	1.0	1.0	False	
+Agaricomycetes_Dacrymycetes	Agaricomycotina	18	4	2	False	nested_stem	T_fungi_agaricomycetes	Agaricomycetes_Dacrymycetes	False	9.0	7.0	6.0	1.0	1.0	False	
+Dacrpri	Agaricomycetes_Dacrymycetes	19	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Agaricales	Agaricomycetes_Dacrymycetes	19	3	1	False	within_multicellular			False	12.0	7.0	6.0	1.0	1.0	False	
+Schicom	Agaricales	20	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Agaricineae	Agaricales	20	2	1	False	within_multicellular			False	14.0	10.0	8.0	1.0	1.0	False	
+Coprcin	Agaricineae	21	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Laccbic	Agaricineae	21	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Tremellales	Agaricomycotina	18	2	4	False	within_multicellular			False	12.0	12.0	12.0	1.0	1.0	False	
+Crypneo	Tremellales	19	1	1	True	other	T_rev_cryptococcus	Crypneo	False	0.0	0.0	0.0	1.0	1.0	False	
+Tremmes	Tremellales	19	1	1	True	nested_stem	T_fungi_tremella	Tremmes	False	0.0	0.0	0.0	1.0	1.0	False	
+Mucoromycota	Mucoromycota_Dikarya	13	3	21	False	within_multicellular			False	7.0	5.0	5.0	1.0	1.0	False	
+Morthyg	Mucoromycota	14	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Mucorineae	Mucoromycota	14	2	1	False	within_multicellular			False	12.0	11.0	11.0	1.0	1.0	False	
+Mucolus	Mucorineae	15	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rhizmic	Mucorineae	15	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Zoopagomycota	Amastigomycota	12	2	24	False	within_multicellular			False	1.0	0.0	0.0	1.0	1.0	False	
+Basimer	Zoopagomycota	13	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Coemumb	Zoopagomycota	13	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+chytridiomyceta	Eumycota	10	4	27	False	within_unicellular			False	8.0	7.0	7.0	1.0	1.0	False	
+Gonapro	chytridiomyceta	11	1	3	True	stem	T_fungi_hyphae_gonapodya	Gonapro	False	0.0	0.0	0.0	1.0	1.0	False	
+Pirofin	chytridiomyceta	11	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chytridiomycetes	chytridiomyceta	11	2	2	False	within_unicellular			False	6.0	6.0	6.0	1.0	1.0	False	
+Batrden	Chytridiomycetes	12	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Spizpun	Chytridiomycetes	12	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rotosphaerida	Holomycota	7	2	33	False	within_unicellular			False	2.0	2.0	2.0	1.0	1.0	False	
+Fontalb	Rotosphaerida	8	1	1	True	stem	T_fonticula	Fontalb	False	0.0	0.0	0.0	1.0	1.0	False	
+Parvatl	Rotosphaerida	8	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Holozoa	Opisthokonta	6	32	35	False	within_unicellular			False	464.0	349.0	281.0	1.0	1.0	False	
+Filozoa	Holozoa	7	26	6	False	within_unicellular			False	407.0	282.0	244.0	1.0	1.0	False	
+Choanozoa	Filozoa	8	23	3	False	within_unicellular			False	471.0	386.0	348.0	1.0	1.0	False	
+Choanoflagellata	Choanozoa	9	8	15	False	within_unicellular			False	160.0	155.0	155.0	1.0	1.0	False	
+Acanthoecida	Choanoflagellata	10	2	6	False	within_unicellular			False	68.0	65.0	64.0	1.0	1.0	False	
+Acanspe	Acanthoecida	11	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Didycos	Acanthoecida	11	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Salpingoecidae	Choanoflagellata	10	6	2	False	within_unicellular			False	211.0	207.0	205.0	1.0	1.0	False	
+Barrmon	Salpingoecidae	11	1	5	True	grey_zone	T_choano_colonies	Barrmon	False	0.0	0.0	0.0	1.0	1.0	False	
+Choafle	Salpingoecidae	11	1	5	True	grey_zone	T_choano_colonies	Choafle	False	0.0	0.0	0.0	1.0	1.0	False	
+Codohol	Salpingoecidae	11	1	5	True	grey_zone	T_choano_colonies	Codohol	False	0.0	0.0	0.0	1.0	1.0	False	
+Monobre	Salpingoecidae	11	1	5	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Mylnflu	Salpingoecidae	11	1	5	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Salpros	Salpingoecidae	11	1	5	True	grey_zone	T_choano_colonies	Salpros	False	0.0	0.0	0.0	1.0	1.0	False	
+Metazoa	Choanozoa	9	15	8	False	stem	T_metazoa	Metazoa	False	1428.0	1131.0	749.0	1.0	1.0	False	T_metazoa
+Mnemlei	Metazoa	10	1	14	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+ParaHoxozoa	Metazoa	10	10	5	False	within_multicellular			False	574.0	457.0	351.0	1.0	1.0	False	
+Bilateria	ParaHoxozoa	11	6	4	False	within_multicellular			False	425.0	329.0	229.0	1.0	1.0	False	
+Deuterostomia	Bilateria	12	3	3	False	within_multicellular			False	194.0	160.0	120.0	1.0	1.0	False	
+Stropur	Deuterostomia	13	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chordata	Deuterostomia	13	2	1	False	within_multicellular			False	143.0	105.0	57.0	1.0	1.0	False	
+Branbel	Chordata	14	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Homosap	Chordata	14	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Protostomia	Bilateria	12	3	3	False	within_multicellular			False	38.0	25.0	20.0	1.0	1.0	False	
+Capitel	Protostomia	13	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Ecdysozoa	Protostomia	13	2	1	False	within_multicellular			False	15.0	9.0	7.0	1.0	1.0	False	
+Caenele	Ecdysozoa	14	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Drosmel	Ecdysozoa	14	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Cnidaria	ParaHoxozoa	11	2	8	False	within_multicellular			False	26.0	25.0	24.0	1.0	1.0	False	
+Hydrvul	Cnidaria	12	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nemavec	Cnidaria	12	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Uniplacotomia	ParaHoxozoa	11	2	8	False	within_multicellular			False	42.0	41.0	41.0	1.0	1.0	False	
+Hoilhon	Uniplacotomia	12	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Tricadh	Uniplacotomia	12	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Porifera	Metazoa	10	4	11	False	within_multicellular			False	98.0	89.0	89.0	1.0	1.0	False	
+Calcarea_Homoscleromorpha	Porifera	11	2	2	False	within_multicellular			False	24.0	21.0	21.0	1.0	1.0	False	
+Oscapea	Calcarea_Homoscleromorpha	12	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Sycocil	Calcarea_Homoscleromorpha	12	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Heteroscleromorpha	Porifera	11	2	2	False	within_multicellular			False	41.0	37.0	37.0	1.0	1.0	False	
+Amphque	Heteroscleromorpha	12	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Ephymue	Heteroscleromorpha	12	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Filasterea	Filozoa	8	3	23	False	within_unicellular			False	29.0	27.0	27.0	1.0	1.0	False	
+Capsowc	Filasterea	9	1	2	True	grey_zone	T_capsaspora_aggregation	Capsowc	False	0.0	0.0	0.0	1.0	1.0	False	
+Minivib	Filasterea	9	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Pigochi	Filasterea	9	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Teretosporea	Holozoa	7	6	26	False	grey_zone	T_ichthyosporea_coenocytic	Teretosporea	False	15.0	11.0	11.0	1.0	1.0	False	
+Ichthyosporea	Teretosporea	8	4	2	False	grey_zone			False	7.0	7.0	7.0	1.0	1.0	False	
+Chroper	Ichthyosporea	9	1	3	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Ichthyophonida	Ichthyosporea	9	3	1	False	grey_zone			False	59.0	58.0	57.0	1.0	1.0	False	
+Amoepar	Ichthyophonida	10	1	2	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Creofra	Ichthyophonida	10	1	2	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Sphaarc	Ichthyophonida	10	1	2	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Pluriformea	Teretosporea	8	2	4	False	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Coralim	Pluriformea	9	1	1	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+Syssmul	Pluriformea	9	1	1	True	grey_zone			False	0.0	0.0	0.0	1.0	1.0	False	
+CRuMs	Podiata	2	2	87	False	within_unicellular			True	24.0	24.0	24.0	1.0	1.0	True	
+Diphrot	CRuMs	3	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rigiram	CRuMs	3	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	

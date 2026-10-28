@@ -1,0 +1,50 @@
+transition	category	n_domains_present	n_expanded	n_gained	n_contracted	n_lost	expanded
+T_metazoa	adhesion_ecm	31	21	3	1	0	EGF;fn3;ig;Laminin_B;EGF_laminin;Laminin_G_1;Laminin_N;Ldl_recept_a;Lectin_C;Sushi;TSP_1;Zona_pellucida;Integrin_beta;CUB;F5_F8_type_C;Vinculin;CADH_Y-type_LIR;SEA;Collagen;Laminin_G_2;EGF_CA;I-set;V-set;Integrin_A_Ig_1
+T_metazoa	c2h2_separate	1	1	0	0	0	zf-C2H2
+T_metazoa	cell_cycle	7	3	0	0	0	Cyclin_N;Cyclin_C;Snf7
+T_metazoa	kinase_ptyr	5	1	0	1	0	Mob1_phocein
+T_metazoa	pcd	7	3	4	0	0	Bcl-2;Death;CARD;BIR;Peptidase_C14;DED;MACPF
+T_metazoa	signalling	18	10	3	0	0	7tm_1;7tm_2;7tm_3;TGF_beta;wnt;Innexin;Fz;DSL;Frizzled;GPS;MH2;Dicty_CAR;NODP
+T_metazoa	tf_dbd	26	14	5	0	0	HLH;Homeodomain;Hormone_recep;zf-C4;Pou;bZIP_1;Ets;Forkhead;PAX;HMG_box;RHD_DNA_bind;DM;Runt;T-box;ARID;RFX_DNA_binding;CUT;STAT_bind;Homeobox_KN
+T_fungi_hyphae	adhesion_ecm	9	0	0	2	1	
+T_fungi_hyphae	c2h2_separate	1	0	0	0	0	
+T_fungi_hyphae	cell_cycle	5	0	0	0	2	
+T_fungi_hyphae	kinase_ptyr	5	0	0	0	0	
+T_fungi_hyphae	pcd	3	0	0	0	0	
+T_fungi_hyphae	signalling	6	0	0	2	0	
+T_fungi_hyphae	tf_dbd	18	2	0	0	0	Zn_clus;TEA
+T_dictyostelia	adhesion_ecm	14	1	0	7	2	F5_F8_type_C
+T_dictyostelia	c2h2_separate	1	0	0	0	0	
+T_dictyostelia	cell_cycle	7	0	0	0	0	
+T_dictyostelia	kinase_ptyr	5	0	0	0	0	
+T_dictyostelia	pcd	2	0	0	0	0	
+T_dictyostelia	signalling	9	0	0	5	2	
+T_dictyostelia	tf_dbd	12	0	0	1	0	
+T_streptophyta	adhesion_ecm	17	6	0	3	2	EGF;LRR_1;F5_F8_type_C;Fasciclin;EGF_CA;LRR_8
+T_streptophyta	c2h2_separate	1	1	0	0	0	zf-C2H2
+T_streptophyta	cell_cycle	7	2	0	0	0	Cyclin_N;Cyclin_C
+T_streptophyta	kinase_ptyr	5	2	0	0	0	Pkinase;PK_Tyr_Ser-Thr
+T_streptophyta	pcd	2	0	0	0	1	
+T_streptophyta	signalling	5	0	0	0	1	
+T_streptophyta	tf_dbd	19	13	4	0	0	HLH;Homeodomain;bZIP_1;Myb_DNA-binding;SRF-TF;GATA;HSF_DNA-bind;AP2;B3;NAM;Zn_ribbon_Dof;WRKY;SBP;LOB;GRAS;TCP;Homeobox_KN
+T_rhodophyta	adhesion_ecm	7	3	0	0	1	Lectin_C;VWA;Fasciclin
+T_rhodophyta	c2h2_separate	1	0	0	1	0	
+T_rhodophyta	cell_cycle	7	0	0	0	0	
+T_rhodophyta	kinase_ptyr	4	0	0	0	0	
+T_rhodophyta	pcd	2	0	0	0	0	
+T_rhodophyta	signalling	1	0	0	0	2	
+T_rhodophyta	tf_dbd	11	0	0	1	0	
+T_px_filaments	adhesion_ecm	19	2	0	2	0	EGF;F5_F8_type_C
+T_px_filaments	c2h2_separate	1	0	0	0	0	
+T_px_filaments	cell_cycle	7	0	0	0	0	
+T_px_filaments	kinase_ptyr	5	1	0	0	0	SH2
+T_px_filaments	pcd	2	0	0	0	0	
+T_px_filaments	signalling	7	1	0	0	0	Notch
+T_px_filaments	tf_dbd	11	1	0	1	0	Zn_clus
+T_volvocine_tgv	adhesion_ecm	17	1	0	4	0	F5_F8_type_C
+T_volvocine_tgv	c2h2_separate	1	0	0	0	0	
+T_volvocine_tgv	cell_cycle	7	0	0	0	0	
+T_volvocine_tgv	kinase_ptyr	4	0	0	0	0	
+T_volvocine_tgv	pcd	1	0	0	0	0	
+T_volvocine_tgv	signalling	2	0	0	0	0	
+T_volvocine_tgv	tf_dbd	15	0	0	1	0	

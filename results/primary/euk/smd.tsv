@@ -1,4 +1,76 @@
 hypothesis	set	transition_id	stem	covariate	stem_value	control_mean	smd	flag
+H1H2	primary	T_dictyostelia	Dictyostelia	depth	6	4.55	0.8013	True
+H1H2	primary	T_fungi_hyphae	Amastigomycota	depth	11	5.05	3.288	True
+H1H2	primary	T_metazoa	Metazoa	depth	9	4.95	2.238	True
+H1H2	primary	T_px_filaments	PX_clade	depth	8	5.35	1.464	True
+H1H2	primary	T_rhodophyta	Eurhodophytina	depth	7	5.05	1.078	True
+H1H2	primary	T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	depth	7	4.9	1.16	True
+H1H2	primary	T_volvocine_tgv	Gonium_Volvocaceae	depth	13	5.05	4.393	True
+H1H2	primary	ALL		depth	8.714	4.986	2.06	True
+H1H2	primary	T_dictyostelia	Dictyostelia	log_bl	-1.374	-2.576	1.786	True
+H1H2	primary	T_fungi_hyphae	Amastigomycota	log_bl	-3.109	-2.738	-0.5503	True
+H1H2	primary	T_metazoa	Metazoa	log_bl	-2.285	-2.663	0.561	True
+H1H2	primary	T_px_filaments	PX_clade	log_bl	-1.984	-2.467	0.7176	True
+H1H2	primary	T_rhodophyta	Eurhodophytina	log_bl	-2.409	-2.665	0.3797	False
+H1H2	primary	T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	log_bl	-2.68	-2.678	-0.002437	False
+H1H2	primary	T_volvocine_tgv	Gonium_Volvocaceae	log_bl	-4.026	-2.782	-1.847	True
+H1H2	primary	ALL		log_bl	-2.552	-2.653	0.1491	False
+H1H2	primary	T_dictyostelia	Dictyostelia	log_n_desc	1.792	2.371	-0.4666	False
+H1H2	primary	T_fungi_hyphae	Amastigomycota	log_n_desc	3.258	2.509	0.6031	True
+H1H2	primary	T_metazoa	Metazoa	log_n_desc	2.708	2.38	0.2642	False
+H1H2	primary	T_px_filaments	PX_clade	log_n_desc	2.197	2.327	-0.1042	False
+H1H2	primary	T_rhodophyta	Eurhodophytina	log_n_desc	1.609	2.35	-0.5962	True
+H1H2	primary	T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	log_n_desc	2.485	2.46	0.02012	False
+H1H2	primary	T_volvocine_tgv	Gonium_Volvocaceae	log_n_desc	1.609	2.372	-0.6143	True
+H1H2	primary	ALL		log_n_desc	2.237	2.396	-0.1277	False
+H1H2	primary	T_dictyostelia	Dictyostelia	log_n_sister	0.6931	2.495	-1.581	True
+H1H2	primary	T_fungi_hyphae	Amastigomycota	log_n_sister	0	2.546	-2.234	True
+H1H2	primary	T_metazoa	Metazoa	log_n_sister	2.079	2.613	-0.4682	False
+H1H2	primary	T_px_filaments	PX_clade	log_n_sister	1.792	2.492	-0.6146	True
+H1H2	primary	T_rhodophyta	Eurhodophytina	log_n_sister	0.6931	2.271	-1.384	True
+H1H2	primary	T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	log_n_sister	0.6931	2.406	-1.503	True
+H1H2	primary	T_volvocine_tgv	Gonium_Volvocaceae	log_n_sister	0	2.422	-2.125	True
+H1H2	primary	ALL		log_n_sister	0.8501	2.464	-1.416	True
+H1H2	primary	T_dictyostelia	Dictyostelia	frac_tx_desc	0	0.2065	-0.7607	True
+H1H2	primary	T_fungi_hyphae	Amastigomycota	frac_tx_desc	0	0.1896	-0.6984	True
+H1H2	primary	T_metazoa	Metazoa	frac_tx_desc	0.06667	0.2187	-0.5601	True
+H1H2	primary	T_px_filaments	PX_clade	frac_tx_desc	0.1111	0.1825	-0.2629	False
+H1H2	primary	T_rhodophyta	Eurhodophytina	frac_tx_desc	0	0.1486	-0.5474	True
+H1H2	primary	T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	frac_tx_desc	0.08333	0.1986	-0.4245	False
+H1H2	primary	T_volvocine_tgv	Gonium_Volvocaceae	frac_tx_desc	0	0.2228	-0.8209	True
+H1H2	primary	ALL		frac_tx_desc	0.0373	0.1953	-0.5821	True
+H1H2	primary	T_dictyostelia	Dictyostelia	frac_tx_sister	1	0.2888	2.932	True
+H1H2	primary	T_fungi_hyphae	Amastigomycota	frac_tx_sister	0	0.1757	-0.7244	True
+H1H2	primary	T_metazoa	Metazoa	frac_tx_sister	0.625	0.2801	1.422	True
+H1H2	primary	T_px_filaments	PX_clade	frac_tx_sister	0	0.1695	-0.6986	True
+H1H2	primary	T_rhodophyta	Eurhodophytina	frac_tx_sister	0	0.1782	-0.7347	True
+H1H2	primary	T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	frac_tx_sister	0	0.1673	-0.6895	True
+H1H2	primary	T_volvocine_tgv	Gonium_Volvocaceae	frac_tx_sister	0	0.2237	-0.9221	True
+H1H2	primary	ALL		frac_tx_sister	0.2321	0.2119	0.08341	False
+H1H2	secondary	T_embryophyta	Embryophyta	depth	11	5.35	3.122	True
+H1H2	secondary	T_fungi_agaricomycetes	Agaricomycetes_Dacrymycetes	depth	18	5.35	6.99	True
+H1H2	secondary	T_fungi_pezizomycotina	Pezizomycotina	depth	16	5.35	5.885	True
+H1H2	secondary	ALL		depth	15	5.35	5.333	True
+H1H2	secondary	T_embryophyta	Embryophyta	log_bl	-2.596	-2.67	0.1104	False
+H1H2	secondary	T_fungi_agaricomycetes	Agaricomycetes_Dacrymycetes	log_bl	-2.615	-2.67	0.08184	False
+H1H2	secondary	T_fungi_pezizomycotina	Pezizomycotina	log_bl	-2.18	-2.617	0.6494	True
+H1H2	secondary	ALL		log_bl	-2.464	-2.652	0.2806	False
+H1H2	secondary	T_embryophyta	Embryophyta	log_n_desc	1.792	2.207	-0.3345	False
+H1H2	secondary	T_fungi_agaricomycetes	Agaricomycetes_Dacrymycetes	log_n_desc	1.386	2.207	-0.661	True
+H1H2	secondary	T_fungi_pezizomycotina	Pezizomycotina	log_n_desc	1.609	2.242	-0.5092	True
+H1H2	secondary	ALL		log_n_desc	1.596	2.219	-0.5016	True
+H1H2	secondary	T_embryophyta	Embryophyta	log_n_sister	1.099	2.558	-1.28	True
+H1H2	secondary	T_fungi_agaricomycetes	Agaricomycetes_Dacrymycetes	log_n_sister	0.6931	2.558	-1.636	True
+H1H2	secondary	T_fungi_pezizomycotina	Pezizomycotina	log_n_sister	1.099	2.53	-1.256	True
+H1H2	secondary	ALL		log_n_sister	0.9635	2.549	-1.391	True
+H1H2	secondary	T_embryophyta	Embryophyta	frac_tx_desc	0	0.2133	-0.7859	True
+H1H2	secondary	T_fungi_agaricomycetes	Agaricomycetes_Dacrymycetes	frac_tx_desc	0	0.2133	-0.7859	True
+H1H2	secondary	T_fungi_pezizomycotina	Pezizomycotina	frac_tx_desc	0	0.2133	-0.7859	True
+H1H2	secondary	ALL		frac_tx_desc	0	0.2133	-0.7859	True
+H1H2	secondary	T_embryophyta	Embryophyta	frac_tx_sister	0	0.2023	-0.834	True
+H1H2	secondary	T_fungi_agaricomycetes	Agaricomycetes_Dacrymycetes	frac_tx_sister	0	0.2023	-0.834	True
+H1H2	secondary	T_fungi_pezizomycotina	Pezizomycotina	frac_tx_sister	0	0.2148	-0.8855	True
+H1H2	secondary	ALL		frac_tx_sister	0	0.2065	-0.8512	True
 H4	primary	T_dictyostelia	Dictyostelia	depth	6	4.4	0.8842	True
 H4	primary	T_fungi_hyphae	Amastigomycota	depth	11	5	3.316	True
 H4	primary	T_metazoa	Metazoa	depth	9	5.2	2.1	True

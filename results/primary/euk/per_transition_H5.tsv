@@ -1,11 +1,11 @@
-transition_id	hypothesis	set	stem	k	y	expected	est	var	pi_low	pi_high	percentile	var_floored	u	d	a	n_u	c_u	pi_u	pi_smoothed	stat_s	reason	n_edges	wgd_flag
-T_dictyostelia	H5	primary	Dictyostelia	20	-0.227569	-0.254713	0.0271445	0.391964	-0.980207	0.666124	0.547619	False	0.547619	694	7	15542	210	0.0135118	False	-0.227569		1	False
-T_fungi_hyphae	H5	primary	Amastigomycota	20	-0.867557	-0.354279	-0.513278	0.312989	-0.880641	0.748898	0.214286	False	0.214286	1114	5	15344	179	0.0116658	False	-0.867557		2	False
-T_metazoa	H5	primary	Metazoa	20	-0.198779	-0.347879	0.1491	0.301093	-0.887042	0.699243	0.595238	False	0.595238	1338	71	35878	2310	0.0643849	False	-0.198779		1	False
-T_px_filaments	H5	primary	PX_clade	20	-0.837345	-0.276339	-0.561005	0.352154	-0.958581	0.670958	0.214286	False	0.214286	1661	7	33771	350	0.0103639	False	-0.837345		1	False
-T_rhodophyta	H5	primary	Eurhodophytina	20	-1.15463	-0.100503	-1.05412	0.37125	-0.948501	1.00495	0.0714286	False	0.0714286	327	0	10372	50	0.00482067	False	-1.15463		1	False
-T_streptophyta	H5	primary	Klebsormidiophyceae_Phragmoplastophyta	20	-0.136013	-0.26805	0.132037	0.28395	-0.919132	0.662669	0.547619	False	0.547619	1114	11	22036	260	0.0117989	False	-0.136013		1	False
-T_volvocine_tgv	H5	primary	Gonium_Volvocaceae	20	-0.0036433	-0.301458	0.297814	0.277699	-0.885725	0.696076	0.690476	False	0.690476	2558	32	17731	226	0.012746	False	-0.0036433		2	False
-T_embryophyta	H5	secondary	Embryophyta	20	-0.437695	-0.316915	-0.12078	0.335181	-0.918006	0.711534	0.452381	False	0.452381	1257	18	21417	484	0.0225989	False	-0.437695		1	False
-T_fungi_agaricomycetes	H5	secondary	Agaricomycetes_Dacrymycetes	20	-0.53098	-0.328219	-0.202761	0.331582	-0.906702	0.722838	0.309524	False	0.309524	352	0	10389	25	0.00240639	False	-0.53098		1	False
-T_fungi_pezizomycotina	H5	secondary	Pezizomycotina	20	0.0714665	-0.328219	0.399685	0.331582	-0.906702	0.722838	0.738095	False	0.738095	548	1	9826	25	0.00254427	False	0.0714665		1	False
+transition_id	hypothesis	set	stem	k	y	expected	est	var	pi_low	pi_high	percentile	var_floored	u	n_edges	d	a	n_u	c_u	pi_u	pi_smoothed	stat_s	reason	wgd_flag
+T_dictyostelia	H5	primary	Dictyostelia	20	-0.227569	-0.254713	0.0271445	0.391964	-0.980207	0.666124	0.547619	False	0.547619	1	694	7	15542	210	0.0135118	False	-0.227569		False
+T_fungi_hyphae	H5	primary	Amastigomycota	20	-0.867557	-0.354279	-0.513278	0.312989	-0.880641	0.748898	0.214286	False	0.214286	2	1114	5	15344	179	0.0116658	False	-0.867557		False
+T_metazoa	H5	primary	Metazoa	20	-0.198779	-0.347879	0.1491	0.301093	-0.887042	0.699243	0.595238	False	0.595238	1	1338	71	35878	2310	0.0643849	False	-0.198779		False
+T_px_filaments	H5	primary	PX_clade	20	-0.837345	-0.276339	-0.561005	0.352154	-0.958581	0.670958	0.214286	False	0.214286	1	1661	7	33771	350	0.0103639	False	-0.837345		False
+T_rhodophyta	H5	primary	Eurhodophytina	20	-1.15463	-0.100503	-1.05412	0.37125	-0.948501	1.00495	0.0714286	False	0.0714286	1	327	0	10372	50	0.00482067	False	-1.15463		False
+T_streptophyta	H5	primary	Klebsormidiophyceae_Phragmoplastophyta	20	-0.136013	-0.26805	0.132037	0.28395	-0.919132	0.662669	0.547619	False	0.547619	1	1114	11	22036	260	0.0117989	False	-0.136013		False
+T_volvocine_tgv	H5	primary	Gonium_Volvocaceae	20	-0.0036433	-0.301458	0.297814	0.277699	-0.885725	0.696076	0.690476	False	0.690476	2	2558	32	17731	226	0.012746	False	-0.0036433		False
+T_embryophyta	H5	secondary	Embryophyta	20	-0.437695	-0.316915	-0.12078	0.335181	-0.918006	0.711534	0.452381	False	0.452381	1	1257	18	21417	484	0.0225989	False	-0.437695		False
+T_fungi_agaricomycetes	H5	secondary	Agaricomycetes_Dacrymycetes	20	-0.53098	-0.328219	-0.202761	0.331582	-0.906702	0.722838	0.309524	False	0.309524	1	352	0	10389	25	0.00240639	False	-0.53098		False
+T_fungi_pezizomycotina	H5	secondary	Pezizomycotina	20	0.0714665	-0.328219	0.399685	0.331582	-0.906702	0.722838	0.738095	False	0.738095	1	548	1	9826	25	0.00254427	False	0.0714665		False

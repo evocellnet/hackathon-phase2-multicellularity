@@ -1,0 +1,6 @@
+hypothesis	p	p_mcse	tier	source	n	k	scheme	holm_p	family_size	note
+H1H2	0.113	0.00316609	primary	results/primary/euk/primary_tests.tsv	7	20	parametric_bootstrap	0.452	5	
+H4	0.361064	0.00480309	primary	results/primary/euk/primary_tests.tsv	7	20	permute	0.80811	5	
+H5	0.772223	0.00419398	primary	results/primary/euk/primary_tests.tsv	7	20	permute	0.80811	5	
+H12	0.020498	0.00141696	primary	results/primary/euk/primary_tests.tsv	6	20	permute	0.10249	5	
+H9	0.26937	0.0044363	primary	results/h9/h9_tests.tsv	7	10	permute	0.80811	5	

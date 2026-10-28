@@ -1,0 +1,108 @@
+branch_parent	branch_child	child_is_leaf	depth_child	n_parent	n_child	hog_gains	losses	dups	dups_at_origin	split_repaired	seq_novel	seq_novel_tx_sens	seq_novel_genomes_only	homologous_unrepaired	outside_other_domain_only	gains_after_repair	losses_after_repair	seq_novel_with_arch	arch_novel	frac_seq_novel	selection_reason	branch_class	transitions	analysis_set	n_tips	n_mc_tips
+Eukaryota	Bikonta	False	1	16577	28581	6778	0	5226	0	0	2555	2555	2772	4223	183	6778	0	848	88	0.37695485393921513	parent_edge_of:Diaphoretickes;parent_edge_of:Discoba	root_child			98.0	31.0
+Bikonta	Diaphoretickes	False	2	28581	42871	4997	2671	7655	4309	99	1337	1337	1580	3561	264	4898	2572	754	68	0.26756053632179305	control_pool_U;parent_edge_of:Archaeplastida;parent_edge_of:Haptista;parent_edge_of:TSAR	mixed_clade			87.0	30.0
+Diaphoretickes	Archaeplastida	False	3	42871	24274	414	22214	3017	186	63	90	90	98	261	32	351	22151	49	13	0.21739130434782608	control_pool_U;parent_edge_of:Rhodophyta_Rhodelphidia;parent_edge_of:Viridiplantae	mixed_clade			46.0	21.0
+Archaeplastida	Rhodophyta_Rhodelphidia	False	4	24274	12160	49	13908	1645	100	12	9	9	9	28	0	37	13896	3	0	0.1836734693877551	control_pool_U	mixed_clade			10.0	5.0
+Rhodophyta_Rhodelphidia	Rhodophyta	False	5	12160	10026	123	3961	1699	5	0	89	89	90	34	8	123	3961	28	0	0.7235772357723578	parent_edge_of:Cyanidiophyceae	mixed_clade			9.0	5.0
+Rhodophyta	Cyanidiophyceae	False	6	10026	5370	14	4918	248	0	0	9	9	9	5	1	14	4918	4	1	0.6428571428571429	control_pool_U	unicellular_clade			2.0	0.0
+Rhodophyta	Rhodophytina	False	6	10026	10372	150	657	853	0	0	117	117	122	33	5	150	657	43	1	0.78	parent_edge_of:Eurhodophytina	mixed_clade			7.0	5.0
+Rhodophytina	Eurhodophytina	False	7	10372	8978	80	2380	906	0	1	62	62	63	17	3	79	2379	10	0	0.775	transition:stem:T_rhodophyta;parent_edge_of:Rhodymeniophycidae	stem	T_rhodophyta	primary	5.0	5.0
+Eurhodophytina	Rhodymeniophycidae	False	8	8978	8231	304	2186	1135	0	3	277	277	277	24	3	301	2183	43	0	0.9111842105263158	transition:nested_stem:T_florideophyceae	stem	T_florideophyceae	exploratory	3.0	3.0
+Archaeplastida	Viridiplantae	False	4	24274	21459	234	6948	3632	267	15	115	115	118	104	14	219	6933	59	7	0.49145299145299143	control_pool_U	mixed_clade			35.0	16.0
+Viridiplantae	Chlorophyta_Streptophyta	False	5	21459	24355	275	574	3069	126	1	188	188	193	86	6	274	573	85	23	0.6836363636363636	parent_edge_of:Chlorophyta	mixed_clade			34.0	16.0
+Chlorophyta_Streptophyta	Chlorophyta	False	6	24355	15340	50	10509	1442	2	3	36	36	36	11	1	47	10506	7	0	0.72	control_pool_U;parent_edge_of:Mamiellales;parent_edge_of:UTC_clade	mixed_clade			20.0	7.0
+Chlorophyta	Mamiellales	False	7	15340	8781	259	7388	570	0	6	231	231	233	22	2	253	7382	40	1	0.8918918918918919	control_pool_U	unicellular_clade			2.0	0.0
+Chlorophyta	UTC_clade	False	7	15340	17230	284	1637	3234	9	4	227	227	229	53	2	280	1633	75	3	0.7992957746478874	control_pool_U;parent_edge_of:CS_clade;parent_edge_of:Trebouxiophyceae	mixed_clade			18.0	7.0
+UTC_clade	CS_clade	False	8	17230	14824	182	4055	1466	1	8	148	148	150	26	0	174	4047	43	1	0.8131868131868132	control_pool_U	mixed_clade			12.0	6.0
+Reinhardtinia	Chlamydomonas_TGV	False	11	18711	17731	227	2078	839	32	6	142	142	142	79	1	221	2072	26	0	0.6255506607929515	parent_edge_of:TGV_clade	mixed_clade			9.0	6.0
+Chlamydomonas_TGV	TGV_clade	False	12	17731	17040	78	2886	2050	67	11	32	32	32	35	0	67	2875	5	0	0.41025641025641024	transition:path_edge:T_volvocine_tgv;parent_edge_of:Tetrsoc;parent_edge_of:Gonium_Volvocaceae	multicellular_clade			6.0	6.0
+TGV_clade	Tetrsoc	True	13	17040	14091	1310	6415	2147	9	20	1244	1244	1244	46	1	1290	6395	103	1	0.9496183206106871	transition:stem:T_volvocales_tetrabaena					
+TGV_clade	Gonium_Volvocaceae	False	13	17040	17778	87	2173	2809	15	6	56	56	56	25	0	81	2167	5	0	0.6436781609195402	transition:stem;stem:T_volvocales_gv;T_volvocine_tgv	stem	T_volvocales_gv;T_volvocine_tgv	exploratory;primary	5.0	5.0
+UTC_clade	Trebouxiophyceae	False	8	17230	9217	22	8622	587	0	0	18	18	18	4	0	22	8622	3	0	0.8181818181818182	control_pool_U	unicellular_clade			2.0	0.0
+UTC_clade	Ulvophyceae	False	8	17230	11340	14	6754	845	5	0	10	10	10	4	0	14	6754	1	0	0.7142857142857143	parent_edge_of:Ulvamut;parent_edge_of:Bryopsidales	mixed_clade			4.0	1.0
+Ulvophyceae	Ulvamut	True	9	11340	12874	4511	4227	1249	1	5	4454	4454	4457	52	5	4506	4222	203	1	0.9873642207936156	transition:stem:T_ulvophyceae					
+Ulvophyceae	Bryopsidales	False	9	11340	12421	325	1692	2440	8	1	302	302	304	22	3	324	1691	41	2	0.9292307692307692	transition:grey_stem:T_siphonous_coenocytic	stem	T_siphonous_coenocytic	exploratory	3.0	0.0
+Chlorophyta_Streptophyta	Streptophyta	False	6	24355	22036	182	5404	2902	1	9	113	113	117	60	17	173	5395	66	23	0.6208791208791209	parent_edge_of:Klebsormidiophyceae_Phragmoplastophyta	mixed_clade			14.0	9.0
+Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	False	7	22036	22638	239	3875	4163	75	4	189	189	193	46	5	235	3871	94	35	0.7907949790794979	transition:stem:T_streptophyta	stem	T_streptophyta	primary	12.0	9.0
+Klebsormidiophyceae_Phragmoplastophyta	Streptophytina	False	8	22638	23689	144	3112	3994	25	1	83	83	83	60	1	143	3111	35	13	0.5763888888888888	parent_edge_of:Charbra	mixed_clade			11.0	8.0
+Streptophytina	Charbra	True	9	23689	34608	13133	10343	8040	89	74	12042	12042	12077	1017	5	13059	10269	1150	54	0.9169268255539481	transition:nested_stem:T_chara					
+Coleochaetophyceae_Anydrophyta	Anydrophyta	False	10	21511	21417	94	3395	3171	36	0	73	73	74	21	2	94	3395	36	12	0.776595744680851	parent_edge_of:Embryophyta;parent_edge_of:Zygnematophyceae	mixed_clade			9.0	6.0
+Anydrophyta	Embryophyta	False	11	21417	21485	242	4405	4229	2	1	217	217	217	24	1	241	4404	117	60	0.8966942148760331	transition:nested_stem:T_embryophyta	stem	T_embryophyta	secondary	6.0	6.0
+Anydrophyta	Zygnematophyceae	False	11	21417	15804	31	8827	3153	30	1	25	25	25	5	0	30	8826	9	0	0.8064516129032258	transition:reversal_stem:T_rev_zygnematophyceae	stem	T_rev_zygnematophyceae	reversal	3.0	0.0
+Diaphoretickes	Haptista	False	3	42871	17119	176	28267	2143	196	40	21	21	25	115	0	136	28227	15	3	0.11931818181818182	control_pool_U	unicellular_clade			3.0	0.0
+Diaphoretickes	TSAR	False	3	42871	36293	1061	12520	4413	468	94	120	120	145	847	12	967	12426	57	3	0.11310084825636192	control_pool_U	mixed_clade			37.0	9.0
+TSAR	Sar	False	4	36293	37728	546	5124	5428	585	12	186	186	203	348	15	534	5112	82	3	0.34065934065934067	parent_edge_of:Alveolata;parent_edge_of:Stramenopiles	mixed_clade			36.0	9.0
+Sar	Alveolata	False	5	37728	21129	96	20171	3421	55	11	32	32	34	53	2	85	20160	15	0	0.3333333333333333	control_pool_U;parent_edge_of:Ciliophora;parent_edge_of:Myzozoa	unicellular_clade			8.0	0.0
+Alveolata	Ciliophora	False	6	21129	20860	290	6329	5620	150	3	208	208	212	79	0	287	6326	62	0	0.7172413793103448	control_pool_U	unicellular_clade			4.0	0.0
+Alveolata	Myzozoa	False	6	21129	14825	186	10152	3618	44	6	152	152	153	28	1	180	10146	52	10	0.8172043010752689	control_pool_U	unicellular_clade			4.0	0.0
+Sar	Rhizaria	False	5	37728	17232	53	22732	2158	25	8	20	20	22	25	0	45	22724	6	0	0.37735849056603776	parent_edge_of:Plasbra	mixed_clade			6.0	1.0
+Rhizaria	Plasbra	True	6	17232	9715	2388	11064	1156	3	7	2317	2317	2328	64	12	2381	11057	258	5	0.9702680067001676	transition:grey_stem:T_plasmodiophorid_plasmodium					
+Rhizaria	Cercozoa	False	6	17232	21447	113	1541	5604	39	2	67	67	69	44	0	111	1539	34	3	0.5929203539823009	parent_edge_of:Guttvul	mixed_clade			5.0	1.0
+Cercozoa	Guttvul	True	7	21447	8985	6603	19305	240	0	1	6561	6561	6566	41	9	6602	19304	170	0	0.9936392548841436	transition:stem:T_guttulinopsis					
+Sar	Stramenopiles	False	5	37728	26514	195	14675	3249	17	6	112	112	115	77	2	189	14669	48	1	0.5743589743589743	control_pool_U;parent_edge_of:Bigyra	mixed_clade			22.0	8.0
+Stramenopiles	Bigyra	False	6	26514	11589	18	16249	1294	12	2	6	6	6	10	0	16	16247	4	0	0.3333333333333333	control_pool_U	unicellular_clade			4.0	0.0
+Bigyra	Labyrinthulomycetes	False	7	11589	12632	113	1670	2585	15	1	90	90	90	22	0	112	1669	34	0	0.7964601769911505	parent_edge_of:LabyspSRHaC	unicellular_clade			3.0	0.0
+Labyrinthulomycetes	LabyspSRHaC	True	8	12632	16741	7538	5083	1654	0	15	7354	7354	7367	169	9	7523	5068	282	4	0.9755903422658531	transition:grey_stem:T_labyrinthula_nets					
+Stramenopiles	Gyrista	False	6	26514	30972	200	3013	7168	103	4	104	104	108	92	2	196	3009	57	2	0.52	parent_edge_of:Oomycota	mixed_clade			18.0	8.0
+Gyrista	Ochrophyta	False	7	30972	33771	439	3545	5855	50	4	293	293	298	142	17	435	3541	98	6	0.6674259681093394	parent_edge_of:PX_clade	mixed_clade			15.0	8.0
+Ochrophyta	PX_clade	False	8	33771	26494	542	11193	3366	8	12	403	403	407	127	49	530	11181	115	10	0.7435424354243543	transition:stem:T_px_filaments;parent_edge_of:Xanthophyceae	stem	T_px_filaments	primary	9.0	8.0
+PX_clade	Phaeophyceae_Schizocladia	False	9	26494	20568	398	8829	2501	4	5	340	340	343	53	2	393	8824	71	0	0.8542713567839196	parent_edge_of:Phaeophyceae	multicellular_clade			6.0	6.0
+Phaeophyceae_Schizocladia	Phaeophyceae	False	10	20568	23482	258	2277	4913	20	6	212	212	213	40	1	252	2271	38	0	0.8217054263565892	transition:nested_stem:T_phaeophyceae	stem	T_phaeophyceae	exploratory	5.0	5.0
+PX_clade	Xanthophyceae	False	9	26494	12348	71	15543	1326	0	2	53	53	53	16	0	69	15541	8	0	0.7464788732394366	transition:grey_stem:T_xanthophyceae_filaments	stem	T_xanthophyceae_filaments	exploratory	2.0	1.0
+Gyrista	Oomycota	False	7	30972	14797	721	19604	2700	8	13	632	632	643	76	4	708	19591	200	17	0.8765603328710125	transition:grey_stem:T_oomycete_hyphae	stem	T_oomycete_hyphae	exploratory	3.0	0.0
+Bikonta	Discoba	False	2	28581	17618	357	14351	2532	499	67	66	66	84	224	4	290	14284	27	1	0.18487394957983194	control_pool_U	mixed_clade			9.0	1.0
+Discoba	Discicristata	False	3	17618	23581	305	781	5820	619	8	75	75	102	222	1	297	773	32	4	0.2459016393442623	parent_edge_of:Euglenozoa;parent_edge_of:Heterolobosea	mixed_clade			8.0	1.0
+Discicristata	Euglenozoa	False	4	23581	19645	84	7029	2902	107	1	19	19	23	64	1	83	7028	5	0	0.2261904761904762	control_pool_U	unicellular_clade			3.0	0.0
+Discicristata	Heterolobosea	False	4	23581	14885	183	10964	2052	33	1	102	102	107	80	3	182	10963	37	1	0.5573770491803278	control_pool_U	mixed_clade			5.0	1.0
+Heterolobosea	Tetramitia	False	5	14885	15274	426	2209	2142	30	12	293	293	318	121	9	414	2197	106	2	0.687793427230047	parent_edge_of:Acrakon	mixed_clade			4.0	1.0
+Tetramitia	Acrakon	True	6	15274	15387	3944	6230	2388	11	29	3715	3715	3728	200	23	3915	6201	399	9	0.9419371196754563	transition:stem:T_acrasis					
+Eukaryota	Podiata	False	1	16577	22073	1698	0	3798	0	0	199	199	241	1499	93	1698	0	140	25	0.11719670200235571	parent_edge_of:Amorphea;parent_edge_of:CRuMs	root_child			89.0	44.0
+Podiata	Amorphea	False	2	22073	31958	2211	1267	6403	2538	34	678	678	741	1499	169	2177	1233	423	65	0.3066485753052917	control_pool_U;parent_edge_of:Amoebozoa;parent_edge_of:Obazoa	mixed_clade			87.0	44.0
+Amorphea	Amoebozoa	False	3	31958	25705	1070	11902	4251	328	44	285	285	318	741	32	1026	11858	124	9	0.26635514018691586	control_pool_U;parent_edge_of:Discosea;parent_edge_of:Evosea;parent_edge_of:Tubulinea	mixed_clade			18.0	7.0
+Amoebozoa	Discosea	False	4	25705	13776	128	13590	1478	55	21	16	16	24	91	1	107	13569	9	2	0.125	control_pool_U	unicellular_clade			2.0	0.0
+Amoebozoa	Evosea	False	4	25705	21165	261	7840	2913	126	23	82	82	103	156	6	238	7817	37	3	0.31417624521072796	control_pool_U;parent_edge_of:Variosea	mixed_clade			12.0	6.0
+Evosea	Eumycetozoa	False	5	21165	15542	140	7964	2147	54	14	74	74	83	52	4	126	7950	43	3	0.5285714285714286	parent_edge_of:Dictyostelia	mixed_clade			8.0	6.0
+Eumycetozoa	Dictyostelia	False	6	15542	10942	598	6726	1510	18	12	507	507	533	79	4	586	6714	192	10	0.8478260869565217	transition:stem:T_dictyostelia	stem	T_dictyostelia	primary	6.0	6.0
+Eumycetozoa	Myxogastria_Ceratiomyxa	False	6	15542	17430	125	2685	4417	31	2	93	93	96	30	3	123	2683	30	0	0.744	parent_edge_of:Physpol	unicellular_clade			2.0	0.0
+Myxogastria_Ceratiomyxa	Physpol	True	7	17430	24460	7009	2757	2735	43	8	6679	6679	6759	322	37	7001	2749	740	24	0.9529176772720788	transition:grey_stem:T_myxogastria_plasmodium					
+Evosea	Variosea	False	5	21165	16091	484	8073	2431	84	19	344	344	361	121	6	465	8054	94	5	0.7107438016528925	control_pool_U	unicellular_clade			3.0	0.0
+Amoebozoa	Tubulinea	False	4	25705	17602	279	10913	2438	93	22	93	93	104	164	2	257	10891	37	2	0.3333333333333333	control_pool_U	mixed_clade			4.0	1.0
+Tubulinea	Elardia	False	5	17602	20470	436	1964	4228	168	8	227	227	261	201	5	428	1956	67	4	0.5206422018348624	parent_edge_of:Coprpro	mixed_clade			3.0	1.0
+Elardia	Coprpro	True	6	20470	15444	3993	10451	1416	16	27	3753	3753	3846	213	11	3966	10424	411	16	0.9398948159278738	transition:stem:T_copromyxa					
+Amorphea	Obazoa	False	3	31958	26365	275	8167	2238	61	24	38	38	48	213	5	251	8143	29	10	0.13818181818181818	control_pool_U	mixed_clade			69.0	37.0
+Apusomonadida_Opisthokonta	Opisthokonta	False	5	30771	33152	559	1195	2956	61	1	320	320	330	238	76	558	1194	142	38	0.5724508050089445	parent_edge_of:Holomycota	mixed_clade			67.0	37.0
+Opisthokonta	Holomycota	False	6	33152	14797	60	19574	1159	0	4	24	24	25	32	2	56	19570	20	5	0.4	control_pool_U;parent_edge_of:Fungi	mixed_clade			35.0	22.0
+Holomycota	Fungi	False	7	14797	12729	56	3678	1504	50	1	32	32	36	23	2	55	3677	15	5	0.5714285714285714	control_pool_U	mixed_clade			33.0	21.0
+Aphelida_Eumycota	Eumycota	False	9	14100	15344	160	513	1596	1	0	130	130	131	30	9	160	513	73	23	0.8125	parent_edge_of:Blastocladiomycota_Amastigomycota	mixed_clade			31.0	21.0
+Eumycota	Blastocladiomycota_Amastigomycota	False	10	15344	12970	20	3511	1117	0	1	13	13	13	6	0	19	3510	7	3	0.65	transition:path_edge:T_fungi_hyphae;parent_edge_of:Amastigomycota	mixed_clade			27.0	20.0
+Blastocladiomycota_Amastigomycota	Amastigomycota	False	11	12970	12525	123	2617	2048	1	0	107	107	109	16	2	123	2617	57	13	0.8699186991869918	transition:stem:T_fungi_hyphae	stem	T_fungi_hyphae	primary	26.0	19.0
+Ascomycota	Taphrinomycotina	False	15	9582	6897	39	3054	330	0	0	26	26	26	13	0	39	3054	13	1	0.6666666666666666	parent_edge_of:Neolirr;parent_edge_of:Saitcom;parent_edge_of:Schipom	mixed_clade			4.0	2.0
+Taphrinomycotina	Neolirr	True	16	6897	5515	1038	2675	255	0	6	1009	1009	1012	23	0	1032	2669	84	0	0.9720616570327553	transition:nested_stem:T_fungi_neolecta					
+Taphrinomycotina	Saitcom	True	16	6897	7118	1544	1786	463	0	3	1522	1522	1524	19	3	1541	1783	92	1	0.9857512953367875	transition:reversal_stem:T_rev_saitoella					
+Taphrinomycotina	Schipom	True	16	6897	5068	641	2869	399	0	5	625	625	625	11	3	636	2864	223	57	0.9750390015600624	transition:reversal_stem:T_rev_schizosaccharomyces					
+Ascomycota	saccharomyceta	False	15	9582	9826	72	829	989	12	1	56	56	56	15	1	71	828	33	5	0.7777777777777778	parent_edge_of:Pezizomycotina;parent_edge_of:Saccharomycotina	mixed_clade			8.0	5.0
+saccharomyceta	Pezizomycotina	False	16	9826	10269	214	1043	1272	0	2	200	200	200	12	2	212	1041	87	24	0.9345794392523364	transition:nested_stem:T_fungi_pezizomycotina	stem	T_fungi_pezizomycotina	secondary	5.0	5.0
+saccharomyceta	Saccharomycotina	False	16	9826	7013	50	3502	639	0	0	47	47	47	3	0	50	3502	30	11	0.94	transition:reversal_stem:T_rev_saccharomycotina	stem	T_rev_saccharomycotina	reversal	3.0	0.0
+Dikarya	Basidiomycota	False	14	10381	8948	115	2476	917	11	0	100	100	101	15	0	115	2476	41	2	0.8695652173913043	parent_edge_of:Rhodtor	mixed_clade			9.0	7.0
+Basidiomycota	Rhodtor	True	15	8948	8157	1847	3216	570	8	4	1804	1804	1804	39	0	1843	3212	173	2	0.9767190037899296	transition:reversal_stem:T_rev_rhodotorula					
+Wallemiomycotina_Agaricomycotina	Agaricomycotina	False	17	9363	10389	60	219	1185	0	0	55	55	55	5	0	60	219	14	0	0.9166666666666666	parent_edge_of:Agaricomycetes_Dacrymycetes	mixed_clade			6.0	5.0
+Agaricomycotina	Agaricomycetes_Dacrymycetes	False	18	10389	10791	199	723	899	27	2	179	179	179	18	1	197	721	69	2	0.8994974874371859	transition:nested_stem:T_fungi_agaricomycetes	stem	T_fungi_agaricomycetes	secondary	4.0	4.0
+Agaricomycotina	Tremellales	False	18	10389	6560	382	4581	370	0	7	364	364	365	11	0	375	4574	60	0	0.9528795811518325	parent_edge_of:Crypneo;parent_edge_of:Tremmes	mixed_clade			2.0	1.0
+Tremellales	Crypneo	True	19	6560	6958	737	650	311	0	4	716	716	716	17	0	733	646	47	14	0.9715061058344641	transition:reversal_stem:T_rev_cryptococcus					
+Tremellales	Tremmes	True	19	6560	8059	1951	691	239	0	2	1915	1915	1915	34	0	1949	689	73	1	0.981547924141466	transition:nested_stem:T_fungi_tremella					
+Eumycota	chytridiomyceta	False	10	15344	11940	64	5021	1537	16	0	54	54	54	10	0	64	5021	25	1	0.84375	parent_edge_of:Gonapro	mixed_clade			4.0	1.0
+chytridiomyceta	Gonapro	True	11	11940	13795	4348	4432	1913	26	10	4254	4254	4260	84	18	4338	4422	433	2	0.9783808647654094	transition:stem:T_fungi_hyphae_gonapodya					
+Holomycota	Rotosphaerida	False	7	14797	10810	31	6109	2078	13	4	15	15	18	12	0	27	6105	7	0	0.4838709677419355	parent_edge_of:Fontalb	mixed_clade			2.0	1.0
+Rotosphaerida	Fontalb	True	8	10810	5894	1805	7001	280	0	7	1776	1776	1782	22	0	1798	6994	242	4	0.9839335180055402	transition:stem:T_fonticula					
+Opisthokonta	Holozoa	False	6	33152	34375	431	3775	4546	21	1	293	293	310	137	16	430	3774	132	43	0.679814385150812	parent_edge_of:Teretosporea	mixed_clade			32.0	15.0
+Filozoa	Choanozoa	False	8	36806	35878	198	5783	4539	118	2	118	118	120	78	10	196	5781	93	23	0.5959595959595959	parent_edge_of:Metazoa	mixed_clade			23.0	15.0
+Choanoflagellata	Salpingoecidae	False	10	26172	24836	1034	6094	3637	87	8	884	884	924	142	5	1026	6086	279	10	0.8549323017408124	parent_edge_of:Barrmon;parent_edge_of:Choafle;parent_edge_of:Codohol;parent_edge_of:Salpros	unicellular_clade			6.0	0.0
+Salpingoecidae	Barrmon	True	11	24836	10834	2518	16656	132	4	17	2440	2440	2445	61	1	2501	16639	74	0	0.9690230341540905	transition:grey_stem:T_choano_colonies					
+Salpingoecidae	Choafle	True	11	24836	13753	3071	14885	724	7	41	2858	2858	2867	172	41	3030	14844	224	9	0.9306414848583523	transition:grey_stem:T_choano_colonies					
+Salpingoecidae	Codohol	True	11	24836	31934	14629	10774	3234	9	21	14077	14078	14143	531	274	14608	10753	660	22	0.9622667304668808	transition:grey_stem:T_choano_colonies					
+Salpingoecidae	Salpros	True	11	24836	11614	1518	15677	935	2	21	1422	1422	1429	75	3	1497	15656	127	3	0.9367588932806324	transition:grey_stem:T_choano_colonies					
+Choanozoa	Metazoa	False	9	35878	30764	760	11593	5677	42	6	594	594	619	160	7	754	11587	391	180	0.781578947368421	transition:stem:T_metazoa	stem	T_metazoa	primary	15.0	15.0
+Filozoa	Filasterea	False	8	36806	19267	42	20131	2538	12	4	23	23	25	15	0	38	20127	14	3	0.5476190476190477	parent_edge_of:Capsowc	unicellular_clade			3.0	0.0
+Filasterea	Capsowc	True	9	19267	8733	1448	12663	678	3	3	1407	1407	1411	38	12	1445	12660	273	4	0.9716850828729282	transition:grey_stem:T_capsaspora_aggregation					
+Holozoa	Teretosporea	False	7	34375	15183	48	20804	1545	19	2	27	27	28	19	1	46	20802	8	0	0.5625	transition:grey_stem:T_ichthyosporea_coenocytic	stem	T_ichthyosporea_coenocytic	exploratory	6.0	0.0
+Podiata	CRuMs	False	2	22073	11616	290	13205	2024	434	41	56	56	69	193	1	249	13164	34	3	0.19310344827586207	control_pool_U	unicellular_clade			2.0	0.0

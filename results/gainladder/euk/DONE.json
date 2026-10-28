@@ -1,0 +1,38 @@
+{
+ "status": "done",
+ "run": "euk",
+ "mcell_version": "0.1.0",
+ "orthoxml": "runs/euk_fast/hogs.orthoxml",
+ "n_gains": 122945,
+ "n_split_repaired": 1215,
+ "n_seq_novel": 100653,
+ "search": {
+  "cmd": "nice -n 5 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/euk/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/db/all_euk_prok.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/euk/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 20 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+  "wall_s": 2364.8,
+  "passes": [
+   {
+    "cmd": "nice -n 5 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/euk/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/db/all_euk_prok.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/euk/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 20 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+    "wall_s": 844.4,
+    "n_queries": 122945
+   },
+   {
+    "cmd": "nice -n 5 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/euk/queries_pass2.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/db/all_euk_prok.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/euk/hits_pass2.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 20 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+    "wall_s": 1520.4,
+    "n_queries": 40927
+   }
+  ],
+  "sensitivity": "very-sensitive",
+  "nice": 5,
+  "threads": 20,
+  "two_pass": true,
+  "n_queries": 163872,
+  "n_queries_pass1": 122945,
+  "n_queries_pass2": 40927
+ },
+ "pfam": {
+  "n_species_with_pfam": 268,
+  "n_species_total": 269
+ },
+ "finished": "2026-10-28T23:26:08+0100",
+ "peak_rss_gb": 3.7
+}

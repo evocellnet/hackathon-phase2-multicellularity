@@ -1,10 +1,8 @@
 {
  "status": "done",
- "finished": "2026-10-28T22:41:49",
- "n_tests": 14,
- "holm_missing": [
-  "H1H2"
- ],
- "ladder": false,
- "wall_s": 47
+ "finished": "2026-10-29T00:54:17",
+ "n_tests": 20,
+ "holm_missing": [],
+ "ladder": true,
+ "wall_s": 2545
 }

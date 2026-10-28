@@ -1,0 +1,157 @@
+{
+ "run": "euk",
+ "pool": "U",
+ "n_pool": 30,
+ "n_annotated": 187,
+ "n_species": 187,
+ "n_architectures": 94146,
+ "n_multi": 79080,
+ "n_new_multi_any_branch": 23743,
+ "stems": {
+  "T_metazoa": {
+   "branch": "Metazoa",
+   "new_arch_all": 1428.0,
+   "new_arch_multi": 1131.0,
+   "new_arch_recombined": 749.0
+  },
+  "T_fungi_hyphae": {
+   "branch": "Amastigomycota",
+   "new_arch_all": 134.0,
+   "new_arch_multi": 92.0,
+   "new_arch_recombined": 72.0
+  },
+  "T_dictyostelia": {
+   "branch": "Dictyostelia",
+   "new_arch_all": 146.0,
+   "new_arch_multi": 131.0,
+   "new_arch_recombined": 108.0
+  },
+  "T_streptophyta": {
+   "branch": "Klebsormidiophyceae_Phragmoplastophyta",
+   "new_arch_all": 174.0,
+   "new_arch_multi": 131.0,
+   "new_arch_recombined": 92.0
+  },
+  "T_rhodophyta": {
+   "branch": "Eurhodophytina",
+   "new_arch_all": 12.0,
+   "new_arch_multi": 11.0,
+   "new_arch_recombined": 11.0
+  },
+  "T_px_filaments": {
+   "branch": "PX_clade",
+   "new_arch_all": 117.0,
+   "new_arch_multi": 87.0,
+   "new_arch_recombined": 82.0
+  },
+  "T_volvocine_tgv": {
+   "branch": "Gonium_Volvocaceae",
+   "new_arch_all": 46.0,
+   "new_arch_multi": 45.0,
+   "new_arch_recombined": 45.0
+  }
+ },
+ "pool_mean": {
+  "new_arch_all": 144.4,
+  "new_arch_multi": 118.83333333333333,
+  "new_arch_recombined": 112.76666666666667
+ },
+ "tests": [
+  {
+   "statistic": "new_arch_multi",
+   "version": "residual",
+   "n": 7,
+   "k": 20,
+   "T_obs": 0.79932,
+   "p": 0.0053,
+   "p_mcse": 0.00073,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": 0.02396,
+   "ci_low": -1.01919,
+   "ci_high": 1.06712,
+   "pool": "U",
+   "glm": "method=nb; alpha=0.4842515677501035; covariates=['log_bl', 'log_n_desc', 'log_n_sister', 'frac_tx_desc']; n_fallback=0",
+   "q_bh": 0.0159
+  },
+  {
+   "statistic": "new_arch_multi",
+   "version": "raw",
+   "n": 7,
+   "k": 20,
+   "T_obs": 0.71088,
+   "p": 0.0412,
+   "p_mcse": 0.00199,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": 0.02396,
+   "ci_low": -1.01919,
+   "ci_high": 1.06712,
+   "pool": "U",
+   "glm": "",
+   "q_bh": 0.04968
+  },
+  {
+   "statistic": "new_arch_recombined",
+   "version": "residual",
+   "n": 7,
+   "k": 20,
+   "T_obs": 0.77211,
+   "p": 0.0115,
+   "p_mcse": 0.00107,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": -0.10431,
+   "ci_low": -1.16,
+   "ci_high": 0.95137,
+   "pool": "U",
+   "glm": "method=nb; alpha=0.5193573340452567; covariates=['log_bl', 'log_n_desc', 'log_n_sister', 'frac_tx_desc']; n_fallback=0",
+   "q_bh": 0.023
+  },
+  {
+   "statistic": "new_arch_recombined",
+   "version": "raw",
+   "n": 7,
+   "k": 20,
+   "T_obs": 0.68367,
+   "p": 0.06619,
+   "p_mcse": 0.00249,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": -0.10431,
+   "ci_low": -1.16,
+   "ci_high": 0.95137,
+   "pool": "U",
+   "glm": "",
+   "q_bh": 0.06619
+  },
+  {
+   "statistic": "new_arch_all",
+   "version": "residual",
+   "n": 7,
+   "k": 20,
+   "T_obs": 0.80612,
+   "p": 0.0046,
+   "p_mcse": 0.00068,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": 0.06993,
+   "ci_low": -0.98252,
+   "ci_high": 1.12238,
+   "pool": "U",
+   "glm": "method=nb; alpha=0.4530743699294598; covariates=['log_bl', 'log_n_desc', 'log_n_sister', 'frac_tx_desc']; n_fallback=0",
+   "q_bh": 0.0159
+  },
+  {
+   "statistic": "new_arch_all",
+   "version": "raw",
+   "n": 7,
+   "k": 20,
+   "T_obs": 0.71088,
+   "p": 0.0414,
+   "p_mcse": 0.00199,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": 0.06993,
+   "ci_low": -0.98252,
+   "ci_high": 1.12238,
+   "pool": "U",
+   "glm": "",
+   "q_bh": 0.04968
+  }
+ ]
+}

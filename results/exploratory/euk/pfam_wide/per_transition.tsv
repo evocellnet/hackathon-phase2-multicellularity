@@ -1,0 +1,8 @@
+transition	evaluable	n_M_annot	n_S_annot	n_out_annot	n_domains	n_tested_mwu	n_expanded	n_expanded_by_test	n_gained	n_contracted	n_lost	n_pfam_exp_or_gain	n_hog_expanded	n_both
+T_metazoa	True	15	8	172	18661	12919	1643	1468	363	148	110	2006	186	117
+T_fungi_hyphae	True	26	4	161	18661	8223	134	31	73	139	314	207	69	2
+T_dictyostelia	True	6	2	181	18661	5703	238	0	16	326	1356	254	41	12
+T_streptophyta	True	12	2	175	18661	7872	910	0	223	134	439	1133	58	25
+T_rhodophyta	True	5	2	182	18661	4403	122	0	2	148	508	124	5	0
+T_px_filaments	True	9	6	178	18661	8280	185	0	0	77	82	185	121	12
+T_volvocine_tgv	True	5	3	182	18661	4476	45	0	0	64	60	45	169	2
