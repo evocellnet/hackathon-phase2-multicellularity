@@ -6,6 +6,19 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## Status summary (latest first)
 
+### M3 — 2026-10-28 20:20 (t ≈ 8.0 h): waiting on the eukaryote Ancestra run; primary H9 negative
+The eukaryote Ancestra run is the bottleneck. Its family stage took 5.3 h because single-linkage similarity joined 73% of all
+eukaryotic proteins into one component that Ancestra must cut into ≤7,500-gene families with Leiden (D8); within-family scoring is
+~60% done (26 DIAMOND blocks, ETA ~22:00), then the merge. The eukaryote gain-ladder search starts automatically when Ancestra
+finishes (est. 2.5–5 h), after which the primary gene-content tests run with one command. Full Pfam 119/187, disorder 112/187.
+The prokaryote run is complete and served as the pipeline dry run (both prokaryotic positive controls recovered).
+
+Results so far: the pre-registered rate test H9 is negative (p = 0.27; pooled rate ratio 1.10 [0.96, 1.26], i.e. no ≥1.5-fold
+shift) with heterogeneous per-transition directions; exploratory gene-level RER and Kr/Kc found nothing. Before any eukaryote HOG
+output, two method facts were established and turned into pre-committed rules: raw gains are inflated 2.1–2.6× (simulations), and on
+our tree stems are gain-inflated 1.7–2.2× more than controls, so a "burst" claim now needs a pooled effect > 2.2 (Dev-4). A fresh-agent
+retrospective led to pruned LESSONS and a precise PREREG clarification of what had been seen when each deviation was made.
+
 ### M2 — 2026-10-28 14:25 (t ≈ 2.1 h): pre-registration frozen
 Design went through three review rounds (5 + 3 reviewers + a final pre-registration audit) and is frozen as DESIGN v3.1 / PREREG.md
 (tag `prereg-v1`, 15 hashed inputs) before any eukaryote Ancestra output existed. The reviews changed the project substantially: raw
@@ -41,22 +54,25 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 
 ## Tree
 
-- [~] 0. Setup: environment, record files, generic resources (taxdump, Pfam)
-- [x] 1. Literature review → LITERATURE.md (16 hypotheses; 249 refs)
+- [x] 0. Setup: environments (ancestra pinned, annot, busco), taxdump, Pfam 38.2, BUSCO odb10
+- [x] 1. Literature review → LITERATURE.md (16 hypotheses; 254 refs)
 - [x] 2. Data scouting → data/species_candidates*.tsv, docs/DATA_SOURCES_SCOUTING.md
-- [x] 2b. HOG parser (mcell.hogs): exact on true HOGs; Ancestra gains inflated 2.1–2.6× on sims
-- [x] 2c. Statistics engine (mcell.branchstats), calibrated permutation null
-- [~] 2d. Gain-evidence ladder (mcell.gainladder)
-- [~] 2e. Phylogenomics: BUSCO-marker tree, gene trees, H9 and RER (mcell.rates)
+- [x] 3. Design → DESIGN.md v3.1 after 3 review rounds; PREREG frozen (tag prereg-v1); Dev-1–Dev-4
 - [x] 4. Dataset: 187 euk (2.97 M proteins) + 82 prok (0.41 M); BUSCO; guide trees (62 edits); transitions.tsv
-- [x] 3. Design → DESIGN.md v3.1 after 3 review rounds; PREREG frozen (tag prereg-v1)
-- [~] 5. Ancestra runs: euk `fast` and prok `fast` running (no 40-proteome timing test: skipped since dataset was under the 3.0 M cap and the watchdog guards memory)
-- [~] 6. Analyses
-  - [-] H9 primary (genome-wide rate shift): p=0.27, pooled ratio 1.10 [0.96,1.26]; heterogeneous: faster in Dictyostelia/volvocines/red algae/fungi, slower in Metazoa/PX; seed-sensitive (p 0.19–0.61)
-  - [-] Gene-level RER (250 BUSCO markers, exploratory): 0 genes q<0.10; no gene shifts consistently across ≥4 transitions
-  - [-] Kr/Kc radical/conservative (exploratory): no support for relaxed constraint (p=0.60/0.16); H9 worded as 'rate shift'
-- [ ] 7. Verification by independent agents
-- [ ] 8. Report
+- [x] 5a. Method validation: HOG parser exact on true HOGs; Ancestra gains 2.1–2.6× inflated (sims); statistics engine calibrated (permute; parametric bootstrap for H1/H2); gain ladder (split repair rejected; novel precision 0.42–0.56); tree calibration (stem gain bias 1.7–2.2×)
+- [x] 5b. Ancestra prokaryote run (fast; 1.4 h) — dry run; gain ladder; descriptive stats; P1/P2 controls recovered
+- [~] 5c. Ancestra eukaryote run (fast): families done (5.3 h, giant component D8), scoring ~60%, merge pending
+- [~] 5d. Annotation: Pfam pre-registered subset done (269/269); full Pfam 119/187 euk; disorder 112/187 euk
+- [ ] 6. PRIMARY tests (H1/H2, H4, H5, H12 on euk; Holm with H9) + positive controls
+  - [x] H9 (genome-wide rate shift): not detected — p = 0.27, pooled ratio 1.10 [0.96, 1.26] (no ≥1.5-fold shift); heterogeneous: faster in Dictyostelia/volvocines/red algae/fungi, slower in Metazoa/PX; seed-sensitive p 0.19–0.61
+- [ ] 7. Secondary: nested complex transitions; prokaryote descriptive
+- [ ] 8. EXPLORATORY
+  - [x] gene-level RER (250 markers): 0 genes at q < 0.10; none consistent across ≥ 4 transitions
+  - [x] Kr/Kc radical/conservative: no support for relaxed constraint (p = 0.60 / 0.16)
+  - [ ] Pfam-wide gains/expansions + convergence; co-option index; new architectures (H11); protein traits (H10); reversals
+  - [ ] structure novelty of sequence-novel gains (Foldseek; Swiss-Prot fallback ready; per-species AFDB download ~10% at t=8h)
+- [ ] 9. Verification by independent agents (re-derive headline numbers; citation audit; H9 unaffected by stem-path bug)
+- [~] 10. Report: pre-results sections + Figures 1, 2, S1 drafted (report/REPORT_draft_methods.md)
 
 ## Decision log
 - D0 (t=0): Eukaryote and prokaryote runs kept separate (see M0).

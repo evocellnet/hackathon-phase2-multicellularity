@@ -74,3 +74,10 @@ Any change after the freeze is added here with date, reason and whether it was m
   rule fixed now: a "burst of novelty" (H2) is claimed only if H1/H2 is significant after Holm AND the pooled observed/expected
   effect for sequence-novel gains exceeds 2.2 (the upper calibrated bias); a significant effect below 2.2 is reported as "not
   distinguishable from method bias". A deficit or a null result is not explained by this bias and is interpreted as usual.
+- **Clarification (2026-10-28 20:20, corrective entry; nothing changed).** "Before any eukaryote output existed" in Dev-1–Dev-4 means:
+  no eukaryote HOGs, branch events or test statistics existed or had been inspected. Precisely: Dev-1 (~14:45) preceded all eukaryote
+  Ancestra stages; Dev-2/Dev-3 (18:19) and Dev-4 (19:47) were made after the eukaryote *family* stage had finished (18:41 is when its
+  completion was noticed; families were not parsed or inspected) and while scoring was running. The primary H9 rate test (BUSCO markers,
+  independent of Ancestra) and the exploratory gene-level RER/Kr/Kc had already been run (15:21–15:40); Dev-1–Dev-4 concern only the
+  gene-content tests (H1/H2) and gain ladder, not H9. Earlier timestamp edits (Dev-2, Dev-4) corrected values written without checking
+  the clock; they are visible in git history.

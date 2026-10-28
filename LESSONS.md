@@ -1,13 +1,14 @@
 # LESSONS — process rules for running this project efficiently
 
-One line per rule, with the evidence that motivated it. Pruned at each milestone.
+One line per rule, with the evidence that motivated it. Pruned at milestone M3 (t≈8 h) from 9 raw rules after a fresh-agent retrospective (agents/retrospective_M3.md).
 
-1. Start long, independent jobs (environment build, large downloads) before planning work, so they finish while thinking. (Env build and Pfam/taxdump downloads launched at t=0.)
-2. Never `pip install` extra tools into the pinned Ancestra env: metapredict silently upgraded numpy/scipy and pulled torch (11 test failures risk). Use a separate env (`conda_envs/annot`) per tool family and re-run the Ancestra tests after any env change.
-3. Background subshells launched with `( ... ) &` inside a Bash call can die silently (Pfam download produced nothing); use the tool's run_in_background mode for downloads.
-4. Conda env CLI scripts with '#!/usr/bin/env python3' shebangs run the base python unless the env's bin is first on PATH; always prepend the env bin to PATH. (BUSCO 'No module named busco' cost two rebuilds.)
-5. Check `date` against START.txt before writing any timestamp; never estimate elapsed time from agent durations (M1 was mis-stamped by 1 h).
-6. Give every agent an explicit CPU cap and require `nice -n 19` for non-critical work; four agents each launching 'a few' jobs pushed load to 73 on 24 CPUs and stalled the critical-path Ancestra run (t≈2h).
-7. Check external API rate limits before planning downloads: AFDB/EBI throttles at ~3 req/s (HTTP 429), turning a '1–1.5 h' estimate into 12–13 h; prefer bulk prebuilt databases (e.g. foldseek databases) when they exist.
-8. Before a large Ancestra run on a new kind of data, compute the S0 stage-2 connected-component size distribution from a pilot (scripts/ancestra_patch/component_sizes.py): a 73%-of-genes giant component made the Leiden split the dominant cost (t≈4–6h).
-9. Never use `pkill -f`/`pgrep -f` with a pattern that also appears in your own command line — it kills the calling shell (exit 144, twice at t≈6.3h). Kill by PID.
+1. Start long independent jobs (env builds, downloads) at t=0, before planning. (Env/Pfam/taxdump launched at t=0; dataset build before review end, D1.)
+2. Run a cheap pilot before any long run on new data, and put the result in the tree: component-size/timing/rate-limit. (No pilot for eukaryote Ancestra: giant 73% component cost t=4-6 h, D8; AFDB 3 req/s turned 1-1.5 h into 12-13 h, forcing a Swiss-Prot fallback.)
+3. Run every pipeline end-to-end on the small/cheap dataset with positive controls before the expensive one. (Prok dry run recovered P1/P2; patched Leiden verified byte-identical on prokaryotes.)
+4. Calibrate each statistic on simulations/the real tree before using it, and fix interpretation thresholds in advance. (Relabelling null 14.5% FPR; split repair failed; Dev-4 2.2x rule; raw Ancestra gains 2.1-2.6x inflated.)
+5. Get independent adversarial review before freezing and again before relying on results; the author does not review their own code. (Three design rounds rewrote stems/nulls/statistic; shadowed T_volvocales_gv bug found by another agent.)
+6. Log every post-freeze change as a dated deviation stating what results had been seen; use `date` against START.txt, never edit old timestamps, and add a corrective entry instead. (Dev-2 and Dev-4 timestamp-fix commits; M1 mis-stamped by 1 h.)
+7. Keep the research tree current at every milestone (summary, status boxes, order), separate primary from exploratory results, and label underpowered nulls as such. (Tree last updated M2 at 2.1 h while at 7.5 h; null results marked [-] despite 13-35% power.)
+8. Cap CPUs per agent (explicit thread count, `nice -n 19` for non-critical jobs). (Load 73 on 24 CPUs stalled the critical Ancestra run at t~2 h.)
+9. Isolate environments and always call env binaries by full path or env-first PATH; never install into the pinned env. (metapredict upgraded numpy/scipy, pulled torch; BUSCO 'No module named busco' cost two rebuilds.)
+10. Use the tool's background mode for long jobs and kill by PID, never `pkill -f` with a pattern in your own command line. (`( ... ) &` Pfam download died silently; pkill -f killed the caller twice, exit 144.)
