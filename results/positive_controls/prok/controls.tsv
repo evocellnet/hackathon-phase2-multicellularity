@@ -1,0 +1,3 @@
+control	expected	confidence	recovered	observed	components	notes	pi_resolution
+P1	presence: filamentous cyanobacteria vs unicellular cyanobacteria	moderate	yes	2/3 Pfams pass; PF18460: filamentous 0.94 (n=16), unicellular 0.00 (n=8) -> pass; PF28069: heterocystous 1.00 (n=10), unicellular 0.25 (n=8) -> fail; PF24301: filamentous 0.94 (n=16), unicellular 0.00 (n=8) -> pass		unicellular group: Chrothe, Synesp1111708, Syneelo, Crocsub, Acarmar, Therves, Gloelit, Gloevio	
+P2	presence: Streptomyces	moderate	yes	PF25848: 1.00 of 3 species (Strecoe:2, Streven:3, Kitaset:2); PF21179: 1.00 of 3 species (Strecoe:1, Streven:1, Kitaset:1)			
