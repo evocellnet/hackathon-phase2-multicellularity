@@ -1,0 +1,8 @@
+transition_id	excluded_taxon_names	excluded_taxids	except_taxids	note
+T_metazoa	Metazoa	33208		M = Metazoa
+T_fungi_hyphae	Dikarya,Mucoromycota,Zoopagomycota	451864,1913637,1913638		M = Amastigomycota (no NCBI taxon) = Dikarya + Mucoromycota + Zoopagomycota (hyphal fungi); chytrids/Blastocladiomycota/Neocallimastigomycota (P side) retained
+T_dictyostelia	Dictyostelia	33083		M = Dictyostelia
+T_streptophyta	Streptophyta	35493		M = Klebsormidiophyceae+Phragmoplastophyta; whole Streptophyta excluded (conservative; also drops Mesostigma/Chlorokybus, which are absent from Swiss-Prot anyway); Chlorophyta retained
+T_rhodophyta	Bangiophyceae,Florideophyceae	2797,2806	265318	M = Eurhodophytina = Bangiophyceae + Florideophyceae; NCBI places Cyanidiales (Cyanidioschyzon, Galdieria; P side) inside Bangiophyceae, so Cyanidiales (265318) is an exception and retained
+T_px_filaments	Phaeophyceae,Xanthophyceae	2870,2833		M = PX clade (Phaeophyceae + Xanthophyceae); other Ochrophyta (diatoms, eustigmatophytes, ...) retained
+T_volvocine_tgv	Volvocaceae,Tetrabaenaceae	3065,47777		M = Gonium + Volvocaceae (Gonium/Pleodorina/Volvox are all in NCBI Volvocaceae; Tetrabaena in Tetrabaenaceae); Chlamydomonas (P) retained

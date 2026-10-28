@@ -30,8 +30,10 @@ for code in only:
     for a in accs:
         if a in known_missing: continue
         st, path, ver = res[a]
+        if st == 'error': continue   # not logged: retried on the next (resume) run
         pl = A.mean_plddt_from_pdb_gz(path) if path else ''
         logf.write(f'{a}\t{code}\t{st}\t{ver}\t{pl if pl=="" else round(pl,2)}\t{os.path.getsize(path) if path else 0}\n')
     logf.flush()
     c = [v[0] for v in res.values()]
+    if c.count('error') > 0.2 * max(1, len(c)): sys.exit(f'{code}: >20% errors, aborting (check network / rate limit)')
     print(code, {s: c.count(s) for s in set(c)}, f'{time.time()-t0:.0f}s', flush=True)

@@ -65,3 +65,17 @@ use set=gain / control for control-branch gains). Optional `sequence` column is 
 Positive: 187 Ostrtau models vs a 968-model Micrcom DB (~10% of the proteome): 30/122 pLDDT-pass queries hit (expected given coverage);
 vs. a T_streptophyta DB containing the query proteins: 16/16. Negative: 60 models with residue order shuffled -> 0/42 hits (E <= 1e-3, TM >= 0.5).
 Throughput: 164 queries x 968 targets exhaustive = 4 s on 2 threads.
+
+## Fallback reference: AFDB Swiss-Prot (`--ref swissprot`)
+- `foldseek databases Alphafold/Swiss-Prot` (1.5 GB download, ~2 min; 590,183 models, AFDB v6 file names) -> `runs/structure/afdb_sp/sp` (+ `sp_mapping` key -> NCBI taxid, `sp.lookup`).
+  (The foldseek call's final `mvdb` failed because the output dir did not exist; files were moved by hand. Create the dir first next time.)
+- A query is 'structurally old' if it has a hit with E <= 1e-3 and TM >= 0.5 (same thresholds) to a Swiss-Prot model whose NCBI taxon is
+  OUTSIDE the transition's multicellular clade M. M is defined per transition in `data/structure_ref_exclusion.tsv`
+  (excluded taxa + exceptions; NCBI taxdump `data/raw/taxdump`). Hits inside M are counted (`n_hits_in_M_excluded`) and ignored;
+  `best_taxid`/`best_taxon` reported. Notable: NCBI places Cyanidiales inside Bangiophyceae, hence an exception for T_rhodophyta;
+  Amastigomycota is not an NCBI taxon -> Dikarya+Mucoromycota+Zoopagomycota.
+- Cost: exhaustive search vs 590k targets ~8 s wall per query (4 threads); `--prefilter` is much faster but less sensitive.
+- Query fetching: 1 request per unique accession (no API call unless the file 404s), cached in runs/structure/query_models, and the 3 req/s
+  limiter is now shared across processes via a flock-ed state file (runs/structure/.afdb_rate_state), so query runs and the reference download together stay under the EBI limit.
+- Test (T_metazoa, human queries): actin P60709 -> S. pombe actin (TM 1.00), calmodulin -> Plasmodium CaM (0.98), globin -> Physcomitrium (0.84), Q8N3Y1 -> S. pombe (0.55): all old;
+  p53 (metazoan-specific-like) -> weak yeast hit TM 0.27: not old; 9/9 pLDDT-pass shuffled models: 0 hits.

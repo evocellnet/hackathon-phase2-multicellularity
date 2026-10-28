@@ -14,6 +14,10 @@ Input TSV (header required; tab-separated):
   sequence       optional; if given it is compared with the AFDB model's SEQRES (mismatch flagged)
   (any other columns are carried through to the output)
 
+--ref swissprot: search AFDB Swiss-Prot (runs/structure/afdb_sp/sp, from `foldseek databases Alphafold/Swiss-Prot`) instead of the
+P-side proteome DB; a hit counts only if its NCBI taxon is OUTSIDE the transition's multicellular clade M, as defined in
+data/structure_ref_exclusion.tsv (taxdump at data/raw/taxdump). Hits inside M are counted (n_hits_in_M_excluded) but ignored.
+
 Outputs  <out>.queries.tsv  (one row per input row) and <out>.summary.tsv (per transition_id,set).
 
 TM-score: foldseek alignment type 2 (3Di+AA) gives E-values; qtmscore/ttmscore/alntmscore are computed
@@ -43,6 +47,56 @@ def model_seq(path):
     return ''.join(seq)
 
 
+class SwissProtTax:
+    """Maps Swiss-Prot DB targets -> NCBI taxid (DB mapping file) and tests membership in the excluded clade M
+    of a transition using NCBI taxdump parent links (nodes.dmp, merged.dmp)."""
+    def __init__(self, root, excl_tsv=None, taxdump=None, dbprefix=None):
+        taxdump = taxdump or f'{root}/data/raw/taxdump'; self.taxdump = taxdump
+        dbp = dbprefix or f'{root}/runs/structure/afdb_sp/sp'
+        self.par = {}; self.names = {}
+        for l in open(f'{taxdump}/nodes.dmp'):
+            f = l.split('\t|\t'); self.par[int(f[0])] = int(f[1])
+        self.merged = {}
+        if os.path.exists(f'{taxdump}/merged.dmp'):
+            for l in open(f'{taxdump}/merged.dmp'):
+                f = l.split('\t|'); self.merged[int(f[0])] = int(f[1])
+        self.name2key = {}; self.key2tax = {}
+        for l in open(dbp + '.lookup'):
+            f = l.rstrip('\n').split('\t'); self.name2key[f[1]] = f[0]
+        for l in open(dbp + '_mapping'):
+            f = l.split(); self.key2tax[f[0]] = int(f[1])
+        self.ex = {}
+        for r in csv.DictReader(open(excl_tsv or f'{root}/data/structure_ref_exclusion.tsv'), delimiter='\t'):
+            ids = {int(x) for x in r['excluded_taxids'].split(',') if x}
+            exc = {int(x) for x in (r.get('except_taxids') or '').split(',') if x}
+            self.ex[r['transition_id']] = (ids, exc)
+        self.cache = {}
+    def taxid(self, target):
+        k = self.name2key.get(target)
+        if k is None: return 0
+        return self.key2tax.get(k, 0)
+    def lineage(self, t):
+        t = self.merged.get(t, t); out = []
+        while t in self.par and t not in out:
+            out.append(t)
+            if self.par[t] == t: break
+            t = self.par[t]
+        return out
+    def excluded(self, tid, t):
+        ids, exc = self.ex.get(tid, (set(), set()))
+        key = (tid, t)
+        if key not in self.cache:
+            ln = set(self.lineage(t))
+            self.cache[key] = bool(ln & ids) and not (ln & exc)
+        return self.cache[key]
+    def name(self, t):
+        if not self.names:
+            for l in open(self.taxdump + '/names.dmp'):
+                f = l.split('\t|\t')
+                if f[3].startswith('scientific'): self.names[int(f[0])] = f[1]
+        return self.names.get(t, str(t))
+
+
 def tm_value(row, metric):
     q, t, aln = float(row['qtm']), float(row['ttm']), float(row['alntm'])
     return {'q': q, 't': t, 'max': max(q, t), 'min': min(q, t), 'aln': aln}[metric]
@@ -52,6 +106,11 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('queries_tsv'); ap.add_argument('out_prefix')
     ap.add_argument('--root', default=os.environ.get('P', '/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity'))
+    ap.add_argument('--ref', default='proteome', choices=['proteome', 'swissprot'],
+                    help="proteome: P-side species DB per transition (build_refdb.py); swissprot: AFDB Swiss-Prot (runs/structure/afdb_sp/sp), "
+                         "hit must be to a taxon OUTSIDE the transition's multicellular clade M (data/structure_ref_exclusion.tsv)")
+    ap.add_argument('--exclusion', default=None, help='default <root>/data/structure_ref_exclusion.tsv')
+    ap.add_argument('--taxdump', default=None, help='default <root>/data/raw/taxdump')
     ap.add_argument('--db', help='override: a single Foldseek target DB for all queries (e.g. for tests)')
     ap.add_argument('--model-dir', help='where query models are cached (default <root>/runs/structure/query_models)')
     ap.add_argument('--min-plddt', type=float, default=70.0)
@@ -59,6 +118,7 @@ def main():
     ap.add_argument('--tm', type=float, default=0.5)
     ap.add_argument('--tm-metric', default='q', choices=['q', 't', 'max', 'min', 'aln'])
     ap.add_argument('--threads', type=int, default=4)
+    ap.add_argument('--prefilter', action='store_true', help='use the 3Di prefilter instead of exhaustive search (much faster on big DBs, less sensitive)')
     ap.add_argument('--no-nice', action='store_true')
     ap.add_argument('--no-download', action='store_true', help='only use cached models')
     ap.add_argument('--keep-tmp', action='store_true')
@@ -79,6 +139,9 @@ def main():
         r['_acc'] = r[accol].strip()
         r['_tid'] = r.get('transition_id', 'DB') if not a.db else 'DB'
         r['_set'] = (r.get('set') or 'gain')
+    sp = None
+    if a.ref == 'swissprot':
+        sp = SwissProtTax(a.root, a.exclusion, a.taxdump, a.db)
     # ---- fetch models + pLDDT filter
     accs = sorted({r['_acc'] for r in rows})
     def cached(acc):
@@ -99,7 +162,7 @@ def main():
             info[x] = dict(path=p, plddt=A.mean_plddt_from_pdb_gz(p), st='ok')
     # ---- search per transition
     hits = {}   # (tid, acc) -> best hit dict
-    nh = {}
+    nh = {}; nin = {}
     groups = {}
     for r in rows:
         i = info[r['_acc']]
@@ -107,7 +170,7 @@ def main():
             groups.setdefault(r['_tid'], set()).add(r['_acc'])
     tmp = tempfile.mkdtemp(prefix='ngs_', dir=os.environ.get('TMPDIR'))
     for tid, qs in groups.items():
-        db = a.db or f'{a.root}/runs/structure/refdb/{tid}/db'
+        db = a.db or (f'{a.root}/runs/structure/afdb_sp/sp' if sp else f'{a.root}/runs/structure/refdb/{tid}/db')
         if not os.path.exists(db + '.dbtype'):
             print(f'[warn] no reference DB for {tid}: {db}', file=sys.stderr)
             for x in qs: hits[(tid, x)] = 'noDB'
@@ -115,8 +178,8 @@ def main():
         qd = f'{tmp}/q_{tid}'; os.makedirs(qd)
         for x in qs: os.symlink(os.path.abspath(info[x]['path']), f'{qd}/{x}.pdb.gz')
         out = f'{tmp}/hits_{tid}.tsv'
-        cmd = [FS, 'easy-search', qd, db, out, f'{tmp}/ft_{tid}', '--exhaustive-search', '1', '-e', str(a.evalue),
-               '--max-seqs', '1000', '--threads', str(a.threads), '-v', '1', '--format-output', FMT]
+        cmd = [FS, 'easy-search', qd, db, out, f'{tmp}/ft_{tid}', '--exhaustive-search', '0' if a.prefilter else '1', '-e', str(a.evalue),
+               '--max-seqs', '3000' if sp else '1000', '--threads', str(a.threads), '-v', '1', '--format-output', FMT]
         if not a.no_nice: cmd = ['nice', '-n', '19'] + cmd
         print('[foldseek]', tid, len(qs), 'queries', file=sys.stderr, flush=True)
         subprocess.run(cmd, check=True)
@@ -127,6 +190,11 @@ def main():
             h = dict(target=t, evalue=float(f['evalue']), bits=float(f['bits']), alntm=f['alntmscore'], qtm=f['qtmscore'],
                      ttm=f['ttmscore'], lddt=f['lddt'], qcov=f['qcov'], tcov=f['tcov'], fident=f['fident'])
             if h['evalue'] > a.evalue: continue
+            if sp:
+                h['taxid'] = sp.taxid(f['target'])
+                if sp.excluded(tid, h['taxid']):          # hit inside M: not evidence of an old fold
+                    nin[(tid, q)] = nin.get((tid, q), 0) + 1
+                    continue
             nh[(tid, q)] = nh.get((tid, q), 0) + 1
             h['tm'] = tm_value(h, a.tm_metric)
             b = hits.get((tid, q))
@@ -137,7 +205,7 @@ def main():
     extra = [c for c in rd.fieldnames if c not in ('transition_id', 'set', 'sequence', accol)]
     hdr = ['accession', 'transition_id', 'set', *extra, 'model_status', 'mean_plddt', 'seq_matches_model', 'n_hits_E',
            'best_target', 'best_evalue', 'best_bits', 'best_qtm', 'best_ttm', 'best_alntm', 'best_lddt', 'best_qcov',
-           'best_tcov', 'best_fident', 'structurally_old']
+           'best_tcov', 'best_fident', 'structurally_old'] + (['n_hits_in_M_excluded', 'best_taxid', 'best_taxon'] if sp else [])
     summ = {}
     with open(a.out_prefix + '.queries.tsv', 'w') as w:
         w.write('\t'.join(hdr) + '\n')
@@ -159,7 +227,8 @@ def main():
             if isinstance(h, dict):
                 vals = [h['target'], f"{h['evalue']:.2e}", h['bits'], h['qtm'], h['ttm'], h['alntm'], h['lddt'], h['qcov'], h['tcov'], h['fident']]
             w.write('\t'.join(str(v) for v in [x, tid, r['_set'], *[r.get(c, '') for c in extra], ms,
-                    '' if i['plddt'] is None else f"{i['plddt']:.1f}", seqok, nh.get((tid, x), 0), *vals, so]) + '\n')
+                    '' if i['plddt'] is None else f"{i['plddt']:.1f}", seqok, nh.get((tid, x), 0), *vals, so,
+                    *([nin.get((tid, x), 0), h['taxid'] if isinstance(h, dict) else '', sp.name(h['taxid']) if isinstance(h, dict) else ''] if sp else [])]) + '\n')
             s = summ.setdefault((tid, r['_set']), dict(n=0, model=0, plddt=0, searched=0, old=0))
             s['n'] += 1; s['model'] += i['path'] is not None; s['plddt'] += ms in ('searched', 'no_ref_db')
             if ms == 'searched': s['searched'] += 1; s['old'] += so
