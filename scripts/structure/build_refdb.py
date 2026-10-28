@@ -4,6 +4,7 @@ Creates one DB per primary transition (union of its P-side species) at runs/stru
 and a combined DB runs/structure/refdb/all/db.  Safe to re-run (rebuilds).  Usage: build_refdb.py [--threads 4]"""
 import os, sys, csv, glob, shutil, subprocess, argparse
 ap = argparse.ArgumentParser(); ap.add_argument('--threads', type=int, default=4)
+ap.add_argument('--only', nargs='*', help='only these transition ids (default all + all-species DB)')
 ap.add_argument('--root', default=os.environ.get('P', os.getcwd()))
 a = ap.parse_args()
 P = a.root
@@ -13,6 +14,7 @@ by_t = {}
 for r in rows: by_t.setdefault(r['transition_id'], []).append(r['code'])
 by_t['all'] = sorted({r['code'] for r in rows})
 os.nice(19)
+if a.only: by_t = {k: v for k, v in by_t.items() if k in a.only}
 for tid, codes in by_t.items():
     dirs = [f'{P}/runs/structure/afdb_ref/{c}' for c in codes if os.path.isdir(f'{P}/runs/structure/afdb_ref/{c}')]
     out = f'{P}/runs/structure/refdb/{tid}'

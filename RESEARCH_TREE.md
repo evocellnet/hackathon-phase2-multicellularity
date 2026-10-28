@@ -64,17 +64,23 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - [x] 5c. Ancestra eukaryote run (fast): done 2026-10-28 22:36 (t=10.3 h); families 5.3 h, scores 3.7 h (peak 84 GB), merge 10 min; verify PASS; 2.22 M genes in HOGs, 750k singletons
 - [~] 5d. Annotation: Pfam pre-registered subset done (269/269); full Pfam 119/187 euk; disorder 112/187 euk
 - [~] 6. PRIMARY tests (H1/H2, H4, H5, H12 on euk; Holm with H9) + positive controls
-  - [-] H4 (TF-family expansion, compositional): not detected, T=0.548, p=0.36 (pre-Holm)
-  - [-] H5 (adhesion/ECM+signalling expansion): not detected, T=0.41, p=0.77 (pre-Holm)
-  - [~] H12 (flagellar loss where expected): T=0.738, p=0.020 pre-Holm (likely not significant after Holm ×5)
-  - [ ] H1/H2 (sequence-novel gains): waiting for gain ladder (186,601 queries)
-  - [!] Positive controls: 10/16 recovered (C10 pending) → pre-registered criterion (≥11) NOT met. No code bugs; C03/C06/C07 failures are Ancestra inference artefacts (domain gained within an older HOG is invisible; mixed-domain HOGs; duplications placed one node too deep with compensating losses — 52% of Choanozoa-stem duplication products are animal-only); C08/C12 are expectation problems. Implication: HOG-level origins/duplication placement unreliable at deep animal stems → H4/H5 robustness (orthology-free) + post-hoc re-placement running.
+  - [-] H1/H2 (sequence-novel gains, burst vs co-option): T=0.711, parametric-bootstrap p=0.113, Holm 0.45 — no burst detected (secondary nested complex set p=0.016, outside Holm)
+  - [-] H4 (TF-family expansion, compositional): T=0.548, p=0.36, Holm 0.81; orthology-free version agrees
+  - [-] H5 (adhesion/ECM+signalling expansion): T=0.41, p=0.77, Holm 0.81; orthology-free version flips sign (direction not robust)
+  - [-] H12 (flagellar loss where expected): T=0.738, p=0.020, Holm 0.10 — not significant after correction
+  - [x] Determinism: separate and combined runs give identical p-values
+  - [!] Positive controls: FINAL 11/16 recovered (C10 GRAS recovered with gain ladder) → pre-registered count criterion met; high-confidence failures C03/C06/C07 explained (below). No code bugs; C03/C06/C07 failures are Ancestra inference artefacts (domain gained within an older HOG is invisible; mixed-domain HOGs; duplications placed one node too deep with compensating losses — 52% of Choanozoa-stem duplication products are animal-only); C08/C12 are expectation problems. Implication: HOG-level origins/duplication placement unreliable at deep animal stems → H4/H5 robustness (orthology-free) + post-hoc re-placement running.
   - [x] H9 (genome-wide rate shift): not detected — p = 0.27, pooled ratio 1.10 [0.96, 1.26] (no ≥1.5-fold shift); heterogeneous: faster in Dictyostelia/volvocines/red algae/fungi, slower in Metazoa/PX; seed-sensitive p 0.19–0.61
 - [ ] 7. Secondary: nested complex transitions; prokaryote descriptive
 - [ ] 8. EXPLORATORY
   - [x] gene-level RER (250 markers): 0 genes at q < 0.10; none consistent across ≥ 4 transitions
   - [x] Kr/Kc radical/conservative: no support for relaxed constraint (p = 0.60 / 0.16)
-  - [ ] Pfam-wide gains/expansions + convergence; co-option index; new architectures (H11); protein traits (H10); reversals
+  - [-] Pfam-wide convergent expansion/gain: not above chance (k≥2 p=0.79; top 'convergent' domains are transposon domains)
+  - [!] Pfam-wide convergent LOSS above chance (k≥2: 421 vs 192 expected, p=0.043 permute / 0.005 matched) — robustness check pending
+  - [!] New domain architectures (H11) on stems > controls (residual T=0.80, p=0.005, q=0.016) — Metazoa dominates; LOO pending
+  - [~] Co-option index: Metazoa and Streptophyta less co-opted than controls (u=0.024 each); volvocine/red/PX ≈100% co-opted
+  - [-] Protein traits (length/disorder on shared single-copy HOGs): within-transition shifts common but not distinct from controls
+  - [~] Reversals: odds ratios mixed (0.5–2.0), see results/exploratory/euk/reversals
   - [ ] structure novelty of sequence-novel gains (Foldseek; Swiss-Prot fallback ready; per-species AFDB download ~10% at t=8h)
 - [ ] 9. Verification by independent agents (re-derive headline numbers; citation audit; H9 unaffected by stem-path bug)
 - [~] 10. Report: pre-results sections + Figures 1, 2, S1 drafted (report/REPORT_draft_methods.md)

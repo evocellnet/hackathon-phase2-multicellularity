@@ -12,6 +12,8 @@ Input TSV (header required; tab-separated):
   transition_id  e.g. T_metazoa (selects the reference DB)           [required unless --db is given]
   set            optional label, e.g. gain / control (default 'gain'); fractions are reported per (transition_id,set)
   sequence       optional; if given it is compared with the AFDB model's SEQRES (mismatch flagged)
+  exclude_taxids optional (swissprot mode): comma-separated NCBI taxids; if non-empty for a row, hits inside these taxa are
+                 ignored for that row INSTEAD of the transition-level M exclusion (used to exclude the gain's own clade for controls)
   (any other columns are carried through to the output)
 
 --ref swissprot: search AFDB Swiss-Prot (runs/structure/afdb_sp/sp, from `foldseek databases Alphafold/Swiss-Prot`) instead of the
@@ -89,6 +91,8 @@ class SwissProtTax:
             ln = set(self.lineage(t))
             self.cache[key] = bool(ln & ids) and not (ln & exc)
         return self.cache[key]
+    def excluded_ids(self, t, ids):
+        return bool(set(self.lineage(t)) & ids)
     def name(self, t):
         if not self.names:
             for l in open(self.taxdump + '/names.dmp'):
@@ -119,13 +123,14 @@ def main():
     ap.add_argument('--tm-metric', default='q', choices=['q', 't', 'max', 'min', 'aln'])
     ap.add_argument('--threads', type=int, default=4)
     ap.add_argument('--prefilter', action='store_true', help='use the 3Di prefilter instead of exhaustive search (much faster on big DBs, less sensitive)')
+    ap.add_argument('--nice', type=int, default=19)
     ap.add_argument('--no-nice', action='store_true')
     ap.add_argument('--no-download', action='store_true', help='only use cached models')
     ap.add_argument('--keep-tmp', action='store_true')
     ap.add_argument('--foldseek', default=None)
     a = ap.parse_args()
-    if not a.no_nice: os.nice(19)
-    a.threads = min(a.threads, 4)
+    if not a.no_nice: os.nice(a.nice)
+    a.threads = min(a.threads, 6)
     FS = a.foldseek or os.environ.get('FOLDSEEK') or f'{a.root}/conda_envs/ancestra/bin/foldseek'
     mdir = a.model_dir or f'{a.root}/runs/structure/query_models'
     os.makedirs(mdir, exist_ok=True)
@@ -162,7 +167,7 @@ def main():
             info[x] = dict(path=p, plddt=A.mean_plddt_from_pdb_gz(p), st='ok')
     # ---- search per transition
     hits = {}   # (tid, acc) -> best hit dict
-    nh = {}; nin = {}
+    nh = {}; nin = {}; allhits = {}
     groups = {}
     for r in rows:
         i = info[r['_acc']]
@@ -180,7 +185,7 @@ def main():
         out = f'{tmp}/hits_{tid}.tsv'
         cmd = [FS, 'easy-search', qd, db, out, f'{tmp}/ft_{tid}', '--exhaustive-search', '0' if a.prefilter else '1', '-e', str(a.evalue),
                '--max-seqs', '3000' if sp else '1000', '--threads', str(a.threads), '-v', '1', '--format-output', FMT]
-        if not a.no_nice: cmd = ['nice', '-n', '19'] + cmd
+        if not a.no_nice: cmd = ['nice', '-n', str(a.nice)] + cmd
         print('[foldseek]', tid, len(qs), 'queries', file=sys.stderr, flush=True)
         subprocess.run(cmd, check=True)
         cols = FMT.split(',')
@@ -192,9 +197,9 @@ def main():
             if h['evalue'] > a.evalue: continue
             if sp:
                 h['taxid'] = sp.taxid(f['target'])
-                if sp.excluded(tid, h['taxid']):          # hit inside M: not evidence of an old fold
-                    nin[(tid, q)] = nin.get((tid, q), 0) + 1
-                    continue
+                h['tm'] = tm_value(h, a.tm_metric)
+                allhits.setdefault((tid, q), []).append(h)   # exclusion applied per row below
+                continue
             nh[(tid, q)] = nh.get((tid, q), 0) + 1
             h['tm'] = tm_value(h, a.tm_metric)
             b = hits.get((tid, q))
@@ -221,14 +226,25 @@ def main():
                 if h == 'noDB': ms, so = 'no_ref_db', ''
                 else: ms, so = 'searched', ''
             h = hits.get((tid, x)) if ms == 'searched' else None
+            n_h, n_in = nh.get((tid, x), 0), nin.get((tid, x), 0)
+            if sp and ms == 'searched':
+                # row-level exclude_taxids (e.g. the gaining clade's own taxon for control gains) REPLACES the
+                # transition-level M exclusion; hits inside excluded taxa are ignored (counted in n_in)
+                ids = {int(z) for z in (r.get('exclude_taxids') or '').replace(';', ',').split(',') if z.strip()}
+                h = None; n_h = n_in = 0
+                for c in allhits.get((tid, x), []):
+                    ex = sp.excluded_ids(c['taxid'], ids) if ids else sp.excluded(tid, c['taxid'])
+                    if ex: n_in += 1; continue
+                    n_h += 1
+                    if h is None or (c['tm'], c['bits']) > (h['tm'], h['bits']): h = c
             if ms == 'searched':
                 so = int(isinstance(h, dict) and h['tm'] >= a.tm)
             vals = ['', '', '', '', '', '', '', '', '', '']
             if isinstance(h, dict):
                 vals = [h['target'], f"{h['evalue']:.2e}", h['bits'], h['qtm'], h['ttm'], h['alntm'], h['lddt'], h['qcov'], h['tcov'], h['fident']]
             w.write('\t'.join(str(v) for v in [x, tid, r['_set'], *[r.get(c, '') for c in extra], ms,
-                    '' if i['plddt'] is None else f"{i['plddt']:.1f}", seqok, nh.get((tid, x), 0), *vals, so,
-                    *([nin.get((tid, x), 0), h['taxid'] if isinstance(h, dict) else '', sp.name(h['taxid']) if isinstance(h, dict) else ''] if sp else [])]) + '\n')
+                    '' if i['plddt'] is None else f"{i['plddt']:.1f}", seqok, n_h, *vals, so,
+                    *([n_in, h['taxid'] if isinstance(h, dict) else '', sp.name(h['taxid']) if isinstance(h, dict) else ''] if sp else [])]) + '\n')
             s = summ.setdefault((tid, r['_set']), dict(n=0, model=0, plddt=0, searched=0, old=0))
             s['n'] += 1; s['model'] += i['path'] is not None; s['plddt'] += ms in ('searched', 'no_ref_db')
             if ms == 'searched': s['searched'] += 1; s['old'] += so
