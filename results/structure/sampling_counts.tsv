@@ -1,0 +1,8 @@
+transition_id	stem_edges	n_seqnovel_stem	n_stem_uniprot_rep	n_control_branches	n_seqnovel_control	n_control_uniprot_rep	n_sampled_each
+T_metazoa	Metazoa	594	590	20	2780	2189	60
+T_fungi_hyphae	Blastocladiomycota_Amastigomycota|Amastigomycota	120	120	20	3269	2566	60
+T_dictyostelia	Dictyostelia	507	507	20	2367	1816	60
+T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	189	187	20	3371	2683	60
+T_rhodophyta	Eurhodophytina	62	62	20	3179	2777	60
+T_px_filaments	PX_clade	403	269	20	3473	2929	60
+T_volvocine_tgv	TGV_clade|Gonium_Volvocaceae	88	88	20	3499	2819	60

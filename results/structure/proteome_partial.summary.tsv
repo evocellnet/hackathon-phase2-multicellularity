@@ -1,0 +1,9 @@
+transition_id	set	n_queries	n_with_model	n_plddt_pass	n_searched	n_structurally_old	frac_old_of_searched	frac_old_of_all_queries
+T_dictyostelia	control	60	49	8	8	4	0.5000	0.0667
+T_dictyostelia	stem	60	60	17	17	1	0.0588	0.0167
+T_fungi_hyphae	control	60	53	9	9	2	0.2222	0.0333
+T_fungi_hyphae	stem	60	50	14	14	3	0.2143	0.0500
+T_metazoa	control	60	51	14	14	5	0.3571	0.0833
+T_metazoa	stem	60	30	10	10	0	0.0000	0.0000
+T_streptophyta	control	60	53	17	17	9	0.5294	0.1500
+T_streptophyta	stem	60	53	8	8	1	0.1250	0.0167

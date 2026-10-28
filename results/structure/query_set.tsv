@@ -1,0 +1,841 @@
+accession	transition_id	set	family_id	branch_parent	branch_child	species	rep_rank	exclude_taxids
+A0ACF8YIX3	T_metazoa	stem	HOG0003825	Choanozoa	Metazoa	Mnemlei	0.0	
+A0ABM4BHQ5	T_metazoa	stem	HOG0004448	Choanozoa	Metazoa	Hydrvul	1.0	
+A0ACF8XF76	T_metazoa	stem	HOG0003797	Choanozoa	Metazoa	Mnemlei	0.0	
+A8DVA1	T_metazoa	stem	HOG0004049	Choanozoa	Metazoa	Nemavec	1.0	
+A0ACF8YSX6	T_metazoa	stem	HOG0003818	Choanozoa	Metazoa	Mnemlei	0.0	
+A7SJS8	T_metazoa	stem	HOG0003829	Choanozoa	Metazoa	Nemavec	0.0	
+Q9UBU6	T_metazoa	stem	HOG0003948	Choanozoa	Metazoa	Homosap	0.0	
+A0A7M7HCE2	T_metazoa	stem	HOG0003790	Choanozoa	Metazoa	Stropur	0.0	
+A0ACF8Y4Y6	T_metazoa	stem	HOG0003813	Choanozoa	Metazoa	Mnemlei	0.0	
+A0ACF8YFV1	T_metazoa	stem	HOG0003876	Choanozoa	Metazoa	Mnemlei	1.0	
+A0AAN0JHK0	T_metazoa	stem	HOG0004060	Choanozoa	Metazoa	Amphque	0.0	
+A0ACF8ZG84	T_metazoa	stem	HOG0003951	Choanozoa	Metazoa	Mnemlei	0.0	
+A7SUR1	T_metazoa	stem	HOG0004167	Choanozoa	Metazoa	Nemavec	1.0	
+R7U6D5	T_metazoa	stem	HOG0003766	Choanozoa	Metazoa	Capitel	0.0	
+A0A6P4Y821	T_metazoa	stem	HOG0003917	Choanozoa	Metazoa	Branbel	0.0	
+A0ABM4DEP1	T_metazoa	stem	HOG0004236	Choanozoa	Metazoa	Hydrvul	0.0	
+A7RZM5	T_metazoa	stem	HOG0004221	Choanozoa	Metazoa	Nemavec	0.0	
+A0A6P4XXH8	T_metazoa	stem	HOG0006324	Choanozoa	Metazoa	Branbel	0.0	
+Q6ULP2	T_metazoa	stem	HOG0004294	Choanozoa	Metazoa	Homosap	0.0	
+A7RHB2	T_metazoa	stem	HOG0003862	Choanozoa	Metazoa	Nemavec	0.0	
+A0ACF8XR18	T_metazoa	stem	HOG0003822	Choanozoa	Metazoa	Mnemlei	1.0	
+A0ACF8XHP4	T_metazoa	stem	HOG0003945	Choanozoa	Metazoa	Mnemlei	0.0	
+A0ACF8Y4E6	T_metazoa	stem	HOG0004359	Choanozoa	Metazoa	Mnemlei	1.0	
+B3SAP9	T_metazoa	stem	HOG0004432	Choanozoa	Metazoa	Tricadh	1.0	
+A1ZAC8	T_metazoa	stem	HOG0003902	Choanozoa	Metazoa	Drosmel	0.0	
+A0A7M7NZE6	T_metazoa	stem	HOG0004212	Choanozoa	Metazoa	Stropur	0.0	
+B3SC82	T_metazoa	stem	HOG0004312	Choanozoa	Metazoa	Tricadh	1.0	
+A0A7M7MZY6	T_metazoa	stem	HOG0003817	Choanozoa	Metazoa	Stropur	0.0	
+A0A1X7VIA0	T_metazoa	stem	HOG0004099	Choanozoa	Metazoa	Amphque	1.0	
+Q9VDY5	T_metazoa	stem	HOG0004288	Choanozoa	Metazoa	Drosmel	0.0	
+A0ACF8YRG6	T_metazoa	stem	HOG0003882	Choanozoa	Metazoa	Mnemlei	1.0	
+A0ACF8YAQ9	T_metazoa	stem	HOG0004501	Choanozoa	Metazoa	Mnemlei	1.0	
+A0ACF8ZII6	T_metazoa	stem	HOG0003864	Choanozoa	Metazoa	Mnemlei	0.0	
+B3S5E2	T_metazoa	stem	HOG0004192	Choanozoa	Metazoa	Tricadh	0.0	
+A0ACF8ZHM6	T_metazoa	stem	HOG0003854	Choanozoa	Metazoa	Mnemlei	0.0	
+A0A1X7V3P1	T_metazoa	stem	HOG0004255	Choanozoa	Metazoa	Amphque	0.0	
+A7RPP9	T_metazoa	stem	HOG0003921	Choanozoa	Metazoa	Nemavec	0.0	
+A0ACF8XZN6	T_metazoa	stem	HOG0003846	Choanozoa	Metazoa	Mnemlei	0.0	
+A0ACF8Z566	T_metazoa	stem	HOG0003928	Choanozoa	Metazoa	Mnemlei	0.0	
+A0ACF8YKY6	T_metazoa	stem	HOG0004124	Choanozoa	Metazoa	Mnemlei	0.0	
+A0ACF8ZB73	T_metazoa	stem	HOG0003949	Choanozoa	Metazoa	Mnemlei	0.0	
+A0ACF8Y5N8	T_metazoa	stem	HOG0003856	Choanozoa	Metazoa	Mnemlei	2.0	
+A0ACF8XH59	T_metazoa	stem	HOG0003868	Choanozoa	Metazoa	Mnemlei	0.0	
+R7V690	T_metazoa	stem	HOG0004443	Choanozoa	Metazoa	Capitel	1.0	
+R7T665	T_metazoa	stem	HOG0004292	Choanozoa	Metazoa	Capitel	0.0	
+A7S3G6	T_metazoa	stem	HOG0004406	Choanozoa	Metazoa	Nemavec	0.0	
+A0ACF8ZDP1	T_metazoa	stem	HOG0003786	Choanozoa	Metazoa	Mnemlei	0.0	
+A0ACF8XHZ2	T_metazoa	stem	HOG0004037	Choanozoa	Metazoa	Mnemlei	0.0	
+A0A7M7RE45	T_metazoa	stem	HOG0004276	Choanozoa	Metazoa	Stropur	1.0	
+A0A7M7HKZ8	T_metazoa	stem	HOG0004202	Choanozoa	Metazoa	Stropur	0.0	
+A0A1X7VW85	T_metazoa	stem	HOG0004086	Choanozoa	Metazoa	Amphque	0.0	
+A0A1X7VLY7	T_metazoa	stem	HOG0004095	Choanozoa	Metazoa	Amphque	0.0	
+A0A6P4ZFX0	T_metazoa	stem	HOG0004387	Choanozoa	Metazoa	Branbel	0.0	
+A0A7M7G1F5	T_metazoa	stem	HOG0004422	Choanozoa	Metazoa	Stropur	1.0	
+A0A6P4ZNT8	T_metazoa	stem	HOG0004183	Choanozoa	Metazoa	Branbel	0.0	
+A0ABM4BF51	T_metazoa	stem	HOG0004122	Choanozoa	Metazoa	Hydrvul	1.0	
+A0ACF8XWI5	T_metazoa	stem	HOG0003931	Choanozoa	Metazoa	Mnemlei	0.0	
+B3RRD1	T_metazoa	stem	HOG0004258	Choanozoa	Metazoa	Tricadh	1.0	
+A0ACF8Y4C3	T_metazoa	stem	HOG0003894	Choanozoa	Metazoa	Mnemlei	0.0	
+A0A7M7GPH4	T_metazoa	stem	HOG0004259	Choanozoa	Metazoa	Stropur	0.0	
+A0A2P6NK95	T_metazoa	control	HOG0013746	Evosea	Variosea	Planfun	1.0	2605334
+A0A2P6MQX0	T_metazoa	control	HOG0013854	Evosea	Variosea	Planfun	0.0	2605334
+Q236B8	T_metazoa	control	HOG0033171	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0A2P6N427	T_metazoa	control	HOG0013894	Evosea	Variosea	Planfun	0.0	2605334
+Q9VS84	T_metazoa	control	HOG0017358	Podiata	Amorphea	Drosmel	0.0	2759
+C1DY85	T_metazoa	control	HOG0042663	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+J9VHW5	T_metazoa	control	HOG0017678	Podiata	Amorphea	Crypneo	0.0	2759
+A0A2V0NKU7	T_metazoa	control	HOG0042829	Chlorophyta_Streptophyta	Chlorophyta	Raphsub	0.0	3041
+A0ACF8XEA3	T_metazoa	control	HOG0020248	Podiata	Amorphea	Mnemlei	0.0	2759
+A0ACC3BZ85	T_metazoa	control	HOG0045629	Diaphoretickes	Archaeplastida	Pyroyez	1.0	2759
+Q54F39	T_metazoa	control	HOG0015724	Amoebozoa	Evosea	Dictdis	0.0	2605435
+Q22H23	T_metazoa	control	HOG0033549	Alveolata	Ciliophora	Tetrthe	0.0	5878
+Q01BK0	T_metazoa	control	HOG0042700	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+I7MCZ0	T_metazoa	control	HOG0033347	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0A151ZCB1	T_metazoa	control	HOG0020645	Podiata	Amorphea	Tieglac	0.0	2759
+Q9BRT6	T_metazoa	control	HOG0017987	Podiata	Amorphea	Homosap	0.0	2759
+I0YXS7	T_metazoa	control	HOG0042820	Chlorophyta_Streptophyta	Chlorophyta	Coccsub	0.0	3041
+A0A1R2BQZ0	T_metazoa	control	HOG0033147	Alveolata	Ciliophora	Stencoe	0.0	5878
+A0A835WVN4	T_metazoa	control	HOG0042361	Chlorophyta	UTC_clade	Chlasch	0.0	2692248
+A0A2J8AC98	T_metazoa	control	HOG0049504	Diaphoretickes	Archaeplastida	Tetrsoc	0.0	2759
+A0A2P6NPX4	T_metazoa	control	HOG0013873	Evosea	Variosea	Planfun	1.0	2605334
+I7MLJ6	T_metazoa	control	HOG0033334	Alveolata	Ciliophora	Tetrthe	0.0	5878
+I0YZM8	T_metazoa	control	HOG0042389	Chlorophyta	UTC_clade	Coccsub	0.0	2692248
+A0AAN0JTE8	T_metazoa	control	HOG0019922	Podiata	Amorphea	Amphque	0.0	2759
+C5KPY2	T_metazoa	control	HOG0031904	Alveolata	Myzozoa	Perkmar	0.0	33630
+A0A090M4D3	T_metazoa	control	HOG0042679	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+A0A0G4EBB1	T_metazoa	control	HOG0032013	Alveolata	Myzozoa	Vitrbra	0.0	33630
+A0A9D4Z053	T_metazoa	control	HOG0039067	UTC_clade	Trebouxiophyceae	Chlovul	0.0	75966
+A0A090M9L6	T_metazoa	control	HOG0042567	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+C1E1C1	T_metazoa	control	HOG0042687	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A1R2BTW1	T_metazoa	control	HOG0033522	Alveolata	Ciliophora	Stencoe	0.0	5878
+A0A835VP71	T_metazoa	control	HOG0042489	Chlorophyta	UTC_clade	Chlainc	0.0	2692248
+A0A9P6K495	T_metazoa	control	HOG0011564	Opisthokonta	Holomycota	Morthyg	0.0	33154
+A0ABQ5S868	T_metazoa	control	HOG0042815	Chlorophyta_Streptophyta	Chlorophyta	Volvafr	0.0	3041
+Q23U79	T_metazoa	control	HOG0033253	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0EHZ1	T_metazoa	control	HOG0033332	Alveolata	Ciliophora	Paratet	0.0	5878
+A0CUM1	T_metazoa	control	HOG0033226	Alveolata	Ciliophora	Paratet	0.0	5878
+A0A0L0HN27	T_metazoa	control	HOG0018283	Podiata	Amorphea	Spizpun	0.0	2759
+A0BW35	T_metazoa	control	HOG0033221	Alveolata	Ciliophora	Paratet	0.0	5878
+A0A2P6NFD6	T_metazoa	control	HOG0013651	Evosea	Variosea	Planfun	0.0	2605334
+D3BFN3	T_metazoa	control	HOG0018042	Podiata	Amorphea	Hetepal	2.0	2759
+D3BSY7	T_metazoa	control	HOG0020178	Podiata	Amorphea	Hetepal	0.0	2759
+A0A9W6BTR5	T_metazoa	control	HOG0045526	Diaphoretickes	Archaeplastida	Pleosta	1.0	2759
+A0A2P6NKM2	T_metazoa	control	HOG0013709	Evosea	Variosea	Planfun	0.0	2605334
+Q54TD6	T_metazoa	control	HOG0016322	Amorphea	Amoebozoa	Dictdis	0.0	554915
+A0A2R5G104	T_metazoa	control	HOG0029917	Sar	Stramenopiles	Hondfer	1.0	33634
+A0A2P6NF93	T_metazoa	control	HOG0015842	Amoebozoa	Evosea	Planfun	1.0	2605435
+A0A4Q1BCD2	T_metazoa	control	HOG0011518	Holomycota	Fungi	Tremmes	0.0	4751
+A0A2P6N449	T_metazoa	control	HOG0013903	Evosea	Variosea	Planfun	1.0	2605334
+C1DZ25	T_metazoa	control	HOG0042684	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0AAD3DT55	T_metazoa	control	HOG0042166	UTC_clade	CS_clade	Astrgub	0.0	2812636
+A0A2P6N4L4	T_metazoa	control	HOG0013818	Evosea	Variosea	Planfun	0.0	2605334
+A0A1Y1V4K0	T_metazoa	control	HOG0019000	Podiata	Amorphea	Pirofin	0.0	2759
+V6CK65	T_metazoa	control	HOG0020013	Podiata	Amorphea	Caenele	0.0	2759
+A0ABQ5S8Z1	T_metazoa	control	HOG0042196	UTC_clade	CS_clade	Volvafr	0.0	2812636
+I7M1E0	T_metazoa	control	HOG0033288	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0A2P6NZ56	T_metazoa	control	HOG0013712	Evosea	Variosea	Planfun	0.0	2605334
+A0A0G4F8V8	T_metazoa	control	HOG0031980	Alveolata	Myzozoa	Vitrbra	0.0	33630
+A0A2V0P5K8	T_metazoa	control	HOG0042311	Chlorophyta	UTC_clade	Raphsub	0.0	2692248
+A7TAI4	T_metazoa	control	HOG0020274	Podiata	Amorphea	Nemavec	0.0	2759
+A0A1Y1Z5F6	T_fungi_hyphae	stem	HOG0011235	Blastocladiomycota_Amastigomycota	Amastigomycota	Basimer	0.0	
+A0A1Y1YM71	T_fungi_hyphae	stem	HOG0011195	Blastocladiomycota_Amastigomycota	Amastigomycota	Basimer	0.0	
+A0A9P6FA55	T_fungi_hyphae	stem	HOG0011291	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A0E9NJD7	T_fungi_hyphae	stem	HOG0011320	Eumycota	Blastocladiomycota_Amastigomycota	Saitcom	0.0	
+Q7RX57	T_fungi_hyphae	stem	HOG0011299	Blastocladiomycota_Amastigomycota	Amastigomycota	Neurcra	0.0	
+A0ABQ8PMG3	T_fungi_hyphae	stem	HOG0011268	Blastocladiomycota_Amastigomycota	Amastigomycota	Coemumb	0.0	
+A0A162TZQ7	T_fungi_hyphae	stem	HOG0011244	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+A0ABQ8PSZ2	T_fungi_hyphae	stem	HOG0011265	Blastocladiomycota_Amastigomycota	Amastigomycota	Coemumb	0.0	
+A0A1Y1XZL2	T_fungi_hyphae	stem	HOG0011301	Blastocladiomycota_Amastigomycota	Amastigomycota	Basimer	0.0	
+A0A1Y1Z754	T_fungi_hyphae	stem	HOG0011242	Blastocladiomycota_Amastigomycota	Amastigomycota	Basimer	0.0	
+B0DZL4	T_fungi_hyphae	stem	HOG0011337	Eumycota	Blastocladiomycota_Amastigomycota	Laccbic	0.0	
+A0A9P6FCD3	T_fungi_hyphae	stem	HOG0011328	Eumycota	Blastocladiomycota_Amastigomycota	Morthyg	0.0	
+A0A0L0S521	T_fungi_hyphae	stem	HOG0011330	Eumycota	Blastocladiomycota_Amastigomycota	Allomac	0.0	
+A0A9P6F9J5	T_fungi_hyphae	stem	HOG0011221	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A1Y1XNF7	T_fungi_hyphae	stem	HOG0011213	Blastocladiomycota_Amastigomycota	Amastigomycota	Basimer	1.0	
+A8NWF7	T_fungi_hyphae	stem	HOG0011284	Blastocladiomycota_Amastigomycota	Amastigomycota	Coprcin	0.0	
+A0A168KWR9	T_fungi_hyphae	stem	HOG0011225	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+V5IN18	T_fungi_hyphae	stem	HOG0011256	Blastocladiomycota_Amastigomycota	Amastigomycota	Neurcra	0.0	
+A0A0E9N852	T_fungi_hyphae	stem	HOG0011218	Blastocladiomycota_Amastigomycota	Amastigomycota	Saitcom	0.0	
+A0A9P6K5K5	T_fungi_hyphae	stem	HOG0011248	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0ACF2FG24	T_fungi_hyphae	stem	HOG0011296	Blastocladiomycota_Amastigomycota	Amastigomycota	Schicom	0.0	
+A0A9P6F439	T_fungi_hyphae	stem	HOG0011286	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A9P6FHQ4	T_fungi_hyphae	stem	HOG0011233	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A8NQR8	T_fungi_hyphae	stem	HOG0011313	Blastocladiomycota_Amastigomycota	Amastigomycota	Coprcin	0.0	
+A0A168KXZ6	T_fungi_hyphae	stem	HOG0011206	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+A0A9P6F1Z7	T_fungi_hyphae	stem	HOG0011236	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A168K4C1	T_fungi_hyphae	stem	HOG0011292	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+A0ABQ8PLZ3	T_fungi_hyphae	stem	HOG0011264	Blastocladiomycota_Amastigomycota	Amastigomycota	Coemumb	0.0	
+A0A0E9NIU9	T_fungi_hyphae	stem	HOG0011326	Eumycota	Blastocladiomycota_Amastigomycota	Saitcom	0.0	
+A0A1Y1YWU5	T_fungi_hyphae	stem	HOG0011229	Blastocladiomycota_Amastigomycota	Amastigomycota	Basimer	0.0	
+A0A168PX51	T_fungi_hyphae	stem	HOG0011287	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+A0A9P6FBD8	T_fungi_hyphae	stem	HOG0011298	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A9P6K692	T_fungi_hyphae	stem	HOG0011203	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A1Y1XZT5	T_fungi_hyphae	stem	HOG0011317	Eumycota	Blastocladiomycota_Amastigomycota	Basimer	0.0	
+A0A1Y1XLR6	T_fungi_hyphae	stem	HOG0011201	Blastocladiomycota_Amastigomycota	Amastigomycota	Basimer	0.0	
+A0A0L0SPI0	T_fungi_hyphae	stem	HOG0011319	Eumycota	Blastocladiomycota_Amastigomycota	Allomac	0.0	
+A0A168QC52	T_fungi_hyphae	stem	HOG0011311	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+A0A0E9NBN8	T_fungi_hyphae	stem	HOG0011249	Blastocladiomycota_Amastigomycota	Amastigomycota	Saitcom	0.0	
+A0A2G4SWT7	T_fungi_hyphae	stem	HOG0011262	Blastocladiomycota_Amastigomycota	Amastigomycota	Rhizmic	0.0	
+A0A9P6EXL4	T_fungi_hyphae	stem	HOG0011258	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+M7WMU0	T_fungi_hyphae	stem	HOG0011216	Blastocladiomycota_Amastigomycota	Amastigomycota	Rhodtor	0.0	
+A0A1Y1XK52	T_fungi_hyphae	stem	HOG0011220	Blastocladiomycota_Amastigomycota	Amastigomycota	Basimer	1.0	
+A0A384JVB0	T_fungi_hyphae	stem	HOG0011309	Blastocladiomycota_Amastigomycota	Amastigomycota	Botrcin	0.0	
+U4LVB2	T_fungi_hyphae	stem	HOG0011228	Blastocladiomycota_Amastigomycota	Amastigomycota	Pyroomp	0.0	
+M5FWI0	T_fungi_hyphae	stem	HOG0011285	Blastocladiomycota_Amastigomycota	Amastigomycota	Dacrpri	0.0	
+A0A9P6FDP7	T_fungi_hyphae	stem	HOG0011197	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A1U7LGV0	T_fungi_hyphae	stem	HOG0011231	Blastocladiomycota_Amastigomycota	Amastigomycota	Neolirr	0.0	
+A0A9P6FEY9	T_fungi_hyphae	stem	HOG0011283	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A9P6K6V9	T_fungi_hyphae	stem	HOG0011263	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A0E9N938	T_fungi_hyphae	stem	HOG0011293	Blastocladiomycota_Amastigomycota	Amastigomycota	Saitcom	0.0	
+Q6C425	T_fungi_hyphae	stem	HOG0011295	Blastocladiomycota_Amastigomycota	Amastigomycota	Yarrlip	0.0	
+A0A9P6F9T4	T_fungi_hyphae	stem	HOG0011215	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A162TNB7	T_fungi_hyphae	stem	HOG0011315	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+A0A168KA05	T_fungi_hyphae	stem	HOG0011267	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+Q9HFE1	T_fungi_hyphae	stem	HOG0011290	Blastocladiomycota_Amastigomycota	Amastigomycota	Schipom	0.0	
+A0A0E9NLG1	T_fungi_hyphae	stem	HOG0011294	Blastocladiomycota_Amastigomycota	Amastigomycota	Saitcom	0.0	
+V5IR25	T_fungi_hyphae	stem	HOG0011318	Eumycota	Blastocladiomycota_Amastigomycota	Neurcra	0.0	
+A0A9P6F161	T_fungi_hyphae	stem	HOG0011230	Blastocladiomycota_Amastigomycota	Amastigomycota	Morthyg	0.0	
+A0A162TU91	T_fungi_hyphae	stem	HOG0011257	Blastocladiomycota_Amastigomycota	Amastigomycota	Mucolus	0.0	
+A0A168JBR7	T_fungi_hyphae	stem	HOG0011322	Eumycota	Blastocladiomycota_Amastigomycota	Mucolus	0.0	
+A0A1R2B1H4	T_fungi_hyphae	control	HOG0033258	Alveolata	Ciliophora	Stencoe	1.0	5878
+A0A1R2C1R7	T_fungi_hyphae	control	HOG0048305	Bikonta	Diaphoretickes	Stencoe	1.0	2759
+A0A2P6NJI5	T_fungi_hyphae	control	HOG0013614	Evosea	Variosea	Planfun	0.0	2605334
+Q22SM6	T_fungi_hyphae	control	HOG0047257	Bikonta	Diaphoretickes	Tetrthe	0.0	2759
+D2UZB3	T_fungi_hyphae	control	HOG0023040	Discicristata	Heterolobosea	Naeggru	0.0	5752
+A0A2P6N494	T_fungi_hyphae	control	HOG0013817	Evosea	Variosea	Planfun	0.0	2605334
+A0A090MB50	T_fungi_hyphae	control	HOG0047608	Bikonta	Diaphoretickes	Ostrtau	2.0	2759
+L8HG12	T_fungi_hyphae	control	HOG0016290	Amorphea	Amoebozoa	Acancas	0.0	554915
+A0AAW2ZM09	T_fungi_hyphae	control	HOG0022955	Discicristata	Heterolobosea	Acrakon	0.0	5752
+A0A1R2BCF8	T_fungi_hyphae	control	HOG0047093	Bikonta	Diaphoretickes	Stencoe	1.0	2759
+A0A836CNR5	T_fungi_hyphae	control	HOG0046158	Bikonta	Diaphoretickes	Tribmin	0.0	2759
+C1EEH6	T_fungi_hyphae	control	HOG0048240	Bikonta	Diaphoretickes	Micrcom	0.0	2759
+A0A2P6MRB9	T_fungi_hyphae	control	HOG0013878	Evosea	Variosea	Planfun	0.0	2605334
+L1IJ35	T_fungi_hyphae	control	HOG0046754	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+A0AAW2YJH0	T_fungi_hyphae	control	HOG0022972	Discicristata	Heterolobosea	Acrakon	2.0	5752
+A0A5J4YXC6	T_fungi_hyphae	control	HOG0046491	Bikonta	Diaphoretickes	Porppur	0.0	2759
+I7MCZ0	T_fungi_hyphae	control	HOG0033347	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0A2P6NCT7	T_fungi_hyphae	control	HOG0013653	Evosea	Variosea	Planfun	0.0	2605334
+A0A2P6NTA1	T_fungi_hyphae	control	HOG0013876	Evosea	Variosea	Planfun	1.0	2605334
+P38462	T_fungi_hyphae	control	HOG0048171	Bikonta	Diaphoretickes	Marcpol	2.0	2759
+L1IGC3	T_fungi_hyphae	control	HOG0056644	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+A0A2P6NUR4	T_fungi_hyphae	control	HOG0013736	Evosea	Variosea	Planfun	1.0	2605334
+A0A2V0P7Z5	T_fungi_hyphae	control	HOG0042355	Chlorophyta	UTC_clade	Raphsub	1.0	2692248
+A0A9D4TV68	T_fungi_hyphae	control	HOG0042468	Chlorophyta	UTC_clade	Chlovul	0.0	2692248
+A0AB34IW05	T_fungi_hyphae	control	HOG0045943	Bikonta	Diaphoretickes	Prympar	0.0	2759
+A0ABQ5S186	T_fungi_hyphae	control	HOG0042816	Chlorophyta_Streptophyta	Chlorophyta	Volvafr	0.0	3041
+A0A9D4TZN8	T_fungi_hyphae	control	HOG0042818	Chlorophyta_Streptophyta	Chlorophyta	Chlovul	0.0	3041
+I0YPD1	T_fungi_hyphae	control	HOG0042372	Chlorophyta	UTC_clade	Coccsub	1.0	2692248
+A0A090M6T6	T_fungi_hyphae	control	HOG0042828	Chlorophyta_Streptophyta	Chlorophyta	Ostrtau	1.0	3041
+A0A835W5J2	T_fungi_hyphae	control	HOG0047443	Bikonta	Diaphoretickes	Chlainc	1.0	2759
+I0YUE6	T_fungi_hyphae	control	HOG0039053	UTC_clade	Trebouxiophyceae	Coccsub	0.0	75966
+A0BXP4	T_fungi_hyphae	control	HOG0056781	Bikonta	Diaphoretickes	Paratet	0.0	2759
+A0A835WHP1	T_fungi_hyphae	control	HOG0042077	UTC_clade	CS_clade	Chlasch	0.0	2812636
+A0AAW2ZJK1	T_fungi_hyphae	control	HOG0023066	Discicristata	Heterolobosea	Acrakon	0.0	5752
+A0A1X7UFG4	T_fungi_hyphae	control	HOG0018968	Amorphea	Obazoa	Amphque	0.0	2759
+A0A835TCL7	T_fungi_hyphae	control	HOG0048593	Bikonta	Diaphoretickes	Chlainc	0.0	2759
+L1K1J0	T_fungi_hyphae	control	HOG0046600	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+A0A9W6BUT9	T_fungi_hyphae	control	HOG0042176	UTC_clade	CS_clade	Pleosta	0.0	2812636
+A0A2P6MPP6	T_fungi_hyphae	control	HOG0016919	Amorphea	Amoebozoa	Planfun	0.0	554915
+A0A388K367	T_fungi_hyphae	control	HOG0056255	Bikonta	Diaphoretickes	Charbra	0.0	2759
+A0AB34IZQ9	T_fungi_hyphae	control	HOG0047082	Bikonta	Diaphoretickes	Prympar	0.0	2759
+A0A5J4YQN1	T_fungi_hyphae	control	HOG0047057	Bikonta	Diaphoretickes	Porppur	1.0	2759
+A0AB34ICR0	T_fungi_hyphae	control	HOG0047116	Bikonta	Diaphoretickes	Prympar	1.0	2759
+L8GYP9	T_fungi_hyphae	control	HOG0016308	Amorphea	Amoebozoa	Acancas	0.0	554915
+A0A2V0P484	T_fungi_hyphae	control	HOG0042113	UTC_clade	CS_clade	Raphsub	0.0	2812636
+A0A9D4TQ84	T_fungi_hyphae	control	HOG0042300	Chlorophyta	UTC_clade	Chlovul	0.0	2692248
+L8HDB6	T_fungi_hyphae	control	HOG0016588	Amorphea	Amoebozoa	Acancas	0.0	554915
+L1J5U2	T_fungi_hyphae	control	HOG0046296	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+A0A9W6BFL6	T_fungi_hyphae	control	HOG0042186	UTC_clade	CS_clade	Pleosta	0.0	2812636
+A0A2P6MPB4	T_fungi_hyphae	control	HOG0013691	Evosea	Variosea	Planfun	0.0	2605334
+A0A388LGQ5	T_fungi_hyphae	control	HOG0055814	Bikonta	Diaphoretickes	Charbra	0.0	2759
+L1J083	T_fungi_hyphae	control	HOG0049966	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+A0AB34JTH0	T_fungi_hyphae	control	HOG0048381	Bikonta	Diaphoretickes	Prympar	1.0	2759
+A0A067CET1	T_fungi_hyphae	control	HOG0046993	Bikonta	Diaphoretickes	Saprpar	1.0	2759
+A0A835XUV6	T_fungi_hyphae	control	HOG0048549	Bikonta	Diaphoretickes	Edapdeb	0.0	2759
+A0A2P6NK95	T_fungi_hyphae	control	HOG0013746	Evosea	Variosea	Planfun	1.0	2605334
+A0AB34JLX9	T_fungi_hyphae	control	HOG0047349	Bikonta	Diaphoretickes	Prympar	0.0	2759
+A0BFJ0	T_fungi_hyphae	control	HOG0033326	Alveolata	Ciliophora	Paratet	0.0	5878
+Q54K36	T_fungi_hyphae	control	HOG0015792	Amoebozoa	Evosea	Dictdis	0.0	2605435
+A0A9D4TFK7	T_fungi_hyphae	control	HOG0042291	Chlorophyta	UTC_clade	Chlovul	0.0	2692248
+A0A151ZKJ9	T_dictyostelia	stem	HOG0015314	Eumycetozoa	Dictyostelia	Tieglac	0.0	
+F4PL54	T_dictyostelia	stem	HOG0015430	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+D3B944	T_dictyostelia	stem	HOG0015158	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+D3AXI3	T_dictyostelia	stem	HOG0015416	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+D3B3G2	T_dictyostelia	stem	HOG0015020	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+Q54W06	T_dictyostelia	stem	HOG0015364	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+F4PSY9	T_dictyostelia	stem	HOG0015170	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+F4Q2M4	T_dictyostelia	stem	HOG0015064	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+Q54PY0	T_dictyostelia	stem	HOG0015309	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+Q54JX5	T_dictyostelia	stem	HOG0015324	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+A0A151Z660	T_dictyostelia	stem	HOG0015090	Eumycetozoa	Dictyostelia	Tieglac	0.0	
+Q54ML8	T_dictyostelia	stem	HOG0015265	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+A0A151ZAY7	T_dictyostelia	stem	HOG0015102	Eumycetozoa	Dictyostelia	Tieglac	0.0	
+Q86IV0	T_dictyostelia	stem	HOG0015493	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+Q54IB5	T_dictyostelia	stem	HOG0015554	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+Q54RC0	T_dictyostelia	stem	HOG0015203	Eumycetozoa	Dictyostelia	Dictdis	1.0	
+Q54J30	T_dictyostelia	stem	HOG0015086	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+A0A151Z4Z3	T_dictyostelia	stem	HOG0015099	Eumycetozoa	Dictyostelia	Tieglac	1.0	
+P14196	T_dictyostelia	stem	HOG0015230	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+D3BFX2	T_dictyostelia	stem	HOG0015382	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+F4PG59	T_dictyostelia	stem	HOG0015267	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+F4PYI0	T_dictyostelia	stem	HOG0015543	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+D3BA52	T_dictyostelia	stem	HOG0015238	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+Q55FG4	T_dictyostelia	stem	HOG0015118	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+D3B7A2	T_dictyostelia	stem	HOG0015318	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+D3B4U7	T_dictyostelia	stem	HOG0015557	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+Q54VY0	T_dictyostelia	stem	HOG0015358	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+F4Q8U1	T_dictyostelia	stem	HOG0015175	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+D3AZ90	T_dictyostelia	stem	HOG0015428	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+D3AWR3	T_dictyostelia	stem	HOG0015160	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+D3BHZ8	T_dictyostelia	stem	HOG0015119	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+Q54ZE3	T_dictyostelia	stem	HOG0015038	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+F0ZPI2	T_dictyostelia	stem	HOG0015214	Eumycetozoa	Dictyostelia	Dictpur	0.0	
+F0ZLY7	T_dictyostelia	stem	HOG0015299	Eumycetozoa	Dictyostelia	Dictpur	0.0	
+A0A151ZJ79	T_dictyostelia	stem	HOG0015180	Eumycetozoa	Dictyostelia	Tieglac	0.0	
+F0ZEZ4	T_dictyostelia	stem	HOG0015080	Eumycetozoa	Dictyostelia	Dictpur	0.0	
+Q54TF1	T_dictyostelia	stem	HOG0015005	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+F4PUB6	T_dictyostelia	stem	HOG0015453	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+F4PL50	T_dictyostelia	stem	HOG0015399	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+F4Q2I0	T_dictyostelia	stem	HOG0015383	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+Q55B43	T_dictyostelia	stem	HOG0015515	Eumycetozoa	Dictyostelia	Dictdis	1.0	
+F0Z852	T_dictyostelia	stem	HOG0015029	Eumycetozoa	Dictyostelia	Dictpur	1.0	
+F4PZK2	T_dictyostelia	stem	HOG0015263	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+Q552X2	T_dictyostelia	stem	HOG0015370	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+F4PWS5	T_dictyostelia	stem	HOG0015511	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+Q55GI2	T_dictyostelia	stem	HOG0015211	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+Q54UN8	T_dictyostelia	stem	HOG0015470	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+F4Q1U9	T_dictyostelia	stem	HOG0015304	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+F4QDZ3	T_dictyostelia	stem	HOG0015222	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+A0A151ZGY8	T_dictyostelia	stem	HOG0015494	Eumycetozoa	Dictyostelia	Tieglac	0.0	
+Q54NU6	T_dictyostelia	stem	HOG0014991	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+D3BHT7	T_dictyostelia	stem	HOG0015176	Eumycetozoa	Dictyostelia	Hetepal	0.0	
+F4QFK8	T_dictyostelia	stem	HOG0015374	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+F0ZNK5	T_dictyostelia	stem	HOG0015369	Eumycetozoa	Dictyostelia	Dictpur	1.0	
+Q54H13	T_dictyostelia	stem	HOG0015017	Eumycetozoa	Dictyostelia	Dictdis	1.0	
+Q54WG8	T_dictyostelia	stem	HOG0015121	Eumycetozoa	Dictyostelia	Dictdis	1.0	
+Q54Y63	T_dictyostelia	stem	HOG0015289	Eumycetozoa	Dictyostelia	Dictdis	0.0	
+Q86HN5	T_dictyostelia	stem	HOG0015271	Eumycetozoa	Dictyostelia	Dictdis	1.0	
+F4PX27	T_dictyostelia	stem	HOG0015579	Eumycetozoa	Dictyostelia	Cavefas	0.0	
+F0ZDF0	T_dictyostelia	stem	HOG0015195	Eumycetozoa	Dictyostelia	Dictpur	0.0	
+A0A2P6N5Z2	T_dictyostelia	control	HOG0018068	Podiata	Amorphea	Planfun	2.0	2759
+U4LQ11	T_dictyostelia	control	HOG0018147	Podiata	Amorphea	Pyroomp	0.0	2759
+A0A835TMA8	T_dictyostelia	control	HOG0045862	Archaeplastida	Viridiplantae	Chlasch	0.0	33090
+L8H390	T_dictyostelia	control	HOG0017290	Podiata	Amorphea	Acancas	0.0	2759
+A0A2V0PCY4	T_dictyostelia	control	HOG0042095	UTC_clade	CS_clade	Raphsub	0.0	2812636
+A0A7M7PCL5	T_dictyostelia	control	HOG0018991	Amorphea	Obazoa	Stropur	0.0	2759
+A0A0L0T4E1	T_dictyostelia	control	HOG0011592	Holomycota	Fungi	Allomac	0.0	4751
+A0A058ZEG3	T_dictyostelia	control	HOG0018399	Podiata	Amorphea	Fontalb	0.0	2759
+Q54JG4	T_dictyostelia	control	HOG0015860	Amoebozoa	Evosea	Dictdis	0.0	2605435
+C1E1F7	T_dictyostelia	control	HOG0042680	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+D8U048	T_dictyostelia	control	HOG0042219	UTC_clade	CS_clade	Volvcar	0.0	2812636
+A0AAW2ZL91	T_dictyostelia	control	HOG0023087	Discicristata	Heterolobosea	Acrakon	0.0	5752
+C1FIF6	T_dictyostelia	control	HOG0042740	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A2P6N9H5	T_dictyostelia	control	HOG0013713	Evosea	Variosea	Planfun	0.0	2605334
+A0A067D182	T_dictyostelia	control	HOG0029928	Sar	Stramenopiles	Saprpar	0.0	33634
+A0A0G4G7A8	T_dictyostelia	control	HOG0033452	Sar	Alveolata	Vitrbra	0.0	33630
+A0A6P4ZIP1	T_dictyostelia	control	HOG0017625	Podiata	Amorphea	Branbel	0.0	2759
+C1E0P6	T_dictyostelia	control	HOG0043187	Archaeplastida	Viridiplantae	Micrcom	2.0	33090
+A0A2J8A945	T_dictyostelia	control	HOG0042079	UTC_clade	CS_clade	Tetrsoc	0.0	2812636
+A0A5A8CH80	T_dictyostelia	control	HOG0029951	Sar	Stramenopiles	Caferoe	1.0	33634
+A0A2P6MQY1	T_dictyostelia	control	HOG0013858	Evosea	Variosea	Planfun	0.0	2605334
+A0A2P6MSQ2	T_dictyostelia	control	HOG0013732	Evosea	Variosea	Planfun	1.0	2605334
+A0A2P6MQ96	T_dictyostelia	control	HOG0013752	Evosea	Variosea	Planfun	0.0	2605334
+A0A2R5G7S2	T_dictyostelia	control	HOG0029957	Sar	Stramenopiles	Hondfer	1.0	33634
+C1E4K9	T_dictyostelia	control	HOG0042766	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A2P6NI15	T_dictyostelia	control	HOG0013700	Evosea	Variosea	Planfun	0.0	2605334
+A0A2P6MTN4	T_dictyostelia	control	HOG0013743	Evosea	Variosea	Planfun	0.0	2605334
+C1FH06	T_dictyostelia	control	HOG0042717	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A2P6NSP2	T_dictyostelia	control	HOG0013887	Evosea	Variosea	Planfun	0.0	2605334
+A0A1X7UFG4	T_dictyostelia	control	HOG0018968	Amorphea	Obazoa	Amphque	0.0	2759
+U4LAZ8	T_dictyostelia	control	HOG0017798	Podiata	Amorphea	Pyroomp	0.0	2759
+L8H051	T_dictyostelia	control	HOG0016112	Amoebozoa	Discosea	Acancas	1.0	555280
+A0A2P6NT22	T_dictyostelia	control	HOG0013843	Evosea	Variosea	Planfun	0.0	2605334
+D3BIW3	T_dictyostelia	control	HOG0019881	Podiata	Amorphea	Hetepal	0.0	2759
+A0A2P6MXY2	T_dictyostelia	control	HOG0013599	Evosea	Variosea	Planfun	0.0	2605334
+A0A0S4JDR7	T_dictyostelia	control	HOG0023471	Discicristata	Euglenozoa	Bodosal	0.0	33682
+A0A125YIA2	T_dictyostelia	control	HOG0031995	Alveolata	Myzozoa	Toxogon	0.0	33630
+A0A6P4YP32	T_dictyostelia	control	HOG0018682	Podiata	Amorphea	Branbel	0.0	2759
+A0A090M3B0	T_dictyostelia	control	HOG0042641	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+F4Q1N8	T_dictyostelia	control	HOG0015748	Amoebozoa	Evosea	Cavefas	0.0	2605435
+A7T4H0	T_dictyostelia	control	HOG0017660	Podiata	Amorphea	Nemavec	0.0	2759
+A0A0G4EDZ0	T_dictyostelia	control	HOG0033463	Sar	Alveolata	Vitrbra	0.0	33630
+D2VLZ9	T_dictyostelia	control	HOG0022969	Discicristata	Heterolobosea	Naeggru	0.0	5752
+A0A096PA34	T_dictyostelia	control	HOG0043191	Archaeplastida	Viridiplantae	Ostrtau	0.0	33090
+F4Q358	T_dictyostelia	control	HOG0019880	Podiata	Amorphea	Cavefas	0.0	2759
+A0A2R5GS34	T_dictyostelia	control	HOG0029937	Sar	Stramenopiles	Hondfer	0.0	33634
+A0A5J4YUU2	T_dictyostelia	control	HOG0045368	Archaeplastida	Rhodophyta_Rhodelphidia	Porppur	1.0	2759
+A0A835VW15	T_dictyostelia	control	HOG0042182	UTC_clade	CS_clade	Chlainc	0.0	2812636
+A0A9W6BGX5	T_dictyostelia	control	HOG0042216	UTC_clade	CS_clade	Pleosta	0.0	2812636
+Q00SX0	T_dictyostelia	control	HOG0042601	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+A0AAW2ZQF4	T_dictyostelia	control	HOG0023018	Discicristata	Heterolobosea	Acrakon	0.0	5752
+A0A2P6NW30	T_dictyostelia	control	HOG0018331	Podiata	Amorphea	Planfun	1.0	2759
+C1EGQ7	T_dictyostelia	control	HOG0042587	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+Q01G16	T_dictyostelia	control	HOG0042591	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+A0A0L0DU05	T_dictyostelia	control	HOG0012433	Amorphea	Obazoa	Thectra	0.0	2759
+A0A2P6NFH4	T_dictyostelia	control	HOG0013595	Evosea	Variosea	Planfun	0.0	2605334
+D6RNW1	T_dictyostelia	control	HOG0017401	Podiata	Amorphea	Coprcin	1.0	2759
+D2VVG6	T_dictyostelia	control	HOG0058013	Bikonta	Discoba	Naeggru	0.0	2611352
+C1FIK3	T_dictyostelia	control	HOG0042677	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A0G4EDL5	T_dictyostelia	control	HOG0031991	Alveolata	Myzozoa	Vitrbra	0.0	33630
+A0A2R6XFD3	T_streptophyta	stem	HOG0038294	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Marcpol	0.0	
+A9SF47	T_streptophyta	stem	HOG0038354	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Physpat	0.0	
+A0A0U9HNR8	T_streptophyta	stem	HOG0038358	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A0U9HJS6	T_streptophyta	stem	HOG0038413	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A388M4P5	T_streptophyta	stem	HOG0038432	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A1Y1I6F8	T_streptophyta	stem	HOG0038316	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A388KKC6	T_streptophyta	stem	HOG0038507	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A1Y1HR18	T_streptophyta	stem	HOG0038321	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1I6J4	T_streptophyta	stem	HOG0038493	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1HWH9	T_streptophyta	stem	HOG0038404	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+W1PN48	T_streptophyta	stem	HOG0038441	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Ambotri	0.0	
+A0A1Y1HST0	T_streptophyta	stem	HOG0038422	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A1Y1HIX5	T_streptophyta	stem	HOG0038425	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A1Y1IHH9	T_streptophyta	stem	HOG0038315	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A2R6W9G8	T_streptophyta	stem	HOG0038434	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Marcpol	0.0	
+A0A1Y1I9F8	T_streptophyta	stem	HOG0038395	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1HZG9	T_streptophyta	stem	HOG0038442	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A8T2TDU8	T_streptophyta	stem	HOG0038306	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Ceraric	0.0	
+A0A1Y1IT56	T_streptophyta	stem	HOG0038291	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A8T2TH84	T_streptophyta	stem	HOG0038366	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Ceraric	0.0	
+A0A1Y1IFU2	T_streptophyta	stem	HOG0038373	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+Q9SIJ6	T_streptophyta	stem	HOG0038360	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Arabtha	0.0	
+A0A1Y1HU12	T_streptophyta	stem	HOG0038512	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A388K3E8	T_streptophyta	stem	HOG0038462	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A0U9I774	T_streptophyta	stem	HOG0038304	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1I3F1	T_streptophyta	stem	HOG0038348	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A7I4BLR7	T_streptophyta	stem	HOG0038416	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Physpat	0.0	
+A0A388KC30	T_streptophyta	stem	HOG0038391	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A1Y1HTX1	T_streptophyta	stem	HOG0038369	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A1Y1IE36	T_streptophyta	stem	HOG0038490	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+W1NE91	T_streptophyta	stem	HOG0038451	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Ambotri	0.0	
+A0A1Y1HQ72	T_streptophyta	stem	HOG0038365	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A1Y1IBZ6	T_streptophyta	stem	HOG0038394	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A388JQY9	T_streptophyta	stem	HOG0038509	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A1Y1IDZ5	T_streptophyta	stem	HOG0038283	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A388KTS9	T_streptophyta	stem	HOG0038351	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A0U9HHK6	T_streptophyta	stem	HOG0038359	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A2K1K9S2	T_streptophyta	stem	HOG0038325	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Physpat	0.0	
+A0A388LZT6	T_streptophyta	stem	HOG0038338	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A388LUV1	T_streptophyta	stem	HOG0038463	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A1Y1I9L9	T_streptophyta	stem	HOG0038497	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A388L1B8	T_streptophyta	stem	HOG0038372	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Charbra	0.0	
+A0A1Y1IJG7	T_streptophyta	stem	HOG0038380	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A1Y1HKD6	T_streptophyta	stem	HOG0038460	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A2R6WM29	T_streptophyta	stem	HOG0038412	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Marcpol	0.0	
+A0A1Y1HQT9	T_streptophyta	stem	HOG0038352	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1IKG4	T_streptophyta	stem	HOG0038461	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1HT38	T_streptophyta	stem	HOG0038301	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1HZ62	T_streptophyta	stem	HOG0038285	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A1Y1I3A3	T_streptophyta	stem	HOG0038370	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1HRT3	T_streptophyta	stem	HOG0038436	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1IF11	T_streptophyta	stem	HOG0038401	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1.0	
+A0A2R6WED0	T_streptophyta	stem	HOG0038331	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Marcpol	0.0	
+A0A1Y1II74	T_streptophyta	stem	HOG0038486	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1I2B4	T_streptophyta	stem	HOG0038347	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1I236	T_streptophyta	stem	HOG0038350	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1IHS3	T_streptophyta	stem	HOG0038357	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A2R6WZ55	T_streptophyta	stem	HOG0038499	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Marcpol	0.0	
+A0A1Y1I006	T_streptophyta	stem	HOG0038477	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A1Y1HU03	T_streptophyta	stem	HOG0038330	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	0.0	
+A0A9W6BP79	T_streptophyta	control	HOG0042521	Chlorophyta	UTC_clade	Pleosta	0.0	2692248
+D7G995	T_streptophyta	control	HOG0048135	Bikonta	Diaphoretickes	Ectosil	0.0	2759
+L1K0E6	T_streptophyta	control	HOG0056169	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+A0A2P6MSR9	T_streptophyta	control	HOG0013514	Evosea	Variosea	Planfun	1.0	2605334
+A0A2P6MMA7	T_streptophyta	control	HOG0013811	Evosea	Variosea	Planfun	1.0	2605334
+A0A836B7T4	T_streptophyta	control	HOG0042384	Chlorophyta	UTC_clade	Chlasch	0.0	2692248
+A0A4D9DDM2	T_streptophyta	control	HOG0055166	Bikonta	Diaphoretickes	Nannsal	0.0	2759
+A0A836C2T0	T_streptophyta	control	HOG0042171	UTC_clade	CS_clade	Edapdeb	0.0	2812636
+A0A2P6NN21	T_streptophyta	control	HOG0013531	Evosea	Variosea	Planfun	0.0	2605334
+L8GRM0	T_streptophyta	control	HOG0016311	Amorphea	Amoebozoa	Acancas	1.0	554915
+D8T9F8	T_streptophyta	control	HOG0047489	Bikonta	Diaphoretickes	Selamoe	2.0	2759
+A0A9W6F3J5	T_streptophyta	control	HOG0042230	UTC_clade	CS_clade	Pleosta	0.0	2812636
+F4QAT1	T_streptophyta	control	HOG0016710	Amorphea	Amoebozoa	Cavefas	0.0	554915
+A0AB34KBQ3	T_streptophyta	control	HOG0055927	Bikonta	Diaphoretickes	Prympar	0.0	2759
+A0AB34J5A3	T_streptophyta	control	HOG0047756	Bikonta	Diaphoretickes	Prympar	2.0	2759
+C1EDF4	T_streptophyta	control	HOG0047021	Bikonta	Diaphoretickes	Micrcom	0.0	2759
+A0A2R6XFK4	T_streptophyta	control	HOG0047169	Bikonta	Diaphoretickes	Marcpol	2.0	2759
+A0C5A8	T_streptophyta	control	HOG0033403	Alveolata	Ciliophora	Paratet	0.0	5878
+C5L9L6	T_streptophyta	control	HOG0056842	Bikonta	Diaphoretickes	Perkmar	0.0	2759
+A0AB34JNJ8	T_streptophyta	control	HOG0047523	Bikonta	Diaphoretickes	Prympar	1.0	2759
+A0A2K3D2F8	T_streptophyta	control	HOG0042211	UTC_clade	CS_clade	Chlarei	0.0	2812636
+A0A090M134	T_streptophyta	control	HOG0043159	Archaeplastida	Viridiplantae	Ostrtau	0.0	33090
+Q236H2	T_streptophyta	control	HOG0033265	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0A2J7ZUS1	T_streptophyta	control	HOG0042330	Chlorophyta	UTC_clade	Tetrsoc	0.0	2692248
+A0A2P6NSD8	T_streptophyta	control	HOG0013594	Evosea	Variosea	Planfun	0.0	2605334
+C5KZ38	T_streptophyta	control	HOG0047484	Bikonta	Diaphoretickes	Perkmar	0.0	2759
+L1IS61	T_streptophyta	control	HOG0054663	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+A0A2J8A5F6	T_streptophyta	control	HOG0049623	Bikonta	Diaphoretickes	Tetrsoc	2.0	2759
+L8H0C9	T_streptophyta	control	HOG0016638	Amorphea	Amoebozoa	Acancas	0.0	554915
+A0A2P6MPB4	T_streptophyta	control	HOG0013691	Evosea	Variosea	Planfun	0.0	2605334
+B8LD36	T_streptophyta	control	HOG0048412	Bikonta	Diaphoretickes	Thalpse	0.0	2759
+D8UF70	T_streptophyta	control	HOG0042474	Chlorophyta	UTC_clade	Volvcar	0.0	2692248
+B8C367	T_streptophyta	control	HOG0056687	Bikonta	Diaphoretickes	Thalpse	0.0	2759
+A0A388K367	T_streptophyta	control	HOG0056255	Bikonta	Diaphoretickes	Charbra	0.0	2759
+D2VLZ9	T_streptophyta	control	HOG0022969	Discicristata	Heterolobosea	Naeggru	0.0	5752
+A0A1R2BJY8	T_streptophyta	control	HOG0033155	Alveolata	Ciliophora	Stencoe	0.0	5878
+A0A2P6NBJ5	T_streptophyta	control	HOG0013847	Evosea	Variosea	Planfun	0.0	2605334
+A0A2V0PEN9	T_streptophyta	control	HOG0042120	UTC_clade	CS_clade	Raphsub	0.0	2812636
+A0A1Y1HQE6	T_streptophyta	control	HOG0048635	Bikonta	Diaphoretickes	Klebnit	0.0	2759
+A0C092	T_streptophyta	control	HOG0033373	Alveolata	Ciliophora	Paratet	0.0	5878
+A0A9W6C2U6	T_streptophyta	control	HOG0047048	Bikonta	Diaphoretickes	Pleosta	1.0	2759
+A0A2P6NKE4	T_streptophyta	control	HOG0013583	Evosea	Variosea	Planfun	0.0	2605334
+A0A835TMF9	T_streptophyta	control	HOG0046475	Bikonta	Diaphoretickes	Chlainc	0.0	2759
+A0AAW2ZKL2	T_streptophyta	control	HOG0023031	Discicristata	Heterolobosea	Acrakon	1.0	5752
+A0AB34IBB9	T_streptophyta	control	HOG0048478	Bikonta	Diaphoretickes	Prympar	2.0	2759
+Q54S33	T_streptophyta	control	HOG0016753	Amorphea	Amoebozoa	Dictdis	0.0	554915
+B7G3S3	T_streptophyta	control	HOG0034350	Diaphoretickes	TSAR	Phaetri	0.0	2759
+A0A2R5GDM4	T_streptophyta	control	HOG0029870	Sar	Stramenopiles	Hondfer	1.0	33634
+A0A2R5GHG1	T_streptophyta	control	HOG0047228	Bikonta	Diaphoretickes	Hondfer	2.0	2759
+A0A2P6NXZ2	T_streptophyta	control	HOG0013760	Evosea	Variosea	Planfun	1.0	2605334
+A0A388KSQ6	T_streptophyta	control	HOG0047977	Bikonta	Diaphoretickes	Charbra	0.0	2759
+W7XFA2	T_streptophyta	control	HOG0046743	Bikonta	Diaphoretickes	Tetrthe	0.0	2759
+M1VFW4	T_streptophyta	control	HOG0045511	Diaphoretickes	Archaeplastida	Cyanmer	1.0	2759
+A0A0S4KPV6	T_streptophyta	control	HOG0023496	Discicristata	Euglenozoa	Bodosal	1.0	33682
+A0A0G4EF76	T_streptophyta	control	HOG0048343	Bikonta	Diaphoretickes	Vitrbra	0.0	2759
+L8GTW4	T_streptophyta	control	HOG0016271	Amorphea	Amoebozoa	Acancas	1.0	554915
+A0A0G4FKV1	T_streptophyta	control	HOG0046439	Bikonta	Diaphoretickes	Vitrbra	0.0	2759
+A0A2P6NKY5	T_streptophyta	control	HOG0013707	Evosea	Variosea	Planfun	0.0	2605334
+A0AAW2YWB2	T_streptophyta	control	HOG0023077	Discicristata	Heterolobosea	Acrakon	1.0	5752
+L1K1H5	T_streptophyta	control	HOG0046016	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+R7QR71	T_rhodophyta	stem	HOG0045033	Rhodophytina	Eurhodophytina	Choncri	0.0	
+A0A1X6P0N9	T_rhodophyta	stem	HOG0045005	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0A1X6PDL2	T_rhodophyta	stem	HOG0045037	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3BLW6	T_rhodophyta	stem	HOG0045020	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A2V3IC93	T_rhodophyta	stem	HOG0045015	Rhodophytina	Eurhodophytina	Graccho	0.0	
+A0ACC3C3R1	T_rhodophyta	stem	HOG0045017	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6PKT0	T_rhodophyta	stem	HOG0045016	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0A1X6PGF5	T_rhodophyta	stem	HOG0045044	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3BYK0	T_rhodophyta	stem	HOG0045065	Rhodophytina	Eurhodophytina	Pyroyez	1.0	
+A0A1X6NNA8	T_rhodophyta	stem	HOG0045048	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3CDK9	T_rhodophyta	stem	HOG0045047	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6PD36	T_rhodophyta	stem	HOG0045058	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3BMM6	T_rhodophyta	stem	HOG0045026	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6NJI8	T_rhodophyta	stem	HOG0045074	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0A1X6PCF9	T_rhodophyta	stem	HOG0045039	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+M5DET4	T_rhodophyta	stem	HOG0045034	Rhodophytina	Eurhodophytina	Choncri	0.0	
+A0ACC3CIC2	T_rhodophyta	stem	HOG0045021	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6NUH1	T_rhodophyta	stem	HOG0045055	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0A1X6NIV3	T_rhodophyta	stem	HOG0045009	Rhodophytina	Eurhodophytina	Porpumb	1.0	
+A0A2V3IVV4	T_rhodophyta	stem	HOG0045064	Rhodophytina	Eurhodophytina	Graccho	0.0	
+A0A1X6PAQ4	T_rhodophyta	stem	HOG0045070	Rhodophytina	Eurhodophytina	Porpumb	1.0	
+A0ACC3BLN0	T_rhodophyta	stem	HOG0045079	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+R7QEP9	T_rhodophyta	stem	HOG0045067	Rhodophytina	Eurhodophytina	Choncri	0.0	
+A0ACC3CJS9	T_rhodophyta	stem	HOG0045024	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0ACC3BWQ7	T_rhodophyta	stem	HOG0045041	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6P8E4	T_rhodophyta	stem	HOG0045050	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3C1U7	T_rhodophyta	stem	HOG0045046	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A2V3IEQ2	T_rhodophyta	stem	HOG0045022	Rhodophytina	Eurhodophytina	Graccho	0.0	
+A0ACC3BV04	T_rhodophyta	stem	HOG0045004	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6NMP3	T_rhodophyta	stem	HOG0045006	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3BI18	T_rhodophyta	stem	HOG0045049	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6PD38	T_rhodophyta	stem	HOG0045059	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3C3J0	T_rhodophyta	stem	HOG0045063	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+R7Q6K4	T_rhodophyta	stem	HOG0045068	Rhodophytina	Eurhodophytina	Choncri	0.0	
+R7QEH0	T_rhodophyta	stem	HOG0045007	Rhodophytina	Eurhodophytina	Choncri	0.0	
+R7Q6E3	T_rhodophyta	stem	HOG0045018	Rhodophytina	Eurhodophytina	Choncri	0.0	
+A0ACC3C7U3	T_rhodophyta	stem	HOG0045028	Rhodophytina	Eurhodophytina	Pyroyez	1.0	
+A0ACC3BZN5	T_rhodophyta	stem	HOG0045077	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0ACC3BMF2	T_rhodophyta	stem	HOG0045038	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6NPK8	T_rhodophyta	stem	HOG0045066	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3C7D1	T_rhodophyta	stem	HOG0045012	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0ACC3C8Y9	T_rhodophyta	stem	HOG0045078	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6NMH9	T_rhodophyta	stem	HOG0045072	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0A1X6P2F6	T_rhodophyta	stem	HOG0045053	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0A1X6PBP3	T_rhodophyta	stem	HOG0045013	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3CDL7	T_rhodophyta	stem	HOG0045060	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0ACC3BPN1	T_rhodophyta	stem	HOG0045076	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0ACC3BJ42	T_rhodophyta	stem	HOG0045019	Rhodophytina	Eurhodophytina	Pyroyez	1.0	
+A0ACC3BV30	T_rhodophyta	stem	HOG0045040	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6PEB7	T_rhodophyta	stem	HOG0045031	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3CE10	T_rhodophyta	stem	HOG0045056	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A2V3J6C5	T_rhodophyta	stem	HOG0045027	Rhodophytina	Eurhodophytina	Graccho	0.0	
+A0A1X6P8C2	T_rhodophyta	stem	HOG0045054	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0ACC3BUQ1	T_rhodophyta	stem	HOG0045029	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0A1X6NKA3	T_rhodophyta	stem	HOG0045014	Rhodophytina	Eurhodophytina	Porpumb	0.0	
+A0A2V3IN33	T_rhodophyta	stem	HOG0045043	Rhodophytina	Eurhodophytina	Graccho	0.0	
+A0ACC3BQZ5	T_rhodophyta	stem	HOG0045073	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0ACC3BZT2	T_rhodophyta	stem	HOG0045011	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+A0ACC3BJA0	T_rhodophyta	stem	HOG0045075	Rhodophytina	Eurhodophytina	Pyroyez	0.0	
+R7Q633	T_rhodophyta	stem	HOG0045062	Rhodophytina	Eurhodophytina	Choncri	0.0	
+A0A835T4U9	T_rhodophyta	control	HOG0042501	Chlorophyta	UTC_clade	Chlainc	0.0	2692248
+A0A835VRW4	T_rhodophyta	control	HOG0055829	Bikonta	Diaphoretickes	Chlainc	0.0	2759
+A0A2P6NXN8	T_rhodophyta	control	HOG0013792	Evosea	Variosea	Planfun	0.0	2605334
+A0A1X6NWD0	T_rhodophyta	control	HOG0045815	Archaeplastida	Rhodophyta_Rhodelphidia	Porpumb	0.0	2759
+A0AB34ILE2	T_rhodophyta	control	HOG0048209	Bikonta	Diaphoretickes	Prympar	1.0	2759
+C1ECD8	T_rhodophyta	control	HOG0042642	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+D0NQJ7	T_rhodophyta	control	HOG0048445	Bikonta	Diaphoretickes	Phytinf	1.0	2759
+L1JKE9	T_rhodophyta	control	HOG0046233	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+C1E5M7	T_rhodophyta	control	HOG0047008	Bikonta	Diaphoretickes	Micrcom	1.0	2759
+A0A835YFZ0	T_rhodophyta	control	HOG0047841	Bikonta	Diaphoretickes	Edapdeb	0.0	2759
+A0A2V0P484	T_rhodophyta	control	HOG0042113	UTC_clade	CS_clade	Raphsub	0.0	2812636
+D8TV03	T_rhodophyta	control	HOG0042312	Chlorophyta	UTC_clade	Volvcar	0.0	2692248
+A0A2P6NX93	T_rhodophyta	control	HOG0013897	Evosea	Variosea	Planfun	0.0	2605334
+A0AAV8UR82	T_rhodophyta	control	HOG0045566	Diaphoretickes	Archaeplastida	Rhodmar	2.0	2759
+A0A835XS52	T_rhodophyta	control	HOG0048104	Bikonta	Diaphoretickes	Edapdeb	0.0	2759
+A0BHE9	T_rhodophyta	control	HOG0056774	Bikonta	Diaphoretickes	Paratet	0.0	2759
+A0AB34K8S7	T_rhodophyta	control	HOG0049235	Bikonta	Diaphoretickes	Prympar	2.0	2759
+I0YZM8	T_rhodophyta	control	HOG0042389	Chlorophyta	UTC_clade	Coccsub	0.0	2692248
+L1J7N3	T_rhodophyta	control	HOG0046242	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+Q01GP7	T_rhodophyta	control	HOG0042652	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+R7TMP5	T_rhodophyta	control	HOG0012447	Amorphea	Obazoa	Capitel	2.0	2759
+A0A835WHP1	T_rhodophyta	control	HOG0042077	UTC_clade	CS_clade	Chlasch	0.0	2812636
+C5KYV9	T_rhodophyta	control	HOG0056845	Bikonta	Diaphoretickes	Perkmar	0.0	2759
+B8C5X3	T_rhodophyta	control	HOG0048325	Bikonta	Diaphoretickes	Thalpse	2.0	2759
+A0A075AR40	T_rhodophyta	control	HOG0011540	Holomycota	Fungi	Rozeall	1.0	4751
+A0A0U9HKU2	T_rhodophyta	control	HOG0043142	Archaeplastida	Viridiplantae	Klebnit	2.0	33090
+C5L520	T_rhodophyta	control	HOG0033486	Sar	Alveolata	Perkmar	0.0	33630
+A0A150GYN7	T_rhodophyta	control	HOG0042107	UTC_clade	CS_clade	Gonipec	0.0	2812636
+C1DZ25	T_rhodophyta	control	HOG0042684	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+D8TTV3	T_rhodophyta	control	HOG0047870	Bikonta	Diaphoretickes	Volvcar	0.0	2759
+A0A835ZF03	T_rhodophyta	control	HOG0048968	Bikonta	Diaphoretickes	Tribmin	0.0	2759
+Q24FN3	T_rhodophyta	control	HOG0033329	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0AB34J4S1	T_rhodophyta	control	HOG0047018	Bikonta	Diaphoretickes	Prympar	0.0	2759
+A0A835WMN4	T_rhodophyta	control	HOG0055472	Bikonta	Diaphoretickes	Chlasch	0.0	2759
+A0AB34IWS7	T_rhodophyta	control	HOG0047960	Bikonta	Diaphoretickes	Prympar	2.0	2759
+A0A2K3DL36	T_rhodophyta	control	HOG0042087	UTC_clade	CS_clade	Chlarei	0.0	2812636
+Q23D85	T_rhodophyta	control	HOG0033281	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0AB34K4D7	T_rhodophyta	control	HOG0048036	Bikonta	Diaphoretickes	Prympar	2.0	2759
+A0A835XK76	T_rhodophyta	control	HOG0045873	Archaeplastida	Viridiplantae	Edapdeb	0.0	33090
+D8U344	T_rhodophyta	control	HOG0045590	Diaphoretickes	Archaeplastida	Volvcar	0.0	2759
+A0A835TMA8	T_rhodophyta	control	HOG0045862	Archaeplastida	Viridiplantae	Chlasch	0.0	33090
+A0A1R2BMK9	T_rhodophyta	control	HOG0057114	Bikonta	Diaphoretickes	Stencoe	0.0	2759
+A0BNX3	T_rhodophyta	control	HOG0056776	Bikonta	Diaphoretickes	Paratet	0.0	2759
+A0A2P6MS04	T_rhodophyta	control	HOG0013545	Evosea	Variosea	Planfun	0.0	2605334
+A0A9W6BTQ6	T_rhodophyta	control	HOG0042458	Chlorophyta	UTC_clade	Pleosta	0.0	2692248
+A0A2P6NWS4	T_rhodophyta	control	HOG0013882	Evosea	Variosea	Planfun	0.0	2605334
+A0A1R2CSR5	T_rhodophyta	control	HOG0057109	Bikonta	Diaphoretickes	Stencoe	0.0	2759
+A0A388LZY3	T_rhodophyta	control	HOG0045849	Archaeplastida	Viridiplantae	Charbra	0.0	33090
+I0YRT1	T_rhodophyta	control	HOG0046813	Bikonta	Diaphoretickes	Coccsub	1.0	2759
+C1E6B9	T_rhodophyta	control	HOG0042699	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A2P6NBP0	T_rhodophyta	control	HOG0013697	Evosea	Variosea	Planfun	1.0	2605334
+I7LUN3	T_rhodophyta	control	HOG0048661	Bikonta	Diaphoretickes	Tetrthe	0.0	2759
+I0Z1I8	T_rhodophyta	control	HOG0047598	Bikonta	Diaphoretickes	Coccsub	1.0	2759
+A0A2P6NU23	T_rhodophyta	control	HOG0013581	Evosea	Variosea	Planfun	0.0	2605334
+D2V9L0	T_rhodophyta	control	HOG0057993	Bikonta	Discoba	Naeggru	0.0	2611352
+A0A2P6N189	T_rhodophyta	control	HOG0013892	Evosea	Variosea	Planfun	1.0	2605334
+I0YM42	T_rhodophyta	control	HOG0042364	Chlorophyta	UTC_clade	Coccsub	1.0	2692248
+L1ILR7	T_rhodophyta	control	HOG0046062	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+I0YQU0	T_rhodophyta	control	HOG0042494	Chlorophyta	UTC_clade	Coccsub	0.0	2692248
+L1JJG0	T_rhodophyta	control	HOG0045961	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+D7G1X9	T_px_filaments	stem	HOG0027417	Ochrophyta	PX_clade	Ectosil	0.0	
+D7FGQ4	T_px_filaments	stem	HOG0027324	Ochrophyta	PX_clade	Ectosil	0.0	
+D7FLT5	T_px_filaments	stem	HOG0027021	Ochrophyta	PX_clade	Ectosil	2.0	
+A0A835YW05	T_px_filaments	stem	HOG0027393	Ochrophyta	PX_clade	Tribmin	0.0	
+D8LRE7	T_px_filaments	stem	HOG0027436	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A835YTQ6	T_px_filaments	stem	HOG0027017	Ochrophyta	PX_clade	Tribmin	1.0	
+A0A836CGM5	T_px_filaments	stem	HOG0026938	Ochrophyta	PX_clade	Tribmin	0.0	
+A0A835YTS5	T_px_filaments	stem	HOG0026964	Ochrophyta	PX_clade	Tribmin	2.0	
+A0A835YHS2	T_px_filaments	stem	HOG0026970	Ochrophyta	PX_clade	Tribmin	0.0	
+A0A836CFM5	T_px_filaments	stem	HOG0026979	Ochrophyta	PX_clade	Tribmin	0.0	
+D8LPG2	T_px_filaments	stem	HOG0027270	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A835YSG7	T_px_filaments	stem	HOG0027313	Ochrophyta	PX_clade	Tribmin	0.0	
+A0A835Z5N4	T_px_filaments	stem	HOG0027385	Ochrophyta	PX_clade	Tribmin	1.0	
+A0A836CBP5	T_px_filaments	stem	HOG0027305	Ochrophyta	PX_clade	Tribmin	1.0	
+A0A836CFQ5	T_px_filaments	stem	HOG0026971	Ochrophyta	PX_clade	Tribmin	1.0	
+D8LL32	T_px_filaments	stem	HOG0027037	Ochrophyta	PX_clade	Ectosil	2.0	
+A0A836CEH4	T_px_filaments	stem	HOG0026974	Ochrophyta	PX_clade	Tribmin	0.0	
+D7FNU3	T_px_filaments	stem	HOG0027089	Ochrophyta	PX_clade	Ectosil	2.0	
+D8LJY4	T_px_filaments	stem	HOG0026934	Ochrophyta	PX_clade	Ectosil	2.0	
+D8LLN8	T_px_filaments	stem	HOG0027340	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A835YW02	T_px_filaments	stem	HOG0027312	Ochrophyta	PX_clade	Tribmin	1.0	
+D8LF55	T_px_filaments	stem	HOG0027302	Ochrophyta	PX_clade	Ectosil	0.0	
+D8LK41	T_px_filaments	stem	HOG0027076	Ochrophyta	PX_clade	Ectosil	0.0	
+D8LPC6	T_px_filaments	stem	HOG0027104	Ochrophyta	PX_clade	Ectosil	2.0	
+A0A835YQ53	T_px_filaments	stem	HOG0027061	Ochrophyta	PX_clade	Tribmin	2.0	
+A0A836CG08	T_px_filaments	stem	HOG0026985	Ochrophyta	PX_clade	Tribmin	2.0	
+A0A835YKR9	T_px_filaments	stem	HOG0027365	Ochrophyta	PX_clade	Tribmin	2.0	
+A0A836C9Z3	T_px_filaments	stem	HOG0027078	Ochrophyta	PX_clade	Tribmin	2.0	
+A0A835ZHR5	T_px_filaments	stem	HOG0027334	Ochrophyta	PX_clade	Tribmin	0.0	
+D8LE61	T_px_filaments	stem	HOG0027116	Ochrophyta	PX_clade	Ectosil	2.0	
+A0A836CJG1	T_px_filaments	stem	HOG0027442	Ochrophyta	PX_clade	Tribmin	2.0	
+A0A835Z1Y8	T_px_filaments	stem	HOG0027023	Ochrophyta	PX_clade	Tribmin	0.0	
+D7FT84	T_px_filaments	stem	HOG0027095	Ochrophyta	PX_clade	Ectosil	0.0	
+D8LPG1	T_px_filaments	stem	HOG0027274	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A836CL82	T_px_filaments	stem	HOG0027369	Ochrophyta	PX_clade	Tribmin	1.0	
+A0A5K1KEM9	T_px_filaments	stem	HOG0027271	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A835Z8E9	T_px_filaments	stem	HOG0027336	Ochrophyta	PX_clade	Tribmin	1.0	
+A0A835ZBW5	T_px_filaments	stem	HOG0027357	Ochrophyta	PX_clade	Tribmin	0.0	
+A0A835YLK8	T_px_filaments	stem	HOG0027285	Ochrophyta	PX_clade	Tribmin	0.0	
+A0A836CC54	T_px_filaments	stem	HOG0026963	Ochrophyta	PX_clade	Tribmin	0.0	
+A0A835Z5J2	T_px_filaments	stem	HOG0027298	Ochrophyta	PX_clade	Tribmin	0.0	
+D7G1A2	T_px_filaments	stem	HOG0027337	Ochrophyta	PX_clade	Ectosil	0.0	
+D8LPB2	T_px_filaments	stem	HOG0027103	Ochrophyta	PX_clade	Ectosil	2.0	
+D7FT48	T_px_filaments	stem	HOG0027368	Ochrophyta	PX_clade	Ectosil	0.0	
+D7FZ15	T_px_filaments	stem	HOG0027010	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A836CD95	T_px_filaments	stem	HOG0027362	Ochrophyta	PX_clade	Tribmin	1.0	
+A0A836C767	T_px_filaments	stem	HOG0027418	Ochrophyta	PX_clade	Tribmin	1.0	
+D8LPA2	T_px_filaments	stem	HOG0027115	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A836CHJ1	T_px_filaments	stem	HOG0026997	Ochrophyta	PX_clade	Tribmin	0.0	
+D8LSK9	T_px_filaments	stem	HOG0027135	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A835YRX9	T_px_filaments	stem	HOG0027410	Ochrophyta	PX_clade	Tribmin	0.0	
+D7FIW0	T_px_filaments	stem	HOG0027006	Ochrophyta	PX_clade	Ectosil	2.0	
+A0A835ZJK2	T_px_filaments	stem	HOG0027376	Ochrophyta	PX_clade	Tribmin	0.0	
+D8LDK1	T_px_filaments	stem	HOG0027375	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A835YMM6	T_px_filaments	stem	HOG0027304	Ochrophyta	PX_clade	Tribmin	0.0	
+A0A835ZES2	T_px_filaments	stem	HOG0027097	Ochrophyta	PX_clade	Tribmin	1.0	
+D8LHY5	T_px_filaments	stem	HOG0027120	Ochrophyta	PX_clade	Ectosil	2.0	
+D7FQN4	T_px_filaments	stem	HOG0027040	Ochrophyta	PX_clade	Ectosil	0.0	
+D8LPA6	T_px_filaments	stem	HOG0027278	Ochrophyta	PX_clade	Ectosil	0.0	
+A0A835YR84	T_px_filaments	stem	HOG0026983	Ochrophyta	PX_clade	Tribmin	2.0	
+A0AB34JG29	T_px_filaments	control	HOG0047024	Bikonta	Diaphoretickes	Prympar	0.0	2759
+A0A2K3D7F4	T_px_filaments	control	HOG0042381	Chlorophyta	UTC_clade	Chlarei	0.0	2692248
+D8U048	T_px_filaments	control	HOG0042219	UTC_clade	CS_clade	Volvcar	0.0	2812636
+L1IIX5	T_px_filaments	control	HOG0056414	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+Q233E9	T_px_filaments	control	HOG0033266	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0A2P6NG78	T_px_filaments	control	HOG0013869	Evosea	Variosea	Planfun	0.0	2605334
+A0A1R2BYD2	T_px_filaments	control	HOG0033154	Alveolata	Ciliophora	Stencoe	1.0	5878
+L1JMX7	T_px_filaments	control	HOG0050034	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+A0A0G4EV45	T_px_filaments	control	HOG0049917	Diaphoretickes	TSAR	Vitrbra	0.0	2759
+A0A2J8A945	T_px_filaments	control	HOG0042079	UTC_clade	CS_clade	Tetrsoc	0.0	2812636
+B0DG99	T_px_filaments	control	HOG0011603	Holomycota	Fungi	Laccbic	0.0	4751
+A0A9D4TYE3	T_px_filaments	control	HOG0042843	Chlorophyta	UTC_clade	Chlovul	0.0	2692248
+D0NNM7	T_px_filaments	control	HOG0048250	Bikonta	Diaphoretickes	Phytinf	1.0	2759
+A0A1X6NT77	T_px_filaments	control	HOG0047511	Bikonta	Diaphoretickes	Porpumb	0.0	2759
+A0AB34IN18	T_px_filaments	control	HOG0047307	Bikonta	Diaphoretickes	Prympar	1.0	2759
+W1PRB5	T_px_filaments	control	HOG0046764	Bikonta	Diaphoretickes	Ambotri	0.0	2759
+A0A0G4FQD8	T_px_filaments	control	HOG0048402	Bikonta	Diaphoretickes	Vitrbra	0.0	2759
+A0A388KBG2	T_px_filaments	control	HOG0043134	Archaeplastida	Viridiplantae	Charbra	0.0	33090
+A0A836C6L3	T_px_filaments	control	HOG0043225	Archaeplastida	Viridiplantae	Edapdeb	0.0	33090
+A0A2K3DVV3	T_px_filaments	control	HOG0042394	Chlorophyta	UTC_clade	Chlarei	0.0	2692248
+A0A2P6NNI1	T_px_filaments	control	HOG0013603	Evosea	Variosea	Planfun	0.0	2605334
+D7G410	T_px_filaments	control	HOG0029872	Sar	Stramenopiles	Ectosil	0.0	33634
+D8U376	T_px_filaments	control	HOG0042323	Chlorophyta	UTC_clade	Volvcar	0.0	2692248
+A0A2P6NU75	T_px_filaments	control	HOG0013673	Evosea	Variosea	Planfun	0.0	2605334
+A0A2R5G465	T_px_filaments	control	HOG0029940	Sar	Stramenopiles	Hondfer	1.0	33634
+Q010U5	T_px_filaments	control	HOG0042580	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+A0A2P6NQJ6	T_px_filaments	control	HOG0013775	Evosea	Variosea	Planfun	1.0	2605334
+A0ABQ7H237	T_px_filaments	control	HOG0042169	UTC_clade	CS_clade	Dunasal	0.0	2812636
+D8U465	T_px_filaments	control	HOG0042367	Chlorophyta	UTC_clade	Volvcar	0.0	2692248
+A0A835TQD9	T_px_filaments	control	HOG0042199	UTC_clade	CS_clade	Chlainc	0.0	2812636
+A0A9W6BFL6	T_px_filaments	control	HOG0042186	UTC_clade	CS_clade	Pleosta	0.0	2812636
+A0AB34KAE8	T_px_filaments	control	HOG0054910	Bikonta	Diaphoretickes	Prympar	2.0	2759
+Q01BK0	T_px_filaments	control	HOG0042700	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+A0A2P6NH12	T_px_filaments	control	HOG0015969	Evosea	Variosea	Planfun	0.0	2605334
+S8FBX6	T_px_filaments	control	HOG0032022	Alveolata	Myzozoa	Toxogon	0.0	33630
+Q9NLB3	T_px_filaments	control	HOG0032023	Alveolata	Myzozoa	Plasfal	0.0	33630
+L1JB90	T_px_filaments	control	HOG0055768	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+A0A8K1C3Y0	T_px_filaments	control	HOG0056963	Bikonta	Diaphoretickes	Pytholi	0.0	2759
+A0A2P6P0A7	T_px_filaments	control	HOG0013751	Evosea	Variosea	Planfun	1.0	2605334
+A0A9W6F1T5	T_px_filaments	control	HOG0042347	Chlorophyta	UTC_clade	Pleosta	1.0	2692248
+C5KYV9	T_px_filaments	control	HOG0056845	Bikonta	Diaphoretickes	Perkmar	0.0	2759
+A0A2V0PK94	T_px_filaments	control	HOG0042092	UTC_clade	CS_clade	Raphsub	0.0	2812636
+A0A2V0NMD5	T_px_filaments	control	HOG0042158	UTC_clade	CS_clade	Raphsub	0.0	2812636
+C1FI76	T_px_filaments	control	HOG0056767	Bikonta	Diaphoretickes	Micrcom	0.0	2759
+A0CNB1	T_px_filaments	control	HOG0033342	Alveolata	Ciliophora	Paratet	0.0	5878
+A0ABQ5S3B0	T_px_filaments	control	HOG0042078	UTC_clade	CS_clade	Volvafr	0.0	2812636
+A0ABQ7G5T8	T_px_filaments	control	HOG0042471	Chlorophyta	UTC_clade	Dunasal	0.0	2692248
+B8C6E2	T_px_filaments	control	HOG0029969	Sar	Stramenopiles	Thalpse	0.0	33634
+C1ECB2	T_px_filaments	control	HOG0042545	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+C1E807	T_px_filaments	control	HOG0042767	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A2P6NUS5	T_px_filaments	control	HOG0013749	Evosea	Variosea	Planfun	1.0	2605334
+I7MJT6	T_px_filaments	control	HOG0045995	Bikonta	Diaphoretickes	Tetrthe	0.0	2759
+A0A9D4YTW6	T_px_filaments	control	HOG0042319	Chlorophyta	UTC_clade	Chlovul	1.0	2692248
+A0A0G4EGG0	T_px_filaments	control	HOG0049231	Diaphoretickes	TSAR	Vitrbra	0.0	2759
+A0A9W6F3J5	T_px_filaments	control	HOG0042230	UTC_clade	CS_clade	Pleosta	0.0	2812636
+A0A0L0T4E1	T_px_filaments	control	HOG0011592	Holomycota	Fungi	Allomac	0.0	4751
+A0A0G4F0R1	T_px_filaments	control	HOG0032007	Alveolata	Myzozoa	Vitrbra	0.0	33630
+A0A067BPY3	T_px_filaments	control	HOG0057099	Bikonta	Diaphoretickes	Saprpar	0.0	2759
+A0A2P6N9V6	T_px_filaments	control	HOG0013503	Evosea	Variosea	Planfun	0.0	2605334
+A0AB34K389	T_px_filaments	control	HOG0047397	Bikonta	Diaphoretickes	Prympar	0.0	2759
+A0A2J8AGZ2	T_volvocine_tgv	stem	HOG0039448	Chlamydomonas_TGV	TGV_clade	Tetrsoc	0.0	
+A0A9W6F213	T_volvocine_tgv	stem	HOG0039353	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0A9W6F2R1	T_volvocine_tgv	stem	HOG0039350	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0AAD3HRI4	T_volvocine_tgv	stem	HOG0039341	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+A0AAD3HKG2	T_volvocine_tgv	stem	HOG0039393	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+M9P834	T_volvocine_tgv	stem	HOG0039419	Chlamydomonas_TGV	TGV_clade	Pleosta	0.0	
+A0A150GRI6	T_volvocine_tgv	stem	HOG0039384	TGV_clade	Gonium_Volvocaceae	Gonipec	0.0	
+A0A9W6BEK3	T_volvocine_tgv	stem	HOG0039343	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0AAD3DE20	T_volvocine_tgv	stem	HOG0039446	Chlamydomonas_TGV	TGV_clade	Astrgub	0.0	
+A0ABQ5RSK9	T_volvocine_tgv	stem	HOG0039358	TGV_clade	Gonium_Volvocaceae	Volvafr	0.0	
+A0A9W6F4H7	T_volvocine_tgv	stem	HOG0039369	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0AAD3E4C0	T_volvocine_tgv	stem	HOG0039339	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+A0A150FXK6	T_volvocine_tgv	stem	HOG0039357	TGV_clade	Gonium_Volvocaceae	Gonipec	0.0	
+A0A2J8AE35	T_volvocine_tgv	stem	HOG0039459	Chlamydomonas_TGV	TGV_clade	Tetrsoc	0.0	
+A0AAD3DT17	T_volvocine_tgv	stem	HOG0039392	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+D8TWC1	T_volvocine_tgv	stem	HOG0039367	TGV_clade	Gonium_Volvocaceae	Volvcar	0.0	
+A0AAD3HM91	T_volvocine_tgv	stem	HOG0039398	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+D8TT08	T_volvocine_tgv	stem	HOG0039366	TGV_clade	Gonium_Volvocaceae	Volvcar	0.0	
+A0AAD3E442	T_volvocine_tgv	stem	HOG0039373	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+A0A150G6Q1	T_volvocine_tgv	stem	HOG0039383	TGV_clade	Gonium_Volvocaceae	Gonipec	0.0	
+A0AAD3HUC8	T_volvocine_tgv	stem	HOG0039354	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+A0A9W6BFE8	T_volvocine_tgv	stem	HOG0039352	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0A2J8AJ73	T_volvocine_tgv	stem	HOG0039436	Chlamydomonas_TGV	TGV_clade	Tetrsoc	0.0	
+A0A150GY98	T_volvocine_tgv	stem	HOG0039402	TGV_clade	Gonium_Volvocaceae	Gonipec	0.0	
+A0A2J8A3H3	T_volvocine_tgv	stem	HOG0039462	Chlamydomonas_TGV	TGV_clade	Tetrsoc	0.0	
+A0A150GUQ6	T_volvocine_tgv	stem	HOG0039453	Chlamydomonas_TGV	TGV_clade	Gonipec	0.0	
+A0A150H0X0	T_volvocine_tgv	stem	HOG0039460	Chlamydomonas_TGV	TGV_clade	Gonipec	0.0	
+A0A9W6BIR0	T_volvocine_tgv	stem	HOG0039346	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0A150FVU1	T_volvocine_tgv	stem	HOG0039396	TGV_clade	Gonium_Volvocaceae	Gonipec	0.0	
+D8TMY9	T_volvocine_tgv	stem	HOG0039433	Chlamydomonas_TGV	TGV_clade	Volvcar	0.0	
+A0A9W6BDD7	T_volvocine_tgv	stem	HOG0039372	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0A9W6BSM2	T_volvocine_tgv	stem	HOG0039363	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+D8U5V4	T_volvocine_tgv	stem	HOG0039441	Chlamydomonas_TGV	TGV_clade	Volvcar	0.0	
+A0AAD3HGF1	T_volvocine_tgv	stem	HOG0039362	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+D8UGR6	T_volvocine_tgv	stem	HOG0039388	TGV_clade	Gonium_Volvocaceae	Volvcar	0.0	
+A0A9W6BHM0	T_volvocine_tgv	stem	HOG0039360	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0A150G6S9	T_volvocine_tgv	stem	HOG0039333	TGV_clade	Gonium_Volvocaceae	Gonipec	0.0	
+A0ABQ5SGK8	T_volvocine_tgv	stem	HOG0039356	TGV_clade	Gonium_Volvocaceae	Volvafr	0.0	
+D8TJC4	T_volvocine_tgv	stem	HOG0039434	Chlamydomonas_TGV	TGV_clade	Volvcar	0.0	
+A0A9W6BUK2	T_volvocine_tgv	stem	HOG0039464	Chlamydomonas_TGV	TGV_clade	Pleosta	0.0	
+A0A9W6BTT0	T_volvocine_tgv	stem	HOG0039429	Chlamydomonas_TGV	TGV_clade	Pleosta	0.0	
+A0A9W6BW85	T_volvocine_tgv	stem	HOG0039359	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+D8TZX4	T_volvocine_tgv	stem	HOG0039376	TGV_clade	Gonium_Volvocaceae	Volvcar	0.0	
+A0A9W6BZK7	T_volvocine_tgv	stem	HOG0039465	Chlamydomonas_TGV	TGV_clade	Pleosta	0.0	
+A0A9W6BIA5	T_volvocine_tgv	stem	HOG0039334	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0A9W6EY00	T_volvocine_tgv	stem	HOG0039348	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0A150GQU2	T_volvocine_tgv	stem	HOG0039397	TGV_clade	Gonium_Volvocaceae	Gonipec	0.0	
+A0AAD3E789	T_volvocine_tgv	stem	HOG0039447	Chlamydomonas_TGV	TGV_clade	Astrgub	0.0	
+A0A9W6EX70	T_volvocine_tgv	stem	HOG0039387	TGV_clade	Gonium_Volvocaceae	Pleosta	0.0	
+A0A150FUB3	T_volvocine_tgv	stem	HOG0039340	TGV_clade	Gonium_Volvocaceae	Gonipec	0.0	
+A0AAD3DMD9	T_volvocine_tgv	stem	HOG0039378	TGV_clade	Gonium_Volvocaceae	Astrgub	0.0	
+A0A2J7ZYG7	T_volvocine_tgv	stem	HOG0039442	Chlamydomonas_TGV	TGV_clade	Tetrsoc	0.0	
+A0A150G9Q4	T_volvocine_tgv	stem	HOG0039450	Chlamydomonas_TGV	TGV_clade	Gonipec	0.0	
+A0ABQ5SML0	T_volvocine_tgv	stem	HOG0039374	TGV_clade	Gonium_Volvocaceae	Volvafr	0.0	
+D8UB92	T_volvocine_tgv	stem	HOG0040624	Chlamydomonas_TGV	TGV_clade	Volvcar	0.0	
+D8UIL0	T_volvocine_tgv	stem	HOG0039421	Chlamydomonas_TGV	TGV_clade	Volvcar	0.0	
+A0ABQ5S9E7	T_volvocine_tgv	stem	HOG0039344	TGV_clade	Gonium_Volvocaceae	Volvafr	0.0	
+D8THE5	T_volvocine_tgv	stem	HOG0039470	TGV_clade	Gonium_Volvocaceae	Volvcar	0.0	
+A0A9W6EX34	T_volvocine_tgv	stem	HOG0039445	Chlamydomonas_TGV	TGV_clade	Pleosta	0.0	
+A0A2J7ZK68	T_volvocine_tgv	stem	HOG0039456	Chlamydomonas_TGV	TGV_clade	Tetrsoc	0.0	
+D8TUY4	T_volvocine_tgv	control	HOG0042314	Chlorophyta	UTC_clade	Volvcar	0.0	2692248
+L1JI67	T_volvocine_tgv	control	HOG0049532	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+C1FG76	T_volvocine_tgv	control	HOG0047751	Bikonta	Diaphoretickes	Micrcom	1.0	2759
+C1E5P5	T_volvocine_tgv	control	HOG0048398	Bikonta	Diaphoretickes	Micrcom	2.0	2759
+A0A2P6MTN4	T_volvocine_tgv	control	HOG0013743	Evosea	Variosea	Planfun	0.0	2605334
+A0A2P6MTD3	T_volvocine_tgv	control	HOG0013725	Evosea	Variosea	Planfun	1.0	2605334
+A0A1X6NWD0	T_volvocine_tgv	control	HOG0045815	Archaeplastida	Rhodophyta_Rhodelphidia	Porpumb	0.0	2759
+A0A9D4TMP4	T_volvocine_tgv	control	HOG0042332	Chlorophyta	UTC_clade	Chlovul	0.0	2692248
+Q8IJ84	T_volvocine_tgv	control	HOG0031978	Alveolata	Myzozoa	Plasfal	0.0	33630
+A0A2P6NBM0	T_volvocine_tgv	control	HOG0013666	Evosea	Variosea	Planfun	0.0	2605334
+A0AB34JDD6	T_volvocine_tgv	control	HOG0048339	Bikonta	Diaphoretickes	Prympar	1.0	2759
+A0AAD3HK32	T_volvocine_tgv	control	HOG0042429	Chlorophyta	UTC_clade	Astrgub	0.0	2692248
+A0A0L0SM24	T_volvocine_tgv	control	HOG0011521	Holomycota	Fungi	Allomac	0.0	4751
+A0A836B7T4	T_volvocine_tgv	control	HOG0042384	Chlorophyta	UTC_clade	Chlasch	0.0	2692248
+A0A2V0NT97	T_volvocine_tgv	control	HOG0042449	Chlorophyta	UTC_clade	Raphsub	0.0	2692248
+F4Q526	T_volvocine_tgv	control	HOG0015875	Amoebozoa	Evosea	Cavefas	0.0	2605435
+L1J0B1	T_volvocine_tgv	control	HOG0055369	Bikonta	Diaphoretickes	Guilthe	1.0	2759
+A0A2P6N583	T_volvocine_tgv	control	HOG0013862	Evosea	Variosea	Planfun	0.0	2605334
+C1FEP6	T_volvocine_tgv	control	HOG0042564	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A2P6NMD3	T_volvocine_tgv	control	HOG0013668	Evosea	Variosea	Planfun	1.0	2605334
+A0AAD3DWX2	T_volvocine_tgv	control	HOG0042444	Chlorophyta	UTC_clade	Astrgub	0.0	2692248
+A0AB34JBU1	T_volvocine_tgv	control	HOG0047334	Bikonta	Diaphoretickes	Prympar	0.0	2759
+A0A5J4Z3M9	T_volvocine_tgv	control	HOG0048391	Bikonta	Diaphoretickes	Porppur	1.0	2759
+A0A125YIW7	T_volvocine_tgv	control	HOG0031961	Alveolata	Myzozoa	Toxogon	0.0	33630
+A0A2P6N600	T_volvocine_tgv	control	HOG0013908	Evosea	Variosea	Planfun	0.0	2605334
+A0A1R2CVU9	T_volvocine_tgv	control	HOG0045948	Bikonta	Diaphoretickes	Stencoe	0.0	2759
+A0A2P6N5C6	T_volvocine_tgv	control	HOG0013853	Evosea	Variosea	Planfun	1.0	2605334
+F0Y7E9	T_volvocine_tgv	control	HOG0046484	Bikonta	Diaphoretickes	Aureano	0.0	2759
+Q54S33	T_volvocine_tgv	control	HOG0016753	Amorphea	Amoebozoa	Dictdis	0.0	554915
+L8HFD7	T_volvocine_tgv	control	HOG0016358	Amorphea	Amoebozoa	Acancas	0.0	554915
+S8G5S9	T_volvocine_tgv	control	HOG0031911	Alveolata	Myzozoa	Toxogon	0.0	33630
+A0A125YKH4	T_volvocine_tgv	control	HOG0031914	Alveolata	Myzozoa	Toxogon	0.0	33630
+A8HSW0	T_volvocine_tgv	control	HOG0042424	Chlorophyta	UTC_clade	Chlarei	1.0	2692248
+A0A0G4H4B5	T_volvocine_tgv	control	HOG0047125	Bikonta	Diaphoretickes	Vitrbra	0.0	2759
+Q237V8	T_volvocine_tgv	control	HOG0049913	Diaphoretickes	TSAR	Tetrthe	0.0	2759
+A0A2P6MSG4	T_volvocine_tgv	control	HOG0013846	Evosea	Variosea	Planfun	0.0	2605334
+A0A4D9DBR2	T_volvocine_tgv	control	HOG0034425	Diaphoretickes	TSAR	Nannsal	0.0	2759
+C1E1F7	T_volvocine_tgv	control	HOG0042680	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+A0A096P7X4	T_volvocine_tgv	control	HOG0042566	Chlorophyta	Mamiellales	Ostrtau	0.0	13792
+A0A835SG05	T_volvocine_tgv	control	HOG0057356	Bikonta	Diaphoretickes	Chlasch	0.0	2759
+A0A0G4IXR9	T_volvocine_tgv	control	HOG0056333	Bikonta	Diaphoretickes	Plasbra	0.0	2759
+A0A2P6N111	T_volvocine_tgv	control	HOG0013515	Evosea	Variosea	Planfun	1.0	2605334
+Q22SC2	T_volvocine_tgv	control	HOG0033264	Alveolata	Ciliophora	Tetrthe	0.0	5878
+Q24GM1	T_volvocine_tgv	control	HOG0033224	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0A9D4Z053	T_volvocine_tgv	control	HOG0039067	UTC_clade	Trebouxiophyceae	Chlovul	0.0	75966
+A0AAW2ZJK1	T_volvocine_tgv	control	HOG0023066	Discicristata	Heterolobosea	Acrakon	0.0	5752
+C1E2N6	T_volvocine_tgv	control	HOG0042693	Chlorophyta	Mamiellales	Micrcom	0.0	13792
+L1I9B0	T_volvocine_tgv	control	HOG0056477	Bikonta	Diaphoretickes	Guilthe	0.0	2759
+L8H0C9	T_volvocine_tgv	control	HOG0016638	Amorphea	Amoebozoa	Acancas	0.0	554915
+Q8IIF1	T_volvocine_tgv	control	HOG0033459	Sar	Alveolata	Plasfal	0.0	33630
+W7X1U3	T_volvocine_tgv	control	HOG0033178	Alveolata	Ciliophora	Tetrthe	0.0	5878
+A0CRH2	T_volvocine_tgv	control	HOG0056784	Bikonta	Diaphoretickes	Paratet	0.0	2759
+A0A388M6N6	T_volvocine_tgv	control	HOG0047499	Bikonta	Diaphoretickes	Charbra	0.0	2759
+A0ABQ7GYT2	T_volvocine_tgv	control	HOG0042518	Chlorophyta	UTC_clade	Dunasal	0.0	2692248
+A0CD85	T_volvocine_tgv	control	HOG0033190	Alveolata	Ciliophora	Paratet	0.0	5878
+C5LXJ3	T_volvocine_tgv	control	HOG0056853	Bikonta	Diaphoretickes	Perkmar	0.0	2759
+A0A2P6N7H8	T_volvocine_tgv	control	HOG0013587	Evosea	Variosea	Planfun	1.0	2605334
+A0A835T8D9	T_volvocine_tgv	control	HOG0042160	UTC_clade	CS_clade	Chlainc	0.0	2812636
+F0Y324	T_volvocine_tgv	control	HOG0055758	Bikonta	Diaphoretickes	Aureano	0.0	2759
+A0A2P6NF93	T_volvocine_tgv	control	HOG0015842	Amoebozoa	Evosea	Planfun	1.0	2605435
