@@ -1,11 +1,23 @@
-[euk] candidates=260 core_with_data=149 optional_added=47 selected=196 -> data/species_final.tsv
+[euk] candidates=261 core_with_data=149 optional_added=48 dropped=0 selected=197 -> data/species_final.tsv
 source_db  data_type    
 EukProt    genome            26
-           transcriptome     36
+           transcriptome     37
 LukProt    genome             5
 NCBI       genome            12
 UniProt    genome           117
-[prok] candidates=120 core_with_data=79 optional_added=3 selected=82 -> data/species_final_prok.tsv
+[euk] protein cap 3,000,000: dropped 10 taxa -> total 2,969,261
+                       species    code  n_proteins_final  rule_step       role   transition_id  total_after
+         Trichomonas vaginalis Tricvag             49988          1 background          T_none      3246039
+           Tetraselmis striata Tetrstr             43355          1 background   T_ulvophyceae      3202684
+  Symbiodinium microadriaticum Symbmic             42756          1 background          T_none      3159928
+             Emiliania huxleyi Emilhux             35581          1 background          T_none      3124347
+                Chromera velia Chrovel             30474          1 background          T_none      3093873
+      Anaeramoeba flamelloides Anaefla             28725          1 background          T_none      3065148
+           Mantamonas plastica Mantpla             22573          1 background          T_none      3042575
+Monocercomonoides exilis PA203 Monoexi             17848          1 background          T_none      3024727
+            Palpitomonas bilix Palpbil             15591          1 background          T_none      3009136
+           Reticulomyxa filosa Retifil             39875          2   outgroup T_guttulinopsis      2969261
+[prok] candidates=120 core_with_data=79 optional_added=3 dropped=0 selected=82 -> data/species_final_prok.tsv
 source_db  data_type
 NCBI       genome        7
 UniProt    genome       75

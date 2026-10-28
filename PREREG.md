@@ -67,7 +67,7 @@ Any change after the freeze is added here with date, reason and whether it was m
   unchanged), so it is NOT used; the ladder is HOG gain → sequence-novel gain → architecture-novel gain. Simulation precision of
   sequence-novel gains is 0.42–0.56 (recall 0.91–0.97) because simulated deep families diverge beyond DIAMOND detection; novel-gain
   counts are therefore reported as upper bounds, and H1/H2 conclusions rest on the stem-vs-control comparison under the same filter.
-- **Dev-4 (2026-10-28 ~20:15, BEFORE any eukaryote output existed; interpretation rule only, tests unchanged).** The pre-registered
+- **Dev-4 (2026-10-28 19:47, BEFORE any eukaryote output existed; interpretation rule only, tests unchanged).** The pre-registered
   calibration on our tree (DESIGN §3.2; results/calibration_tree/summary.md; one draw per setting, 7 stems vs 9 controls, simulator
   without true gene birth) found spurious HOG gains inflated 1.7–2.2× more on stems than on controls after adjusting for branch length
   and clade size (losses/duplications unaffected; shift on the test's percentile scale +0.06 to +0.11, within noise). Interpretation
