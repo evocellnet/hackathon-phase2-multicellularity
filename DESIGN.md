@@ -1,6 +1,6 @@
 # DESIGN — Genomic transitions to multicellularity across the tree of life
 
-Version: v0 draft (pre-review). Owner: PI agent. Fixed by the task: use Ancestra to reconstruct ancestral gene content before and
+Version: v1 (literature integrated; pre-review). Changes are logged in §6. Owner: PI agent. Fixed by the task: use Ancestra to reconstruct ancestral gene content before and
 after the documented transitions to multicellularity, run a broad set of analyses, compare with existing knowledge, and assess
 whether shifts in evolutionary pressure can be detected in sequences or structures.
 
@@ -20,6 +20,22 @@ whether shifts in evolutionary pressure can be detected in sequences or structur
 - **Q6 Structure.** Are families "gained" at transitions truly new (no structural homolog in the pre-transition ancestor's proteome)
   or fast-diverged copies of older families (structural homolog present)? Do their structures change?
 - **Q7 Literature concordance.** Which published claims (LITERATURE.md §7) does our data reproduce, contradict or not address?
+
+## 1b. Hypotheses confronted (from LITERATURE.md §7; ids kept)
+
+Primary (pre-registered; each has one primary test, with BH correction across this family of 6 tests):
+| id | hypothesis (source in LITERATURE.md) | primary test |
+|---|---|---|
+| H1/H2 | co-option vs burst of novelty | transition effect on gains (and supported gains) per branch in the NB-GLM of §3.3; plus co-option index vs matched controls (§3.4) |
+| H4 | TF families expand at transitions, more in complex ones | duplications within TF-domain HOGs on transition vs control branches (NB-GLM with interaction complex×transition) |
+| H5 | adhesion/ECM/communication domains expand convergently | number of transitions with significant expansion of each pre-registered domain class vs matched-control permutation null |
+| H8 | clonal > aggregative gene-content turnover | (gains + dups) on clonal vs aggregative transition branches, same covariates |
+| H9 | drift/relaxed constraint: longer proteins, more disorder, higher RER in eukaryotes; opposite gene-count trend in prokaryotes | sister-clade contrasts across transitions (sign test) for protein length, disorder, RER |
+| H12 | losses of unicellular functions (flagellum, phagotrophy) at transitions; re-loss of gains at reversals | enrichment of pre-registered flagellar/phagotrophy HOGs among losses on transition vs control branches |
+Secondary/exploratory: H3 (predisposition), H6 (receptor kinases), H7 (secreted/TM gains at aggregative transitions; TM/signal-peptide
+by a documented open predictor or heuristic), H10 (disorder in TFs), H11 (new domain architectures), H13 (cell-cycle/cytokinesis
+co-option), H14 (HGT: best-hit taxonomy of gained HOGs against the prokaryote + eukaryote sets), H15 (site-level convergence, only
+if time allows), H16 (indirect). Exploratory results are labelled as such in the report.
 
 ## 2. Data
 
@@ -117,3 +133,6 @@ whether shifts in evolutionary pressure can be detected in sequences or structur
 | 28–34 | verification agents, figures |
 | 34–40 | report |
 Each stage writes checkpoints (Ancestra stages are resumable).
+
+## 6. Change log
+- v0 → v1: added §1b mapping to literature hypotheses H1–H16 with a primary family of 6 tests (H1/H2 counted once) and secondary list.

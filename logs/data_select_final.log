@@ -1,0 +1,11 @@
+[euk] candidates=260 core_with_data=149 optional_added=47 selected=196 -> data/species_final.tsv
+source_db  data_type    
+EukProt    genome            26
+           transcriptome     36
+LukProt    genome             5
+NCBI       genome            12
+UniProt    genome           117
+[prok] candidates=120 core_with_data=79 optional_added=3 selected=82 -> data/species_final_prok.tsv
+source_db  data_type
+NCBI       genome        7
+UniProt    genome       75
