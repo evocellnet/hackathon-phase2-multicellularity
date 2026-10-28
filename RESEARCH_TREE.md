@@ -6,7 +6,7 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## Status summary (latest first)
 
-### M3 — 2026-10-28 20:20 (t ≈ 8.0 h): waiting on the eukaryote Ancestra run; primary H9 negative
+### M3 — 2026-10-28 20:09 (t ≈ 7.8 h): waiting on the eukaryote Ancestra run; primary H9 negative
 The eukaryote Ancestra run is the bottleneck. Its family stage took 5.3 h because single-linkage similarity joined 73% of all
 eukaryotic proteins into one component that Ancestra must cut into ≤7,500-gene families with Leiden (D8); within-family scoring is
 ~60% done (26 DIAMOND blocks, ETA ~22:00), then the merge. The eukaryote gain-ladder search starts automatically when Ancestra
