@@ -14,7 +14,8 @@ data/raw/download_manifest.tsv or the EukProt/LukProt directories):
       it encodes isoforms (gene=..., scgid..., .tN, -RA, -mRNA-N, ...); longest per gene.
     - transcriptomes (and EukProt "genome" sets that are translated transcriptomes,
       see TRANSCRIPT_LIKE): longest ORF per Trinity gene (header field before '~~'),
-      then CD-HIT -c 0.95 -aS 0.9 (representative = longest of each cluster).
+      then CD-HIT -c 0.95 -G 0 -aS 0.9 -n 5 (local coverage: contained fragments join the cluster
+      of their longer copy; representative = longest of each cluster).
  2. cleaning: terminal '*' (or '.') trimmed; internal stops and every letter outside
     the 20 standard amino acids replaced by X; '-' and whitespace removed;
     sequences < 50 aa removed; exact duplicate sequences dropped (first kept).
@@ -84,7 +85,7 @@ def eukprot_gene_key(hdr):
     if re.match(r'^[A-Z]{2}_\d+\.\d+$', t):          # RefSeq XP_/NP_ accession: no gene info
         return None
     for pat, rep in ((r'-mRNA-\d+$', ''), (r'\.mRNA\.\d+$', ''), (r'-R[A-Z]{1,2}(\.\d+)?$', ''),
-                     (r'\.t\d+(-p\d+)?$', ''), (r'(\d)T\d+$', r'\1'), (r'(g\d+)[a-z]$', r'\1'),
+                     (r'\.t\d+(-p\d+)?$', ''), (r'(\d)[Tt]\d*$', r'\1'), (r'(g\d+)[a-z]$', r'\1'),
                      (r'(_\d+)\.\d+$', r'\1')):
         t2 = re.sub(pat, rep, t)
         if t2 != t:
@@ -93,12 +94,30 @@ def eukprot_gene_key(hdr):
 
 
 def trinity_gene_key(hdr):
+    """Gene key for transcriptome sets (None = no gene information; CD-HIT only).
+    TransDecoder/Trinity  '... TRINITY_DN0_c0_g1~~TRINITY_DN0_c0_g1_i1.p1 ...' -> TRINITY_DN0_c0_g1
+                          '... GENE.c0_g1_i1~~c0_g1_i1.p1 ...'                 -> c0_g1
+    old Trinity           '... comp100027_c0_seq1:141-917(+)'                  -> comp100027_c0
+    SOAPdenovo-Trans      'Unigene10000_Nuclearia_a|m.30543 ...'               -> Unigene10000_Nuclearia_a
+    MMETSP (CAMPEP_...), '@'-numbered sets, plain contig IDs: no gene information."""
     toks = hdr.split()
     for t in toks[1:3]:
         if '~~' in t:
-            return t.split('~~')[0]
-    if len(toks) > 1:   # e.g. TRINITY_DN1_c0_g1_i1.p1 without '~~'
+            g = t.split('~~')[0]
+            if g.startswith('GENE.'):
+                g = g[5:]
+            return re.sub(r'((?:^|_)c\d+_g\d+)_i\d+$', r'\1', g)
+    m = re.search(r'\b(comp\d+_c\d+)_seq\d+', hdr)
+    if m:
+        return m.group(1)
+    if len(toks) > 1:
+        m = re.match(r'(Unigene\d+[^|\s]*)\|', toks[1])
+        if m:
+            return m.group(1)
         m = re.match(r'(TRINITY_\S+?_g\d+)_i\d+', toks[1])
+        if m:
+            return m.group(1)
+        m = re.match(r'(\S*?DN\d+_c\d+_g\d+)_i\d+', toks[1])   # e.g. Partr_v1_DN10022_c0_g2_i1_m38271
         if m:
             return m.group(1)
     return None
@@ -153,7 +172,7 @@ def run_cdhit(records, threads, workdir):
         for k, (oid, s) in enumerate(records):
             idx[f's{k}'] = oid
             fh.write(f'>s{k}\n{s}\n')
-    cmd = [f'{BIN}/cd-hit', '-i', inp, '-o', out, '-c', '0.95', '-aS', '0.9', '-n', '5',
+    cmd = [f'{BIN}/cd-hit', '-i', inp, '-o', out, '-c', '0.95', '-G', '0', '-aS', '0.9', '-n', '5',
            '-T', str(threads), '-M', '0', '-d', '0']
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:
@@ -327,6 +346,15 @@ def main():
     for kingdom, f in (('euk', 'species_final.tsv'), ('prok', 'species_final_prok.tsv')):
         d = pd.read_csv(f'{P}/data/{f}', sep='\t', dtype=str)
         rows += [(r, kingdom) for _, r in d.iterrows()]
+    # FASTA files of species that are no longer selected are moved out of the Ancestra input directories
+    sel = {(k, r['code']) for r, k in rows}
+    for k in ('euk', 'prok'):
+        for f in glob.glob(f'{OUT}/{k}/*.fa'):
+            c = os.path.basename(f)[:-3]
+            if (k, c) not in sel:
+                os.makedirs(f'{OUT}/_dropped', exist_ok=True)
+                shutil.move(f, f'{OUT}/_dropped/{c}.fa')
+                print(f'moved unselected {c}.fa to data/proteomes/_dropped/', flush=True)
     if a.codes:
         rows = [(r, k) for r, k in rows if r['code'] in a.codes]
     if a.sources:

@@ -1,0 +1,36 @@
+{
+ "date": "2026-10-28T13:19:48",
+ "euk": {
+  "n_species": 187,
+  "n_proteins": 2969261,
+  "n_low_quality": 5,
+  "n_transcriptome": 36,
+  "proteome_dir": "data/proteomes/euk",
+  "guide_tree": "data/guide_tree_euk.nwk",
+  "species_final_md5": "49d3d029af0458606f8729d74b68fac7",
+  "guide_tree_md5": "b27f2e061aea103fd979eb17126a0ccf"
+ },
+ "prok": {
+  "n_species": 82,
+  "n_proteins": 405664,
+  "n_low_quality": 0,
+  "proteome_dir": "data/proteomes/prok",
+  "guide_tree": "data/guide_tree_prok.nwk",
+  "species_final_md5": "99b03420062fcdb5ff6286c42223b61b",
+  "guide_tree_md5": "209ee9396bee2928343842bec3f9a53b"
+ },
+ "transitions": {
+  "n": 51,
+  "md5": "7ff7a993caf20ec7e9bb891f78513f8f",
+  "by_tier": {
+   "primary": 17,
+   "exploratory": 13,
+   "secondary": 11,
+   "reversal": 6,
+   "excluded": 2,
+   "dropped_no_data": 2
+  }
+ },
+ "busco": "BUSCO 6.1.0, odb10, outputs in data/busco_runs/<code>/",
+ "check": "scripts/data/check_dataset.py: OK"
+}

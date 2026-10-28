@@ -1,0 +1,11 @@
+species	code	n_proteins_final	rule_step	role	transition_id	total_after
+Trichomonas vaginalis	Tricvag	49988	1	background	T_none	3246039
+Tetraselmis striata	Tetrstr	43355	1	background	T_ulvophyceae	3202684
+Symbiodinium microadriaticum	Symbmic	42756	1	background	T_none	3159928
+Emiliania huxleyi	Emilhux	35581	1	background	T_none	3124347
+Chromera velia	Chrovel	30474	1	background	T_none	3093873
+Anaeramoeba flamelloides	Anaefla	28725	1	background	T_none	3065148
+Mantamonas plastica	Mantpla	22573	1	background	T_none	3042575
+Monocercomonoides exilis PA203	Monoexi	17848	1	background	T_none	3024727
+Palpitomonas bilix	Palpbil	15591	1	background	T_none	3009136
+Reticulomyxa filosa	Retifil	39875	2	outgroup	T_guttulinopsis	2969261
