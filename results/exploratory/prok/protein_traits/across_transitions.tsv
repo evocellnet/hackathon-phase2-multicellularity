@@ -1,0 +1,9 @@
+test	subset	n_transitions	n_positive	median_hl
+length_sc	all	4	3	0.009496207891783681
+tf_disorder_excess	all	0	0	
+tf_disorder_excess	genome	0	0	
+tf_length_all	all	0	0	
+whole_disorder	all	0	0	
+whole_disorder	genome	0	0	
+whole_length	all	4	2	0.008127574107725799
+whole_length	genome	4	2	0.008127574107725799

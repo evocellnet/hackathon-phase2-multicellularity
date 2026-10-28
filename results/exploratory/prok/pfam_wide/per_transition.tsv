@@ -1,0 +1,5 @@
+transition	evaluable	n_M_annot	n_S_annot	n_out_annot	n_domains	n_tested_mwu	n_expanded	n_expanded_by_test	n_gained	n_contracted	n_lost	n_pfam_exp_or_gain	n_hog_expanded	n_both
+T_myxobacteria	True	10	15	72	11500	7690	1206	1176	50	96	74	1256	120	102
+T_streptomyces	True	3	11	79	11500	5028	428	0	66	2	59	494	23	13
+T_magnetotactic_mmp	True	4	6	78	11500	4684	558	0	52	23	149	610	147	96
+T_methanosarcina	True	3	3	79	11500	2102	351	0	7	13	115	358	46	34

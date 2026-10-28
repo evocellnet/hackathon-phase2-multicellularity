@@ -1,0 +1,33 @@
+transition	test	subset	n_M_species	n_S_species	n_M_missing_trait	n_S_missing_trait	n	median_diff	frac_positive	hl	hl_lo	hl_hi	p	u_vs_controls	median_hl_controls	k_controls	q_bh
+T_myxobacteria	length_sc	all	10	15	0.0	0.0	320	0.022163532802297263	0.684375	0.029562682635060705	0.021261576807760158	0.03952950239109439	2.752445388723526e-13	0.8928571428571429	-0.00423852976224209	13	1.6514672332341157e-12
+T_myxobacteria	tf_length_all	all	10	15	0.0	0.0	0									0	
+T_myxobacteria	whole_length	all	10	15			25	0.19063248281355527		0.18584618627511418	0.10579466402259818	0.2763312284472512	0.0001022694843784641			0	0.0003068084531353923
+T_myxobacteria	whole_length	genome	10	15			25	0.19063248281355527		0.18584618627511418	0.10579466402259818	0.2763312284472512	0.0001022694843784641			0	0.0003068084531353923
+T_myxobacteria	whole_disorder	all	0	0			0									0	
+T_myxobacteria	whole_disorder	genome	0	0			0									0	
+T_myxobacteria	tf_disorder_excess	all	0	0			0									0	
+T_myxobacteria	tf_disorder_excess	genome	0	0			0									0	
+T_streptomyces	length_sc	all	3	11	0.0	0.0	994	0.0	0.48893360160965793	0.004868505682643141	0.0009603417726916433	0.008892935623606293	0.009617412992063017	0.5357142857142857	-0.00423852976224209	13	0.02308179118095124
+T_streptomyces	tf_length_all	all	3	11	0.0	0.0	0									0	
+T_streptomyces	whole_length	all	3	11			14	0.035750024949201986		0.032933889362082525	-0.15650448567999042	0.08840897422176575	0.4352639860988202			0	0.43526398609882017
+T_streptomyces	whole_length	genome	3	11			14	0.035750024949201986		0.032933889362082525	-0.15650448567999042	0.08840897422176575	0.4352639860988202			0	0.43526398609882017
+T_streptomyces	whole_disorder	all	0	0			0									0	
+T_streptomyces	whole_disorder	genome	0	0			0									0	
+T_streptomyces	tf_disorder_excess	all	0	0			0									0	
+T_streptomyces	tf_disorder_excess	genome	0	0			0									0	
+T_magnetotactic_mmp	length_sc	all	4	6	0.0	0.0	755	0.0	0.4675496688741722	-0.0037215126857871334	-0.008503212652844977	0.0009164869926847376	0.10708880642229517	0.5357142857142857	-0.00423852976224209	13	0.16063320963344274
+T_magnetotactic_mmp	tf_length_all	all	4	6	0.0	0.0	0									0	
+T_magnetotactic_mmp	whole_length	all	4	6			10	-0.07172746802042873		-0.04934896008959999	-0.31817596002625503	0.14295795384204357	0.35238095238095235			0	0.42285714285714276
+T_magnetotactic_mmp	whole_length	genome	4	6			10	-0.07172746802042873		-0.04934896008959999	-0.31817596002625503	0.14295795384204357	0.35238095238095235			0	0.42285714285714276
+T_magnetotactic_mmp	whole_disorder	all	0	0			0									0	
+T_magnetotactic_mmp	whole_disorder	genome	0	0			0									0	
+T_magnetotactic_mmp	tf_disorder_excess	all	0	0			0									0	
+T_magnetotactic_mmp	tf_disorder_excess	genome	0	0			0									0	
+T_methanosarcina	length_sc	all	3	3	0.0	0.0	1290	0.0071246081795928815	0.5736434108527132	0.01412391010092422	0.011480574221655633	0.017244188192645307	8.83799070670679e-36	0.6785714285714286	-0.00423852976224209	13	1.0605588848048147e-34
+T_methanosarcina	tf_length_all	all	3	3	0.0	0.0	0									0	
+T_methanosarcina	whole_length	all	3	3			6	-0.011140557605200385		-0.016678741146630927			0.07652250047505922			0	0.1311814293858158
+T_methanosarcina	whole_length	genome	3	3			6	-0.011140557605200385		-0.016678741146630927			0.07652250047505922			0	0.1311814293858158
+T_methanosarcina	whole_disorder	all	0	0			0									0	
+T_methanosarcina	whole_disorder	genome	0	0			0									0	
+T_methanosarcina	tf_disorder_excess	all	0	0			0									0	
+T_methanosarcina	tf_disorder_excess	genome	0	0			0									0	

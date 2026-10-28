@@ -1,0 +1,17 @@
+flag	k_min	scheme	n_domains_obs	null_mean	null_q95	p_perm	n_controls
+exp_or_gain	2	permute	396	316.1445	757.0499999999993	0.2532746725327467	13
+exp_or_gain	3	permute	61	22.3407	73.0	0.07979202079792021	13
+exp_or_gain	2	matched	396	285.0524	769.0	0.21207879212078792	13
+exp_or_gain	3	matched	61	13.1908	48.0	0.028097190280971903	13
+gained	2	permute	0	15.0781	93.0	1.0	13
+gained	3	permute	0	0.0	0.0	1.0	13
+gained	2	matched	0	26.7172	205.0	1.0	13
+gained	3	matched	0	0.0	0.0	1.0	13
+lost	2	permute	10	45.4462	107.0	0.92010798920108	13
+lost	3	permute	2	0.568	3.0	0.1463853614638536	13
+lost	2	matched	10	66.5231	237.0	0.9743025697430256	13
+lost	3	matched	2	0.9559	5.0	0.22147785221477853	13
+hog_expanded	2	permute	20	4.909	22.0	0.08339166083391661	13
+hog_expanded	3	permute	0	0.0434	0.0	1.0	13
+hog_expanded	2	matched	20	0.0	0.0	9.999000099990002e-05	13
+hog_expanded	3	matched	0	0.0	0.0	1.0	13

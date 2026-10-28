@@ -1,0 +1,25 @@
+transition	category	n_domains_present	n_expanded	n_gained	n_contracted	n_lost	expanded
+T_myxobacteria	adhesion_ecm	17	4	2	0	0	VWA;F5_F8_type_C;Collagen;FG-GAP;HYR;EGF_CA
+T_myxobacteria	cell_cycle	0	0	0	0	0	
+T_myxobacteria	kinase_ptyr	3	2	0	0	0	Pkinase;PK_Tyr_Ser-Thr
+T_myxobacteria	pcd	1	0	0	0	0	
+T_myxobacteria	signalling	1	0	0	0	0	
+T_myxobacteria	tf_dbd	1	1	0	0	0	GRAS
+T_streptomyces	adhesion_ecm	9	3	0	0	0	fn3;F5_F8_type_C;FG-GAP
+T_streptomyces	cell_cycle	0	0	0	0	0	
+T_streptomyces	kinase_ptyr	2	2	0	0	0	Pkinase;PK_Tyr_Ser-Thr
+T_streptomyces	pcd	1	0	0	0	0	
+T_streptomyces	signalling	0	0	0	0	0	
+T_streptomyces	tf_dbd	0	0	0	0	0	
+T_magnetotactic_mmp	adhesion_ecm	13	7	1	0	0	Cadherin;fn3;TSP_1;VWA;LRR_1;FG-GAP;Laminin_G_2;LRR_8
+T_magnetotactic_mmp	cell_cycle	0	0	0	0	0	
+T_magnetotactic_mmp	kinase_ptyr	3	2	0	0	0	Pkinase;PK_Tyr_Ser-Thr
+T_magnetotactic_mmp	pcd	1	1	0	0	0	Peptidase_C14
+T_magnetotactic_mmp	signalling	1	0	0	0	0	
+T_magnetotactic_mmp	tf_dbd	0	0	0	0	0	
+T_methanosarcina	adhesion_ecm	5	0	0	0	1	
+T_methanosarcina	cell_cycle	1	0	0	0	0	
+T_methanosarcina	kinase_ptyr	1	0	0	0	0	
+T_methanosarcina	pcd	0	0	0	0	0	
+T_methanosarcina	signalling	1	0	0	0	0	
+T_methanosarcina	tf_dbd	0	0	0	0	0	

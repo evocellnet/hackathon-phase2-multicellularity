@@ -164,10 +164,22 @@ def make_diamond_db(proteome_dirs: dict[str, str], out_prefix: str, threads: int
 # gains and representatives
 # ----------------------------------------------------------------------------
 
-def internal_gains(res: HogResult) -> pd.DataFrame:
-    """Gains (one per family) on internal branches, excluding the root stem."""
+def internal_gains(res: HogResult, branches: Iterable[str] | None = None) -> pd.DataFrame:
+    """Gains (one per family) on internal branches, excluding the root stem.
+
+    With ``branches`` (child-node names), only those branches are kept; leaf
+    branches named there are included too (species-specific families)."""
     ev = res.events
-    g = ev[(ev["event"] == "gain") & (ev["branch_parent"] != "") & ~ev["child_is_leaf"]]
+    sel = (ev["event"] == "gain") & (ev["branch_parent"] != "")
+    if branches is None:
+        sel &= ~ev["child_is_leaf"]
+    else:
+        want = set(branches)
+        bad = want - set(res.tree.names)
+        if bad:
+            raise KeyError(f"{len(bad)} selected branches are not nodes of the run tree, e.g. {sorted(bad)[:5]}")
+        sel &= ev["branch_child"].isin(want)
+    g = ev[sel]
     g = g[["branch_parent", "branch_child", "family_id", "hog_id", "n_extant_genes", "n_species",
            "n_child_clades_present", "n_child_clades_total"]].rename(columns={"n_extant_genes": "n_genes"})
     if not g["family_id"].is_unique:
@@ -535,12 +547,16 @@ def classify_gains(res: HogResult, gains: pd.DataFrame, reps: pd.DataFrame, per_
     return g.reset_index()
 
 
-def branch_ladder(res: HogResult, cls: pd.DataFrame) -> pd.DataFrame:
-    """Per internal branch: HOG-level gains, split-repaired, corrected gains and
-    losses, homologous (not repaired), sequence-novel (+ architecture-novel if present)."""
+def branch_ladder(res: HogResult, cls: pd.DataFrame, branches: Iterable[str] | None = None) -> pd.DataFrame:
+    """Per internal branch (or per selected branch): HOG-level gains, split-repaired,
+    corrected gains and losses, homologous (not repaired), sequence-novel
+    (+ architecture-novel if present)."""
     b = res.branches
-    b = b[(b["branch_parent"] != "") & ~b["child_is_leaf"]][
-        ["branch_parent", "branch_child", "depth_child", "n_parent", "n_child", "gains", "losses",
+    if branches is None:
+        b = b[(b["branch_parent"] != "") & ~b["child_is_leaf"]]
+    else:
+        b = b[(b["branch_parent"] != "") & b["branch_child"].isin(set(branches))]
+    b = b[["branch_parent", "branch_child", "child_is_leaf", "depth_child", "n_parent", "n_child", "gains", "losses",
          "dups", "dups_at_origin"]].rename(columns={"gains": "hog_gains"}).set_index("branch_child")
     grp = cls.groupby("branch_child")
     out = b.join(pd.DataFrame({

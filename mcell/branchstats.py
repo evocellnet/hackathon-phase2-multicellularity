@@ -291,6 +291,13 @@ def build_branch_table(tree, traits: pd.DataFrame | None, transitions: pd.DataFr
     path_of: dict[str, list[str]] = {}
     path_edge_of: dict[str, tuple] = {}
     adjacent: set[str] = set()
+    # When several transitions share an M node (e.g. the primary volvocine path stem and an exploratory
+    # single-edge coding of the same clade), the row with the highest analysis priority defines the stem path:
+    # process rows primary -> secondary -> exploratory -> reversal -> excluded (stable within a set).
+    if "analysis_set" in transitions.columns:
+        _prio = {"primary": 0, "secondary": 1, "exploratory": 2, "reversal": 3, "excluded": 4}
+        transitions = (transitions.assign(_prio=transitions["analysis_set"].map(_prio).fillna(9))
+                       .sort_values("_prio", kind="stable").drop(columns="_prio"))
     for _, r in transitions.iterrows():
         Ms = [m for m in _parse_M(r.get("M")) if m in nodes]
         role = _role(r["from_state"], r["to_state"])

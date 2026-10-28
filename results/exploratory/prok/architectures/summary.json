@@ -1,0 +1,139 @@
+{
+ "run": "prok",
+ "pool": "relaxed(|U|=2<10)",
+ "n_pool": 13,
+ "n_annotated": 82,
+ "n_species": 82,
+ "n_architectures": 22754,
+ "n_multi": 14272,
+ "n_new_multi_any_branch": 5965,
+ "stems": {
+  "T_myxobacteria": {
+   "branch": "Myxococcota",
+   "new_arch_all": 274.0,
+   "new_arch_multi": 188.0,
+   "new_arch_recombined": 158.0
+  },
+  "T_streptomyces": {
+   "branch": "Streptomycetaceae",
+   "new_arch_all": 86.0,
+   "new_arch_multi": 47.0,
+   "new_arch_recombined": 41.0
+  },
+  "T_magnetotactic_mmp": {
+   "branch": "Desulfobacterales",
+   "new_arch_all": 185.0,
+   "new_arch_multi": 133.0,
+   "new_arch_recombined": 128.0
+  },
+  "T_methanosarcina": {
+   "branch": "Methanosarcina",
+   "new_arch_all": 57.0,
+   "new_arch_multi": 46.0,
+   "new_arch_recombined": 42.0
+  }
+ },
+ "pool_mean": {
+  "new_arch_all": 229.3846153846154,
+  "new_arch_multi": 109.38461538461539,
+  "new_arch_recombined": 73.53846153846153
+ },
+ "tests": [
+  {
+   "statistic": "new_arch_multi",
+   "version": "residual",
+   "n": 4,
+   "k": 13,
+   "T_obs": 0.71429,
+   "p": 0.09889,
+   "p_mcse": 0.00299,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": -0.24109,
+   "ci_low": -1.27611,
+   "ci_high": 0.79393,
+   "pool": "relaxed(|U|=2<10)",
+   "glm": "method=nb; alpha=0.37758829089017854; covariates=['log_bl', 'log_n_desc', 'log_n_sister']; n_fallback=0",
+   "q_bh": 0.29667
+  },
+  {
+   "statistic": "new_arch_multi",
+   "version": "raw",
+   "n": 4,
+   "k": 13,
+   "T_obs": 0.61607,
+   "p": 0.24708,
+   "p_mcse": 0.00431,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": -0.24109,
+   "ci_low": -1.27611,
+   "ci_high": 0.79393,
+   "pool": "relaxed(|U|=2<10)",
+   "glm": "",
+   "q_bh": 0.33273
+  },
+  {
+   "statistic": "new_arch_recombined",
+   "version": "residual",
+   "n": 4,
+   "k": 13,
+   "T_obs": 0.78571,
+   "p": 0.0387,
+   "p_mcse": 0.00193,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": 0.04464,
+   "ci_low": -1.04046,
+   "ci_high": 1.12973,
+   "pool": "relaxed(|U|=2<10)",
+   "glm": "method=nb; alpha=0.39013404111050254; covariates=['log_bl', 'log_n_desc', 'log_n_sister']; n_fallback=0",
+   "q_bh": 0.23218
+  },
+  {
+   "statistic": "new_arch_recombined",
+   "version": "raw",
+   "n": 4,
+   "k": 13,
+   "T_obs": 0.66964,
+   "p": 0.15698,
+   "p_mcse": 0.00364,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": 0.04464,
+   "ci_low": -1.04046,
+   "ci_high": 1.12973,
+   "pool": "relaxed(|U|=2<10)",
+   "glm": "",
+   "q_bh": 0.31397
+  },
+  {
+   "statistic": "new_arch_all",
+   "version": "residual",
+   "n": 4,
+   "k": 13,
+   "T_obs": 0.60714,
+   "p": 0.27727,
+   "p_mcse": 0.00448,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": -0.60009,
+   "ci_low": -1.7331,
+   "ci_high": 0.53291,
+   "pool": "relaxed(|U|=2<10)",
+   "glm": "method=nb; alpha=0.5267665566988575; covariates=['log_bl', 'log_n_desc', 'log_n_sister']; n_fallback=0",
+   "q_bh": 0.33273
+  },
+  {
+   "statistic": "new_arch_all",
+   "version": "raw",
+   "n": 4,
+   "k": 13,
+   "T_obs": 0.5,
+   "p": 0.50925,
+   "p_mcse": 0.005,
+   "min_attainable_p": 0.0001,
+   "pooled_log_OE": -0.60009,
+   "ci_low": -1.7331,
+   "ci_high": 0.53291,
+   "pool": "relaxed(|U|=2<10)",
+   "glm": "",
+   "q_bh": 0.50925
+  }
+ ]
+}

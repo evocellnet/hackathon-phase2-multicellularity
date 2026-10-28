@@ -1,0 +1,69 @@
+version	kind	branch	evaluable	contrast	n_M	n_S	n_out	n_F	n_P	C	n_Pparent	C_Pparent
+pfam_expanded	transition	Myxococcota	True	T_myxobacteria	10	15	72	523	505	0.9655831739961759	488	0.9330783938814532
+pfam_expanded	transition	Streptomycetaceae	True	T_streptomyces	3	11	79	466	428	0.9184549356223176	402	0.8626609442060086
+pfam_expanded	transition	Desulfobacterales	True	T_magnetotactic_mmp	4	6	78	586	558	0.9522184300341296	553	0.9436860068259386
+pfam_expanded	transition	Methanosarcina	True	T_methanosarcina	3	3	79	355	351	0.9887323943661972	349	0.9830985915492958
+pfam_expanded	control	Halobacteriales	True	ctrl:Halobacteriales	3	8	79	590	362	0.6135593220338983	352	0.5966101694915255
+pfam_expanded	control	Methanomicrobia	True	ctrl:Methanomicrobia	8	3	74	383	369	0.9634464751958225	368	0.9608355091383812
+pfam_expanded	control	Methanosarcinaceae	True	ctrl:Methanosarcinaceae	6	2	76	221	208	0.9411764705882353	206	0.9321266968325792
+pfam_expanded	control	Bacillati	True	ctrl:Bacillati	44	25	38	138	85	0.6159420289855072	49	0.35507246376811596
+pfam_expanded	control	Actinomycetota	True	ctrl:Actinomycetota	16	28	66	309	288	0.9320388349514563	283	0.9158576051779935
+pfam_expanded	control	Actinomycetes	True	ctrl:Actinomycetes	14	2	68	492	459	0.9329268292682927	457	0.9288617886178862
+pfam_expanded	control	Mycobacteriales	True	ctrl:Mycobacteriales	4	10	78	109	84	0.7706422018348624	72	0.6605504587155964
+pfam_expanded	control	Mycobacteriaceae	True	ctrl:Mycobacteriaceae	2	2	80	393	349	0.8880407124681934	345	0.8778625954198473
+pfam_expanded	control	Cyanophyceae	True	ctrl:Cyanophyceae	27	17	55	577	419	0.7261698440207972	417	0.7227036395147314
+pfam_expanded	control	Pseudomonadati	True	ctrl:Pseudomonadati	25	44	57	184	159	0.8641304347826086	99	0.5380434782608695
+pfam_expanded	control	Pseudomonadota	True	ctrl:Pseudomonadota	4	21	78	234	156	0.6666666666666666	141	0.6025641025641025
+pfam_expanded	control	Thermodesulfobacteriota	True	ctrl:Thermodesulfobacteriota	10	15	72	208	201	0.9663461538461539	196	0.9423076923076923
+pfam_expanded	control	Desulfobulbales	True	ctrl:Desulfobulbales	4	6	78	48	44	0.9166666666666666	43	0.8958333333333334
+toolkit_expanded	transition	Myxococcota	True	T_myxobacteria	10	15	72	8	6	0.75	6	0.75
+toolkit_expanded	transition	Streptomycetaceae	True	T_streptomyces	3	11	79	5	5	1.0	5	1.0
+toolkit_expanded	transition	Desulfobacterales	True	T_magnetotactic_mmp	4	6	78	11	10	0.9090909090909091	10	0.9090909090909091
+toolkit_expanded	transition	Methanosarcina	True	T_methanosarcina	3	3	79	0	0		0	
+toolkit_expanded	control	Halobacteriales	True	ctrl:Halobacteriales	3	8	79	0	0		0	
+toolkit_expanded	control	Methanomicrobia	True	ctrl:Methanomicrobia	8	3	74	1	1	1.0	1	1.0
+toolkit_expanded	control	Methanosarcinaceae	True	ctrl:Methanosarcinaceae	6	2	76	1	1	1.0	1	1.0
+toolkit_expanded	control	Bacillati	True	ctrl:Bacillati	44	25	38	1	1	1.0	1	1.0
+toolkit_expanded	control	Actinomycetota	True	ctrl:Actinomycetota	16	28	66	1	1	1.0	1	1.0
+toolkit_expanded	control	Actinomycetes	True	ctrl:Actinomycetes	14	2	68	4	4	1.0	4	1.0
+toolkit_expanded	control	Mycobacteriales	True	ctrl:Mycobacteriales	4	10	78	0	0		0	
+toolkit_expanded	control	Mycobacteriaceae	True	ctrl:Mycobacteriaceae	2	2	80	1	1	1.0	1	1.0
+toolkit_expanded	control	Cyanophyceae	True	ctrl:Cyanophyceae	27	17	55	7	7	1.0	7	1.0
+toolkit_expanded	control	Pseudomonadati	True	ctrl:Pseudomonadati	25	44	57	3	3	1.0	3	1.0
+toolkit_expanded	control	Pseudomonadota	True	ctrl:Pseudomonadota	4	21	78	0	0		0	
+toolkit_expanded	control	Thermodesulfobacteriota	True	ctrl:Thermodesulfobacteriota	10	15	72	1	1	1.0	1	1.0
+toolkit_expanded	control	Desulfobulbales	True	ctrl:Desulfobulbales	4	6	78	0	0		0	
+toolkit_present	transition	Myxococcota	True	T_myxobacteria	10	15	72	10	8	0.8	8	0.8
+toolkit_present	transition	Streptomycetaceae	True	T_streptomyces	3	11	79	11	11	1.0	11	1.0
+toolkit_present	transition	Desulfobacterales	True	T_magnetotactic_mmp	4	6	78	13	12	0.9230769230769231	12	0.9230769230769231
+toolkit_present	transition	Methanosarcina	True	T_methanosarcina	3	3	79	5	5	1.0	5	1.0
+toolkit_present	control	Halobacteriales	True	ctrl:Halobacteriales	3	8	79	2	2	1.0	2	1.0
+toolkit_present	control	Methanomicrobia	True	ctrl:Methanomicrobia	8	3	74	3	3	1.0	3	1.0
+toolkit_present	control	Methanosarcinaceae	True	ctrl:Methanosarcinaceae	6	2	76	3	3	1.0	3	1.0
+toolkit_present	control	Bacillati	True	ctrl:Bacillati	44	25	38	6	6	1.0	5	0.8333333333333334
+toolkit_present	control	Actinomycetota	True	ctrl:Actinomycetota	16	28	66	4	4	1.0	4	1.0
+toolkit_present	control	Actinomycetes	True	ctrl:Actinomycetes	14	2	68	5	5	1.0	5	1.0
+toolkit_present	control	Mycobacteriales	True	ctrl:Mycobacteriales	4	10	78	4	4	1.0	4	1.0
+toolkit_present	control	Mycobacteriaceae	True	ctrl:Mycobacteriaceae	2	2	80	4	4	1.0	4	1.0
+toolkit_present	control	Cyanophyceae	True	ctrl:Cyanophyceae	27	17	55	8	8	1.0	8	1.0
+toolkit_present	control	Pseudomonadati	True	ctrl:Pseudomonadati	25	44	57	6	6	1.0	5	0.8333333333333334
+toolkit_present	control	Pseudomonadota	True	ctrl:Pseudomonadota	4	21	78	2	2	1.0	2	1.0
+toolkit_present	control	Thermodesulfobacteriota	True	ctrl:Thermodesulfobacteriota	10	15	72	5	5	1.0	5	1.0
+toolkit_present	control	Desulfobulbales	True	ctrl:Desulfobulbales	4	6	78	9	9	1.0	9	1.0
+hog_toolkit	transition	Myxococcota	True	T_myxobacteria	10	15	71	8	7	0.875	6	0.75
+hog_toolkit	transition	Streptomycetaceae	True	T_streptomyces	3	11	78	2	2	1.0	2	1.0
+hog_toolkit	transition	Desulfobacterales	True	T_magnetotactic_mmp	4	6	77	6	2	0.3333333333333333	2	0.3333333333333333
+hog_toolkit	transition	Methanosarcina	True	T_methanosarcina	3	3	78	0	0		0	
+hog_toolkit	control	Halobacteriales	True	ctrl:Halobacteriales	3	8	78	0	0		0	
+hog_toolkit	control	Methanomicrobia	True	ctrl:Methanomicrobia	8	3	73	1	1	1.0	1	1.0
+hog_toolkit	control	Methanosarcinaceae	True	ctrl:Methanosarcinaceae	6	2	75	1	1	1.0	1	1.0
+hog_toolkit	control	Bacillati	True	ctrl:Bacillati	44	25	37	2	2	1.0	2	1.0
+hog_toolkit	control	Actinomycetota	True	ctrl:Actinomycetota	16	28	65	1	1	1.0	1	1.0
+hog_toolkit	control	Actinomycetes	True	ctrl:Actinomycetes	14	2	67	2	2	1.0	2	1.0
+hog_toolkit	control	Mycobacteriales	True	ctrl:Mycobacteriales	4	10	77	0	0		0	
+hog_toolkit	control	Mycobacteriaceae	True	ctrl:Mycobacteriaceae	2	2	79	1	1	1.0	1	1.0
+hog_toolkit	control	Cyanophyceae	True	ctrl:Cyanophyceae	27	17	54	3	3	1.0	3	1.0
+hog_toolkit	control	Pseudomonadati	True	ctrl:Pseudomonadati	25	44	56	2	2	1.0	0	0.0
+hog_toolkit	control	Pseudomonadota	True	ctrl:Pseudomonadota	4	21	77	0	0		0	
+hog_toolkit	control	Thermodesulfobacteriota	True	ctrl:Thermodesulfobacteriota	10	15	71	0	0		0	
+hog_toolkit	control	Desulfobulbales	True	ctrl:Desulfobulbales	4	6	77	1	1	1.0	1	1.0

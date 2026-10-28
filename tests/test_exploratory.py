@@ -292,8 +292,8 @@ def test_control_contrasts_and_pool_on_toy_tree():
 
 
 def test_own_stem_path_wins_when_transitions_share_M():
-    """build_branch_table keeps the first path among transitions sharing M; the exploratory layer uses each
-    transition's own stem_path and patches a local branch table (T_volvocales_gv / T_volvocine_tgv case)."""
+    """When transitions share M, build_branch_table uses the highest-priority (primary) row's stem_path (fixed
+    2026-10-28; previously the first row shadowed it); the exploratory layer's local patch is then a no-op."""
     tree = bs.load_tree("((((a:1,b:1)GV:1,c:1)TGV:2,d:1)CT:1,(e:1,f:1)Z:1)R;")
     tr = pd.DataFrame([
         dict(transition_id="T_first", kingdom="toy", from_state="unicellular", to_state="simple", M="GV", P="TGV",
@@ -304,9 +304,9 @@ def test_own_stem_path_wins_when_transitions_share_M():
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         bt = bs.build_branch_table(tree, None, tr, branch_lengths="tree")
-    assert bt.at["GV", "stem_path"] == "GV"                       # the shadowing in branchstats
+    assert bt.at["GV", "stem_path"] == "TGV;GV"                   # primary row's path wins
     cons = ex.transition_contrasts(tr, tree, bt, ["T_path"])
     assert cons[0].edges == ["TGV", "GV"] and cons[0].P == "CT"
     bt2 = ex.patch_path_stems(bt, cons)
     assert bs.path_edges(bt2, "GV") == ["TGV", "GV"] and bt2.at["GV", "branch_length"] == 3.0
-    assert bt.at["GV", "branch_length"] == 1.0                    # original untouched
+    assert bt.at["GV", "branch_length"] == 3.0                    # path length summed in branchstats itself

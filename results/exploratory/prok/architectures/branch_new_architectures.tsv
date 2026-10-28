@@ -1,0 +1,126 @@
+branch	parent	depth	n_desc	n_sister	is_terminal	branch_class	transition_id	stem_path	in_U	new_arch_all	new_arch_multi	new_arch_recombined	cov_desc	cov_outside	in_pool	selected_transition
+Archaea	cellular_organisms	1	13	69	False	within_unicellular			False	164.0	60.0	14.0	1.0	1.0	False	
+Sulfaci	Archaea	2	1	12	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Methanobacteriota	Archaea	2	12	1	False	within_unicellular			False	144.0	54.0	24.0	1.0	1.0	False	
+Methjan	Methanobacteriota	3	1	11	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Stenosarchaea_group	Methanobacteriota	3	11	1	False	within_unicellular			False	121.0	59.0	40.0	1.0	1.0	False	
+Halobacteriales	Stenosarchaea_group	4	3	8	False	within_unicellular			False	394.0	94.0	39.0	1.0	1.0	True	
+Halomar	Halobacteriales	5	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Halosal	Halobacteriales	5	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Halovol	Halobacteriales	5	1	2	True	grey_zone	T_haloferax_tissue	Halovol	False	0.0	0.0	0.0	1.0	1.0	False	
+Methanomicrobia	Stenosarchaea_group	4	8	3	False	within_unicellular			False	69.0	40.0	36.0	1.0	1.0	True	
+Methhun	Methanomicrobia	5	1	7	True	grey_zone	T_archaea_filament	Methhun	False	0.0	0.0	0.0	1.0	1.0	False	
+Methsoe	Methanomicrobia	5	1	7	True	grey_zone	T_archaea_filament	Methsoe	False	0.0	0.0	0.0	1.0	1.0	False	
+Methanosarcinaceae	Methanomicrobia	5	6	2	False	within_unicellular			False	71.0	47.0	42.0	1.0	1.0	True	
+Methbur	Methanosarcinaceae	6	1	5	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Methmah	Methanosarcinaceae	6	1	5	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Methtin	Methanosarcinaceae	6	1	5	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Methanosarcina	Methanosarcinaceae	6	3	3	False	stem	T_methanosarcina	Methanosarcina	False	57.0	46.0	42.0	1.0	1.0	False	T_methanosarcina
+Methace	Methanosarcina	7	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Methbar	Methanosarcina	7	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Methmaz	Methanosarcina	7	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Bacteria	cellular_organisms	1	69	13	False	within_unicellular			False	3487.0	1658.0	545.0	1.0	1.0	False	
+Bacillati	Bacteria	2	44	25	False	within_unicellular			True	364.0	169.0	122.0	1.0	1.0	True	
+Bacisub	Bacillati	3	1	43	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Actinomycetota	Bacillati	3	16	28	False	within_unicellular			True	79.0	39.0	27.0	1.0	1.0	True	
+Acidfer	Actinomycetota	4	1	15	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Rubrxyl	Actinomycetota	4	1	15	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Actinomycetes	Actinomycetota	4	14	2	False	within_unicellular			False	579.0	284.0	199.0	1.0	1.0	True	
+Bifilon	Actinomycetes	5	1	13	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Cutiacn	Actinomycetes	5	1	13	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Franaln	Actinomycetes	5	1	13	True	stem	T_actino_mycelium_other	Franaln	False	0.0	0.0	0.0	1.0	1.0	False	
+Micrech	Actinomycetes	5	1	13	True	stem	T_actino_mycelium_other	Micrech	False	0.0	0.0	0.0	1.0	1.0	False	
+Micrlut	Actinomycetes	5	1	13	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Saccery	Actinomycetes	5	1	13	True	stem	T_actino_mycelium_other	Saccery	False	0.0	0.0	0.0	1.0	1.0	False	
+Therfus	Actinomycetes	5	1	13	True	stem	T_actino_mycelium_other	Therfus	False	0.0	0.0	0.0	1.0	1.0	False	
+Mycobacteriales	Actinomycetes	5	4	10	False	within_unicellular			False	47.0	28.0	22.0	1.0	1.0	True	
+Coryglu	Mycobacteriales	6	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nocafar	Mycobacteriales	6	1	3	True	stem	T_actino_mycelium_other	Nocafar	False	0.0	0.0	0.0	1.0	1.0	False	
+Mycobacteriaceae	Mycobacteriales	6	2	2	False	within_unicellular			False	41.0	16.0	9.0	1.0	1.0	True	
+Mycosme	Mycobacteriaceae	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Mycotub	Mycobacteriaceae	7	1	1	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Streptomycetaceae	Actinomycetes	5	3	11	False	stem	T_streptomyces	Streptomycetaceae	False	86.0	47.0	41.0	1.0	1.0	False	T_streptomyces
+Kitaset	Streptomycetaceae	6	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Streptomyces	Streptomycetaceae	6	2	1	False	within_multicellular			False	46.0	25.0	21.0	1.0	1.0	False	
+Strecoe	Streptomyces	7	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Streven	Streptomyces	7	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Cyanophyceae	Bacillati	3	27	17	False	within_unicellular			False	238.0	99.0	55.0	1.0	1.0	True	
+Gloevio	Cyanophyceae	4	1	26	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Cyanophyceae_excl_Gloeobacter	Cyanophyceae	4	26	1	False	stem	T_cyano_filament	Cyanophyceae_excl_Gloeobacter	False	725.0	504.0	431.0	1.0	1.0	False	
+Gloelit	Cyanophyceae_excl_Gloeobacter	5	1	25	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Leptbor	Cyanophyceae_excl_Gloeobacter	5	1	25	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Pseubic	Cyanophyceae_excl_Gloeobacter	5	1	25	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Stancya	Cyanophyceae_excl_Gloeobacter	5	1	25	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Acaryochloridales	Cyanophyceae_excl_Gloeobacter	5	2	24	False	within_multicellular			False	2.0	2.0	2.0	1.0	1.0	False	
+Acarmar	Acaryochloridales	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Therves	Acaryochloridales	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nostocales_Chroococcidiopsis	Cyanophyceae_excl_Gloeobacter	5	11	15	False	within_multicellular			False	30.0	25.0	24.0	1.0	1.0	False	
+Chrothe	Nostocales_Chroococcidiopsis	6	1	10	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nostocales	Nostocales_Chroococcidiopsis	6	10	1	False	nested_stem	T_cyano_heterocyst	Nostocales	False	128.0	109.0	102.0	1.0	1.0	False	
+Calopar	Nostocales	7	1	9	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Chlofri	Nostocales	7	1	9	True	nested_stem	T_cyano_branching	Chlofri	False	0.0	0.0	0.0	1.0	1.0	False	
+Cylirac	Nostocales	7	1	9	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Fiscthe	Nostocales	7	1	9	True	nested_stem	T_cyano_branching	Fiscthe	False	0.0	0.0	0.0	1.0	1.0	False	
+Noduspu	Nostocales	7	1	9	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Scythof	Nostocales	7	1	9	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nostocaceae	Nostocales	7	4	6	False	within_multicellular			False	46.0	42.0	42.0	1.0	1.0	False	
+Anabcyl	Nostocaceae	8	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Tricvar	Nostocaceae	8	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nostoc	Nostocaceae	8	2	2	False	within_multicellular			False	3.0	3.0	3.0	1.0	1.0	False	
+Nostpun	Nostoc	9	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nostsp103690	Nostoc	9	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Oscillatoriophycideae	Cyanophyceae_excl_Gloeobacter	5	7	19	False	within_multicellular			False	27.0	23.0	21.0	1.0	1.0	False	
+Chroococcales	Oscillatoriophycideae	6	3	4	False	within_multicellular			False	4.0	4.0	4.0	1.0	1.0	False	
+Micraer	Chroococcales	7	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Aphanothecaceae	Chroococcales	7	2	1	False	within_multicellular			False	9.0	7.0	7.0	1.0	1.0	False	
+Crocsub	Aphanothecaceae	8	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Gloecit	Aphanothecaceae	8	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Oscillatoriales	Oscillatoriophycideae	6	4	3	False	within_multicellular			False	96.0	92.0	92.0	1.0	1.0	False	
+Phornig	Oscillatoriales	7	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Microcoleaceae	Oscillatoriales	7	3	1	False	within_multicellular			False	15.0	15.0	15.0	1.0	1.0	False	
+Lyngaes	Microcoleaceae	8	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Micrvag	Microcoleaceae	8	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Planaga	Microcoleaceae	8	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Synechococcales	Cyanophyceae_excl_Gloeobacter	5	2	24	False	within_multicellular			False	2.0	1.0	1.0	1.0	1.0	False	
+Syneelo	Synechococcales	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Synesp1111708	Synechococcales	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Pseudomonadati	Bacteria	2	25	44	False	within_unicellular			False	792.0	397.0	249.0	1.0	1.0	True	
+Bdelbac	Pseudomonadati	3	1	24	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Myxococcota	Pseudomonadati	3	10	15	False	stem	T_myxobacteria	Myxococcota	False	274.0	188.0	158.0	1.0	1.0	False	T_myxobacteria
+Cystobacterineae	Myxococcota	4	6	4	False	within_multicellular			False	205.0	150.0	134.0	1.0	1.0	False	
+Anaedeh	Cystobacterineae	5	1	5	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Vulginc	Cystobacterineae	5	1	5	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Archangiaceae	Cystobacterineae	5	2	4	False	within_multicellular			False	46.0	40.0	39.0	1.0	1.0	False	
+Alloaur	Archangiaceae	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Cystfus	Archangiaceae	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Myxococcaceae	Cystobacterineae	5	2	4	False	within_multicellular			False	22.0	20.0	19.0	1.0	1.0	False	
+Coracor	Myxococcaceae	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Myxoxan	Myxococcaceae	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Polyangia	Myxococcota	4	4	6	False	within_multicellular			False	102.0	69.0	61.0	1.0	1.0	False	
+Halioch	Polyangia	5	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nannexe	Polyangia	5	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Polyangiaceae	Polyangia	5	2	2	False	within_multicellular			False	52.0	42.0	39.0	1.0	1.0	False	
+Choncro	Polyangiaceae	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Soracel	Polyangiaceae	6	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Pseudomonadota	Pseudomonadati	3	4	21	False	within_unicellular			False	69.0	37.0	10.0	1.0	1.0	True	
+Eschcol	Pseudomonadota	4	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Jeongeupia	Pseudomonadota	4	3	1	False	within_unicellular			False	152.0	86.0	59.0	1.0	1.0	False	
+Jeonchi	Jeongeupia	5	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Jeonnae	Jeongeupia	5	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Jeonsac	Jeongeupia	5	1	2	True	stem	T_jeongeupia	Jeonsac	False	0.0	0.0	0.0	1.0	1.0	False	
+Thermodesulfobacteriota	Pseudomonadati	3	10	15	False	within_unicellular			False	215.0	154.0	130.0	1.0	1.0	True	
+Geobsul	Thermodesulfobacteriota	4	1	9	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Nitrvul	Thermodesulfobacteriota	4	1	9	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Desulfobacterales	Thermodesulfobacteriota	4	4	6	False	stem	T_magnetotactic_mmp	Desulfobacterales	False	185.0	133.0	128.0	1.0	1.0	False	T_magnetotactic_mmp
+MagnspHK1	Desulfobacterales	5	1	3	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Desulfobacteraceae	Desulfobacterales	5	3	1	False	within_multicellular			False	36.0	30.0	30.0	1.0	1.0	False	
+Desuaut	Desulfobacteraceae	6	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Desumag	Desulfobacteraceae	6	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Magnmul	Desulfobacteraceae	6	1	2	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Desulfobulbales	Thermodesulfobacteriota	4	4	6	False	within_unicellular			False	24.0	18.0	16.0	1.0	1.0	True	
+Desupsy	Desulfobulbales	5	1	3	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Desulfobulbaceae	Desulfobulbales	5	3	1	False	within_unicellular			False	10.0	6.0	6.0	1.0	1.0	False	
+Desupro	Desulfobulbaceae	6	1	2	True	within_unicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+Cable_bacteria	Desulfobulbaceae	6	2	1	False	stem	T_cable_bacteria	Cable_bacteria	False	25.0	20.0	19.0	1.0	1.0	False	
+Elecsca	Cable_bacteria	7	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	
+ElecspV4	Cable_bacteria	7	1	1	True	within_multicellular			False	0.0	0.0	0.0	1.0	1.0	False	

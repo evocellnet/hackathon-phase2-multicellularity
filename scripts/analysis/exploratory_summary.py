@@ -36,7 +36,8 @@ def table(rows, cols, head=None):
         return ["(none)", ""]
     out = ["| " + " | ".join(head or cols) + " |", "|" + "---|" * len(cols)]
     for r in rows:
-        out.append("| " + " | ".join(f(r.get(c)) for c in cols) + " |")
+        out.append("| " + " | ".join(("<1e-300" if (c.startswith(("p", "q")) and r.get(c) == 0) else f(r.get(c)))
+                                     for c in cols) + " |")
     out.append("")
     return out
 

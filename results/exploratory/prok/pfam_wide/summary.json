@@ -1,0 +1,483 @@
+{
+ "run": "prok",
+ "transitions": [
+  "T_myxobacteria",
+  "T_streptomyces",
+  "T_magnetotactic_mmp",
+  "T_methanosarcina"
+ ],
+ "pool": "relaxed(|U|=2<10)",
+ "n_pool": 13,
+ "n_evaluable_transitions": 4,
+ "n_evaluable_controls": 13,
+ "n_species": 82,
+ "n_pfam_annotated": 82,
+ "pfam_missing": [],
+ "n_domains_total": 11500,
+ "per_transition": [
+  {
+   "transition": "T_myxobacteria",
+   "evaluable": true,
+   "n_M_annot": 10,
+   "n_S_annot": 15,
+   "n_out_annot": 72,
+   "n_domains": 11500,
+   "n_tested_mwu": 7690,
+   "n_expanded": 1206,
+   "n_expanded_by_test": 1176,
+   "n_gained": 50,
+   "n_contracted": 96,
+   "n_lost": 74,
+   "n_pfam_exp_or_gain": 1256,
+   "n_hog_expanded": 120,
+   "n_both": 102
+  },
+  {
+   "transition": "T_streptomyces",
+   "evaluable": true,
+   "n_M_annot": 3,
+   "n_S_annot": 11,
+   "n_out_annot": 79,
+   "n_domains": 11500,
+   "n_tested_mwu": 5028,
+   "n_expanded": 428,
+   "n_expanded_by_test": 0,
+   "n_gained": 66,
+   "n_contracted": 2,
+   "n_lost": 59,
+   "n_pfam_exp_or_gain": 494,
+   "n_hog_expanded": 23,
+   "n_both": 13
+  },
+  {
+   "transition": "T_magnetotactic_mmp",
+   "evaluable": true,
+   "n_M_annot": 4,
+   "n_S_annot": 6,
+   "n_out_annot": 78,
+   "n_domains": 11500,
+   "n_tested_mwu": 4684,
+   "n_expanded": 558,
+   "n_expanded_by_test": 0,
+   "n_gained": 52,
+   "n_contracted": 23,
+   "n_lost": 149,
+   "n_pfam_exp_or_gain": 610,
+   "n_hog_expanded": 147,
+   "n_both": 96
+  },
+  {
+   "transition": "T_methanosarcina",
+   "evaluable": true,
+   "n_M_annot": 3,
+   "n_S_annot": 3,
+   "n_out_annot": 79,
+   "n_domains": 11500,
+   "n_tested_mwu": 2102,
+   "n_expanded": 351,
+   "n_expanded_by_test": 0,
+   "n_gained": 7,
+   "n_contracted": 13,
+   "n_lost": 115,
+   "n_pfam_exp_or_gain": 358,
+   "n_hog_expanded": 46,
+   "n_both": 34
+  }
+ ],
+ "convergence_global": [
+  {
+   "flag": "exp_or_gain",
+   "k_min": 2,
+   "scheme": "permute",
+   "n_domains_obs": 396,
+   "null_mean": 316.1445,
+   "null_q95": 757.0499999999993,
+   "p_perm": 0.2532746725327467,
+   "n_controls": 13
+  },
+  {
+   "flag": "exp_or_gain",
+   "k_min": 3,
+   "scheme": "permute",
+   "n_domains_obs": 61,
+   "null_mean": 22.3407,
+   "null_q95": 73.0,
+   "p_perm": 0.07979202079792021,
+   "n_controls": 13
+  },
+  {
+   "flag": "exp_or_gain",
+   "k_min": 2,
+   "scheme": "matched",
+   "n_domains_obs": 396,
+   "null_mean": 285.0524,
+   "null_q95": 769.0,
+   "p_perm": 0.21207879212078792,
+   "n_controls": 13
+  },
+  {
+   "flag": "exp_or_gain",
+   "k_min": 3,
+   "scheme": "matched",
+   "n_domains_obs": 61,
+   "null_mean": 13.1908,
+   "null_q95": 48.0,
+   "p_perm": 0.028097190280971903,
+   "n_controls": 13
+  },
+  {
+   "flag": "gained",
+   "k_min": 2,
+   "scheme": "permute",
+   "n_domains_obs": 0,
+   "null_mean": 15.0781,
+   "null_q95": 93.0,
+   "p_perm": 1.0,
+   "n_controls": 13
+  },
+  {
+   "flag": "gained",
+   "k_min": 3,
+   "scheme": "permute",
+   "n_domains_obs": 0,
+   "null_mean": 0.0,
+   "null_q95": 0.0,
+   "p_perm": 1.0,
+   "n_controls": 13
+  },
+  {
+   "flag": "gained",
+   "k_min": 2,
+   "scheme": "matched",
+   "n_domains_obs": 0,
+   "null_mean": 26.7172,
+   "null_q95": 205.0,
+   "p_perm": 1.0,
+   "n_controls": 13
+  },
+  {
+   "flag": "gained",
+   "k_min": 3,
+   "scheme": "matched",
+   "n_domains_obs": 0,
+   "null_mean": 0.0,
+   "null_q95": 0.0,
+   "p_perm": 1.0,
+   "n_controls": 13
+  },
+  {
+   "flag": "lost",
+   "k_min": 2,
+   "scheme": "permute",
+   "n_domains_obs": 10,
+   "null_mean": 45.4462,
+   "null_q95": 107.0,
+   "p_perm": 0.92010798920108,
+   "n_controls": 13
+  },
+  {
+   "flag": "lost",
+   "k_min": 3,
+   "scheme": "permute",
+   "n_domains_obs": 2,
+   "null_mean": 0.568,
+   "null_q95": 3.0,
+   "p_perm": 0.1463853614638536,
+   "n_controls": 13
+  },
+  {
+   "flag": "lost",
+   "k_min": 2,
+   "scheme": "matched",
+   "n_domains_obs": 10,
+   "null_mean": 66.5231,
+   "null_q95": 237.0,
+   "p_perm": 0.9743025697430256,
+   "n_controls": 13
+  },
+  {
+   "flag": "lost",
+   "k_min": 3,
+   "scheme": "matched",
+   "n_domains_obs": 2,
+   "null_mean": 0.9559,
+   "null_q95": 5.0,
+   "p_perm": 0.22147785221477853,
+   "n_controls": 13
+  },
+  {
+   "flag": "hog_expanded",
+   "k_min": 2,
+   "scheme": "permute",
+   "n_domains_obs": 20,
+   "null_mean": 4.909,
+   "null_q95": 22.0,
+   "p_perm": 0.08339166083391661,
+   "n_controls": 13
+  },
+  {
+   "flag": "hog_expanded",
+   "k_min": 3,
+   "scheme": "permute",
+   "n_domains_obs": 0,
+   "null_mean": 0.0434,
+   "null_q95": 0.0,
+   "p_perm": 1.0,
+   "n_controls": 13
+  },
+  {
+   "flag": "hog_expanded",
+   "k_min": 2,
+   "scheme": "matched",
+   "n_domains_obs": 20,
+   "null_mean": 0.0,
+   "null_q95": 0.0,
+   "p_perm": 9.999000099990002e-05,
+   "n_controls": 13
+  },
+  {
+   "flag": "hog_expanded",
+   "k_min": 3,
+   "scheme": "matched",
+   "n_domains_obs": 0,
+   "null_mean": 0.0,
+   "null_q95": 0.0,
+   "p_perm": 1.0,
+   "n_controls": 13
+  }
+ ],
+ "top_convergent": [
+  {
+   "pfam_acc": "PF01663",
+   "pfam_name": "Phosphodiest",
+   "k_obs": 4,
+   "k_null_mean": 0.9409,
+   "p_perm": 0.0004999500049995,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF00583",
+   "pfam_name": "Acetyltransf_1",
+   "k_obs": 4,
+   "k_null_mean": 1.1778,
+   "p_perm": 0.001999800019998,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF13205",
+   "pfam_name": "Big_5",
+   "k_obs": 4,
+   "k_null_mean": 1.1747,
+   "p_perm": 0.0021997800219978004,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF13432",
+   "pfam_name": "TPR_16",
+   "k_obs": 4,
+   "k_null_mean": 1.411,
+   "p_perm": 0.005699430056994301,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF13517",
+   "pfam_name": "FG-GAP_3",
+   "k_obs": 4,
+   "k_null_mean": 1.4104,
+   "p_perm": 0.006299370062993701,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF00144",
+   "pfam_name": "Beta-lactamase",
+   "k_obs": 4,
+   "k_null_mean": 1.4196,
+   "p_perm": 0.006999300069993001,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF14559",
+   "pfam_name": "TPR_19",
+   "k_obs": 4,
+   "k_null_mean": 1.6397,
+   "p_perm": 0.014198580141985802,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF13360",
+   "pfam_name": "PQQ_2",
+   "k_obs": 4,
+   "k_null_mean": 1.8856,
+   "p_perm": 0.029397060293970604,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF00089",
+   "pfam_name": "Trypsin",
+   "k_obs": 3,
+   "k_null_mean": 0.6986,
+   "p_perm": 0.005499450054994501,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp"
+  },
+  {
+   "pfam_acc": "PF01804",
+   "pfam_name": "Penicil_amidase",
+   "k_obs": 3,
+   "k_null_mean": 0.6986,
+   "p_perm": 0.005499450054994501,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp"
+  },
+  {
+   "pfam_acc": "PF13408",
+   "pfam_name": "Zn_ribbon_recom",
+   "k_obs": 3,
+   "k_null_mean": 0.6986,
+   "p_perm": 0.005499450054994501,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_magnetotactic_mmp"
+  },
+  {
+   "pfam_acc": "PF07705",
+   "pfam_name": "CARDB",
+   "k_obs": 3,
+   "k_null_mean": 0.7094,
+   "p_perm": 0.006399360063993601,
+   "q": 0.5888212023698052,
+   "transitions": "T_streptomyces;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF01061",
+   "pfam_name": "ABC2_membrane",
+   "k_obs": 3,
+   "k_null_mean": 0.7104,
+   "p_perm": 0.0071992800719928,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF01135",
+   "pfam_name": "PCMT",
+   "k_obs": 3,
+   "k_null_mean": 0.7104,
+   "p_perm": 0.0071992800719928,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF05726",
+   "pfam_name": "Pirin_C",
+   "k_obs": 3,
+   "k_null_mean": 0.7104,
+   "p_perm": 0.0071992800719928,
+   "q": 0.5888212023698052,
+   "transitions": "T_myxobacteria;T_streptomyces;T_methanosarcina"
+  }
+ ],
+ "top_lost": [
+  {
+   "pfam_acc": "PF14821",
+   "pfam_name": "Thr_synth_N",
+   "k_obs": 3,
+   "k_null_mean": 0.933,
+   "p_perm": 0.023797620237976203,
+   "q": 0.3824371661194536,
+   "transitions": "T_myxobacteria;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF24857",
+   "pfam_name": "THR4_C",
+   "k_obs": 3,
+   "k_null_mean": 0.933,
+   "p_perm": 0.023797620237976203,
+   "q": 0.3824371661194536,
+   "transitions": "T_myxobacteria;T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF13275",
+   "pfam_name": "S4_2",
+   "k_obs": 2,
+   "k_null_mean": 0.4681,
+   "p_perm": 0.04229577042295771,
+   "q": 0.3824371661194536,
+   "transitions": "T_myxobacteria;T_streptomyces"
+  },
+  {
+   "pfam_acc": "PF02335",
+   "pfam_name": "Cytochrom_C552",
+   "k_obs": 2,
+   "k_null_mean": 0.4728,
+   "p_perm": 0.043195680431956804,
+   "q": 0.3824371661194536,
+   "transitions": "T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF02556",
+   "pfam_name": "SecB",
+   "k_obs": 2,
+   "k_null_mean": 0.462,
+   "p_perm": 0.043195680431956804,
+   "q": 0.3824371661194536,
+   "transitions": "T_myxobacteria;T_magnetotactic_mmp"
+  },
+  {
+   "pfam_acc": "PF07849",
+   "pfam_name": "HMP",
+   "k_obs": 2,
+   "k_null_mean": 0.4728,
+   "p_perm": 0.043195680431956804,
+   "q": 0.3824371661194536,
+   "transitions": "T_magnetotactic_mmp;T_methanosarcina"
+  },
+  {
+   "pfam_acc": "PF13356",
+   "pfam_name": "Arm-DNA-bind_3",
+   "k_obs": 2,
+   "k_null_mean": 0.462,
+   "p_perm": 0.043195680431956804,
+   "q": 0.3824371661194536,
+   "transitions": "T_myxobacteria;T_magnetotactic_mmp"
+  },
+  {
+   "pfam_acc": "PF27444",
+   "pfam_name": "GlnD_3rd",
+   "k_obs": 2,
+   "k_null_mean": 0.462,
+   "p_perm": 0.043195680431956804,
+   "q": 0.3824371661194536,
+   "transitions": "T_myxobacteria;T_magnetotactic_mmp"
+  },
+  {
+   "pfam_acc": "PF03601",
+   "pfam_name": "Cons_hypoth698",
+   "k_obs": 2,
+   "k_null_mean": 0.4671,
+   "p_perm": 0.047295270472952705,
+   "q": 0.3824371661194536,
+   "transitions": "T_streptomyces;T_magnetotactic_mmp"
+  },
+  {
+   "pfam_acc": "PF11798",
+   "pfam_name": "IMS_HHH",
+   "k_obs": 2,
+   "k_null_mean": 0.4671,
+   "p_perm": 0.047295270472952705,
+   "q": 0.3824371661194536,
+   "transitions": "T_streptomyces;T_magnetotactic_mmp"
+  }
+ ],
+ "control_flag_means": {
+  "n_expanded": 560.46,
+  "n_gained": 118.77,
+  "n_lost": 343.15
+ }
+}
