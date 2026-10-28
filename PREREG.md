@@ -56,7 +56,7 @@ Any change after the freeze is added here with date, reason and whether it was m
   (results/validation_branchstats/null_calibration.tsv). The `permute` H1/H2 p-value is reported as a sensitivity analysis.
   Also corrected: the null-calibration numbers quoted in DESIGN §4.6 v3.1 (14.5%/4.3%, 400 replicates) are superseded by
   13.8%/4.5% for the literal scheme and 5.1%/1.3% for `permute` (1,000 replicates); DESIGN.md is left unchanged because it is hashed.
-- **Dev-2 (2026-10-28 ~19:00, BEFORE any eukaryote output existed).** Gain-ladder DIAMOND sensitivity `--very-sensitive` (two passes)
+- **Dev-2 (2026-10-28 ~18:15 (commit 18:19), BEFORE any eukaryote output existed).** Gain-ladder DIAMOND sensitivity `--very-sensitive` (two passes)
   instead of `--ultra-sensitive`: on 500 real proteins it recovers 99.65% of ultra-sensitive hits at about one third of the cost, and an
   ultra-sensitive recheck of 200 prokaryote 'novel' gains found 0 outside-clade hits (results/gainladder/diamond_timing.json). Reason:
   the eukaryote search would otherwise cost an estimated 150–700 CPU-h. The eukaryote ladder is run on the branches the tests use
