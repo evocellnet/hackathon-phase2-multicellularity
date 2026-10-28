@@ -63,7 +63,12 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - [x] 5b. Ancestra prokaryote run (fast; 1.4 h) — dry run; gain ladder; descriptive stats; P1/P2 controls recovered
 - [x] 5c. Ancestra eukaryote run (fast): done 2026-10-28 22:36 (t=10.3 h); families 5.3 h, scores 3.7 h (peak 84 GB), merge 10 min; verify PASS; 2.22 M genes in HOGs, 750k singletons
 - [~] 5d. Annotation: Pfam pre-registered subset done (269/269); full Pfam 119/187 euk; disorder 112/187 euk
-- [ ] 6. PRIMARY tests (H1/H2, H4, H5, H12 on euk; Holm with H9) + positive controls
+- [~] 6. PRIMARY tests (H1/H2, H4, H5, H12 on euk; Holm with H9) + positive controls
+  - [-] H4 (TF-family expansion, compositional): not detected, T=0.548, p=0.36 (pre-Holm)
+  - [-] H5 (adhesion/ECM+signalling expansion): not detected, T=0.41, p=0.77 (pre-Holm)
+  - [~] H12 (flagellar loss where expected): T=0.738, p=0.020 pre-Holm (likely not significant after Holm ×5)
+  - [ ] H1/H2 (sequence-novel gains): waiting for gain ladder (186,601 queries)
+  - [!] Positive controls: 10/16 recovered (C10 pending) → pre-registered criterion (≥11) NOT met. No code bugs; C03/C06/C07 failures are Ancestra inference artefacts (domain gained within an older HOG is invisible; mixed-domain HOGs; duplications placed one node too deep with compensating losses — 52% of Choanozoa-stem duplication products are animal-only); C08/C12 are expectation problems. Implication: HOG-level origins/duplication placement unreliable at deep animal stems → H4/H5 robustness (orthology-free) + post-hoc re-placement running.
   - [x] H9 (genome-wide rate shift): not detected — p = 0.27, pooled ratio 1.10 [0.96, 1.26] (no ≥1.5-fold shift); heterogeneous: faster in Dictyostelia/volvocines/red algae/fungi, slower in Metazoa/PX; seed-sensitive p 0.19–0.61
 - [ ] 7. Secondary: nested complex transitions; prokaryote descriptive
 - [ ] 8. EXPLORATORY
