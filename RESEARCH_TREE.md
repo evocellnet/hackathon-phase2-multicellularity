@@ -51,7 +51,10 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - [x] 4. Dataset: 187 euk (2.97 M proteins) + 82 prok (0.41 M); BUSCO; guide trees (62 edits); transitions.tsv
 - [x] 3. Design → DESIGN.md v3.1 after 3 review rounds; PREREG frozen (tag prereg-v1)
 - [~] 5. Ancestra runs: euk `fast` and prok `fast` running (no 40-proteome timing test: skipped since dataset was under the 3.0 M cap and the watchdog guards memory)
-- [ ] 6. Analyses
+- [~] 6. Analyses
+  - [-] H9 primary (genome-wide rate shift): p=0.27, pooled ratio 1.10 [0.96,1.26]; heterogeneous: faster in Dictyostelia/volvocines/red algae/fungi, slower in Metazoa/PX; seed-sensitive (p 0.19–0.61)
+  - [-] Gene-level RER (250 BUSCO markers, exploratory): 0 genes q<0.10; no gene shifts consistently across ≥4 transitions
+  - [-] Kr/Kc radical/conservative (exploratory): no support for relaxed constraint (p=0.60/0.16); H9 worded as 'rate shift'
 - [ ] 7. Verification by independent agents
 - [ ] 8. Report
 
@@ -64,3 +67,4 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - D5 (t=1.3h): Eligibility rule refined before results: low-quality species (BUSCO C<50%) do not count toward the ≥2 per side, rather than disqualifying a transition; M must be a single clade. Result: 7 primary eukaryotic origins, 7 secondary (3 nested complex, 4 prokaryotic). Script: scripts/prereg/apply_eligibility.py.
 - D6 (t=1.6h): Statistics engine calibration on the real tree (before results): literal relabelling null anti-conservative (14.5% at α=0.05) because |U|=30 and matched sets overlap → primary scheme `permute` (4.9%); H1/H2 statistic = NB-GLM residual fitted on controls (matching poor: depth SMD 1.77). Prokaryotes |U|=2 → descriptive only.
 - D7 (t=1.7h): Round-3 audit F1/F2 adopted on phylogenetic grounds (Lindsey 2021; Kiss 2019): volvocine and fungal-hyphae stems become 2-edge path stems ending at Gonium_Volvocaceae and Amastigomycota. Consequence (not the reason): fungal stem becomes flagellum-loss-expected, so H12 has 2 loss-expected stems and stays primary.
+- D8 (t=5.9h): Eukaryote Ancestra S0 stage-2 graph has ONE connected component of 2.16 M genes (73%; 473k stage-1 reps); stricter coverage does not dissolve it (min-cov 0.5: 1.48 M; 0.7: 0.96 M). The frozen leiden_split rescans all component edges per part and runs serially → many hours. Kept the original run going; launched in parallel an output-identical patched wrapper (parallel independent parts, per-part edge partitioning; identity verified on random graphs and the prokaryote run before use). Whichever finishes first is used; both must give identical families. Scientific note for the report: in eukaryote-wide data single-linkage collapses most of the proteome into one 'family', so Leiden cut points define family boundaries — the mechanism behind spurious HOG gains that the DIAMOND novelty ladder guards against.
