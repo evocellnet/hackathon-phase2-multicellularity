@@ -14,82 +14,82 @@ Per-branch counts compared across branches (root stem excluded). `ratio` = infer
 
 | preset | quantity | scope | true total | inferred total | ratio | Pearson r | Spearman | MAE |
 |---|---|---|---|---|---|---|---|---|
-| fast | gains | all_branches | 213.0 | 530.0 | 2.488 | 0.717 | 0.672 | 15.41 |
-| fast | gains | internal_branches | 175.0 | 394.0 | 2.251 | 0.719 | 0.786 | 22.9 |
-| fast | gains | leaf_branches | 38.0 | 136.0 | 3.579 | 0.985 | 0.666 | 9.17 |
-| fast | losses | all_branches | 652.0 | 710.0 | 1.089 | 0.997 | 0.988 | 2.82 |
-| fast | losses | internal_branches | 219.0 | 243.0 | 1.11 | 0.989 | 0.982 | 2.8 |
-| fast | losses | leaf_branches | 433.0 | 467.0 | 1.079 | 0.999 | 0.991 | 2.83 |
-| fast | dups_total | all_branches | 961.0 | 941.0 | 0.979 | 0.994 | 0.993 | 5.09 |
-| fast | dups_total | internal_branches | 436.0 | 428.0 | 0.982 | 0.995 | 1.0 | 6.6 |
-| fast | dups_total | leaf_branches | 525.0 | 513.0 | 0.977 | 0.997 | 0.991 | 3.83 |
-| fast | n_child | internal_branches | 10021.0 | 9962.0 | 0.994 | 0.973 | 0.881 | 11.9 |
-| fast | n_root_genes | root | 834.0 | 744.0 | 0.892 | nan | nan | nan |
-| accurate | gains | all_branches | 213.0 | 530.0 | 2.488 | 0.717 | 0.672 | 15.41 |
-| accurate | gains | internal_branches | 175.0 | 394.0 | 2.251 | 0.719 | 0.786 | 22.9 |
-| accurate | gains | leaf_branches | 38.0 | 136.0 | 3.579 | 0.985 | 0.666 | 9.17 |
-| accurate | losses | all_branches | 652.0 | 748.0 | 1.147 | 0.996 | 0.97 | 4.36 |
-| accurate | losses | internal_branches | 219.0 | 267.0 | 1.219 | 0.986 | 0.985 | 4.8 |
-| accurate | losses | leaf_branches | 433.0 | 481.0 | 1.111 | 0.999 | 0.996 | 4.0 |
-| accurate | dups_total | all_branches | 961.0 | 960.0 | 0.999 | 0.992 | 0.992 | 5.41 |
-| accurate | dups_total | internal_branches | 436.0 | 445.0 | 1.021 | 0.992 | 0.988 | 7.3 |
-| accurate | dups_total | leaf_branches | 525.0 | 515.0 | 0.981 | 0.996 | 0.991 | 3.83 |
-| accurate | n_child | internal_branches | 10021.0 | 9981.0 | 0.996 | 0.965 | 0.841 | 11.6 |
-| accurate | n_root_genes | root | 834.0 | 744.0 | 0.892 | nan | nan | nan |
+| fast | gains | all_branches | 213 | 530 | 2.488 | 0.717 | 0.672 | 15.41 |
+| fast | gains | internal_branches | 175 | 394 | 2.251 | 0.719 | 0.786 | 22.9 |
+| fast | gains | leaf_branches | 38 | 136 | 3.579 | 0.985 | 0.666 | 9.17 |
+| fast | losses | all_branches | 652 | 710 | 1.089 | 0.997 | 0.988 | 2.82 |
+| fast | losses | internal_branches | 219 | 243 | 1.11 | 0.989 | 0.982 | 2.8 |
+| fast | losses | leaf_branches | 433 | 467 | 1.079 | 0.999 | 0.991 | 2.83 |
+| fast | dups_total | all_branches | 961 | 941 | 0.979 | 0.994 | 0.993 | 5.09 |
+| fast | dups_total | internal_branches | 436 | 428 | 0.982 | 0.995 | 1.0 | 6.6 |
+| fast | dups_total | leaf_branches | 525 | 513 | 0.977 | 0.997 | 0.991 | 3.83 |
+| fast | n_child | internal_branches | 10021 | 9962 | 0.994 | 0.973 | 0.881 | 11.9 |
+| fast | n_root_genes | root | 834 | 744 | 0.892 | nan | nan | nan |
+| accurate | gains | all_branches | 213 | 530 | 2.488 | 0.717 | 0.672 | 15.41 |
+| accurate | gains | internal_branches | 175 | 394 | 2.251 | 0.719 | 0.786 | 22.9 |
+| accurate | gains | leaf_branches | 38 | 136 | 3.579 | 0.985 | 0.666 | 9.17 |
+| accurate | losses | all_branches | 652 | 748 | 1.147 | 0.996 | 0.97 | 4.36 |
+| accurate | losses | internal_branches | 219 | 267 | 1.219 | 0.986 | 0.985 | 4.8 |
+| accurate | losses | leaf_branches | 433 | 481 | 1.111 | 0.999 | 0.996 | 4.0 |
+| accurate | dups_total | all_branches | 961 | 960 | 0.999 | 0.992 | 0.992 | 5.41 |
+| accurate | dups_total | internal_branches | 436 | 445 | 1.021 | 0.992 | 0.988 | 7.3 |
+| accurate | dups_total | leaf_branches | 525 | 515 | 0.981 | 0.996 | 0.991 | 3.83 |
+| accurate | n_child | internal_branches | 10021 | 9981 | 0.996 | 0.965 | 0.841 | 11.6 |
+| accurate | n_root_genes | root | 834 | 744 | 0.892 | nan | nan | nan |
 
 ### S2_16sp_highturnover_wgd
 
 | preset | quantity | scope | true total | inferred total | ratio | Pearson r | Spearman | MAE |
 |---|---|---|---|---|---|---|---|---|
-| fast | gains | all_branches | 317.0 | 756.0 | 2.385 | 0.943 | 0.58 | 14.63 |
-| fast | gains | internal_branches | 317.0 | 680.0 | 2.145 | 0.95 | 0.73 | 25.93 |
-| fast | gains | leaf_branches | 0.0 | 76.0 | nan | nan | nan | 4.75 |
-| fast | losses | all_branches | 2321.0 | 2892.0 | 1.246 | 0.812 | 0.919 | 21.43 |
-| fast | losses | internal_branches | 927.0 | 1418.0 | 1.53 | 0.737 | 0.925 | 39.07 |
-| fast | losses | leaf_branches | 1394.0 | 1474.0 | 1.057 | 0.993 | 0.997 | 6.0 |
-| fast | dups_total | all_branches | 3646.0 | 4167.0 | 1.143 | 0.605 | 0.832 | 56.63 |
-| fast | dups_total | internal_branches | 2121.0 | 2262.0 | 1.066 | 0.529 | 0.771 | 91.36 |
-| fast | dups_total | leaf_branches | 1525.0 | 1905.0 | 1.249 | 0.884 | 0.985 | 26.25 |
-| fast | n_child | internal_branches | 25599.0 | 25352.0 | 0.99 | 0.972 | 0.898 | 54.64 |
-| fast | n_root_genes | root | 1158.0 | 1087.0 | 0.939 | nan | nan | nan |
-| accurate | gains | all_branches | 317.0 | 753.0 | 2.375 | 0.944 | 0.58 | 14.53 |
-| accurate | gains | internal_branches | 317.0 | 678.0 | 2.139 | 0.951 | 0.73 | 25.79 |
-| accurate | gains | leaf_branches | 0.0 | 75.0 | nan | nan | nan | 4.69 |
-| accurate | losses | all_branches | 2321.0 | 3205.0 | 1.381 | 0.808 | 0.885 | 29.53 |
-| accurate | losses | internal_branches | 927.0 | 1673.0 | 1.805 | 0.768 | 0.93 | 53.29 |
-| accurate | losses | leaf_branches | 1394.0 | 1532.0 | 1.099 | 0.984 | 0.997 | 8.75 |
-| accurate | dups_total | all_branches | 3646.0 | 4284.0 | 1.175 | 0.606 | 0.839 | 57.8 |
-| accurate | dups_total | internal_branches | 2121.0 | 2382.0 | 1.123 | 0.525 | 0.785 | 93.64 |
-| accurate | dups_total | leaf_branches | 1525.0 | 1902.0 | 1.247 | 0.883 | 0.985 | 26.44 |
-| accurate | n_child | internal_branches | 25599.0 | 25551.0 | 0.998 | 0.973 | 0.898 | 45.43 |
-| accurate | n_root_genes | root | 1158.0 | 1087.0 | 0.939 | nan | nan | nan |
+| fast | gains | all_branches | 317 | 756 | 2.385 | 0.943 | 0.58 | 14.63 |
+| fast | gains | internal_branches | 317 | 680 | 2.145 | 0.95 | 0.73 | 25.93 |
+| fast | gains | leaf_branches | 0 | 76 | nan | nan | nan | 4.75 |
+| fast | losses | all_branches | 2321 | 2892 | 1.246 | 0.812 | 0.919 | 21.43 |
+| fast | losses | internal_branches | 927 | 1418 | 1.53 | 0.737 | 0.925 | 39.07 |
+| fast | losses | leaf_branches | 1394 | 1474 | 1.057 | 0.993 | 0.997 | 6.0 |
+| fast | dups_total | all_branches | 3646 | 4167 | 1.143 | 0.605 | 0.832 | 56.63 |
+| fast | dups_total | internal_branches | 2121 | 2262 | 1.066 | 0.529 | 0.771 | 91.36 |
+| fast | dups_total | leaf_branches | 1525 | 1905 | 1.249 | 0.884 | 0.985 | 26.25 |
+| fast | n_child | internal_branches | 25599 | 25352 | 0.99 | 0.972 | 0.898 | 54.64 |
+| fast | n_root_genes | root | 1158 | 1087 | 0.939 | nan | nan | nan |
+| accurate | gains | all_branches | 317 | 753 | 2.375 | 0.944 | 0.58 | 14.53 |
+| accurate | gains | internal_branches | 317 | 678 | 2.139 | 0.951 | 0.73 | 25.79 |
+| accurate | gains | leaf_branches | 0 | 75 | nan | nan | nan | 4.69 |
+| accurate | losses | all_branches | 2321 | 3205 | 1.381 | 0.808 | 0.885 | 29.53 |
+| accurate | losses | internal_branches | 927 | 1673 | 1.805 | 0.768 | 0.93 | 53.29 |
+| accurate | losses | leaf_branches | 1394 | 1532 | 1.099 | 0.984 | 0.997 | 8.75 |
+| accurate | dups_total | all_branches | 3646 | 4284 | 1.175 | 0.606 | 0.839 | 57.8 |
+| accurate | dups_total | internal_branches | 2121 | 2382 | 1.123 | 0.525 | 0.785 | 93.64 |
+| accurate | dups_total | leaf_branches | 1525 | 1902 | 1.247 | 0.883 | 0.985 | 26.44 |
+| accurate | n_child | internal_branches | 25599 | 25551 | 0.998 | 0.973 | 0.898 | 45.43 |
+| accurate | n_root_genes | root | 1158 | 1087 | 0.939 | nan | nan | nan |
 
 ### S3_24sp_default
 
 | preset | quantity | scope | true total | inferred total | ratio | Pearson r | Spearman | MAE |
 |---|---|---|---|---|---|---|---|---|
-| fast | gains | all_branches | 111.0 | 294.0 | 2.649 | 0.981 | 0.615 | 3.98 |
-| fast | gains | internal_branches | 111.0 | 282.0 | 2.541 | 0.983 | 0.718 | 7.77 |
-| fast | gains | leaf_branches | 0.0 | 12.0 | nan | nan | nan | 0.5 |
-| fast | losses | all_branches | 1234.0 | 1329.0 | 1.077 | 0.996 | 0.991 | 2.37 |
-| fast | losses | internal_branches | 634.0 | 680.0 | 1.073 | 0.995 | 0.996 | 2.73 |
-| fast | losses | leaf_branches | 600.0 | 649.0 | 1.082 | 0.997 | 0.979 | 2.04 |
-| fast | dups_total | all_branches | 1460.0 | 1504.0 | 1.03 | 0.982 | 0.97 | 3.43 |
-| fast | dups_total | internal_branches | 790.0 | 781.0 | 0.989 | 0.976 | 0.958 | 4.23 |
-| fast | dups_total | leaf_branches | 670.0 | 723.0 | 1.079 | 0.992 | 0.954 | 2.71 |
-| fast | n_child | internal_branches | 22263.0 | 22231.0 | 0.999 | 0.881 | 0.861 | 3.82 |
-| fast | n_root_genes | root | 886.0 | 836.0 | 0.944 | nan | nan | nan |
-| accurate | gains | all_branches | 111.0 | 293.0 | 2.64 | 0.978 | 0.615 | 3.96 |
-| accurate | gains | internal_branches | 111.0 | 281.0 | 2.532 | 0.981 | 0.718 | 7.73 |
-| accurate | gains | leaf_branches | 0.0 | 12.0 | nan | nan | nan | 0.5 |
-| accurate | losses | all_branches | 1234.0 | 1463.0 | 1.186 | 0.978 | 0.967 | 4.98 |
-| accurate | losses | internal_branches | 634.0 | 789.0 | 1.244 | 0.966 | 0.979 | 7.05 |
-| accurate | losses | leaf_branches | 600.0 | 674.0 | 1.123 | 0.996 | 0.979 | 3.08 |
-| accurate | dups_total | all_branches | 1460.0 | 1564.0 | 1.071 | 0.984 | 0.97 | 3.61 |
-| accurate | dups_total | internal_branches | 790.0 | 845.0 | 1.07 | 0.978 | 0.966 | 4.59 |
-| accurate | dups_total | leaf_branches | 670.0 | 719.0 | 1.073 | 0.992 | 0.954 | 2.71 |
-| accurate | n_child | internal_branches | 22263.0 | 22306.0 | 1.002 | 0.891 | 0.885 | 4.23 |
-| accurate | n_root_genes | root | 886.0 | 836.0 | 0.944 | nan | nan | nan |
+| fast | gains | all_branches | 111 | 294 | 2.649 | 0.981 | 0.615 | 3.98 |
+| fast | gains | internal_branches | 111 | 282 | 2.541 | 0.983 | 0.718 | 7.77 |
+| fast | gains | leaf_branches | 0 | 12 | nan | nan | nan | 0.5 |
+| fast | losses | all_branches | 1234 | 1329 | 1.077 | 0.996 | 0.991 | 2.37 |
+| fast | losses | internal_branches | 634 | 680 | 1.073 | 0.995 | 0.996 | 2.73 |
+| fast | losses | leaf_branches | 600 | 649 | 1.082 | 0.997 | 0.979 | 2.04 |
+| fast | dups_total | all_branches | 1460 | 1504 | 1.03 | 0.982 | 0.97 | 3.43 |
+| fast | dups_total | internal_branches | 790 | 781 | 0.989 | 0.976 | 0.958 | 4.23 |
+| fast | dups_total | leaf_branches | 670 | 723 | 1.079 | 0.992 | 0.954 | 2.71 |
+| fast | n_child | internal_branches | 22263 | 22231 | 0.999 | 0.881 | 0.861 | 3.82 |
+| fast | n_root_genes | root | 886 | 836 | 0.944 | nan | nan | nan |
+| accurate | gains | all_branches | 111 | 293 | 2.64 | 0.978 | 0.615 | 3.96 |
+| accurate | gains | internal_branches | 111 | 281 | 2.532 | 0.981 | 0.718 | 7.73 |
+| accurate | gains | leaf_branches | 0 | 12 | nan | nan | nan | 0.5 |
+| accurate | losses | all_branches | 1234 | 1463 | 1.186 | 0.978 | 0.967 | 4.98 |
+| accurate | losses | internal_branches | 634 | 789 | 1.244 | 0.966 | 0.979 | 7.05 |
+| accurate | losses | leaf_branches | 600 | 674 | 1.123 | 0.996 | 0.979 | 3.08 |
+| accurate | dups_total | all_branches | 1460 | 1564 | 1.071 | 0.984 | 0.97 | 3.61 |
+| accurate | dups_total | internal_branches | 790 | 845 | 1.07 | 0.978 | 0.966 | 4.59 |
+| accurate | dups_total | leaf_branches | 670 | 719 | 1.073 | 0.992 | 0.954 | 2.71 |
+| accurate | n_child | internal_branches | 22263 | 22306 | 1.002 | 0.891 | 0.885 | 4.23 |
+| accurate | n_root_genes | root | 886 | 836 | 0.944 | nan | nan | nan |
 
 ### Ancestral gene sets and family origins
 
@@ -104,5 +104,14 @@ Per-branch counts compared across branches (root stem excluded). `ratio` = infer
 | S3_24sp_default | fast | 24372 | 0.9355 | 0.0645 | 0.0 | 0.0 | 0.9782 | 0.9817 |
 | S3_24sp_default | accurate | 24372 | 0.9365 | 0.0635 | 0.0 | 0.0 | 0.9755 | 0.9758 |
 
-Ancestra wall times (s, this run; empty if reused): {"S1_12sp_default_hgt/accurate": 34.3, "S2_16sp_highturnover_wgd/fast": 75.5, "S2_16sp_highturnover_wgd/accurate": 82.9, "S3_24sp_default/fast": 63.3, "S3_24sp_default/accurate": 68.3}
+## Key points
+
+* Duplications and losses per branch are recovered well on easy simulated data (per-branch Pearson r mostly >= 0.98; totals within ~2-25%). Exception: the high-turnover WGD simulation S2, where internal-branch duplications correlate poorly (r ~ 0.53) and internal-branch losses are inflated 1.5-1.8x.
+* **Gains are inflated ~2.1-2.6x** in every simulation and preset. Cause: Ancestra splits some true families into several top-level HOGs at deep nodes, so a part of the family appears to originate at a younger node (5-11% of genes have a too-young family origin; almost never too old). Spurious gains concentrate on long branches and on the children of the root (e.g. S1: N10 149 inferred vs 31 true; leaf sp0 128 vs 24). Treat per-branch gain counts as upper bounds; use the gain rows' n_species / n_child_clades_present to filter, and check gains against homology beyond HOGs (e.g. family-level or domain-level presence) before biological interpretation.
+* Ancestral genome sizes at internal nodes are accurate (ratio 0.99-1.00) and the exact gene sets of 88-98% of true ancestral genes are reproduced; the root has 5-11% fewer genes than truth (families split below the root).
+* `fast` and `accurate` presets give nearly identical numbers; `fast` has slightly fewer excess losses.
+
+## Scale benchmark (synthetic, `scripts/bench_hogparser_synthetic.py --species 250 --families 48000 --seed 2`)
+
+3,985,729 genes, 250 species, 1.06 GB OrthoXML (Ancestra writer layout) -> 4,362,148 ancestral genes, 952,875 event rows: wall 173 s, peak RSS 3.4 GB (single thread, incl. root copy-number table).
 

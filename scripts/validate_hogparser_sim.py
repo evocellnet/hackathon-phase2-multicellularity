@@ -210,9 +210,7 @@ def write_summary(met: pd.DataFrame, out: str, runtimes: dict, presets: list[str
         L.append("|---|---|---|---|---|---|---|---|---|")
         sub = met[(met.simulation == sim) & ~met.quantity.isin(["gene_level"])]
         for _, r in sub.iterrows():
-            if r.scope == "leaf_branches" and r.quantity != "gains":
-                pass
-            L.append(f"| {r.preset} | {r.quantity} | {r.scope} | {r.true_total} | {r.inferred_total} | "
+            L.append(f"| {r.preset} | {r.quantity} | {r.scope} | {int(r.true_total)} | {int(r.inferred_total)} | "
                      f"{r.ratio} | {r.get('pearson', '')} | {r.get('spearman', '')} | {r.get('mae', '')} |")
         L.append("")
     g = met[met.quantity == "gene_level"]
@@ -226,7 +224,36 @@ def write_summary(met: pd.DataFrame, out: str, runtimes: dict, presets: list[str
     for _, r in g.iterrows():
         L.append(f"| {r.simulation} | {r.preset} | {int(r.genes)} | {r.origin_exact} | {r.origin_too_young} | "
                  f"{r.origin_too_old} | {r.origin_other} | {r.hog_set_recall} | {r.hog_set_precision} |")
-    L += ["", f"Ancestra wall times (s, this run; empty if reused): {json.dumps(runtimes)}", ""]
+    L += ["", "## Key points", "",
+          "* Duplications and losses per branch are recovered well on easy simulated data (per-branch Pearson "
+          "r mostly >= 0.98; totals within ~2-25%). Exception: the high-turnover WGD simulation S2, where "
+          "internal-branch duplications correlate poorly (r ~ 0.53) and internal-branch losses are inflated "
+          "1.5-1.8x.",
+          "* **Gains are inflated ~2.1-2.6x** in every simulation and preset. Cause: Ancestra splits some true "
+          "families into several top-level HOGs at deep nodes, so a part of the family appears to originate "
+          "at a younger node (5-11% of genes have a too-young family origin; almost never too old). Spurious "
+          "gains concentrate on long branches and on the children of the root (e.g. S1: N10 149 inferred vs "
+          "31 true; leaf sp0 128 vs 24). Treat per-branch gain counts as upper bounds; use the gain rows' "
+          "n_species / n_child_clades_present to filter, and check gains against homology beyond HOGs "
+          "(e.g. family-level or domain-level presence) before biological interpretation.",
+          "* Ancestral genome sizes at internal nodes are accurate (ratio 0.99-1.00) and the exact gene sets "
+          "of 88-98% of true ancestral genes are reproduced; the root has 5-11% fewer genes than truth "
+          "(families split below the root).",
+          "* `fast` and `accurate` presets give nearly identical numbers; `fast` has slightly fewer excess "
+          "losses.", ""]
+    bench = os.path.join(ROOT, "runs", "validation_hogparser", "bench", "out", "run_info.json")
+    if os.path.exists(bench):
+        with open(bench) as fh:
+            b = json.load(fh)
+        st = b["stats"]
+        L += ["## Scale benchmark (synthetic, `scripts/bench_hogparser_synthetic.py --species 250 "
+              "--families 48000 --seed 2`)", "",
+              f"{st['n_genes']:,} genes, {st['n_species']} species, {b['orthoxml_bytes'] / 1e9:.2f} GB "
+              f"OrthoXML (Ancestra writer layout) -> {st['n_hogs_internal']:,} ancestral genes, "
+              f"{st['n_event_rows']:,} event rows: wall {b['wall_s']:.0f} s, peak RSS {b['peak_rss_gb']:.1f} GB "
+              "(single thread, incl. root copy-number table).", ""]
+    if runtimes:
+        L += ["", f"Ancestra wall times (s, 4 threads): {json.dumps(runtimes)}", ""]
     with open(os.path.join(out, "summary.md"), "w") as fh:
         fh.write("\n".join(L) + "\n")
 
