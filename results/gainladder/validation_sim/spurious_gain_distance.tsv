@@ -1,0 +1,17 @@
+simulation	preset	ladder	count	25%	50%	75%
+S1_12sp_default_hgt	accurate	homologous	57.0	0.85	2.45	3.52
+S1_12sp_default_hgt	accurate	seq_novel	192.0	4.21	4.84	5.98
+S1_12sp_default_hgt	accurate	split_repaired	1.0	2.88	2.88	2.88
+S1_12sp_default_hgt	fast	homologous	57.0	0.85	2.45	3.52
+S1_12sp_default_hgt	fast	seq_novel	192.0	4.2	4.84	5.98
+S1_12sp_default_hgt	fast	split_repaired	1.0	2.88	2.88	2.88
+S2_16sp_highturnover_wgd	accurate	homologous	130.0	1.14	1.71	3.45
+S2_16sp_highturnover_wgd	accurate	seq_novel	207.0	3.94	4.64	5.55
+S2_16sp_highturnover_wgd	accurate	split_repaired	5.0	1.96	2.5	3.71
+S2_16sp_highturnover_wgd	fast	homologous	135.0	1.13	1.71	3.42
+S2_16sp_highturnover_wgd	fast	seq_novel	205.0	3.94	4.64	5.56
+S2_16sp_highturnover_wgd	fast	split_repaired	5.0	1.16	2.5	3.71
+S3_24sp_default	accurate	homologous	26.0	1.44	2.7	3.91
+S3_24sp_default	accurate	seq_novel	140.0	4.23	4.85	5.73
+S3_24sp_default	fast	homologous	27.0	1.64	2.72	3.94
+S3_24sp_default	fast	seq_novel	140.0	4.23	4.86	5.73

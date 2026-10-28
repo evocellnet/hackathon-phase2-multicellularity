@@ -1,0 +1,8 @@
+{
+ "status": "done",
+ "sensitivity": "ultra-sensitive",
+ "dbsize": "real",
+ "presets": "fast,accurate",
+ "accept_split_repair_all": false,
+ "finished": "2026-10-28T13:49:17+0100"
+}

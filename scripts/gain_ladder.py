@@ -254,10 +254,10 @@ def write_outputs(a, p, res, cls, pfam_info=None) -> None:
     br.to_csv(os.path.join(p["res"], "branch_gain_ladder.tsv"), sep="\t", index=False)
     keep = [c for c in ["family_id", "branch_parent", "branch_child", "hog_id", "n_genes", "n_species",
                         "n_child_clades_present", "n_reps", "n_hits", "n_outside", "n_outside_robust",
-                        "n_outside_species_max", "n_outside_other_domain", "best_out_target",
+                        "n_outside_transcriptome", "n_outside_species_max", "n_outside_other_domain", "best_out_target",
                         "best_out_species", "best_out_domain", "best_out_pident", "best_out_bitscore",
                         "best_parent_hog", "best_parent_hog_lost", "repair_hog", "repair_score",
-                        "seq_novel", "seq_novel_tx_sens", "outside_other_domain_only", "split_repaired",
+                        "seq_novel", "seq_novel_tx_sens", "seq_novel_genomes_only", "outside_other_domain_only", "split_repaired",
                         "repair_status", "ladder", "arch", "arch_novel", "pfam_outside_coverage"] if c in cls.columns]
     cls[keep].to_csv(os.path.join(p["res"], "gains_classified.tsv.gz"), sep="\t", index=False)
     info = json.load(open(p["search_info"])) if os.path.exists(p["search_info"]) else {}
@@ -277,6 +277,7 @@ def write_summary(a, p, br, cls, info, pfam_info) -> None:
     rep = int(cls["split_repaired"].sum())
     nov = int(cls["seq_novel"].sum())
     novt = int(cls["seq_novel_tx_sens"].sum())
+    novg = int(cls["seq_novel_genomes_only"].sum())
     hom = int((cls["ladder"] == "homologous").sum())
     od = int(cls["outside_other_domain_only"].sum())
     pct = lambda x: f"{100 * x / n:.1f}%" if n else "NA"
@@ -310,6 +311,7 @@ def write_summary(a, p, br, cls, info, pfam_info) -> None:
          f"| homologous outside the clade, not repaired | {hom} | {pct(hom)} |",
          f"| 3. sequence-novel (no outside-clade hit) | {nov} | {pct(nov)} |",
          f"| 3'. sequence-novel ignoring transcriptome hits at >=90% id (sensitivity) | {novt} | {pct(novt)} |",
+         f"| 3''. sequence-novel ignoring ALL hits to transcriptome-only species (contamination sensitivity) | {novg} | {pct(novg)} |",
          f"| non-novel with outside hits only in the other domain (HGT candidates) | {od} | {pct(od)} |"]
     if "arch_novel" in cls.columns:
         sn = cls[cls["seq_novel"]]

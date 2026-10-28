@@ -1,0 +1,35 @@
+{
+ "status": "done",
+ "run": "prok",
+ "mcell_version": "0.1.0",
+ "orthoxml": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/prok_fast/hogs.orthoxml",
+ "n_gains": 20349,
+ "n_split_repaired": 229,
+ "n_seq_novel": 11295,
+ "search": {
+  "cmd": "nice -n 19 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/prok/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/db/all_euk_prok.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/prok/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 2 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+  "wall_s": 10757.0,
+  "passes": [
+   {
+    "cmd": "nice -n 19 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/prok/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/db/all_euk_prok.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/prok/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 2 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+    "wall_s": 5759.4,
+    "n_queries": 20349
+   },
+   {
+    "cmd": "nice -n 19 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/prok/queries_pass2.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/db/all_euk_prok.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/gainladder/prok/hits_pass2.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 2 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+    "wall_s": 4997.6,
+    "n_queries": 20580
+   }
+  ],
+  "sensitivity": "very-sensitive",
+  "nice": 19,
+  "threads": 2,
+  "two_pass": true,
+  "n_queries": 40929,
+  "n_queries_pass1": 20349,
+  "n_queries_pass2": 20580
+ },
+ "pfam": null,
+ "finished": "2026-10-28T18:18:30+0100",
+ "peak_rss_gb": 2.25
+}

@@ -1,0 +1,44 @@
+branch_parent	branch_child	depth_child	n_parent	n_child	hog_gains	losses	dups	dups_at_origin	split_repaired	seq_novel	seq_novel_tx_sens	seq_novel_genomes_only	homologous_unrepaired	outside_other_domain_only	gains_after_repair	losses_after_repair	frac_seq_novel	branch_class	transitions	analysis_set	n_tips	n_mc_tips
+cellular_organisms	Archaea	1	2558	2951	255	0	138	0	0	66	66	67	189	77	255	0	0.25882352941176473	root_child			13	3
+Archaea	Methanobacteriota	2	2951	4040	203	190	1000	76	1	128	128	131	74	16	202	189	0.6305418719211823	mixed_clade			12	3
+Methanobacteriota	Stenosarchaea_group	3	4040	4737	111	148	711	23	1	71	71	71	39	3	110	147	0.6396396396396397	mixed_clade			11	3
+Stenosarchaea_group	Halobacteriales	4	4737	3843	567	2099	636	2	1	540	540	542	26	7	566	2098	0.9523809523809523	unicellular_clade			3	0
+Stenosarchaea_group	Methanomicrobia	4	4737	4365	126	1122	618	6	1	95	95	97	30	5	125	1121	0.753968253968254	mixed_clade			8	3
+Methanomicrobia	Methanosarcinaceae	5	4365	4202	278	1010	567	2	1	254	254	257	23	11	277	1009	0.9136690647482014	mixed_clade			6	3
+Methanosarcinaceae	Methanosarcina	6	4202	4432	210	614	630	4	0	175	175	175	35	6	210	614	0.8333333333333334	stem	T_methanosarcina	secondary	3	3
+cellular_organisms	Bacteria	1	2558	9217	4345	0	2314	0	0	1172	1173	1380	3173	1959	4345	0	0.26973532796317606	root_child			69	37
+Bacteria	Bacillati	2	9217	9879	735	1334	1010	251	14	162	162	174	559	125	721	1320	0.22040816326530613	mixed_clade			44	24
+Bacillati	Actinomycetota	3	9879	8525	241	3170	1362	213	18	66	66	69	157	23	223	3152	0.27385892116182575	mixed_clade			16	8
+Actinomycetota	Actinomycetes	4	8525	11902	1204	461	2516	118	4	763	763	778	437	127	1200	457	0.6337209302325582	mixed_clade			14	8
+Actinomycetes	Mycobacteriales	5	11902	6751	133	5772	481	7	5	93	93	93	35	8	128	5767	0.6992481203007519	mixed_clade			4	1
+Mycobacteriales	Mycobacteriaceae	6	6751	6360	115	1456	943	7	3	92	92	93	20	2	112	1453	0.8	unicellular_clade			2	0
+Actinomycetes	Streptomycetaceae	5	11902	8334	301	4723	844	10	3	224	224	225	74	9	298	4720	0.7441860465116279	stem	T_streptomyces	secondary	3	3
+Streptomycetaceae	Streptomyces	6	8334	8556	229	1067	1042	18	1	187	187	187	41	2	228	1066	0.8165938864628821	multicellular_clade			2	2
+Bacillati	Cyanophyceae	3	9879	9337	497	3474	2250	185	9	258	258	261	230	136	488	3465	0.5191146881287726	mixed_clade			27	16
+Cyanophyceae	Cyanophyceae_excl_Gloeobacter	4	9337	12573	1856	350	1675	55	1	1495	1495	1513	360	175	1855	349	0.8054956896551724	stem	T_cyano_filament	exploratory	26	16
+Cyanophyceae_excl_Gloeobacter	Acaryochloridales	5	12573	4477	21	8307	181	9	4	9	9	9	8	0	17	8303	0.42857142857142855	unicellular_clade			2	0
+Cyanophyceae_excl_Gloeobacter	Nostocales_Chroococcidiopsis	5	12573	10058	144	3465	797	9	4	77	77	78	63	4	140	3461	0.5347222222222222	mixed_clade			11	10
+Nostocales_Chroococcidiopsis	Nostocales	6	10058	12652	449	543	2658	30	2	371	371	373	76	15	447	541	0.8262806236080178	stem	T_cyano_heterocyst	exploratory	10	10
+Nostocales	Nostocaceae	7	12652	8886	155	4451	530	0	1	140	140	141	14	3	154	4450	0.9032258064516129	multicellular_clade			4	4
+Nostocaceae	Nostoc	8	8886	7588	12	1439	129	0	0	8	8	8	4	0	12	1439	0.6666666666666666	multicellular_clade			2	2
+Cyanophyceae_excl_Gloeobacter	Oscillatoriophycideae	5	12573	8194	78	4933	474	2	4	35	35	35	39	4	74	4929	0.44871794871794873	mixed_clade			7	4
+Oscillatoriophycideae	Chroococcales	6	8194	6422	32	2441	634	3	0	26	26	26	6	0	32	2441	0.8125	unicellular_clade			3	0
+Chroococcales	Aphanothecaceae	7	6422	6059	32	1173	778	0	0	28	28	29	4	3	32	1173	0.875	unicellular_clade			2	0
+Oscillatoriophycideae	Oscillatoriales	6	8194	8222	190	1464	1271	31	4	150	150	152	36	11	186	1460	0.7894736842105263	multicellular_clade			4	4
+Oscillatoriales	Microcoleaceae	7	8222	7341	36	973	56	0	0	24	24	24	12	3	36	973	0.6666666666666666	multicellular_clade			3	3
+Cyanophyceae_excl_Gloeobacter	Synechococcales	5	12573	3331	7	9290	41	0	1	3	3	3	3	0	6	9289	0.42857142857142855	unicellular_clade			2	0
+Bacteria	Pseudomonadati	2	9217	12014	1603	1093	1711	576	25	393	393	475	1185	358	1578	1068	0.24516531503431066	mixed_clade			25	13
+Pseudomonadati	Myxococcota	3	12014	11213	1014	3583	1567	201	18	539	539	571	457	143	996	3565	0.5315581854043393	stem	T_myxobacteria	secondary	10	8
+Myxococcota	Cystobacterineae	4	11213	11354	1300	2304	1087	58	14	1020	1020	1027	266	47	1286	2290	0.7846153846153846	mixed_clade			6	4
+Cystobacterineae	Archangiaceae	5	11354	10193	155	2310	958	36	2	84	84	90	69	13	153	2308	0.5419354838709678	multicellular_clade			2	2
+Cystobacterineae	Myxococcaceae	5	11354	8508	161	3458	438	13	4	103	103	104	54	6	157	3454	0.639751552795031	multicellular_clade			2	2
+Myxococcota	Polyangia	4	11213	9726	434	2847	801	125	15	252	252	258	167	38	419	2832	0.5806451612903226	multicellular_clade			4	4
+Polyangia	Polyangiaceae	5	9726	8633	683	2795	976	43	11	596	596	597	76	13	672	2784	0.8726207906295754	multicellular_clade			2	2
+Pseudomonadati	Pseudomonadota	3	12014	4010	95	8363	248	16	12	18	19	29	65	31	83	8351	0.18947368421052632	mixed_clade			4	1
+Pseudomonadota	Jeongeupia	4	4010	3946	530	1010	404	12	3	387	387	428	140	94	527	1007	0.730188679245283	mixed_clade			3	1
+Pseudomonadati	Thermodesulfobacteriota	3	12014	9283	569	4873	1374	199	24	288	288	305	257	47	545	4849	0.5061511423550088	mixed_clade			10	4
+Thermodesulfobacteriota	Desulfobacterales	4	9283	10246	837	2004	1953	177	9	608	608	618	220	36	828	1995	0.7264038231780168	stem	T_magnetotactic_mmp	secondary	4	2
+Desulfobacterales	Desulfobacteraceae	5	10246	8888	170	2419	876	15	3	109	109	109	58	4	167	2416	0.6411764705882353	mixed_clade			3	1
+Thermodesulfobacteriota	Desulfobulbales	4	9283	4374	63	5213	239	2	4	43	43	46	16	4	59	5209	0.6825396825396826	mixed_clade			4	2
+Desulfobulbales	Desulfobulbaceae	5	4374	4559	53	631	751	12	1	38	38	39	14	2	52	630	0.7169811320754716	mixed_clade			3	2
+Desulfobulbaceae	Cable_bacteria	6	4559	4126	120	893	339	1	1	105	105	105	14	4	119	892	0.875	stem	T_cable_bacteria	exploratory	2	2

@@ -1,0 +1,10 @@
+{
+ "n_novel": 11295,
+ "n_sampled": 200,
+ "n_queries": 518,
+ "wall_s": 1701.3,
+ "threads": 2,
+ "n_gain_outside_hit_with_ultra": 0,
+ "frac_gain_outside_hit_with_ultra": 0.0,
+ "cmd": "nice -n 19 diamond blastp -q runs/gainladder/prok/recheck_queries.faa -d runs/gainladder/db/all_euk_prok.dmnd -o runs/gainladder/prok/recheck_ultra.tsv.gz --ultra-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 2 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1"
+}

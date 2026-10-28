@@ -352,6 +352,7 @@ def reduce_hits(hits_path: str, reps: pd.DataFrame, gains: pd.DataFrame, tree: S
     n_out = np.zeros(nq, np.int64)
     n_rob = np.zeros(nq, np.int64)
     n_od = np.zeros(nq, np.int64)
+    n_tx = np.zeros(nq, np.int64)
     best_bs = np.full(nq, -1.0)
     best_t = np.full(nq, -1, np.int64)
     best_pid = np.full(nq, np.nan)
@@ -385,6 +386,7 @@ def reduce_hits(hits_path: str, reps: pd.DataFrame, gains: pd.DataFrame, tree: S
             np.add.at(n_out, qo, 1)
             rob = ~(ts.transcriptome[to] & (pid >= tx_pident))
             np.add.at(n_rob, qo[rob], 1)
+            np.add.at(n_tx, qo[ts.transcriptome[to]], 1)
             if run_domain is not None:
                 np.add.at(n_od, qo[ts.domain[to] != run_domain], 1)
             if len(qo):
@@ -417,6 +419,7 @@ def reduce_hits(hits_path: str, reps: pd.DataFrame, gains: pd.DataFrame, tree: S
     pq["n_in_clade"] = n_hits - n_out
     pq["n_outside"] = n_out
     pq["n_outside_robust"] = n_rob
+    pq["n_outside_transcriptome"] = n_tx
     pq["n_outside_species"] = n_sp
     pq["n_outside_other_domain"] = n_od if run_domain is not None else -1
     pq["best_out_target"] = np.where(has, ts.seqid.to_numpy()[np.where(has, best_t, 0)], None)
@@ -458,6 +461,7 @@ def classify_gains(res: HogResult, gains: pd.DataFrame, reps: pd.DataFrame, per_
     agg = per_query.groupby("family_id").agg(
         n_reps=("gene", "size"), n_hits=("n_hits", "sum"), n_outside=("n_outside", "sum"),
         n_outside_robust=("n_outside_robust", "sum"),
+        n_outside_transcriptome=("n_outside_transcriptome", "sum"),
         n_outside_species_max=("n_outside_species", "max"),
         n_outside_other_domain=("n_outside_other_domain", "sum"),
         best_out_bitscore=("best_out_bitscore", "max"))
@@ -467,10 +471,11 @@ def classify_gains(res: HogResult, gains: pd.DataFrame, reps: pd.DataFrame, per_
             [["best_out_target", "best_out_species", "best_out_domain", "best_out_pident"]])
     g = gains.set_index("family_id").join(agg).join(best)
     g["n_reps"] = g["n_reps"].fillna(0).astype(int)
-    for c in ("n_hits", "n_outside", "n_outside_robust", "n_outside_other_domain"):
+    for c in ("n_hits", "n_outside", "n_outside_robust", "n_outside_transcriptome", "n_outside_other_domain"):
         g[c] = g[c].fillna(0).astype(np.int64)
     g["seq_novel"] = g["n_outside"] == 0
     g["seq_novel_tx_sens"] = g["n_outside_robust"] == 0
+    g["seq_novel_genomes_only"] = (g["n_outside"] - g["n_outside_transcriptome"]) == 0
     g["outside_other_domain_only"] = (g["n_outside"] > 0) & (g["n_outside_other_domain"] == g["n_outside"])
 
     # ---- split repair -------------------------------------------------------
@@ -542,9 +547,10 @@ def branch_ladder(res: HogResult, cls: pd.DataFrame) -> pd.DataFrame:
         "split_repaired": grp["split_repaired"].sum(),
         "seq_novel": grp["seq_novel"].sum(),
         "seq_novel_tx_sens": grp["seq_novel_tx_sens"].sum(),
+        "seq_novel_genomes_only": grp["seq_novel_genomes_only"].sum(),
         "homologous_unrepaired": grp["ladder"].apply(lambda x: int((x == "homologous").sum())),
         "outside_other_domain_only": grp["outside_other_domain_only"].sum()}))
-    for c in ("split_repaired", "seq_novel", "seq_novel_tx_sens", "homologous_unrepaired",
+    for c in ("split_repaired", "seq_novel", "seq_novel_tx_sens", "seq_novel_genomes_only", "homologous_unrepaired",
               "outside_other_domain_only"):
         out[c] = out[c].fillna(0).astype(np.int64)
     out["gains_after_repair"] = out["hog_gains"] - out["split_repaired"]

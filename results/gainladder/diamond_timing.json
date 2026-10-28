@@ -1,0 +1,68 @@
+{
+ "db": "runs/gainladder/db/all_euk_prok.dmnd: 3,374,925 proteins (187 euk + 82 prok proteomes), 1,489,260,785 letters; makedb 25 s",
+ "flags": "-k 0 --max-hsps 1 -e 1e-5 --query-cover 30 -b 4 -c 1 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp",
+ "conditions": "4 threads, node load average 38-73 on 24 CPUs (heavily oversubscribed; timings are pessimistic). Queries = random eukaryote proteins (seed 11). DIAMOND chose the query-indexed algorithm.",
+ "measured": {
+  "ultra_500": {
+   "wall_s": 1083,
+   "ref_histograms_s": 319,
+   "shapes": 64,
+   "per_shape_s": 10,
+   "align_s": 92,
+   "hits": 278215,
+   "peak_rss_gb": 6.3
+  },
+  "ultra_5000": {
+   "status": "stopped after shape 1 (PI CPU cap)",
+   "ref_histograms_s": 1252,
+   "shape1_s": 51.6,
+   "projected_wall_s": 5450
+  },
+  "very_500": {
+   "wall_s": 373,
+   "ref_histograms_s": 66,
+   "hits": 278384
+  },
+  "very_5000": {
+   "wall_s": 1398,
+   "ref_histograms_s": 87,
+   "shapes": 16,
+   "align_s": 273,
+   "hits": 3197298,
+   "hits_per_query": 640,
+   "gz_bytes_per_hit": 16.8,
+   "peak_rss_gb": 10.2
+  }
+ },
+ "very_vs_ultra_same_500_queries": {
+  "hit_pair_recall": 0.9965,
+  "query_species_pair_recall": 0.9988,
+  "recall_bitscore_50_60": 0.988,
+  "very_only_pairs": 1133
+ },
+ "cost_per_query_cpu_s": {
+  "ultra": 4.4,
+  "very": 1.1
+ },
+ "euk_extrapolation": {
+  "assumed_queries": "350-600k (150-250k internal-branch gains; two-pass search: 1 rep for all + 2 more for still-novel gains)",
+  "ultra_cpu_h": "x3-4 of very-sensitive: 200-730 CPU-h = 10-37 h at 20 threads -> not affordable within the schedule",
+  "very_cpu_h": "110-185 CPU-h = 5.5-9 h at 20 threads (likely less once the euk run frees the node and with larger query blocks)",
+  "output": "~640 hits/query -> 220-380 M rows, ~4-7 GB gzipped; reducer streams it in 5 M-row chunks",
+  "very_cpu_h_from_prok_actual": "0.53 CPU-s/query (prok actual) to 1.1 (random-protein pilot): 350-600k queries -> 50-180 CPU-h = 2.5-9 h at 20 threads"
+ },
+ "decision": "--very-sensitive (documented deviation from DESIGN \u00a73.2 --ultra-sensitive); two-pass search; ultra-sensitive recheck of a 500-gain random sample of seq-novel gains (gain_ladder.py recheck).",
+ "prok_run_actual": {
+  "queries_pass1": 20349,
+  "wall_pass1_s": 5759,
+  "hits_pass1": 3186097,
+  "queries_pass2": 20580,
+  "wall_pass2_s": 4998,
+  "hits_pass2": 345883,
+  "threads": 2,
+  "nice": 19,
+  "sensitivity": "very-sensitive",
+  "cpu_s_per_query": 0.53,
+  "note": "node load ~42-50/24 CPUs; gain representatives have fewer hits (157/query in pass 1, 17/query in pass 2) than random proteins (640/query)"
+ }
+}
