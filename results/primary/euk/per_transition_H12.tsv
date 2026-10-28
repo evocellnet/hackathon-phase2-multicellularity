@@ -1,0 +1,10 @@
+transition_id	hypothesis	set	stem	k	y	expected	est	var	pi_low	pi_high	percentile	var_floored	u	n_modules	f_b	f_IFT-B	f_BBSome	f_axoneme	f_transition_zone	expected_branch	w	excluded
+T_dictyostelia	H12	primary	Dictyostelia	20	1	0.216212	0.783788	0.054344	-0.216212	0.272032	0.952381	False	0.952381	4	1	1	1	1	1	loss	1	
+T_fungi_hyphae	H12	primary	Amastigomycota	20	1	0.27262	0.72738	0.107177	-0.27262	0.72738	0.928571	False	0.928571	4	1	1	1	1	1	loss	1	
+T_metazoa	H12	primary	Metazoa	20	0	0.287705	0.287705	0.103561	-0.712295	0.287705	0.904762	False	0.904762	4	0	0	0	0	0	no_loss	-1	
+T_px_filaments	H12	primary	PX_clade	20	0.0947421	0.242095	0.147353	0.074253	-0.622191	0.242095	0.595238	False	0.595238	4	0.0947421	0.125	0	0.111111	0.142857	no_loss	-1	
+T_streptophyta	H12	primary	Klebsormidiophyceae_Phragmoplastophyta	20	0.0833333	0.25755	0.174217	0.110959	-0.74245	0.25755	0.547619	False	0.547619	4	0.0833333	0	0.333333	0	0	no_loss	-1	
+T_volvocine_tgv	H12	primary	Gonium_Volvocaceae	20	0.160714	0.26562	0.104906	0.110454	-0.73438	0.26562	0.5	False	0.5	4	0.160714	0	0.333333	0.142857	0.166667	no_loss	-1	
+T_embryophyta	H12	secondary	Embryophyta		0																	no frozen direction: descriptive f_b only
+T_fungi_agaricomycetes	H12	secondary	Agaricomycetes_Dacrymycetes																			no frozen direction: descriptive f_b only
+T_fungi_pezizomycotina	H12	secondary	Pezizomycotina																			no frozen direction: descriptive f_b only
