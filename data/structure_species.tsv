@@ -1,0 +1,12 @@
+transition_id	side	code	uniprot_proteome	n_proteins	reason
+T_metazoa	P	Monobre	UP000001357	9155	Choanoflagellate (Craspedida), UniProt reference proteome; tree-closest to Metazoa (tie with Salpros), best-annotated choanoflagellate
+T_metazoa	P	Salpros	UP000007799	11614	Choanoflagellate (Craspedida), UniProt reference proteome; tree-closest to Metazoa (tie with Monobre); second lineage for fold coverage
+T_fungi_hyphae	P	Gonapro	UP000070544	13795	Blastocladiomycota zoosporic unicellular-ish sister; tree-closest to Amastigomycota (tie with Pirofin; Gonapro chosen for larger gene set); 1 species only to respect ~120k cap
+T_dictyostelia	P	Planfun	UP000241769	16631	Variosea (Evosea) unicellular protostelid; only UniProt unicellular species in Evosea; all Eumycetozoa sisters in data are EukProt-only; optional 2nd = Acancas (Discosea, +14.9k) dropped for cap
+T_streptophyta	P	Ostrtau	UP000009170	7723	Chlorophyta (Mamiellophyceae) unicellular outgroup to Streptophyta; both streptophyte sisters (Chloatm, Mesovir) are EukProt-only; tree-closest UniProt unicellular; small proteome
+T_streptophyta	P	Micrcom	UP000002009	10064	Chlorophyta (Mamiellophyceae) unicellular outgroup to Streptophyta; tree-closest UniProt unicellular (tie with Ostrtau)
+T_rhodophyta	P	Porppur	UP000324585	9673	Proteorhodophytina (Porphyridiophyceae) unicellular sister to Eurhodophytina; UniProt
+T_rhodophyta	P	Rhodmar	UP001157974	8379	Proteorhodophytina (Rhodellophyceae) unicellular sister to Eurhodophytina; UniProt
+T_px_filaments	P	Nannsal	UP000355283	8805	Eustigmatophyceae unicellular; tree-closest UniProt Ochrophyta to PX clade (tie with Aureano, which has BUSCO 52.9 / low quality)
+T_px_filaments	P	Phaetri	UP000000759	10432	Diatom (Phaeodactylum) unicellular; next-closest UniProt Ochrophyta; high-quality well-annotated genome
+T_volvocine_tgv	P	Chlarei	UP000006906	17611	Chlamydomonas reinhardtii, unicellular sister to Gonium+Volvocaceae; reference-quality; congeners Chlainc/Chlasch tree-tied but near-redundant, omitted for cap
