@@ -1,0 +1,11 @@
+# large / restricted / regenerable data
+data/raw/
+data/proteomes/
+conda_envs/
+external/
+runs/
+*.dmnd
+work/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

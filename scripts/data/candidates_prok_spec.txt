@@ -1,0 +1,129 @@
+# Curated prokaryotic candidate list (input to build_candidates.py --prok). Same fields as the eukaryotic spec.
+# ---------------- CYANOBACTERIA ----------------
+# Note: multicellularity likely evolved early in Cyanobacteria with reversals (Schirrmeister et al. 2011, 2013; Hammerschmidt et al. 2021);
+# "transition" nodes must be interpreted on the guide tree (filament origin vs heterocyst/branching origins).
+Nostoc punctiforme|UP:UP000001191|Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|core|heterocysts, akinetes, hormogonia
+Nostoc sp. (strain PCC 7120|UP:UP000002483|Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|core|Anabaena PCC 7120 model
+Trichormus variabilis||Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|core|
+Anabaena cylindrica (strain|UP:UP000010474|Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|core|
+Cylindrospermopsis raciborskii||Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|core|
+Nodularia spumigena||Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|core|
+Dolichospermum compactum||Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|optional|
+Calothrix parasitica||Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|core|tapering filaments
+Scytonema hofmannii PCC 7110||Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|core|false branching
+Tolypothrix tenuis||Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst;T_cyano_filament|multicellular;multicellular|clonal;complex;obligate|optional|
+Fischerella thermalis||Bacteria-Cyanobacteria-Nostocales|T_cyano_branching;T_cyano_heterocyst|multicellular;multicellular|clonal;complex;obligate|core|true branching (ex-Stigonematales)
+Fischerella muscicola||Bacteria-Cyanobacteria-Nostocales|T_cyano_branching;T_cyano_heterocyst|multicellular;multicellular|clonal;complex;obligate|optional|true branching
+Chlorogloeopsis fritschii||Bacteria-Cyanobacteria-Nostocales|T_cyano_branching;T_cyano_heterocyst|multicellular;multicellular|clonal;complex;obligate|core|multiseriate/branching
+Nostoc azollae||Bacteria-Cyanobacteria-Nostocales|T_cyano_heterocyst|multicellular|clonal;complex;obligate|exclude|symbiont, genome decay
+Planktothrix agardhii||Bacteria-Cyanobacteria-Oscillatoriales|T_cyano_filament|multicellular|clonal;simple;obligate|core|non-heterocystous filament
+Lyngbya aestuarii||Bacteria-Cyanobacteria-Oscillatoriales|T_cyano_filament|multicellular|clonal;simple;obligate|core|
+Moorena producens||Bacteria-Cyanobacteria-Oscillatoriales|T_cyano_filament|multicellular|clonal;simple;obligate|optional|
+Phormidium nigroviride||Bacteria-Cyanobacteria-Oscillatoriales|T_cyano_filament|multicellular|clonal;simple;obligate|core|
+Microcoleus vaginatus||Bacteria-Cyanobacteria-Oscillatoriales|T_cyano_filament|multicellular|clonal;simple;obligate|core|bundled filaments
+Spirulina subsalsa||Bacteria-Cyanobacteria-Spirulinales|T_cyano_filament|multicellular|clonal;simple;obligate|optional|
+Leptolyngbya boryana||Bacteria-Cyanobacteria-Leptolyngbyales|T_cyano_filament|multicellular|clonal;simple;obligate|core|thin filaments
+Pseudanabaena biceps||Bacteria-Cyanobacteria-Pseudanabaenales|T_cyano_filament|multicellular|clonal;simple;obligate|core|early-branching filamentous lineage
+Trichodesmium erythraeum|NCBI:GCF_000014265.1|Bacteria-Cyanobacteria-Oscillatoriales|T_cyano_filament|multicellular|clonal;simple;obligate|optional|colonial N2-fixer (diazocytes); not UniProt reference
+Stanieria cyanosphaera||Bacteria-Cyanobacteria-Pleurocapsales|T_cyano_filament|closest_unicellular_sister|clonal;simple;facultative|core|baeocytes (multiple fission)
+Chroococcidiopsis thermalis||Bacteria-Cyanobacteria-Chroococcidiopsidales|T_cyano_heterocyst|closest_unicellular_sister|none|core|unicellular sister clade of heterocystous cyanobacteria
+Synechocystis sp. (strain ATCC 27184 / PCC 6803|UP:UP000001425|Bacteria-Cyanobacteria-Synechococcales|T_cyano_filament|closest_unicellular_sister|none|core|unicellular model
+Synechococcus elongatus (strain ATCC 33912 / PCC 7942|UP:UP000889800|Bacteria-Cyanobacteria-Synechococcales|T_cyano_filament|closest_unicellular_sister|none|core|
+Prochlorococcus marinus (strain MIT 9313)|UP:UP000001423|Bacteria-Cyanobacteria-Synechococcales|T_cyano_filament|background|none|optional|streamlined
+Parasynechococcus marenigrum||Bacteria-Cyanobacteria-Synechococcales|T_cyano_filament|background|none|optional|marine Synechococcus WH8102
+Crocosphaera subtropica||Bacteria-Cyanobacteria-Chroococcales|T_cyano_filament|closest_unicellular_sister|none|core|unicellular diazotroph (ex Cyanothece 51142)
+Gloeothece citriformis||Bacteria-Cyanobacteria-Chroococcales|T_cyano_filament|closest_unicellular_sister|colonial;simple;facultative|core|
+Microcystis aeruginosa (strain NIES-843|UP:UP000001510|Bacteria-Cyanobacteria-Chroococcales|T_cyano_filament|closest_unicellular_sister|colonial;simple;facultative|core|mucilaginous colonies
+Cyanobacterium aponinum||Bacteria-Cyanobacteria-Chroococcales|T_cyano_filament|closest_unicellular_sister|none|optional|
+Acaryochloris marina (strain MBIC|UP:UP000000268|Bacteria-Cyanobacteria-Acaryochloridales|T_cyano_filament|closest_unicellular_sister|none|core|
+Thermosynechococcus vestitus||Bacteria-Cyanobacteria-Thermosynechococcales|T_cyano_filament|closest_unicellular_sister|none|core|
+Gloeomargarita lithophora||Bacteria-Cyanobacteria-Gloeomargaritales|T_cyano_filament|outgroup|none|core|closest relative of plastids
+Gloeobacter violaceus||Bacteria-Cyanobacteria-Gloeobacterales|T_cyano_filament|outgroup|none|core|earliest-diverging cyanobacterium
+Gloeobacter kilaueensis||Bacteria-Cyanobacteria-Gloeobacterales|T_cyano_filament|outgroup|none|optional|
+# ---------------- MYXOCOCCOTA (aggregative fruiting bodies) ----------------
+Myxococcus xanthus||Bacteria-Myxococcota-Myxococcales|T_myxobacteria|multicellular|aggregative;complex;facultative|core|fruiting bodies, model
+Corallococcus coralloides||Bacteria-Myxococcota-Myxococcales|T_myxobacteria|multicellular|aggregative;complex;facultative|core|
+Allostigmatella aurantiaca (strain DW4|UP:UP000001351|Bacteria-Myxococcota-Myxococcales|T_myxobacteria|multicellular|aggregative;complex;facultative|core|Stigmatella; stalked tree-like fruiting bodies
+Cystobacter fuscus||Bacteria-Myxococcota-Myxococcales|T_myxobacteria|multicellular|aggregative;complex;facultative|core|
+Archangium gephyra|UP:UP000256345|Bacteria-Myxococcota-Myxococcales|T_myxobacteria|multicellular|aggregative;complex;facultative|optional|
+Melittangium boletus||Bacteria-Myxococcota-Myxococcales|T_myxobacteria|multicellular|aggregative;complex;facultative|optional|
+Sorangium cellulosum||Bacteria-Myxococcota-Polyangiales|T_myxobacteria|multicellular|aggregative;complex;facultative|core|Sorangiineae
+Chondromyces crocatus||Bacteria-Myxococcota-Polyangiales|T_myxobacteria|multicellular|aggregative;complex;facultative|core|elaborate stalked fruiting bodies
+Polyangium fumosum||Bacteria-Myxococcota-Polyangiales|T_myxobacteria|multicellular|aggregative;complex;facultative|optional|
+Nannocystis exedens||Bacteria-Myxococcota-Nannocystales|T_myxobacteria|multicellular|aggregative;simple;facultative|core|
+Plesiocystis pacifica||Bacteria-Myxococcota-Nannocystales|T_myxobacteria|multicellular|aggregative;simple;facultative|optional|marine
+Haliangium ochraceum||Bacteria-Myxococcota-Haliangiales|T_myxobacteria|multicellular|aggregative;simple;facultative|core|marine fruiting
+Anaeromyxobacter dehalogenans||Bacteria-Myxococcota-Myxococcales|T_myxobacteria|closest_unicellular_sister|none|core|non-fruiting, within Cystobacterineae (secondary loss)
+Anaeromyxobacter diazotrophicus||Bacteria-Myxococcota-Myxococcales|T_myxobacteria|closest_unicellular_sister|none|optional|non-fruiting
+Vulgatibacter incomptus||Bacteria-Myxococcota-Myxococcales|T_myxobacteria|closest_unicellular_sister|none|core|non-fruiting (Yamamoto et al. 2014)
+Pajaroellobacter abortibovis||Bacteria-Myxococcota-Polyangiales|T_myxobacteria|closest_unicellular_sister|none|optional|host-associated, non-fruiting, reduced
+Bdellovibrio bacteriovorus|AUTO|Bacteria-Bdellovibrionota|T_myxobacteria|outgroup|none|core|predatory deltaproteobacterium-like
+Desulfovibrio vulgaris|AUTO|Bacteria-Thermodesulfobacteriota|T_myxobacteria;T_magnetotactic_mmp|outgroup;outgroup|none|core|
+Geobacter sulfurreducens|AUTO|Bacteria-Thermodesulfobacteriota|T_myxobacteria|outgroup|none|core|
+# ---------------- MULTICELLULAR MAGNETOTACTIC (MMPs) & CABLE BACTERIA (Desulfobacterota) ----------------
+Candidatus Magnetoglobus multicellularis|NCBI:GCA_000516475.1|Bacteria-Thermodesulfobacteriota-Desulfobacterales|T_magnetotactic_mmp|multicellular|clonal;simple;obligate|core|multicellular magnetotactic consortium; metagenomic draft (completeness unknown)
+Candidatus Magnetomorum sp. HK-1|NCBI:GCA_001292585.1|Bacteria-Thermodesulfobacteriota-Desulfobacterales|T_magnetotactic_mmp|multicellular|clonal;simple;obligate|core|MMP draft genome
+Desulfamplus magnetovallimortis||Bacteria-Thermodesulfobacteriota-Desulfobacterales|T_magnetotactic_mmp|closest_unicellular_sister|none|core|unicellular magnetotactic Desulfobacterales
+Desulfobacterium autotrophicum|AUTO|Bacteria-Thermodesulfobacteriota-Desulfobacterales|T_magnetotactic_mmp|closest_unicellular_sister|none|core|
+Desulfococcus multivorans|AUTO|Bacteria-Thermodesulfobacteriota-Desulfobacterales|T_magnetotactic_mmp|closest_unicellular_sister|none|optional|
+Candidatus Electrothrix scaldis|NCBI:GCF_033584155.1|Bacteria-Thermodesulfobacteriota-Desulfobulbales|T_cable_bacteria|multicellular|clonal;simple;obligate|core|cable bacteria (cm-long filaments, shared periplasm)
+Candidatus Electronema|NCBI:AUTO|Bacteria-Thermodesulfobacteriota-Desulfobulbales|T_cable_bacteria|multicellular|clonal;simple;obligate|optional|cable bacteria (freshwater)
+Desulfobulbus propionicus|AUTO|Bacteria-Thermodesulfobacteriota-Desulfobulbales|T_cable_bacteria|closest_unicellular_sister|none|core|
+Desulfotalea psychrophila|AUTO|Bacteria-Thermodesulfobacteriota-Desulfobulbales|T_cable_bacteria|closest_unicellular_sister|none|optional|
+Magnetococcus marinus||Bacteria-Pseudomonadota-Magnetococcia|T_magnetotactic_mmp|background|none|optional|unicellular MTB (convergent magnetosomes)
+# ---------------- ACTINOMYCETOTA (mycelial) ----------------
+Streptomyces coelicolor|AUTO|Bacteria-Actinomycetota-Streptomycetales|T_streptomyces|multicellular|clonal;complex;obligate|core|mycelium + aerial hyphae, spores
+Streptomyces venezuelae|AUTO|Bacteria-Actinomycetota-Streptomycetales|T_streptomyces|multicellular|clonal;complex;obligate|core|
+Streptomyces griseus|AUTO|Bacteria-Actinomycetota-Streptomycetales|T_streptomyces|multicellular|clonal;complex;obligate|optional|
+Streptomyces avermitilis||Bacteria-Actinomycetota-Streptomycetales|T_streptomyces|multicellular|clonal;complex;obligate|optional|
+Kitasatospora setae|AUTO|Bacteria-Actinomycetota-Streptomycetales|T_streptomyces|multicellular|clonal;complex;obligate|core|
+Streptacidiphilus|AUTO|Bacteria-Actinomycetota-Streptomycetales|T_streptomyces|multicellular|clonal;complex;obligate|optional|
+Catenulispora acidiphila|AUTO|Bacteria-Actinomycetota-Catenulisporales|T_streptomyces|multicellular|clonal;simple;obligate|optional|mycelial
+Frankia alni|AUTO|Bacteria-Actinomycetota-Frankiales|T_streptomyces;T_actino_mycelium_other|multicellular;multicellular|clonal;complex;obligate|core|hyphae + vesicles (N2 fixation), sporangia (independent?)
+Actinoplanes|AUTO|Bacteria-Actinomycetota-Micromonosporales|T_actino_mycelium_other|multicellular|clonal;simple;obligate|optional|sporangia, motile spores
+Micromonospora echinospora|UP:UP000198253|Bacteria-Actinomycetota-Micromonosporales|T_actino_mycelium_other|multicellular|clonal;simple;obligate|core|substrate mycelium
+Salinispora tropica||Bacteria-Actinomycetota-Micromonosporales|T_actino_mycelium_other|multicellular|clonal;simple;obligate|optional|
+Thermobifida fusca|AUTO|Bacteria-Actinomycetota-Streptosporangiales|T_actino_mycelium_other|multicellular|clonal;simple;obligate|core|
+Nocardia farcinica|AUTO|Bacteria-Actinomycetota-Mycobacteriales|T_actino_mycelium_other|multicellular|clonal;simple;facultative|core|fragmenting mycelium
+Saccharopolyspora erythraea|AUTO|Bacteria-Actinomycetota-Pseudonocardiales|T_actino_mycelium_other|multicellular|clonal;simple;obligate|core|
+Amycolatopsis mediterranei|AUTO|Bacteria-Actinomycetota-Pseudonocardiales|T_actino_mycelium_other|multicellular|clonal;simple;obligate|optional|
+Mycobacterium tuberculosis (strain ATCC 25618|UP:UP000001584|Bacteria-Actinomycetota-Mycobacteriales|T_streptomyces|closest_unicellular_sister|none|core|rod; cording
+Mycolicibacterium smegmatis|AUTO|Bacteria-Actinomycetota-Mycobacteriales|T_streptomyces|closest_unicellular_sister|none|core|
+Corynebacterium glutamicum||Bacteria-Actinomycetota-Mycobacteriales|T_streptomyces|closest_unicellular_sister|none|core|
+Rhodococcus jostii|UP:UP001185737|Bacteria-Actinomycetota-Mycobacteriales|T_streptomyces|closest_unicellular_sister|none|optional|
+Micrococcus luteus|AUTO|Bacteria-Actinomycetota-Micrococcales|T_streptomyces|closest_unicellular_sister|none|core|coccus
+Paenarthrobacter aurescens (strain TC1)|UP:UP000000637|Bacteria-Actinomycetota-Micrococcales|T_streptomyces|closest_unicellular_sister|none|optional|rod-coccus cycle
+Cellulomonas gilvus||Bacteria-Actinomycetota-Micrococcales|T_streptomyces|closest_unicellular_sister|none|optional|
+Cutibacterium acnes|AUTO|Bacteria-Actinomycetota-Propionibacteriales|T_streptomyces|closest_unicellular_sister|none|core|
+Bifidobacterium longum (strain NCC|UP:UP000000439|Bacteria-Actinomycetota-Bifidobacteriales|T_streptomyces|outgroup|none|core|
+Acidimicrobium ferrooxidans|AUTO|Bacteria-Actinomycetota-Acidimicrobiia|T_streptomyces|outgroup|none|core|
+Rubrobacter xylanophilus|AUTO|Bacteria-Actinomycetota-Rubrobacteria|T_streptomyces|outgroup|none|core|
+# ---------------- OTHER FILAMENTOUS / MULTICELLULAR BACTERIA ----------------
+Jeongeupia sacculi|NCBI:GCF_015140455.1|Bacteria-Pseudomonadota-Neisseriales|T_jeongeupia|multicellular|clonal;complex;facultative|core|mycelium-like multicellularity with cell differentiation (recent report of complex multicellularity in J. sacculi HS-3; verify reference)
+Jeongeupia chitinilytica||Bacteria-Pseudomonadota-Neisseriales|T_jeongeupia|closest_unicellular_sister|none|core|
+Jeongeupia naejangsanensis||Bacteria-Pseudomonadota-Neisseriales|T_jeongeupia|closest_unicellular_sister|none|core|
+Chitiniphilus shinanonensis||Bacteria-Pseudomonadota-Neisseriales|T_jeongeupia|closest_unicellular_sister|none|optional|
+Neisseria meningitidis|AUTO|Bacteria-Pseudomonadota-Neisseriales|T_jeongeupia|outgroup|none|optional|
+Beggiatoa alba||Bacteria-Pseudomonadota-Thiotrichales|T_thiotrichales_filament|multicellular|clonal;simple;obligate|optional|gliding filaments
+Thiothrix nivea||Bacteria-Pseudomonadota-Thiotrichales|T_thiotrichales_filament|multicellular|clonal;simple;obligate|optional|
+Chloroflexus aurantiacus||Bacteria-Chloroflexota|T_chloroflexi_filament|multicellular|clonal;simple;obligate|optional|filamentous
+Herpetosiphon aurantiacus||Bacteria-Chloroflexota|T_chloroflexi_filament|multicellular|clonal;simple;obligate|optional|
+Bacillus subtilis (strain 168)|UP:UP000001570|Bacteria-Bacillota|T_none|background|aggregative;simple;facultative|core|biofilm/chaining (weak); outgroup for Terrabacteria
+Escherichia coli (strain K12)|UP:UP000000625|Bacteria-Pseudomonadota-Enterobacterales|T_none|background|none|core|
+Caulobacter vibrioides (strain NA1000|UP:UP000001364|Bacteria-Pseudomonadota-Caulobacterales|T_none|background|none|optional|
+# ---------------- ARCHAEA ----------------
+Methanosarcina acetivorans||Archaea-Methanosarcinales|T_methanosarcina|multicellular|clonal;simple;facultative|core|multicellular packets/aggregates
+Methanosarcina mazei (strain ATCC BAA-159|UP:UP000000595|Archaea-Methanosarcinales|T_methanosarcina|multicellular|clonal;simple;facultative|core|
+Methanosarcina barkeri MS||Archaea-Methanosarcinales|T_methanosarcina|multicellular|clonal;simple;facultative|core|
+Methanosarcina thermophila||Archaea-Methanosarcinales|T_methanosarcina|multicellular|clonal;simple;facultative|optional|
+Methanococcoides burtonii||Archaea-Methanosarcinales|T_methanosarcina|closest_unicellular_sister|none|core|
+Methanohalophilus mahii||Archaea-Methanosarcinales|T_methanosarcina|closest_unicellular_sister|none|core|
+Methanolobus tindarius||Archaea-Methanosarcinales|T_methanosarcina|closest_unicellular_sister|none|core|
+Methanosalsum zhilinae||Archaea-Methanosarcinales|T_methanosarcina|closest_unicellular_sister|none|optional|
+Methanothrix soehngenii||Archaea-Methanotrichales|T_methanosarcina;T_archaea_filament|outgroup;multicellular|clonal;simple;obligate|core|sheathed filaments
+Methanospirillum hungatei||Archaea-Methanomicrobiales|T_methanosarcina;T_archaea_filament|outgroup;multicellular|clonal;simple;obligate|core|sheathed chains
+Haloferax volcanii||Archaea-Halobacteriales|T_haloferax_tissue|multicellular|clonal;simple;facultative|core|tissue-like multicellular development under confinement (recent report; verify reference)
+Halobacterium salinarum|AUTO|Archaea-Halobacteriales|T_haloferax_tissue|closest_unicellular_sister|none|core|
+Haloarcula marismortui|AUTO|Archaea-Halobacteriales|T_haloferax_tissue|closest_unicellular_sister|none|optional|
+Methanocaldococcus jannaschii|AUTO|Archaea-Methanococcales|T_methanosarcina|outgroup|none|core|
+Sulfolobus acidocaldarius|AUTO|Archaea-Thermoproteota|T_none|outgroup|none|core|

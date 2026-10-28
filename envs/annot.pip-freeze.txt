@@ -1,0 +1,35 @@
+certifi==2026.10.23
+charset-normalizer==3.5.2
+contourpy==1.3.3
+cycler==0.12.1
+filelock==4.2.4
+fonttools==4.68.0
+fsspec==2026.9.0
+getSequence==3.0.1
+idna==3.20
+Jinja2==3.1.6
+kiwisolver==1.5.1
+MarkupSafe==3.0.4
+matplotlib==3.11.2
+metapredict==3.1.1
+mpmath==1.3.0
+networkx==3.6.1
+numpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_numpy_1779169198/work/dist/numpy-2.4.6-cp311-cp311-linux_x86_64.whl#sha256=9f5ed645865bdd41eb671568973753a710fda708ed74e7a0b4acf98e7a7a2970
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work
+pandas @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pandas_1792679045/work
+pillow==13.0.0
+protfasta==0.1.26
+psutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_psutil_1789682042/work
+pyarrow @ file:///home/conda/feedstock_root/build_artifacts/apache-arrow_1792227938005/work/python
+pyhmmer @ file:///opt/conda/conda-bld/pyhmmer_1787164369246/work
+pyparsing==3.3.3
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1792674886/work
+requests==2.34.2
+scipy==1.17.1
+six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work
+sympy==1.14.0
+torch==2.14.1+cpu
+tqdm==4.70.1
+typing_extensions==4.16.0
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-tzdata_1791025923/work
+urllib3==2.8.0

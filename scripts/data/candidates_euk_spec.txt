@@ -1,0 +1,275 @@
+# Curated eukaryotic candidate list (input to build_candidates.py).
+# Fields (|-separated): query | source_override | lineage_group | transition_ids (;) | roles (; parallel to transitions) | multicellularity_type | tier | notes
+# source_override: empty = auto (UniProt ref > EukProt genome > LukProt genome > EukProt/LukProt transcriptome); UP:/EP:/LP:/NCBI: force; NONE = no public proteome found
+# multicellularity_type: mode;complexity;obligacy  (mode: clonal|aggregative|coenocytic|colonial|none)
+# tier: core = proposed for main Ancestra run; optional = add if budget allows / sensitivity; exclude = documented but not recommended
+#
+# ---------------- HOLOZOA ----------------
+Amphimedon queenslandica||Holozoa-Metazoa-Porifera|T_metazoa|multicellular|clonal;complex;obligate|core|demosponge; early-branching animal
+Sycon ciliatum||Holozoa-Metazoa-Porifera|T_metazoa|multicellular|clonal;complex;obligate|core|calcareous sponge; EukProt genome
+Ephydatia muelleri||Holozoa-Metazoa-Porifera|T_metazoa|multicellular|clonal;complex;obligate|optional|freshwater sponge; genome
+Oscarella||Holozoa-Metazoa-Porifera|T_metazoa|multicellular|clonal;complex;obligate|optional|homoscleromorph sponge; transcriptome
+Trichoplax adhaerens||Holozoa-Metazoa-Placozoa|T_metazoa|multicellular|clonal;complex;obligate|core|placozoan
+Hoilungia|LP:LP00124|Holozoa-Metazoa-Placozoa|T_metazoa|multicellular|clonal;complex;obligate|optional|second placozoan (LukProt)
+Mnemiopsis leidyi||Holozoa-Metazoa-Ctenophora|T_metazoa|multicellular|clonal;complex;obligate|core|ctenophore (candidate sister to all animals)
+Pleurobrachia|EP:EP00116|Holozoa-Metazoa-Ctenophora|T_metazoa|multicellular|clonal;complex;obligate|optional|ctenophore; low BUSCO genome
+Nematostella vectensis||Holozoa-Metazoa-Cnidaria|T_metazoa|multicellular|clonal;complex;obligate|core|anthozoan
+Hydra vulgaris||Holozoa-Metazoa-Cnidaria|T_metazoa|multicellular|clonal;complex;obligate|core|hydrozoan
+Acropora||Holozoa-Metazoa-Cnidaria|T_metazoa|multicellular|clonal;complex;obligate|optional|coral
+Homo sapiens||Holozoa-Metazoa-Bilateria|T_metazoa|multicellular|clonal;complex;obligate|core|UniProt 2026_03 canonical FASTA for human holds 147,503 entries (isoforms now split): MUST reduce to 1 protein/gene via gene2acc (~20.6k), or use Ensembl canonical
+Branchiostoma||Holozoa-Metazoa-Bilateria|T_metazoa|multicellular|clonal;complex;obligate|core|slow-evolving chordate
+Strongylocentrotus||Holozoa-Metazoa-Bilateria|T_metazoa|multicellular|clonal;complex;obligate|core|echinoderm
+Drosophila melanogaster||Holozoa-Metazoa-Bilateria|T_metazoa|multicellular|clonal;complex;obligate|core|ecdysozoan model
+Capitella||Holozoa-Metazoa-Bilateria|T_metazoa|multicellular|clonal;complex;obligate|core|annelid (slow-evolving lophotrochozoan)
+Lottia||Holozoa-Metazoa-Bilateria|T_metazoa|multicellular|clonal;complex;obligate|optional|mollusc
+Caenorhabditis elegans||Holozoa-Metazoa-Bilateria|T_metazoa|multicellular|clonal;complex;obligate|optional|fast-evolving; gene loss
+Salpingoeca rosetta||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;multicellular|clonal;simple;facultative|core|facultative rosette colonies; genome
+Barroeca monosierra||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;multicellular|clonal;simple;facultative|core|large spherical colonies (Mono Lake); genome
+Choanoeca flexa||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;multicellular|clonal/aggregative;simple;facultative|core|contractile cup-shaped colonies; transcriptome
+Codosiga hollandica||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;multicellular|clonal;simple;facultative|optional|stalked colonies; transcriptome (61k seqs, redundant)
+Monosiga brevicollis||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;closest_unicellular_sister|none|core|solitary; genome
+Mylnosiga fluctuans||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;closest_unicellular_sister|none|core|solitary craspedid; transcriptome
+Salpingoeca kvevrii||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;closest_unicellular_sister|none|optional|transcriptome
+Acanthoeca spectabilis||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;closest_unicellular_sister|none|core|loricate (Acanthoecida) solitary; transcriptome
+Didymoeca costata||Holozoa-Choanoflagellata|T_metazoa;T_choano_colonies|closest_unicellular_sister;closest_unicellular_sister|none|optional|loricate; transcriptome
+Capsaspora owczarzaki||Holozoa-Filasterea|T_capsaspora_aggregation;T_metazoa|multicellular;outgroup|aggregative;simple;facultative|core|aggregative stage; genome
+Ministeria vibrans|LP:LP00007|Holozoa-Filasterea|T_capsaspora_aggregation;T_metazoa|closest_unicellular_sister;outgroup|none|core|filasterean; LukProt genome
+Pigoraptor|EP:EP01137|Holozoa-Filasterea|T_capsaspora_aggregation;T_metazoa|closest_unicellular_sister;outgroup|none|optional|transcriptome
+Corallochytrium limacisporum||Holozoa-Pluriformea|T_ichthyosporea_coenocytic;T_metazoa|closest_unicellular_sister;outgroup|none|core|genome; teretosporean
+Syssomonas multiformis||Holozoa-Pluriformea|T_ichthyosporea_coenocytic;T_metazoa|closest_unicellular_sister;outgroup|aggregative?;simple;facultative|optional|forms cell aggregates; transcriptome
+Sphaeroforma arctica|LP:LP00010|Holozoa-Ichthyosporea|T_ichthyosporea_coenocytic;T_metazoa|multicellular;outgroup|coenocytic;simple;obligate|core|coenocyte + cellularization (epithelium-like layer); LukProt improved genome (BUSCO 91 vs UniProt 63)
+Creolimax fragrantissima||Holozoa-Ichthyosporea|T_ichthyosporea_coenocytic;T_metazoa|multicellular;outgroup|coenocytic;simple;obligate|core|genome
+Chromosphaera perkinsii||Holozoa-Ichthyosporea|T_ichthyosporea_coenocytic;T_metazoa|multicellular;outgroup|coenocytic/clonal;simple;facultative|core|palintomic multicellular-like colonies with differentiation (Dudin et al. 2019/2023); genome
+Amoebidium parasiticum||Holozoa-Ichthyosporea|T_ichthyosporea_coenocytic;T_metazoa|multicellular;outgroup|coenocytic;simple;obligate|optional|transcriptome
+Ichthyophonus hoferi||Holozoa-Ichthyosporea|T_ichthyosporea_coenocytic|multicellular|coenocytic;simple;obligate|optional|fish parasite; BUSCO 53
+Abeoforma whisleri||Holozoa-Ichthyosporea|T_ichthyosporea_coenocytic|multicellular|coenocytic;simple;obligate|exclude|EukProt 'genome' BUSCO 2.8 (fragmentary)
+# ---------------- HOLOMYCOTA ----------------
+Fonticula alba||Holomycota-Rotosphaerida|T_fonticula|multicellular|aggregative;simple;facultative|core|sorocarpic aggregative amoeba; genome (BUSCO 71)
+Parvularia atlantis||Holomycota-Rotosphaerida|T_fonticula|closest_unicellular_sister|none|core|nucleariid (ex Nuclearia sp.); transcriptome
+Nuclearia|NONE|Holomycota-Rotosphaerida|T_fonticula|closest_unicellular_sister|none|exclude|no public proteome in UniProt/EukProt/LukProt/NCBI (only SRA); ask user if needed
+Rozella||Holomycota-Fungi-Rozellomycota|T_fungi_hyphae;T_fonticula|outgroup;outgroup|none|core|intracellular parasite; genome
+Batrachochytrium dendrobatidis||Holomycota-Fungi-Chytridiomycota|T_fungi_hyphae|closest_unicellular_sister|none|core|unicellular chytrid (rhizoids)
+Spizellomyces punctatus||Holomycota-Fungi-Chytridiomycota|T_fungi_hyphae|closest_unicellular_sister|none|core|unicellular chytrid
+Piromyces||Holomycota-Fungi-Neocallimastigomycota|T_fungi_hyphae|closest_unicellular_sister|none|optional|anaerobic gut fungus
+Gonapodya||Holomycota-Fungi-Monoblepharidomycota|T_fungi_hyphae|multicellular|coenocytic;simple;obligate|core|hyphal chytrid (independent hyphae)
+Allomyces macrogynus||Holomycota-Fungi-Blastocladiomycota|T_fungi_hyphae|multicellular|coenocytic;simple;obligate|core|hyphal, septate at reproductive structures
+Rhizophagus irregularis||Holomycota-Fungi-Mucoromycota|T_fungi_hyphae|multicellular|coenocytic;simple;obligate|optional|AM fungus (obligate symbiont)
+Rhizopus microsporus||Holomycota-Fungi-Mucoromycota|T_fungi_hyphae|multicellular|coenocytic;simple;obligate|core|Mucorales
+Mucor lusitanicus||Holomycota-Fungi-Mucoromycota|T_fungi_hyphae|multicellular|coenocytic;simple;obligate|core|Mucorales; dimorphic
+Phycomyces||Holomycota-Fungi-Mucoromycota|T_fungi_hyphae|multicellular|coenocytic;simple;obligate|optional|Mucorales; large sporangiophores
+Mortierella||Holomycota-Fungi-Mucoromycota|T_fungi_hyphae|multicellular|coenocytic;simple;obligate|optional|Mortierellomycotina (some form simple fruiting bodies)
+Basidiobolus||Holomycota-Fungi-Zoopagomycota|T_fungi_hyphae|multicellular|clonal;simple;obligate|optional|Entomophthoromycotina, septate hyphae
+Conidiobolus||Holomycota-Fungi-Zoopagomycota|T_fungi_hyphae|multicellular|clonal;simple;obligate|optional|Entomophthoromycotina
+Coemansia||Holomycota-Fungi-Zoopagomycota|T_fungi_hyphae|multicellular|clonal;simple;obligate|optional|Kickxellomycotina, septate hyphae
+Schizosaccharomyces pombe||Holomycota-Fungi-Ascomycota-Taphrinomycotina|T_fungi_neolecta;T_fungi_pezizomycotina|closest_unicellular_sister;outgroup|none|core|fission yeast
+Saitoella||Holomycota-Fungi-Ascomycota-Taphrinomycotina|T_fungi_neolecta|closest_unicellular_sister|none|core|yeast
+Taphrina||Holomycota-Fungi-Ascomycota-Taphrinomycotina|T_fungi_neolecta|closest_unicellular_sister|clonal;simple;facultative|optional|dimorphic (yeast + parasitic hyphae)
+Pneumocystis||Holomycota-Fungi-Ascomycota-Taphrinomycotina|T_fungi_neolecta|closest_unicellular_sister|none|optional|obligate parasite; reduced
+Neolecta irregularis||Holomycota-Fungi-Ascomycota-Taphrinomycotina|T_fungi_neolecta|multicellular|clonal;complex;obligate|core|only Taphrinomycotina with fruiting bodies (independent origin, Nguyen et al. 2017)
+Saccharomyces cerevisiae||Holomycota-Fungi-Ascomycota-Saccharomycotina|T_fungi_pezizomycotina|closest_unicellular_sister|none|core|budding yeast (pseudohyphae facultative)
+Candida albicans||Holomycota-Fungi-Ascomycota-Saccharomycotina|T_fungi_pezizomycotina|closest_unicellular_sister|clonal;simple;facultative|optional|dimorphic yeast/hyphae
+Yarrowia||Holomycota-Fungi-Ascomycota-Saccharomycotina|T_fungi_pezizomycotina|closest_unicellular_sister|clonal;simple;facultative|core|dimorphic; early-branching Saccharomycotina
+Lipomyces starkeyi||Holomycota-Fungi-Ascomycota-Saccharomycotina|T_fungi_pezizomycotina|closest_unicellular_sister|none|core|basal Saccharomycotina yeast
+Pyronema||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|core|Pezizomycetes (basal), apothecia
+Ascobolus||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|optional|Pezizomycetes
+Morchella||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|optional|Pezizomycetes, large fruiting bodies
+Tuber melanosporum||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|optional|truffle
+Neurospora crassa||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|core|Sordariomycetes, perithecia
+Sordaria macrospora||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|optional|fruiting-body development model
+Aspergillus nidulans||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|core|Eurotiomycetes, cleistothecia
+Botrytis||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|optional|Leotiomycetes, sclerotia
+Zymoseptoria||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;simple;obligate|optional|Dothideomycetes
+Orbilia||Holomycota-Fungi-Ascomycota-Pezizomycotina|T_fungi_pezizomycotina|multicellular|clonal;complex;obligate|optional|Orbiliomycetes (early-branching)
+Coprinopsis cinerea||Holomycota-Fungi-Basidiomycota-Agaricomycetes|T_fungi_agaricomycetes|multicellular|clonal;complex;obligate|core|mushroom development model
+Schizophyllum commune||Holomycota-Fungi-Basidiomycota-Agaricomycetes|T_fungi_agaricomycetes|multicellular|clonal;complex;obligate|core|fruiting-body model
+Laccaria bicolor||Holomycota-Fungi-Basidiomycota-Agaricomycetes|T_fungi_agaricomycetes|multicellular|clonal;complex;obligate|core|ectomycorrhizal
+Pleurotus ostreatus||Holomycota-Fungi-Basidiomycota-Agaricomycetes|T_fungi_agaricomycetes|multicellular|clonal;complex;obligate|optional|
+Agaricus bisporus||Holomycota-Fungi-Basidiomycota-Agaricomycetes|T_fungi_agaricomycetes|multicellular|clonal;complex;obligate|optional|
+Dacryopinax||Holomycota-Fungi-Basidiomycota-Dacrymycetes|T_fungi_agaricomycetes|multicellular|clonal;complex;obligate|core|Dacrymycetes (jelly fungus), sister of Agaricomycetes
+Tremella||Holomycota-Fungi-Basidiomycota-Tremellomycetes|T_fungi_agaricomycetes|multicellular|clonal;complex;facultative|optional|dimorphic jelly fungus
+Cryptococcus neoformans||Holomycota-Fungi-Basidiomycota-Tremellomycetes|T_fungi_agaricomycetes|closest_unicellular_sister|clonal;simple;facultative|core|yeast (Tremellomycetes)
+Wallemia||Holomycota-Fungi-Basidiomycota-Wallemiomycetes|T_fungi_agaricomycetes|closest_unicellular_sister|none|optional|
+Ustilago maydis||Holomycota-Fungi-Basidiomycota-Ustilaginomycotina|T_fungi_agaricomycetes|closest_unicellular_sister|clonal;simple;facultative|core|dimorphic smut
+Malassezia||Holomycota-Fungi-Basidiomycota-Ustilaginomycotina|T_fungi_agaricomycetes|closest_unicellular_sister|none|optional|yeast; reduced
+Rhodotorula||Holomycota-Fungi-Basidiomycota-Pucciniomycotina|T_fungi_agaricomycetes|outgroup|none|core|yeast (Pucciniomycotina)
+Mixia||Holomycota-Fungi-Basidiomycota-Pucciniomycotina|T_fungi_agaricomycetes|outgroup|none|optional|
+Puccinia graminis||Holomycota-Fungi-Basidiomycota-Pucciniomycotina|T_fungi_agaricomycetes|outgroup|clonal;simple;obligate|optional|rust (large proteome)
+Encephalitozoon cuniculi||Holomycota-Fungi-Microsporidia|T_fungi_hyphae|background|none|exclude|extremely reduced/fast-evolving
+# ---------------- AMOEBOZOA ----------------
+Dictyostelium discoideum||Amoebozoa-Dictyostelia|T_dictyostelia|multicellular|aggregative;complex;facultative|core|group 4
+Dictyostelium purpureum||Amoebozoa-Dictyostelia|T_dictyostelia|multicellular|aggregative;complex;facultative|core|group 4
+Dictyostelium firmibasis||Amoebozoa-Dictyostelia|T_dictyostelia|multicellular|aggregative;complex;facultative|optional|group 4
+Heterostelium pallidum||Amoebozoa-Dictyostelia|T_dictyostelia|multicellular|aggregative;complex;facultative|core|group 2 (Acytosteliales)
+Polysphondylium violaceum||Amoebozoa-Dictyostelia|T_dictyostelia|multicellular|aggregative;complex;facultative|optional|group 3/4
+Tieghemostelium lacteum||Amoebozoa-Dictyostelia|T_dictyostelia|multicellular|aggregative;complex;facultative|core|group 3
+Cavenderia fasciculata||Amoebozoa-Dictyostelia|T_dictyostelia|multicellular|aggregative;complex;facultative|core|group 1
+Acytostelium||Amoebozoa-Dictyostelia|T_dictyostelia|multicellular|aggregative;simple;facultative|core|group 2, acellular stalk
+Physarum polycephalum||Amoebozoa-Myxogastria|T_dictyostelia;T_myxogastria_plasmodium|closest_unicellular_sister;multicellular|coenocytic;complex;obligate|core|plasmodial slime mould = sister clade of Dictyostelia (grey zone: syncytial); EukProt transcriptome (genome annotation not in NCBI)
+Ceratiomyxa||Amoebozoa-Myxogastria|T_dictyostelia;T_myxogastria_plasmodium|closest_unicellular_sister;closest_unicellular_sister|coenocytic;simple;obligate|optional|protosteloid, sister of Myxogastria; transcriptome
+Protostelium||Amoebozoa-Protosteliida|T_dictyostelia|closest_unicellular_sister|none|core|protosteloid single-celled sporocarp; transcriptome
+Cavostelium||Amoebozoa-Protosteliida|T_dictyostelia|closest_unicellular_sister|none|optional|protosteloid; transcriptome
+Planoprotostelium fungivorum||Amoebozoa-Variosea|T_dictyostelia|outgroup|none|core|protosteloid; genome
+Soliformovum||Amoebozoa-Variosea|T_dictyostelia|outgroup|none|optional|transcriptome
+Acanthamoeba castellanii||Amoebozoa-Discosea|T_dictyostelia;T_copromyxa|outgroup;outgroup|none|core|genome
+Mastigamoeba||Amoebozoa-Archamoebae|T_dictyostelia|outgroup|none|core|genome
+Entamoeba histolytica||Amoebozoa-Archamoebae|T_dictyostelia|background|none|optional|parasite; reduced
+Copromyxa protea||Amoebozoa-Tubulinea|T_copromyxa|multicellular|aggregative;simple;facultative|core|sorocarpic Tubulinea; transcriptome ONLY
+Vermamoeba||Amoebozoa-Tubulinea|T_copromyxa|closest_unicellular_sister|none|core|transcriptome
+Rhizamoeba||Amoebozoa-Tubulinea|T_copromyxa|closest_unicellular_sister|none|optional|transcriptome
+Arcella||Amoebozoa-Tubulinea|T_copromyxa|closest_unicellular_sister|none|optional|testate; transcriptome
+Amoeba proteus||Amoebozoa-Tubulinea|T_copromyxa|closest_unicellular_sister|none|optional|transcriptome, very large
+Stygamoeba||Amoebozoa-Discosea|T_copromyxa|outgroup|none|optional|transcriptome
+# ---------------- ARCHAEPLASTIDA ----------------
+Volvox carteri||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|multicellular|clonal;complex;obligate|core|germ-soma differentiation
+Pleodorina starrii||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|multicellular|clonal;simple;obligate|core|partial soma
+Volvox africanus|UP:UP001165090|Archaeplastida-Chlorophyta-Volvocales|T_volvocales|multicellular|clonal;complex;obligate|optional|second Volvox lineage
+Astrephomene gubernaculifera||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|multicellular|clonal;simple;obligate|core|independent spheroid origin (Goniaceae-like)
+Gonium pectorale||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|multicellular|clonal;simple;obligate|core|plate colony
+Tetrabaena socialis||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|multicellular|clonal;simple;obligate|core|4-celled, earliest-diverging colonial volvocine; BUSCO 62
+Chlamydomonas reinhardtii||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|closest_unicellular_sister|none|core|
+Chlamydomonas incerta||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|closest_unicellular_sister|none|core|
+Chlamydomonas schloesseri||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|closest_unicellular_sister|none|optional|
+Edaphochlamys||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|closest_unicellular_sister|none|core|
+Chlamydomonas eustigma||Archaeplastida-Chlorophyta-Volvocales|T_volvocales|outgroup|none|optional|
+Dunaliella salina||Archaeplastida-Chlorophyta-Chlamydomonadales|T_volvocales|outgroup|none|core|
+Chromochloris||Archaeplastida-Chlorophyta-Sphaeropleales|T_volvocales|outgroup|none|optional|
+Raphidocelis subcapitata||Archaeplastida-Chlorophyta-Sphaeropleales|T_volvocales|outgroup|none|core|
+Chlorella vulgaris||Archaeplastida-Chlorophyta-Trebouxiophyceae|T_volvocales;T_ulvophyceae|outgroup;outgroup|none|core|
+Coccomyxa subellipsoidea||Archaeplastida-Chlorophyta-Trebouxiophyceae|T_ulvophyceae|outgroup|none|core|
+Ulva mutabilis||Archaeplastida-Chlorophyta-Ulvophyceae|T_ulvophyceae|multicellular|clonal;complex;obligate|core|sea lettuce; EukProt genome (ORCAE)
+Caulerpa lentillifera||Archaeplastida-Chlorophyta-Ulvophyceae|T_ulvophyceae;T_siphonous_coenocytic|multicellular;multicellular|coenocytic;complex;obligate|core|giant siphonous single cell (grey zone)
+Bryopsis|NCBI:GCA_030272585.1|Archaeplastida-Chlorophyta-Ulvophyceae|T_ulvophyceae;T_siphonous_coenocytic|multicellular;multicellular|coenocytic;simple;obligate|optional|siphonous; NCBI annotated genome
+Ostreobium quekettii|NCBI:GCA_905146915.1|Archaeplastida-Chlorophyta-Ulvophyceae|T_ulvophyceae;T_siphonous_coenocytic|multicellular;multicellular|coenocytic;simple;obligate|optional|siphonous endolith; NCBI annotated genome
+Ostreococcus||Archaeplastida-Chlorophyta-Mamiellophyceae|T_volvocales;T_ulvophyceae|background;background|none|core|picoeukaryote
+Micromonas||Archaeplastida-Chlorophyta-Mamiellophyceae|T_ulvophyceae|background|none|core|
+Bathycoccus||Archaeplastida-Chlorophyta-Mamiellophyceae|T_ulvophyceae|background|none|optional|
+Tetraselmis||Archaeplastida-Chlorophyta-Chlorodendrophyceae|T_ulvophyceae|background|none|optional|genome, 46k seqs (redundant?)
+Prasinoderma||Archaeplastida-Prasinodermophyta|T_streptophyta;T_volvocales|outgroup;outgroup|none|core|sister of Chlorophyta+Streptophyta
+Mesostigma||Archaeplastida-Streptophyta-Mesostigmatophyceae|T_streptophyta|closest_unicellular_sister|none|core|unicellular; genome
+Chlorokybus||Archaeplastida-Streptophyta-Chlorokybophyceae|T_streptophyta|closest_unicellular_sister|colonial;simple;obligate|core|sarcinoid packets
+Klebsormidium nitens||Archaeplastida-Streptophyta-Klebsormidiophyceae|T_streptophyta|multicellular|clonal;simple;obligate|core|unbranched filaments
+Chara braunii||Archaeplastida-Streptophyta-Charophyceae|T_streptophyta|multicellular|clonal;complex;obligate|core|complex thallus
+Coleochaete||Archaeplastida-Streptophyta-Coleochaetophyceae|T_streptophyta|multicellular|clonal;simple;obligate|optional|transcriptome
+Spirogloea muscicola||Archaeplastida-Streptophyta-Zygnematophyceae|T_streptophyta|closest_unicellular_sister|none|core|Zygnematophyceae (sister to land plants); unicellular in mucilage; genome
+Mesotaenium endlicherianum||Archaeplastida-Streptophyta-Zygnematophyceae|T_streptophyta|closest_unicellular_sister|none|core|unicellular; genome
+Closterium|NCBI:GCA_027943415.1|Archaeplastida-Streptophyta-Zygnematophyceae|T_streptophyta|closest_unicellular_sister|none|optional|unicellular desmid; NCBI annotated
+Zygnema circumcarinatum|NONE|Archaeplastida-Streptophyta-Zygnematophyceae|T_streptophyta|multicellular|clonal;simple;obligate|optional|filamentous; genome (Feng et al. 2024) annotation not on NCBI/UniProt -> ask user / fetch from paper data
+Penium margaritaceum|NONE|Archaeplastida-Streptophyta-Zygnematophyceae|T_streptophyta|closest_unicellular_sister|none|exclude|annotation not on NCBI
+Marchantia polymorpha||Archaeplastida-Streptophyta-Embryophyta|T_streptophyta|multicellular|clonal;complex;obligate|core|liverwort
+Physcomitrium patens||Archaeplastida-Streptophyta-Embryophyta|T_streptophyta|multicellular|clonal;complex;obligate|core|moss
+Anthoceros|NONE|Archaeplastida-Streptophyta-Embryophyta|T_streptophyta|multicellular|clonal;complex;obligate|optional|hornwort genome annotation not on NCBI/UniProt (Li et al. 2020) -> ask/download from paper
+Selaginella||Archaeplastida-Streptophyta-Embryophyta|T_streptophyta|multicellular|clonal;complex;obligate|core|lycophyte
+Ceratopteris||Archaeplastida-Streptophyta-Embryophyta|T_streptophyta|multicellular|clonal;complex;obligate|optional|fern; 65k proteins
+Amborella||Archaeplastida-Streptophyta-Embryophyta|T_streptophyta|multicellular|clonal;complex;obligate|core|basal angiosperm
+Arabidopsis thaliana||Archaeplastida-Streptophyta-Embryophyta|T_streptophyta|multicellular|clonal;complex;obligate|core|
+Oryza sativa||Archaeplastida-Streptophyta-Embryophyta|T_streptophyta|multicellular|clonal;complex;obligate|optional|
+Chondrus crispus||Archaeplastida-Rhodophyta-Florideophyceae|T_rhodophyta|multicellular|clonal;complex;obligate|core|
+Gracilariopsis chorda||Archaeplastida-Rhodophyta-Florideophyceae|T_rhodophyta|multicellular|clonal;complex;obligate|core|
+Agarophyton chilense|NCBI:GCA_965643885.1|Archaeplastida-Rhodophyta-Florideophyceae|T_rhodophyta|multicellular|clonal;complex;obligate|optional|NCBI annotated
+Delisea pulchra|NCBI:GCA_978019225.1|Archaeplastida-Rhodophyta-Florideophyceae|T_rhodophyta|multicellular|clonal;complex;obligate|optional|NCBI annotated (Bonnemaisoniales)
+Pyropia yezoensis||Archaeplastida-Rhodophyta-Bangiophyceae|T_rhodophyta|multicellular|clonal;simple;obligate|core|Bangiales (thallus); BUSCO 51 (rhodophyte genomes are generally reduced)
+Porphyra umbilicalis||Archaeplastida-Rhodophyta-Bangiophyceae|T_rhodophyta|multicellular|clonal;simple;obligate|core|BUSCO 44
+Compsopogon||Archaeplastida-Rhodophyta-Compsopogonophyceae|T_rhodophyta|multicellular|clonal;simple;obligate|optional|independent? filamentous; transcriptome BUSCO 47
+Porphyridium purpureum||Archaeplastida-Rhodophyta-Porphyridiophyceae|T_rhodophyta|closest_unicellular_sister|none|core|
+Rhodosorus marinus||Archaeplastida-Rhodophyta-Stylonematophyceae|T_rhodophyta|closest_unicellular_sister|none|core|
+Cyanidioschyzon merolae||Archaeplastida-Rhodophyta-Cyanidiophyceae|T_rhodophyta|outgroup|none|core|
+Galdieria sulphuraria||Archaeplastida-Rhodophyta-Cyanidiophyceae|T_rhodophyta|outgroup|none|core|
+Rhodelphis||Archaeplastida-Rhodelphidia|T_rhodophyta|outgroup|none|optional|sister of red algae; transcriptome
+Cyanophora paradoxa||Archaeplastida-Glaucophyta|T_rhodophyta;T_streptophyta|background;background|none|core|
+# ---------------- STRAMENOPILES ----------------
+Ectocarpus siliculosus||Stramenopiles-Phaeophyceae|T_phaeophyceae|multicellular|clonal;complex;obligate|core|
+Saccharina latissima|NCBI:GCA_964200175.2|Stramenopiles-Phaeophyceae|T_phaeophyceae|multicellular|clonal;complex;obligate|core|kelp; Phaeoexplorer (Denoeud et al. 2024)
+Undaria pinnatifida||Stramenopiles-Phaeophyceae|T_phaeophyceae|multicellular|clonal;complex;obligate|optional|EukProt genome
+Cladosiphon okamuranus||Stramenopiles-Phaeophyceae|T_phaeophyceae|multicellular|clonal;complex;obligate|optional|EukProt genome
+Nemacystus decipiens||Stramenopiles-Phaeophyceae|T_phaeophyceae|multicellular|clonal;complex;obligate|optional|EukProt genome
+Fucus serratus|NCBI:GCA_964200575.2|Stramenopiles-Phaeophyceae|T_phaeophyceae|multicellular|clonal;complex;obligate|core|Phaeoexplorer
+Dictyota dichotoma|NCBI:GCA_964200555.2|Stramenopiles-Phaeophyceae|T_phaeophyceae|multicellular|clonal;complex;obligate|core|early-diverging brown alga; Phaeoexplorer
+Discosporangium mesarthrocarpum|NCBI:GCA_964200235.2|Stramenopiles-Phaeophyceae|T_phaeophyceae|multicellular|clonal;simple;obligate|core|earliest-diverging Phaeophyceae lineage; Phaeoexplorer
+Schizocladia ischiensis|NCBI:GCA_964200225.2|Stramenopiles-Schizocladiophyceae|T_phaeophyceae|closest_unicellular_sister|clonal;simple;obligate|core|sister class of Phaeophyceae; simple branched filaments; Phaeoexplorer
+Phaeothamnion confervicola|NCBI:GCA_964200195.2|Stramenopiles-Phaeothamniophyceae|T_phaeophyceae|closest_unicellular_sister|clonal;simple;obligate|core|simple filaments; Phaeoexplorer
+Tribonema minus||Stramenopiles-Xanthophyceae|T_phaeophyceae;T_xanthophyceae_filaments|closest_unicellular_sister;multicellular|clonal;simple;obligate|core|unbranched filaments; genome
+Vaucheria||Stramenopiles-Xanthophyceae|T_xanthophyceae_filaments|multicellular|coenocytic;simple;obligate|optional|siphonous; transcriptome
+Heterosigma akashiwo|NCBI:GCA_060812625.1|Stramenopiles-Raphidophyceae|T_phaeophyceae|closest_unicellular_sister|none|core|unicellular; NCBI annotated genome (EukProt transcriptome as fallback)
+Microchloropsis|UP:UP000355283|Stramenopiles-Eustigmatophyceae|T_phaeophyceae|outgroup|none|core|unicellular (Nannochloropsis/Microchloropsis; UniProt ref)
+Poterioochromonas malhamensis||Stramenopiles-Chrysophyceae|T_phaeophyceae|outgroup|none|core|unicellular mixotroph; genome
+Aureococcus anophagefferens||Stramenopiles-Pelagophyceae|T_phaeophyceae|outgroup|none|core|
+Phaeodactylum tricornutum||Stramenopiles-Bacillariophyta|T_phaeophyceae|background|none|core|
+Thalassiosira pseudonana||Stramenopiles-Bacillariophyta|T_phaeophyceae|background|colonial;simple;facultative|core|chain-forming (weak colonial)
+Triparma||Stramenopiles-Bolidophyceae|T_phaeophyceae|background|none|optional|
+Phytophthora infestans||Stramenopiles-Oomycota|T_oomycete_hyphae|multicellular|coenocytic;simple;obligate|core|hyphal (coenocytic; grey zone)
+Saprolegnia parasitica||Stramenopiles-Oomycota|T_oomycete_hyphae|multicellular|coenocytic;simple;obligate|core|
+Pythium||Stramenopiles-Oomycota|T_oomycete_hyphae|multicellular|coenocytic;simple;obligate|optional|
+Albugo||Stramenopiles-Oomycota|T_oomycete_hyphae|multicellular|coenocytic;simple;obligate|optional|
+Cafeteria roenbergensis||Stramenopiles-Bigyra-Bicosoecida|T_oomycete_hyphae;T_sorodiplophrys|outgroup;outgroup|none|core|
+Halocafeteria||Stramenopiles-Bigyra-Bicosoecida|T_sorodiplophrys|outgroup|none|optional|transcriptome
+Blastocystis||Stramenopiles-Bigyra-Opalinata|T_sorodiplophrys|background|none|optional|gut parasite; reduced
+Sorodiplophrys stercorea|NONE|Stramenopiles-Labyrinthulomycetes|T_sorodiplophrys|multicellular|aggregative;simple;facultative|core|NO public proteome/transcriptome found (Tice et al. 2016 18S only?) -> ask user
+Hondaea fermentalgiana||Stramenopiles-Labyrinthulomycetes|T_sorodiplophrys|closest_unicellular_sister|none|core|thraustochytrid; genome
+Aurantiochytrium||Stramenopiles-Labyrinthulomycetes|T_sorodiplophrys|closest_unicellular_sister|none|core|transcriptome
+Schizochytrium||Stramenopiles-Labyrinthulomycetes|T_sorodiplophrys|closest_unicellular_sister|none|optional|transcriptome
+Aplanochytrium||Stramenopiles-Labyrinthulomycetes|T_sorodiplophrys|closest_unicellular_sister|none|optional|transcriptome
+Labyrinthula||Stramenopiles-Labyrinthulomycetes|T_sorodiplophrys|closest_unicellular_sister|colonial;simple;obligate|core|ectoplasmic-net colonies (grey zone); genome BUSCO 60
+# ---------------- ALVEOLATA ----------------
+Sorogena stoianovitchae|NONE|Alveolata-Ciliophora-Colpodea|T_sorogena|multicellular|aggregative;simple;facultative|core|NO public proteome/transcriptome found -> ask user (would require new RNA-seq)
+Platyophrya||Alveolata-Ciliophora-Colpodea|T_sorogena|closest_unicellular_sister|none|core|closest available Colpodea; transcriptome BUSCO 58
+Colpoda|NONE|Alveolata-Ciliophora-Colpodea|T_sorogena|closest_unicellular_sister|none|optional|SRA RNA-seq only (~125 runs) -> would need de novo assembly; optional
+Tetrahymena thermophila||Alveolata-Ciliophora|T_sorogena|outgroup|none|core|
+Paramecium tetraurelia||Alveolata-Ciliophora|T_sorogena|outgroup|none|core|
+Stylonychia lemnae||Alveolata-Ciliophora|T_sorogena|outgroup|none|optional|
+Oxytricha|EP:EP00810|Alveolata-Ciliophora|T_sorogena|outgroup|none|optional|UniProt ref is a fragment (810 proteins) -> use EukProt
+Stentor coeruleus||Alveolata-Ciliophora|T_sorogena|outgroup|none|core|
+Euplotes||Alveolata-Ciliophora|T_sorogena|outgroup|none|optional|
+Plasmodium falciparum||Alveolata-Apicomplexa|T_none|background|none|core|
+Toxoplasma gondii||Alveolata-Apicomplexa|T_none|background|none|core|
+Cryptosporidium parvum||Alveolata-Apicomplexa|T_none|background|none|optional|
+Vitrella brassicaformis||Alveolata-Chrompodellida|T_none|background|none|core|
+Chromera velia||Alveolata-Chrompodellida|T_none|background|none|optional|
+Perkinsus marinus||Alveolata-Perkinsozoa|T_none|background|none|core|
+Symbiodinium microadriaticum||Alveolata-Dinoflagellata|T_none|background|none|optional|43k proteins
+Breviolum||Alveolata-Dinoflagellata|T_none|background|none|optional|
+# ---------------- RHIZARIA ----------------
+Guttulinopsis vulgaris||Rhizaria-Cercozoa|T_guttulinopsis|multicellular|aggregative;simple;facultative|core|sorocarpic; transcriptome ONLY, BUSCO 11 (very incomplete -> gains/losses unreliable)
+Bigelowiella natans||Rhizaria-Cercozoa|T_guttulinopsis|closest_unicellular_sister|none|core|chlorarachniophyte; genome
+Paulinella micropora||Rhizaria-Cercozoa|T_guttulinopsis|closest_unicellular_sister|none|core|genome (EukProt)
+Lotharella||Rhizaria-Cercozoa|T_guttulinopsis|closest_unicellular_sister|none|optional|transcriptome
+Brevimastigomonas||Rhizaria-Cercozoa|T_guttulinopsis|closest_unicellular_sister|none|optional|transcriptome
+Amorphochlora amoebiformis|NCBI:GCA_054601695.1|Rhizaria-Cercozoa|T_guttulinopsis|closest_unicellular_sister|none|optional|NCBI annotated genome
+Plasmodiophora brassicae||Rhizaria-Endomyxa|T_guttulinopsis;T_plasmodiophorid_plasmodium|outgroup;multicellular|coenocytic;simple;obligate|core|plasmodial parasite (grey zone)
+Reticulomyxa filosa||Rhizaria-Foraminifera|T_guttulinopsis|outgroup|coenocytic;simple;obligate|optional|multinucleate; BUSCO 42
+Ammonia||Rhizaria-Foraminifera|T_guttulinopsis|outgroup|none|optional|transcriptome
+# ---------------- DISCOBA / EXCAVATES ----------------
+Acrasis kona||Discoba-Heterolobosea|T_acrasis|multicellular|aggregative;simple;facultative|core|sorocarpic; UniProt genome (BUSCO 86)
+Naegleria gruberi||Discoba-Heterolobosea|T_acrasis|closest_unicellular_sister|none|core|
+Naegleria fowleri||Discoba-Heterolobosea|T_acrasis|closest_unicellular_sister|none|optional|
+Neovahlkampfia||Discoba-Heterolobosea|T_acrasis|closest_unicellular_sister|none|core|Tetramitia; genome
+Willaertia magna|NCBI:GCA_041937235.1|Discoba-Heterolobosea|T_acrasis|closest_unicellular_sister|none|optional|NCBI annotated genome
+Pharyngomonas||Discoba-Heterolobosea|T_acrasis|outgroup|none|core|basal heterolobosean; transcriptome
+Percolomonas|EP:EP00818|Discoba-Heterolobosea|T_acrasis|outgroup|none|optional|transcriptome
+Pocheina|NONE|Discoba-Heterolobosea|T_acrasis|multicellular|aggregative;simple;facultative|exclude|no data
+Euglena gracilis||Discoba-Euglenozoa|T_acrasis|outgroup|none|core|genome (36k)
+Trypanosoma brucei||Discoba-Euglenozoa|T_none|background|none|core|
+Leishmania major||Discoba-Euglenozoa|T_none|background|none|optional|
+Bodo saltans||Discoba-Euglenozoa|T_none|background|none|core|
+Andalucia godoyi|EP:EP00762|Discoba-Jakobida|T_none|background|none|core|UniProt ref is fragmentary (1023 proteins) -> EukProt
+Trichomonas vaginalis||Metamonada-Parabasalia|T_none|background|none|optional|59k proteins; highly duplicated
+Giardia||Metamonada-Fornicata|T_none|background|none|optional|reduced
+Monocercomonoides|LP:LP00201|Metamonada-Preaxostyla|T_none|background|none|optional|amitochondriate
+Paratrimastix pyriformis||Metamonada-Preaxostyla|T_none|background|none|core|
+Gefionella||Malawimonadida|T_none|background|none|core|transcriptome
+# ---------------- OTHER (orphan lineages; root region) ----------------
+Thecamonas trahens||Apusomonadida|T_none|background|none|core|genome
+Pygsuia||Breviatea|T_none|background|none|core|transcriptome
+Ancyromonas||Ancyromonadida|T_none|background|none|optional|transcriptome
+Rigifila ramosa||CRuMs|T_none|background|none|core|transcriptome
+Diphylleia rotans||CRuMs|T_none|background|none|core|transcriptome
+Mantamonas||CRuMs|T_none|background|none|optional|transcriptome
+Guillardia theta||Cryptista|T_none|background|none|core|genome
+Palpitomonas||Cryptista|T_none|background|none|optional|
+Emiliania huxleyi||Haptista-Haptophyta|T_none|background|none|optional|BUSCO 56, 35k
+Chrysochromulina|EP:EP00900|Haptista-Haptophyta|T_none|background|none|core|genome
+Prymnesium parvum||Haptista-Haptophyta|T_none|background|none|core|
+Raphidiophrys||Haptista-Centroplasthelida|T_none|background|none|core|transcriptome
+Telonema||Telonemia|T_none|background|none|core|transcriptome
+Hemimastix||Hemimastigophora|T_none|background|none|optional|single-cell transcriptome BUSCO 48
+Ancoracysta||Provora/Ancoracysta|T_none|background|none|optional|
+Anaeramoeba flamelloides||Metamonada-Anaeramoebidae|T_none|background|none|optional|

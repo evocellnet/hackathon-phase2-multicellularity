@@ -1,0 +1,6 @@
+S_conv	(multicellularity[ti] OR multicellular[ti]) AND (independent origins OR independent transitions) AND (genomic OR genomes OR gene families) AND comparative
+S_dnds	(multicellular OR multicellularity) AND (relaxed selection OR dN/dS OR effective population size) AND (evolution[ti] OR genome[ti])
+S_disorder	intrinsic disorder AND multicellularity
+S_convergent_gene	convergent evolution AND multicellularity AND gene family expansion
+S_redalgae	red algae AND multicellularity AND genome
+S_ptero	complex multicellularity AND brown algae AND red algae

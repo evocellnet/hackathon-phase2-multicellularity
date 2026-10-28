@@ -1,0 +1,14 @@
+hmmer=3.4
+pyhmmer
+mafft
+trimal
+iqtree
+ete3
+biopython
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+requests
+tqdm
+seqkit

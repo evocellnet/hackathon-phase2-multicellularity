@@ -1,0 +1,448 @@
+GrosbergStrathmann2007	CROSSREF | Klingenberg C | 2008 | Morphological Integration and Developmental Modularity | Annual Review of Ecology, Evolution, and Systematics 39:115-132 | doi:10.1146/annurev.ecolsys.37.091305.110054
+Knoll2011	CROSSREF | Knoll A | 2011 | The Multiple Origins of Complex Multicellularity | Annual Review of Earth and Planetary Sciences 39:217-239 | doi:10.1146/annurev.earth.031208.100209
+King2008	PMID:18632573 | Kodner RB et al. | 2008 | Sterols in a unicellular relative of the metazoans. | Proc Natl Acad Sci U S A 105:9897-902 | doi:10.1073/pnas.0803975105
+King2008	PMID:18276888 | Abedin M et al. | 2008 | The premetazoan ancestry of cadherins. | Science 319:946-8 | doi:10.1126/science.1151084
+King2008	PMID:18273011 | King N et al. | 2008 | The genome of the choanoflagellate Monosiga brevicollis and the origin of metazoans. | Nature 451:783-8 | doi:10.1038/nature06617
+Fairclough2013	PMID:23770652 | Sebé-Pedrós A et al. | 2013 | Insights into the origin of metazoan filopodia and microvilli. | Mol Biol Evol 30:2013-23 | doi:10.1093/molbev/mst110
+Fairclough2013	PMID:23419129 | Fairclough SR et al. | 2013 | Premetazoan genome evolution and the regulation of cell differentiation in the choanoflagellate Salpingoeca rosetta. | Genome Biol 14:R15 | doi:10.1186/gb-2013-14-2-r15
+Suga2013	PMID:23942320 | Suga H et al. | 2013 | The Capsaspora genome reveals a complex unicellular prehistory of animals. | Nat Commun 4:2325 | doi:10.1038/ncomms3325
+SebePedros2016Cell	PMID:27746046 | Sebé-Pedrós A et al. | 2016 | High-Throughput Proteomics Reveals the Unicellular Roots of Animal Phosphosignaling and Cell Differentiation. | Dev Cell 39:186-197 | doi:10.1016/j.devcel.2016.09.019
+SebePedros2016Cell	PMID:27114036 | Sebé-Pedrós A et al. | 2016 | The Dynamic Regulatory Genome of Capsaspora and the Origin of Animal Multicellularity. | Cell 165:1224-1237 | doi:10.1016/j.cell.2016.03.034
+SebePedros2013eLife	PMID:24368732 | Sebé-Pedrós A et al. | 2013 | Regulated aggregative multicellularity in a close unicellular relative of metazoa. | Elife 2:e01287 | doi:10.7554/eLife.01287
+GrauBove2017	PMID:28726632 | Grau-Bové X et al. | 2017 | Dynamics of genomic innovation in the unicellular ancestry of animals. | Elife 6: | doi:10.7554/eLife.26036
+OcanaPallares2022	PMID:36002568 | Ocaña-Pallarès E et al. | 2022 | Divergent genomic trajectories predate the origin of animals and fungi. | Nature 609:747-753 | doi:10.1038/s41586-022-05110-4
+Richter2018	PMID:29848444 | Richter DJ et al. | 2018 | Gene family innovation, conservation and loss on the animal stem lineage. | Elife 7: | doi:10.7554/eLife.34226
+PapsHolland2018	PMID:29846592 | Paps J | 2018 | What Makes an Animal? The Molecular Quest for the Origin of the Animal Kingdom. | Integr Comp Biol 58:654-665 | doi:10.1093/icb/icy036
+PapsHolland2018	PMID:29712911 | Paps J et al. | 2018 | Reconstruction of the ancestral metazoan genome reveals an increase in genomic novelty. | Nat Commun 9:1730 | doi:10.1038/s41467-018-04136-5
+Fernandez2020	PMID:31988444 | Fernández R et al. | 2020 | Gene gain and loss across the metazoan tree of life. | Nat Ecol Evol 4:524-533 | doi:10.1038/s41559-019-1069-x
+GuijarroClarke2020	PMID:32108759 | Guijarro-Clarke C et al. | 2020 | Publisher Correction: Widespread patterns of gene loss in the evolution of the animal kingdom. | Nat Ecol Evol 4:661 | doi:10.1038/s41559-020-1159-9
+GuijarroClarke2020	PMID:32094540 | Guijarro-Clarke C et al. | 2020 | Widespread patterns of gene loss in the evolution of the animal kingdom. | Nat Ecol Evol 4:519-523 | doi:10.1038/s41559-020-1129-2
+Prochnik2010	PMID:20616280 | Prochnik SE et al. | 2010 | Genomic analysis of organismal complexity in the multicellular green alga Volvox carteri. | Science 329:223-6 | doi:10.1126/science.1188800
+Hanschen2016	PMID:27102219 | Hanschen ER et al. | 2016 | The Gonium pectorale genome demonstrates co-option of cell cycle regulation during the evolution of multicellularity. | Nat Commun 7:11370 | doi:10.1038/ncomms11370
+Featherston2018	PMID:29294063 | Featherston J et al. | 2018 | The 4-Celled Tetrabaena socialis Nuclear Genome Reveals the Essential Components for Genetic Control of Cell Number at the Origin of Multicellularity in the Volvocine Lineage. | Mol Biol Evol 35:855-870 | doi:10.1093/molbev/msx332
+Herron2009	PMID:19223580 | Herron MD et al. | 2009 | Triassic origin and early radiation of multicellular volvocine algae. | Proc Natl Acad Sci U S A 106:3254-8 | doi:10.1073/pnas.0811205106
+Merchant2007	PMID:17932292 | Merchant SS et al. | 2007 | The Chlamydomonas genome reveals the evolution of key animal and plant functions. | Science 318:245-50 | doi:10.1126/science.1143609
+Merchant2007	PMID:17660359 | Allen MD et al. | 2007 | FEA1, FEA2, and FRE1, encoding two homologous secreted proteins and a candidate ferrireductase, are expressed coordinately with FOX1 and FTR1 in iron-deficient Chlamydomonas reinhardtii. | Eukaryot Cell 6:1841-52 | doi:10.1128/EC.00205-07
+Merchant2007	PMID:17291820 | Grossman AR et al. | 2007 | Novel metabolism in Chlamydomonas through the lens of genomics. | Curr Opin Plant Biol 10:190-8 | doi:10.1016/j.pbi.2007.01.012
+Cock2010	PMID:21057192 | Bothwell JH et al. | 2010 | Cell cycles and endocycles in the model brown seaweed, Ectocarpus siliculosus. | Plant Signal Behav 5:1473-5 | doi:10.4161/psb.5.11.13520
+Cock2010	PMID:20840144 | Cock JM et al. | 2010 | The Ectocarpus genome sequence: insights into brown algal biology and the evolutionary diversity of the eukaryotes. | New Phytol 188:1-4 | doi:10.1111/j.1469-8137.2010.03454.x
+Cock2010	PMID:20618911 | Bothwell JH et al. | 2010 | Role of endoreduplication and apomeiosis during parthenogenetic reproduction in the model brown alga Ectocarpus. | New Phytol 188:111-21 | doi:10.1111/j.1469-8137.2010.03357.x
+Denoeud2024	PMID:39571576 | Denoeud F et al. | 2024 | Evolutionary genomics of the emergence of brown algae as key components of coastal ecosystems. | Cell 187:6943-6965.e39 | doi:10.1016/j.cell.2024.10.049
+Denoeud2024	PMID:39390408 | Mazéas L et al. | 2024 | Candidate genes involved in biosynthesis and degradation of the main extracellular matrix polysaccharides of brown algae and their probable evolutionary history. | BMC Genomics 25:950 | doi:10.1186/s12864-024-10811-3
+Glockner2016	PMID:27814692 | Schilde C et al. | 2016 | A set of genes conserved in sequence and expression traces back the establishment of multicellularity in social amoebae. | BMC Genomics 17:871 | doi:10.1186/s12864-016-3223-z
+Glockner2016	PMID:27357338 | Glöckner G et al. | 2016 | The multicellularity genes of dictyostelid social amoebas. | Nat Commun 7:12085 | doi:10.1038/ncomms12085
+Eichinger2005	PMID:16282589 | Kuhlmann M et al. | 2005 | Silencing of retrotransposons in Dictyostelium by DNA methylation and RNAi. | Nucleic Acids Res 33:6405-17 | doi:10.1093/nar/gki952
+Eichinger2005	PMID:16125444 | Eichinger L et al. | 2005 | Comparative genomics of Dictyostelium discoideum and Entamoeba histolytica. | Curr Opin Microbiol 8:606-11 | doi:10.1016/j.mib.2005.08.009
+Eichinger2005	PMID:16086850 | Wilkins A et al. | 2005 | The Dictyostelium genome encodes numerous RasGEFs with multiple biological roles. | Genome Biol 6:R68 | doi:10.1186/gb-2005-6-8-r68
+Heidel2011	PMID:21757610 | Heidel AJ et al. | 2011 | Phylogeny-wide analysis of social amoeba genomes highlights ancient origins for complex intercellular communication. | Genome Res 21:1882-91 | doi:10.1101/gr.121137.111
+Schaap2006	PMID:17068267 | Schaap P et al. | 2006 | Molecular phylogeny and evolution of morphology in the social amoebas. | Science 314:661-3 | doi:10.1126/science.1130670
+Kiss2019	PMID:31501435 | Kiss E et al. | 2019 | Comparative genomics reveals the origin of fungal hyphae and multicellularity. | Nat Commun 10:4080 | doi:10.1038/s41467-019-12085-w
+Krizsan2019	PMID:30902897 | Krizsán K et al. | 2019 | Transcriptomic atlas of mushroom development reveals conserved genes behind complex multicellularity in fungi. | Proc Natl Acad Sci U S A 116:7409-7418 | doi:10.1073/pnas.1817822116
+Merenyi2022	PMID:35156613 | Merényi Z et al. | 2022 | Gene age shapes the transcriptional landscape of sexual morphogenesis in mushroom-forming fungi (Agaricomycetes). | Elife 11: | doi:10.7554/eLife.71348
+Merenyi2023	PMID:37349567 | Merényi Z et al. | 2023 | Genomes of fungi and relatives reveal delayed loss of ancestral gene families and evolution of key fungal traits. | Nat Ecol Evol 7:1221-1231 | doi:10.1038/s41559-023-02095-9
+Nagy2014	PMID:25034666 | Nagy LG et al. | 2014 | Latent homology and convergent regulatory evolution underlies the repeated emergence of yeasts. | Nat Commun 5:4471 | doi:10.1038/ncomms5471
+Hammerschmidt2021	PMID:33231627 | Hammerschmidt K et al. | 2021 | The Order of Trait Emergence in the Evolution of Cyanobacterial Multicellularity. | Genome Biol Evol 13: | doi:10.1093/gbe/evaa249
+Schirrmeister2011	PMID:21966561 | Schirrmeister BE et al. | 2011 | Evolution of cyanobacterial morphotypes: Taxa required for improved phylogenomic approaches. | Commun Integr Biol 4:424-7 | doi:10.4161/cib.16183
+Schirrmeister2011	PMID:21320320 | Schirrmeister BE et al. | 2011 | The origin of multicellularity in cyanobacteria. | BMC Evol Biol 11:45 | doi:10.1186/1471-2148-11-45
+Schirrmeister2013	PMID:23319632 | Schirrmeister BE et al. | 2013 | Evolution of multicellularity coincided with increased diversification of cyanobacteria and the Great Oxidation Event. | Proc Natl Acad Sci U S A 110:1791-6 | doi:10.1073/pnas.1209927110
+Goldman2006	PMID:17015832 | Goldman BS et al. | 2006 | Evolution of sensory complexity recorded in a myxobacterial genome. | Proc Natl Acad Sci U S A 103:15200-5 | doi:10.1073/pnas.0607335103
+Huntley2011	PMID:21037205 | Huntley S et al. | 2011 | Comparative genomic analysis of fruiting body formation in Myxococcales. | Mol Biol Evol 28:1083-97 | doi:10.1093/molbev/msq292
+Bentley2002	PMID:12000953 | Bentley SD et al. | 2002 | Complete genome sequence of the model actinomycete Streptomyces coelicolor A3(2). | Nature 417:141-7 | doi:10.1038/417141a
+DeClerck2018	PMID:30220504 | De Clerck O et al. | 2018 | Insights into the Evolution of Multicellularity from the Sea Lettuce Genome. | Curr Biol 28:2921-2933.e5 | doi:10.1016/j.cub.2018.08.015
+DelCortona2020	PMID:31911467 | Del Cortona A et al. | 2020 | Neoproterozoic origin and multiple transitions to macroscopic growth in green seaweeds. | Proc Natl Acad Sci U S A 117:2551-2559 | doi:10.1073/pnas.1910060117
+Collen2013	PMID:23624348 | Kowalczyk N et al. | 2013 | Photosynthesis in Chondrus crispus: the contribution of energy spill-over in the regulation of excitonic flux. | Biochim Biophys Acta 1827:834-42 | doi:10.1016/j.bbabio.2013.04.004
+Collen2013	PMID:23503846 | Collén J et al. | 2013 | Genome structure and metabolic features in the red seaweed Chondrus crispus shed light on evolution of the Archaeplastida. | Proc Natl Acad Sci U S A 110:5247-52 | doi:10.1073/pnas.1221259110
+Brawley2017	PMID:28716924 | Brawley SH et al. | 2017 | Insights into the red algae and eukaryotic evolution from the genome of Porphyra umbilicalis (Bangiophyceae, Rhodophyta). | Proc Natl Acad Sci U S A 114:E6361-E6370 | doi:10.1073/pnas.1703088114
+Nishiyama2018	PMID:30007417 | Nishiyama T et al. | 2018 | The Chara Genome: Secondary Complexity and Implications for Plant Terrestrialization. | Cell 174:448-464.e24 | doi:10.1016/j.cell.2018.06.033
+Hori2014	PMID:24865297 | Hori K et al. | 2014 | Klebsormidium flaccidum genome reveals primary factors for plant terrestrial adaptation. | Nat Commun 5:3978 | doi:10.1038/ncomms4978
+Feng2024	PMID:38693345 | Feng X et al. | 2024 | Genomes of multicellular algal sisters to land plants illuminate signaling network evolution. | Nat Genet 56:1018-1031 | doi:10.1038/s41588-024-01737-3
+Cheng2019	PMID:31730849 | Cheng S et al. | 2019 | Genomes of Subaerial Zygnematophyceae Provide Insights into Land Plant Evolution. | Cell 179:1057-1067.e14 | doi:10.1016/j.cell.2019.10.019
+Choi2024	PMID:38262417 | Choi SW et al. | 2024 | Ordovician origin and subsequent diversification of the brown algae. | Curr Biol 34:740-754.e4 | doi:10.1016/j.cub.2023.12.069
+GrosbergStrathmann2007	CROSSREF | Grosberg R et al. | 2007 | The Evolution of Multicellularity: A Minor Major Transition? | Annual Review of Ecology, Evolution, and Systematics 38:621-654 | doi:10.1146/annurev.ecolsys.36.102403.114735
+Cock2010Nature	PMID:20520714 | Cock JM et al. | 2010 | The Ectocarpus genome and the independent evolution of multicellularity in brown algae. | Nature 465:617-21 | doi:10.1038/nature09016
+Eichinger2005Nature	PMID:15875012 | Eichinger L et al. | 2005 | The genome of the social amoeba Dictyostelium discoideum. | Nature 435:43-57 | doi:10.1038/nature03481
+Sucgang2011	PMID:21356102 | Sucgang R et al. | 2011 | Comparative genomics of the social amoebae Dictyostelium discoideum and Dictyostelium purpureum. | Genome Biol 12:R20 | doi:10.1186/gb-2011-12-2-r20
+Brown2009Fonticula	PMID:19692665 | Brown MW et al. | 2009 | Phylogeny of the "forgotten" cellular slime mold, Fonticula alba, reveals a key evolutionary branch within Opisthokonta. | Mol Biol Evol 26:2699-709 | doi:10.1093/molbev/msp185
+Brown2012Guttulinopsis	PMID:22608512 | Brown MW et al. | 2012 | Aggregative multicellularity evolved independently in the eukaryotic supergroup Rhizaria. | Curr Biol 22:1123-7 | doi:10.1016/j.cub.2012.04.021
+Brown2012Acrasids	PMID:22154141 | Brown MW et al. | 2012 | A contemporary evaluation of the acrasids (Acrasidae, Heterolobosea, Excavata). | Eur J Protistol 48:103-23 | doi:10.1016/j.ejop.2011.10.001
+Brown2011Copromyxa	PMID:21112814 | Brown MW et al. | 2011 | "Slime molds" among the Tubulinea (Amoebozoa): molecular systematics and taxonomy of Copromyxa. | Protist 162:277-87 | doi:10.1016/j.protis.2010.09.003
+Sorogena	PMID:18318864 | Sugimoto H et al. | 2008 | Differentially expressed genes during fruiting body development in the aggregative ciliate Sorogena stoianovitchae (Ciliophora: Colpodea). | J Eukaryot Microbiol 55:110-6 | doi:10.1111/j.1550-7408.2008.00312.x
+Sorogena	PMID:16894967 | Schnittler M et al. | 2006 | Species richness and ecological characterization of myxomycetes and myxomycete-like organisms in the canopy of a temperate deciduous forest. | Mycologia 98:223-32 | doi:10.3852/mycologia.98.2.223
+Sorogena	PMID:16579811 | Sugimoto H et al. | 2006 | Analysis of fruiting body development in the aggregative ciliate Sorogena stoianovitchae (Ciliophora, Colpodea). | J Eukaryot Microbiol 53:96-102 | doi:10.1111/j.1550-7408.2005.00077.x
+Tice2016	PMID:26940948 | Tice AK et al. | 2016 | Sorodiplophrys stercorea: Another Novel Lineage of Sorocarpic Multicellularity. | J Eukaryot Microbiol 63:623-8 | doi:10.1111/jeu.12311
+Du2015	PMID:26284972 | Du Q et al. | 2015 | The Evolution of Aggregative Multicellularity and Cell-Cell Communication in the Dictyostelia. | J Mol Biol 427:3722-33 | doi:10.1016/j.jmb.2015.08.008
+Dudin2019	PMID:31647412 | Dudin O et al. | 2019 | A unicellular relative of animals generates a layer of polarized cells by actomyosin-dependent cellularization. | Elife 8: | doi:10.7554/eLife.49801
+Olivetta2024	PMID:39506108 | Olivetta M et al. | 2024 | A multicellular developmental program in a close animal relative. | Nature 635:382-389 | doi:10.1038/s41586-024-08115-3
+Dayel2011	PMID:21699890 | Dayel MJ et al. | 2011 | Cell differentiation and morphogenesis in the colony-forming choanoflagellate Salpingoeca rosetta. | Dev Biol 357:73-82 | doi:10.1016/j.ydbio.2011.06.003
+Alegado2012	PMID:23066504 | Alegado RA et al. | 2012 | A bacterial sulfonolipid triggers multicellular development in the closest living relatives of animals. | Elife 1:e00013 | doi:10.7554/eLife.00013
+Brunet2019	PMID:31624206 | Brunet T et al. | 2019 | Light-regulated collective contractility in a multicellular choanoflagellate. | Science 366:326-334 | doi:10.1126/science.aay2346
+RosRocher2021	PMID:33622103 | Ros-Rocher N et al. | 2021 | The origin of animals: an ancestral reconstruction of the unicellular-to-multicellular transition. | Open Biol 11:200359 | doi:10.1098/rsob.200359
+Tikhonenkov2020	PMID:32976804 | Tikhonenkov DV et al. | 2020 | New Lineage of Microbial Predators Adds Complexity to Reconstructing the Evolutionary Origin of Animals. | Curr Biol 30:4500-4509.e5 | doi:10.1016/j.cub.2020.08.061
+Tikhonenkov2020	PMID:32325195 | Tikhonenkov DV et al. | 2020 | Predatory colponemids are the sister group to all other alveolates. | Mol Phylogenet Evol 149:106839 | doi:10.1016/j.ympev.2020.106839
+Kirk2005	PMID:15714559 | Kirk DL | 2005 | A twelve-step program for evolving multicellularity and a division of labor. | Bioessays 27:299-310 | doi:10.1002/bies.20197
+UmenHerron2021	PMID:34546795 | Umen J et al. | 2021 | Green Algal Models for Multicellularity. | Annu Rev Genet 55:603-632 | doi:10.1146/annurev-genet-032321-091533
+Lindsey2021	PMID:34465312 | Lindsey CR et al. | 2021 | Phylotranscriptomics points to multiple independent origins of multicellularity and cellular differentiation in the volvocine algae. | BMC Biol 19:182 | doi:10.1186/s12915-021-01087-0
+Michod2007	PMID:18031303 | Herron MD et al. | 2008 | Evolution of complexity in the volvocine algae: transitions in individuality through Darwin's eye. | Evolution 62:436-51 | doi:10.1111/j.1558-5646.2007.00304.x
+Michod2007	PMID:17494748 | Michod RE | 2007 | Evolution of individuality during the transition from unicellular to multicellular life. | Proc Natl Acad Sci U S A 104 Suppl 1:8613-8 | doi:10.1073/pnas.0701489104
+RuizTrillo2023	PMID:37406343 | Ruiz-Trillo I et al. | 2023 | The Origin of Metazoan Multicellularity: A Potential Microbial Black Swan Event. | Annu Rev Microbiol 77:499-516 | doi:10.1146/annurev-micro-032421-120023
+KinSchaap2021	PMID:33801615 | Kin K et al. | 2021 | Evolution of Multicellular Complexity in The Dictyostelid Social Amoebas. | Genes (Basel) 12: | doi:10.3390/genes12040487
+Abedin2008	PMID:18276888 | Abedin M et al. | 2008 | The premetazoan ancestry of cadherins. | Science 319:946-8 | doi:10.1126/science.1151084
+SebePedros2010integrin	PMID:21057645 | Sebé-Pedrós A et al. | 2010 | Integrin-mediated adhesion complex: Cooption of signaling systems at the dawn of Metazoa. | Commun Integr Biol 3:475-7 | doi:10.4161/cib.3.5.12603
+SebePedros2010integrin	PMID:20479219 | Sebé-Pedrós A et al. | 2010 | Ancient origin of the integrin-mediated adhesion and signaling machinery. | Proc Natl Acad Sci U S A 107:10142-7 | doi:10.1073/pnas.1002257107
+Manning2008	PMID:18621719 | Manning G et al. | 2008 | The protist, Monosiga brevicollis, has a tyrosine kinase signaling network more elaborate and diverse than found in any known metazoan. | Proc Natl Acad Sci U S A 105:9674-9 | doi:10.1073/pnas.0801314105
+Suga2012	PMID:22998693 | Schultheiss KP et al. | 2012 | Lack of Csk-mediated negative regulation in a unicellular SRC kinase. | Biochemistry 51:8267-77 | doi:10.1021/bi300965h
+Suga2012	PMID:22550341 | Suga H et al. | 2012 | Genomic survey of premetazoans shows deep conservation of cytoplasmic tyrosine kinases and multiple radiations of receptor tyrosine kinases. | Sci Signal 5:ra35 | doi:10.1126/scisignal.2002733
+SebePedros2011TF	PMID:22832104 | Sebé-Pedrós A et al. | 2012 | Premetazoan origin of the hippo signaling pathway. | Cell Rep 1:13-20 | doi:10.1016/j.celrep.2011.11.004
+SebePedros2011TF	PMID:21087945 | Sebé-Pedrós A et al. | 2011 | Unexpected repertoire of metazoan transcription factors in the unicellular holozoan Capsaspora owczarzaki. | Mol Biol Evol 28:1241-1254 | doi:10.1093/molbev/msq309
+deMendoza2013	PMID:24277850 | de Mendoza A et al. | 2013 | Transcription factor evolution in eukaryotes and the assembly of the regulatory toolkit in multicellular lineages. | Proc Natl Acad Sci U S A 110:E4858-66 | doi:10.1073/pnas.1311818110
+Durand2016	PMID:27404254 | Durand PM et al. | 2016 | Programmed Cell Death and Complexity in Microbial Systems. | Curr Biol 26:R587-R593 | doi:10.1016/j.cub.2016.05.057
+Niklas2014	PMID:24363320 | Niklas KJ | 2014 | The evolutionary-developmental origins of multicellularity. | Am J Bot 101:6-25 | doi:10.3732/ajb.1300314
+Niklas2015	PMID:25767796 | Niklas KJ et al. | 2015 | Rethinking gene regulatory networks in light of alternative splicing, intrinsically disordered protein domains, and post-translational modifications. | Front Cell Dev Biol 3:8 | doi:10.3389/fcell.2015.00008
+Dunker2015	PMID:25307499 | Dunker AK et al. | 2015 | Intrinsically disordered proteins and multicellular organisms. | Semin Cell Dev Biol 37:44-55 | doi:10.1016/j.semcdb.2014.09.025
+Schad2011	PMID:22182830 | Schad E et al. | 2011 | The relationship between proteome size, structural disorder and organism complexity. | Genome Biol 12:R120 | doi:10.1186/gb-2011-12-12-r120
+VogelChothia2006	PMID:16733546 | Vogel C et al. | 2006 | Protein family expansions and biological complexity. | PLoS Comput Biol 2:e48 | doi:10.1371/journal.pcbi.0020048
+Chen2014AS	PMID:24682283 | Chen L et al. | 2014 | Correcting for differential transcript coverage reveals a strong relationship between alternative splicing and organism complexity. | Mol Biol Evol 31:1402-13 | doi:10.1093/molbev/msu083
+Basu2008	PMID:18230802 | Basu MK et al. | 2008 | Evolution of protein domain promiscuity in eukaryotes. | Genome Res 18:449-61 | doi:10.1101/gr.6943508
+LynchConery2003	PMID:14631042 | Lynch M et al. | 2003 | The origins of genome complexity. | Science 302:1401-4 | doi:10.1126/science.1089370
+Lynch2007PNAS	PMID:17494740 | Lynch M | 2007 | The frailty of adaptive hypotheses for the origins of organismal complexity. | Proc Natl Acad Sci U S A 104 Suppl 1:8597-604 | doi:10.1073/pnas.0702207104
+Lynch2016NRG	PMID:27744412 | Dillon MM et al. | 2017 | Genome-Wide Biases in the Rate and Molecular Spectrum of Spontaneous Mutations in Vibrio cholerae and Vibrio fischeri. | Mol Biol Evol 34:93-109 | doi:10.1093/molbev/msw224
+Lynch2016NRG	PMID:27739533 | Lynch M et al. | 2016 | Genetic drift, selection and the evolution of the mutation rate. | Nat Rev Genet 17:704-714 | doi:10.1038/nrg.2016.104
+Lynch2016NRG	PMID:27635054 | Long H et al. | 2016 | Low Base-Substitution Mutation Rate in the Germline Genome of the Ciliate Tetrahymena thermophil. | Genome Biol Evol 8:3629-3639 | doi:10.1093/gbe/evw223
+Grochau2017	PMID:28425150 | Grochau-Wright ZI et al. | 2017 | Genetic basis for soma is present in undifferentiated volvocine green algae. | J Evol Biol 30:1205-1218 | doi:10.1111/jeb.13100
+Nedelcu2009	NOT-FOUND
+Kuo2009	PMID:19502381 | Kuo CH et al. | 2009 | The consequences of genetic drift for bacterial genome complexity. | Genome Res 19:1450-4 | doi:10.1101/gr.091785.109
+RERconverge2019	PMID:31192356 | Kowalczyk A et al. | 2019 | RERconverge: an R package for associating evolutionary rates with convergent traits. | Bioinformatics 35:4815-4817 | doi:10.1093/bioinformatics/btz468
+Chikina2016	PMID:27329977 | Chikina M et al. | 2016 | Hundreds of Genes Experienced Convergent Shifts in Selective Pressure in Marine Mammals. | Mol Biol Evol 33:2182-92 | doi:10.1093/molbev/msw112
+PhyloAcc2019	PMID:30851112 | Hu Z et al. | 2019 | Bayesian Detection of Convergent Rate Changes of Conserved Noncoding Elements on Phylogenetic Trees. | Mol Biol Evol 36:1086-1100 | doi:10.1093/molbev/msz049
+RELAX2015	PMID:25540451 | Wertheim JO et al. | 2015 | RELAX: detecting relaxed selection in a phylogenetic framework. | Mol Biol Evol 32:820-32 | doi:10.1093/molbev/msu400
+aBSREL2015	PMID:25697341 | Smith MD et al. | 2015 | Less is more: an adaptive branch-site random effects model for efficient detection of episodic diversifying selection. | Mol Biol Evol 32:1342-53 | doi:10.1093/molbev/msv022
+HyPhy2020	PMID:31504749 | Kosakovsky Pond SL et al. | 2020 | HyPhy 2.5-A Customizable Platform for Evolutionary Hypothesis Testing Using Phylogenies. | Mol Biol Evol 37:295-299 | doi:10.1093/molbev/msz197
+Hiller2012	PMID:23022484 | Hiller M et al. | 2012 | A "forward genomics" approach links genotype to phenotype using independent phenotypic losses among related species. | Cell Rep 2:817-23 | doi:10.1016/j.celrep.2012.08.032
+Prudent2016	PMID:27222536 | Prudent X et al. | 2016 | Controlling for Phylogenetic Relatedness and Evolutionary Rates Improves the Discovery of Associations Between Species' Phenotypic and Genomic Differences. | Mol Biol Evol 33:2135-50 | doi:10.1093/molbev/msw098
+CSUBST2023	PMID:36604553 | Fukushima K et al. | 2023 | Detecting macroevolutionary genotype-phenotype associations using error-corrected rates of protein convergence. | Nat Ecol Evol 7:155-170 | doi:10.1038/s41559-022-01932-7
+PCOC2018	PMID:29986048 | Rey C et al. | 2018 | Accurate Detection of Convergent Amino-Acid Evolution with PCOC. | Mol Biol Evol 35:2296-2306 | doi:10.1093/molbev/msy114
+TraitRELAX	PMID:33252676 | Halabi K et al. | 2021 | A Codon Model for Associating Phenotypic Traits with Altered Selective Patterns of Sequence Evolution. | Syst Biol 70:608-622 | doi:10.1093/sysbio/syaa087
+Foldseek2024	PMID:37156916 | van Kempen M et al. | 2024 | Fast and accurate protein structure search with Foldseek. | Nat Biotechnol 42:243-246 | doi:10.1038/s41587-023-01773-0
+AFDB2024	PMID:37933859 | Varadi M et al. | 2024 | AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. | Nucleic Acids Res 52:D368-D375 | doi:10.1093/nar/gkad1011
+AFDB2022	PMID:36382391 | Varadi M et al. | 2023 | The impact of AlphaFold Protein Structure Database on the fields of life sciences. | Proteomics 23:e2200128 | doi:10.1002/pmic.202200128
+AFDB2022	PMID:36012140 | Tordai H et al. | 2022 | Comprehensive Collection and Prediction of ABC Transmembrane Protein Structures in the AI Era of Structural Biology. | Int J Mol Sci 23: | doi:10.3390/ijms23168877
+AFDB2022	PMID:34791371 | Varadi M et al. | 2022 | AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. | Nucleic Acids Res 50:D439-D444 | doi:10.1093/nar/gkab1061
+Jumper2021	PMID:34599769 | Jumper J et al. | 2021 | Applying and improving AlphaFold at CASP14. | Proteins 89:1711-1721 | doi:10.1002/prot.26257
+Jumper2021	PMID:34293799 | Tunyasuvunakool K et al. | 2021 | Highly accurate protein structure prediction for the human proteome. | Nature 596:590-596 | doi:10.1038/s41586-021-03828-1
+Jumper2021	PMID:34265844 | Jumper J et al. | 2021 | Highly accurate protein structure prediction with AlphaFold. | Nature 596:583-589 | doi:10.1038/s41586-021-03819-2
+BarrioHernandez2023	PMID:37704730 | Barrio-Hernandez I et al. | 2023 | Clustering predicted structures at the scale of the known protein universe. | Nature 622:637-645 | doi:10.1038/s41586-023-06510-w
+Moi2025	PMID:41073779 | Moi D et al. | 2025 | Structural phylogenetics unravels the evolutionary diversification of communication systems in gram-positive bacteria and their viruses. | Nat Struct Mol Biol 32:2492-2502 | doi:10.1038/s41594-025-01649-8
+Moi2025	PMID:37913770 | Himmel NJ et al. | 2023 | Remote homolog detection places insect chemoreceptors in a cryptic protein superfamily spanning the tree of life. | Curr Biol 33:5023-5033.e4 | doi:10.1016/j.cub.2023.10.008
+Moi2025	PMID:33274716 | Benton R et al. | 2020 | A putative origin of the insect chemosensory receptor superfamily in the last common eukaryotic ancestor. | Elife 9: | doi:10.7554/eLife.62507
+PuenteLelievre	PMID:42681295 | Puente-Lelievre C et al. | 2026 | An Introduction to Structural Phylogenetics for Biomedical Sciences. | Methods Mol Biol 3062:73-97 | doi:10.1007/978-1-0716-5440-8_4
+PuenteLelievre	PMID:42215467 | Liu M et al. | 2026 | The prokaryotic origins of the COMMD protein family involved in eukaryotic membrane trafficking. | Nat Commun 17: | doi:10.1038/s41467-026-73536-9
+PuenteLelievre	PMID:40928260 | Puente-Lelievre C et al. | 2025 | Evolution and structural diversity of the MotAB stator: insights into the origins of bacterial flagellar motility. | mBio 16:e0382424 | doi:10.1128/mbio.03824-24
+Malik2020	PMID:32302382 | Malik AJ et al. | 2020 | Structural Phylogenetics with Confidence. | Mol Biol Evol 37:2711-2726 | doi:10.1093/molbev/msaa100
+Count2010	PMID:20551134 | Csurös M | 2010 | Count: evolutionary analysis of phylogenetic profiles with parsimony and likelihood. | Bioinformatics 26:1910-2 | doi:10.1093/bioinformatics/btq315
+CAFE5	NOT-FOUND
+BadiRate	PMID:22080468 | Librado P et al. | 2012 | BadiRate: estimating family turnover rates by likelihood-based methods. | Bioinformatics 28:279-81 | doi:10.1093/bioinformatics/btr623
+ALE2013	NOT-FOUND
+GeneRax2020	PMID:32502238 | Morel B et al. | 2020 | GeneRax: A Tool for Species-Tree-Aware Maximum Likelihood-Based Gene  Family Tree Inference under Gene Duplication, Transfer, and Loss. | Mol Biol Evol 37:2763-2774 | doi:10.1093/molbev/msaa141
+AleRax	PMID:38514421 | Morel B et al. | 2024 | AleRax: a tool for gene and species tree co-estimation and reconciliation under a probabilistic model of gene duplication, transfer, and loss. | Bioinformatics 40: | doi:10.1093/bioinformatics/btae162
+OMA2024	PMID:38434623 | Thiébaut A et al. | 2023 | DrosOMA: the Drosophila Orthologous Matrix browser. | F1000Res 12:936 | doi:10.12688/f1000research.135250.2
+OMA2024	PMID:37962356 | Altenhoff AM et al. | 2024 | OMA orthology in 2024: improved prokaryote coverage, ancestral and extant GO enrichment, a revamped synteny viewer and more in the OMA Ecosystem. | Nucleic Acids Res 52:D513-D521 | doi:10.1093/nar/gkad1020
+pyham2019	PMID:30508066 | Train CM et al. | 2019 | iHam and pyHam: visualizing and processing hierarchical orthologous groups. | Bioinformatics 35:2504-2506 | doi:10.1093/bioinformatics/bty994
+FastOMA	PMID:39753922 | Majidian S et al. | 2025 | Orthology inference at scale with FastOMA. | Nat Methods 22:269-272 | doi:10.1038/s41592-024-02552-8
+OrthoFinder2019	PMID:31727128 | Emms DM et al. | 2019 | OrthoFinder: phylogenetic orthology inference for comparative genomics. | Genome Biol 20:238 | doi:10.1186/s13059-019-1832-y
+Broccoli	PMID:32602888 | Derelle R et al. | 2020 | Broccoli: Combining Phylogenetic and Network Analyses for Orthology Assignment. | Mol Biol Evol 37:3389-3396 | doi:10.1093/molbev/msaa159
+Weisman2020	PMID:33137085 | Weisman CM et al. | 2020 | Many, but not all, lineage-specific genes can be explained by homology detection failure. | PLoS Biol 18:e3000862 | doi:10.1371/journal.pbio.3000862
+Moyers2015	PMID:25312911 | Moyers BA et al. | 2015 | Phylostratigraphic bias creates spurious patterns of genome evolution. | Mol Biol Evol 32:258-67 | doi:10.1093/molbev/msu286
+Deutekom2019	PMID:31461468 | Deutekom ES et al. | 2019 | Measuring the impact of gene prediction on gene loss estimates in Eukaryotes by quantifying falsely inferred absences. | PLoS Comput Biol 15:e1007301 | doi:10.1371/journal.pcbi.1007301
+Vosseberg2021	PMID:33106602 | Vosseberg J et al. | 2021 | Timing the origin of eukaryotic cellular complexity with ancient duplications. | Nat Ecol Evol 5:92-100 | doi:10.1038/s41559-020-01320-z
+CroCo2018	PMID:29506533 | Simion P et al. | 2018 | A software tool 'CroCo' detects pervasive cross-species contamination in next generation sequencing data. | BMC Biol 16:28 | doi:10.1186/s12915-018-0486-7
+BUSCO2021	PMID:34936221 | Manni M et al. | 2021 | BUSCO: Assessing Genomic Data Quality and Beyond. | Curr Protoc 1:e323 | doi:10.1002/cpz1.323
+BUSCO2021	PMID:34320186 | Manni M et al. | 2021 | BUSCO Update: Novel and Streamlined Workflows along with Broader and Deeper Phylogenetic Coverage for Scoring of Eukaryotic, Prokaryotic, and Viral Genomes. | Mol Biol Evol 38:4647-4654 | doi:10.1093/molbev/msab199
+BUSCO2021	PMID:33196836 | Zdobnov EM et al. | 2021 | OrthoDB in 2020: evolutionary and functional annotations of orthologs. | Nucleic Acids Res 49:D389-D393 | doi:10.1093/nar/gkaa1009
+Conterminator	PMID:32398145 | Steinegger M et al. | 2020 | Terminating contamination: large-scale search identifies more than 2,000,000 contaminated entries in GenBank. | Genome Biol 21:115 | doi:10.1186/s13059-020-02023-1
+EukProt	NOT-FOUND
+eggNOG6	PMID:36399505 | Hernández-Plaza A et al. | 2023 | eggNOG 6.0: enabling comparative genomics across 12 535 organisms. | Nucleic Acids Res 51:D389-D394 | doi:10.1093/nar/gkac1022
+UniProt2025	PMID:40331428 | Ahmad S et al. | 2025 | The UniProt website API: facilitating programmatic access to protein knowledge. | Nucleic Acids Res 53:W547-W553 | doi:10.1093/nar/gkaf394
+UniProt2025	PMID:39552041 | UniProt Consortium | 2025 | UniProt: the Universal Protein Knowledgebase in 2025. | Nucleic Acids Res 53:D609-D617 | doi:10.1093/nar/gkae1010
+InterPro2025	PMID:39565202 | Blum M et al. | 2025 | InterPro: the protein sequence classification resource in 2025. | Nucleic Acids Res 53:D444-D456 | doi:10.1093/nar/gkae1082
+InterPro2025	PMID:39540428 | Paysan-Lafosse T et al. | 2025 | The Pfam protein families database: embracing AI/ML. | Nucleic Acids Res 53:D523-D534 | doi:10.1093/nar/gkae997
+Pfam2021	PMID:33147627 | Hufsky F et al. | 2021 | Computational strategies to combat COVID-19: useful tools to accelerate SARS-CoV-2 and coronavirus research. | Brief Bioinform 22:642-663 | doi:10.1093/bib/bbaa232
+Pfam2021	PMID:33125078 | Mistry J et al. | 2021 | Pfam: The protein families database in 2021. | Nucleic Acids Res 49:D412-D419 | doi:10.1093/nar/gkaa913
+Phytozome	PMID:22110026 | Goodstein DM et al. | 2012 | Phytozome: a comparative platform for green plant genomics. | Nucleic Acids Res 40:D1178-86 | doi:10.1093/nar/gkr944
+MycoCosm	PMID:24297253 | Grigoriev IV et al. | 2014 | MycoCosm portal: gearing up for 1000 fungal genomes. | Nucleic Acids Res 42:D699-704 | doi:10.1093/nar/gkt1183
+PhycoCosm	PMID:33104790 | Grigoriev IV et al. | 2021 | PhycoCosm, a comparative algal genomics resource. | Nucleic Acids Res 49:D1004-D1011 | doi:10.1093/nar/gkaa898
+DToL2022	PMID:35042805 | Darwin Tree of Life Project Consortium | 2022 | Sequence locally, think globally: The Darwin Tree of Life Project. | Proc Natl Acad Sci U S A 119: | doi:10.1073/pnas.2115642118
+EBP2018	PMID:29686065 | Lewin HA et al. | 2018 | Earth BioGenome Project: Sequencing life for the future of life. | Proc Natl Acad Sci U S A 115:4325-4333 | doi:10.1073/pnas.1720115115
+Burki2020	PMID:31606140 | Burki F et al. | 2020 | The New Tree of Eukaryotes. | Trends Ecol Evol 35:43-55 | doi:10.1016/j.tree.2019.08.008
+GTDB2022	PMID:36218463 | Chaumeil PA et al. | 2022 | GTDB-Tk v2: memory friendly classification with the genome taxonomy database. | Bioinformatics 38:5315-5316 | doi:10.1093/bioinformatics/btac672
+GTDB2022	PMID:34520557 | Parks DH et al. | 2022 | GTDB: an ongoing census of bacterial and archaeal diversity through a phylogenetically consistent, rank normalized and complete genome-based taxonomy. | Nucleic Acids Res 50:D785-D794 | doi:10.1093/nar/gkab776
+Madin2020	PMID:32503990 | Madin JS et al. | 2020 | A synthesis of bacterial and archaeal phenotypic trait data. | Sci Data 7:170 | doi:10.1038/s41597-020-0497-4
+Fisher2020	PMID:32693719 | Fisher RM et al. | 2020 | The evolution of multicellular complexity: the role of relatedness and environmental constraints. | Proc Biol Sci 287:20192963 | doi:10.1098/rspb.2019.2963
+AIUPred	PMID:40133781 | Erdős G et al. | 2025 | AIUPred - Binding: Energy Embedding to Identify Disordered Binding Regions. | J Mol Biol 437:169071 | doi:10.1016/j.jmb.2025.169071
+AIUPred	PMID:38747347 | Erdős G et al. | 2024 | AIUPred: combining energy estimation with deep learning for the enhanced prediction of protein disorder. | Nucleic Acids Res 52:W176-W181 | doi:10.1093/nar/gkae385
+metapredict	PMID:34480923 | Emenecker RJ et al. | 2021 | Metapredict: a fast, accurate, and easy-to-use predictor of consensus disorder and structure. | Biophys J 120:4312-4319 | doi:10.1016/j.bpj.2021.08.039
+LukProt	PMID:39431411 | Sobala ŁF | 2024 | LukProt: A Database of Eukaryotic Predicted Proteins Designed for Investigations of Animal Origins. | Genome Biol Evol 16: | doi:10.1093/gbe/evae231
+Eukaryome	PMID:40994536 | De Santiago A et al. | 2025 | Persistent gaps and errors in reference databases impede ecologically meaningful taxonomy assignments in 18S rRNA studies: a case study of terrestrial and marine nematodes. | Environ DNA 7: | doi:10.1002/edn3.70080
+Eukaryome	PMID:38865431 | Tedersoo L et al. | 2024 | EUKARYOME: the rRNA gene reference database for identification of all eukaryotes. | Database (Oxford) 2024: | doi:10.1093/database/baae043
+EukProt	CROSSREF | Richter D et al. | 2022 | EukProt: A database of genome-scale predicted proteins across the diversity of eukaryotes | Peer Community Journal 2: | doi:10.24072/pcjournal.173
+CAFE5	PMID:33325502 | Mendes FK et al. | 2021 | CAFE 5 models variation in evolutionary rates among gene families. | Bioinformatics 36:5516-5518 | doi:10.1093/bioinformatics/btaa1022
+ALE2013	PMID:26323765 | Szöllősi GJ et al. | 2015 | Genome-scale phylogenetic analysis finds extensive gene transfer among fungi. | Philos Trans R Soc Lond B Biol Sci 370:20140335 | doi:10.1098/rstb.2014.0335
+ALE2013	PMID:23355531 | Szöllosi GJ et al. | 2013 | Lateral gene transfer from the dead. | Syst Biol 62:386-97 | doi:10.1093/sysbio/syt003
+dosReis2015	NOT-FOUND
+Morris2018	PMID:29463716 | Morris JL et al. | 2018 | The timescale of early land plant evolution. | Proc Natl Acad Sci U S A 115:E2274-E2283 | doi:10.1073/pnas.1719588115
+Gibson2018	CROSSREF | Gibson T et al. | 2017 | Precise age of Bangiomorpha pubescens dates the origin of eukaryotic photosynthesis | Geology 46:135-138 | doi:10.1130/G39829.1
+Strassert2021	PMID:34099732 | Strassert JFH et al. | 2021 | Author Correction: A molecular timescale for eukaryote evolution with implications for the origin of red algal-derived plastids. | Nat Commun 12:3574 | doi:10.1038/s41467-021-23847-w
+Strassert2021	PMID:33767194 | Strassert JFH et al. | 2021 | A molecular timescale for eukaryote evolution with implications for the origin of red algal-derived plastids. | Nat Commun 12:1879 | doi:10.1038/s41467-021-22044-z
+ButterfieldBangiomorpha	CROSSREF | Butterfield N | 2000 | <i>Bangiomorpha pubescens</i>n. gen., n. sp.: implications for the evolution of sex, multicellularity, and the Mesoproterozoic/Neoproterozoic radiation of eukaryotes | Paleobiology 26:386-404 | doi:10.1666/0094-8373(2000)026<0386:BPNGNS>2.0.CO;2
+MMB_Abreu2007	PMID:31535336 | de Melo RD et al. | 2020 | The swimming orientation of multicellular magnetotactic prokaryotes and uncultured magnetotactic cocci in magnetic fields similar to the geomagnetic field reveals differences in magnetotaxis between them. | Antonie Van Leeuwenhoek 113:197-209 | doi:10.1007/s10482-019-01330-3
+MMB_Abreu2007	PMID:29915893 | Leão P et al. | 2018 | Association of magnetotactic multicellular prokaryotes with Pseudoalteromonas species in a natural lagoon environment. | Antonie Van Leeuwenhoek 111:2213-2223 | doi:10.1007/s10482-018-1113-x
+MMB_Abreu2007	PMID:24196322 | Abreu F et al. | 2014 | Deciphering unusual uncultured magnetotactic multicellular prokaryotes through genomics. | ISME J 8:1055-68 | doi:10.1038/ismej.2013.203
+MMB_genome	PMID:24196322 | Abreu F et al. | 2014 | Deciphering unusual uncultured magnetotactic multicellular prokaryotes through genomics. | ISME J 8:1055-68 | doi:10.1038/ismej.2013.203
+MMB_genome	PMID:17551050 | Abreu F et al. | 2007 | 'Candidatus Magnetoglobus multicellularis', a multicellular, magnetotactic prokaryote from a hypersaline environment. | Int J Syst Evol Microbiol 57:1318-1322 | doi:10.1099/ijs.0.64857-0
+MMB_Chen2022	PMID:35630369 | Cui K et al. | 2022 | A Novel Isolate of Spherical Multicellular Magnetotactic Prokaryotes Has Two Magnetosome Gene Clusters and Synthesizes Both Magnetite and Greigite Crystals. | Microorganisms 10: | doi:10.3390/microorganisms10050925
+MMB_Chen2022	PMID:35246304 | Li XG et al. | 2022 | Complete genome sequence of Crassaminicella sp. 143-21，isolated from a deep-sea hydrothermal vent. | Mar Genomics 62:100899 | doi:10.1016/j.margen.2021.100899
+MMB_Chen2022	PMID:35023778 | Ji R et al. | 2022 | MagCluster: a Tool for Identification, Annotation, and Visualization of Magnetosome Gene Clusters. | Microbiol Resour Announc 11:e0103121 | doi:10.1128/mra.01031-21
+Methanosarcina	PMID:40709923 | Rotaru A-E et al. | 2025 | Cell surface differences within the genus Methanosarcina shape interactions with the extracellular environment. | J Bacteriol 207:e0011225 | doi:10.1128/jb.00112-25
+Methanosarcina	PMID:25361175 | Milkevych V et al. | 2014 | Controlling mechanisms in directional growth of aggregated archaeal cells. | Soft Matter 10:9615-25 | doi:10.1039/c4sm01870b
+Methanosarcina	PMID:18791805 | Vavilin VA et al. | 2008 | Methanosarcina as the dominant aceticlastic methanogens during mesophilic anaerobic digestion of putrescible waste. | Antonie Van Leeuwenhoek 94:593-605 | doi:10.1007/s10482-008-9279-2
+ArchaeaTissue	PMID:40179183 | Rados T et al. | 2025 | Tissue-like multicellular development triggered by mechanical compression in archaea. | Science 388:109-115 | doi:10.1126/science.adu0047
+Streptomyces_McCormick	PMID:22092088 | McCormick JR et al. | 2012 | Signals and regulators that govern Streptomyces development. | FEMS Microbiol Rev 36:206-31 | doi:10.1111/j.1574-6976.2011.00317.x
+Chater2016	PMID:27990276 | Chater KF | 2016 | Recent advances in understanding Streptomyces. | F1000Res 5:2795 | doi:10.12688/f1000research.9534.1
+Chater2016	PMID:27288284 | Niu G et al. | 2016 | Specialised metabolites regulating antibiotic biosynthesis in Streptomyces spp. | FEMS Microbiol Rev 40:554-73 | doi:10.1093/femsre/fuw012
+MyxoMunoz2016	PMID:27303375 | Muñoz-Dorado J et al. | 2016 | Myxobacteria: Moving, Killing, Feeding, and Surviving Together. | Front Microbiol 7:781 | doi:10.3389/fmicb.2016.00781
+MyxoMunoz2016	PMID:26951374 | Marcos-Torres FJ et al. | 2016 | In depth analysis of the mechanism of action of metal-dependent sigma factors: characterization of CorE2 from Myxococcus xanthus. | Nucleic Acids Res 44:5571-84 | doi:10.1093/nar/gkw150
+MyxoMunoz2016	PMID:26929132 | Sánchez-Sutil MC et al. | 2016 | Dissection of the sensor domain of the copper-responsive histidine kinase CorS from Myxococcus xanthus. | Environ Microbiol Rep 8:363-70 | doi:10.1111/1758-2229.12389
+Rosenberg_myxo	PMID:40525847 | Kroos L et al. | 2025 | Milestones in the development of Myxococcus xanthus as a model multicellular bacterium. | J Bacteriol 207:e0007125 | doi:10.1128/jb.00071-25
+Rosenberg_myxo	PMID:34683464 | Whitworth DE et al. | 2021 | Myxobacterial Genomics and Post-Genomics: A Review of Genome Biology, Genome Sequences and Related 'Omics Studies. | Microorganisms 9: | doi:10.3390/microorganisms9102143
+Rosenberg_myxo	PMID:30919490 | Marshall RC et al. | 2019 | Is "Wolf-Pack" Predation by Antimicrobial Bacteria Cooperative? Cell Behaviour and Predatory Mechanisms Indicate Profound Selfishness, Even when Working Alongside Kin. | Bioessays 41:e1800247 | doi:10.1002/bies.201800247
+Grosberg_none	PMID:20100213 | Strassmann JE et al. | 2010 | The social organism: congresses, parties, and committees. | Evolution 64:605-16 | doi:10.1111/j.1558-5646.2009.00929.x
+Queller2009	PMID:19805423 | Queller DC et al. | 2009 | Beyond society: the evolution of organismality. | Philos Trans R Soc Lond B Biol Sci 364:3143-55 | doi:10.1098/rstb.2009.0095
+SzathmaryMaynardSmith1995	NOT-FOUND
+Bonner1998	NOT-FOUND
+Ruiz-Trillo2007	PMID:17275133 | Ruiz-Trillo I et al. | 2007 | The origins of multicellularity: a multi-taxon genome initiative. | Trends Genet 23:113-8 | doi:10.1016/j.tig.2007.01.005
+Torruella2015	PMID:26365255 | Torruella G et al. | 2015 | Phylogenomics Reveals Convergent Evolution of Lifestyles in Close Relatives of Animals and Fungi. | Curr Biol 25:2404-10 | doi:10.1016/j.cub.2015.07.053
+Hehenberger2017	NOT-FOUND
+Ondracka2018	PMID:29887314 | Ondracka A et al. | 2018 | Decoupling of Nuclear Division Cycles and Cell Size during the Coenocytic Growth of the Ichthyosporean Sphaeroforma arctica. | Curr Biol 28:1964-1969.e2 | doi:10.1016/j.cub.2018.04.074
+SuarezLopez	PMID:23333946 | Suga H et al. | 2013 | Development of ichthyosporeans sheds light on the origin of metazoan multicellularity. | Dev Biol 377:284-92 | doi:10.1016/j.ydbio.2013.01.009
+SuarezLopez	PMID:23083534 | Paps J et al. | 2013 | Molecular phylogeny of unikonts: new insights into the position of apusomonads and ancyromonads and the internal relationships of opisthokonts. | Protist 164:2-12 | doi:10.1016/j.protis.2012.09.002
+LasekNesselquist2001	PMID:11596926 | Lasek-Nesselquist E et al. | 2001 | Phylogenetic position of Sorogena stoianovitchae and relationships within the class Colpodea (Ciliophora) based on SSU rDNA sequences. | J Eukaryot Microbiol 48:604-7 | doi:10.1111/j.1550-7408.2001.tb00197.x
+FonticulaGenome	PMID:24843829 | Barlow LD et al. | 2014 | From all to (nearly) none: Tracing adaptin evolution in Fungi. | Cell Logist 4:e28114 | doi:10.4161/cl.28114
+FonticulaGenome	PMID:19692665 | Brown MW et al. | 2009 | Phylogeny of the "forgotten" cellular slime mold, Fonticula alba, reveals a key evolutionary branch within Opisthokonta. | Mol Biol Evol 26:2699-709 | doi:10.1093/molbev/msp185
+AcrasisGenome	PMID:42946458 | Mirzoyan S et al. | 2026 | Diverse RNA Editing Systems Across Heterolobosea (Discoba). | RNA : | doi:10.1261/rna.080828.125
+AcrasisGenome	PMID:40059518 | Tice AK et al. | 2025 | Validating the Genus Pocheina (Acrasidae, Heterolobosea, Discoba) Leads to the Recognition of Three Major Lineages Within Acrasidae. | J Eukaryot Microbiol 72:e70004 | doi:10.1111/jeu.70004
+AcrasisGenome	PMID:39587099 | Sheikh S et al. | 2024 | The Acrasis kona genome and developmental transcriptomes reveal deep origins of eukaryotic multicellular pathways. | Nat Commun 15:10197 | doi:10.1038/s41467-024-54029-z
+Srivastava2010	PMID:20686567 | Srivastava M et al. | 2010 | The Amphimedon queenslandica genome and the evolution of animal complexity. | Nature 466:720-6 | doi:10.1038/nature09201
+Srivastava2010	PMID:20082688 | Srivastava M et al. | 2010 | Early evolution of the LIM homeobox gene family. | BMC Biol 8:4 | doi:10.1186/1741-7007-8-4
+Bowles2020	PMID:31956023 | Bowles AMC et al. | 2020 | The Origin of Land Plants Is Rooted in Two Bursts of Genomic Novelty. | Curr Biol 30:530-536.e2 | doi:10.1016/j.cub.2019.11.090
+Catarino2016	PMID:27499132 | Catarino B et al. | 2016 | The Stepwise Increase in the Number of Transcription Factor Families in the Precambrian Predated the Diversification of Plants On Land. | Mol Biol Evol 33:2815-2819 | doi:10.1093/molbev/msw155
+Lang2010	PMID:20644220 | Lang D et al. | 2010 | Genome-wide phylogenetic comparative analysis of plant transcriptional regulation: a timeline of loss, gain, expansion, and correlation with complexity. | Genome Biol Evol 2:488-503 | doi:10.1093/gbe/evq032
+Yruela2017	PMID:28430951 | Yruela I et al. | 2017 | Evidence for a Strong Correlation Between Transcription Factor Protein Disorder and Organismic Complexity. | Genome Biol Evol 9:1248-1265 | doi:10.1093/gbe/evx073
+Ahrens2017	PMID:28597295 | Ahrens JB et al. | 2017 | Evolution of intrinsic disorder in eukaryotic proteins. | Cell Mol Life Sci 74:3163-3174 | doi:10.1007/s00018-017-2559-0
+Xue2012	PMID:22702725 | Xue B et al. | 2012 | Orderly order in protein intrinsic disorder distribution: disorder in 3500 proteomes from viruses and the three domains of life. | J Biomol Struct Dyn 30:137-49 | doi:10.1080/07391102.2012.675145
+GrauBove2018	PMID:30223879 | Grau-Bové X et al. | 2018 | Origin of exon skipping-rich transcriptomes in animals driven by evolution of gene architecture. | Genome Biol 19:135 | doi:10.1186/s13059-018-1499-9
+SebePedros2018NEE	PMID:29942020 | Sebé-Pedrós A et al. | 2018 | Early metazoan cell type diversity and the evolution of multicellular gene regulation. | Nat Ecol Evol 2:1176-1188 | doi:10.1038/s41559-018-0575-6
+CsurosMiklos2009	PMID:19570746 | Csurös M et al. | 2009 | Streamlining and large ancestral genomes in Archaea inferred with a phylogenetic birth-and-death model. | Mol Biol Evol 26:2087-95 | doi:10.1093/molbev/msp123
+Altenhoff2013	PMID:23342000 | Altenhoff AM et al. | 2013 | Inferring hierarchical orthologous groups from orthologous gene pairs. | PLoS One 8:e53786 | doi:10.1371/journal.pone.0053786
+Mayerhofer1992	PMID:1370285 | Mayerhofer LE et al. | 1992 | Lamina, a novel multicellular form of Methanosarcina mazei S-6. | J Bacteriol 174:309-14 | doi:10.1128/jb.174.1.309-314.1992
+Nyongesa2022	PMID:35995772 | Nyongesa S et al. | 2022 | Evolution of longitudinal division in multicellular bacteria of the Neisseriaceae family. | Nat Commun 13:4853 | doi:10.1038/s41467-022-32260-w
+Herrero2016	PMID:28204529 | Herrero A et al. | 2016 | The multicellular nature of filamentous heterocyst-forming cyanobacteria. | FEMS Microbiol Rev 40:831-854 | doi:10.1093/femsre/fuw029
+McDonald2017	PMID:28588130 | McDonald BR et al. | 2017 | Lateral Gene Transfer Dynamics in the Ancient Bacterial Genus Streptomyces. | mBio 8: | doi:10.1128/mBio.00644-17
+Shih2013	PMID:23277585 | Shih PM et al. | 2013 | Improving the coverage of the cyanobacterial phylum using diversity-driven genome sequencing. | Proc Natl Acad Sci U S A 110:1053-8 | doi:10.1073/pnas.1217107110
+Minh2020	PMID:32556291 | Minh BQ et al. | 2020 | Corrigendum to: IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era. | Mol Biol Evol 37:2461 | doi:10.1093/molbev/msaa131
+Minh2020	PMID:32011700 | Minh BQ et al. | 2020 | IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era. | Mol Biol Evol 37:1530-1534 | doi:10.1093/molbev/msaa015
+Minh2020	PMID:31364711 | Crotty SM et al. | 2020 | GHOST: Recovering Historical Signal from Heterotachously Evolved Sequence Alignments. | Syst Biol 69:249-264 | doi:10.1093/sysbio/syz051
+GRASP	PMID:36279274 | Foley G et al. | 2022 | Engineering indel and substitution variants of diverse and ancient enzymes using Graphical Representation of Ancestral Sequence Predictions (GRASP). | PLoS Comput Biol 18:e1010633 | doi:10.1371/journal.pcbi.1010633
+GRASP	PMID:34813061 | Ross CM et al. | 2022 | Using the Evolutionary History of Proteins to Engineer Insertion-Deletion Mutants from Robust, Ancestral Templates Using Graphical Representation of Ancestral Sequence Predictions (GRASP). | Methods Mol Biol 2397:85-110 | doi:10.1007/978-1-0716-1826-4_6
+Domazet2007	PMID:18029048 | Domazet-Loso T et al. | 2007 | A phylostratigraphy approach to uncover the genomic history of major adaptations in metazoan lineages. | Trends Genet 23:533-9 | doi:10.1016/j.tig.2007.08.014
+Bringloe2020	PMID:33252684 | Grant WS et al. | 2020 | Pleistocene Ice Ages Created New Evolutionary Lineages, but Limited Speciation in Northeast Pacific Winged Kelp. | J Hered 111:593-605 | doi:10.1093/jhered/esaa053
+Yoon2006	NOT-FOUND
+Kapli_LBA	PMID:34892859 | Bergsten J | 2005 | A review of long-branch attraction. | Cladistics 21:163-193 | doi:10.1111/j.1096-0031.2005.00059.x
+dosReis2015b	PMID:26603774 | dos Reis M et al. | 2015 | Uncertainty in the Timing of Origin of Animals and the Limits of Precision in Molecular Timescales. | Curr Biol 25:2939-50 | doi:10.1016/j.cub.2015.09.066
+Sebe-PedrosCoopt	PMID:23770652 | Sebé-Pedrós A et al. | 2013 | Insights into the origin of metazoan filopodia and microvilli. | Mol Biol Evol 30:2013-23 | doi:10.1093/molbev/mst110
+Hehenberger2017b	PMID:28648822 | Hehenberger E et al. | 2017 | Novel Predators Reshape Holozoan Phylogeny and Reveal the Presence of a Two-Component Signaling System in the Ancestor of Animals. | Curr Biol 27:2043-2050.e6 | doi:10.1016/j.cub.2017.06.006
+Brown2018Nat	NOT-FOUND
+Kawabe2019	NOT-FOUND
+Schilde2019	PMID:31840775 | Kawabe Y et al. | 2019 | Evolution of multicellularity in Dictyostelia. | Int J Dev Biol 63:359-369 | doi:10.1387/ijdb.190108ps
+Schilde2019	PMID:31752673 | Forbes G et al. | 2019 | Phylogeny-wide conservation and change in developmental expression, cell-type specificity and functional domains of the transcriptional regulators of social amoebas. | BMC Genomics 20:890 | doi:10.1186/s12864-019-6239-3
+Schilde2019	PMID:30711536 | Schilde C et al. | 2019 | A well supported multi gene phylogeny of 52 dictyostelia. | Mol Phylogenet Evol 134:66-73 | doi:10.1016/j.ympev.2019.01.017
+Nagy2017spectrum	PMID:28820115 | Nagy LG et al. | 2017 | Six Key Traits of Fungi: Their Evolutionary Origins and Genetic Bases. | Microbiol Spectr 5: | doi:10.1128/microbiolspec.FUNK-0036-2016
+Stajich2009	NOT-FOUND
+Grosberg_fungi	NOT-FOUND
+Varga2019	PMID:30886374 | Varga T et al. | 2019 | Megaphylogeny resolves global patterns of mushroom evolution. | Nat Ecol Evol 3:668-678 | doi:10.1038/s41559-019-0834-1
+Ratcliff2015	PMID:25600558 | Ratcliff WC et al. | 2015 | Origins of multicellular evolvability in snowflake yeast. | Nat Commun 6:6102 | doi:10.1038/ncomms7102
+Hanschen2018	NOT-FOUND
+Hanschen2017	PMID:28425150 | Grochau-Wright ZI et al. | 2017 | Genetic basis for soma is present in undifferentiated volvocine green algae. | J Evol Biol 30:1205-1218 | doi:10.1111/jeb.13100
+nascentLC	CROSSREF | Pentz J et al. | 2023 | Evolutionary consequences of nascent multicellular life cycles | eLife 12: | doi:10.7554/eLife.84336
+ChlamyPredisp	PMID:40380887 | Chen ICK et al. | 2025 | Genetic Predisposition Toward Multicellularity in Chlamydomonas reinhardtii. | Genome Biol Evol 17: | doi:10.1093/gbe/evaf090
+SzathmaryMS1995	CROSSREF | Szathmáry E et al. | 1995 | The major evolutionary transitions | Nature 374:227-232 | doi:10.1038/374227a0
+LynchBook2007	PMID:17494740 | Lynch M | 2007 | The frailty of adaptive hypotheses for the origins of organismal complexity. | Proc Natl Acad Sci U S A 104 Suppl 1:8597-604 | doi:10.1073/pnas.0702207104
+Bonner1998	CROSSREF | Bonner J | 1998 | The origins of multicellularity | Integrative Biology: Issues, News, and Reviews 1:27-36 | doi:10.1002/(SICI)1520-6602(1998)1:1<27::AID-INBI4>3.0.CO;2-6
+GrauBoveMulticell	NOT-FOUND
+Ruiz-TrilloBook	PMID:32976804 | Tikhonenkov DV et al. | 2020 | New Lineage of Microbial Predators Adds Complexity to Reconstructing the Evolutionary Origin of Animals. | Curr Biol 30:4500-4509.e5 | doi:10.1016/j.cub.2020.08.061
+Ruiz-TrilloBook	PMID:32278076 | Hehenberger E et al. | 2020 | Early eukaryotic origins and metazoan elaboration of MAPR family proteins. | Mol Phylogenet Evol 148:106814 | doi:10.1016/j.ympev.2020.106814
+Ruiz-TrilloBook	PMID:32272915 | Tikhonenkov DV et al. | 2020 | Insights into the origin of metazoan multicellularity from predatory unicellular relatives of animals. | BMC Biol 18:39 | doi:10.1186/s12915-020-0762-1
+StrassmannQueller	PMID:21690338 | Strassmann JE et al. | 2011 | Evolution of cooperation and control of cheating in a social microbe. | Proc Natl Acad Sci U S A 108 Suppl 2:10855-62 | doi:10.1073/pnas.1102451108
+Dudin2023	PMID:38778808 | Ondracka A et al. | 2023 | Time-resolved small RNA transcriptomics of the ichthyosporean Sphaeroforma arctica. | F1000Res 12:542 | doi:10.12688/f1000research.133935.1
+Dudin2023	PMID:36996815 | Olivetta M et al. | 2023 | The nuclear-to-cytoplasmic ratio drives cellularization in the close animal relative Sphaeroforma arctica. | Curr Biol 33:1597-1605.e3 | doi:10.1016/j.cub.2023.03.019
+Larson2020	PMID:31896587 | Larson BT et al. | 2020 | Biophysical principles of choanoflagellate self-organization. | Proc Natl Acad Sci U S A 117:1303-1311 | doi:10.1073/pnas.1909447117
+Mylnikov	NOT-FOUND
+Galindo2023	PMID:36453005 | Torruella G et al. | 2023 | Expanding the molecular and morphological diversity of Apusomonadida, a deep-branching group of gliding bacterivorous protists. | J Eukaryot Microbiol 70:e12956 | doi:10.1111/jeu.12956
+Tikhonenkov2022	PMID:36477531 | Tikhonenkov DV et al. | 2022 | Microbial predators form a new supergroup of eukaryotes. | Nature 612:714-719 | doi:10.1038/s41586-022-05511-5
+Nedelcu2020	PMID:33259762 | König SG et al. | 2020 | The genetic basis for the evolution of soma: mechanistic evidence for the co-option of a stress-induced gene into a developmental master regulator. | Proc Biol Sci 287:20201414 | doi:10.1098/rspb.2020.1414
+Nedelcu2020	PMID:32677677 | Nedelcu AM | 2020 | The evolution of multicellularity and cancer: views and paradigms. | Biochem Soc Trans 48:1505-1518 | doi:10.1042/BST20190992
+Nedelcu2020	PMID:32163611 | Nedelcu AM et al. | 2020 | Stress Responses Co-Opted for Specialized Cell Types During the Early Evolution of Multicellularity: The Role of Stress in the Evolution of Cell Types Can Be Traced Back to the Early Evolution of Multicellularity. | Bioessays 42:e2000029 | doi:10.1002/bies.202000029
+Herron2022	NOT-FOUND
+Booth2023	PMID:35337467 | Booth DS et al. | 2022 | The history of Salpingoeca rosetta as a model for reconstructing animal origins. | Curr Top Dev Biol 147:73-91 | doi:10.1016/bs.ctdb.2022.01.001
+Hall2022GPCR	PMID:37645274 | Hall G et al. | 2022 | Phylogeny-wide analysis of G-protein coupled receptors in social amoebas and implications for the evolution of multicellularity. | Open Res Eur 2:134 | doi:10.12688/openreseurope.15250.2
+Leger2018	CROSSREF | Reid V et al. | 2018 | The Human Fetus Preferentially Engages with Face-like Visual Stimuli | Current Biology 28:824 | doi:10.1016/j.cub.2018.02.025
+Schaap2016Physarum	NOT-FOUND
+Kawai2003	PMID:26988326 | Yamagishi T et al. | 2014 | Comparative transcriptome analysis of Discosporangium mesarthrocarpum (Phaeophyceae), Schizocladia ischiensis (Schizocladiophyceae), and Phaeothamnion confervicola (Phaeothamniophyceae), with special reference to cell wall-related genes. | J Phycol 50:543-51 | doi:10.1111/jpy.12190
+Kawai2003	PMID:13677449 | Kawai H et al. | 2003 | Schizocladia ischiensis: a new filamentous marine chromophyte belonging to a new class, Schizocladiophyceae. | Protist 154:211-28 | doi:10.1078/143446103322166518
+Yoon2006	CROSSREF | Lane C et al. | 2006 | A MULTI‐GENE MOLECULAR INVESTIGATION OF THE KELP (LAMINARIALES, PHAEOPHYCEAE) SUPPORTS SUBSTANTIAL TAXONOMIC RE‐ORGANIZATION<sup>1</sup> | Journal of Phycology 42:493-512 | doi:10.1111/j.1529-8817.2006.00204.x
+BellMooers1997	CROSSREF | Bell G et al. | 1997 | Size and complexity among multicellular organisms | Biological Journal of the Linnean Society 60:345-363 | doi:10.1111/j.1095-8312.1997.tb01500.x
+Klim2018	PMID:29703784 | Klim J et al. | 2018 | Ancestral State Reconstruction of the Apoptosis Machinery in the Common Ancestor of Eukaryotes. | G3 (Bethesda) 8:2121-2134 | doi:10.1534/g3.118.200295
+Zhang2020Strep	PMID:31998842 | Zhang Z et al. | 2020 | Antibiotic production in Streptomyces is organized by a division of labor through terminal genomic differentiation. | Sci Adv 6:eaay5781 | doi:10.1126/sciadv.aay5781
+DomazetLoso2017	PMID:28087778 | Domazet-Lošo T et al. | 2017 | No Evidence for Phylostratigraphic Bias Impacting Inferences on Patterns of Gene Emergence and Evolution. | Mol Biol Evol 34:843-856 | doi:10.1093/molbev/msw284
+Altenhoff2016	PMID:27043882 | Altenhoff AM et al. | 2016 | Standardized benchmarking in the quest for orthologs. | Nat Methods 13:425-30 | doi:10.1038/nmeth.3830
+Liebeskind2016	PMID:27259914 | Liebeskind BJ et al. | 2016 | Towards Consensus Gene Ages. | Genome Biol Evol 8:1812-23 | doi:10.1093/gbe/evw113
+Gharib2013	PMID:24225318 | Moretti S et al. | 2014 | Selectome update: quality control and computational improvements to a database of positive selection. | Nucleic Acids Res 42:D917-21 | doi:10.1093/nar/gkt1065
+Gharib2013	PMID:23558341 | Gharib WH et al. | 2013 | The branch-site test of positive selection is surprisingly robust but lacks power under synonymous substitution saturation and variation in GC. | Mol Biol Evol 30:1675-86 | doi:10.1093/molbev/mst062
+Slodkowicz2020	PMID:33206635 | Turakhia Y et al. | 2020 | Stability of SARS-CoV-2 phylogenies. | PLoS Genet 16:e1009175 | doi:10.1371/journal.pgen.1009175
+Slodkowicz2020	PMID:32123117 | Slodkowicz G et al. | 2020 | Integrated structural and evolutionary analysis reveals common mechanisms underlying adaptive evolution in mammals. | Proc Natl Acad Sci U S A 117:5977-5986 | doi:10.1073/pnas.1916786117
+Echave2016	PMID:26781812 | Echave J et al. | 2016 | Causes of evolutionary rate variation among protein sites. | Nat Rev Genet 17:109-21 | doi:10.1038/nrg.2015.18
+Brocchieri2005	PMID:15951512 | Brocchieri L et al. | 2005 | Protein length in eukaryotic and prokaryotic proteomes. | Nucleic Acids Res 33:3390-400 | doi:10.1093/nar/gki615
+Ekman2005	PMID:15808866 | Ekman D et al. | 2005 | Multi-domain proteins in the three kingdoms of life: orphan domains and other unassigned regions. | J Mol Biol 348:231-43 | doi:10.1016/j.jmb.2005.02.007
+Ekman2007	PMID:17689563 | Ekman D et al. | 2007 | Quantification of the elevated rate of domain rearrangements in metazoa. | J Mol Biol 372:1337-48 | doi:10.1016/j.jmb.2007.06.022
+Itoh2007	PMID:17588271 | Itoh M et al. | 2007 | Evolutionary history and functional implications of protein domains and their combinations in eukaryotes. | Genome Biol 8:R121 | doi:10.1186/gb-2007-8-6-r121
+Arendt2016	PMID:27906129 | Brunet T et al. | 2016 | The evolutionary origin of bilaterian smooth and striated myocytes. | Elife 5: | doi:10.7554/eLife.19607
+Arendt2016	PMID:27818507 | Arendt D et al. | 2016 | The origin and evolution of cell types. | Nat Rev Genet 17:744-757 | doi:10.1038/nrg.2016.127
+Arendt2016	PMID:27458918 | Brunet T et al. | 2016 | Animal Evolution: The Hard Problem of Cartilage Origins. | Curr Biol 26:R685-8 | doi:10.1016/j.cub.2016.05.062
+Mikhailov2009	PMID:19472368 | Mikhailov KV et al. | 2009 | The origin of Metazoa: a transition from temporal to spatial cell differentiation. | Bioessays 31:758-68 | doi:10.1002/bies.200800214
+Ryan2013	PMID:24337300 | Ryan JF et al. | 2013 | The genome of the ctenophore Mnemiopsis leidyi and its implications for cell type evolution. | Science 342:1242592 | doi:10.1126/science.1242592
+Srivastava2008	PMID:18719581 | Srivastava M et al. | 2008 | The Trichoplax genome and the nature of placozoans. | Nature 454:955-60 | doi:10.1038/nature07191
+Srivastava2008	PMID:18716659 | Schierwater B et al. | 2008 | The early ANTP gene repertoire: insights from the placozoan genome. | PLoS One 3:e2457 | doi:10.1371/journal.pone.0002457
+Gazave2009	PMID:19825158 | Gazave E et al. | 2009 | Origin and evolution of the Notch signalling pathway: an overview from eukaryotic genomes. | BMC Evol Biol 9:249 | doi:10.1186/1471-2148-9-249
+Pagel1994	CROSSREF |  | 1994 | Long-term potentiation of
+            <i>Aplysia</i>
+            sensorimotor synapses in cell culture: regulation by postsynaptic voltage | Proceedings of the Royal Society of London. Series B: Biological Sciences 255:113-118 | doi:10.1098/rspb.1994.0016
+Ives2010	PMID:20525617 | Ives AR et al. | 2010 | Phylogenetic logistic regression for binary dependent variables. | Syst Biol 59:9-26 | doi:10.1093/sysbio/syp074
+Szollosi2015	PMID:26323765 | Szöllősi GJ et al. | 2015 | Genome-scale phylogenetic analysis finds extensive gene transfer among fungi. | Philos Trans R Soc Lond B Biol Sci 370:20140335 | doi:10.1098/rstb.2014.0335
+Thiergart	NOT-FOUND
+Hejnol	PMID:28318975 | Simion P et al. | 2017 | A Large and Consistent Phylogenomic Dataset Supports Sponges as the Sister Group to All Other Animals. | Curr Biol 27:958-967 | doi:10.1016/j.cub.2017.02.031
+Philippe2011	PMID:21423652 | Philippe H et al. | 2011 | Resolving difficult phylogenetic questions: why more sequences are not enough. | PLoS Biol 9:e1000602 | doi:10.1371/journal.pbio.1000602
+Laumer2019	PMID:31690235 | Laumer CE et al. | 2019 | Correction to 'Revisiting metazoan phylogeny with genomic sampling of all phyla'. | Proc Biol Sci 286:20191941 | doi:10.1098/rspb.2019.1941
+Laumer2019	PMID:31288696 | Laumer CE et al. | 2019 | Revisiting metazoan phylogeny with genomic sampling of all phyla. | Proc Biol Sci 286:20190831 | doi:10.1098/rspb.2019.0831
+Schultz2023	PMID:37198475 | Schultz DT et al. | 2023 | Ancient gene linkages support ctenophores as sister to other animals. | Nature 618:110-117 | doi:10.1038/s41586-023-05936-6
+Pett2019	PMID:30348074 | Kin K et al. | 2018 | Cell-type specific RNA-Seq reveals novel roles and regulatory programs for terminally differentiated Dictyostelium cells. | BMC Genomics 19:764 | doi:10.1186/s12864-018-5146-3
+Pagel1994	CROSSREF |  | 1994 | Detecting correlated evolution on phylogenies: a general method for the comparative analysis of discrete characters | Proceedings of the Royal Society of London. Series B: Biological Sciences 255:37-45 | doi:10.1098/rspb.1994.0006
+Physarum	PMID:26615215 | Schaap P et al. | 2015 | The Physarum polycephalum Genome Reveals Extensive Use of Prokaryotic Two-Component and Metazoan-Type Tyrosine Kinase Signaling. | Genome Biol Evol 8:109-25 | doi:10.1093/gbe/evv237
+OneKP2019	PMID:31645766 | One Thousand Plant Transcriptomes Initiative | 2019 | One thousand plant transcriptomes and the phylogenomics of green plants. | Nature 574:679-685 | doi:10.1038/s41586-019-1693-2
+MMETSP2014	PMID:24959919 | Keeling PJ et al. | 2014 | The Marine Microbial Eukaryote Transcriptome Sequencing Project (MMETSP): illuminating the functional diversity of eukaryotic life in the oceans through transcriptome sequencing. | PLoS Biol 12:e1001889 | doi:10.1371/journal.pbio.1001889
+OMArk	PMID:38383603 | Nevers Y et al. | 2025 | Quality assessment of gene repertoire annotations with OMArk. | Nat Biotechnol 43:124-133 | doi:10.1038/s41587-024-02147-w
+OMArk	PMID:37962356 | Altenhoff AM et al. | 2024 | OMA orthology in 2024: improved prokaryote coverage, ancestral and extant GO enrichment, a revamped synteny viewer and more in the OMA Ecosystem. | Nucleic Acids Res 52:D513-D521 | doi:10.1093/nar/gkad1020
+EukCC	PMID:32912302 | Saary P et al. | 2020 | Estimating the quality of eukaryotic genomes recovered from metagenomic analysis with EukCC. | Genome Biol 21:244 | doi:10.1186/s13059-020-02155-4
+BlobToolKit	PMID:32071071 | Challis R et al. | 2020 | BlobToolKit - Interactive Quality Assessment of Genome Assemblies. | G3 (Bethesda) 10:1361-1374 | doi:10.1534/g3.119.400908
+P10K	PMID:38548755 | Zhao W et al. | 2024 | Genome assembly of a symbiotic balantidia (Balantidium ctenopharyngodoni) in fish hindgut. | Sci Data 11:323 | doi:10.1038/s41597-024-03142-1
+P10K	PMID:38035371 |  | 2024 | Correction to 'The P10K database: a data portal for the protist 10 000 genomes project'. | Nucleic Acids Res 52:D1699 | doi:10.1093/nar/gkad1179
+P10K	PMID:38018256 | CNCB-NGDC Members and Partners | 2024 | Database Resources of the National Genomics Data Center, China National Center for Bioinformation in 2024. | Nucleic Acids Res 52:D18-D32 | doi:10.1093/nar/gkad1078
+FoldMason	PMID:41610233 | Gilchrist CLM et al. | 2026 | Multiple protein structure alignment at scale with FoldMason. | Science 391:485-488 | doi:10.1126/science.ads6733
+ESMfold	PMID:36927031 | Lin Z et al. | 2023 | Evolutionary-scale prediction of atomic-level protein structure with a language model. | Science 379:1123-1130 | doi:10.1126/science.ade2574
+SHE	CROSSREF | Li Q et al. | 2026 | The Structural History of Eukarya |  : | doi:10.64898/2026.02.04.703859
+LeroyEToL	CROSSREF | Leroy R et al. | 2026 | Re-evaluating the eukaryotic Tree of Life with independent phylogenomic data |  : | doi:10.64898/2026.04.08.717153
+S_conv	PMID:38600528 | Lindsey CR et al. | 2024 | Fossil-calibrated molecular clock data enable reconstruction of steps leading to differentiated multicellularity and anisogamy in the Volvocine algae. | BMC Biol 22:79 | doi:10.1186/s12915-024-01878-1
+S_conv	PMID:37645274 | Hall G et al. | 2022 | Phylogeny-wide analysis of G-protein coupled receptors in social amoebas and implications for the evolution of multicellularity. | Open Res Eur 2:134 | doi:10.12688/openreseurope.15250.2
+S_conv	PMID:32444651 | Heaton LLM et al. | 2020 | A mechanistic explanation of the transition to simple multicellularity in fungi. | Nat Commun 11:2594 | doi:10.1038/s41467-020-16072-4
+S_conv	PMID:30902897 | Krizsán K et al. | 2019 | Transcriptomic atlas of mushroom development reveals conserved genes behind complex multicellularity in fungi. | Proc Natl Acad Sci U S A 116:7409-7418 | doi:10.1073/pnas.1817822116
+S_conv	PMID:29675836 | Nagy LG et al. | 2018 | Complex multicellularity in fungi: evolutionary convergence, single origin, or both? | Biol Rev Camb Philos Soc 93:1778-1794 | doi:10.1111/brv.12418
+S_conv	PMID:26284972 | Du Q et al. | 2015 | The Evolution of Aggregative Multicellularity and Cell-Cell Communication in the Dictyostelia. | J Mol Biol 427:3722-33 | doi:10.1016/j.jmb.2015.08.008
+S_conv	PMID:18926910 | Rokas A | 2008 | The molecular origins of multicellular transitions. | Curr Opin Genet Dev 18:472-8 | doi:10.1016/j.gde.2008.09.004
+S_dnds	PMID:41493922 | Kalathera J et al. | 2026 | Bottleneck size drives the evolution of cooperative traits in an aggregative multicellular myxobacterium. | PLoS Biol 24:e3003499 | doi:10.1371/journal.pbio.3003499
+S_dnds	PMID:40359149 | Khey J et al. | 2025 | Historical effects during experimental evolution of multicellularity in Saccharomyces cerevisiae. | Evolution 79:1597-1606 | doi:10.1093/evolut/qpaf101
+S_dnds	PMID:38315855 | Bingham EP et al. | 2024 | A nonadaptive explanation for macroevolutionary patterns in the evolution of complex multicellularity. | Proc Natl Acad Sci U S A 121:e2319840121 | doi:10.1073/pnas.2319840121
+S_dnds	PMID:38306281 | Siljestam M et al. | 2024 | Anisogamy Does Not Always Promote the Evolution of Mating Competition Traits in Males. | Am Nat 203:230-253 | doi:10.1086/727968
+S_dnds	PMID:38014282 | Bingham EP et al. | 2023 | A non-adaptive explanation for macroevolutionary patterns in the evolution of complex multicellularity. | bioRxiv : | doi:10.1101/2023.11.11.566713
+S_dnds	PMID:35232276 | Gao Y et al. | 2022 | Evolution of reproductive strategies in incipient multicellularity. | J R Soc Interface 19:20210716 | doi:10.1098/rsif.2021.0716
+S_dnds	PMID:34838795 | Tverskoi D et al. | 2022 | The evolution of germ-soma specialization under different genetic and environmental effects. | J Theor Biol 534:110964 | doi:10.1016/j.jtbi.2021.110964
+S_dnds	PMID:30445510 | Saxena AS et al. | 2019 | Evolution of the Mutational Process under Relaxed Selection in Caenorhabditis elegans. | Mol Biol Evol 36:239-251 | doi:10.1093/molbev/msy213
+S_dnds	PMID:28222679 | Skippington E et al. | 2017 | Comparative mitogenomics indicates respiratory competence in parasitic Viscum despite loss of complex I and extreme sequence divergence, and reveals horizontal gene transfer and remarkable variation in genome size. | BMC Plant Biol 17:49 | doi:10.1186/s12870-017-0992-8
+S_dnds	PMID:27994117 | Bush SJ et al. | 2017 | Alternative splicing and the evolution of phenotypic novelty. | Philos Trans R Soc Lond B Biol Sci 372: | doi:10.1098/rstb.2015.0474
+S_disorder	PMID:42929841 | Wang Y et al. | 2026 | Multicellular Communication Networks in Myocardial Ischemia-Reperfusion Injury: Spatial and Temporal Organization of Injury and Repair. | Cells 15: | doi:10.3390/cells15201869
+S_disorder	PMID:42871858 | Xu C et al. | 2026 | Multidimensional regulation of hepatic macrophages in chronic liver disease: from metabolic reprogramming to intercellular and interorgan crosstalk. | Front Immunol 17:1953712 | doi:10.3389/fimmu.2026.1953712
+S_disorder	PMID:42871853 | Yuzbasic AD et al. | 2026 | Engineering 3D neural models of neurodegeneration: the Neural Microenvironment Design Code (NMDC), design principles, and emerging new approach methodologies. | NAM J 2:100138 | doi:10.1016/j.namjnl.2026.100138
+S_disorder	PMID:42847459 | Balverde-Caballero FB et al. | 2026 | A Hierarchical Framework for In Vitro Models of Alzheimer's Disease. | WIREs Mech Dis 18:e70015 | doi:10.1002/wsbm.70015
+S_disorder	PMID:42833177 | Di Battista A et al. | 2026 | Fungal hyphae through the lens of microfluidic devices: From biological properties to novel therapeutic opportunities. | Exp Mol Pathol 148:105081 | doi:10.1016/j.yexmp.2026.105081
+S_disorder	PMID:42769527 | Pan K et al. | 2026 | Mechanisms and therapeutic strategies of bidirectional crosstalk between hepatic stellate cell-derived cancer-associated fibroblasts and T cells in immune evasion and therapeutic resistance of hepatocellular carcinoma. | Front Immunol 17:1930718 | doi:10.3389/fimmu.2026.1930718
+S_disorder	PMID:42754133 | Chen X et al. | 2026 | Synergistic proline-based deep eutectic solvent enables low-toxicity microdroplet cryopreservation of 3D cell spheroids. | Acta Biomater : | doi:10.1016/j.actbio.2026.09.032
+S_disorder	PMID:42729944 | Pini L et al. | 2026 | Developmental brain programmes and biomarker activation in Alzheimer's disease. | Brain Commun 8:fcag337 | doi:10.1093/braincomms/fcag337
+S_disorder	PMID:42728338 | Vélez-Avilés AN et al. | 2026 | Engineering the human endometrium at the intersection of development and reproduction. | Nat Biomed Eng 10:2012-2027 | doi:10.1038/s41551-026-01789-2
+S_disorder	PMID:42591650 | Zhu B et al. | 2026 | Elevated TMC8 expression correlates with CD8(+) T cell infiltration and favorable survival in oral squamous cell carcinoma. | Transl Cancer Res 15:560 | doi:10.21037/tcr-2026-0835
+S_convergent_gene	PMID:40489295 | Piccinini G et al. | 2025 | The Early Evolution of Tudor Genes in Holozoa and How Their Distribution Was Influenced by Life History Traits in Metazoa. | Genome Biol Evol 17: | doi:10.1093/gbe/evaf051
+S_convergent_gene	PMID:39877976 | Pereira Lobo F et al. | 2025 | Molecular and Functional Convergences Associated with Complex Multicellularity in Eukarya. | Mol Biol Evol 42: | doi:10.1093/molbev/msaf013
+S_convergent_gene	PMID:39869795 | Pérez Gallego R et al. | 2025 | Emergence and evolution of heterocyte glycolipid biosynthesis enabled specialized nitrogen fixation in cyanobacteria. | Proc Natl Acad Sci U S A 122:e2413972122 | doi:10.1073/pnas.2413972122
+S_convergent_gene	PMID:32191325 | Merényi Z et al. | 2020 | Unmatched Level of Molecular Convergence among Deeply Divergent Complex Multicellular Fungi. | Mol Biol Evol 37:2228-2240 | doi:10.1093/molbev/msaa077
+S_convergent_gene	PMID:30902897 | Krizsán K et al. | 2019 | Transcriptomic atlas of mushroom development reveals conserved genes behind complex multicellularity in fungi. | Proc Natl Acad Sci U S A 116:7409-7418 | doi:10.1073/pnas.1817822116
+S_convergent_gene	PMID:25675537 | Liebeskind BJ et al. | 2015 | Convergence of ion channel genome content in early animal evolution. | Proc Natl Acad Sci U S A 112:E846-51 | doi:10.1073/pnas.1501195112
+S_convergent_gene	PMID:24443438 | Sebé-Pedrós A et al. | 2014 | Evolution and classification of myosins, a paneukaryotic whole-genome approach. | Genome Biol Evol 6:290-305 | doi:10.1093/gbe/evu013
+S_convergent_gene	PMID:23634722 | Aguilera F et al. | 2013 | Origin, evolution and classification of type-3 copper proteins: lineage-specific gene expansions and losses across the Metazoa. | BMC Evol Biol 13:96 | doi:10.1186/1471-2148-13-96
+S_convergent_gene	PMID:20976245 | Bright LJ et al. | 2010 | Comprehensive analysis reveals dynamic and evolutionary plasticity of Rab GTPases and membrane traffic in Tetrahymena thermophila. | PLoS Genet 6:e1001155 | doi:10.1371/journal.pgen.1001155
+S_redalgae	PMID:42759495 | Hui Y et al. | 2026 | The genome of Bangia fuscopurpurea illustrates early establishment of multicellularity and intertidal adaptation in red algae. | Plant Physiol 202: | doi:10.1093/plphys/kiag695
+S_redalgae	PMID:40555184 | Ruiz-Trillo I et al. | 2025 | Multicellularity: Red algal genomic expansion fine-tuned with transposable elements. | Curr Biol 35:R606-R608 | doi:10.1016/j.cub.2025.04.033
+S_redalgae	PMID:40345196 | Petroll R et al. | 2025 | The expanded Bostrychia moritziana genome unveils evolution in the most diverse and complex order of red algae. | Curr Biol 35:2771-2788.e8 | doi:10.1016/j.cub.2025.04.044
+S_redalgae	PMID:39877976 | Pereira Lobo F et al. | 2025 | Molecular and Functional Convergences Associated with Complex Multicellularity in Eukarya. | Mol Biol Evol 42: | doi:10.1093/molbev/msaf013
+S_redalgae	PMID:38262417 | Choi SW et al. | 2024 | Ordovician origin and subsequent diversification of the brown algae. | Curr Biol 34:740-754.e4 | doi:10.1016/j.cub.2023.12.069
+S_redalgae	PMID:37697255 | Yao H et al. | 2023 | Codon usage pattern of the ancestor of green plants revealed through Rhodophyta. | BMC Genomics 24:538 | doi:10.1186/s12864-023-09586-w
+S_redalgae	PMID:37649301 | Borg M et al. | 2023 | Red macroalgae in the genomic era. | New Phytol 240:471-488 | doi:10.1111/nph.19211
+S_redalgae	PMID:35251057 | Hiwatashi Y et al. | 2021 | Establishment of a Live-Imaging Analysis for Polarized Growth of Conchocelis in the Multicellular Red Alga Neopyropia yezoensis. | Front Plant Sci 12:716011 | doi:10.3389/fpls.2021.716011
+S_redalgae	PMID:34730826 | Chen H et al. | 2022 | Insights into the Ancient Adaptation to Intertidal Environments by Red Algae Based on a Genomic and Multiomics Investigation of Neoporphyra haitanensis. | Mol Biol Evol 39: | doi:10.1093/molbev/msab315
+S_redalgae	PMID:34356071 | Petroll R et al. | 2021 | Signatures of Transcription Factor Evolution and the Secondary Gain of Red Algae Complexity. | Genes (Basel) 12: | doi:10.3390/genes12071055
+S_ptero	PMID:42259279 | Coelho SM et al. | 2026 | Convergent paths to multicellular complexity in photosynthetic eukaryotes. | Curr Biol 36:R668-R676 | doi:10.1016/j.cub.2026.04.026
+S_ptero	PMID:39877976 | Pereira Lobo F et al. | 2025 | Molecular and Functional Convergences Associated with Complex Multicellularity in Eukarya. | Mol Biol Evol 42: | doi:10.1093/molbev/msaf013
+S_ptero	PMID:38262417 | Choi SW et al. | 2024 | Ordovician origin and subsequent diversification of the brown algae. | Curr Biol 34:740-754.e4 | doi:10.1016/j.cub.2023.12.069
+S_ptero	PMID:37765506 | Wegner L et al. | 2023 | Multicellularity and the Need for Communication-A Systematic Overview on (Algal) Plasmodesmata and Other Types of Symplasmic Cell Connections. | Plants (Basel) 12: | doi:10.3390/plants12183342
+S_ptero	PMID:35472432 | Chaigne A et al. | 2022 | Incomplete abscission and cytoplasmic bridges in the evolution of eukaryotic multicellularity. | Curr Biol 32:R385-R397 | doi:10.1016/j.cub.2022.03.021
+S_ptero	PMID:34114051 | Márquez-Zacarías P et al. | 2021 | Why have aggregative multicellular organisms stayed simple? | Curr Genet 67:871-876 | doi:10.1007/s00294-021-01193-0
+S_ptero	PMID:30902897 | Krizsán K et al. | 2019 | Transcriptomic atlas of mushroom development reveals conserved genes behind complex multicellularity in fungi. | Proc Natl Acad Sci U S A 116:7409-7418 | doi:10.1073/pnas.1817822116
+S_ptero	PMID:29675836 | Nagy LG et al. | 2018 | Complex multicellularity in fungi: evolutionary convergence, single origin, or both? | Biol Rev Camb Philos Soc 93:1778-1794 | doi:10.1111/brv.12418
+S_ptero	PMID:27617970 | Bowman JL et al. | 2016 | Evolution in the Cycles of Life. | Annu Rev Genet 50:133-154 | doi:10.1146/annurev-genet-120215-035227
+S_ptero	PMID:25041157 | Thomas F et al. | 2014 | Kelps feature systemic defense responses: insights into the evolution of innate immunity in multicellular eukaryotes. | New Phytol 204:567-576 | doi:10.1111/nph.12925
+S_volvoxNe	PMID:41626866 | Nozaki H et al. | 2026 | Distribution of rickettsial endosymbionts and their possible transmission within the Pleodorina japonica (Volvocales, Chlorophyceae) population. | J Phycol 62:293-303 | doi:10.1111/jpy.70131
+S_volvoxNe	PMID:39401900 | Nozaki H et al. | 2024 | Whole-genome sequencing analysis of volvocine green algae reveals the molecular genetic basis for the diversity and evolution of sex. | Proc Jpn Acad Ser B Phys Biol Sci 100:465-475 | doi:10.2183/pjab.100.029
+S_volvoxNe	PMID:39312548 | Nozaki H et al. | 2024 | Two species of the green algae Volvox sect. Volvox from the Japanese ancient lake, Lake Biwa. | PLoS One 19:e0310549 | doi:10.1371/journal.pone.0310549
+S_volvoxNe	PMID:38871975 | Bullock AJ et al. | 2024 | Botensilimab plus balstilimab in relapsed/refractory microsatellite stable metastatic colorectal cancer: a phase 1 trial. | Nat Med 30:2558-2567 | doi:10.1038/s41591-024-03083-7
+S_volvoxNe	PMID:37673861 | Cereser B et al. | 2023 | The mutational landscape of the adult healthy parous and nulliparous human breast. | Nat Commun 14:5136 | doi:10.1038/s41467-023-40608-z
+S_volvoxNe	PMID:35295942 | Jiménez-Marín B et al. | 2022 | The Curious Case of Multicellularity in the Volvocine Algae. | Front Genet 13:787665 | doi:10.3389/fgene.2022.787665
+S_dndsMulti	PMID:42907154 | Bucao CF et al. | 2026 | Inter-individual gene expression variability implies stable regulation of brain-biased genes across organs in three ray-finned fishes. | Genome Res : | doi:10.1101/gr.280317.124
+S_dndsMulti	PMID:42244546 | Bucao CF et al. | 2026 | Inter-individual gene expression variability implies stable regulation of brain-biased genes across organs in three ray-finned fishes. | bioRxiv : | doi:10.1101/2024.11.11.623020
+S_dndsMulti	PMID:36510137 | Hao J et al. | 2022 | Chloroplast gene expression level is negatively correlated with evolutionary rates and selective pressure while positively with codon usage bias in Ophioglossum vulgatum L. | BMC Plant Biol 22:580 | doi:10.1186/s12870-022-03960-8
+S_dndsMulti	PMID:33009502 | Rochman ND et al. | 2020 | Deep phylogeny of cancer drivers and compensatory mutations. | Commun Biol 3:551 | doi:10.1038/s42003-020-01276-7
+S_dndsMulti	PMID:31798628 | Baumgartner M et al. | 2019 | An Integrated Model of Minor Intron Emergence and Conservation. | Front Genet 10:1113 | doi:10.3389/fgene.2019.01113
+S_dndsMulti	PMID:30254228 | Chen X et al. | 2018 | Diversity and Functional Evolution of Terpene Synthases in Dictyostelid Social Amoebae. | Sci Rep 8:14361 | doi:10.1038/s41598-018-32639-0
+S_bottleneck	PMID:41779208 | Dahal U et al. | 2026 | Evolution and Functional Implications of Codon Usage Bias in Eukaryotes. | J Mol Evol 94:286-303 | doi:10.1007/s00239-026-10305-8
+S_bottleneck	PMID:41493922 | Kalathera J et al. | 2026 | Bottleneck size drives the evolution of cooperative traits in an aggregative multicellular myxobacterium. | PLoS Biol 24:e3003499 | doi:10.1371/journal.pbio.3003499
+S_bottleneck	PMID:39441990 | Uppal S et al. | 2024 | Repeated horizontal acquisition of lagriamide-producing symbionts in Lagriinae beetles. | ISME J 18: | doi:10.1093/ismejo/wrae211
+S_bottleneck	PMID:38526062 | Wielgoss S et al. | 2024 | Mutation Rate and Effective Population Size of the Model Cooperative Bacterium Myxococcus xanthus. | Genome Biol Evol 16: | doi:10.1093/gbe/evae066
+S_bottleneck	PMID:38459017 | Stanojković A et al. | 2024 | The global speciation continuum of the cyanobacterium Microcoleus. | Nat Commun 15:2122 | doi:10.1038/s41467-024-46459-6
+S_bottleneck	PMID:38334408 | Wang R et al. | 2024 | Comparative genomic analysis of symbiotic and free-living Fluviibacter phosphoraccumulans strains provides insights into the evolutionary origins of obligate Euplotes-bacterial endosymbioses. | Appl Environ Microbiol 90:e0190023 | doi:10.1128/aem.01900-23
+S_snowflakeGenome	PMID:40044858 | Tong K et al. | 2025 | Genome duplication in a long-term multicellularity evolution experiment. | Nature 639:691-699 | doi:10.1038/s41586-025-08689-6
+S_snowflakeGenome	PMID:38659912 | Tong K et al. | 2024 | Whole-genome duplication in the Multicellularity Long Term Evolution Experiment. | bioRxiv : | doi:10.1101/2024.04.18.588554
+S_struct	PMID:42766750 | Yang L et al. | 2026 | The genomic origins of cyanobacterial morphological diversity. | Proc Natl Acad Sci U S A 123:e2608186123 | doi:10.1073/pnas.2608186123
+S_struct	PMID:42595912 | Müller TA et al. | 2026 | The calcium-binding protein CSE links Ca(2+) signaling with cell-cell communication in cyanobacteria. | EMBO J 45:6630-6654 | doi:10.1038/s44318-026-00893-y
+S_struct	PMID:42405879 | Iizuka T et al. | 2026 | Direct link between convergent evolution at sequence level and phenotypic level of septal pore cap in Agaricomycotina. | G3 (Bethesda) 16: | doi:10.1093/g3journal/jkag176
+S_struct	PMID:42402925 | Vallejo-De Lira CM et al. | 2026 | Epigenetic regulation of vertebrate limb development: from field specification to tissue morphogenesis. | Epigenetics 21:2695477 | doi:10.1080/15592294.2026.2695477
+S_struct	PMID:42333967 | Ma J et al. | 2026 | Klebsormidiophyceae sister genomes reveal multicellularity and stress adaptations. | J Phycol 62:1251-1263 | doi:10.1111/jpy.70199
+S_struct	PMID:42284459 | Osterhof C et al. | 2026 | Ancient conservation of androglobin expression reveals its evolutionary link to ciliary processes. | Mol Biol Evol 43: | doi:10.1093/molbev/msag147
+S_domainArch	PMID:41629529 | Gil J Jr et al. | 2026 | Unique territorial and compartmental organization of chromosomes in the holocentric silkworm. | EMBO J 45:1573-1620 | doi:10.1038/s44318-026-00694-3
+S_domainArch	PMID:38500675 | Narula K et al. | 2024 | Combining extracellular matrix proteome and phosphoproteome of chickpea and meta-analysis reveal novel proteoforms and evolutionary significance of clade-specific wall-associated events in plant. | Plant Direct 8:e572 | doi:10.1002/pld3.572
+S_domainArch	PMID:35530508 | de la Fuente M et al. | 2022 | Understanding Diversity, Evolution, and Structure of Small Heat Shock Proteins in Annelida Through in Silico Analyses. | Front Physiol 13:817272 | doi:10.3389/fphys.2022.817272
+S_domainArch	PMID:35235070 | Kwantes M et al. | 2022 | The APAF1_C/WD40 repeat domain-encoding gene from the sea lettuce Ulva mutabilis sheds light on the evolution of NB-ARC domain-containing proteins in green plants. | Planta 255:76 | doi:10.1007/s00425-022-03851-0
+S_domainArch	PMID:34628994 | Caetano-Anollés G et al. | 2021 | Tracing protein and proteome history with chronologies and networks: folding recapitulates evolution. | Expert Rev Proteomics 18:863-880 | doi:10.1080/14789450.2021.1992277
+S_domainArch	PMID:29685747 | Miller WB Jr et al. | 2018 | Four domains: The fundamental unicell and Post-Darwinian Cognition-Based Evolution. | Prog Biophys Mol Biol 140:49-73 | doi:10.1016/j.pbiomolbio.2018.04.006
+S_fungalTF	PMID:28176784 | Nguyen TA et al. | 2017 | Innovation and constraint leading to complex multicellularity in the Ascomycota. | Nat Commun 8:14444 | doi:10.1038/ncomms14444
+S_abedin2010	PMID:20817460 | Abedin M et al. | 2010 | Diverse evolutionary paths to cell adhesion. | Trends Cell Biol 20:734-42 | doi:10.1016/j.tcb.2010.08.002
+S_iranzo	PMID:25486567 | Iranzo J et al. | 2014 | Virus-host arms race at the joint origin of multicellularity and programmed cell death. | Cell Cycle 13:3083-8 | doi:10.4161/15384101.2014.949496
+S_larroux	PMID:18296413 | Larroux C et al. | 2008 | Genesis and expansion of metazoan transcription factor gene classes. | Mol Biol Evol 25:980-96 | doi:10.1093/molbev/msn047
+S_shiu	PMID:11752632 | Shiu SH et al. | 2001 | Plant receptor-like kinase gene family: diversity, function, and signaling. | Sci STKE 2001:re22 | doi:10.1126/stke.2001.113.re22
+S_shiu	PMID:11526204 | Shiu SH et al. | 2001 | Receptor-like kinases from Arabidopsis form a monophyletic gene family related to animal receptor kinases. | Proc Natl Acad Sci U S A 98:10763-8 | doi:10.1073/pnas.181141598
+S_umen2014	PMID:25324214 | Umen JG | 2014 | Green algae and the origins of multicellularity in the plant kingdom. | Cold Spring Harb Perspect Biol 6:a016170 | doi:10.1101/cshperspect.a016170
+S_rokas08	PMID:18926910 | Rokas A | 2008 | The molecular origins of multicellular transitions. | Curr Opin Genet Dev 18:472-8 | doi:10.1016/j.gde.2008.09.004
+S_Tong	PMID:35247708 | Tong K et al. | 2022 | Selective drivers of simple multicellularity. | Curr Opin Microbiol 67:102141 | doi:10.1016/j.mib.2022.102141
+S_ratcliffMuLTEE	PMID:37165189 | Bozdag GO et al. | 2023 | De novo evolution of macroscopic multicellularity. | Nature 617:747-754 | doi:10.1038/s41586-023-06052-1

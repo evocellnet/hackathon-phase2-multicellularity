@@ -1,0 +1,15 @@
+S_volvoxNe	(Volvox OR volvocine) AND (purifying selection OR effective population size OR dN/dS OR genetic diversity)
+S_dndsMulti	(unicellular AND multicellular) AND (dN/dS OR "purifying selection" OR "rate of protein evolution")
+S_bottleneck	multicellularity AND (genetic drift OR bottleneck) AND genome evolution AND (eukaryotes OR bacteria)
+S_snowflakeGenome	snowflake yeast AND (genome OR mutations) AND long-term evolution
+S_struct	protein structure evolution AND multicellularity
+S_domainArch	domain architecture AND multicellular AND evolution AND (novel OR combinations)
+S_fungalTF	Nguyen TA[au] AND 2017[dp] AND complex multicellularity Ascomycota
+S_abedin2010	Abedin M[au] AND King N[au] AND 2010[dp] AND cell adhesion
+S_iranzo	Iranzo J[au] AND 2014[dp] AND programmed cell death multicellularity
+S_larroux	Larroux C[au] AND 2008[dp] AND transcription factor gene classes
+S_shiu	Shiu SH[au] AND Bleecker AB[au] AND 2001[dp]
+S_umen2014	Umen JG[au] AND 2014[dp] AND origins of multicellularity plant kingdom
+S_rokas08	pmid:18926910
+S_Tong	Tong K[au] AND 2022[dp] AND multicellularity
+S_ratcliffMuLTEE	Bozdag GO[au] AND 2023[dp] AND macroscopic multicellularity

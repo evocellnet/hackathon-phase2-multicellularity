@@ -1,0 +1,2 @@
+START: 2026-10-28T12:21:22+01:00
+Time budget: 48h cluster allocation (report says target 24h)
