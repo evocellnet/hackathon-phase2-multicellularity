@@ -1,0 +1,17 @@
+setting	branch_class	n_branches	hog_gains_true	hog_gains_inferred	hog_gains_ratio	seq_novel_true	seq_novel_inferred	seq_novel_ratio	losses_true	losses_inferred	losses_ratio	dups_true	dups_inferred	dups_ratio	U_median_log_inflation	stems_median_log_inflation	mean_u_inflation	T_inferred	T_true	T_bias
+default	control_U	9	0.0	67.0		0.0	54.0		434.0	557.0	1.283	418.0	468.0	1.12						
+default	other_internal	33	1.0	330.0	330.0	1.0	234.0	234.0	1498.0	1981.0	1.322	1442.0	1727.0	1.198						
+default	primary_stem_edge	9	0.0	74.0		0.0	49.0		359.0	471.0	1.312	321.0	379.0	1.181						
+default	root_child	2	10.0	23.0	2.3	10.0	15.0	1.5	0.0	0.0		5.0	10.0	2.0						
+default	TEST:hog_gains	9													2.565	3.434	0.614	0.614	0.5	0.114
+default	TEST:seq_novel	9													2.197	2.944	0.564	0.564	0.5	0.064
+default	TEST:losses	9													0.305	0.309	0.521	0.557	0.536	0.021
+default	TEST:dups	9													0.207	0.143	0.593	0.571	0.486	0.086
+high_turnover	control_U	9	0.0	56.0		0.0	51.0		889.0	1151.0	1.295	845.0	930.0	1.101						
+high_turnover	other_internal	33	5.0	324.0	64.8	5.0	235.0	47.0	3172.0	3913.0	1.234	2752.0	3475.0	1.263						
+high_turnover	primary_stem_edge	9	0.0	66.0		0.0	39.0		717.0	932.0	1.3	708.0	867.0	1.225						
+high_turnover	root_child	2	16.0	23.0	1.438	16.0	17.0	1.062	0.0	0.0		24.0	27.0	1.125						
+high_turnover	TEST:hog_gains	9													2.197	3.045	0.607	0.607	0.5	0.107
+high_turnover	TEST:seq_novel	9													2.197	2.398	0.464	0.464	0.5	-0.036
+high_turnover	TEST:losses	9													0.235	0.292	0.55	0.55	0.507	0.043
+high_turnover	TEST:dups	9													0.136	0.328	0.664	0.636	0.55	0.086

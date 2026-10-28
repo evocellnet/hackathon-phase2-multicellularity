@@ -1,0 +1,9 @@
+setting	quantity	branch_class	observed	expected	O_E	O_E_lo	O_E_hi	beta_log_bl	beta_log_n_desc	glm
+default	hog_gains	primary_stem_edge	74	65.5	1.131	0.888	1.419	0.642	0.236	nb
+default	hog_gains	control_U	67	105.7	0.634	0.491	0.805	0.642	0.236	nb
+default	seq_novel	primary_stem_edge	49	41.5	1.18	0.873	1.56	0.849	0.509	nb
+default	seq_novel	control_U	54	93.5	0.577	0.434	0.753	0.849	0.509	nb
+high_turnover	hog_gains	primary_stem_edge	66	59.7	1.106	0.855	1.406	0.709	0.365	nb
+high_turnover	hog_gains	control_U	56	112.4	0.498	0.376	0.647	0.709	0.365	nb
+high_turnover	seq_novel	primary_stem_edge	39	42.1	0.926	0.659	1.267	0.797	0.517	nb
+high_turnover	seq_novel	control_U	51	95.1	0.536	0.399	0.705	0.797	0.517	nb
