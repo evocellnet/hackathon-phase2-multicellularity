@@ -1,0 +1,12 @@
+transition_label_description	expected	source	applies_to_modules	notes
+Fungal hyphae stem (U->S; M = Blastocladio+Zoopago+Mucoro+Dikarya) - flagellar modules	loss	evo_biology.md Appendix A3 (Loss expected: fungal hyphal node)	IFT-B;BBSome;axoneme;transition_zone	[verify] Blastocladiomycota retain zoospore flagella, so the flagellar loss may map to the sub-stem leading to Zoopago+Mucoro+Dikarya rather than to the M stem as defined; scoring reports the M stem as pre-registered and the sub-stem as a sensitivity result.
+Fungal hyphae stem (U->S) - phagotrophy set	loss	evo_biology.md Appendix A3 (Loss expected: fungal hyphal node (flagellum, phagotrophy))	phagotrophy_exploratory	Kiss et al. 2019 report co-option of phagocytosis genes in hyphae; direction kept as stated by the reviewer.
+Dictyostelia stem (U->S aggregative) - flagellar modules	loss	evo_biology.md Appendix A3 (Loss expected: Dictyostelia stem (flagellum only))	IFT-B;BBSome;axoneme;transition_zone	
+Dictyostelia stem (U->S aggregative) - phagotrophy set	no_loss	evo_biology.md Appendix A3 4 (Aggregative amoebae stay phagotrophic)	phagotrophy_exploratory	Derived from reviewer text: loss expected for flagellum only.
+Zygnematophyceae+Embryophyta lineage (flagellum lost in Zygnematophyceae)	loss	evo_biology.md Appendix A3 (Loss expected: Zygnematophyceae+Embryophyta lineage (flagellum lost in Zygnematophyceae))	IFT-B;BBSome;axoneme;transition_zone	[verify] Bryophytes and ferns keep flagellated sperm, so the loss is expected on the Zygnematophyceae crown stem rather than on the Zygnematophyceae+Embryophyta stem; scoring reports the pre-registered lineage and the Zygnematophyceae stem as a sensitivity result.
+Metazoa stem	no_loss	evo_biology.md Appendix A3 (No loss expected: Metazoa)	all	
+Volvocales stems (two origins)	no_loss	evo_biology.md Appendix A3 (No loss expected: Volvocales)	all	
+Phaeophyceae stem	no_loss	evo_biology.md Appendix A3 (No loss expected: Phaeophyceae)	all	
+Ulva (tip U->S)	no_loss	evo_biology.md Appendix A3 (No loss expected: Ulva)	all	tip-level; exploratory
+Acrasis, Fonticula, Copromyxa (aggregative tips; phagotrophy retained)	no_loss	evo_biology.md Appendix A3 (No loss expected: Acrasis/Fonticula/Copromyxa (phagotrophy retained))	all	single-species tips; exploratory; flagellar status of these taxa not stated by the reviewer.
+Rhodophyta (flagellum lost before M)	not_applicable	evo_biology.md Appendix A3 (Not applicable: Rhodophyta (lost before M))	all	excluded from the concordance count

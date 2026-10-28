@@ -6,7 +6,7 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## Status summary (latest first)
 
-### M1 — 2026-10-28 ~13:50 (t ≈ 1.5 h)
+### M1 — 2026-10-28 12:45 (t ≈ 0.4 h)
 Literature review done (LITERATURE.md, ~9k words, 249 tool-verified references; 16 testable hypotheses H1–H16). Data scouting done:
 151 core + 104 optional eukaryotic candidates, 79 core prokaryotic; sources UniProt 2026_03, EukProt v3, LukProt v1.5.1, NCBI
 (Phaeoexplorer). "Eukaryoma" could not be found (closest: EUKARYOME, an rRNA database) and *Sorogena*/*Sorodiplophrys* have no public
@@ -41,5 +41,5 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 
 ## Decision log
 - D0 (t=0): Eukaryote and prokaryote runs kept separate (see M0).
-- D1 (t=1.3h): Dataset build launched before design review completes; taxon changes from review are cheap before the Ancestra run.
-- D2 (t=1.5h): "Eukaryoma" not found → proceed with UniProt + EukProt + LukProt + NCBI; question logged for the user.
+- D1 (t=0.3h): Dataset build launched before design review completes; taxon changes from review are cheap before the Ancestra run.
+- D2 (t=0.4h): "Eukaryoma" not found → proceed with UniProt + EukProt + LukProt + NCBI; question logged for the user.

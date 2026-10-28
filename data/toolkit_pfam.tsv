@@ -1,0 +1,111 @@
+category	pfam_acc	pfam_name	rule_notes	source	role
+adhesion_ecm	PF00028	Cadherin	also positive control C04 (DESIGN 4.4)	evo_biology.md Appendix A2	member
+adhesion_ecm	PF01049	CADH_Y-type_LIR	also positive control C03 (DESIGN 4.4); name normalised to HMM NAME: reviewer label 'cadherin cytoplasmic' -> 'CADH_Y-type_LIR'	evo_biology.md Appendix A2	member
+adhesion_ecm	PF00362	Integrin_beta	also positive control C06 (DESIGN 4.4)	evo_biology.md Appendix A2	member
+adhesion_ecm	PF01839	FG-GAP		evo_biology.md Appendix A2	member
+adhesion_ecm	PF08441	Integrin_A_Ig_1		evo_biology.md Appendix A2	member
+adhesion_ecm	PF01044	Vinculin		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00041	fn3		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00047	ig		evo_biology.md Appendix A2	member
+adhesion_ecm	PF07679	I-set		evo_biology.md Appendix A2	member
+adhesion_ecm	PF07686	V-set		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00008	EGF		evo_biology.md Appendix A2	member
+adhesion_ecm	PF07645	EGF_CA		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00053	EGF_laminin		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00055	Laminin_N		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00052	Laminin_B		evo_biology.md Appendix A2	member
+adhesion_ecm	PF02210	Laminin_G_2	name normalised to HMM NAME: reviewer label 'Laminin_G' -> 'Laminin_G_2'	evo_biology.md Appendix A2	member
+adhesion_ecm	PF00054	Laminin_G_1	name normalised to HMM NAME: reviewer label 'Laminin_G' -> 'Laminin_G_1'	evo_biology.md Appendix A2	member
+adhesion_ecm	PF01391	Collagen		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00090	TSP_1		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00084	Sushi		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00431	CUB		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00754	F5_F8_type_C		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00059	Lectin_C		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00092	VWA		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00100	Zona_pellucida		evo_biology.md Appendix A2	member
+adhesion_ecm	PF01390	SEA		evo_biology.md Appendix A2	member
+adhesion_ecm	PF02494	HYR		evo_biology.md Appendix A2	member
+adhesion_ecm	PF02469	Fasciclin		evo_biology.md Appendix A2	member
+adhesion_ecm	PF12499	DUF3707	also positive control C12 (kept out of test families when testing control recovery, DESIGN 4.4); name normalised to HMM NAME: reviewer label 'Pherophorin' -> 'DUF3707'	evo_biology.md Appendix A2	member
+adhesion_ecm	PF00057	Ldl_recept_a		evo_biology.md Appendix A2	member
+adhesion_ecm	PF00560	LRR_1	LRR conditional member: count a protein as adhesion only if it carries NO NB-ARC (PF00931), NACHT (PF05729) or TIR (PF01582) hit; proteins with any of those are excluded from adhesion_ecm (immune LRR proteins; avoids false convergence for H5)	evo_biology.md Appendix A2	conditional_member
+adhesion_ecm	PF13855	LRR_8	LRR conditional member: count a protein as adhesion only if it carries NO NB-ARC (PF00931), NACHT (PF05729) or TIR (PF01582) hit; proteins with any of those are excluded from adhesion_ecm (immune LRR proteins; avoids false convergence for H5)	evo_biology.md Appendix A2	conditional_member
+adhesion_ecm	PF00931	NB-ARC	LRR exclusion marker (not an adhesion domain): a protein with this hit is removed from LRR-based adhesion counts	evo_biology.md Appendix A2	exclusion_marker
+adhesion_ecm	PF05729	NACHT	LRR exclusion marker (not an adhesion domain): a protein with this hit is removed from LRR-based adhesion counts	evo_biology.md Appendix A2	exclusion_marker
+adhesion_ecm	PF01582	TIR	LRR exclusion marker (not an adhesion domain): a protein with this hit is removed from LRR-based adhesion counts	evo_biology.md Appendix A2	exclusion_marker
+signalling	PF00110	wnt		evo_biology.md Appendix A2	member
+signalling	PF01534	Frizzled		evo_biology.md Appendix A2	member
+signalling	PF01392	Fz		evo_biology.md Appendix A2	member
+signalling	PF00019	TGF_beta		evo_biology.md Appendix A2	member
+signalling	PF03166	MH2		evo_biology.md Appendix A2	member
+signalling	PF01414	DSL		evo_biology.md Appendix A2	member
+signalling	PF00066	Notch	name normalised to HMM NAME: reviewer label 'Notch LNR' -> 'Notch'	evo_biology.md Appendix A2	member
+signalling	PF06816	NOD		evo_biology.md Appendix A2	member
+signalling	PF07684	NODP		evo_biology.md Appendix A2	member
+signalling	PF01085	HH_signal		evo_biology.md Appendix A2	member
+signalling	PF02460	Patched		evo_biology.md Appendix A2	member
+signalling	PF00001	7tm_1		evo_biology.md Appendix A2	member
+signalling	PF00002	7tm_2		evo_biology.md Appendix A2	member
+signalling	PF00003	7tm_3		evo_biology.md Appendix A2	member
+signalling	PF05462	Dicty_CAR		evo_biology.md Appendix A2	member
+signalling	PF01825	GPS		evo_biology.md Appendix A2	member
+signalling	PF00029	Connexin		evo_biology.md Appendix A2	member
+signalling	PF00876	Innexin		evo_biology.md Appendix A2	member
+kinase_ptyr	PF00069	Pkinase	receptor kinase = kinase domain + transmembrane segment + extracellular domain (H6)	evo_biology.md Appendix A2	member
+kinase_ptyr	PF07714	PK_Tyr_Ser-Thr	PF07714 is not a tyrosine-kinase marker: in Pfam 38.2 it matches Ser/Thr and TKL kinases (incl. plant RLKs); subclassify TK vs S/T-like by catalytic-loop motif (TK-like HRDLAARN-type vs S/T-like HRDLKPEN-type); exact regex fixed in the classifier code before results, not used for control recovery; receptor kinase = kinase domain + transmembrane segment + extracellular domain (H6)	evo_biology.md Appendix A2	member
+kinase_ptyr	PF00017	SH2		evo_biology.md Appendix A2	member
+kinase_ptyr	PF00102	Y_phosphatase		evo_biology.md Appendix A2	member
+kinase_ptyr	PF03637	Mob1_phocein	Hippo pathway component	evo_biology.md Appendix A2	member
+tf_dbd	PF00046	Homeodomain	pan-eukaryotic; not a Hox marker	evo_biology.md Appendix A2	member
+tf_dbd	PF05920	Homeobox_KN	also positive control C09 (DESIGN 4.4)	evo_biology.md Appendix A2	member
+tf_dbd	PF00157	Pou		evo_biology.md Appendix A2	member
+tf_dbd	PF00292	PAX		evo_biology.md Appendix A2	member
+tf_dbd	PF00010	HLH		evo_biology.md Appendix A2	member
+tf_dbd	PF00170	bZIP_1		evo_biology.md Appendix A2	member
+tf_dbd	PF00907	T-box	also positive control C07 (DESIGN 4.4)	evo_biology.md Appendix A2	member
+tf_dbd	PF00853	Runt		evo_biology.md Appendix A2	member
+tf_dbd	PF00250	Forkhead		evo_biology.md Appendix A2	member
+tf_dbd	PF00178	Ets		evo_biology.md Appendix A2	member
+tf_dbd	PF00505	HMG_box		evo_biology.md Appendix A2	member
+tf_dbd	PF00104	Hormone_recep	nuclear receptor ligand-binding domain (PF00105 is the DNA-binding zf-C4); name normalised to HMM NAME: reviewer label 'nuclear receptor' -> 'Hormone_recep'	evo_biology.md Appendix A2	member
+tf_dbd	PF00105	zf-C4	nuclear receptor DNA-binding domain (zf-C4); name normalised to HMM NAME: reviewer label 'nuclear receptor' -> 'zf-C4'	evo_biology.md Appendix A2	member
+tf_dbd	PF00870	P53		evo_biology.md Appendix A2	member
+tf_dbd	PF00554	RHD_DNA_bind		evo_biology.md Appendix A2	member
+tf_dbd	PF01285	TEA		evo_biology.md Appendix A2	member
+tf_dbd	PF09271	LAG1-DNAbind		evo_biology.md Appendix A2	member
+tf_dbd	PF02864	STAT_bind		evo_biology.md Appendix A2	member
+tf_dbd	PF00319	SRF-TF		evo_biology.md Appendix A2	member
+tf_dbd	PF00249	Myb_DNA-binding	name normalised to HMM NAME: reviewer label 'Myb' -> 'Myb_DNA-binding'	evo_biology.md Appendix A2	member
+tf_dbd	PF00847	AP2		evo_biology.md Appendix A2	member
+tf_dbd	PF03106	WRKY		evo_biology.md Appendix A2	member
+tf_dbd	PF02365	NAM		evo_biology.md Appendix A2	member
+tf_dbd	PF00320	GATA		evo_biology.md Appendix A2	member
+tf_dbd	PF03110	SBP		evo_biology.md Appendix A2	member
+tf_dbd	PF03634	TCP		evo_biology.md Appendix A2	member
+tf_dbd	PF03195	LOB		evo_biology.md Appendix A2	member
+tf_dbd	PF02362	B3		evo_biology.md Appendix A2	member
+tf_dbd	PF03514	GRAS	also positive control C10 (DESIGN 4.4)	evo_biology.md Appendix A2	member
+tf_dbd	PF02701	Zn_ribbon_Dof		evo_biology.md Appendix A2	member
+tf_dbd	PF00172	Zn_clus	Zn-cluster; relevant to yeast reversals (Nagy et al. 2014)	evo_biology.md Appendix A2	member
+tf_dbd	PF02319	WHD_E2F_TDP	also listed in cell_cycle (E2F/DP); category kept in both as in Appendix A2; name normalised to HMM NAME: reviewer label 'E2F/DP' -> 'WHD_E2F_TDP'	evo_biology.md Appendix A2	member
+tf_dbd	PF00447	HSF_DNA-bind	name normalised to HMM NAME: reviewer label 'HSF' -> 'HSF_DNA-bind'	evo_biology.md Appendix A2	member
+tf_dbd	PF02376	CUT		evo_biology.md Appendix A2	member
+tf_dbd	PF01388	ARID		evo_biology.md Appendix A2	member
+tf_dbd	PF00751	DM		evo_biology.md Appendix A2	member
+tf_dbd	PF02257	RFX_DNA_binding	name normalised to HMM NAME: reviewer label 'RFX' -> 'RFX_DNA_binding'	evo_biology.md Appendix A2	member
+pcd	PF00656	Peptidase_C14	caspase and metacaspase	evo_biology.md Appendix A2	member
+pcd	PF00619	CARD		evo_biology.md Appendix A2	member
+pcd	PF00531	Death		evo_biology.md Appendix A2	member
+pcd	PF01335	DED		evo_biology.md Appendix A2	member
+pcd	PF00452	Bcl-2		evo_biology.md Appendix A2	member
+pcd	PF00653	BIR		evo_biology.md Appendix A2	member
+pcd	PF01823	MACPF		evo_biology.md Appendix A2	member
+cell_cycle	PF01858	RB_A	also positive control C11 (DESIGN 4.4)	evo_biology.md Appendix A2	member
+cell_cycle	PF01857	RB_B	also positive control C11 (DESIGN 4.4)	evo_biology.md Appendix A2	member
+cell_cycle	PF02319	WHD_E2F_TDP	also listed in tf_dbd (E2F/DP); name normalised to HMM NAME: reviewer label 'E2F' -> 'WHD_E2F_TDP'	evo_biology.md Appendix A2	member
+cell_cycle	PF00134	Cyclin_N	name normalised to HMM NAME: reviewer label 'Cyclin' -> 'Cyclin_N'	evo_biology.md Appendix A2	member
+cell_cycle	PF02984	Cyclin_C	name normalised to HMM NAME: reviewer label 'Cyclin' -> 'Cyclin_C'	evo_biology.md Appendix A2	member
+cell_cycle	PF00735	Septin		evo_biology.md Appendix A2	member
+cell_cycle	PF03357	Snf7	ESCRT-III	evo_biology.md Appendix A2	member
+c2h2_separate	PF00096	zf-C2H2	reported separately and NOT part of the primary H4 test: lineage-specific repeat expansions dominate (evo_biology.md 4); name normalised to HMM NAME: reviewer label 'C2H2' -> 'zf-C2H2'	evo_biology.md Appendix A2	member

@@ -1,0 +1,14 @@
+term	definition
+crown(C)	MRCA node, in the frozen guide tree, of all sampled species assigned to clade C (clade membership from data/species_final.tsv lineage_group/taxonomy columns and data/transitions.tsv).
+stem(C)	The guide-tree branch that ends at crown(C) (parent(crown(C)) -> crown(C)). An event is 'on stem(C)' if mcell.hogs assigns it to that branch.
+P(T)	Parent node of M for transition T in data/transitions.tsv (last sampled ancestor in the prior state). For Metazoa, P = Choanozoa node (Metazoa + Choanoflagellata).
+outside(C)	All sampled species that are not descendants of crown(C).
+hit(X)	A protein with a pyhmmer hit to Pfam X (Pfam-A 38.2) at the family gathering cutoff (DESIGN 3.3). Architecture 'A+B' means a protein with hit(A) and hit(B), A starting before B (domain order by envelope start; other domains may lie in between).
+PF-HOG(X)	A HOG (mcell.hogs, raw Ancestra HOG) with >=2 member proteins of which >=50% have hit(X). For an any-of list, hit to any listed Pfam counts.
+present_at(N)	HOG inferred copy number >=1 at node N in mcell.hogs.
+origin(H)	The node at the lower end of the branch that carries the HOG-level gain event of HOG H (gain-evidence ladder tier 1, DESIGN 3.2). H has an origin on stem(C) iff origin(H)=crown(C).
+loss on stem(C)	HOG present_at(parent(crown(C))) and copy number 0 at crown(C). Scored only if C has >=2 genome-based sampled species; otherwise the control is not_evaluable (counts as not recovered in the >=11/16 criterion but is explained).
+duplication on stem(C)	A duplication event of HOG H assigned to stem(C) by mcell.hogs.
+leak tolerance	For 'absent outside C' conditions: hit(X) is allowed in at most 2 sampled species outside(C); those species are listed in the report as possible contamination or annotation false positives. More than 2 outside species with hits fails the condition.
+scoring	Each control is scored recovered, not_recovered or not_evaluable by applying its pass_rule exactly as written; all components joined by AND must hold. Pass rules are frozen in PREREG; thresholds that are operational choices (not from the literature) are labelled in the notes column. Tests use the primary run (Ancestra fast, rooting as in the primary guide tree); sensitivity runs report the same scoring.
+tier	Where a rule says gain, the HOG-level origin is required AND absence outside (Pfam level). Sequence-novel status (ladder tier 3) is reported alongside but is not required for control recovery.

@@ -1,0 +1,25 @@
+module	pfam_acc	pfam_name	notes	role
+IFT-B	PF10498	IFT57		member
+IFT-B	PF14931	IFT20		member
+IFT-B	PF12317	IFT46_B_C		member
+IFT-B	PF18383	IFT81_CH		member
+IFT-B	PF10234	Cluap1		member
+BBSome	PF14779	BBS1	scored separately: first module expected to be lost (van Dam et al. 2013)	member
+BBSome	PF14781	BBS2_N	scored separately: first module expected to be lost (van Dam et al. 2013); name normalised to HMM NAME: reviewer label 'BBS2' -> 'BBS2_N'	member
+BBSome	PF14783	BBS2_Mid	scored separately: first module expected to be lost (van Dam et al. 2013); name normalised to HMM NAME: reviewer label 'BBS2' -> 'BBS2_Mid'	member
+BBSome	PF14782	BBS2_GAE	scored separately: first module expected to be lost (van Dam et al. 2013); name normalised to HMM NAME: reviewer label 'BBS2' -> 'BBS2_GAE'	member
+BBSome	PF14777	BBIP10	scored separately: first module expected to be lost (van Dam et al. 2013)	member
+axoneme	PF04712	Radial_spoke		member
+axoneme	PF06098	Radial_spoke_3		member
+axoneme	PF03148	Tektin		member
+axoneme	PF10211	Ax_dynein_light		member
+axoneme	PF14738	CFAP91		member
+axoneme	PF11069	CFAP298		member
+axoneme	PF10629	CMI2B-like		member
+transition_zone	PF07162	B9-C2		member
+transition_zone	PF09773	Meckelin		member
+transition_zone	PF07773	TCTN_DUF1619	name normalised to HMM NAME: reviewer label 'TCTN' -> 'TCTN_DUF1619'	member
+axoneme	PF03028	Dynein_heavy	EXCLUDED from all flagellar modules: includes cytoplasmic paralogues (dynein heavy chain, kinesin); listed only to document the exclusion	excluded
+axoneme	PF00225	Kinesin	EXCLUDED from all flagellar modules: includes cytoplasmic paralogues (dynein heavy chain, kinesin); listed only to document the exclusion	excluded
+phagotrophy_exploratory	PF04727	ELMO_CED12	exploratory supplementary domain; the main phagotrophy set is the Burns et al. 2018 gene set mapped to HOGs (not a Pfam list; mapped separately and frozen with this file). Arp2/3 and WASP are NOT used (shared with endocytosis and tip growth)	member
+phagotrophy_exploratory	PF06920	DHR-2_Lobe_A	exploratory supplementary domain; the main phagotrophy set is the Burns et al. 2018 gene set mapped to HOGs (not a Pfam list; mapped separately and frozen with this file). Arp2/3 and WASP are NOT used (shared with endocytosis and tip growth); name normalised to HMM NAME: reviewer label 'DHR-2 (DOCK)' -> 'DHR-2_Lobe_A'	member
