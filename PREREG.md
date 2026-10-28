@@ -46,4 +46,13 @@ Known calibration issue: in the power simulations the H1/H2 residual statistic r
 ≥ 11 of 16 eukaryotic controls recovered and every high-confidence failure explained; every failure reported.
 
 ## Deviations
-(none yet — any change after the freeze is added here with date, reason and whether it was made before or after seeing results)
+Any change after the freeze is added here with date, reason and whether it was made before or after seeing results.
+
+- **Dev-1 (2026-10-28 ~14:45, BEFORE any eukaryote output existed).** H1/H2 null distribution: parametric bootstrap from the NB-GLM
+  fitted on the control pool (simulate counts for all branches from the fitted model, refit, recompute T) replaces the `permute` scheme
+  for H1/H2 only. Reason: final calibration of the statistics engine showed that permuting residuals is anti-conservative when stems
+  extrapolate beyond the controls' covariate range (false-positive rate 0.083 at a 1-SD covariate shift and 0.283 at 2.5 SD, α = 0.05),
+  and our stems are deeper than the controls (depth SMD 1.77); the parametric bootstrap stays at 0.040–0.053
+  (results/validation_branchstats/null_calibration.tsv). The `permute` H1/H2 p-value is reported as a sensitivity analysis.
+  Also corrected: the null-calibration numbers quoted in DESIGN §4.6 v3.1 (14.5%/4.3%, 400 replicates) are superseded by
+  13.8%/4.5% for the literal scheme and 5.1%/1.3% for `permute` (1,000 replicates); DESIGN.md is left unchanged because it is hashed.
