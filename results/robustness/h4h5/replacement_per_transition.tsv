@@ -1,0 +1,41 @@
+transition_id	hypothesis	set	analysis	stem	k	y	expected	est	var	pi_low	pi_high	percentile	var_floored	u
+T_dictyostelia	H4	primary	re-matched	Dictyostelia	20	0.912703	0.45784	0.454863	0.856819	-1.61572	0.884973	0.547619	False	0.547619
+T_fungi_hyphae	H4	primary	re-matched	Amastigomycota	20	0.0193644	0.476315	-0.45695	0.739927	-1.36912	1.32421	0.309524	False	0.309524
+T_metazoa	H4	primary	re-matched	Metazoa	20	1.3429	0.237708	1.10519	0.606754	-1.39558	0.923864	0.97619	False	0.97619
+T_px_filaments	H4	primary	re-matched	PX_clade	20	-0.235273	0.169533	-0.404806	0.668559	-1.32741	1.01759	0.309524	False	0.309524
+T_rhodophyta	H4	primary	re-matched	Eurhodophytina	20	0.619935	0.506954	0.11298	0.851324	-1.39976	1.29357	0.5	False	0.5
+T_streptophyta	H4	primary	re-matched	Klebsormidiophyceae_Phragmoplastophyta	20	0.819575	0.536952	0.282623	0.714543	-0.98633	1.26357	0.595238	False	0.595238
+T_volvocine_tgv	H4	primary	re-matched	Gonium_Volvocaceae	20	-0.29831	0.390324	-0.688634	0.75214	-1.5482	1.4102	0.214286	False	0.214286
+T_dictyostelia	H4	primary	primary sets fixed	Dictyostelia	20	0.912703	0.467836	0.444867	0.874328	-1.62571	0.909222	0.547619	False	0.547619
+T_fungi_hyphae	H4	primary	primary sets fixed	Amastigomycota	20	0.0193644	0.278044	-0.25868	0.717822	-1.43592	1.09901	0.357143	False	0.357143
+T_metazoa	H4	primary	primary sets fixed	Metazoa	20	1.3429	0.237708	1.10519	0.606754	-1.39558	0.923864	0.97619	False	0.97619
+T_px_filaments	H4	primary	primary sets fixed	PX_clade	20	-0.235273	0.246964	-0.482237	0.678215	-1.40484	1.05815	0.261905	False	0.261905
+T_rhodophyta	H4	primary	primary sets fixed	Eurhodophytina	20	0.619935	0.54253	0.0774045	0.826413	-1.43533	1.258	0.5	False	0.5
+T_streptophyta	H4	primary	primary sets fixed	Klebsormidiophyceae_Phragmoplastophyta	20	0.819575	0.396585	0.42299	0.694501	-1.28939	0.980474	0.642857	False	0.642857
+T_volvocine_tgv	H4	primary	primary sets fixed	Gonium_Volvocaceae	20	-0.29831	0.222567	-0.520877	0.712224	-1.38044	1.15449	0.261905	False	0.261905
+T_embryophyta	H4	secondary	re-matched	Embryophyta	20	0.364279	0.251938	0.112341	0.728184	-1.40981	1.12512	0.5	False	0.5
+T_fungi_agaricomycetes	H4	secondary	re-matched	Agaricomycetes_Dacrymycetes	20	-0.204488	0.188389	-0.392877	0.596446	-1.34627	0.976818	0.309524	False	0.309524
+T_fungi_pezizomycotina	H4	secondary	re-matched	Pezizomycotina	20	-0.466246	0.188389	-0.654635	0.596446	-1.34627	0.976818	0.166667	False	0.166667
+T_embryophyta	H4	secondary	primary sets fixed	Embryophyta	20	0.364279	0.149526	0.214753	0.552077	-1.3074	1.01568	0.547619	False	0.547619
+T_fungi_agaricomycetes	H4	secondary	primary sets fixed	Agaricomycetes_Dacrymycetes	20	-0.204488	0.188389	-0.392877	0.596446	-1.34627	0.976818	0.309524	False	0.309524
+T_fungi_pezizomycotina	H4	secondary	primary sets fixed	Pezizomycotina	20	-0.466246	0.188389	-0.654635	0.596446	-1.34627	0.976818	0.166667	False	0.166667
+T_dictyostelia	H5	primary	re-matched	Dictyostelia	20	-0.0204254	-0.628592	0.608167	0.790577	-1.51064	1.05551	0.785714	False	0.785714
+T_fungi_hyphae	H5	primary	re-matched	Amastigomycota	20	-1.39804	-0.389819	-1.00822	0.681365	-1.20235	1.11982	0.166667	False	0.166667
+T_metazoa	H5	primary	re-matched	Metazoa	20	-0.196661	-0.595221	0.39856	0.832844	-1.54401	1.08271	0.690476	False	0.690476
+T_px_filaments	H5	primary	re-matched	PX_clade	20	-0.723908	-0.623505	-0.100403	0.754847	-1.51573	0.915262	0.357143	False	0.357143
+T_rhodophyta	H5	primary	re-matched	Eurhodophytina	20	-0.00644017	-0.318621	0.312181	0.625091	-1.27354	1.04862	0.690476	False	0.690476
+T_streptophyta	H5	primary	re-matched	Klebsormidiophyceae_Phragmoplastophyta	20	-1.02723	-0.241569	-0.785659	0.423461	-0.742795	0.971572	0.0714286	False	0.0714286
+T_volvocine_tgv	H5	primary	re-matched	Gonium_Volvocaceae	20	-0.0205601	-0.503098	0.482538	0.885011	-1.13831	1.2331	0.785714	False	0.785714
+T_dictyostelia	H5	primary	primary sets fixed	Dictyostelia	20	-0.0204254	-0.695818	0.675392	0.82498	-1.44341	1.12274	0.785714	False	0.785714
+T_fungi_hyphae	H5	primary	primary sets fixed	Amastigomycota	20	-1.39804	-0.624998	-0.773046	0.867448	-1.51423	1.11249	0.214286	False	0.214286
+T_metazoa	H5	primary	primary sets fixed	Metazoa	20	-0.196661	-0.595221	0.39856	0.832844	-1.54401	1.08271	0.690476	False	0.690476
+T_px_filaments	H5	primary	primary sets fixed	PX_clade	20	-0.723908	-0.669865	-0.0540435	0.827032	-1.46937	1.03405	0.404762	False	0.404762
+T_rhodophyta	H5	primary	primary sets fixed	Eurhodophytina	20	-0.00644017	-0.387851	0.381411	0.622696	-1.20431	1.11785	0.738095	False	0.738095
+T_streptophyta	H5	primary	primary sets fixed	Klebsormidiophyceae_Phragmoplastophyta	20	-1.02723	-0.409187	-0.61804	0.456227	-1.18298	0.896679	0.119048	False	0.119048
+T_volvocine_tgv	H5	primary	primary sets fixed	Gonium_Volvocaceae	20	-0.0205601	-0.63052	0.60996	0.76114	-1.50871	0.994703	0.833333	False	0.833333
+T_embryophyta	H5	secondary	re-matched	Embryophyta	20	-0.456342	-0.655648	0.199306	0.854331	-1.48358	1.14314	0.595238	False	0.595238
+T_fungi_agaricomycetes	H5	secondary	re-matched	Agaricomycetes_Dacrymycetes	20	-0.827528	-0.662115	-0.165413	0.846668	-1.47712	1.14961	0.357143	False	0.357143
+T_fungi_pezizomycotina	H5	secondary	re-matched	Pezizomycotina	20	0.524004	-0.662115	1.18612	0.846668	-1.47712	1.14961	0.928571	False	0.928571
+T_embryophyta	H5	secondary	primary sets fixed	Embryophyta	20	-0.456342	-0.708854	0.252512	0.774935	-1.43038	1.00061	0.642857	False	0.642857
+T_fungi_agaricomycetes	H5	secondary	primary sets fixed	Agaricomycetes_Dacrymycetes	20	-0.827528	-0.662115	-0.165413	0.846668	-1.47712	1.14961	0.357143	False	0.357143
+T_fungi_pezizomycotina	H5	secondary	primary sets fixed	Pezizomycotina	20	0.524004	-0.662115	1.18612	0.846668	-1.47712	1.14961	0.928571	False	0.928571
