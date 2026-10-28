@@ -1,0 +1,19 @@
+control_id	expected_node_name(s)	notes	pi_resolution
+C01	stem: Metazoa (edge Choanozoa->Metazoa); outside(Metazoa)	exists	
+C02	stem: Metazoa (edge Choanozoa->Metazoa); outside(Metazoa)	exists	
+C03	stem: Metazoa (edge Choanozoa->Metazoa); outside(Metazoa)	exists	
+C04	present_at: Choanozoa (=P(Metazoa)); origin at Choanozoa, Filozoa or older; member taxa: Metazoa + Choanoflagellata or Filasterea	exists	
+C05	species sets: Metazoa, Choanoflagellata, Filasterea (protein-level); present_at: Choanozoa	exists. Filasterea = Capsowc, Minivib, Pigochi (2 genomes)	
+C06	origin: Apusomonadida_Opisthokonta or older, with leaf Thectra; loss stems: Fungi (edge Holomycota->Fungi) and Choanoflagellata (edge Choanozoa->Choanoflagellata)	exists. Caveat: node Fungi includes Rozella and Paraphelidium (transcriptome). If integrin was lost before the Fonticula split, the loss maps to the Holomycota stem and C06(b) fails for a sampling reason, not a method error; report the Holomycota stem alongside.	Integrin-beta loss scored on edge into Fungi and also reported for Holomycota stem (audit caveat).
+C07	present_at: Holozoa; loss stem: Choanoflagellata; duplication stem: Metazoa	exists. Choanoflagellata has 3 genome species (meets the >=2 genome rule for losses)	
+C08	present_at: Choanozoa (=P(Metazoa)); members in Metazoa and Choanoflagellata	exists	
+C09	P nodes: Streptophyta (M Klebsormidiophyceae_Phragmoplastophyta); Phaeophyceae_Schizocladia (M Phaeophyceae); Rhodophytina (M Eurhodophytina)	exists. Phaeophyceae is exploratory in transitions.tsv, and its crown depends on low-quality Discmes (BUSCO C<50%); the P node still exists. Eurhodophytina contains low-quality Porpumb.	
+C10	stem: Anydrophyta (edge Coleochaetophyceae_Anydrophyta->Anydrophyta); outside(Anydrophyta)	exists	
+C11	present_at: Chlamydomonas_TGV (P of T_volvocine_tgv); leaves Chlarei, Volvcar	pass_rule says 'two Volvocales primary transitions', but only one remains (D4). Under the current coding use P=Chlamydomonas_TGV (also report TGV_clade); under fix F1, P=Chlamydomonas_TGV. Wording edit needed.	D7: P of the volvocine primary transition is Chlamydomonas_TGV (path stem to Gonium_Volvocaceae); score presence at Chlamydomonas_TGV; single volvocine primary transition.
+C12	leaves: Volvcar, Chlarei	species-level count; no node needed	
+C13	stem: Pezizomycotina (edge saccharomyceta->Pezizomycotina); crown Pezizomycotina; comparator Taphrinomycotina	exists. Anchor Neurcra (Hex1)	
+C14	species set 'Agaricomycetes' = node Agaricales (Coprcin, Laccbic, Schicom); non-Agaricomycetes Dikarya = Dikarya minus Agaricales; Saccharomycotina	NO node named 'Agaricomycetes': all 3 sampled Agaricomycetes are Agaricales, so use node Agaricales. Dacrpri (Dacrymycetes) is NOT in the test group.	Use node Agaricales (all sampled Agaricomycetes).
+C15	stem: Blastocladiomycota_Amastigomycota (edge Eumycota->Blastocladiomycota_Amastigomycota)	exists. Under fix F2, the path Eumycota->Blastocladiomycota_Amastigomycota->Amastigomycota (M=Amastigomycota)	D7: F2 adopted; expected-null tested on the path stem Eumycota>Blastocladiomycota_Amastigomycota>Amastigomycota.
+C16	species sets: Dictyostelia (6 genomes); non-Dictyostelia Amoebozoa genomes = Acancas, Mastbal, Planfun	exists	
+P1	prok species sets from species_final_prok.tsv; heterocystous = node Nostocales	exists	
+P2	prok node Streptomycetaceae (Kitaset, Strecoe, Streven)	exists	

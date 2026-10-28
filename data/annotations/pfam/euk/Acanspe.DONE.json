@@ -1,0 +1,1 @@
+{"species": "Acanspe", "fasta_md5": "f8366e9207f47d32cf52e0268375fc3f", "n_domain_hits": 30597, "seconds": 397.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.hmm", "cutoff": "gathering"}

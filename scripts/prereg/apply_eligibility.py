@@ -51,6 +51,30 @@ def main() -> int:
                          "model (Herron & Michod 2008) it is the transition stem.")
         rows.append(new)
 
+    # PI decision D7 (round-3 audit F1, F2): path stems. A path stem is the chain of consecutive edges from P to M;
+    # events and branch lengths are summed over its edges (DESIGN §4.6 v3.1).
+    if "stem_path" not in fields:
+        fields += ["stem_path"]
+    for r in rows:
+        r.setdefault("stem_path", "")
+        r["stem_path"] = f"{r['P']}>{r['M']}" if r["M"] and r["P"] and "," not in r["M"] else ""
+        if r["transition_id"] == "T_volvocine_tgv":
+            gv = next(x for x in rows if x["transition_id"] == "T_volvocales_gv")
+            r.update(M="Gonium_Volvocaceae", P="Chlamydomonas_TGV", stem_path="Chlamydomonas_TGV>TGV_clade>Gonium_Volvocaceae",
+                     mc_species=gv["mc_species"], n_mc_species=gv["n_mc_species"], flags="path_stem",
+                     label="Volvocine colonial lineage (Gonium+Volvocaceae; path stem from Chlamydomonas_TGV)",
+                     notes="D7 (audit F1): Lindsey et al. 2021 find colonial volvocines non-monophyletic, so TGV_clade is inferred "
+                           "unicellular and exists only through Tetrabaena (BUSCO 32%); the stem is the 2-edge path "
+                           "Chlamydomonas_TGV>TGV_clade>Gonium_Volvocaceae. Tetrabaena = separate exploratory origin.")
+        if r["transition_id"] == "T_fungi_hyphae":
+            r.update(M="Amastigomycota", stem_path="Eumycota>Blastocladiomycota_Amastigomycota>Amastigomycota",
+                     flags="path_stem",
+                     notes="D7 (audit F2): Kiss et al. 2019 place hyphae at Zoopagomycota+Dikarya (=Amastigomycota here) and treat "
+                           "Blastocladiomycota as mostly unicellular; the stem is the 2-edge path from Eumycota. Allomyces "
+                           "(hyphal blastoclad) is a separate exploratory origin.")
+            mc = r["mc_species"].split(",")
+            r["mc_species"] = ",".join(c for c in mc if c not in ("Allomac", "Allomyc", "Blasemer"))
+            r["n_mc_species"] = str(len(r["mc_species"].split(",")))
     if "analysis_set" not in fields:
         fields += ["analysis_set", "eligibility_reason"]
     for r in rows:

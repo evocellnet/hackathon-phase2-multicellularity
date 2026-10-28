@@ -1,6 +1,6 @@
 # DESIGN — Genomic transitions to multicellularity across the tree of life
 
-Version: **v3** (after review rounds 1–2: reviews/round1/*.md, reviews/round2/*.md; earlier versions in docs/design_history/). §4.6 is the binding statistical specification and overrides §4.1–4.2 where they differ. Owner: PI agent. Change log in §9.
+Version: **v3.1** (after review rounds 1–3 and pre-results calibration of the statistics engine: reviews/round1/*.md, reviews/round2/*.md; earlier versions in docs/design_history/). §4.6 is the binding statistical specification and overrides §4.1–4.2 where they differ. Owner: PI agent. Change log in §9.
 Fixed by the task: use Ancestra to reconstruct ancestral gene content before and after documented transitions to multicellularity,
 run a broad set of analyses, compare with existing knowledge, and assess whether shifts in evolutionary pressure are detectable
 in sequences or structures.
@@ -158,11 +158,30 @@ from the controls); "prediction interval" = 5–95% range of the controls. Stouf
   s = r_i = median_g r_ig (2,000 gene bootstraps for its CI); controls = nodes in U with two child clades of ≥2 tips, random orientation
   (seed 11). Two-sided. Reported as a **rate shift**; "relaxed constraint" only if a within-protein ratio (e.g. Kr/Kc or surface/core)
   supports it. Rerun on genome-only taxa. Caveat: r covers the whole post-P history; longer generation times bias r below 0.
-- *H12*: directions re-derived on the frozen tree as "flagellar module present at P, absent at M" (Allomyces/Gonapodya lie inside the
-  hyphal crown and Chara/bryophytes/ferns inside streptophyte M1, so stem losses are impossible there). f_b = mean over the 4 modules of
+- *H12*: directions re-derived on the frozen tree as "flagellar module present at P, absent at M" (data/h12_expected_direction_frozen.tsv;
+  Chara/bryophytes/ferns lie inside streptophyte M1, so a stem loss is impossible there; with the fungal path stem of D7 all 26
+  Amastigomycota are non-flagellate, so loss is expected on the fungal and Dictyostelia stems: 2 loss-expected stems → H12 primary). f_b = mean over the 4 modules of
   the fraction of module HOGs present at u that are lost on b (modules with < 50% of HOGs present at u skipped); s_b = w_i·f_b with
   w = +1 where loss is expected, −1 otherwise. **H12 is primary only if ≥ 2 loss-expected primary stems remain after re-derivation;
   otherwise exploratory** (decided when PREREG is frozen, before results).
+
+**v3.1 amendments (made before any eukaryote output was parsed; decisions D6–D7 in RESEARCH_TREE.md):**
+- *Relabelling scheme (D6).* The draw-without-replacement null of v3 is anti-conservative because the matched sets N_i overlap
+  (|U| = 30): 14.5% / 4.3% rejections at α = 0.05 / 0.01 under the null on the real tree (results/validation_branchstats/null_calibration.tsv).
+  The primary scheme is therefore `permute`: statistic values are permuted over stems ∪ all controls and u, T recomputed with the
+  original matched sets (4.9% / 0.9%). The v3 scheme is reported as a sensitivity analysis.
+- *Residual count statistic for H1/H2 (D6).* Matching is poor (stems are deep, controls shallow; depth SMD 1.77), so s_b for H1/H2 is
+  log((y_b+0.5)/(ŷ_b+0.5)) with ŷ from an NB-GLM fitted on U only: y ~ log(branch length) + log(n_desc) + log(n_sister_tips) +
+  frac_transcriptome_desc (leave-one-out for controls; Poisson/quasi fallback logged). Compositional (H4/H5), rate (H9) and
+  module-loss (H12) statistics are unchanged.
+- *Path stems (D7, audit F1/F2).* A stem may be a chain of consecutive edges from P to M; events and branch lengths are summed over the
+  edges, and the edges are excluded from U. Volvocine: Chlamydomonas_TGV>TGV_clade>Gonium_Volvocaceae (Lindsey et al. 2021: TGV_clade
+  inferred unicellular; it exists only through the 32%-complete Tetrabaena). Fungal hyphae: Eumycota>Blastocladiomycota_Amastigomycota>
+  Amastigomycota (Kiss et al. 2019 place hyphae at Zoopagomycota+Dikarya; Blastocladiomycota mostly unicellular).
+- *Prokaryotes.* Their tree yields |U| = 2 control branches, so prokaryotic transitions are analysed descriptively (no relabelling test).
+- *Primary family.* 7 eukaryotic origins (data/transitions.tsv analysis_set = primary); Holm across the 5 primary tests (H1/H2, H4, H5,
+  H9, H12); the attainable-p and MDE table is results/prereg/power_table.tsv. `analysis_set` supersedes the older `analysis_tier` column.
+
 **Multiplicity.** Holm across the primary tests that remain (≤ 5). PREREG lists per test n, k, the minimum attainable p and a simulated
 minimum detectable effect (planted multiplicative effect; 80% power at α = 0.01 and 0.05).
 **Reporting.** Per test: n, k, estimate with 95% CI, p with Monte-Carlo SE, Holm p, minimum attainable p. Wording: "no ≥ 1.5-fold effect"
@@ -214,6 +233,7 @@ matched control gains. ASR for ≤ 2 families (IQ-TREE -asr), descriptive.
 
 ## 9. Change log
 - v0 → v1: §1b mapping to literature hypotheses.
+- v3 → v3.1: D6 (permute null, NB-residual H1/H2 statistic), D7 (path stems; fungal and volvocine stems), prokaryotes descriptive, H12 primary with 2 loss-expected stems (round-3 audit reviews/round3/prereg_audit.md).
 - v2 → v3 (review round 2): binding statistical spec §4.6 (control pool U with sister covariates, k=20 nearest controls, one
   mean-percentile relabelling statistic, exact H4/H5/H9/H12 statistics, attainable-p and MDE table in PREREG, reporting wording);
   `fast` pre-registered primary; ≤3.0 M protein cut rule; DIAMOND `-k 0` single search with clade post-filter, also on control branches;

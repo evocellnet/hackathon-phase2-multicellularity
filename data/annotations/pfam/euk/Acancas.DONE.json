@@ -1,0 +1,1 @@
+{"species": "Acancas", "fasta_md5": "b22649fbf7d17d7d26d08ec7c3a5cf2c", "n_domain_hits": 25671, "seconds": 315.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.hmm", "cutoff": "gathering"}
