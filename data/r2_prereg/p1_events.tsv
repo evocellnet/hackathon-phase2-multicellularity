@@ -1,0 +1,7 @@
+panel	event_id	description	role	rule
+R4	R4_astrephomene	Astrephomene gubernaculifera: independent germ-soma (Yamashita et al. 2016)	confirmatory	no round-1 novelty value
+R4	R4_volvox_carteri	Volvox carteri germ-soma (tip)	confirmatory	no round-1 novelty value
+R4	R4_volvox_africanus	Volvox africanus/reticuliferus germ-soma (Volvox polyphyletic; Herron & Michod 2008)	confirmatory	no round-1 novelty value
+R6	R6_fucophycidae	stem of parenchymatous Fucophycidae (node name assigned mechanically when R6 tree is built: MRCA of sampled Fucophycidae)	confirmatory	no round-1 novelty value
+R4	R4_pleodorina	Pleodorina partial soma	sensitivity	flagged ambiguous (evobio review)
+ALL	all_nested	every simple->complex event in R2-R6, R8 (seen and unseen)	secondary_pooled	pooled estimate only
