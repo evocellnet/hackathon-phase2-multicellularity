@@ -6,6 +6,20 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## Status summary (latest first)
 
+### M4 — 2026-10-29 01:18 (t ≈ 13.0 h): all pre-registered tests done; nothing significant after Holm
+The eukaryote Ancestra run finished at t = 10.3 h (families 5.3 h, scoring 3.7 h, merge 10 min; verified). None of the five primary
+tests is significant after Holm: H1/H2 sequence-novel gains p = 0.113 (Holm 0.45), H4 TF duplications p = 0.36, H5 adhesion/signalling
+p = 0.77, H9 rate shift p = 0.27 (all Holm 0.81), H12 flagellar loss p = 0.020 (Holm 0.10; fungi and dictyostelids lose the whole
+module as expected, but two stems give little power). Positive controls 11/16 — pre-registered criterion met, but the three
+high-confidence failures expose real limits of HOG inference at deep animal stems (domains gained inside older gene lineages are
+invisible; duplications placed one node too deep with compensating losses). An independent agent re-derived every headline number
+from raw files with its own code (all PASS) and confirmed that the earlier stem-path bug did not touch H9.
+
+Exploratory signals were attacked with post-hoc checks: convergent domain loss disappears (it is the fungi × Dictyostelia flagellum loss);
+more new domain architectures on stems survives leave-one-out but not a completeness filter; lower co-option in animals and
+streptophytes survives subsampling but is Pfam-only. Structure: ~1/4 of modelled sequence-novel gains are structurally old, equally
+on stems and controls. Next: report (results/discussion drafting in progress), figure for exploratory results, final citation audit.
+
 ### M3 — 2026-10-28 20:09 (t ≈ 7.8 h): waiting on the eukaryote Ancestra run; primary H9 negative
 The eukaryote Ancestra run is the bottleneck. Its family stage took 5.3 h because single-linkage similarity joined 73% of all
 eukaryotic proteins into one component that Ancestra must cut into ≤7,500-gene families with Leiden (D8); within-family scoring is
@@ -71,7 +85,7 @@ adds cost without informing the transitions (all prokaryotic transitions are com
   - [x] Determinism: separate and combined runs give identical p-values
   - [!] Positive controls: FINAL 11/16 recovered (C10 GRAS recovered with gain ladder) → pre-registered count criterion met; high-confidence failures C03/C06/C07 explained (below). No code bugs; C03/C06/C07 failures are Ancestra inference artefacts (domain gained within an older HOG is invisible; mixed-domain HOGs; duplications placed one node too deep with compensating losses — 52% of Choanozoa-stem duplication products are animal-only); C08/C12 are expectation problems. Implication: HOG-level origins/duplication placement unreliable at deep animal stems → H4/H5 robustness (orthology-free) + post-hoc re-placement running.
   - [x] H9 (genome-wide rate shift): not detected — p = 0.27, pooled ratio 1.10 [0.96, 1.26] (no ≥1.5-fold shift); heterogeneous: faster in Dictyostelia/volvocines/red algae/fungi, slower in Metazoa/PX; seed-sensitive p 0.19–0.61
-- [ ] 7. Secondary: nested complex transitions; prokaryote descriptive
+- [~] 7. Secondary: nested complex H1/H2 p=0.016 (outside Holm; Dev-4 rule applies); prokaryote descriptive done
 - [ ] 8. EXPLORATORY
   - [x] gene-level RER (250 markers): 0 genes at q < 0.10; none consistent across ≥ 4 transitions
   - [x] Kr/Kc radical/conservative: no support for relaxed constraint (p = 0.60 / 0.16)
@@ -82,7 +96,8 @@ adds cost without informing the transitions (all prokaryotic transitions are com
   - [-] Protein traits (length/disorder on shared single-copy HOGs): within-transition shifts common but not distinct from controls
   - [~] Reversals: odds ratios mixed (0.5–2.0), see results/exploratory/euk/reversals
   - [-] Structure (Q6): 85% of stem vs 79% of control seq-novel gains lack a usable AFDB model (OR 1.51, p=0.025); of modelled ones ~24% vs 21% structurally old (Swiss-Prot ref; OR 0.96, p=0.92) — no stem-specific structural novelty signal; underpowered
-- [ ] 9. Verification by independent agents (re-derive headline numbers; citation audit; H9 unaffected by stem-path bug)
+- [x] 9a. Independent verification: event counts, novel gains, Holm, T_obs, H9 (unaffected by bug), controls C01/C05/C10, PREREG timeline — all PASS (results/verification/)
+- [ ] 9b. Citation audit of the report (≥20 claim–citation pairs)
 - [~] 10. Report: pre-results sections + Figures 1, 2, S1 drafted (report/REPORT_draft_methods.md)
 
 ## Decision log
