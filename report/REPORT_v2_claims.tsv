@@ -1,0 +1,123 @@
+claim_id	section	claim	value	source
+C001	note	round 2 resources 48 CPU, 500 GB, A100-40GB	48/500/1	START_ROUND2.txt
+C002	note	round 2 start 15:07 CET 29 Oct 2026; ~7 h elapsed at draft	7 h	START_ROUND2.txt; date at drafting 22:17
+C003	abstract/2.1	round 1: 187 eukaryotic species, 2.97 M proteins	187; 2.97M	report/REPORT.md
+C004	abstract/2.3	round-1 power 13-35% at 1.5-fold	13-35%	reviews/round2_department_head_review.txt; results/prereg/power_table.tsv
+C005	abstract/4	8 panels, 18-40 proteomes each	18-40	data/dense/STATUS.txt
+C006	abstract/4	panel runs 15-60 min each	15-60 min	RESEARCH_TREE.md R2-M2, D14
+C007	abstract/7.2	cell death 1.21-fold [1.04,1.42]	1.21	results/r2/w4/summary.txt
+C008	abstract/7.2	cell death Holm-adjusted p = 0.014	0.014	RESEARCH_TREE.md R2-M2
+C009	abstract/7.2	148 genomes in PGLS	148	results/r2/w4/summary.txt
+C010	abstract/7.2	without 10 largest proteomes p = 0.025	0.025	results/r2/verification/w4/VERIFICATION.txt
+C011	abstract/7.2	proportion-of-proteome p = 0.14	0.14	results/r2/verification/w4/VERIFICATION.txt
+C012	abstract/7.3	motif-binding 0.98-fold	0.98	results/r2/w4/summary.txt
+C013	abstract/6.2	P1 combined p = 0.050 (spec-literal 0.0504)	0.0504	results/r2/panels/DEVIATIONS.txt D-PI-1; results/r2/verification/panels/VERIFICATION.txt
+C014	abstract/6.4	internal-only s->c RR 2.7 [1.3,5.6]	2.70 [1.29,5.63]	results/r2/panels/summary.txt
+C015	abstract/5	29% of Ancestra stem gains confirmed by EukaryOMA	29%	results/eukaryoma_xval/summary.txt
+C016	1.1	Lamza 2023: 45 simple multicellular lineages	45	LITERATURE.md
+C017	1.1	Nagy 2018: 8-11 complex origins in fungi	8-11	LITERATURE.md
+C018	1.4	round 1 ~13.5 h on 24 CPUs	13.5 h	report/REPORT.md §2
+C019	2.1	82 prokaryotic proteomes; 36 transcriptomes	82; 36	report/REPORT.md §3
+C020	2.1	52 candidate transitions; 7 primary origins	52; 7	report/REPORT.md §3
+C021	2.1	DIAMOND E<=1e-5, >=30% coverage, <=3 reps		report/REPORT.md §4.2
+C022	2.1	simulated gain inflation 2.1-2.6-fold	2.1-2.6	report/REPORT.md §4.2; results/validation_hogparser/metrics.tsv
+C023	2.1	planned null 13.8% false positives	13.8%	report/REPORT.md; results/validation_branchstats/null_calibration.tsv
+C024	2.1	burst threshold 2.2-fold	2.2	report/REPORT.md §6.1
+C025	2.2	smallest Holm p 0.10 (flagellum)	0.10	report/REPORT.md; results/primary/euk/holm.tsv
+C026	2.2	positive controls 11/16	11/16	report/REPORT.md; results/positive_controls/euk/controls.tsv
+C027	2.2	nested s->c p = 0.016, 1.9-3.3-fold	0.016; 1.87-3.26	report/REPORT.md §6.5
+C028	2.2	1,131 new architectures on animal stem vs control median 34	1131; 34	report/REPORT.md §6.4
+C029	2.3	depth SMD 2.06 (not 1.77); mean depth 8.7 vs 5.0	2.06; 8.71/4.99	results/round1_errata/ERRATA.txt §1; results/primary/euk/smd.tsv
+C030	2.3	power with real branch lengths changes <=0.025	0.025	results/round1_errata/ERRATA.txt §2
+C031	2.3	10 event-placement controls, 7 passed; 0/3 deep-node	7/10; 0/3	results/round1_errata/ERRATA.txt §3
+C032	2.3	rate-test p 0.19-0.61 across seeds	0.19-0.61	results/round1_errata/ERRATA.txt §4
+C033	2.3	exact orientation-averaged p = 0.31; 1,024 orientations; none <=0.05	0.31	results/round1_errata/ERRATA.txt §4
+C034	2.3	pooled rate ratio 1.06 orientation-free (1.10 reported)	1.06	results/round1_errata/ERRATA.txt §4
+C035	2.3	9 of 10 rate controls contain multicellular species	9/10	results/round1_errata/ERRATA.txt §4
+C036	2.3	5 proteomes below 50% BUSCO kept	5	reviews/round2_department_head_review.txt
+C037	2.3	EukaryOMA 1,328 genomes, 33.8 M proteins	1328; 33.8M	reviews/round2_department_head_review.txt; docs/EUKARYOMA_SCOUTING.txt
+C038	3	73% of eukaryotic proteins in one component (round 1)	73%	RESEARCH_TREE.md D8
+C039	3	ELM 115 families; cell death 22; TFs 26; transposon mask 223	115;22;26;223	RESEARCH_TREE.md D11; data/r2_sets/
+C040	3	pre-registration frozen 48 min into round 2 (15:48)	15:48	RESEARCH_TREE.md D11
+C041	3	power 18% at 2-fold, 41% at 3-fold	18%; 41%	DESIGN_ROUND2.md §6
+C042	3	confirmatory family cut from 5 to 3	5->3	DESIGN_ROUND2.md §7
+C043	4	panels built in ~2.5 h (ready 17:33)	2.4 h	RESEARCH_TREE.md D15
+C044	4	59 coded events	59	data/dense/STATUS.txt
+C045	4 Table 1	per-panel proteomes, proteins, states, events, non-genome counts	see table	data/dense/STATUS.txt
+C046	4 Table 1	total 227 proteomes, 3,059,079 proteins	227; 3059079	data/dense/STATUS.txt (sum)
+C047	4	53 new proteomes	53	RESEARCH_TREE.md D14
+C048	4	de novo BUSCO 71% / 69% vs Gonium 71%	71/69/71	RESEARCH_TREE.md D15
+C049	4	peak memory 2.6-16.9 GB	2.6-16.9 GB	runs/r2/*/DONE.json peak_rss_kb
+C050	4	sequence-novel share of HOG gains 41-80% per panel	0.41-0.80	results/r2/panels/summary.txt
+C051	4	5-9 control branches per panel	5-9	results/r2/panels/summary.txt
+C052	4	round-1 reconstruction 9-10 h	9-10 h	report/REPORT.md §6.1; RESEARCH_TREE.md
+C053	5	125 of 187 species in EukaryOMA	125	results/eukaryoma_xval/summary.txt
+C054	5	87.1% proteins mapped	87.1%	results/eukaryoma_xval/summary.txt
+C055	5	RBH >=95% identity	95%	results/eukaryoma_xval/summary.txt
+C056	5	29% same (540/1,859); controls 11%; adjusted expectation 22%	29%; 540/1859; 10.6%; 22.0%	results/eukaryoma_xval/summary.txt
+C057	5	EukaryOMA stem gains confirmed 9%	9.4%	results/eukaryoma_xval/summary.txt
+C058	5	duplication agreement 4-8%	3.8-7.8%	results/eukaryoma_xval/summary.txt
+C059	5	median disagreement offset 8 nodes	8	results/eukaryoma_xval/summary.txt
+C060	5	animal stem: Ancestra 6,617 dups / 804 gains; EukaryOMA 196 / 2,502	6617/804/196/2502	results/eukaryoma_xval/summary.txt
+C061	5	53% vs 27% genes outside multi-gene groups	53%; 27%	results/eukaryoma_xval/summary.txt
+C062	5	T 0.63 (EukaryOMA) vs 0.72 (Ancestra); sign agrees 4/5	0.633; 0.717; 4/5	results/eukaryoma_xval/summary.txt
+C063	5	Ancestra places 9 T-box dups on animal stem (pruned topological)	9	results/eukaryoma_xval/summary.txt
+C064	6.1	55 control branches	55	results/r2/panels/summary.txt; results/r2/verification/panels/VERIFICATION.txt
+C065	6.2	Astrephomene p 0.143 RR 13.6 spec-literal (implemented 13.2)	0.143; 13.2	results/r2/panels/summary.txt; results/r2/verification/panels/VERIFICATION.txt
+C066	6.2	V. carteri p 0.143 RR 14.9 spec-literal (implemented 14.2)	0.143; 14.9	results/r2/panels/summary.txt
+C067	6.2	V. africanus spec-literal p 0.429 RR 1.27; implemented 0.571 RR 1.19	0.429; 1.27	results/r2/verification/panels/VERIFICATION.txt
+C068	6.2	Fucophycidae p 0.167 RR 2.0 (spec-literal 2.01; implemented 1.84)	0.167; 2.01	results/r2/verification/panels/VERIFICATION.txt
+C069	6.2	Stouffer p 0.0504; pooled RR 4.90 [0.63,38.4]	0.0504; 4.90	results/r2/verification/panels/VERIFICATION.txt; results/r2/panels/DEVIATIONS.txt
+C070	6.2	implemented variant p 0.072; floor changes one control bl 2.8e-5	0.072; 2.8e-5	results/r2/verification/panels/VERIFICATION.txt
+C071	6.2	Holm second step requires p<0.025	0.025	results/r2/panels/DEVIATIONS.txt D-PI-1
+C072	6.2	minimum per-event p 1/6 or 1/7		results/r2/panels/summary.txt
+C073	6.2	events depth 7-10 vs controls 2-6		results/r2/panels/summary.txt
+C074	6.3	reversal tips RR 20.7 [10.7,40.0], k=9	20.7	results/r2/verification/panels/VERIFICATION.txt; results/r2/panels/pooled/final_8panels/event_class_comparators.tsv
+C075	6.3	unicellular tips ~8-fold	~8 (6.6/9.9)	results/r2/verification/panels/VERIFICATION.txt
+C076	6.3	origin tips ~19-20-fold	19-20	results/r2/verification/panels/VERIFICATION.txt; results/r2/panels/summary.txt
+C077	6.3	23 tip controls; Astrephomene 0.56 (p 0.85), V. carteri 0.80 (p 0.54); combined p 0.57; pooled 0.80 [0.32,2.0]		results/r2/panels/summary.txt; results/r2/verification/panels/VERIFICATION.txt
+C078	6.4	internal-only s->c RR 2.70 [1.29,5.63]; spec-literal 2.81 [1.34,5.89]; per-event values		results/r2/panels/summary.txt; results/r2/verification/panels/VERIFICATION.txt
+C079	6.4	internal origins 0.84 [0.41,1.71] k=12; reversals 0.63 k=2; tip s->c vs tip controls 0.99 [0.47,2.1]		results/r2/panels/summary.txt
+C080	6.4	depth SMD 1.15	1.15	results/r2/panels/summary.txt
+C081	6.4	R4_curated combined p 0.033, pooled 4.84; tip-control 0.32		results/r2/panels/summary.txt
+C082	6.5	positive controls 14/18 on panels	14/18	results/r2/panels/summary.txt
+C083	7.1	68 multicellular, 80 unicellular/grey-zone	68; 80	results/r2/w4/summary.txt
+C084	7.2	12 of 22 families kept by rule	12	results/r2/w4/summary.txt; results/r2/verification/w4/VERIFICATION.txt
+C085	7.2	coef +0.167 [0.042,0.293], p 0.0047, lambda 0.91		results/r2/w4/summary.txt; results/r2/verification/w4/VERIFICATION.txt
+C086	7.2	LOO origin p 0.0002-0.078		results/r2/w4/summary.txt
+C087	7.2	leave-one-family max p 0.020; without NLR pair p 0.018		results/r2/w4/summary.txt
+C088	7.2	symmetric rule p 0.0068; all 22 p 0.0078; random sets 2.5%		results/r2/verification/w4/VERIFICATION.txt
+C089	7.2	21 of 22 families positive	21/22	results/r2/w4/summary.txt
+C090	7.2	19 of 20 within-origin changes are expansions	19/20	results/r2/w4/summary.txt
+C091	7.2	complex vs uni +0.249 p 0.0005; simple vs uni +0.111 p 0.073		results/r2/w4/summary.txt
+C092	7.2	without 10 largest: ~28% smaller, p 0.025; proportion +0.083 p 0.14		results/r2/verification/w4/VERIFICATION.txt
+C093	7.2	sister contrasts positive 5 of 6	5/6	results/r2/w4/summary.txt
+C094	7.3	motif-binding -0.028 [-0.124,0.067], p 0.72, 0.98 [0.92,1.05]		results/r2/w4/summary.txt
+C095	7.3	5 of 7 LOO negative; without animals -0.063		results/r2/w4/summary.txt
+C096	7.3	GLMM P(beta<=0)=0.03	0.03	results/r2/w4/summary.txt
+C097	7.3	ELM families animals 29 up / 7 down; hyphal fungi 0 / 12		results/r2/w4/summary.txt
+C098	7.4	TF +0.032 [-0.088,0.152], p 0.30; 11 of 26 families		results/r2/w4/summary.txt
+C099	7.5	4,226-9,523 families per event		results/r2/w4/summary.txt
+C100	7.5	animals 1,661 / 694; volvocines 0 / 10		results/r2/w4/summary.txt
+C101	7.5	expansions 42 vs 54 (p 0.98); contractions 157 vs 90 (p 0.001); >=3: 20 vs 3.1		results/r2/w4/summary.txt
+C102	7.5	Sod_Cu, CAP, ZBED1 in 3 origins; PDEase_I, Vint in 4		results/r2/w4/summary.txt
+C103	7.6	domain recurrence 1,556 vs 1,057; rarefied p 0.77		results/r2/panels/summary.txt
+C104	7.6	kinase in novel families at 5/7 events p 0.023 q 0.06		results/r2/panels/summary.txt
+C105	7.6	Fucophycidae 5,924 duplications	5924	results/r2/panels/summary.txt; results/r2/verification/panels/VERIFICATION.txt
+C106	7.6	V. carteri 18/1,300 and Fucophycidae 63/493 novel families with Pfam		results/r2/panels/summary.txt
+C107	8.1	round-1 structure: 85.0%/78.8% no usable model; 10-27% known fold		report/REPORT.md §6.4
+C108	8.3	Foldseek GPU fell back to CPU 15 prot/s; encoder+CNN 48 prot/s; 97.1% agreement (5,000 proteins)		RESEARCH_TREE.md R2-3; results/r2/w5_3di_validation/summary.txt
+C109	8.3	windowing 1,000/250; 21k -> 34k residues/s; exact <=1,000 aa (93%); 90.3% for 1,000-3,000 aa		RESEARCH_TREE.md D10; results/r2/w5_3di_validation/summary.txt
+C110	8.3	~1.43 G residues; 322 proteomes; 96 complete		RESEARCH_TREE.md D10; data/structure3di/all/*.done count at drafting
+C111	8.4	24 species integrity pass; 108 skipped >3,000 aa		results/r2/w5_3di_validation/summary.txt
+C112	8.4	0.655 on 4,981 proteins, 2.55 M residues; chance 0.167; majority 0.314		results/r2/w5_3di_validation/summary.txt
+C113	8.4	published 41-65%		results/r2/w5_3di_validation/summary.txt
+C114	8.4	windowed 0.649; PDB-based protist 0.626; Swiss-Prot 0.665		results/r2/w5_3di_validation/summary.txt
+C115	9	Cox et al. 31 species	31	docs/MARCOTTE_SCOUTING.txt; reviews/round2_department_head_review.txt
+C116	9	13 mapped species	13	results/r2/w7/summary.txt
+C117	9	Metazoa 66.6%, fungi 72.1%, controls 63.6%; OR 1.14/1.48; PX 0.82, volvocine 0.79		results/r2/w7/summary.txt
+C118	9	125 complexes; paired p 0.008		results/r2/w7/summary.txt
+C119	10.2	animal stem 3-fold new families, 34-fold duplications between methods	2502/804; 6617/196	results/eukaryoma_xval/summary.txt
+C120	10.4	panel depth SMD 1.15; P1 3.3-5.0		results/r2/panels/summary.txt
+C121	11	11 panel deviations in ~5.5 h	11	agents/retrospective_R2.txt; results/r2/panels/DEVIATIONS.txt
+C122	11	LESSONS 14 rules	14	LESSONS.md
