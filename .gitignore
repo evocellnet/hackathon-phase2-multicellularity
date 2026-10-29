@@ -10,3 +10,4 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 data/busco_runs/
+busco_*.log
