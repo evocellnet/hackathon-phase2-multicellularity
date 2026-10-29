@@ -1,0 +1,52 @@
+Using Cached Shard Index for conda-forge/linux-64                                                   ✔ Done
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.5 sec)
+
+Pinned packages:
+
+  - python=3.15
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.6 sec)
+
+Transaction
+
+  Prefix: /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/rstats
+
+  Updating specs:
+
+   - r-mcmcglmm
+
+
+  Package        Version  Build          Channel          Size
+────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────
+
+  + r-coda      0.19_4.1  r45hc72bb7e_2  conda-forge     342kB
+  + r-corpcor     1.6.10  r45hc72bb7e_4  conda-forge     135kB
+  + r-cubature   2.1.4_1  r45ha36cffa_0  conda-forge       2MB
+  + r-mcmcglmm      2.36  r45h3697838_3  conda-forge     556kB
+  + r-tensora   0.36.2.1  r45h54b55ab_2  conda-forge     240kB
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 3MB
+
+────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking r-coda-0.19_4.1-r45hc72bb7e_2
+Linking r-corpcor-1.6.10-r45hc72bb7e_4
+Linking r-tensora-0.36.2.1-r45h54b55ab_2
+Linking r-cubature-2.1.4_1-r45ha36cffa_0
+Linking r-mcmcglmm-2.36-r45h3697838_3
+
+Transaction finished
+

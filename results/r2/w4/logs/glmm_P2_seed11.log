@@ -1,0 +1,6 @@
+         set seed  nitt n_obs n_families n_species post_mean_mc       hpd_lo
+phylo P2_elm   11 60000 17020        115       148    0.1664863 -0.005076528
+         hpd_hi p_one_post ess_mc fold_change  vc_phylo  vc_species
+phylo 0.3155898      0.031   1000    1.181147 0.1217735 0.001912217
+      vc_mc_by_family  vc_units  minutes
+phylo        0.500731 0.4503729 23.26313

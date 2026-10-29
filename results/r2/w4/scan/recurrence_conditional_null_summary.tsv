@@ -1,0 +1,15 @@
+direction	k	observed_n_families	null_mean	null_q025	null_q975	p_perm
+expanded	1	1953	1943.251	1930.0	1956.0	0.07092907092907093
+expanded	2	42	53.954	42.0	67.0	0.981018981018981
+expanded	3	3	0.789	0.0	3.0	0.04895104895104895
+expanded	4	0	0.006	0.0	0.0	1.0
+expanded	5	0	0.0	0.0	0.0	1.0
+expanded	6	0	0.0	0.0	0.0	1.0
+expanded	7	0	0.0	0.0	0.0	1.0
+contracted	1	1483	1569.035	1552.0	1585.0	1.0
+contracted	2	157	89.766	74.975	107.0	0.000999000999000999
+contracted	3	20	3.135	0.0	7.0	0.000999000999000999
+contracted	4	2	0.064	0.0	1.0	0.003996003996003996
+contracted	5	0	0.0	0.0	0.0	1.0
+contracted	6	0	0.0	0.0	0.0	1.0
+contracted	7	0	0.0	0.0	0.0	1.0

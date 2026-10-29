@@ -1,0 +1,11 @@
+event	tier	label	n_mc	n_sister	n_transcriptome	mc_species	sister_species	n_families_tested	n_sig_expanded	n_sig_contracted
+T_metazoa	primary	Animals	15	8	6	Amphque,Branbel,Caenele,Capitel,Drosmel,Ephymue,Hoilhon,Homosap,Hydrvul,Mnemlei,Nemavec,Oscapea,Stropur,Sycocil,Tricadh	Acanspe,Barrmon,Choafle,Codohol,Didycos,Monobre,Mylnflu,Salpros	9523	1661	694
+T_fungi_hyphae	primary	Fungal hyphae	26	4	0	Aspenid,Basimer,Botrcin,Coemumb,Coprcin,Crypneo,Dacrpri,Laccbic,Liposta,Morthyg,Mucolus,Neolirr,Neurcra,Pyroomp,Rhizmic,Rhodtor,Sacccer,Saitcom,Schicom,Schipom,Taphdef,Tremmes,Ustimay,Wallmel,Yarrlip,Zymobre	Batrden,Gonapro,Pirofin,Spizpun	6964	126	473
+T_fungi_pezizomycotina	secondary	Pezizomycotina fruiting bodies	5	3	0	Aspenid,Botrcin,Neurcra,Pyroomp,Zymobre	Liposta,Sacccer,Yarrlip	5501	38	19
+T_fungi_agaricomycetes	secondary	Agaricomycete fruiting bodies	4	2	0	Coprcin,Dacrpri,Laccbic,Schicom	Crypneo,Tremmes	4688	6	10
+T_dictyostelia	primary	Dictyostelid sorocarps	6	2	2	Acytsub,Cavefas,Dictdis,Dictpur,Hetepal,Tieglac	Cerafru,Physpol	5399	137	186
+T_streptophyta	primary	Streptophyte multicellularity	12	2	1	Ambotri,Arabtha,Ceraric,Charbra,ClosspNIES67,Colescu,Klebnit,Marcpol,Mesoend,Physpat,Selamoe,Spirmus	Chloatm,Mesovir	6890	20	63
+T_embryophyta	secondary	Land plants	6	3	0	Ambotri,Arabtha,Ceraric,Marcpol,Physpat,Selamoe	ClosspNIES67,Mesoend,Spirmus	6393	264	250
+T_rhodophyta	primary	Red algal multicellularity (Eurhodophytina)	5	2	0	Agarchi,Choncri,Graccho,Porpumb,Pyroyez	Porppur,Rhodmar	4226	11	34
+T_px_filaments	primary	PX-clade filaments	9	6	1	Dictdic,Discmes,Ectosil,Fucuser,Phaecon,Sacclat,Schiisc,Tribmin,Vauclit	Aureano,Heteaka,Nannsal,Phaetri,Potemal,Thalpse	6356	43	202
+T_volvocine_tgv	primary	Volvocine colonial lineage (Gonium+Volvocaceae; path stem from Chlamydomonas_TGV)	5	3	0	Astrgub,Gonipec,Pleosta,Volvafr,Volvcar	Chlainc,Chlarei,Chlasch	5028	0	10

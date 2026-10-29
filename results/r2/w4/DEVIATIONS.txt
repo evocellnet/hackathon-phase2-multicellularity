@@ -1,0 +1,24 @@
+W4 deviations from DESIGN_ROUND2.md §6 (tag prereg-r2). One dated entry each; date from a separate `date` call.
+
+[2026-10-29T15:56:53+0100] D-W4-1 "phylogenetic NB GLMM" sensitivity run as a phylogenetic Poisson-lognormal GLMM (MCMCglmm,
+family = "poisson", which adds an observation-level log-normal overdispersion term), not a negative-binomial GLMM.
+Reason: glmmTMB in the new conda_envs/rstats env fails its TMB ABI check (built against a different TMB) and has no `propto`
+covariance structure, so it cannot fit a phylogenetic covariance; brms/Stan would need a C++ toolchain and > 1 h of compilation
+and sampling. The statistics review (reviews/round2_design_review_statistics.txt item 5) names a Poisson-lognormal or NB GLMM as
+equivalent options. Model: per-family counts, family intercepts, log proteome size, disorder fraction, multicellular; random
+phylogenetic species effect (round-1 tree rescaled to unit max root-to-tip), iid species effect, family-specific multicellular slopes.
+Seen at this time: the primary PGLS results for P2 (coef -0.028, one-sided p = 0.72) and P3 (coef 0.167, p = 0.0047) and their
+pre-specified sensitivities had already been computed; the GLMM specification above was fixed after a 1,200-iteration timing pilot
+whose estimate (P3: 0.47 log units, posterior P(<=0) = 0.023) was seen and not used. This is a sensitivity analysis only; the confirmatory statistic is unchanged.
+
+[2026-10-29T16:27:21+0100] D-W4-2 (addition, not a replacement) Second, conditional null for scan recurrence.
+The pre-specified null (permuting multicellular/sister labels within each event, B = 1000, seed 11) was run as specified and is
+reported as the primary calibration. Seen at this time: its results (null mean 0.05 families expanded in >= 2 of 7 primary origins
+vs 42 observed; 0.14 vs 157 contracted) and the per-event counts of significant families (e.g. 1,661 expanded in Metazoa, 0 in the
+volvocines). Because the two groups of an event are distinct clades, a label permutation mixes them and destroys the between-clade
+divergence that makes many families significant in the real data; that null therefore tests "is there any clade difference", not
+"is a family significant in more origins than expected given each origin's number of significant families". Added, as exploratory:
+a family-shuffle null that keeps each event's observed number of significant families (per direction) and draws them at random
+among the families tested in that event, independently across events (B = 1000, seed 11). Both nulls are reported.
+Also corrected before any report: in the annotation tables the round-1 toolkit tag was given to exclusion markers
+(NB-ARC/NACHT/TIR are LRR exclusion markers in data/toolkit_pfam.tsv, role = exclusion_marker); tables were regenerated without them.

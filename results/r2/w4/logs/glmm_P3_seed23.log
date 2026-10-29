@@ -1,0 +1,6 @@
+               set seed   nitt n_obs n_families n_species post_mean_mc
+phylo P3_celldeath   23 120000  1776         12       148    0.4687656
+             hpd_lo    hpd_hi p_one_post ess_mc fold_change  vc_phylo
+phylo -0.0008990588 0.9474158       0.02   1000     1.59802 0.4793981
+      vc_species vc_mc_by_family vc_units  minutes
+phylo 0.01532647       0.4622842 1.808945 4.811845

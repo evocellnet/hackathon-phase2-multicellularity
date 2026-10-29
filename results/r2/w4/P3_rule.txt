@@ -1,0 +1,37 @@
+W4 operational rules for R2-P2 / R2-P3 (and exploratory P4), written BEFORE any test statistic was computed.
+Timestamp (date, separate call): 2026-10-29T15:52:43+0100 (round-2 t = 0.75 h after START_ROUND2 15:07:47).
+What had been seen at this time: DESIGN_ROUND2.md (v1, §6), the three design reviews, data/transitions.tsv, species_traits.tsv,
+the frozen set files (headers/first rows only), and the shape of the copy-number matrix (187 species x 18,661 Pfam families observed).
+No per-family counts of any set family, no state comparisons and no model output had been looked at.
+
+1. Lineage-restriction rule (P3 pooled response; applied identically to P4; to P2 only as a sensitivity, see 4):
+   A family is "widespread" and enters the pooled 187-species-tree response if EITHER
+   (a) it is present (>= 1 protein with a GA hit) in >= 1 species of the multicellular clade (data/transitions.tsv, column mc_species)
+       of >= 3 of the 7 primary eukaryotic origins (primary_eligible = 1: T_metazoa, T_fungi_hyphae, T_dictyostelia,
+       T_streptophyta, T_rhodophyta, T_px_filaments, T_volvocine_tgv), counted over all 187 proteomes; OR
+   (b) it is present in >= 50% of the species of the primary analysis set (148 species, item 2).
+   Families failing both are "lineage-restricted": excluded from the pooled PGLS response and analysed only within the
+   origins (multicellular clade vs sister) where they occur (per-family NB GLM of task C). Families absent from all
+   species of the analysis set are reported and dropped (standardisation undefined).
+   The rule is evaluated once on the primary set and the same family list is used in every sensitivity analysis
+   except "repeats included" (P2) which adds the 4 sensitivity_repeat families.
+2. Species (primary): kingdom = euk, data_type = genome, busco_C >= 50 (data/species_traits.tsv) -> 148 species.
+   State: column `multicellular` (round-1 binary coding: simple or complex = 1; unicellular, reversals and grey-zone = 0).
+   Sensitivity: grey-zone species (mc_state = grey) excluded.
+3. Response: for each family f, x_sf = log(count_sf + 0.5), count = number of proteins with >= 1 domain hit of f;
+   z_sf = (x_sf - mean_s x_sf) / sd_s x_sf over the species of the analysis set; y_s = mean_f z_sf (equal weight).
+   Covariates: log(number of proteins in the proteome FASTA) and proteome disorder fraction (residue-weighted fraction of
+   residues with metapredict score > 0.5). Model: phylolm(y ~ multicellular + log_size + disorder, model = "lambda") on
+   data/species_tree_bl_euk.nwk (round-1 IQ-TREE branch lengths on the fixed guide topology) pruned to the analysis set.
+   One-sided p = P(T > t) for the multicellular coefficient (t reference, n - 4 df... as returned by phylolm).
+   For leave-one-origin-out the standardisation of the full primary set is kept and rows are dropped.
+4. P2 primary = all 115 `set = primary` families (as frozen and as instructed); sensitivity = the item-1 rule applied to P2.
+5. Leave-one-origin-out: drop all species of the multicellular clade (mc_species) of one of the 7 primary origins at a time.
+6. Complex-vs-simple (secondary contrast): among multicellular species of the primary set, complex = D or T (§6):
+   mc_state complex, plus the volvocines with germ-soma/soma (Volvcar, Volvafr, Astrgub; Pleosta flagged, included);
+   T-only coding = round-1 mc_state complex. Same PGLS with a complex indicator (unicellular species excluded).
+7. Sister-clade contrasts: per primary origin, mean y over its multicellular clade minus mean y over its sister species
+   (transitions.tsv), using whichever of those species are in the analysis set (all proteomes if < 1 sister remains).
+8. Scan recurrence (task C): primary recurrence = number of the 7 primary origins with BH q < 0.1 in the same direction;
+   the 3 secondary nested simple->complex events (T_fungi_pezizomycotina, T_fungi_agaricomycetes, T_embryophyta) are reported
+   per event and counted in a separate secondary recurrence (they are nested in primary origins, not independent).

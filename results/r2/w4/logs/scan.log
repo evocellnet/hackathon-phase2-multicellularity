@@ -1,0 +1,42 @@
+18513 families after mask (223 masked); events: ['T_metazoa', 'T_fungi_hyphae', 'T_fungi_pezizomycotina', 'T_fungi_agaricomycetes', 'T_dictyostelia', 'T_streptophyta', 'T_embryophyta', 'T_rhodophyta', 'T_px_filaments', 'T_volvocine_tgv']
+{'event': 'T_metazoa', 'tier': 'primary', 'label': 'Animals', 'n_mc': 15, 'n_sister': 8, 'n_transcriptome': 6, 'mc_species': 'Amphque,Branbel,Caenele,Capitel,Drosmel,Ephymue,Hoilhon,Homosap,Hydrvul,Mnemlei,Nemavec,Oscapea,Stropur,Sycocil,Tricadh', 'sister_species': 'Acanspe,Barrmon,Choafle,Codohol,Didycos,Monobre,Mylnflu,Salpros', 'n_families_tested': 9523, 'n_sig_expanded': 1661, 'n_sig_contracted': 694}
+T_metazoa perm mean sig exp/con 1.172 4.357
+{'event': 'T_fungi_hyphae', 'tier': 'primary', 'label': 'Fungal hyphae', 'n_mc': 26, 'n_sister': 4, 'n_transcriptome': 0, 'mc_species': 'Aspenid,Basimer,Botrcin,Coemumb,Coprcin,Crypneo,Dacrpri,Laccbic,Liposta,Morthyg,Mucolus,Neolirr,Neurcra,Pyroomp,Rhizmic,Rhodtor,Sacccer,Saitcom,Schicom,Schipom,Taphdef,Tremmes,Ustimay,Wallmel,Yarrlip,Zymobre', 'sister_species': 'Batrden,Gonapro,Pirofin,Spizpun', 'n_families_tested': 6964, 'n_sig_expanded': 126, 'n_sig_contracted': 473}
+T_fungi_hyphae perm mean sig exp/con 0.262 2.506
+{'event': 'T_fungi_pezizomycotina', 'tier': 'secondary', 'label': 'Pezizomycotina fruiting bodies', 'n_mc': 5, 'n_sister': 3, 'n_transcriptome': 0, 'mc_species': 'Aspenid,Botrcin,Neurcra,Pyroomp,Zymobre', 'sister_species': 'Liposta,Sacccer,Yarrlip', 'n_families_tested': 5501, 'n_sig_expanded': 38, 'n_sig_contracted': 19}
+T_fungi_pezizomycotina perm mean sig exp/con 0.939 1.462
+{'event': 'T_fungi_agaricomycetes', 'tier': 'secondary', 'label': 'Agaricomycete fruiting bodies', 'n_mc': 4, 'n_sister': 2, 'n_transcriptome': 0, 'mc_species': 'Coprcin,Dacrpri,Laccbic,Schicom', 'sister_species': 'Crypneo,Tremmes', 'n_families_tested': 4688, 'n_sig_expanded': 6, 'n_sig_contracted': 10}
+T_fungi_agaricomycetes perm mean sig exp/con 0.601 3.322
+{'event': 'T_dictyostelia', 'tier': 'primary', 'label': 'Dictyostelid sorocarps', 'n_mc': 6, 'n_sister': 2, 'n_transcriptome': 2, 'mc_species': 'Acytsub,Cavefas,Dictdis,Dictpur,Hetepal,Tieglac', 'sister_species': 'Cerafru,Physpol', 'n_families_tested': 5399, 'n_sig_expanded': 137, 'n_sig_contracted': 186}
+T_dictyostelia perm mean sig exp/con 4.661 8.103
+{'event': 'T_streptophyta', 'tier': 'primary', 'label': 'Streptophyte multicellularity', 'n_mc': 12, 'n_sister': 2, 'n_transcriptome': 1, 'mc_species': 'Ambotri,Arabtha,Ceraric,Charbra,ClosspNIES67,Colescu,Klebnit,Marcpol,Mesoend,Physpat,Selamoe,Spirmus', 'sister_species': 'Chloatm,Mesovir', 'n_families_tested': 6890, 'n_sig_expanded': 20, 'n_sig_contracted': 63}
+T_streptophyta perm mean sig exp/con 2.019 13.568
+{'event': 'T_embryophyta', 'tier': 'secondary', 'label': 'Land plants', 'n_mc': 6, 'n_sister': 3, 'n_transcriptome': 0, 'mc_species': 'Ambotri,Arabtha,Ceraric,Marcpol,Physpat,Selamoe', 'sister_species': 'ClosspNIES67,Mesoend,Spirmus', 'n_families_tested': 6393, 'n_sig_expanded': 264, 'n_sig_contracted': 250}
+T_embryophyta perm mean sig exp/con 5.15 9.691
+{'event': 'T_rhodophyta', 'tier': 'primary', 'label': 'Red algal multicellularity (Eurhodophytina)', 'n_mc': 5, 'n_sister': 2, 'n_transcriptome': 0, 'mc_species': 'Agarchi,Choncri,Graccho,Porpumb,Pyroyez', 'sister_species': 'Porppur,Rhodmar', 'n_families_tested': 4226, 'n_sig_expanded': 11, 'n_sig_contracted': 34}
+T_rhodophyta perm mean sig exp/con 4.094 3.155
+{'event': 'T_px_filaments', 'tier': 'primary', 'label': 'PX-clade filaments', 'n_mc': 9, 'n_sister': 6, 'n_transcriptome': 1, 'mc_species': 'Dictdic,Discmes,Ectosil,Fucuser,Phaecon,Sacclat,Schiisc,Tribmin,Vauclit', 'sister_species': 'Aureano,Heteaka,Nannsal,Phaetri,Potemal,Thalpse', 'n_families_tested': 6356, 'n_sig_expanded': 43, 'n_sig_contracted': 202}
+T_px_filaments perm mean sig exp/con 0.534 1.624
+{'event': 'T_volvocine_tgv', 'tier': 'primary', 'label': 'Volvocine colonial lineage (Gonium+Volvocaceae; path stem from Chlamydomonas_TGV)', 'n_mc': 5, 'n_sister': 3, 'n_transcriptome': 0, 'mc_species': 'Astrgub,Gonipec,Pleosta,Volvafr,Volvcar', 'sister_species': 'Chlainc,Chlarei,Chlasch', 'n_families_tested': 5028, 'n_sig_expanded': 0, 'n_sig_contracted': 10}
+T_volvocine_tgv perm mean sig exp/con 0.148 0.258
+         tier   direction  k  observed_n_families  null_mean  null_q025  null_q975  null_q95    p_perm
+0     primary    expanded  1                 1953     12.844      0.000    137.000     93.10  0.000999
+1     primary    expanded  2                   42      0.046      0.000      0.000      0.00  0.000999
+2     primary    expanded  3                    3      0.000      0.000      0.000      0.00  0.000999
+3     primary    expanded  4                    0      0.000      0.000      0.000      0.00  1.000000
+4     primary    expanded  5                    0      0.000      0.000      0.000      0.00  1.000000
+5     primary    expanded  6                    0      0.000      0.000      0.000      0.00  1.000000
+6     primary    expanded  7                    0      0.000      0.000      0.000      0.00  1.000000
+7     primary  contracted  1                 1483     33.427      1.975    201.025    150.05  0.000999
+8     primary  contracted  2                  157      0.144      0.000      2.000      1.00  0.000999
+9     primary  contracted  3                   20      0.000      0.000      0.000      0.00  0.000999
+10    primary  contracted  4                    2      0.000      0.000      0.000      0.00  0.000999
+11    primary  contracted  5                    0      0.000      0.000      0.000      0.00  1.000000
+12    primary  contracted  6                    0      0.000      0.000      0.000      0.00  1.000000
+13    primary  contracted  7                    0      0.000      0.000      0.000      0.00  1.000000
+14  secondary    expanded  1                  304      6.687      0.000     38.000     22.00  0.000999
+15  secondary    expanded  2                    4      0.003      0.000      0.000      0.00  0.000999
+16  secondary    expanded  3                    0      0.000      0.000      0.000      0.00  1.000000
+17  secondary  contracted  1                  276     14.447      0.000     88.175     42.00  0.001998
+18  secondary  contracted  2                    3      0.028      0.000      0.000      0.00  0.001998
+19  secondary  contracted  3                    0      0.000      0.000      0.000      0.00  1.000000

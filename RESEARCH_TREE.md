@@ -27,10 +27,10 @@ W4 specific families incl. ELM motif-binding domains, cell death, cell-type TFs,
 - [x] R2-3 GPU ProstT5 pilot (Foldseek GPU fell back to CPU: 15 prot/s; HF autoregressive: too slow; encoder+CNN: 48 prot/s, 97.1% agreement)
 - [~] R2-4 ProstT5 3Di for all proteomes (data/structure3di/all/)
 - [x] R2-5 Design round 2 v1 after 3 reviews; pre-registered (tag prereg-r2)
-- [~] W4 family sets: P2 motif-binding, P3 cell death (confirmatory), P4 TFs + scans (exploratory)
+- [~] W4 (results/r2/w4): [!] P3 cell death SUPPORTED raw one-sided p=0.0047 (1.21x [1.04,1.42]; 148 genomes; LOO sign 7/7; mainly complex MC; pending independent re-derivation + symmetric inclusion rule) · [-] P2 motif-binding null (0.98x, p=0.72) · [-] P4 TFs p=0.30 · scans: expansions not recurrent beyond chance (family-shuffle null, exploratory), contractions recurrent (p=0.001)
 - [x] W0 errata (results/round1_errata/ERRATA.txt): SMD 2.06 confirmed (1.77 stale); power table unchanged with real branch lengths (≤0.025); Ancestra-event controls 7/10 (deep-node 0/3); H9 exact over 1,024 orientations p=0.31, ratio 1.06, no ≥1.5-fold shift in any orientation
 - [~] W1 EukaryOMA cross-validation · [~] W2 dense panel data
-- [ ] W2 runs · [ ] W3 · [ ] W4 · [ ] W5 · [ ] W6 · [ ] W7 · [ ] verification · [ ] report update
+- [~] W2 runs (R2 done 18 min; R3, R6, R1, R5, R8 running) · [~] W2/W3 analysis · [ ] W4 · [ ] W5 · [ ] W6 · [ ] W7 · [ ] verification · [ ] report update
 
 ## ROUND 1 (frozen at tag phase1-final)
 
@@ -156,3 +156,5 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - D9 (R2 t=0.5h): ProstT5 3Di computed for ALL proteomes on the otherwise idle GPU (~17-20 h), multicellular species first, rather than only targeted sets: it enables Ancestra 3Di rescue on any panel and complete structural novelty checks; cost is GPU time only.
 - D10 (R2 t=0.9h): ProstT5 windowing (1,000 aa windows, 250 overlap) adopted: 34k vs 21k residues/s; identical for ≤1,000 aa (93% of proteins), 90.3% per-residue agreement with full-length prediction for 1,000–3,000 aa. GPU queue reordered by panel (Holozoa first, prokaryotes last) because the full set (~1.43 G residues) cannot finish in time with certainty.
 - D11 (R2 t=0.7h, 15:48): Round-2 pre-registration frozen (tag prereg-r2): DESIGN_ROUND2 v1 + frozen sets (ELM motif-binding 115+4, cell death 22, cell-type TFs 26, transposon mask 223), sha256 in data/r2_prereg/PREREG_R2_HASHES.tsv. Correction: the v1 header says "16:15"; the actual freeze time is 15:48 (header written ahead of time; file left unedited because it is hashed). No round-2 test output existed at freeze. Review changes adopted: confirmatory family = P1–P3 (Holm over 3); P1 only unseen simple→complex events; panels use `fast` (comparability) with patched Leiden, caps and go/no-go at t=8 h; W4 launched on the 187 round-1 species (annotations complete).
+- D12 (R2 16:02): P1 confirmatory events frozen (tag prereg-r2-p1): R4 Astrephomene, Volvox carteri, Volvox africanus/reticuliferus; R6 Fucophycidae stem; Pleodorina sensitivity. Panels R2 (Fungi, 40 proteomes, 0.40 M proteins) and R3 (Streptophyta, 21, 0.47 M) launched (`fast`, 16 threads each, patched Leiden wrapper, 150 GB watchdog); no separate pilot because panels are 6–7× smaller than the round-1 run and the wrapper parallelises giant components; the family stage timing serves as the pilot.
+- D13 (R2 16:22, t=1.25h): Panel R2 (Fungi) Ancestra `fast` finished in 18 min (peak 5.4 GB) — panels are cheap, so all panels (incl. R7) will run; go/no-go deadline not binding. Launched R6, R1 (16 thr), R5, R8 (8 thr). W2/W3 panel-analysis agent started (reuses round-1 mcell code; novelty DB = panel + all 187/82 round-1 proteomes outside clade).

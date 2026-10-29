@@ -1,0 +1,156 @@
+ROUND 2 — W4: protein-family copy number and multicellularity (comparative-methods analysis)
+Produced 2026-10-29 (round-2 t ~ 0.7-1.6 h). Scripts: scripts/r2/w4/ (01-09). Rules fixed before testing: results/r2/w4/P3_rule.txt
+(timestamp 2026-10-29T15:52:43+0100). Deviations and additions: results/r2/w4/DEVIATIONS.txt (D-W4-1, D-W4-2).
+
+WHAT IS CONFIRMATORY AND WHAT IS NOT
+Confirmatory (DESIGN_ROUND2 §6, tag prereg-r2): R2-P2 and R2-P3 primary PGLS only. The one-sided p-values below are raw;
+the PI applies Holm across P1-P3 (P1 comes from the dense panels). Everything else here is exploratory: sensitivities, P4,
+per-family PGLS, the GLMM, the Pfam-wide scans, recurrence, architectures and GO.
+
+DEFINITIONS
+- Species (primary): the 148 genome-based proteomes with BUSCO C >= 50% among the 187 round-1 eukaryotes. Of these, 68 are
+  multicellular (simple or complex) and 80 are coded 0 (unicellular, reversals, and 16 grey-zone species, following the
+  round-1 binary coding).
+- Copy number of family f in species s = number of proteins with >= 1 Pfam 38.2 GA hit of f (pyhmmer).
+- Response = equal-weight mean over families of the per-family z-scored log(count + 0.5), standardised across the analysed
+  species. Units are SD of a family's log copy number. As a readable scale, the unstandardised mean log count is also reported:
+  exp(coef) is then a geometric-mean fold change.
+- Model: phylolm, Pagel's lambda, on the round-1 IQ-TREE tree (data/species_tree_bl_euk.nwk). Covariates are log proteome
+  size (number of proteins) and proteome disorder fraction (residue-weighted, metapredict > 0.5). One-sided t-test of the
+  multicellular coefficient (df = 144). The bootstrap CI is phylolm's parametric bootstrap (1,000 replicates, seed 11).
+- Lineage restriction (P3_rule.txt, fixed before the test): a family enters the pooled response if it is present in the
+  multicellular clade of >= 3 of the 7 primary origins, or in >= 50% of the 148 species. Under this rule P3 keeps 12 of 22
+  families. Excluded as lineage-restricted: Bcl-2, BH4, BIR, CARD, Death, DED, HeLo, the two gasdermins and MazF. P4 keeps 11
+  of 26 (HetR_C and PatS are absent from all eukaryotes). P2 uses all 115 primary ELM families, as frozen; the rule (94
+  families) is a sensitivity.
+
+CONFIRMATORY RESULTS
+R2-P2, motif-binding domains (115 ELM LIG/DOC/DEG/TRG Pfam families). NOT SUPPORTED.
+  coef = -0.028 SD (SE 0.048; 95% CI -0.124 to 0.067; bootstrap CI -0.122 to 0.065), one-sided p = 0.72, lambda = 1.00
+  (bootstrap 0.91-1). Geometric-mean fold = exp(-0.019) = 0.98 (95% CI 0.92-1.05).
+R2-P3, cell-death machinery (12 widespread families). SUPPORTED at raw alpha 0.05.
+  coef = +0.167 SD (SE 0.064; 95% CI 0.042 to 0.293; bootstrap CI 0.047 to 0.287), one-sided p = 0.0047, lambda = 0.91
+  (bootstrap 0.71-1). Geometric-mean fold = exp(0.193) = 1.21 (95% CI 1.04-1.42).
+  Holm across 3 tests needs p < 0.0167 for the smallest p, so P3 would pass if it is the smallest. P1 is not known here.
+
+SENSITIVITIES (exploratory; pgls/pgls_results.tsv; figures/forest_sets_state_effect.*)
+P3 (cell death)
+- Leave one origin out: the sign is positive in all 7 cases. One-sided p ranges 0.0002-0.078. The weakest case is dropping
+  Streptophyta (coef 0.088, p = 0.078). Dropping Metazoa gives 0.153 (p = 0.010).
+- Other variants: BM (lambda = 1) 0.136 (p = 0.019); no disorder covariate 0.178 (p = 0.003); grey-zone species excluded
+  0.152 (p = 0.009); all 187 proteomes 0.149 (p = 0.005); all 187 with transcriptome and BUSCO covariates 0.179 (p = 0.001);
+  all 22 families 0.138 (p = 0.008).
+- Complex vs simple (multicellular species only): D-or-T coding 0.154 (p = 0.034); T-only coding 0.205 (p = 0.012).
+  Three-state model: simple vs unicellular 0.111 (p = 0.073); complex vs unicellular 0.249 (p = 0.0005). The excess is
+  concentrated in complex multicellularity.
+- Leave one family out (post hoc, pgls/pgls_leave_one_family_out.tsv): all 12 estimates are positive, max p = 0.020.
+  Without the NLR pair (NB-ARC + NACHT) the estimate is 0.136 (p = 0.018).
+- Phylogenetic Poisson-lognormal GLMM (D-W4-1; MCMCglmm; 2 chains per set, seeds 11 and 23, results agree): posterior mean
+  +0.47 log units (fold 1.60; 95% HPD 0.04-0.95), P(beta <= 0) = 0.02.
+- Per-family PGLS (q is BH within set): NB-ARC +0.92 log (p = 0.0002, q = 0.004); caspase (Peptidase_C14) +0.35
+  (p = 0.022); Death, Bcl-2, AIF_C, HET, NACHT and metacaspase are all positive. Overall 21 of 22 families are positive;
+  only VPE (Peptidase_C13) is negative.
+P2 (motif-binding)
+- Leave one origin out: 5 of 7 estimates are negative. All p >= 0.46. Without Metazoa the estimate is -0.063 (p = 0.93).
+- No sensitivity is significant: lineage rule -0.047; repeats included -0.029; all 187 -0.045; complex vs simple -0.022.
+- The GLMM disagrees: +0.17 log (fold 1.18; 95% HPD -0.005 to 0.34 / 0.01 to 0.34 in the two chains), P(beta <= 0) = 0.03.
+  We consider the GLMM anticonservative for many-family sets. Its phylogenetic term is a species-level effect shared by all
+  families, with no family-by-phylogeny term, so each family's lineage-specific expansions count as independent evidence.
+  PGLS on the per-species composite does not have this problem. We read P2 as a null with an unresolved model dependence.
+- Per-family: only Sina_TRAF reaches q < 0.1 (positive). 58 of 119 families are positive.
+P4, cell-type TF families (exploratory)
+- coef +0.032 SD (95% CI -0.088 to 0.152), p = 0.30, lambda = 1. LOO is positive in all 7 cases, all p >= 0.08.
+  Complex vs simple is negative (T-only -0.143).
+- Lineage-restricted TF families tested only within the origins where they occur (scan/set_families_by_origin.tsv,
+  q < 0.1): T-box (+2.1 ash log) and Runt (+0.6) in Metazoa; TEA in hyphal fungi; LOB in Streptophyta; SBP in land plants.
+- Lineage-restricted cell-death families within their origins: Bcl-2, Death, CARD, DED, BIR and gasdermin are all expanded
+  in Metazoa vs choanoflagellates. HeLo is expanded in Pezizomycotina; HET and NACHT are expanded there too. NB-ARC is
+  expanded in Rhodophyta (Eurhodophytina). NB-ARC, TIR, TIR_2 and MACPF are expanded in land plants. Of 20 significant
+  cell-death changes across origins, 19 are expansions; the exception is metacaspase, which is lower in Metazoa than in
+  choanoflagellates (animals use caspases instead).
+Sister-clade contrasts (pgls/sister_contrasts.tsv; mean composite in the MC clade minus sister; descriptive; 6 origins with
+  sisters in the primary set):
+- P3: positive in 5 of 6. Volvocines are negative (-0.19).
+- P2: positive in 3 of 6 (Metazoa +0.85, Streptophyta +0.45, PX +0.28). Fungi, Rhodophyta and volvocines are negative.
+
+PFAM-WIDE SCANS (exploratory; scan/)
+Design
+- 10 eukaryotic events: the 7 primary origins plus 3 nested simple-to-complex events (Pezizomycotina, Agaricomycetes,
+  Embryophyta). Each multicellular clade is compared with its sister clade from data/transitions.tsv, using all data types.
+- Per family: NB GLM with a log proteome-size offset; Cox-Reid profile dispersion; LRT. This was checked against statsmodels
+  NB2: same MLE, slightly more conservative dispersion.
+- Families: present in >= 2 species of the event, after removing 223 transposon-mask families (4,226-9,523 families tested
+  per event). BH q < 0.1 within each event. Log fold-changes are shrunk with ashr (normal mixture).
+Significant families per event (expanded / contracted)
+- Metazoa 1,661 / 694; hyphal fungi 126 / 473; Dictyostelia 137 / 186; Streptophyta 20 / 63; Rhodophyta 11 / 34;
+  PX filaments 43 / 202; volvocines 0 / 10.
+- Secondary events: Pezizomycotina 38 / 19; Agaricomycetes 6 / 10; Embryophyta 264 / 250.
+Recurrence across the 7 primary origins (figures/recurrence_vs_null.*)
+- Observed: 42 families are expanded in >= 2 origins and 3 in >= 3; none in >= 4. 157 families are contracted in >= 2
+  origins, 20 in >= 3 and 2 in >= 4.
+- Pre-specified null (label permutation within events, B = 1000, seed 11): null means are 0.05 (expanded, >= 2) and 0.14
+  (contracted, >= 2); every observed count has p = 0.001.
+  This null is too permissive for the recurrence question. Multicellular and sister groups are distinct clades, and mixing
+  them removes the divergence that makes many families significant in any clade comparison (D-W4-2).
+- Added conditional null (each origin's number of significant families kept, family identity shuffled):
+  - Expansions are NOT more recurrent than chance overlap: >= 2 origins, 42 observed vs 54 expected (p = 0.98); >= 3
+    origins, 3 vs 0.8 (p = 0.049).
+  - Contractions ARE more recurrent: >= 2, 157 vs 90 (p = 0.001); >= 3, 20 vs 3.1 (p = 0.001); >= 4, 2 vs 0.06 (p = 0.004).
+Top recurrent families (scan/recurrent_families.tsv; the per-family conditional p values below are NOT adjusted for
+~18,500 families)
+- Expanded in 3 origins:
+  - Sod_Cu (Cu/Zn superoxide dismutase): Metazoa, Dictyostelia, Rhodophyta; p = 0.002.
+  - CAP (cysteine-rich secretory proteins, PR-1-like): Metazoa, Dictyostelia, Streptophyta; p = 0.001.
+  - ZBED1 RNase-like: Metazoa, Dictyostelia, PX; p = 0.001.
+- Expanded in 2 origins: NB-ARC (Rhodophyta and Streptophyta; also land plants), F5/F8 type C (discoidin; ELM set), RGS,
+  Galactosyl_T, PTR2 and others.
+- Contracted in 4 origins:
+  - PDEase_I (3',5'-cAMP phosphodiesterase): fungi, Streptophyta, PX, volvocines.
+  - Vint (Hint/intein-like): Metazoa, fungi, Dictyostelia, PX.
+- Contracted in 3 origins: Ank, Ank_3, Ank_5, MORN, MyTH4, Guanylate_cyc, Vwaint, PQQ_2, BNR_2 and several glycoside
+  hydrolases (GH43, GH3_C, Bac_rhamnosid6H).
+Per-origin tables
+- scan/top_families_per_origin.{tsv,txt}: top 20 expanded and top 20 contracted families per event, ranked by ashr
+  posterior mean, with Pfam description, GO terms (pfam2go 2026-07-06), the 3 most common architectures in the
+  multicellular clade vs the sister, and tags for the frozen sets and round-1 toolkit lists.
+- Examples:
+  - Metazoa: 7tm_1 GPCRs, Ig/I-set/V-set, Death domain.
+  - Hyphal fungi: SUR7, PDR-type ABC transporters, Kre9, CFEM.
+  - Agaricomycetes: p450, F-box, fungal kinases.
+  - Dictyostelia: CAP, Dicty_CTDC, spore-coat domains.
+  - Land plants: LTP_2, UDPGT, auxin-inducible, plant bHLH-ACT.
+  - Rhodophyta: TIG, malectin, NB-ARC.
+  - PX: bactofilin, galactosyltransferases, WSC.
+- Frozen-set families significant per origin are in scan/set_families_by_origin.tsv. ELM families are mostly expanded in
+  Metazoa (29 up / 7 down) and Dictyostelia (8 / 6) and mostly contracted in hyphal fungi (0 / 12).
+
+CAVEATS
+1. Few origins. There are 7 primary origins, and the pooled PGLS can be carried by one lineage (Uyeda et al. 2018).
+   For P3 every leave-one-origin-out estimate is positive, but without Streptophyta p rises to 0.078. The land-plant NLR
+   (NB-ARC/TIR) and animal apoptosis expansions are well known. The result says cell-death families are larger in
+   multicellular proteomes after phylogenetic correction, mostly in complex lineages. It does not say each origin expanded
+   them independently. Sister contrasts are positive in only 5 of 6.
+2. Function. NB-ARC/NACHT/TIR proteins are immune receptors as well as cell-death executors. Removing them leaves P3 positive
+   (p = 0.018), but the set mixes immunity and programmed cell death.
+3. Annotation bias. Pfam HMMs are built mostly from animal, plant and fungal sequences, so detection is better in those
+   lineages. Many multicellular lineages are also better studied. Proteome size and disorder are covariates, but
+   annotation depth is not.
+4. Transcriptomes. They are excluded from the primary PGLS and included in the scans, where 6 of 8 Metazoa sisters and both
+   Dictyostelia sisters are transcriptomes.
+   - Several of the strongest "contractions" in multicellular clades are bacterial-like families (Bac_rhamnosid, bacterial
+     surface Ig, GH43). These likely reflect prey or contaminant sequences in sister transcriptomes, or the bacterivory of
+     unicellular sisters, not loss.
+   - Treat recurrent contractions of glycoside hydrolases accordingly.
+5. Lineage-restricted families. Animal apoptosis families (Bcl-2, CARD, DED, Death) and fungal HeLo are outside the pooled
+   P3 response by rule and are reported only within origins. The pooled test therefore rests on families present in many
+   lineages.
+6. Scans. Sister groups are small (2-8 species), and within-event BH is applied to thousands of families with Wald-free LRTs
+   at n = 6-30, so per-event false-positive control is approximate. Event species include reversals inside clades (yeasts,
+   Zygnematophyceae).
+7. GLMM. It is Poisson-lognormal rather than NB (D-W4-1) and anticonservative for many-family sets (see P2). It is a
+   sensitivity analysis only.
+
+KEY FILES
+pgls/pgls_results.tsv, pgls/per_family_pgls.tsv, pgls/pgls_leave_one_family_out.tsv, pgls/sister_contrasts.tsv,
+pgls/responses.tsv, glmm/*.tsv, scan/event_*.tsv, scan/ashr_*.tsv, scan/recurrence_*.tsv, scan/recurrent_families.tsv,
+scan/top_families_per_origin.*, scan/set_families_by_origin.tsv, matrix/ (counts, covariates, architectures), figures/.

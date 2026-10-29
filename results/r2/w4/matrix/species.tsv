@@ -1,0 +1,188 @@
+code	kingdom	species	multicellular	multicellular_permissive	mc_state	reversal	mc_type	transition_id	transition_roles	state_note	data_type	busco_C	n_proteins	n_disorder_rows	disorder_frac	n_proteins_with_pfam	n_domain_hits
+Amphque	euk	Amphimedon queenslandica	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	94.9	20174	20174	0.21913873863607894	14725	47004
+Sycocil	euk	Sycon ciliatum	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	97.3	35777	35777	0.3327103124587717	17309	49234
+Ephymue	euk	Ephydatia muelleri	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	76.5	37127	37127	0.24364501451177256	21477	67131
+Oscapea	euk	Oscarella pearsei	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		transcriptome	87.1	17662	17662	0.21221127589613328	10959	34041
+Tricadh	euk	Trichoplax adhaerens	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	92.5	11513	11513	0.17930921828171348	9679	30799
+Hoilhon	euk	Hoilungia hongkongensis	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	92.9	11735	11735	0.21753787437685354	9980	37525
+Mnemlei	euk	Mnemiopsis leidyi	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister	ctenophore	genome	93.3	19288	19288	0.27792429139973307	12248	32777
+Nemavec	euk	Nematostella vectensis	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	93.3	24399	24399	0.21564839561077906	17941	46008
+Hydrvul	euk	Hydra vulgaris	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	98.8	22459	22459	0.21900765109060905	16541	45663
+Homosap	euk	Homo sapiens	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	100.0	20364	20364	0.3361605998828936	19392	67402
+Branbel	euk	Branchiostoma belcheri	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	100.0	23849	23849	0.27522373421599405	20088	82465
+Stropur	euk	Strongylocentrotus purpuratus	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	99.2	26457	26457	0.2977609439262657	21838	84715
+Drosmel	euk	Drosophila melanogaster	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	100.0	13675	13675	0.3603347229281932	11069	28725
+Capitel	euk	Capitella teleta	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	94.1	31841	31841	0.2205003518268286	21103	52010
+Caenele	euk	Caenorhabditis elegans	1	1	complex	0	clonal;complex;obligate	T_metazoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister		genome	97.6	19534	19534	0.24928216225556876	14030	31979
+Salpros	euk	Salpingoeca rosetta	0	1	grey	0	clonal(+aggregative in C. flexa);simple;facultative	T_choano_colonies	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister		genome	82.7	11614	11614	0.33996242700460616	8167	25603
+Barrmon	euk	Barroeca monosierra	0	1	grey	0	clonal(+aggregative in C. flexa);simple;facultative	T_choano_colonies	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister		genome	83.1	10834	10834	0.2956354769380523	6734	16813
+Choafle	euk	Choanoeca flexa	0	1	grey	0	clonal(+aggregative in C. flexa);simple;facultative	T_choano_colonies	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister		transcriptome	83.9	13753	13753	0.2238545697518874	8821	21442
+Codohol	euk	Codosiga hollandica	0	1	grey	0	clonal(+aggregative in C. flexa);simple;facultative	T_choano_colonies	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister		transcriptome	74.9	31934	31934	0.2735896821198338	13390	34878
+Monobre	euk	Monosiga brevicollis	0	0	unicellular	0	unicellular		T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister		genome	79.2	9155	9155	0.2430632939247474	6697	18300
+Mylnflu	euk	Mylnosiga fluctuans	0	0	unicellular	0	unicellular		T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister		transcriptome	85.1	18440	18440	0.23563918398918504	9727	24817
+Acanspe	euk	Acanthoeca spectabilis	0	0	unicellular	0	unicellular		T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister		transcriptome	69.8	24555	24555	0.24699442498156438	11894	30597
+Didycos	euk	Didymoeca costata	0	0	unicellular	0	unicellular		T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister		transcriptome	76.9	22574	22574	0.2023265300853419	11209	26749
+Capsowc	euk	Capsaspora owczarzaki	0	1	grey	0	aggregative;simple;facultative	T_capsaspora_aggregation	T_capsaspora_aggregation:M;T_ichthyosporea_coenocytic:sister		genome	93.7	8733	8733	0.325394571538558	6896	20149
+Minivib	euk	Ministeria vibrans ATCC 50519	0	0	unicellular	0	unicellular		T_capsaspora_aggregation:sister;T_ichthyosporea_coenocytic:sister		genome	85.1	12293	12293	0.2634425599481816	8994	32541
+Pigochi	euk	Pigoraptor chileana	0	0	unicellular	0	unicellular		T_capsaspora_aggregation:sister;T_ichthyosporea_coenocytic:sister		transcriptome	61.6	27716	27716	0.21816098309750453	18452	33392
+Coralim	euk	Corallochytrium limacisporum strain India	0	1	grey	0	coenocytic;simple;obligate	T_ichthyosporea_coenocytic	T_ichthyosporea_coenocytic:M	coenocytic stage (grey)	genome	90.6	7645	7645	0.24075527966605734	5862	13473
+Syssmul	euk	Syssomonas multiformis	0	1	grey	0	coenocytic;simple;obligate	T_ichthyosporea_coenocytic	T_ichthyosporea_coenocytic:M	forms cell aggregates (grey)	transcriptome	58.0	12290	12290	0.2118650659750187	8186	15572
+Sphaarc	euk	Sphaeroforma arctica	0	1	grey	0	coenocytic;simple;obligate	T_ichthyosporea_coenocytic	T_ichthyosporea_coenocytic:M		genome	91.4	30243	30243	0.3022567000375304	11126	24454
+Creofra	euk	Creolimax fragrantissima	0	1	grey	0	coenocytic;simple;obligate	T_ichthyosporea_coenocytic	T_ichthyosporea_coenocytic:M		genome	95.7	8603	8603	0.2971107701824382	6571	15576
+Chroper	euk	Chromosphaera perkinsii	0	1	grey	0	coenocytic;simple;obligate	T_ichthyosporea_coenocytic	T_ichthyosporea_coenocytic:M		genome	92.2	12369	12369	0.25915939041453245	8068	19950
+Amoepar	euk	Amoebidium parasiticum	0	1	grey	0	coenocytic;simple;obligate	T_ichthyosporea_coenocytic	T_ichthyosporea_coenocytic:M		transcriptome	88.6	18090	18090	0.27729436396945256	11156	23315
+Fontalb	euk	Fonticula alba	1	1	simple	0	aggregative;simple;facultative	T_fonticula	T_fonticula:M		genome	72.2	5894	5894	0.4058670008383045	3825	7869
+Parvatl	euk	Parvularia atlantis	0	0	unicellular	0	unicellular		T_fonticula:sister		transcriptome	67.1	17002	17002	0.23101938488216148	10964	19651
+Rozeall	euk	Rozella allomycis	0	0	unicellular	0	unicellular				genome	70.6	6333	6333	0.1653822213077741	4015	9524
+Batrden	euk	Batrachochytrium dendrobatidis	0	0	unicellular	0	unicellular		T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:sister		genome	92.2	8607	8607	0.27371880488691963	5859	12615
+Spizpun	euk	Spizellomyces punctatus	0	0	unicellular	0	unicellular		T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:sister		genome	94.5	8940	8940	0.2817943611085852	6888	16539
+Pirofin	euk	Piromyces finnis	0	0	unicellular	0	unicellular		T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:sister		genome	89.0	10762	10762	0.3329998755169583	7219	21483
+Gonapro	euk	Gonapodya prolifera	1	1	simple	0	hyphal;simple;obligate	T_fungi_hyphae_gonapodya	T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:M		genome	91.0	13795	13795	0.3157513885417574	8515	18082
+Allomac	euk	Allomyces macrogynus	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M		genome	92.5	18610	18610	0.3294748441582338	12169	25213
+Rhizmic	euk	Rhizopus microsporus ATCC 52813	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M		genome	97.3	10798	10798	0.20162623396627116	7680	17451
+Mucolus	euk	Mucor lusitanicus CBS 277.49	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M		genome	92.2	11581	11581	0.20290027158991844	8656	18927
+Morthyg	euk	Mortierella hygrophila	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M		genome	97.3	12181	12181	0.3556565666240319	8479	19826
+Basimer	euk	Basidiobolus meristosporus CBS 931.73	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M		genome	98.0	15508	15508	0.20962019741073756	11845	27548
+Coemumb	euk	Coemansia umbellata	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M		genome	96.9	6548	6548	0.30564328172017047	5192	11211
+Schipom	euk	Schizosaccharomyces pombe	0	0	unicellular	1	reversal		T_fungi_neolecta:sister;T_rev_schizosaccharomyces:M;T_rev_saitoella:sister		genome	97.3	5068	5068	0.2300749201055702	4556	9984
+Saitcom	euk	Saitoella complicata	0	0	unicellular	1	reversal		T_fungi_neolecta:sister;T_rev_schizosaccharomyces:sister;T_rev_saitoella:M		genome	94.5	7118	7118	0.31273381618769386	5227	12006
+Taphdef	euk	Taphrina deformans	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M;T_fungi_neolecta:sister;T_rev_schizosaccharomyces:sister;T_rev_saitoella:sister	dimorphic	genome	75.7	4648	4648	0.23702925947024464	3863	8122
+Neolirr	euk	Neolecta irregularis	1	1	complex	0	clonal;complex;facultative	T_fungi_neolecta	T_fungi_hyphae:M;T_fungi_neolecta:M;T_rev_schizosaccharomyces:sister;T_rev_saitoella:sister		genome	82.0	5515	5515	0.2248344761652104	4197	8963
+Sacccer	euk	Saccharomyces cerevisiae	0	0	unicellular	1	reversal		T_fungi_pezizomycotina:sister;T_rev_saccharomycotina:M		genome	93.7	5920	5920	0.2689760194944929	5305	10754
+Yarrlip	euk	Yarrowia lipolytica	0	0	unicellular	1	reversal		T_fungi_pezizomycotina:sister;T_rev_saccharomycotina:M	Saccharomycotina reversal; dimorphic (forms hyphae)	genome	94.5	6432	6432	0.2729453060683065	5243	10815
+Liposta	euk	Lipomyces starkeyi NRRL Y-11557	0	0	unicellular	1	reversal		T_fungi_pezizomycotina:sister;T_rev_saccharomycotina:M		genome	96.1	8135	8135	0.2386803773273405	5954	12111
+Pyroomp	euk	Pyronema omphalodes	1	1	complex	0	clonal;complex;facultative	T_fungi_pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister		genome	99.2	12100	12100	0.33671675688024477	6724	15457
+Neurcra	euk	Neurospora crassa	1	1	complex	0	clonal;complex;facultative	T_fungi_pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister		genome	100.0	9751	9751	0.3638451098145528	6763	14004
+Aspenid	euk	Aspergillus nidulans	1	1	complex	0	clonal;complex;facultative	T_fungi_pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister		genome	95.3	10388	10388	0.25462085629792386	8256	17837
+Botrcin	euk	Botrytis cinerea	1	1	complex	0	clonal;complex;facultative	T_fungi_pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister		genome	100.0	11728	11728	0.30415898838856414	8453	17708
+Zymobre	euk	Zymoseptoria brevis	1	1	complex	0	clonal;complex;facultative	T_fungi_pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister		genome	99.6	10564	10564	0.3075291306997124	7503	15347
+Coprcin	euk	Coprinopsis cinerea	1	1	complex	0	clonal;complex;facultative	T_fungi_agaricomycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister		genome	93.7	13297	13297	0.31389451931888224	7802	16262
+Schicom	euk	Schizophyllum commune Tattone D	1	1	complex	0	clonal;complex;facultative	T_fungi_agaricomycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister		genome	96.1	14984	14984	0.2937000970774453	8218	15976
+Laccbic	euk	Laccaria bicolor	1	1	complex	0	clonal;complex;facultative	T_fungi_agaricomycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister		genome	87.5	17842	17842	0.3049859218909008	7826	14548
+Dacrpri	euk	Dacryopinax primogenitus	1	1	complex	0	clonal;complex;facultative	T_fungi_agaricomycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister		genome	94.1	10228	10228	0.2627232055933254	6661	13219
+Tremmes	euk	Tremella mesenterica	1	1	complex	0	clonal;complex;facultative	T_fungi_tremella	T_fungi_hyphae:M;T_fungi_agaricomycetes:sister;T_fungi_tremella:M;T_rev_cryptococcus:sister;T_rev_rhodotorula:sister	jelly fruiting body; Tremellomycetes possibly a separate origin	genome	94.5	8059	8059	0.3885673293831702	5071	10355
+Crypneo	euk	Cryptococcus neoformans	0	0	unicellular	1	reversal		T_fungi_agaricomycetes:sister;T_fungi_tremella:sister;T_rev_cryptococcus:M;T_rev_rhodotorula:sister		genome	96.5	6958	6958	0.35342778284031096	5280	10826
+Wallmel	euk	Wallemia mellicola	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M;T_rev_rhodotorula:sister	filamentous (not a yeast)	genome	90.6	5257	5257	0.2341458074270736	4291	8910
+Ustimay	euk	Ustilago maydis	1	1	simple	0	hyphal(coenocytic/septate);simple;obligate	T_fungi_hyphae	T_fungi_hyphae:M;T_rev_rhodotorula:sister	dimorphic (yeast + filamentous dikaryon)	genome	99.2	6775	6775	0.3911018555200095	5209	11025
+Rhodtor	euk	Rhodotorula toruloides	0	0	unicellular	1	reversal		T_rev_rhodotorula:M		genome	96.1	8157	8157	0.36650021877741196	5818	11907
+Dictdis	euk	Dictyostelium discoideum	1	1	simple	0	aggregative;simple;facultative	T_dictyostelia	T_dictyostelia:M		genome	94.1	12517	12517	0.3507157037670942	8330	20981
+Dictpur	euk	Dictyostelium purpureum	1	1	simple	0	aggregative;simple;facultative	T_dictyostelia	T_dictyostelia:M		genome	89.0	12326	12326	0.2714396841400273	8291	22365
+Hetepal	euk	Heterostelium pallidum	1	1	simple	0	aggregative;simple;facultative	T_dictyostelia	T_dictyostelia:M		genome	85.5	12162	12162	0.26812913169491376	8004	21041
+Tieglac	euk	Tieghemostelium lacteum	1	1	simple	0	aggregative;simple;facultative	T_dictyostelia	T_dictyostelia:M		genome	91.8	10208	10208	0.24257581143206627	7118	18134
+Cavefas	euk	Cavenderia fasciculata	1	1	simple	0	aggregative;simple;facultative	T_dictyostelia	T_dictyostelia:M		genome	90.6	11959	11959	0.26895641907233026	7452	19001
+Acytsub	euk	Acytostelium subglobosum	1	1	simple	0	aggregative;simple;facultative	T_dictyostelia	T_dictyostelia:M		genome	92.2	12614	12614	0.23968958726372513	8773	23380
+Physpol	euk	Physarum polycephalum	0	1	grey	0	coenocytic plasmodium;simple;obligate	T_myxogastria_plasmodium	T_dictyostelia:sister;T_myxogastria_plasmodium:M		transcriptome	80.0	24460	24460	0.22869553403052337	14185	35867
+Cerafru	euk	Ceratiomyxa fruticulosa	0	0	unicellular	0	unicellular		T_dictyostelia:sister;T_myxogastria_plasmodium:sister		transcriptome	74.9	13602	13602	0.24693268949711167	9023	21669
+Protnoc	euk	Protostelium nocturnum	0	0	unicellular	0	unicellular				transcriptome	89.4	13524	13524	0.21765997627602277	9355	23678
+Cavoapo	euk	Cavostelium apophysatum	0	0	unicellular	0	unicellular				transcriptome	87.5	18330	18330	0.19236234170938718	12608	30322
+Planfun	euk	Planoprotostelium fungivorum	0	0	unicellular	0	unicellular				genome	94.5	16631	16631	0.2301282671240002	10015	28558
+Acancas	euk	Acanthamoeba castellanii	0	0	unicellular	0	unicellular				genome	76.1	14912	14912	0.28485365574476795	10043	25671
+Mastbal	euk	Mastigamoeba balamuthi	0	0	unicellular	0	unicellular				genome	80.8	14791	14791	0.19998492490102954	9363	24345
+Coprpro	euk	Copromyxa protea	1	1	simple	0	aggregative;simple;facultative	T_copromyxa	T_copromyxa:M		transcriptome	82.0	15444	15444	0.22555390056762137	9720	23802
+Vermver	euk	Vermamoeba vermiformis	0	0	unicellular	0	unicellular				transcriptome	89.4	13302	13302	0.1831932295591592	9463	23975
+Rhizsax	euk	Rhizamoeba saxonica	0	0	unicellular	0	unicellular		T_copromyxa:sister		transcriptome	79.6	12863	12863	0.1339547909583631	8846	21590
+Arceint	euk	Arcella intermedia	0	0	unicellular	0	unicellular		T_copromyxa:sister		transcriptome	83.5	27174	27174	0.1772197932007984	15374	41833
+Stygreg	euk	Stygamoeba regulata	0	0	unicellular	0	unicellular				transcriptome	85.1	23644	23644	0.2913940707227888	13879	33333
+Volvcar	euk	Volvox carteri f. nagariensis	1	1	simple	0	clonal;simple;obligate	T_volvocales_gv	T_volvocales_tetrabaena:sister;T_volvocales_gv:M	differentiated (germ-soma)	genome	80.0	14332	14332	0.43126841329592946	8299	17789
+Pleosta	euk	Pleodorina starrii	1	1	simple	0	clonal;simple;obligate	T_volvocales_gv	T_volvocales_tetrabaena:sister;T_volvocales_gv:M	differentiated (partial soma)	genome	85.9	15429	15429	0.5100255350127467	9336	21917
+Volvafr	euk	Volvox africanus	1	1	simple	0	clonal;simple;obligate	T_volvocales_gv	T_volvocales_tetrabaena:sister;T_volvocales_gv:M	differentiated (germ-soma)	genome	79.6	13265	13265	0.4607799221417565	8355	18925
+Astrgub	euk	Astrephomene gubernaculifera	1	1	simple	0	clonal;simple;obligate	T_volvocales_gv	T_volvocales_tetrabaena:sister;T_volvocales_gv:M		genome	68.2	13688	13688	0.4892354739703832	7979	17315
+Gonipec	euk	Gonium pectorale	1	1	simple	0	clonal;simple;obligate	T_volvocales_gv	T_volvocales_tetrabaena:sister;T_volvocales_gv:M		genome	71.4	16278	16278	0.3796517287176797	9485	22411
+Tetrsoc	euk	Tetrabaena socialis	1	1	simple	0	clonal;simple;obligate	T_volvocales_tetrabaena	T_volvocales_tetrabaena:M;T_volvocales_gv:sister		genome	32.2	14091	14091	0.38800551591265386	8661	17252
+Chlarei	euk	Chlamydomonas reinhardtii	0	0	unicellular	0	unicellular				genome	91.8	17611	17611	0.5410862014737924	10022	22533
+Chlainc	euk	Chlamydomonas incerta	0	0	unicellular	0	unicellular				genome	85.9	16252	16252	0.532228773893843	9975	23113
+Chlasch	euk	Chlamydomonas schloesseri	0	0	unicellular	0	unicellular				genome	91.4	15415	15415	0.5422335947512296	9660	22339
+Edapdeb	euk	Edaphochlamys debaryana	0	0	unicellular	0	unicellular				genome	88.6	19099	19099	0.47650586487508995	11318	26837
+Dunasal	euk	Dunaliella salina	0	0	unicellular	0	unicellular				genome	59.2	16490	16490	0.4763765259632461	7957	16332
+Raphsub	euk	Raphidocelis subcapitata	0	0	unicellular	0	unicellular				genome	83.9	13347	13347	0.428999809399886	8653	18354
+Chlovul	euk	Chlorella vulgaris	0	0	unicellular	0	unicellular				genome	93.3	10633	10633	0.34427685223509935	7604	17148
+Coccsub	euk	Coccomyxa subellipsoidea	0	0	unicellular	0	unicellular				genome	85.9	9768	9768	0.2674830367608627	6964	15131
+Ulvamut	euk	Ulva mutabilis	1	1	simple	0	clonal;simple;obligate	T_ulvophyceae	T_ulvophyceae:M;T_siphonous_coenocytic:sister		genome	73.3	12874	12874	0.35707587260152657	7054	14968
+Caullen	euk	Caulerpa lentillifera	0	1	grey	0	coenocytic;simple;obligate	T_siphonous_coenocytic	T_ulvophyceae:sister;T_siphonous_coenocytic:M		genome	69.8	9300	9300	0.20237731254502037	6988	23464
+BryospKO2023	euk	Bryopsis sp. KO-2023	0	1	grey	0	coenocytic;simple;obligate	T_siphonous_coenocytic	T_ulvophyceae:sister;T_siphonous_coenocytic:M		genome	92.9	14029	14029	0.2715482706950208	9146	22743
+Ostrque	euk	Ostreobium quekettii	0	1	grey	0	coenocytic;simple;obligate	T_siphonous_coenocytic	T_ulvophyceae:sister;T_siphonous_coenocytic:M		genome	61.2	10752	10752	0.27313864088905304	7070	18627
+Ostrtau	euk	Ostreococcus tauri	0	0	unicellular	0	unicellular				genome	81.2	7723	7723	0.20623114687293578	5765	12629
+Micrcom	euk	Micromonas commoda	0	0	unicellular	0	unicellular				genome	82.7	10064	10064	0.27992200656398886	7205	16811
+Prascol	euk	Prasinoderma coloniale	0	0	unicellular	0	unicellular				genome	84.7	7111	7111	0.22545366959406457	5983	13961
+Mesovir	euk	Mesostigma viride	0	0	unicellular	0	unicellular		T_streptophyta:sister		genome	87.5	20817	20817	0.371228107132613	10515	28322
+Chloatm	euk	Chlorokybus atmophyticus	0	1	grey	0	unicellular		T_streptophyta:sister	packets of cells (grey)	genome	91.0	9247	9247	0.2635690778603435	6998	16304
+Klebnit	euk	Klebsormidium nitens	1	1	simple	0	clonal;simple;obligate	T_streptophyta	T_streptophyta:M		genome	96.9	16149	16149	0.3334764095077511	10937	25649
+Charbra	euk	Chara braunii	1	1	complex	0	clonal;complex;obligate	T_chara	T_streptophyta:M;T_chara:M		genome	78.0	34608	34608	0.383774111964895	19180	50202
+Colescu	euk	Coleochaete scutata	1	1	simple	0	clonal;simple;obligate	T_streptophyta	T_streptophyta:M;T_chara:sister		transcriptome	45.9	16703	16703	0.33641453428697116	8887	16245
+Spirmus	euk	Spirogloea muscicola	0	0	unicellular	1	reversal		T_rev_zygnematophyceae:M;T_embryophyta:sister;T_chara:sister		genome	87.1	26730	26730	0.3019514845521881	19766	45384
+Mesoend	euk	Mesotaenium endlicherianum	0	0	unicellular	1	reversal		T_rev_zygnematophyceae:M;T_embryophyta:sister;T_chara:sister		genome	76.1	10983	10983	0.3801678549841292	7988	17955
+ClosspNIES67	euk	Closterium sp. NIES-67	0	0	unicellular	1	reversal		T_rev_zygnematophyceae:M;T_embryophyta:sister;T_chara:sister		genome	90.6	23920	23920	0.5230008061903872	14694	35492
+Marcpol	euk	Marchantia polymorpha	1	1	complex	0	clonal;complex;obligate	T_embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister		genome	99.6	19197	19197	0.3267567534663918	12091	29981
+Physpat	euk	Physcomitrium patens	1	1	complex	0	clonal;complex;obligate	T_embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister		genome	100.0	30206	30206	0.3297482617928912	18577	43586
+Selamoe	euk	Selaginella moellendorffii	1	1	complex	0	clonal;complex;obligate	T_embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister		genome	98.0	33113	33113	0.170608115973669	25496	73816
+Ceraric	euk	Ceratopteris richardii	1	1	complex	0	clonal;complex;obligate	T_embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister		genome	96.9	35325	35325	0.2994479543972293	24547	69376
+Ambotri	euk	Amborella trichopoda	1	1	complex	0	clonal;complex;obligate	T_embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister		genome	94.5	27365	27365	0.2837031571841029	16882	44775
+Arabtha	euk	Arabidopsis thaliana	1	1	complex	0	clonal;complex;obligate	T_embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister		genome	99.6	27124	27124	0.25568500399339406	22852	61979
+Choncri	euk	Chondrus crispus	1	1	complex	0	clonal;complex;obligate	T_florideophyceae	T_rhodophyta:M;T_florideophyceae:M		genome	63.1	8989	8989	0.2836023977034184	4992	11442
+Graccho	euk	Gracilariopsis chorda	1	1	complex	0	clonal;complex;obligate	T_florideophyceae	T_rhodophyta:M;T_florideophyceae:M		genome	81.2	10495	10495	0.2600213698202588	6154	12789
+Agarchi	euk	Agarophyton chilense	1	1	complex	0	clonal;complex;obligate	T_florideophyceae	T_rhodophyta:M;T_florideophyceae:M		genome	77.3	7823	7823	0.25915986880158665	5202	11078
+Pyroyez	euk	Pyropia yezoensis	1	1	simple	0	clonal;simple;obligate	T_rhodophyta	T_rhodophyta:M;T_florideophyceae:sister		genome	50.2	12890	12890	0.47913625546628696	5895	13427
+Porpumb	euk	Porphyra umbilicalis	1	1	simple	0	clonal;simple;obligate	T_rhodophyta	T_rhodophyta:M;T_florideophyceae:sister		genome	43.9	13156	13156	0.5659944007789356	5332	11173
+Porppur	euk	Porphyridium purpureum	0	0	unicellular	0	unicellular		T_rhodophyta:sister		genome	71.8	9673	9673	0.26212173435288494	6540	15436
+Rhodmar	euk	Rhodosorus marinus	0	0	unicellular	0	unicellular		T_rhodophyta:sister		genome	83.9	8379	8379	0.20766766798215713	6197	14890
+Cyanmer	euk	Cyanidioschyzon merolae	0	0	unicellular	0	unicellular				genome	72.9	4982	4982	0.2775354632984445	3902	8033
+Galdsul	euk	Galdieria sulphuraria	0	0	unicellular	0	unicellular				genome	77.3	6579	6579	0.1967343142237363	4825	10613
+Rhodemar	euk	Rhodelphis marinus	0	0	unicellular	0	unicellular				transcriptome	89.0	14562	14562	0.30491949855941924	8806	26776
+Cyanpar	euk	Cyanophora paradoxa	0	0	unicellular	0	unicellular				genome	83.9	24378	24378	0.36762160127694626	11844	29665
+Ectosil	euk	Ectocarpus siliculosus	1	1	simple	0	clonal;complex;obligate	T_phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	filamentous brown alga	genome	83.5	16152	16152	0.408259165332449	10030	27323
+Sacclat	euk	Saccharina latissima	1	1	complex	0	clonal;complex;obligate	T_phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister		genome	71.4	18473	18473	0.40775099183162694	8880	22559
+Fucuser	euk	Fucus serratus	1	1	complex	0	clonal;complex;obligate	T_phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister		genome	83.9	20249	20249	0.34883525066745635	11453	26324
+Dictdic	euk	Dictyota dichotoma	1	1	complex	0	clonal;complex;obligate	T_phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister		genome	80.4	19834	19834	0.38810377360349174	9672	25838
+Discmes	euk	Discosporangium mesarthrocarpum	1	1	simple	0	clonal;complex;obligate	T_phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	filamentous; sister to all other Phaeophyceae	genome	45.9	25642	25642	0.2757804035574894	14385	26838
+Schiisc	euk	Schizocladia ischiensis	1	1	simple	0	clonal;simple;obligate	T_px_filaments	T_px_filaments:M;T_phaeophyceae:sister;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister		genome	74.1	21163	21163	0.38857287127100454	9164	20888
+Phaecon	euk	Phaeothamnion confervicola	1	1	simple	0	clonal;simple;obligate	T_px_filaments	T_px_filaments:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister		genome	53.7	26473	26473	0.24006048165067026	16976	31462
+Tribmin	euk	Tribonema minus	1	1	simple	0	clonal;simple/siphonous;obligate	T_xanthophyceae_filaments	T_px_filaments:M;T_xanthophyceae_filaments:M;T_oomycete_hyphae:sister		genome	81.6	18068	18068	0.2980175273198429	9998	23675
+Vauclit	euk	Vaucheria litorea	0	1	grey	0	clonal;simple/siphonous;obligate	T_xanthophyceae_filaments	T_px_filaments:M;T_xanthophyceae_filaments:M;T_oomycete_hyphae:sister		transcriptome	59.6	8681	8681	0.19693532939372643	5815	12390
+Heteaka	euk	Heterosigma akashiwo	0	0	unicellular	0	unicellular		T_px_filaments:sister;T_oomycete_hyphae:sister		genome	71.8	13147	13147	0.2829137451297605	8901	27250
+Nannsal	euk	Nannochloropsis salina CCMP1776	0	0	unicellular	0	unicellular		T_px_filaments:sister;T_oomycete_hyphae:sister		genome	72.9	8805	8805	0.3520601994076465	6132	13680
+Potemal	euk	Poterioochromonas malhamensis	0	0	unicellular	0	unicellular		T_px_filaments:sister;T_oomycete_hyphae:sister		genome	80.4	26909	26909	0.26117703233809936	14707	29777
+Aureano	euk	Aureococcus anophagefferens	0	0	unicellular	0	unicellular		T_px_filaments:sister;T_oomycete_hyphae:sister		genome	52.9	11485	11485	0.2040390426094604	8531	19703
+Phaetri	euk	Phaeodactylum tricornutum	0	0	unicellular	0	unicellular		T_px_filaments:sister;T_oomycete_hyphae:sister		genome	77.6	10432	10432	0.2543596790599165	7006	13675
+Thalpse	euk	Thalassiosira pseudonana	0	0	unicellular	0	unicellular		T_px_filaments:sister;T_oomycete_hyphae:sister		genome	72.2	11689	11689	0.32253236943408337	7518	14832
+Phytinf	euk	Phytophthora infestans	0	1	grey	0	coenocytic hyphae;simple;obligate	T_oomycete_hyphae	T_oomycete_hyphae:M		genome	89.8	17527	17527	0.2262079474184484	10680	24058
+Saprpar	euk	Saprolegnia parasitica	0	1	grey	0	coenocytic hyphae;simple;obligate	T_oomycete_hyphae	T_oomycete_hyphae:M		genome	87.5	20040	20040	0.16718733029378863	12155	30113
+Pytholi	euk	Pythium oligandrum	0	1	grey	0	coenocytic hyphae;simple;obligate	T_oomycete_hyphae	T_oomycete_hyphae:M		genome	96.1	14742	14742	0.21839093343814717	10253	27756
+Caferoe	euk	Cafeteria roenbergensis	0	0	unicellular	0	unicellular				genome	66.7	8424	8424	0.3407072830512213	5776	16390
+Hondfer	euk	Hondaea fermentalgiana	0	0	unicellular	0	unicellular		T_labyrinthula_nets:sister		genome	85.9	11825	11825	0.25172415475775534	8292	22635
+Auralim	euk	Aurantiochytrium limacinum	0	0	unicellular	0	unicellular		T_labyrinthula_nets:sister		transcriptome	85.5	14458	14458	0.31092644337496905	8135	18197
+LabyspSRHaC	euk	Labyrinthula sp SR-Ha-C	0	1	grey	0	colonial net;simple;obligate	T_labyrinthula_nets	T_labyrinthula_nets:M		genome	59.6	16741	16741	0.18408221755453494	6703	13326
+Platmac	euk	Platyophrya macrostoma	0	0	unicellular	0	unicellular				transcriptome	56.9	27073	27073	0.22404929886959674	12014	24567
+Tetrthe	euk	Tetrahymena thermophila	0	0	unicellular	0	unicellular				genome	74.9	26941	26941	0.3699536219780636	11959	34218
+Paratet	euk	Paramecium tetraurelia	0	0	unicellular	0	unicellular				genome	69.8	39162	39162	0.21875415739887744	19824	53175
+Stencoe	euk	Stentor coeruleus	0	0	unicellular	0	unicellular				genome	69.4	30969	30969	0.17991805870528027	17161	48387
+Plasfal	euk	Plasmodium falciparum	0	0	unicellular	0	unicellular				genome	54.9	5355	5355	0.6276943734415031	3420	7718
+Toxogon	euk	Toxoplasma gondii	0	0	unicellular	0	unicellular				genome	60.0	8305	8305	0.5859444837186882	4345	9530
+Vitrbra	euk	Vitrella brassicaformis	0	0	unicellular	0	unicellular				genome	78.4	23020	23020	0.3386285550510211	11061	25072
+Perkmar	euk	Perkinsus marinus	0	0	unicellular	0	unicellular				genome	58.4	22839	22839	0.21769979646489243	11959	23064
+Guttvul	euk	Guttulinopsis vulgaris	1	1	simple	0	aggregative;simple;facultative	T_guttulinopsis	T_guttulinopsis:M;T_plasmodiophorid_plasmodium:sister		transcriptome	11.8	8985	8985	0.3537278075590661	2055	3081
+Bigenat	euk	Bigelowiella natans	0	0	unicellular	0	unicellular		T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister		genome	72.9	21502	21502	0.3124855463171393	12184	27096
+Paulmic	euk	Paulinella micropora	0	0	unicellular	0	unicellular		T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister		genome	65.5	31982	31982	0.400979768501969	10800	30356
+Lothglo	euk	Lotharella globosa	0	0	unicellular	0	unicellular		T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister		transcriptome	60.8	18911	18911	0.2879795016984171	9991	22051
+Brevmot	euk	Brevimastigomonas motovehiculus	0	0	unicellular	0	unicellular		T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister		transcriptome	53.3	8946	8946	0.3292776297392342	4846	9591
+Plasbra	euk	Plasmodiophora brassicae	0	1	grey	0	plasmodium;simple;obligate	T_plasmodiophorid_plasmodium	T_plasmodiophorid_plasmodium:M		genome	88.6	9715	9715	0.18499223014216068	6745	17528
+Acrakon	euk	Acrasis kona	1	1	simple	0	aggregative;simple;facultative	T_acrasis	T_acrasis:M		genome	85.5	15387	15387	0.17972553796925655	10016	22330
+Naeggru	euk	Naegleria gruberi	0	0	unicellular	0	unicellular		T_acrasis:sister		genome	77.6	15634	15634	0.22140121731037904	9691	24595
+Neovdam	euk	Neovahlkampfia damariscottae	0	0	unicellular	0	unicellular		T_acrasis:sister		genome	86.7	13788	13788	0.16188899544182828	8852	22048
+Willmag	euk	Willaertia magna	0	0	unicellular	0	unicellular		T_acrasis:sister		genome	84.7	16413	16413	0.2546182589568184	9630	21825
+Pharkir	euk	Pharyngomonas kirbyi	0	0	unicellular	0	unicellular				transcriptome	84.7	14811	14811	0.27302461376680304	8565	19147
+Euglgra	euk	Euglena gracilis	0	0	unicellular	0	unicellular				transcriptome	71.0	35376	35376	0.267325394577966	16017	35999
+Trypbru	euk	Trypanosoma brucei brucei	0	0	unicellular	0	unicellular				genome	56.9	8463	8463	0.2650482187653437	4607	9786
+Bodosal	euk	Bodo saltans	0	0	unicellular	0	unicellular				genome	54.1	18056	18056	0.3223909478232819	7262	16766
+Andagod	euk	Andalucia godoyi	0	0	unicellular	0	unicellular				genome	79.2	8634	8634	0.24750058541308464	5631	12990
+Parapyr	euk	Paratrimastix pyriformis	0	0	unicellular	0	unicellular				genome	62.4	10665	10665	0.3591562780089737	5039	12021
+Gefioke	euk	Gefionella okellyi	0	0	unicellular	0	unicellular				transcriptome	74.9	15887	15887	0.19605713815516412	9601	28533
+Thectra	euk	Thecamonas trahens ATCC 50062	0	0	unicellular	0	unicellular				genome	81.2	10531	10531	0.2313867725935343	7518	20674
+Pygsbif	euk	Pygsuia biforma	0	0	unicellular	0	unicellular				transcriptome	61.6	9506	9506	0.22536530810475724	6566	14233
+Rigiram	euk	Rigifila ramosa	0	0	unicellular	0	unicellular				transcriptome	83.1	15218	15218	0.19643324729428635	10137	28957
+Diphrot	euk	Diphylleia rotans	0	0	unicellular	0	unicellular				transcriptome	88.6	14692	14692	0.25386750851396783	9604	27559
+Guilthe	euk	Guillardia theta	0	0	unicellular	0	unicellular				genome	79.2	24693	24693	0.2524652140899346	13477	33115
+Chrypar	euk	Chrysochromulina parva	0	0	unicellular	0	unicellular				genome	71.0	28097	28097	0.28235792328444254	14755	40733
+Prympar	euk	Prymnesium parvum	0	0	unicellular	0	unicellular				genome	84.3	23257	23257	0.2630524659799443	13353	33386
+Raphhet	euk	Raphidiophrys heterophryoidea	0	0	unicellular	0	unicellular				transcriptome	81.6	20514	20514	0.24857802427056921	10889	25426
+Telosub	euk	Telonema subtile	0	0	unicellular	0	unicellular				transcriptome	79.6	36604	36604	0.22588885456643346	17401	38486
+Paratri	euk	Paraphelidium tribonemae	0	0	unicellular	0	unicellular				transcriptome	81.2	4786	4786	0.16731609183161159	4475	10172
