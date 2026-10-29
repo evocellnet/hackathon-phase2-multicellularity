@@ -1,0 +1,29 @@
+{
+ "n_branches": 31,
+ "n_gains": 51481,
+ "n_seq_novel": 37817,
+ "n_split_repaired": 873,
+ "passes": [
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R4_curated/work/ladder/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R4_curated/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R4_curated/work/ladder/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 2392.6,
+   "n_queries": 51481
+  },
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R4_curated/work/ladder/queries_pass2.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R4_curated/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R4_curated/work/ladder/hits_pass2.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 883.2,
+   "n_queries": 10929
+  }
+ ],
+ "sensitivity": "very-sensitive",
+ "n_rep": 3,
+ "db_proteins": 3024340,
+ "db_species": 191,
+ "round1_placed": {
+  "BryospKO2023": "core_chlorophytes",
+  "Caullen": "core_chlorophytes",
+  "Micrcom": "Chlorophyta",
+  "Ostrque": "core_chlorophytes",
+  "Ulvamut": "core_chlorophytes"
+ }
+}

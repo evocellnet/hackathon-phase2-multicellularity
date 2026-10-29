@@ -1,0 +1,65 @@
+ROUND-2 DENSE PANELS (W2/W3) - analysis definitions
+Written 2026-10-29 16:31 CET (round-2 t = 1.4 h), BEFORE any novelty count, residual or P1 statistic existed.
+Seen at this time: R2 Ancestra DONE.json and R2 per-branch HOG gains/losses/dups (branch_events.tsv) only.
+Pre-registration: DESIGN_ROUND2.md §6 (tag prereg-r2), data/r2_prereg/p1_events.tsv (tag prereg-r2-p1).
+The items below fix choices that the pre-registration leaves open; nothing here changes a pre-registered test.
+
+1. Gains/losses/duplications: mcell.hogs.parse_hogs on runs/r2/<R>/hogs.orthoxml with the Ancestra input tree
+   (runs/r2/<R>/stages/input/guide_tree.nwk). Conservation law checked on every branch.
+
+2. Branch lengths: root-level HOGs that are single-copy in >= 80 % of panel species and multi-copy in <= 10 %
+   (threshold relaxed in steps 0.7/0.6/0.5 only if < 100 qualify); <= 150 markers (most occupied first, ties by
+   seeded random order, seed 11); MAFFT --auto, trimAl -automated1, markers < 30 columns dropped; concatenated;
+   IQ-TREE 3 LG+G4 on the FIXED panel topology (-te); lengths transferred by bipartition (mcell.phylo; a bifurcating
+   root edge is split equally).
+
+3. Sequence-novelty ladder (mcell.gainladder, round-1 settings): DIAMOND blastp --very-sensitive -k 0 -e 1e-5
+   --query-cover 30 --max-hsps 1, two-pass, <= 3 representatives per gained family (seed 11). Gains on every
+   internal non-root branch (all have >= 2 descendants) and on every tip that is an event M; in the P1 panels R4 and
+   R6 additionally on every tip (tip-control sensitivity, item 9). Target DB = all panel proteomes + all round-1
+   proteomes (187 eukaryotic; 82 prokaryotic for R8) not in the panel; one DB per panel. A gain is sequence-novel if
+   no representative hits any target outside the clade.
+   Round-1 proteomes not in the panel are placed on the panel tree for the clade filter: species s is inside panel
+   node c iff c has >= 2 tips that are round-1 species (O_c), s lies below MRCA(O_c) in the round-1 guide tree, and
+   that MRCA contains no other overlap species; s is assigned to the deepest such node (results/r2/panels/<R>/
+   round1_placement.tsv). Unplaced species are outside every panel clade.
+   Raw gains = Ancestra HOG gains; supported gains = HOG gains present in >= 2 child clades of the branch's child node
+   (internal branches only); sequence-novel gains = primary count.
+
+4. Multicellular crown and controls. Node state (primary coding): 'mc' at/below the M node of an origin,
+   origin_complex or nested event, 'uni' at/below the M node of a reversal to unicellular (deepest coded event wins);
+   sensitivity and T_event codings are not used for states. A branch is inside a crown if both its parent and child
+   nodes are 'mc'. CONTROL branches = internal, not a root child (root position not identifiable for the length; as
+   round 1), not the M branch of any coded event (incl. sensitivity, reversal, T_event), not inside a crown, laddered.
+
+5. Pooled residual model (DESIGN §6): NB2 GLM (mcell.branchstats.fit_count_glm; Poisson-quasi fallback) on the
+   control branches of all finished panels, y = sequence-novel gains, panel intercepts, shared slopes for
+   log(branch length), log(n descendants), transcriptome fraction of descendants, mean BUSCO C of descendants,
+   log(distance to nearest panel outgroup tip, phylogenomic patristic distance from the child node to the nearest tip
+   outside its clade). Covariates standardised on the pooled controls. Residual s = log((y+0.5)/(yhat+0.5)) = log
+   rate ratio; control residuals are leave-one-out predictions. Per-event 95 % CI: s +/- 1.96*sqrt(1/(yhat+0.5) +
+   alpha + x'Var(beta)x) (NB sampling + prediction uncertainty; Poisson-quasi: phi/(yhat+0.5) + x'Vx).
+   Path events (P not the parent of M) would use summed counts along the path; none expected.
+
+6. Depth classes for the P1 permutation (fixed now): topological depth d = number of edges from the panel root to
+   the child node; classes A: d <= 3, B: 4 <= d <= 6, C: d >= 7. Matched control set of an event = in-panel controls
+   in its class; if fewer than 5, the nearest class(es) in depth are added (B before the farther class) until >= 5 or
+   all in-panel controls are used. The number of matched controls and whether the set was widened is reported.
+   One-sided permutation p = (1 + #{matched controls with s_ctrl >= s_event}) / (n_matched + 1) (exact relabelling of
+   the event label among the event + matched controls). Stouffer: Z = sum(Phi^-1(1 - p_i)) / sqrt(k), p = 1 - Phi(Z).
+
+7. Meta-analysis: per-event log RR and variance from item 5; tau^2 by REML (mcell.branchstats.random_effects);
+   modified Hartung-Knapp CI: se = sqrt(max(1, q) / sum w), q = sum w (y - mu)^2 / (k - 1), t with k - 1 df;
+   prediction interval mu +/- t_{k-2} sqrt(tau^2 + se^2) (k >= 3).
+
+8. Secondary: (a) all nested simple->complex events (kind 'nested', from_state simple, to_state complex) in R2-R6,
+   R8, seen and unseen, pooled as in item 7; (b) one effect per panel (inverse-variance mean of that panel's events,
+   variance 1/sum(1/v)) then pooled; (c) T-only coding: drop events whose M species are all D=1/T=0 (germ-soma only);
+   (d) origins (uni->simple, uni->complex) descriptive only (same residuals, no test).
+
+9. Tip-control sensitivity (exploratory addition, see DEVIATIONS.txt): tip events (P1 events Astrephomene and
+   Volvox carteri are tips) are compared with non-event tips of unicellular-state species of the same panel (R4, R6),
+   NB GLM on tip controls with log(branch length), BUSCO, transcriptome flag, log(distance to outgroup), panel
+   intercept; LOO control residuals; one-sided permutation p as in item 6 without depth classes.
+
+10. Seeds: 11 (representatives, marker order, IQ-TREE); 11,23,37,41,53 for any resampling (W3 permutation null).

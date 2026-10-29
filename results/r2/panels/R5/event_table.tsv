@@ -1,0 +1,6 @@
+panel	event_id	kind	from_state	to_state	confidence	M	M_is_tip	P	P_is_parent	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	hog_gains	supported_gains	seq_novel	seq_novel_supported	dups	losses	n_controls_panel	smd_depth_all_events_vs_controls	smd_root_dist_all_events_vs_controls
+R5	R5_eurhodophytina	origin	unicellular	simple	grey	Eurhodophytina	0	Rhodophytina	True	4	0.3703982	7	0.0811904	0.0	65.27142857142857	0.5314532999999999	217	207.0	96.0	89.0	1081	1930	5	0.8770580193070288	0.6338468187523344
+R5	R5_florideophyceae	nested	simple	complex	clear	Rhodymeniophycidae	0	Eurhodophytina	True	5	0.6058312	4	0.235433	0.0	75.39999999999999	0.6714781000000001	917	913.0	709.0	706.0	1591	1619	5	0.8770580193070288	0.6338468187523344
+R5	R5_bangiopsis	origin	unicellular	simple	grey	Bangsp	1	Stylonemataceae	True	6	0.7394707	1	0.179905	1.0	56.1	0.389201	1800		1688.0		311	1495	5	0.8770580193070288	0.6338468187523344
+R5	R5_compsopogon	origin	unicellular	simple	grey	Compcae	1	Proteorhodophytina	True	5	0.7506467	1	0.433664	1.0	48.2	0.856152	2252		2094.0		441	4437	5	0.8770580193070288	0.6338468187523344
+R5	R5_sens_rhodophytina	sensitivity	unicellular	simple	grey	Rhodophytina	0	Rhodophyta	True	3	0.2892078	11	0.0699137	0.18181818181818182	65.17272727272727	0.6184013999999999	460	454.0	175.0	173.0	1137	472	5	0.8770580193070288	0.6338468187523344

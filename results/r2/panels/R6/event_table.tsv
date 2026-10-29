@@ -1,0 +1,9 @@
+panel	event_id	kind	from_state	to_state	confidence	M	M_is_tip	P	P_is_parent	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	hog_gains	supported_gains	seq_novel	seq_novel_supported	dups	losses	n_controls_panel	smd_depth_all_events_vs_controls	smd_root_dist_all_events_vs_controls
+R6	R6_px_filaments	origin	unicellular	simple	grey	PX_clade	0	Ochrophyta	True	3	0.724118	18	0.136937	0.0	73.57222222222224	0.52956	3456	3425.0	1100	1087.0	4148	5245	5	2.1697121611100783	0.49931708100464767
+R6	R6_fucophycidae	nested	simple	complex	clear	Fucophycidae	0	Dictyotophycidae_Fucophycidae	True	7	0.9523379000000001	10	0.0315152	0.0	82.98	0.1246487	753	736.0	493	488.0	5924	2015	5	2.1697121611100783	0.49931708100464767
+R6	R6_sens_phaeophyceae	sensitivity	simple	complex	grey	Phaeophyceae	0	Phaeophyceae_Schizocladia	True	5	0.8546642	14	0.0524937	0.0	74.17142857142858	0.2144077	535	513.0	314	303.0	5685	1883	5	2.1697121611100783	0.49931708100464767
+R6	R6_dictyota	nested	simple	complex	grey	Dictdic	1	Dictyotophycidae	True	8	1.0454843	1	0.109835	0.0	80.4	0.1881419	3779		3656		2766	3467	5	2.1697121611100783	0.49931708100464767
+R6	R6_rev_ectocarpus	reversal	complex	simple	grey	Ectosil	1	Ectocarpales	True	9	1.027185	1	0.0407774	0.0	83.5	0.0781263	1022		958		837	11514	5	2.1697121611100783	0.49931708100464767
+R6	R6_rev_pylaiella	reversal	complex	simple	grey	Pylalit	1	Ectocarpales	True	9	1.0286858	1	0.0422782	0.0	87.1	0.0796271	3424		3248		2328	10516	5	2.1697121611100783	0.49931708100464767
+R6	R6_rev_chordaria	reversal	complex	simple	grey	Chorlin	1	Ectocarpales	True	9	1.0237565000000002	1	0.0373489	0.0	89.0	0.0781263	2169		2064		883	11890	5	2.1697121611100783	0.49931708100464767
+R6	R6_rev_chrysoparadoxa	reversal	simple	unicellular	grey	Chryaus	1	PX_clade	True	4	1.020377	1	0.296259	0.0	76.5	0.5362255	4664		3592		794	12842	5	2.1697121611100783	0.49931708100464767

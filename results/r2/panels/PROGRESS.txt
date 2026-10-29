@@ -1,0 +1,111 @@
+ROUND-2 DENSE PANELS - PROGRESS (rewritten 2026-10-29 22:01 CET)
+
+R1: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
+    ladder: 40,529 HOG gains on 30 branches; 27,456 sequence-novel
+    controls: 8 internal non-crown branches; median seq-novel gains 290 (range 11-1432)
+    R1_metazoa                       origin_complex  M=Metazoa                        raw   1217 supported   1200 seq-novel    717 dups  4384
+    R1_salpingoeca                   origin          M=Salpingoeca                    raw      7 supported      7 seq-novel      2 dups   724
+    R1_choanoeca                     origin          M=Choanoeca                      raw    661 supported    661 seq-novel    520 dups  1293
+    R1_barroeca                      origin          M=Barrmon                        raw   2543 supported    nan seq-novel   2431 dups   172
+    R1_codosiga                      origin          M=Codohol                        raw  16059 supported    nan seq-novel  14916 dups  3086
+    R1_capsaspora                    origin          M=Capsowc                        raw   1675 supported    nan seq-novel   1519 dups   629
+    R1_teretosporea                  origin          M=Teretosporea                   raw    343 supported    338 seq-novel     36 dups  1271
+    positive controls: C01 yes (r1 yes), C02 yes (r1 yes), C03 no (r1 no), C04 yes (r1 yes), C05 yes (r1 yes), C06 no (r1 no), C07 yes (r1 no), C08 no (r1 no)
+R2: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
+    ladder: 27,431 HOG gains on 43 branches; 21,917 sequence-novel
+    controls: 7 internal non-crown branches; median seq-novel gains 50 (range 11-193)
+    R2_hyphae                        origin          M=Blastocladiomycota_Amastigomycota raw    132 supported    115 seq-novel     36 dups  1563
+    R2_gonapodya                     origin          M=Gonapro                        raw   4760 supported    nan seq-novel   4373 dups  1981
+    R2_fonticula                     origin          M=Fontalb                        raw   2117 supported    nan seq-novel   1912 dups   247
+    R2_pezizomycotina                nested          M=Pezizomycotina                 raw    503 supported    503 seq-novel    417 dups  1649
+    R2_neolecta                      nested          M=Neolirr                        raw    987 supported    nan seq-novel    962 dups   276
+    R2_agaricomycetes                nested          M=Agaricomycetes_Dacrymycetes    raw    160 supported    159 seq-novel    139 dups  1678
+    R2_tremella                      nested          M=Tremmes                        raw   1888 supported    nan seq-novel   1849 dups   294
+    R2_endogone                      nested          M=Endosp                         raw   2188 supported    nan seq-novel   1966 dups   790
+    R2_rev_saccharomycotina          reversal        M=Saccharomycotina               raw     35 supported     35 seq-novel     32 dups   467
+    R2_rev_schizosaccharomyces       reversal        M=Schipom                        raw    623 supported    nan seq-novel    605 dups   372
+    R2_rev_saitoella                 reversal        M=Saitcom                        raw   1525 supported    nan seq-novel   1486 dups   474
+    R2_rev_cryptococcus              reversal        M=Crypneo                        raw    718 supported    nan seq-novel    698 dups   329
+    R2_rev_rhodotorula               reversal        M=Rhodtor                        raw   1759 supported    nan seq-novel   1720 dups   687
+    R2_rev_serendipita               reversal        M=Sereind                        raw   2766 supported    nan seq-novel   2694 dups  1616
+    positive controls: C13 yes (r1 yes), C14 yes (r1 yes)
+R3: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
+    ladder: 23,351 HOG gains on 20 branches; 15,160 sequence-novel
+    controls: 6 internal non-crown branches; median seq-novel gains 46 (range 17-275)
+    R3_streptophyte_filaments        origin          M=Klebsormidiophyceae_Phragmoplastophyta raw    892 supported    822 seq-novel    282 dups  2966
+    R3_embryophyta                   nested          M=Embryophyta                    raw    388 supported    369 seq-novel    259 dups  4865
+    R3_chara                         nested          M=Charbra                        raw  14611 supported    nan seq-novel  12793 dups  9889
+    R3_rev_zygnematophyceae          reversal        M=Zygnematophyceae               raw     85 supported     81 seq-novel     32 dups  2213
+    positive controls: C09 yes (r1 yes), C10 no (r1 yes)
+R4: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
+    ladder: 54,297 HOG gains on 33 branches; 40,350 sequence-novel
+    controls: 6 internal non-crown branches; median seq-novel gains 528 (range 44-1068)
+    R4_tetrabaena                    origin          M=Tetrsoc                        raw   1431 supported    nan seq-novel   1237 dups  2052
+    R4_gonium_volvocaceae            origin          M=Gonium_Volvocaceae             raw    125 supported    114 seq-novel     76 dups  3336
+    R4_sens_single_origin            sensitivity     M=TGV_clade                      raw    114 supported    106 seq-novel     34 dups  2460
+    R4_astrephomene                  nested          M=Astrgub                        raw    938 supported    nan seq-novel    892 dups   830
+    R4_pleodorina                    nested          M=Pleosta                        raw   1853 supported    nan seq-novel   1621 dups   983
+    R4_volvox_carteri                nested          M=Volvcar                        raw   1372 supported    nan seq-novel   1300 dups  1028
+    R4_volvox_africanus              nested          M=Volvox_africanus_reticuliferus raw    119 supported    118 seq-novel    104 dups  1035
+    positive controls: C11 yes (r1 yes), C12 no (r1 no)
+R5: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
+    ladder: 10,914 HOG gains on 15 branches; 7,583 sequence-novel
+    controls: 5 internal non-crown branches; median seq-novel gains 173 (range 11-664)
+    R5_eurhodophytina                origin          M=Eurhodophytina                 raw    217 supported    207 seq-novel     96 dups  1081
+    R5_florideophyceae               nested          M=Rhodymeniophycidae             raw    917 supported    913 seq-novel    709 dups  1591
+    R5_bangiopsis                    origin          M=Bangsp                         raw   1800 supported    nan seq-novel   1688 dups   311
+    R5_compsopogon                   origin          M=Compcae                        raw   2252 supported    nan seq-novel   2094 dups   441
+    R5_sens_rhodophytina             sensitivity     M=Rhodophytina                   raw    460 supported    454 seq-novel    175 dups  1137
+    positive controls: C09 yes (r1 yes)
+R6: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
+    ladder: 132,860 HOG gains on 45 branches; 100,206 sequence-novel
+    controls: 5 internal non-crown branches; median seq-novel gains 522 (range 241-816)
+    R6_px_filaments                  origin          M=PX_clade                       raw   3456 supported   3425 seq-novel   1100 dups  4148
+    R6_fucophycidae                  nested          M=Fucophycidae                   raw    753 supported    736 seq-novel    493 dups  5924
+    R6_sens_phaeophyceae             sensitivity     M=Phaeophyceae                   raw    535 supported    513 seq-novel    314 dups  5685
+    R6_dictyota                      nested          M=Dictdic                        raw   3779 supported    nan seq-novel   3656 dups  2766
+    R6_rev_ectocarpus                reversal        M=Ectosil                        raw   1022 supported    nan seq-novel    958 dups   837
+    R6_rev_pylaiella                 reversal        M=Pylalit                        raw   3424 supported    nan seq-novel   3248 dups  2328
+    R6_rev_chordaria                 reversal        M=Chorlin                        raw   2169 supported    nan seq-novel   2064 dups   883
+    R6_rev_chrysoparadoxa            reversal        M=Chryaus                        raw   4664 supported    nan seq-novel   3592 dups   794
+    positive controls: C09 yes (r1 yes)
+R7: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
+    ladder: 18,940 HOG gains on 20 branches; 7,726 sequence-novel
+    controls: 9 internal non-crown branches; median seq-novel gains 128 (range 14-387)
+    R7_dictyostelia                  origin          M=Dictyostelia                   raw    725 supported    720 seq-novel    550 dups  1501
+    R7_myxogastria                   origin          M=Myxogastria_Ceratiomyxa        raw    330 supported    307 seq-novel    138 dups  3843
+    R7_sens_macromycetozoa           sensitivity     M=Eumycetozoa                    raw    378 supported    341 seq-novel    122 dups  2209
+    R7_copromyxa                     origin          M=Coprpro                        raw   4463 supported    nan seq-novel   3823 dups  1408
+    positive controls: C16 yes (r1 yes)
+R8: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
+    ladder: 12,907 HOG gains on 23 branches; 6,902 sequence-novel
+    controls: 9 internal non-crown branches; median seq-novel gains 22 (range 1-431)
+    R8_heterocyst                    nested          M=Nostocales                     raw    516 supported    479 seq-novel    308 dups  2436
+    R8_branching                     T_event         M=Branching_Nostocales           raw     11 supported     11 seq-novel      9 dups   280
+    R8_oscillatoriales               origin          M=Oscillatoriales                raw    309 supported    277 seq-novel    178 dups  1575
+    R8_leptolyngbya                  origin          M=Leptbor                        raw   1008 supported    nan seq-novel    788 dups   444
+    R8_pseudanabaena                 origin          M=Pseubic                        raw    542 supported    nan seq-novel    391 dups   286
+    R8_coleofasciculus               origin          M=Colechth                       raw   1234 supported    nan seq-novel    872 dups   676
+    R8_spirulina                     origin          M=Spirsub                        raw    322 supported    nan seq-novel    195 dups   184
+    R8_hyella                        origin          M=Hyelpat                        raw   1121 supported    nan seq-novel    806 dups   276
+    R8_hydrococcus                   origin          M=Hydrriv                        raw    244 supported    nan seq-novel    178 dups   118
+    R8_sens_early_origin             sensitivity     M=Cyanophyceae_excl_Gloeobacter  raw   4905 supported   4901 seq-novel   2365 dups  1116
+    positive controls: P1 yes (r1 yes)
+
+pooled/final_8panels: panels ['R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8']
+    P1: {'k': 4, 'events': ['R4_astrephomene', 'R4_volvox_carteri', 'R4_volvox_africanus', 'R6_fucophycidae'], 'p_perm': [0.1429, 0.1429, 0.5714, 0.1667], 'n_matched': [6, 6, 6, 5], 'stouffer_Z': 1.4612751220326394, 'p_stouffer_one_sided': 0.0719699771595379, 'complete': True}
+    P1 meta: {'k': 4, 'mu': 1.5318636446461062, 'se': 0.6530194880423311, 'ci_low': -0.5463358123528312, 'ci_high': 3.6100631016450437, 'tau2': 0.9734709412697059, 'q': 0.993100617157541, 'I2': 0.5717895824216234, 'pi_low': -3.558931703636367, 'pi_high': 6.62265899292858, 'p_one_sided': 0.05034388885010692, 'RR': 4.626791487653564, 'RR_low': 0.5790677406259825, 'RR_high': 36.96838550716348, 'PI_RR_low': 0.028469222040998592, 'PI_RR_high': 751.9418493204671}
+    secondary all nested: {'k': 15, 'mu': 2.415633961202036, 'se': 0.4419303948173094, 'ci_low': 1.467787533411999, 'ci_high': 3.363480388992073, 'tau2': 2.228009644686364, 'q': 1.0094743289422925, 'I2': 0.7652467902534639, 'pi_low': -0.9474100032183923, 'pi_high': 5.778677925622464, 'p_one_sided': 4.1563095760500774e-05, 'RR': 11.19686648691677, 'RR_low': 4.339623240555, 'RR_high': 28.889563028012123, 'PI_RR_low': 0.3877439797266631, 'PI_RR_high': 323.3314395086632, 'events': ['R2_pezizomycotina', 'R2_neolecta', 'R2_agaricomycetes', 'R2_tremella', 'R2_endogone', 'R3_embryophyta', 'R3_chara', 'R4_astrephomene', 'R4_pleodorina', 'R4_volvox_carteri', 'R4_volvox_africanus', 'R5_florideophyceae', 'R6_fucophycidae', 'R6_dictyota', 'R8_heterocyst']}
+
+pooled/interim_5panels: panels ['R2', 'R3', 'R5', 'R6', 'R8']
+    P1: {'k': 1, 'events': ['R6_fucophycidae'], 'p_perm': [0.1667], 'n_matched': [5], 'stouffer_Z': 0.967421566101701, 'p_stouffer_one_sided': 0.16666666666666663, 'complete': False}
+    P1 meta: {'k': 1, 'mu': 1.2744819059029593, 'se': 1.068580859938336, 'ci_low': -0.819936579576179, 'ci_high': 3.3689003913820974, 'tau2': nan, 'q': nan, 'pi_low': nan, 'pi_high': nan, 'p_one_sided': 0.11649609833408459, 'RR': 3.576847786243187, 'RR_low': 0.44045958775395205, 'RR_high': 29.046569632398676, 'PI_RR_low': nan, 'PI_RR_high': nan}
+    secondary all nested: {'k': 11, 'mu': 2.5895110821258127, 'se': 0.5299840455049822, 'ci_low': 1.4086330394146078, 'ci_high': 3.770389124837018, 'tau2': 2.3438577885326524, 'q': 1.0138568203226725, 'I2': 0.7715061392211302, 'pi_low': -1.0754215129837275, 'pi_high': 6.254443677235352, 'p_one_sided': 0.00031811417136472285, 'RR': 13.32325603251941, 'RR_low': 4.0903602195439, 'RR_high': 43.39694838120107, 'PI_RR_low': 0.34115392418128904, 'PI_RR_high': 520.3198284588293, 'events': ['R2_pezizomycotina', 'R2_neolecta', 'R2_agaricomycetes', 'R2_tremella', 'R2_endogone', 'R3_embryophyta', 'R3_chara', 'R5_florideophyceae', 'R6_fucophycidae', 'R6_dictyota', 'R8_heterocyst']}
+
+pooled/sens_R4curated: panels ['R1', 'R2', 'R3', 'R4_curated', 'R5', 'R6', 'R7', 'R8']
+    P1: {'k': 4, 'events': ['R4_astrephomene', 'R4_volvox_carteri', 'R4_volvox_africanus', 'R6_fucophycidae'], 'p_perm': [0.1429, 0.1429, 0.2857, 0.1667], 'n_matched': [6, 6, 6, 5], 'stouffer_Z': 1.8342557178954235, 'p_stouffer_one_sided': 0.033308022046631115, 'complete': True}
+    P1 meta: {'k': 4, 'mu': 1.576882823859765, 'se': 0.6276563085891892, 'ci_low': -0.42059967639825935, 'ci_high': 3.5743653241177893, 'tau2': 0.8343978887975536, 'q': 0.9945194786826367, 'I2': 0.5298507063620234, 'pi_low': -3.1917888147932834, 'pi_high': 6.345554462512813, 'p_one_sided': 0.04337960322118091, 'RR': 4.839845621617234, 'RR_low': 0.6566529224619395, 'RR_high': 35.67197348831597, 'PI_RR_low': 0.041098287920082494, 'PI_RR_high': 569.9533198715418}
+    secondary all nested: {'k': 15, 'mu': 2.429919037500555, 'se': 0.43853958071825266, 'ci_low': 1.489345182651376, 'ci_high': 3.370492892349734, 'tau2': 2.176911179605785, 'q': 1.0096256156282686, 'I2': 0.7595554061058654, 'pi_low': -0.8953846134746115, 'pi_high': 5.755222688475722, 'p_one_sided': 3.635816175053899e-05, 'RR': 11.357962473744672, 'RR_low': 4.4341909829544015, 'RR_high': 29.09286317411619, 'PI_RR_low': 0.40845047287086367, 'PI_RR_high': 315.83587270268157, 'events': ['R2_pezizomycotina', 'R2_neolecta', 'R2_agaricomycetes', 'R2_tremella', 'R2_endogone', 'R3_embryophyta', 'R3_chara', 'R4_astrephomene', 'R4_pleodorina', 'R4_volvox_carteri', 'R4_volvox_africanus', 'R5_florideophyceae', 'R6_fucophycidae', 'R6_dictyota', 'R8_heterocyst']}
+
+CAVEAT (interim): tip events (species-specific orphans) exceed internal controls by 4-235x regardless of event type (reversals too); internal-branch-only and tip-vs-tip-control estimates are the interpretable ones (DEVIATIONS D-P1, D-P6).
+Residuals, P1 and pooled estimates are computed only by scripts/r2/panels/pooled.py (interim tags are labelled).

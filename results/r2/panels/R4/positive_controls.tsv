@@ -1,0 +1,3 @@
+panel	control	ancestra_event_control	round1_recovered	panel_recovered	observed	components	notes	aliases
+R4	C11	False	yes	yes	PF-HOG(PF01858|PF01857) with Chlarei + Volvcar members, present at Chlamydomonas_TGV, origin at/above Chlamydomonas_TGV: 6 [1 family: Chlorophyta|HOG0011215 (origin Chlorophyta), core_chlorophytes|HOG0011215.1 (origin Chlorophyta), CS_clade|HOG0011215.2 (origin Chlorophyta) +3 more HOGs]; reported: also present at TGV_clade: 6		P = Chlamydomonas_TGV (D7; single volvocine primary transition; pi_resolution)	
+R4	C12	False	no	no	proteins with hit(PF12499): Volvcar 138, Chlarei 71			

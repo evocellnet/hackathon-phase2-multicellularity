@@ -1,0 +1,9 @@
+R2-P1 event mapping (task brief step 7), written before any R6 Ancestra output existed (R6 run in progress).
+R6_fucophycidae (p1_events.tsv: 'stem of parenchymatous Fucophycidae ... MRCA of sampled Fucophycidae') ->
+  sampled Fucophycidae (Desmarestiales, Ectocarpales, Fucales, Laminariales; Silberfeld et al. 2014 / Bringloe et al. 2020 ordinal
+  classification): Ascnod, Chorlin, Desmher, Ectosil, Fucuser, Pelvcan, Pylalit, Sacclat, Scytpro, Undapin
+  MRCA in data/dense/R6/guide_tree.nwk = node 'Fucophycidae' (leaves: Ascnod, Chorlin, Desmher, Ectosil, Fucuser, Pelvcan, Pylalit, Sacclat, Scytpro, Undapin);
+  equals transitions.tsv M='Fucophycidae' for R6_fucophycidae: True.
+  Event branch = Dictyotophycidae_Fucophycidae -> Fucophycidae.
+Other confirmatory events are named directly in data/dense/R4/transitions.tsv: R4_astrephomene -> tip Astrgub;
+  R4_volvox_carteri -> tip Volvcar; R4_volvox_africanus -> node Volvox_africanus_reticuliferus; sensitivity R4_pleodorina -> tip Pleosta.

@@ -1,0 +1,8 @@
+panel	event_id	kind	from_state	to_state	confidence	M	M_is_tip	P	P_is_parent	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	hog_gains	supported_gains	seq_novel	seq_novel_supported	dups	losses	n_controls_panel	smd_depth_all_events_vs_controls	smd_root_dist_all_events_vs_controls
+R1	R1_metazoa	origin_complex	unicellular	complex	clear	Metazoa	0	Choanozoa	True	5	0.746186	15	0.117479	0.0	95.67999999999999	0.5889898	1217	1200.0	717.0	712.0	4384	6877	8	1.169006766193852	1.382409194902552
+R1	R1_salpingoeca	origin	unicellular	simple	grey	Salpingoeca	0	Salpingoecidae	True	7	0.87320654	2	0.00309854	0.5	85.65	0.44853583999999996	7	7.0	2.0	2.0	724	11597	8	1.169006766193852	1.382409194902552
+R1	R1_choanoeca	origin	unicellular	simple	grey	Choanoeca	0	Salpingoecidae	True	7	1.223859	2	0.353751	1.0	78.2	0.81597	661	661.0	520.0	520.0	1293	12765	8	1.169006766193852	1.382409194902552
+R1	R1_barroeca	origin	unicellular	simple	grey	Barrmon	1	Salpingoecidae	True	7	1.4096929999999999	1	0.539585	0.0	83.1	0.9850223	2543		2431.0		172	15561	8	1.169006766193852	1.382409194902552
+R1	R1_codosiga	origin	unicellular	simple	grey	Codohol	1	Salpingoecidae	True	7	1.480245	1	0.610137	1.0	74.9	1.0555743	16059		14916.0		3086	10953	8	1.169006766193852	1.382409194902552
+R1	R1_capsaspora	origin	unicellular	simple	grey	Capsowc	1	Filasterea	True	5	1.0437881999999998	1	0.402154	0.0	93.7	0.758185	1675		1519.0		629	9462	8	1.169006766193852	1.382409194902552
+R1	R1_teretosporea	origin	unicellular	simple	grey	Teretosporea	0	Holozoa	True	3	0.5667356	6	0.0135169	0.3333333333333333	86.08333333333333	0.45796339999999996	343	338.0	36.0	34.0	1271	4824	8	1.169006766193852	1.382409194902552

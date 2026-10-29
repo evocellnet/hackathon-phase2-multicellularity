@@ -1,0 +1,41 @@
+branch_child	panel	branch_parent	is_leaf	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	root_child	state_child	state_parent	inside_crown	events	hog_gains	losses	dups	dups_at_origin	supported_gains	seq_novel	seq_novel_supported	seq_novel_tx_sens	seq_novel_genomes_only	split_repaired	gains_after_repair	laddered	is_event	control	tip_control
+Prascol	R3	Viridiplantae	True	1	0.438986	1	0.438986	0.0	84.7	1.4403243	True	uni	uni	False		1927	0	205	0								False	False	False	False
+Chlorophyta_Streptophyta	R3	Viridiplantae	False	1	0.438986	20	0.438986	0.1	87.24499999999999	0.877972	True	uni	uni	False		2754	0	592	0	2754.0	348.0	348.0	348.0	431.0	0.0	2754.0	True	False	False	False
+Chlorophyta	R3	Chlorophyta_Streptophyta	False	2	0.49715319999999996	3	0.0581672	0.0	88.76666666666667	0.6205195	False	uni	uni	False		476	1133	689	192	458.0	38.0	36.0	38.0	42.0	117.0	359.0	True	False	True	False
+Ostrtau	R3	Chlorophyta	True	3	1.4548231999999999	1	0.95767	0.0	81.2	1.5781895	False	uni	uni	False		1822	3097	422	27								False	False	False	False
+core_chlorophytes	R3	Chlorophyta	False	3	0.6487322	2	0.151579	0.0	92.55	0.7720985	False	uni	uni	False		405	818	1921	447	334.0	146.0	108.0	146.0	159.0	21.0	384.0	True	False	True	False
+Chlarei	R3	core_chlorophytes	True	4	1.2084852	1	0.559753	0.0	91.8	1.0373169999999998	False	uni	uni	False		6997	1443	1452	101								False	False	False	False
+Chlovul	R3	core_chlorophytes	True	4	1.1262962	1	0.477564	0.0	93.3	1.0373169999999998	False	uni	uni	False		2363	3064	786	44								False	False	False	False
+Streptophyta	R3	Chlorophyta_Streptophyta	False	2	0.5327762	17	0.0937902	0.11764705882352941	86.97647058823529	0.7811004	False	uni	uni	False		1466	861	2414	1008	1410.0	275.0	257.0	275.0	303.0	123.0	1343.0	True	False	True	False
+Klebsormidiophyceae_Phragmoplastophyta	R3	Streptophyta	False	3	0.6280333	15	0.0952571	0.13333333333333333	86.67333333333332	0.5849168	False	mc	uni	False	R3_streptophyte_filaments	892	1700	2966	803	822.0	282.0	260.0	282.0	306.0	44.0	848.0	True	True	False	False
+Klebnit	R3	Klebsormidiophyceae_Phragmoplastophyta	True	4	1.0013383	1	0.373305	0.0	96.9	0.7876778999999999	False	mc	mc	True		3783	4956	1909	100								False	False	False	False
+Streptophytina	R3	Klebsormidiophyceae_Phragmoplastophyta	False	4	0.6748516	14	0.0468183	0.14285714285714285	85.94285714285714	0.4201233	False	mc	mc	True		436	2358	3170	435	387.0	155.0	135.0	155.0	163.0	26.0	410.0	True	False	False	False
+Charbra	R3	Streptophytina	True	5	1.0693086	1	0.394457	0.0	78.0	0.7620115999999999	False	mc	mc	True	R3_chara	14611	7139	9889	251		12793.0		12794.0	12851.0	94.0	14517.0	True	True	False	False
+Coleochaetophyceae_Anydrophyta	R3	Streptophytina	False	5	0.6974872	13	0.0226356	0.15384615384615385	86.55384615384615	0.4170926	False	mc	mc	True		275	3201	4805	233	237.0	83.0	67.0	83.0	85.0	11.0	264.0	True	False	False	False
+Colescu	R3	Coleochaetophyceae_Anydrophyta	True	6	1.0424061999999998	1	0.344919	1.0	45.9	0.7356114	False	mc	mc	True		5009	8676	1235	27								False	False	False	False
+Anydrophyta	R3	Coleochaetophyceae_Anydrophyta	False	6	0.7168629	12	0.0193757	0.08333333333333333	89.94166666666666	0.36429469999999997	False	mc	mc	True		217	3092	3304	65	202.0	96.0	93.0	96.0	105.0	7.0	210.0	True	False	False	False
+Embryophyta	R3	Anydrophyta	False	7	0.8226549	8	0.105792	0.0	93.525	0.47008669999999997	False	mc	mc	True	R3_embryophyta	388	3824	4865	123	369.0	259.0	253.0	259.0	267.0	6.0	382.0	True	True	False	False
+Setaphyta	R3	Embryophyta	False	8	0.8645976	2	0.0419427	0.0	99.8	0.3688456	False	mc	mc	True		89	9032	2415	81	82.0	51.0	50.0	51.0	51.0	1.0	88.0	True	False	False	False
+Marcpol	R3	Setaphyta	True	9	1.0881796000000001	1	0.223582	0.0	99.6	0.461975	False	mc	mc	True		5461	4114	3009	134								False	False	False	False
+Physpat	R3	Setaphyta	True	9	1.1029906	1	0.238393	0.0	100.0	0.461975	False	mc	mc	True		8113	2066	9354	98								False	False	False	False
+Tracheophyta	R3	Embryophyta	False	8	0.8522927	6	0.0296378	0.0	91.43333333333334	0.2951625	False	mc	mc	True		164	2400	5832	247	131.0	64.0	53.0	64.0	64.0	3.0	161.0	True	False	False	False
+Selamoe	R3	Tracheophyta	True	9	1.1732307	1	0.320938	0.0	98.0	0.6161005	False	mc	mc	True		3621	9014	13355	154								False	False	False	False
+Euphyllophyta	R3	Tracheophyta	False	9	0.8781257	5	0.025833	0.0	90.12	0.3209955	False	mc	mc	True		167	6207	6189	348	128.0	92.0	72.0	92.0	93.0	1.0	166.0	True	False	False	False
+Ceraric	R3	Euphyllophyta	True	10	1.1542887	1	0.276163	0.0	96.9	0.5475951	False	mc	mc	True		6852	7802	10712	69								False	False	False	False
+Spermatophyta	R3	Euphyllophyta	False	10	0.9712447999999999	4	0.0931191	0.0	88.42499999999998	0.3692821	False	mc	mc	True		210	6840	5881	43	200.0	156.0	152.0	156.0	156.0	4.0	206.0	True	False	False	False
+Ginkbil	R3	Spermatophyta	True	11	1.1495578	1	0.178313	0.0	66.7	0.44884260000000004	False	mc	mc	True		12512	6434	9474	67								False	False	False	False
+Magnoliopsida	R3	Spermatophyta	False	11	1.0708853999999999	3	0.0996406	0.0	95.66666666666667	0.2779536	False	mc	mc	True		208	7731	4606	77	203.0	138.0	137.0	138.0	138.0	5.0	203.0	True	False	False	False
+Ambotri	R3	Magnoliopsida	True	12	1.2417744	1	0.170889	0.0	94.5	0.4301115	False	mc	mc	True		7259	5924	4055	27								False	False	False	False
+Mesangiospermae	R3	Magnoliopsida	False	12	1.1212479	2	0.0503625	0.0	96.25	0.22125150000000002	False	mc	mc	True		79	3992	4234	98	70.0	43.0	38.0	43.0	44.0	2.0	77.0	True	False	False	False
+Arabtha	R3	Mesangiospermae	True	13	1.3301079	1	0.20886	0.0	99.6	0.4301115	False	mc	mc	True		3021	6839	8567	8								False	False	False	False
+Orysat	R3	Mesangiospermae	True	13	1.3501039000000001	1	0.228856	0.0	92.9	0.437716	False	mc	mc	True		7708	3658	10860	81								False	False	False	False
+Zygnematophyceae	R3	Anydrophyta	False	7	0.7591022000000001	4	0.0422393	0.25	82.775	0.40653399999999995	False	uni	mc	False	R3_rev_zygnematophyceae	85	7500	2213	19	81.0	32.0	31.0	32.0	32.0	11.0	74.0	True	True	False	False
+Spirmus	R3	Zygnematophyceae	True	8	1.2741302	1	0.515028	0.0	87.1	0.8935379000000001	False	uni	uni	False		2856	4766	14189	32								False	False	False	False
+Zygnematophycidae	R3	Zygnematophyceae	False	8	0.7809818	3	0.0218796	0.3333333333333333	81.33333333333333	0.42841359999999995	False	uni	uni	False		126	2615	3189	191	85.0	38.0	26.0	38.0	39.0	5.0	121.0	True	False	True	False
+ClosspNIES67	R3	Zygnematophycidae	True	9	1.2234028000000001	1	0.442421	0.0	90.6	0.7990513	False	uni	uni	False		6424	3563	5679	70								False	False	False	False
+Mesotaeniaceae	R3	Zygnematophycidae	False	9	0.8108831	2	0.0299013	0.5	76.69999999999999	0.45831489999999997	False	uni	uni	False		36	4408	1635	8	34.0	17.0	15.0	17.0	17.0	1.0	35.0	True	False	True	False
+Cylibre	R3	Mesotaeniaceae	True	10	1.1742390999999999	1	0.363356	1.0	77.3	0.6900850000000001	False	uni	uni	False		6346	1914	1994	42								False	False	False	False
+Mesoend	R3	Mesotaeniaceae	True	10	1.1376121000000001	1	0.326729	0.0	76.1	0.6900850000000001	False	uni	uni	False		1350	3935	979	8								False	False	False	False
+Mesostigmatophyceae_Chlorokybophyceae	R3	Streptophyta	False	3	0.5979219	2	0.0651457	0.0	89.25	0.5337078	False	uni	uni	False		267	3353	1468	205	250.0	54.0	45.0	54.0	58.0	31.0	236.0	True	False	True	False
+Chloatm	R3	Mesostigmatophyceae_Chlorokybophyceae	True	4	1.0224359	1	0.424514	0.0	91.0	0.955757	False	uni	uni	False		1508	4109	879	30								False	False	False	False
+Mesovir	R3	Mesostigmatophyceae_Chlorokybophyceae	True	4	1.1291649000000001	1	0.531243	0.0	87.5	0.955757	False	uni	uni	False		8857	1299	2044	276								False	False	False	False

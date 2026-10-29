@@ -1,0 +1,54 @@
+branch_child	panel	branch_parent	is_leaf	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	root_child	state_child	state_parent	inside_crown	events	hog_gains	losses	dups	dups_at_origin	supported_gains	seq_novel	seq_novel_supported	seq_novel_tx_sens	seq_novel_genomes_only	split_repaired	gains_after_repair	laddered	is_event	control	tip_control
+Sericyt	R8	Cyanobacteriota_Melainabacteria_group	True	1	0.600401	1	0.600401	0.0	96.0	2.449362	True	uni	uni	False		3747	0	556	0								False	False	False	False
+Melainabacteria_Cyanophyceae	R8	Cyanobacteriota_Melainabacteria_group	False	1	0.600401	35	0.600401	0.0	96.39714285714285	1.200802	True	uni	uni	False		400	0	532	0	400.0	28.0	28.0	28.0	28.0	0.0	400.0	True	False	False	False
+Vampchl	R8	Melainabacteria_Cyanophyceae	True	2	2.129501	1	1.5291	0.0	93.5	2.729902	False	uni	uni	False		992	1508	138	16								False	False	False	False
+Cyanophyceae	R8	Melainabacteria_Cyanophyceae	False	2	1.216323	34	0.615922	0.0	96.48235294117647	1.816724	False	uni	uni	False		1334	156	1743	808	1265.0	431.0	422.0	431.0	431.0	24.0	1310.0	True	False	True	False
+Gloevio	R8	Cyanophyceae	True	3	1.8489609999999999	1	0.632638	0.0	96.0	1.276377	False	uni	uni	False		849	3350	290	12								False	False	False	False
+Cyanophyceae_excl_Gloeobacter	R8	Cyanophyceae	False	3	1.572177	33	0.355854	0.0	96.4969696969697	0.988492	False	uni	uni	False	R8_sens_early_origin	4905	212	1116	265	4901.0	2365.0	2365.0	2365.0	2365.0	14.0	4891.0	True	True	False	False
+Colechth	R8	Cyanophyceae_excl_Gloeobacter	True	4	1.8600619999999999	1	0.287885	0.0	91.1	0.6136694	False	mc	uni	False	R8_coleofasciculus	1234	7542	676	11		872.0		872.0	872.0	23.0	1211.0	True	True	False	False
+Gloelit	R8	Cyanophyceae_excl_Gloeobacter	True	4	2.4262369999999995	1	0.85406	0.0	93.5	1.141945	False	uni	uni	False		250	10071	120	1								False	False	False	False
+Leptbor	R8	Cyanophyceae_excl_Gloeobacter	True	4	1.950458	1	0.378281	0.0	96.0	0.666166	False	mc	uni	False	R8_leptolyngbya	1008	7556	444	11		788.0		788.0	788.0	31.0	977.0	True	True	False	False
+Pseubic	R8	Cyanophyceae_excl_Gloeobacter	True	4	2.25547	1	0.683293	0.0	94.4	0.9711780000000001	False	mc	uni	False	R8_pseudanabaena	542	8880	286	11		391.0		391.0	391.0	20.0	522.0	True	True	False	False
+Spirsub	R8	Cyanophyceae_excl_Gloeobacter	True	4	1.954759	1	0.382582	0.0	97.6	0.6704669999999999	False	mc	uni	False	R8_spirulina	322	8827	184	2		195.0		195.0	195.0	25.0	297.0	True	True	False	False
+Acaryochloridales	R8	Cyanophyceae_excl_Gloeobacter	False	4	1.707663	2	0.135486	0.0	96.4	0.423371	False	uni	uni	False		39	8548	222	14	36.0	10.0	10.0	10.0	10.0	10.0	29.0	True	False	True	False
+Acarmar	R8	Acaryochloridales	True	5	2.0535170000000003	1	0.345854	0.0	98.4	0.769225	False	uni	uni	False		1366	313	1768	71								False	False	False	False
+Therves	R8	Acaryochloridales	True	5	2.2166109999999994	1	0.508948	0.0	94.4	0.854802	False	uni	uni	False		126	2191	110	2								False	False	False	False
+Nostocales_Chroococcidiopsis	R8	Cyanophyceae_excl_Gloeobacter	False	4	1.684288	12	0.112111	0.0	97.13333333333333	0.399996	False	uni	uni	False		292	3718	866	19	289.0	93.0	93.0	93.0	93.0	26.0	266.0	True	False	True	False
+Chroococcidiopsidales	R8	Nostocales_Chroococcidiopsis	False	5	1.7238461	2	0.0395581	0.0	96.80000000000001	0.2681545	False	uni	uni	False		27	4362	287	8	21.0	8.0	8.0	8.0	8.0	4.0	23.0	True	False	True	False
+Alitatl	R8	Chroococcidiopsidales	True	6	1.9103291	1	0.186483	0.0	94.4	0.381906	False	uni	uni	False		329	2134	84	0								False	False	False	False
+Chrothe	R8	Chroococcidiopsidales	True	6	1.9192691	1	0.195423	0.0	99.2	0.381906	False	uni	uni	False		351	912	120	0								False	False	False	False
+Nostocales	R8	Nostocales_Chroococcidiopsis	False	5	1.78849	10	0.104202	0.0	97.19999999999999	0.3302431	False	mc	uni	False	R8_heterocyst	516	684	2436	131	479.0	308.0	299.0	308.0	308.0	15.0	501.0	True	True	False	False
+Calopar	R8	Nostocales	True	6	2.056305	1	0.267815	0.0	95.2	0.39220940000000004	False	mc	mc	True		628	6328	440	0								False	False	False	False
+Cylirac	R8	Nostocales	True	6	2.060885	1	0.272395	0.0	96.8	0.3967894	False	mc	mc	True		218	9463	207	0								False	False	False	False
+Noduspu	R8	Nostocales	True	6	1.938383	1	0.149893	0.0	96.8	0.2742874	False	mc	mc	True		164	8227	101	0								False	False	False	False
+Scythof	R8	Nostocales	True	6	1.9649629999999998	1	0.176473	0.0	98.4	0.3008674	False	mc	mc	True		1002	4692	875	0								False	False	False	False
+Branching_Nostocales	R8	Nostocales	False	6	1.8543066	2	0.0658166	0.0	98.0	0.19021100000000002	False	mc	mc	True	R8_branching	11	6148	280	0	11.0	9.0	9.0	9.0	9.0	0.0	11.0	True	True	False	False
+Chlofri	R8	Branching_Nostocales	True	7	1.9329338	1	0.0786272	0.0	98.4	0.1641078	False	mc	mc	True		397	558	75	0								False	False	False	False
+Fiscthe	R8	Branching_Nostocales	True	7	1.9397871999999998	1	0.0854806	0.0	97.6	0.1641078	False	mc	mc	True		180	2430	23	0								False	False	False	False
+Nostocaceae	R8	Nostocales	False	6	1.8660751999999998	4	0.0775852	0.0	97.2	0.22202900000000003	False	mc	mc	True		150	4338	494	0	150.0	116.0	116.0	116.0	116.0	1.0	149.0	True	False	False	False
+Anabcyl	R8	Nostocaceae	True	7	2.0375932	1	0.171518	0.0	97.6	0.2183272	False	mc	mc	True		306	3553	125	0								False	False	False	False
+Tricvar	R8	Nostocaceae	True	7	1.9128844	1	0.0468092	0.0	96.8	0.0953578259	False	mc	mc	True		137	3432	79	0								False	False	False	False
+Nostoc	R8	Nostocaceae	False	7	1.8660777259	2	2.5259e-06	0.0	97.19999999999999	0.046811725900000004	False	mc	mc	True		11	1424	138	0	11.0	8.0	8.0	8.0	8.0	0.0	11.0	True	False	False	False
+Nostpun	R8	Nostoc	True	8	2.0077697259000002	1	0.141692	0.0	97.6	0.1885037259	False	mc	mc	True		383	1542	162	0								False	False	False	False
+Nostsp103690	R8	Nostoc	True	8	1.9146238259	1	0.0485461	0.0	96.8	0.0953578259	False	mc	mc	True		308	1978	103	0								False	False	False	False
+Oscillatoriophycideae	R8	Cyanophyceae_excl_Gloeobacter	False	4	1.5846263999999999	9	0.0124494	0.0	96.33333333333333	0.3003344	False	uni	uni	False		184	4757	454	38	183.0	35.0	35.0	35.0	35.0	38.0	146.0	True	False	True	False
+Chroococcales	R8	Oscillatoriophycideae	False	5	1.7052083999999998	3	0.120582	0.0	98.13333333333333	0.4209164	False	uni	uni	False		56	2881	596	66	50.0	16.0	15.0	16.0	16.0	11.0	45.0	True	False	True	False
+Micraer	R8	Chroococcales	True	6	2.0069983999999996	1	0.30179	0.0	97.6	0.5280677	False	uni	uni	False		1027	2218	717	19								False	False	False	False
+Aphanothecaceae	R8	Chroococcales	False	6	1.7303881	2	0.0251797	0.0	98.4	0.32696970000000003	False	uni	uni	False		32	1149	788	5	30.0	22.0	22.0	22.0	22.0	1.0	31.0	True	False	True	False
+Crocsub	R8	Aphanothecaceae	True	7	1.9981061	1	0.267718	0.0	99.2	0.468816	False	uni	uni	False		357	1638	109	0								False	False	False	False
+Gloecit	R8	Aphanothecaceae	True	7	1.9314861	1	0.201098	0.0	97.6	0.468816	False	uni	uni	False		415	1152	161	0								False	False	False	False
+Oscillatoriales	R8	Oscillatoriophycideae	False	5	1.7356944	6	0.151068	0.0	95.43333333333332	0.45140240000000004	False	mc	uni	False	R8_oscillatoriales	309	1251	1575	74	277.0	178.0	176.0	178.0	178.0	16.0	293.0	True	True	False	False
+Limnind	R8	Oscillatoriales	True	6	2.0646034	1	0.328909	0.0	97.6	0.491176	False	mc	mc	True		612	5027	475	0								False	False	False	False
+Phornig	R8	Oscillatoriales	True	6	1.8979614	1	0.162267	0.0	97.6	0.3250631933	False	mc	mc	True		465	3861	243	0								False	False	False	False
+Microcoleaceae	R8	Oscillatoriales	False	6	1.7356965933	4	2.1933e-06	0.0	94.35000000000001	0.1622691933	False	mc	mc	True		29	1401	140	0	29.0	16.0	16.0	16.0	16.0	0.0	29.0	True	False	False	False
+Lyngaes	R8	Microcoleaceae	True	7	2.0245815932999998	1	0.288885	0.0	92.7	0.4511541933	False	mc	mc	True		460	3008	275	0								False	False	False	False
+Micrvag	R8	Microcoleaceae	True	7	1.8984905932999998	1	0.162794	0.0	98.4	0.3250631933	False	mc	mc	True		305	3289	196	0								False	False	False	False
+Planaga	R8	Microcoleaceae	True	7	2.0473175933	1	0.311621	0.0	89.5	0.4738901933	False	mc	mc	True		157	4160	101	0								False	False	False	False
+Trichery	R8	Microcoleaceae	True	7	2.0860155933	1	0.350319	0.0	96.8	0.5125881932999999	False	mc	mc	True		453	4147	208	0								False	False	False	False
+Pleurocapsales	R8	Cyanophyceae_excl_Gloeobacter	False	4	1.6914179999999999	3	0.119241	0.0	97.33333333333333	0.407126	False	uni	uni	False		120	6023	575	17	107.0	28.0	28.0	28.0	28.0	19.0	101.0	True	False	True	False
+Hydrriv	R8	Pleurocapsales	True	5	1.911927	1	0.220509	0.0	99.2	0.448508	False	mc	uni	False	R8_hydrococcus	244	3338	118	0		178.0		178.0	178.0	5.0	239.0	True	True	False	False
+Hyelpat	R8	Pleurocapsales	True	5	2.012365	1	0.320947	0.0	96.0	0.5414559999999999	False	mc	uni	False	R8_hyella	1121	1694	276	0		806.0		806.0	806.0	7.0	1114.0	True	True	False	False
+Stancya	R8	Pleurocapsales	True	5	1.919417	1	0.227999	0.0	96.8	0.448508	False	uni	uni	False		277	3080	130	0								False	False	False	False
+Synechococcales	R8	Cyanophyceae_excl_Gloeobacter	False	4	1.6611434999999999	2	0.0889665	0.0	97.19999999999999	0.3768515	False	uni	uni	False		21	9412	48	0	21.0	1.0	1.0	1.0	1.0	12.0	9.0	True	False	True	False
+Syneelo	R8	Synechococcales	True	5	2.1635305000000002	1	0.502387	0.0	96.8	0.8792385	False	uni	uni	False		224	1047	138	1								False	False	False	False
+Synesp1111708	R8	Synechococcales	True	5	2.0996445	1	0.438501	0.0	97.6	0.8153524999999999	False	uni	uni	False		208	396	346	14								False	False	False	False

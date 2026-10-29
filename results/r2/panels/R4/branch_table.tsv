@@ -1,0 +1,34 @@
+branch_child	panel	branch_parent	is_leaf	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	root_child	state_child	state_parent	inside_crown	events	hog_gains	losses	dups	dups_at_origin	supported_gains	seq_novel	seq_novel_supported	seq_novel_tx_sens	seq_novel_genomes_only	split_repaired	gains_after_repair	laddered	is_event	control	tip_control
+Ostrtau	R4	Chlorophyta	True	1	0.668708	1	0.668708	0.0	81.2	1.9340546	True	uni	uni	False		3047	0	127	0		1118		1118	1133	0	3047	True	False	False	True
+core_chlorophytes	R4	Chlorophyta	False	1	0.668708	20	0.668708	0.0	77.435	1.337416	True	uni	uni	False		2854	0	1152	0	2854.0	352	352.0	352	380	0	2854	True	False	False	False
+CS_clade	R4	core_chlorophytes	False	2	0.824565	18	0.155857	0.0	76.08333333333333	0.7524955999999999	False	uni	uni	False		1682	463	2126	943	1589.0	365	340.0	365	373	107	1575	True	False	True	False
+Raphsub	R4	CS_clade	True	3	1.297956	1	0.473391	0.0	83.9	0.985077	False	uni	uni	False		3399	4325	1314	116		2821		2821	2840	62	3337	True	False	False	True
+Chlamydomonadales	R4	CS_clade	False	3	0.951329	17	0.126764	0.0	75.62352941176471	0.600155	False	uni	uni	False		2196	780	3082	722	2131.0	848	824.0	848	860	88	2108	True	False	True	False
+Chlaeus	R4	Chlamydomonadales	True	4	1.3362509999999999	1	0.384922	0.0	90.6	0.7920659999999999	False	uni	uni	False		2344	7896	1470	59		1959		1959	1968	48	2296	True	False	False	True
+Chlapri	R4	Chlamydomonadales	True	4	1.374334	1	0.423005	0.0	75.3	0.8079270000000001	False	uni	uni	False		4433	8590	1861	23		3786		3786	3795	81	4352	True	False	False	True
+Dunasal	R4	Chlamydomonadales	True	4	1.444939	1	0.49361	0.0	59.2	0.878532	False	uni	uni	False		6028	8443	792	50		5540		5540	5543	98	5930	True	False	False	True
+Sangaur	R4	Chlamydomonadales	True	4	1.446546	1	0.495217	0.0	71.4	0.880139	False	uni	uni	False		3109	10115	451	19		2746		2746	2772	69	3040	True	False	False	True
+Reinhardtinia	R4	Chlamydomonadales	False	4	1.231407	13	0.280078	0.0	76.08461538461539	0.665	False	uni	uni	False		1517	5365	2371	131	1508.0	1068	1064.0	1068	1082	92	1425	True	False	True	False
+Edapdeb	R4	Reinhardtinia	True	5	1.358473	1	0.127066	0.0	88.6	0.2782366	False	uni	uni	False		2728	3083	2590	147		1956		1956	1959	35	2693	True	False	False	True
+Chlamydomonas_TGV	R4	Reinhardtinia	False	5	1.2541635	12	0.0227565	0.0	75.04166666666667	0.14982250000000003	False	uni	uni	False		318	1376	1460	51	301.0	145	140.0	145	148	12	306	True	False	True	False
+Chlamydomonas	R4	Chlamydomonas_TGV	False	6	1.3567084999999999	3	0.102545	0.0	89.7	0.244115	False	uni	uni	False		895	2734	2235	123	884.0	692	687.0	692	693	23	872	True	False	True	False
+Chlainc	R4	Chlamydomonas	True	7	1.3826936	1	0.0259851	0.0	85.9	0.0518542	False	uni	uni	False		628	2650	585	0		520		520	521	11	617	True	False	False	True
+Chlarei	R4	Chlamydomonas	True	7	1.3825775999999999	1	0.0258691	0.0	91.8	0.0518542	False	uni	uni	False		1405	2197	714	0		1275		1275	1275	8	1397	True	False	False	True
+Chlasch	R4	Chlamydomonas	True	7	1.3896253	1	0.0329168	0.0	91.4	0.0587859	False	uni	uni	False		546	3150	330	0		442		442	442	6	540	True	False	False	True
+TGV_clade	R4	Chlamydomonas_TGV	False	6	1.2727876999999999	9	0.0186242	0.0	70.15555555555555	0.1470383	False	uni	uni	False	R4_sens_single_origin	114	2533	2460	35	106.0	34	33.0	34	35	12	102	True	True	False	False
+Tetrsoc	R4	TGV_clade	True	7	1.5169297	1	0.244142	0.0	32.2	0.36708779999999996	False	mc	uni	False	R4_tetrabaena	1431	6690	2052	52		1237		1237	1243	35	1396	True	True	False	False
+Gonium_Volvocaceae	R4	TGV_clade	False	7	1.2853445	8	0.0125568	0.0	74.9	0.15959510000000002	False	mc	uni	False	R4_gonium_volvocaceae	125	1884	3336	47	114.0	76	74.0	76	77	6	119	True	True	False	False
+Gonipec	R4	Gonium_Volvocaceae	True	8	1.3957335	1	0.110389	0.0	71.4	0.2414342	False	mc	mc	True		1149	5568	1814	13		993		993	993	13	1136	True	False	False	False
+Astrephomene_Volvocaceae	R4	Gonium_Volvocaceae	False	8	1.2986084999999998	7	0.013264	0.0	75.4	0.123653	False	mc	mc	True		73	2138	1678	35	66.0	49	47.0	49	49	4	69	True	False	False	False
+Astrgub	R4	Astrephomene_Volvocaceae	True	9	1.4171955	1	0.118587	0.0	68.2	0.2363682	False	mc	mc	True	R4_astrephomene	938	6602	830	4		892		892	892	8	930	True	True	False	False
+Volvocaceae	R4	Astrephomene_Volvocaceae	False	9	1.3435339	6	0.0449254	0.0	76.60000000000001	0.1635124	False	mc	mc	True		306	1643	3789	41	297.0	251	249.0	251	253	6	300	True	False	False	False
+Eudosp	R4	Volvocaceae	True	10	1.4347416	1	0.0912077	0.0	69.0	0.1640635	False	mc	mc	True		1781	6424	1820	4		1667		1667	1667	13	1768	True	False	False	False
+Pleosta	R4	Volvocaceae	True	10	1.4163896999999999	1	0.0728558	0.0	85.9	0.161617	False	mc	mc	True	R4_pleodorina	1853	8425	983	7		1621		1621	1656	5	1848	True	True	False	False
+Volvcar	R4	Volvocaceae	True	10	1.4322951	1	0.0887612	0.0	80.0	0.161617	False	mc	mc	True	R4_volvox_carteri	1372	9089	1028	10		1300		1300	1300	13	1359	True	True	False	False
+Yamauni	R4	Volvocaceae	True	10	1.4601278999999998	1	0.116594	0.0	71.0	0.1894498	False	mc	mc	True		1545	7458	1141	3		1491		1491	1491	6	1539	True	False	False	False
+Volvox_africanus_reticuliferus	R4	Volvocaceae	False	10	1.4066668	2	0.0631329	0.0	76.85	0.13598870000000002	False	mc	mc	True	R4_volvox_africanus	119	7703	1035	3	118.0	104	103.0	104	104	4	115	True	True	False	False
+Volvafr	R4	Volvox_africanus_reticuliferus	True	11	1.4402883	1	0.0336215	0.0	79.6	0.0646794	False	mc	mc	True		441	2255	614	0		406		406	406	4	437	True	False	False	False
+Volvret	R4	Volvox_africanus_reticuliferus	True	11	1.4377247	1	0.0310579	0.0	74.1	0.0646794	False	mc	mc	True		1140	2182	299	0		1048		1048	1058	5	1135	True	False	False	False
+Trebouxiophyceae	R4	core_chlorophytes	False	2	0.7595455999999999	2	0.0908376	0.0	89.6	0.7200856	False	uni	uni	False		422	1363	627	199	409.0	44	42.0	44	46	35	387	True	False	True	False
+Chlovul	R4	Trebouxiophyceae	True	3	1.2653466	1	0.505801	0.0	93.3	1.02271	False	uni	uni	False		2201	1102	935	159		1822		1822	1826	33	2168	True	False	False	True
+Coccsub	R4	Trebouxiophyceae	True	3	1.2764545999999999	1	0.516909	0.0	85.9	1.02271	False	uni	uni	False		2158	1747	760	157		1682		1682	1694	25	2133	True	False	False	True

@@ -1,0 +1,41 @@
+{
+ "n_branches": 20,
+ "n_gains": 23351,
+ "n_seq_novel": 15160,
+ "n_split_repaired": 513,
+ "passes": [
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R3/work/ladder/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R3/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R3/work/ladder/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 1645.3,
+   "n_queries": 23351
+  },
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R3/work/ladder/queries_pass2.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R3/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R3/work/ladder/hits_pass2.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 575.3,
+   "n_queries": 7908
+  }
+ ],
+ "sensitivity": "very-sensitive",
+ "n_rep": 3,
+ "db_proteins": 3066075,
+ "db_species": 190,
+ "round1_placed": {
+  "Astrgub": "core_chlorophytes",
+  "BryospKO2023": "core_chlorophytes",
+  "Caullen": "core_chlorophytes",
+  "Chlainc": "core_chlorophytes",
+  "Chlasch": "core_chlorophytes",
+  "Coccsub": "core_chlorophytes",
+  "Dunasal": "core_chlorophytes",
+  "Edapdeb": "core_chlorophytes",
+  "Gonipec": "core_chlorophytes",
+  "Micrcom": "Chlorophyta",
+  "Ostrque": "core_chlorophytes",
+  "Pleosta": "core_chlorophytes",
+  "Raphsub": "core_chlorophytes",
+  "Tetrsoc": "core_chlorophytes",
+  "Ulvamut": "core_chlorophytes",
+  "Volvafr": "core_chlorophytes",
+  "Volvcar": "core_chlorophytes"
+ }
+}

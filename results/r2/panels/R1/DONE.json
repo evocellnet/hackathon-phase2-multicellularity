@@ -1,0 +1,22 @@
+{
+ "status": "done",
+ "finished": "2026-10-29T21:12:47+0100",
+ "md5": {
+  "branch_events.tsv": "7788be90e39e7c22132a3bcaa434670c",
+  "branch_gain_ladder.tsv": "564aa8afa120a435b5870facaf9223a2",
+  "branch_table.tsv": "9c81d916f67947f926ebb0cab565d60f",
+  "event_table.tsv": "eb6a7568d52a1a72254cdaffd6e203c4",
+  "gains_classified.tsv.gz": "4f02e3bc596f026fd346a5403da6ebb1",
+  "gene_domains.tsv.gz": "1c9e2a63e3a350ef29bd26e8741c31ac",
+  "ladder_info.json": "67a214638c81b2dd22f05cfaf830503e",
+  "parse_info.json": "fa8954af6bc59334be56fb5f3acf86ee",
+  "positive_controls.tsv": "6640f8d2d521bb7f16c750d0b7e59512",
+  "round1_placement.tsv": "6be6d4da59d66108e3a8e7ece6ae6dca",
+  "tree_bl.nwk": "69dca88786dd65cd5d48918e9f893590",
+  "tree_bl_info.json": "68965c4220dc0509ed16c2592827e44f",
+  "w3_event_families.tsv": "28eb654c3aa061b7aeff787d83e3777b",
+  "w3_families.tsv.gz": "67a2b7b8b8b186b2d4fe3b2d9f43bf20"
+ },
+ "panel": "R1",
+ "note": "per-panel outputs of scripts/r2/panels/panel.py + w3_panel.py; add-on tip_gain_ladder.tsv (if any) has its own md5 in DONE_tips.json"
+}

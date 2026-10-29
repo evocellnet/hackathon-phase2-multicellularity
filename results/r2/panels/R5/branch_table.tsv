@@ -1,0 +1,32 @@
+branch_child	panel	branch_parent	is_leaf	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	root_child	state_child	state_parent	inside_crown	events	hog_gains	losses	dups	dups_at_origin	supported_gains	seq_novel	seq_novel_supported	seq_novel_tx_sens	seq_novel_genomes_only	split_repaired	gains_after_repair	laddered	is_event	control	tip_control
+Cyanpar	R5	Archaeplastida	True	1	0.443927	1	0.443927	0.0	83.9	1.056959	True	uni	uni	False		16845	947	2243	0								False	False	False	False
+Chlorophyta	R5	Archaeplastida	False	1	0.214099	2	0.214099	0.0	86.5	0.658026	True	uni	uni	False		895	994	681	0	895.0	22.0	22.0	22.0	25.0	20.0	875.0	True	False	False	False
+Chlarei	R5	Chlorophyta	True	2	0.613032	1	0.398933	0.0	91.8	0.9141239999999999	False	uni	uni	False		8991	543	1776	568								False	False	False	False
+Ostrtau	R5	Chlorophyta	True	2	0.72929	1	0.515191	0.0	81.2	0.9141239999999999	False	uni	uni	False		2436	2033	445	56								False	False	False	False
+Rhodophyta_Rhodelphidia	R5	Archaeplastida	False	1	0.0654061	15	0.0654061	0.2	69.12666666666668	0.5093331	True	uni	uni	False		563	614	478	0	563.0	14.0	14.0	14.0	22.0	15.0	548.0	True	False	False	False
+Rhodemar	R5	Rhodophyta_Rhodelphidia	True	2	0.7418901	1	0.676484	1.0	89.0	1.1858171	False	uni	uni	False		7384	1731	1782	463								False	False	False	False
+Rhodophyta	R5	Rhodophyta_Rhodelphidia	False	2	0.2192941	14	0.153888	0.14285714285714285	67.70714285714286	0.6632211	False	uni	uni	False		532	1579	2116	260	506.0	173.0	163.0	173.0	187.0	6.0	526.0	True	False	True	False
+Cyanidiophyceae	R5	Rhodophyta	False	3	0.2922226	3	0.0729285	0.0	77.0	0.5841516	False	uni	uni	False		67	3056	227	1	67.0	11.0	11.0	11.0	15.0	7.0	60.0	True	False	True	False
+Cyanmer	R5	Cyanidiophyceae	True	4	1.0851296	1	0.792907	0.0	72.9	1.2684662	False	uni	uni	False		911	1408	243	4								False	False	False	False
+Galdieria	R5	Cyanidiophyceae	False	4	0.7063016	2	0.414079	0.0	79.05	0.9982306	False	uni	uni	False		775	482	853	12	774.0	664.0	663.0	664.0	675.0	2.0	773.0	True	False	True	False
+Galdsul	R5	Galdieria	True	5	0.7820084	1	0.0757068	0.0	77.3	0.137187	False	uni	uni	False		492	487	184	0								False	False	False	False
+Galdyel	R5	Galdieria	True	5	0.7677818	1	0.0614802	0.0	80.8	0.137187	False	uni	uni	False		206	361	651	0								False	False	False	False
+Rhodophytina	R5	Rhodophyta	False	3	0.2892078	11	0.0699137	0.18181818181818182	65.17272727272727	0.6184013999999999	False	uni	uni	False	R5_sens_rhodophytina	460	472	1137	89	454.0	175.0	173.0	175.0	192.0	2.0	458.0	True	True	False	False
+Eurhodophytina	R5	Rhodophytina	False	4	0.3703982	7	0.0811904	0.0	65.27142857142857	0.5314532999999999	False	mc	uni	False	R5_eurhodophytina	217	1930	1081	166	207.0	96.0	89.0	96.0	103.0	7.0	210.0	True	True	False	False
+Bangiaceae	R5	Eurhodophytina	False	5	0.7471452000000001	3	0.376747	0.0	51.76666666666667	0.736866	False	mc	mc	True		906	1996	1908	84	903.0	784.0	781.0	784.0	797.0	9.0	897.0	True	False	False	False
+Porpumb	R5	Bangiaceae	True	6	0.8184199	1	0.0712747	0.0	43.9	0.1305728	False	mc	mc	True		4769	2394	1118	20								False	False	False	False
+Pyropia	R5	Bangiaceae	False	6	0.7826325000000001	2	0.0354873	0.0	55.7	0.106762	False	mc	mc	True		619	1059	1279	42	613.0	533.0	532.0	533.0	533.0	2.0	617.0	True	False	False	False
+Pyrovie	R5	Pyropia	True	7	0.8218048	1	0.0391723	0.0	61.2	0.0629831	False	mc	mc	True		1026	2367	622	0								False	False	False	False
+Pyroyez	R5	Pyropia	True	7	0.8064433	1	0.0238108	0.0	50.2	0.0629831	False	mc	mc	True		3094	1247	519	0								False	False	False	False
+Rhodymeniophycidae	R5	Eurhodophytina	False	5	0.6058312	4	0.235433	0.0	75.39999999999999	0.6714781000000001	False	mc	mc	True	R5_florideophyceae	917	1619	1591	52	913.0	709.0	706.0	709.0	729.0	13.0	904.0	True	True	False	False
+Choncri	R5	Rhodymeniophycidae	True	6	0.7530812	1	0.14725	0.0	63.1	0.271936	False	mc	mc	True		2716	4072	662	1								False	False	False	False
+Delipul	R5	Rhodymeniophycidae	True	6	0.7305172000000001	1	0.124686	0.0	80.0	0.271936	False	mc	mc	True		1975	1640	1414	32								False	False	False	False
+Gracilariaceae	R5	Rhodymeniophycidae	False	6	0.7518052000000001	2	0.145974	0.0	79.25	0.27066	False	mc	mc	True		298	2141	696	15	297.0	239.0	238.0	239.0	240.0	3.0	295.0	True	False	False	False
+Agarchi	R5	Gracilariaceae	True	7	0.8490895	1	0.0972843	0.0	77.3	0.18369259999999998	False	mc	mc	True		500	1634	397	10								False	False	False	False
+Graccho	R5	Gracilariaceae	True	7	0.8382135	1	0.0864083	0.0	81.2	0.18369259999999998	False	mc	mc	True		1441	621	1049	76								False	False	False	False
+Proteorhodophytina	R5	Rhodophytina	False	4	0.31698269999999995	4	0.0277749	0.5	65.0	0.4690843	False	uni	uni	False		146	1755	650	29	146.0	37.0	37.0	37.0	39.0	4.0	142.0	True	False	True	False
+Compcae	R5	Proteorhodophytina	True	5	0.7506467	1	0.433664	1.0	48.2	0.856152	False	mc	uni	False	R5_compsopogon	2252	4437	441	20		2094.0		2094.0	2114.0	9.0	2243.0	True	True	False	False
+Porppur	R5	Proteorhodophytina	True	5	0.8306217	1	0.513639	0.0	71.8	0.9361269999999999	False	uni	uni	False		2291	1846	921	30								False	False	False	False
+Stylonemataceae	R5	Proteorhodophytina	False	5	0.5595657	2	0.242583	0.5	70.0	0.676247	False	uni	uni	False		467	2241	729	14	465.0	344.0	343.0	344.0	351.0	10.0	457.0	True	False	True	False
+Bangsp	R5	Stylonemataceae	True	6	0.7394707	1	0.179905	1.0	56.1	0.389201	False	mc	uni	False	R5_bangiopsis	1800	1495	311	15		1688.0		1688.0	1693.0	2.0	1798.0	True	True	False	False
+Rhodmar	R5	Stylonemataceae	True	6	0.7688617000000001	1	0.209296	0.0	83.9	0.389201	False	uni	uni	False		1164	635	601	3								False	False	False	False

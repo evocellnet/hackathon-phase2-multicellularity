@@ -1,0 +1,2 @@
+panel	control	ancestra_event_control	round1_recovered	panel_recovered	observed	components	notes	aliases
+R8	P1	False	yes	yes	2/3 Pfams pass; PF18460: filamentous 0.86 (n=22), unicellular 0.00 (n=14) -> pass; PF28069: heterocystous 1.00 (n=10), unicellular 0.29 (n=14) -> fail; PF24301: filamentous 0.86 (n=22), unicellular 0.00 (n=14) -> pass			

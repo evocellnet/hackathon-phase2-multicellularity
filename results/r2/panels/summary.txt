@@ -1,0 +1,136 @@
+ROUND 2, WORKSTREAMS W2/W3: SEQUENCE NOVELTY AT EVENTS IN EIGHT DENSE PANELS
+Written 2026-10-29 21:20 CET; R4_curated sensitivity added 22:03. Main result tag: results/r2/panels/pooled/final_8panels/. Definitions: METHODS_DEFINITIONS.txt,
+fixed before any novelty count existed. Deviations, with what had been seen at each point: DEVIATIONS.txt (D-P1 to D-P10).
+P1 event mapping: p1_mapping.txt.
+
+WHAT WAS DONE
+Eight Ancestra 'fast' panels were analysed with the round-1 code. The panels are R1 Holozoa, R2 Fungi, R3 Streptophyta,
+R4 Volvocales, R5 Rhodophyta, R6 stramenopiles/Phaeophyceae, R7 Amoebozoa and R8 Cyanobacteria (18 to 40 proteomes each).
+For each panel:
+(1) Per-branch HOG gains, losses and duplications were counted with mcell.hogs. The conservation law held on every branch.
+(2) Branch lengths were estimated on the fixed panel topology. Input: 146-150 near-single-copy root HOGs per panel,
+    aligned with MAFFT and trimmed with trimAl (36-58 k sites), fitted with IQ-TREE LG+G4.
+(3) The sequence-novelty ladder was run with round-1 DIAMOND settings (very-sensitive, e 1e-5, query cover 30 %, up to 3
+    representatives per family, two passes). The search database held the panel proteomes plus every round-1 proteome not in
+    the panel: 187 eukaryotic proteomes, or 82 prokaryotic for R8. Round-1 species that fall inside a panel clade were placed
+    on the panel tree for the clade filter (round1_placement.tsv).
+(4) Event and branch tables were built (per-panel event_table.tsv and branch_table.tsv).
+(5) Round-1 positive controls were re-scored on each panel (positive_controls.tsv).
+(6) W3: Pfam domains were collected for the families gained or duplicated on events. New species were annotated with
+    pyhmmer (Pfam-A 38.2, gathering cutoffs).
+Then one pooled NB GLM was fitted on 55 internal, non-crown control branches from all panels (5-9 per panel). It has a
+separate intercept per panel and shared slopes for log branch length, log number of descendants, transcriptome fraction,
+mean BUSCO and log distance to the nearest outgroup. The NB fit converged (alpha 0.48). Every slope was positive; four of
+the five were larger than 1.96 standard errors.
+
+Sequence-novel gains per panel (internal branches plus laddered tips), as share of Ancestra HOG gains:
+  R1 27,456 of 40,529 (0.68)   R2 21,917 of 27,431 (0.80)   R3 15,160 of 23,351 (0.65)   R4 40,350 of 54,297 (0.74, all tips)
+  R5 7,583 of 10,914 (0.69)    R6 100,206 of 132,860 (0.75, all tips)   R7 7,726 of 18,940 (0.41)   R8 6,902 of 12,907 (0.53)
+
+CONFIRMATORY TEST R2-P1 (pre-registered; one-sided; Holm over P1-P3 is applied by the coordinator)
+Question: do the four unseen simple->complex events carry more sequence-novel families than matched in-panel controls?
+Per-event permutation p-values, with the number of matched controls in brackets:
+  Astrephomene (tip)                       p = 0.143 [6]    rate ratio (RR) 13.2 (95 % CI 2.6-66)
+  Volvox carteri (tip)                     p = 0.143 [6]    RR 14.2 (2.8-73)
+  Volvox africanus/reticuliferus (node)    p = 0.571 [6]    RR 1.19 (0.23-6.2)
+  Fucophycidae stem                        p = 0.167 [5]    RR 1.84 (0.30-11.2)
+Stouffer Z = 1.46, combined one-sided p = 0.072. This is NOT significant at alpha = 0.05 before Holm, and so not after it.
+Pooled RR (REML, modified Hartung-Knapp, q* = max(1, q)): 4.63 (95 % CI 0.58-37.0), tau^2 = 0.97, I^2 = 0.57.
+95 % prediction interval: 0.03-752.
+The minimum attainable per-event p is 1/6 or 1/7, because each panel has only 5-6 controls.
+Depth matching was not achievable. The P1 events lie at depth 7-10, while every control in R4 and R6 lies at depth 2-6. Every
+matched set therefore had to be widened to all controls of the panel (SMD of depth, event vs matched controls, 3.3-5.0).
+Interpretation: there is no confirmatory evidence. The pooled point estimate is driven by the two tip events.
+
+Sensitivities for P1 (exploratory)
+- Pleodorina added (k = 5): RR 5.81 (1.26-26.7). This rests on three tips; see the tip caveat below.
+- Tip events compared with unicellular-state tip controls of R4/R6 (D-P1; 23 tip controls; NB GLM on tips):
+    Astrephomene RR 0.56 (p 0.85), V. carteri RR 0.80 (p 0.54), Pleodorina RR 1.60 (p 0.31).
+  P1 recomputed with these tip comparisons: Stouffer p = 0.57; pooled RR 0.80 (0.32-2.0).
+  The large primary RRs of the tip events come from comparing tips with internal branches, not from the transition.
+- R4_curated (pooled/sens_R4curated: R4 without the two AUGUSTUS proteomes, Eudorina and Yamagishiella).
+  Per-event p: 0.143, 0.143, 0.286 (V. africanus, previously 0.571), 0.167.
+  Stouffer one-sided p = 0.033; pooled RR 4.84 (0.66-35.7).
+  With tip controls: Stouffer p = 0.32; pooled RR 0.84 (0.33-2.1).
+  Removing two Volvocaceae relatives removes close outside proteomes, which raises the novelty of the V. africanus clade
+  (RR 1.37 vs 1.19). This shows how sensitive the statistic is to sampling density. It does not change the conclusion,
+  and the pre-declared primary result stays final_8panels (p = 0.072).
+
+SECONDARY AND EXPLORATORY ESTIMATES (not confirmatory)
+- All 15 nested simple->complex events in R2-R6 and R8, seen and unseen: RR 11.2 (4.3-28.9), tau^2 = 2.2, PI 0.39-323.
+  One effect per panel (k = 6): RR 10.3 (5.3-19.7).
+  T-only coding (k = 10, with the corrected rule D-P5): RR 13.9 (3.4-57).
+  All three are dominated by the 8 tip events, which have primary RR 41 (15-115).
+  The same tip artefact affects tip ORIGINS (RR 19) and tip REVERSALS to unicellularity (RR 21), so it is not specific to
+  complex multicellularity (event_class_comparators.tsv; post hoc, D-P10).
+- Internal branches only, which is the interpretable comparison:
+    simple->complex  k = 7   RR 2.70 (1.29-5.63), tau^2 = 0
+        (Pezizomycotina 3.9, Agaricomycetes 2.1, Embryophyta 1.9, V. africanus 1.2, Florideophyceae 3.4,
+         Fucophycidae 1.8, heterocystous Nostocales 6.9)
+    origins (uni->simple/complex)  k = 12  RR 0.84 (0.41-1.71)
+    reversals  k = 2  RR 0.63
+  The internal simple->complex estimate exceeds 1. Its point estimate is above the round-1 'burst' threshold of 2.2
+  (Dev-4: stems are gain-inflated 1.7-2.2x in calibration), but its CI reaches 1.3, so it does not clear that threshold.
+  Three of the seven events (Pezizomycotina, Embryophyta, Florideophyceae) were already seen in round 1.
+- Tip events against tip controls (R4, R6 only): simple->complex RR 0.99 (0.47-2.1), reversals RR 1.16 (0.50-2.7).
+- Depth imbalance overall: SMD of depth, all events vs controls, = 1.15. Controls sit shallower in every panel.
+
+POSITIVE CONTROLS RE-SCORED ON PANELS (positive_controls.tsv)
+14 of 18 panel scorings recovered.
+- C07 (T-box at Holozoa, loss on the Choanoflagellata stem, duplication on the Metazoa stem; failed in round 1) is RECOVERED
+  in the dense R1 panel. Dense sampling fixes this deep-node duplication/loss placement.
+- C03 (cadherin cytoplasmic domain gained on the Metazoa stem) still fails: no PF01049 HOG has its origin on the stem.
+- C06 (integrin beta) still fails. The family is present with Thecamonas and is lost on the Holomycota stem (R1 has no
+  'Fungi' node; alias recorded), but it is not lost on the Choanoflagellata stem.
+- C08 still fails.
+- C10 (GRAS gained on the Anydrophyta stem; recovered in round 1) FAILS on R3: no gain is placed on that stem.
+- C11, C13, C14, C16, the C09 pairs and prokaryotic P1 are recovered. C12 fails, as in round 1.
+
+W3: WHAT IS GAINED AND DUPLICATED AT SIMPLE->COMPLEX EVENTS (pooled/final_8panels/w3/; per event: <R>/w3_event_families.tsv)
+- Recurrence test over the 7 internal events, with matched internal controls as the null (5 seeds x 200 draws).
+  Domains found in 2 or more events, counting sequence-novel and duplicated families together: 1,556 observed vs 1,057
+  expected (p = 0.03). The excess comes from duplications (p = 0.02). Sequence-novel families alone show no excess:
+  37 observed vs 54 expected (p = 0.76).
+  After size adjustment (at most 50 annotated units per branch, rarefied; D-P8) no excess remains (p = 0.77, 0.86, 0.75).
+  Events carry more duplicated families than controls, and that alone produces the apparent recurrence.
+  The top 'recurrent' domains are large generic families: peptidyl-prolyl isomerase, subtilase, FAD-binding monooxygenase,
+  NUDIX, EF-Tu, SNF2, P450, ABC transporters. They are not a toolkit.
+- The only sequence-novel domain found in 5 or more events is the protein kinase domain (Pkinase in novel families of 5 of
+  7 internal events, p = 0.023, q = 0.06). This is suggestive only.
+- Event-specific signals that make biological sense:
+    Volvocine events: all four (both Volvox events, Astrephomene, Pleodorina) carry pherophorin-like DUF3707
+      (PF12499; the C12 family) and kinases. Both Volvox events add the volvocine matrix metalloprotease Peptidase_M11,
+      and three of the four add guanylate cyclases. These are extracellular-matrix and signalling families known from
+      the Volvox genome.
+    Embryophyta: kinase/LRR receptor and F-box families.
+    Florideophyceae: C2H2 and bZIP transcription factors.
+    Fucophycidae: kinases, WD40, ankyrin and TPR families. It also has the largest duplication count of any event
+      (5,924 events).
+    Heterocystous Nostocales: two-component systems (response regulator, HisKA, HATPase, GAF), pentapeptide repeats and
+      Uma2. These fit heterocyst signalling.
+    Pezizomycotina and Agaricomycetes: MFS transporters, Zn2Cys6 transcription factors, short-chain dehydrogenases and
+      CBM1. These are saprotrophic and secondary-metabolism families.
+- Most sequence-novel families have no Pfam domain (for example Volvox carteri: 18 of 1,300; Fucophycidae: 63 of 493).
+  Domain-level W3 statements therefore describe a small, annotatable minority.
+
+FIGURES (pooled/final_8panels/figures/, PNG and PDF)
+- tree_<R>: the panel tree with branch lengths, sequence-novel counts per branch and coloured event branches.
+- forest_event_rate_ratios: all events, P1 in orange, tips drawn hollow, plus the pooled diamonds.
+- heatmap_recurrent_domains: the 40 domains with the highest recurrence across simple->complex events.
+
+CAVEATS
+1. Controls are few (5-9 per panel). Most of each panel lies inside multicellular crowns, which the pre-registration
+   excludes from the controls. Per-event p-values are coarse as a result.
+2. Events are systematically deeper than controls (SMD 1.15; 3-5 for the P1 events), and the residual model cannot remove
+   this. The 'burst' reading also has to beat the known stem gain inflation (2.2x rule).
+3. Tip events are not comparable with internal controls: species-specific orphans inflate their counts. Use the tip-control
+   or internal-only estimates instead. Tip controls exist so far only for R4 and R6. Add-on tip ladders for the other panels
+   were queued (D-P6) and can be pooled with pooled.py under a new tag.
+4. Novelty is judged against eukaryotic proteomes only (prokaryotic for R8), unlike round 1 (D-P3). Transcriptome species
+   (R1 has 10, R7 has 9) and low-BUSCO genomes raise the novelty counts; both are model covariates, but only
+   approximately.
+5. The R7 Amoebozoa panel has no simple->complex event and contributes controls only.
+6. One very low-occupancy taxon in the supermatrices (R2 Allomyces, 7 % of sites; R3 Spirogloea, 4 %) makes those terminal
+   lengths less reliable.
+7. The pooled GLM was fitted once on all panels (final_8panels). interim_5panels is superseded.
+8. R3 Chara's novel families are dominated by zf-CCHC retrotransposon-like proteins. These are not in the transposon mask.

@@ -1,0 +1,21 @@
+{
+ "status": "done",
+ "finished": "2026-10-29T21:06:33+0100",
+ "md5": {
+  "branch_residuals.tsv": "c5cae39a4654f41cdabb3b4e1ea8e4d6",
+  "p1_and_meta.json": "90a5da1a49f5c6ccd04ce1b6cc785413",
+  "glm_coefficients.tsv": "e9b3f79219f0a14456305b488a3bd766",
+  "glm_coefficients_tipcontrols.tsv": "72ec9466b0605312194ad01dd64eb807",
+  "event_residuals.tsv": "3f02b5d133314ff4c8f08065f1e1fafd"
+ },
+ "panels": [
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8"
+ ]
+}

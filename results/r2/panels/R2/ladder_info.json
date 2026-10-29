@@ -1,0 +1,59 @@
+{
+ "n_branches": 43,
+ "n_gains": 27431,
+ "n_seq_novel": 21917,
+ "n_split_repaired": 141,
+ "passes": [
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R2/work/ladder/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R2/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R2/work/ladder/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 1582.2,
+   "n_queries": 27431
+  },
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R2/work/ladder/queries_pass2.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R2/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R2/work/ladder/hits_pass2.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 514.1,
+   "n_queries": 8233
+  }
+ ],
+ "sensitivity": "very-sensitive",
+ "n_rep": 3,
+ "db_proteins": 3066352,
+ "db_species": 195,
+ "round1_placed": {
+  "Acanspe": "Opisthokonta",
+  "Amoepar": "Opisthokonta",
+  "Amphque": "Opisthokonta",
+  "Barrmon": "Opisthokonta",
+  "Branbel": "Opisthokonta",
+  "Caenele": "Opisthokonta",
+  "Capitel": "Opisthokonta",
+  "Choafle": "Opisthokonta",
+  "Chroper": "Opisthokonta",
+  "Codohol": "Opisthokonta",
+  "Coralim": "Opisthokonta",
+  "Creofra": "Opisthokonta",
+  "Didycos": "Opisthokonta",
+  "Drosmel": "Opisthokonta",
+  "Ephymue": "Opisthokonta",
+  "Hoilhon": "Opisthokonta",
+  "Homosap": "Opisthokonta",
+  "Hydrvul": "Opisthokonta",
+  "Laccbic": "Agaricales",
+  "Minivib": "Opisthokonta",
+  "Mnemlei": "Opisthokonta",
+  "Monobre": "Opisthokonta",
+  "Mucolus": "Mucoromycota",
+  "Mylnflu": "Opisthokonta",
+  "Nemavec": "Opisthokonta",
+  "Oscapea": "Opisthokonta",
+  "Paratri": "Fungi",
+  "Pigochi": "Opisthokonta",
+  "Pirofin": "chytridiomyceta",
+  "Salpros": "Opisthokonta",
+  "Sphaarc": "Opisthokonta",
+  "Stropur": "Opisthokonta",
+  "Sycocil": "Opisthokonta",
+  "Syssmul": "Opisthokonta",
+  "Tricadh": "Opisthokonta"
+ }
+}

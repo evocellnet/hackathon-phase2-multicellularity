@@ -1,0 +1,10 @@
+event_class	branch	model	k	RR	RR_low	RR_high	tau2	events
+origin	internal	primary (internal controls)	12	0.8348070086251472	0.40658605128724945	1.7140350473000145	0.6396566524061812	R1_metazoa;R1_salpingoeca;R1_choanoeca;R1_teretosporea;R2_hyphae;R3_streptophyte_filaments;R4_gonium_volvocaceae;R5_eurhodophytina;R6_px_filaments;R7_dictyostelia;R7_myxogastria;R8_oscillatoriales
+origin	tip	primary (internal controls)	15	18.9921181799553	11.825238403268752	30.502603047874548	0.04620021867866922	R1_barroeca;R1_codosiga;R1_capsaspora;R2_gonapodya;R2_fonticula;R4_tetrabaena;R5_bangiopsis;R5_compsopogon;R7_copromyxa;R8_leptolyngbya;R8_pseudanabaena;R8_coleofasciculus;R8_spirulina;R8_hyella;R8_hydrococcus
+origin	tip	tip controls (sensitivity)	1	0.30334726513179	0.07813184951318526	1.1777471522340914		R4_tetrabaena
+reversal	internal	primary (internal controls)	2	0.6302906834436258	0.0006270911293332334	633.5065623687482	0.0	R2_rev_saccharomycotina;R3_rev_zygnematophyceae
+reversal	tip	primary (internal controls)	9	20.726647429081165	10.74673147665228	39.97437868274157	0.0	R2_rev_schizosaccharomyces;R2_rev_saitoella;R2_rev_cryptococcus;R2_rev_rhodotorula;R2_rev_serendipita;R6_rev_ectocarpus;R6_rev_pylaiella;R6_rev_chordaria;R6_rev_chrysoparadoxa
+reversal	tip	tip controls (sensitivity)	4	1.1640878724224477	0.49455169331067705	2.740058507634606	0.0620107628392978	R6_rev_ectocarpus;R6_rev_pylaiella;R6_rev_chordaria;R6_rev_chrysoparadoxa
+simple->complex	internal	primary (internal controls)	7	2.697594928075232	1.2920375531463646	5.632203474470419	0.0	R2_pezizomycotina;R2_agaricomycetes;R3_embryophyta;R4_volvox_africanus;R5_florideophyceae;R6_fucophycidae;R8_heterocyst
+simple->complex	tip	primary (internal controls)	8	40.78673260244335	14.505535358157259	114.68432672825861	0.8194030463624294	R2_neolecta;R2_tremella;R2_endogone;R3_chara;R4_astrephomene;R4_pleodorina;R4_volvox_carteri;R6_dictyota
+simple->complex	tip	tip controls (sensitivity)	4	0.9875204013301281	0.46918283477806505	2.0785000446670416	0.0056979921657956635	R4_astrephomene;R4_pleodorina;R4_volvox_carteri;R6_dictyota

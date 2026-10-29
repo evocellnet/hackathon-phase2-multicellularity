@@ -1,0 +1,62 @@
+{
+ "n_branches": 30,
+ "n_gains": 40529,
+ "n_seq_novel": 27456,
+ "n_split_repaired": 379,
+ "passes": [
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R1/work/ladder/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R1/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R1/work/ladder/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 2090.9,
+   "n_queries": 40529
+  },
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R1/work/ladder/queries_pass2.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R1/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R1/work/ladder/hits_pass2.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 1019.8,
+   "n_queries": 17245
+  }
+ ],
+ "sensitivity": "very-sensitive",
+ "n_rep": 3,
+ "db_proteins": 3088578,
+ "db_species": 194,
+ "round1_placed": {
+  "Allomac": "Holomycota",
+  "Aspenid": "Holomycota",
+  "Basimer": "Holomycota",
+  "Batrden": "Holomycota",
+  "Botrcin": "Holomycota",
+  "Caenele": "Bilateria",
+  "Capitel": "Bilateria",
+  "Coemumb": "Holomycota",
+  "Coprcin": "Holomycota",
+  "Crypneo": "Holomycota",
+  "Dacrpri": "Holomycota",
+  "Ephymue": "Porifera",
+  "Gonapro": "Holomycota",
+  "Laccbic": "Holomycota",
+  "Liposta": "Holomycota",
+  "Morthyg": "Holomycota",
+  "Mucolus": "Holomycota",
+  "Neolirr": "Holomycota",
+  "Neurcra": "Holomycota",
+  "Oscapea": "Porifera",
+  "Paratri": "Holomycota",
+  "Parvatl": "Holomycota",
+  "Pirofin": "Holomycota",
+  "Pyroomp": "Holomycota",
+  "Rhizmic": "Holomycota",
+  "Rhodtor": "Holomycota",
+  "Rozeall": "Holomycota",
+  "Sacccer": "Holomycota",
+  "Saitcom": "Holomycota",
+  "Schicom": "Holomycota",
+  "Schipom": "Holomycota",
+  "Stropur": "Bilateria",
+  "Taphdef": "Holomycota",
+  "Tremmes": "Holomycota",
+  "Ustimay": "Holomycota",
+  "Wallmel": "Holomycota",
+  "Yarrlip": "Holomycota",
+  "Zymobre": "Holomycota"
+ }
+}

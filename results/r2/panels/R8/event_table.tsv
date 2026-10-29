@@ -1,0 +1,11 @@
+panel	event_id	kind	from_state	to_state	confidence	M	M_is_tip	P	P_is_parent	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	hog_gains	supported_gains	seq_novel	seq_novel_supported	dups	losses	n_controls_panel	smd_depth_all_events_vs_controls	smd_root_dist_all_events_vs_controls
+R8	R8_heterocyst	nested	simple	complex	clear	Nostocales	0	Nostocales_Chroococcidiopsis	True	5	1.78849	10	0.104202	0.0	97.19999999999999	0.3302431	516	479.0	308.0	299.0	2436	684	9	0.2837521769195827	1.4874485023467607
+R8	R8_branching	T_event	complex	complex	grey	Branching_Nostocales	0	Nostocales	True	6	1.8543066	2	0.0658166	0.0	98.0	0.19021100000000002	11	11.0	9.0	9.0	280	6148	9	0.2837521769195827	1.4874485023467607
+R8	R8_oscillatoriales	origin	unicellular	simple	grey	Oscillatoriales	0	Oscillatoriophycideae	True	5	1.7356944	6	0.151068	0.0	95.43333333333332	0.45140240000000004	309	277.0	178.0	176.0	1575	1251	9	0.2837521769195827	1.4874485023467607
+R8	R8_leptolyngbya	origin	unicellular	simple	grey	Leptbor	1	Cyanophyceae_excl_Gloeobacter	True	4	1.950458	1	0.378281	0.0	96.0	0.666166	1008		788.0		444	7556	9	0.2837521769195827	1.4874485023467607
+R8	R8_pseudanabaena	origin	unicellular	simple	grey	Pseubic	1	Cyanophyceae_excl_Gloeobacter	True	4	2.25547	1	0.683293	0.0	94.4	0.9711780000000001	542		391.0		286	8880	9	0.2837521769195827	1.4874485023467607
+R8	R8_coleofasciculus	origin	unicellular	simple	grey	Colechth	1	Cyanophyceae_excl_Gloeobacter	True	4	1.8600619999999999	1	0.287885	0.0	91.1	0.6136694	1234		872.0		676	7542	9	0.2837521769195827	1.4874485023467607
+R8	R8_spirulina	origin	unicellular	simple	grey	Spirsub	1	Cyanophyceae_excl_Gloeobacter	True	4	1.954759	1	0.382582	0.0	97.6	0.6704669999999999	322		195.0		184	8827	9	0.2837521769195827	1.4874485023467607
+R8	R8_hyella	origin	unicellular	simple	grey	Hyelpat	1	Pleurocapsales	True	5	2.012365	1	0.320947	0.0	96.0	0.5414559999999999	1121		806.0		276	1694	9	0.2837521769195827	1.4874485023467607
+R8	R8_hydrococcus	origin	unicellular	simple	grey	Hydrriv	1	Pleurocapsales	True	5	1.911927	1	0.220509	0.0	99.2	0.448508	244		178.0		118	3338	9	0.2837521769195827	1.4874485023467607
+R8	R8_sens_early_origin	sensitivity	unicellular	simple	grey	Cyanophyceae_excl_Gloeobacter	0	Cyanophyceae	True	3	1.572177	33	0.355854	0.0	96.4969696969697	0.988492	4905	4901.0	2365.0	2365.0	1116	212	9	0.2837521769195827	1.4874485023467607

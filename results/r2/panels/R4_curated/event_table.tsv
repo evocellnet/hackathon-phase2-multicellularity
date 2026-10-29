@@ -1,0 +1,8 @@
+panel	event_id	kind	from_state	to_state	confidence	M	M_is_tip	P	P_is_parent	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	hog_gains	supported_gains	seq_novel	seq_novel_supported	dups	losses	n_controls_panel	smd_depth_all_events_vs_controls	smd_root_dist_all_events_vs_controls
+R4_curated	R4_tetrabaena	origin	unicellular	simple	clear	Tetrsoc	1	TGV_clade	True	7	1.3484472	1	0.204707	0.0	32.2	0.3237101	1461		1272		2197	5683	6	2.840954948635681	1.7576250392395585
+R4_curated	R4_gonium_volvocaceae	origin	unicellular	simple	clear	Gonium_Volvocaceae	0	TGV_clade	True	7	1.1568673	6	0.0131271	0.0	76.53333333333335	0.15178289999999997	99	93.0	52	52.0	3012	1988	6	2.840954948635681	1.7576250392395585
+R4_curated	R4_sens_single_origin	sensitivity	unicellular	simple	grey	TGV_clade	0	Chlamydomonas_TGV	True	6	1.1437401999999999	7	0.0152762	0.0	70.20000000000002	0.1386558	113	103.0	34	32.0	2018	2629	6	2.840954948635681	1.7576250392395585
+R4_curated	R4_astrephomene	nested	simple	complex	clear	Astrgub	1	Astrephomene_Volvocaceae	True	9	1.2817095	1	0.109372	0.0	68.2	0.2204029	998		955		977	4356	6	2.840954948635681	1.7576250392395585
+R4_curated	R4_pleodorina	nested	simple	complex	grey	Pleosta	1	Volvocaceae	True	10	1.2833684	1	0.0668471	0.0	85.9	0.1485274	2002		1768		913	4369	6	2.840954948635681	1.7576250392395585
+R4_curated	R4_volvox_carteri	nested	simple	complex	clear	Volvcar	1	Volvocaceae	True	10	1.2982016	1	0.0816803	0.0	80.0	0.1485274	1411		1335		1105	5058	6	2.840954948635681	1.7576250392395585
+R4_curated	R4_volvox_africanus	nested	simple	complex	clear	Volvox_africanus_reticuliferus	0	Volvocaceae	True	10	1.2693629	2	0.0528416	0.0	76.85	0.11968870000000001	134	132.0	117	116.0	1151	3736	6	2.840954948635681	1.7576250392395585

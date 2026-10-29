@@ -1,0 +1,5 @@
+panel	event_id	kind	from_state	to_state	confidence	M	M_is_tip	P	P_is_parent	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	hog_gains	supported_gains	seq_novel	seq_novel_supported	dups	losses	n_controls_panel	smd_depth_all_events_vs_controls	smd_root_dist_all_events_vs_controls
+R3	R3_streptophyte_filaments	origin	unicellular	simple	clear	Klebsormidiophyceae_Phragmoplastophyta	0	Streptophyta	True	3	0.6280333	15	0.0952571	0.13333333333333333	86.67333333333332	0.5849168	892	822.0	282.0	260.0	2966	1700	6	0.38395331411533284	1.0984876975308566
+R3	R3_embryophyta	nested	simple	complex	clear	Embryophyta	0	Anydrophyta	True	7	0.8226549	8	0.105792	0.0	93.525	0.47008669999999997	388	369.0	259.0	253.0	4865	3824	6	0.38395331411533284	1.0984876975308566
+R3	R3_chara	nested	simple	complex	grey	Charbra	1	Streptophytina	True	5	1.0693086	1	0.394457	0.0	78.0	0.7620115999999999	14611		12793.0		9889	7139	6	0.38395331411533284	1.0984876975308566
+R3	R3_rev_zygnematophyceae	reversal	simple	unicellular	grey	Zygnematophyceae	0	Anydrophyta	True	7	0.7591022000000001	4	0.0422393	0.25	82.775	0.40653399999999995	85	81.0	32.0	31.0	2213	7500	6	0.38395331411533284	1.0984876975308566

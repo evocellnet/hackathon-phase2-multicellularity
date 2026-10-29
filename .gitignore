@@ -16,3 +16,6 @@ data/annotations/disorder/
 data/structure/
 data/dense/*/proteomes/
 data/structure3di/all/
+results/r2/*/work/
+results/r2/*/*/work/
+results/r2/**/*.dmnd

@@ -1,0 +1,5 @@
+panel	event_id	kind	from_state	to_state	confidence	M	M_is_tip	P	P_is_parent	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	hog_gains	supported_gains	seq_novel	seq_novel_supported	dups	losses	n_controls_panel	smd_depth_all_events_vs_controls	smd_root_dist_all_events_vs_controls
+R7	R7_dictyostelia	origin	unicellular	simple	clear	Dictyostelia	0	Eumycetozoa	True	4	0.5111771	8	0.315404	0.0	91.425	0.7697005	725	720.0	550.0	546.0	1501	5497	9	1.4147911460452758	0.8827517889433089
+R7	R7_myxogastria	origin	unicellular	simple	grey	Myxogastria_Ceratiomyxa	0	Eumycetozoa	True	4	0.25594859999999997	2	0.0601755	1.0	77.45	0.6481417000000002	330	307.0	138.0	136.0	3843	1980	9	1.4147911460452758	0.8827517889433089
+R7	R7_sens_macromycetozoa	sensitivity	unicellular	simple	grey	Eumycetozoa	0	Evosea	True	3	0.19577309999999998	10	0.08073	0.2	88.63	0.633262	378	341.0	122.0	104.0	2209	4784	9	1.4147911460452758	0.8827517889433089
+R7	R7_copromyxa	origin	unicellular	simple	grey	Coprpro	1	Elardia	True	4	0.8238248	1	0.488047	1.0	82.0	0.973785	4463		3823.0		1408	8531	9	1.4147911460452758	0.8827517889433089

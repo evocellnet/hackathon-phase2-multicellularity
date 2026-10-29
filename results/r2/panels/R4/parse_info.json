@@ -1,0 +1,30 @@
+{
+ "orthoxml": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/r2/R4/hogs.orthoxml",
+ "orthoxml_md5": "5b3d1cf0d6ddf139029ea5efe25636b8",
+ "stats": {
+  "n_families": 58846,
+  "n_singleton_genes": 43309,
+  "n_groups": 157277,
+  "n_level_hint_unknown": 0,
+  "n_level_hint_inconsistent": 0,
+  "n_collapsed_inconsistent": 0,
+  "n_single_species_orthologgroups": 0,
+  "n_empty_groups": 0,
+  "n_genes": 302934,
+  "n_species": 21,
+  "n_internal_nodes": 13,
+  "n_hogs_internal": 194136,
+  "n_event_rows": 220489,
+  "conservation_violations": 0,
+  "source": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/r2/R4/hogs.orthoxml"
+ },
+ "ancestra_done": {
+  "status": "done",
+  "preset": "fast",
+  "threads": 12,
+  "peak_rss_kb": 5864952,
+  "verify_rc": 0,
+  "patched": "fastleiden",
+  "finished": "2026-10-29T17:53:07+01:00"
+ }
+}

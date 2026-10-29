@@ -1,0 +1,59 @@
+ROUND-2 DENSE PANELS (W2/W3) - deviations and additions (timestamps from `date`, run in a separate call)
+
+[2026-10-29 16:32 CET] Seen: R2 Ancestra output and its HOG gain/loss/dup counts only; no novelty counts, residuals or P1 values.
+D-P1 (addition, exploratory). The pre-registered P1 compares events with INTERNAL non-crown controls, but two of the four
+  confirmatory events (Astrephomene, Volvox carteri) are tips. A tip's sequence-novel gains are species-specific
+  orphans and its covariates (1 descendant) lie outside the range of internal controls, so the primary residual is an
+  extrapolation. Added: ladder on all tips of R4 and R6 and a tip-vs-tip-control sensitivity (METHODS_DEFINITIONS item 9).
+  The primary P1 statistic is unchanged and reported as pre-registered.
+D-P2 (clarification). Root-child branches excluded from the controls (round-1 rule; their length is half an unrooted
+  edge). Depth classes, crown definition and the 'widen to >= 5 controls' rule fixed in METHODS_DEFINITIONS items 4 and 6.
+D-P3 (clarification). Novelty DB = panel + round-1 eukaryotic (R8: prokaryotic) proteomes not in the panel, as in the
+  task brief/DESIGN §2; round 1 also searched the other domain. Hits to the other domain therefore cannot remove novelty
+  here (round 1: 1,611 of 122,945 eukaryotic gains = 1.3 % had outside hits only in prokaryotes;
+  checked from results/gainladder/euk/gains_classified.tsv.gz).
+
+[2026-10-29 17:57 CET] Seen: per-branch counts and sequence-novel counts of R2, R8, R5 (event tables); no pooled residuals, no P1 value; no R4/R6 novelty output.
+D-P4 (addition). R4 was rebuilt by the data agent (D15) with two AUGUSTUS proteomes (Eudorina sp. 'Eudosp', Yamagishiella
+  unicocca 'Yamauni') inside Volvocaceae, and a pre-agreed sensitivity run R4_curated (same tree, without these two).
+  P1 events and their M nodes are unchanged (verified: p1_mapping.txt). R4 is primary; R4_curated is processed with
+  the same pipeline and reported as a sensitivity (P1 re-computed with R4_curated in place of R4).
+
+[2026-10-29 18:41 CET] Seen: interim pooled output over R2, R3, R5, R6, R8 (pooled/interim_5panels: event residuals, R6_fucophycidae
+  P1 component, secondary pooled estimates incl. the T-only coding, which equalled the all-events estimate).
+D-P5 (correction of METHODS_DEFINITIONS item 8c). The written rule 'drop events whose M species are ALL D=1/T=0' kept the
+  heterocystous Nostocales event (2 of its 10 complex species, the true-branching Fischerella/Chlorogloeopsis, are coded T=1,
+  although the event itself is the D-type heterocyst origin). Corrected rule: an event is D-only (dropped in the T-only coding)
+  when < 50 % of its complex M species are coded T=1. Affects only the T-only sensitivity. The interim_5panels tag keeps the old
+  rule (column D_only); later tags use the corrected rule (column T_frac).
+
+[2026-10-29 18:42 CET] Seen: as at 18:41 (interim_5panels). In that output every TIP event, including reversals to unicellularity,
+  had a rate ratio of 4-235 against the internal controls, i.e. the primary residual of tip events reflects the tip/internal
+  difference (species-specific orphans), not the transition.
+D-P6 (addition, exploratory). The tip-vs-tip-control sensitivity (D-P1) is extended from R4/R6 to all panels: an add-on ladder
+  over every remaining tip (identical settings, same DB; results/r2/panels/<R>/tip_gain_ladder.tsv), run after the main
+  ladders. Tip events are then compared with unicellular-state non-event tips of their own panel (METHODS item 9). The primary
+  P1 and secondary statistics are unchanged; the internal-branch-only pooled estimate is reported alongside.
+
+[2026-10-29 19:03 CET] Seen: a W3 recurrence run on interim_5panels (R2, R3, R5, R8 only; triggered prematurely by a wait loop when the
+  R6 W3 job was stopped). It showed the top 'recurrent' domains to be generic large families (thioredoxin, subtilase, 2OG-Fe(II)
+  oxygenase) found in all five calibrated events, with the unit-count imbalance (events carry more duplications than controls)
+  driving the null comparison. That directory was deleted (interim, incomplete panel set) and will be regenerated.
+D-P7 (scope). W3 annotation restricted to internal laddered branches + event tips (all-tip annotation in R4/R6 needed Pfam for
+  > 100k new-species proteins at 4 CPUs). Tip events are described but not in the calibrated recurrence test.
+D-P8 (addition). Size-adjusted (rarefied) recurrence added: each event/control contributes at most 50 annotated units per draw;
+  paired draws; reported next to the unadjusted statistic, which is retained as written.
+
+[2026-10-29 20:29 CET] Seen: R4 per-branch counts (event table, controls C11 yes / C12 no); no residual or P1 value for any R4 event.
+D-P9 (declaration). The confirmatory R2-P1 result is the one computed once by pooled.py with tag 'final_8panels' (all eight
+  panels; primary model uses internal controls only, so the later tip add-on ladders cannot change it). No pooled run including
+  R4 is made before that. Later tags (e.g. with tip add-ons, R4_curated) are sensitivity analyses.
+
+[2026-10-29 21:08 CET] Seen: pooled/final_8panels (confirmatory P1 and all secondary estimates).
+D-P10 (addition, post hoc, descriptive). scripts/r2/panels/event_classes.py pools event rate ratios by event class (simple->complex,
+  origin, reversal) x branch type (internal, tip) as comparators for the secondary estimate; written after seeing final_8panels.
+
+[2026-10-29 22:02 CET] Seen: final_8panels; a first sens_R4curated run.
+D-P11 (fix). The secondary-set panel filter in pooled.py compared panel names literally, so R4_curated events were left out
+  of the secondary estimates in the first sens_R4curated run (P1 unaffected). Filter changed to the base panel name;
+  that directory was deleted and regenerated. final_8panels is unaffected (plain panel names).

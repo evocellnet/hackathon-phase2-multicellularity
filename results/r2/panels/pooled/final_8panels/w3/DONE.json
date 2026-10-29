@@ -1,0 +1,12 @@
+{
+ "status": "done",
+ "finished": "2026-10-29T21:12:07+0100",
+ "md5": {
+  "README.txt": "a55bbbad287dc19b5a3fe9fbe3b0c5f7",
+  "w3_heatmap_matrix.tsv": "135b73311dec69a9bcfedd58598093e3",
+  "w3_recurrence_summary.tsv": "a15ea8c846335e01db328098718833b3",
+  "w3_event_summary.tsv": "c4bcbed5db7be11358bf01c76b1d3bea",
+  "w3_recurrence_rarefied.tsv": "93ea7b99eb05ed48fc286fd3c0575ce1",
+  "w3_recurrent_domains.tsv": "8515e58ae3e815658089bfeef5dbffc1"
+ }
+}

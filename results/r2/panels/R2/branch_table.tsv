@@ -1,0 +1,74 @@
+branch_child	panel	branch_parent	is_leaf	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	root_child	state_child	state_parent	inside_crown	events	hog_gains	losses	dups	dups_at_origin	supported_gains	seq_novel	seq_novel_supported	seq_novel_tx_sens	seq_novel_genomes_only	split_repaired	gains_after_repair	laddered	is_event	control	tip_control
+Capsowc	R2	Opisthokonta	True	1	0.304962	1	0.304962	0.0	93.7	1.1138298999999998	True	uni	uni	False		4301	0	430	0								False	False	False	False
+Holomycota	R2	Opisthokonta	False	1	0.304962	39	0.304962	0.02564102564102564	92.04102564102563	0.609924	True	uni	uni	False		1526	0	392	0	1526.0	89.0	89.0	89.0	146.0	0.0	1526.0	True	False	False	False
+Fungi	R2	Holomycota	False	2	0.3792324	37	0.0742704	0.0	93.25135135135135	0.5832514	False	uni	uni	False		582	691	850	294	553.0	50.0	44.0	50.0	72.0	7.0	575.0	True	False	True	False
+Rozeall	R2	Fungi	True	3	1.1103824	1	0.73115	0.0	70.6	1.1607854999999998	False	uni	uni	False		2238	3237	365	12								False	False	False	False
+Aphelida_Eumycota	R2	Fungi	False	3	0.41255430000000004	36	0.0333219	0.0	93.88055555555555	0.6165733	False	uni	uni	False		364	305	1456	127	342.0	60.0	54.0	60.0	83.0	2.0	362.0	True	False	True	False
+Amoeocc	R2	Aphelida_Eumycota	True	4	1.1722673	1	0.759713	0.0	87.8	1.1560266	False	uni	uni	False		2077	3757	457	44								False	False	False	False
+Eumycota	R2	Aphelida_Eumycota	False	4	0.4660578	35	0.0535035	0.0	94.0542857142857	0.6700768	False	uni	uni	False		687	628	1378	92	680.0	193.0	190.0	194.0	224.0	6.0	681.0	True	False	True	False
+Blastocladiomycota_Amastigomycota	R2	Eumycota	False	5	0.4863318	32	0.020274	0.0	94.19375	0.39608240000000006	False	mc	uni	False	R2_hyphae	132	1425	1563	159	115.0	36.0	31.0	36.0	40.0	4.0	128.0	True	True	False	False
+Allomac	R2	Blastocladiomycota_Amastigomycota	True	6	1.0458178	1	0.559486	0.0	92.5	0.8820220999999999	False	mc	mc	True		4973	3861	6878	65								False	False	False	False
+Amastigomycota	R2	Blastocladiomycota_Amastigomycota	False	6	0.5231059	31	0.0367741	0.0	94.24838709677421	0.43285650000000003	False	mc	mc	True		268	2192	2058	123	259.0	134.0	130.0	134.0	146.0	4.0	264.0	True	False	False	False
+Mucoromycota_Dikarya	R2	Amastigomycota	False	7	0.5447603000000001	29	0.0216544	0.0	94.02758620689656	0.3074164	False	mc	mc	True		135	911	1003	95	130.0	79.0	76.0	79.0	84.0	2.0	133.0	True	False	False	False
+Dikarya	R2	Mucoromycota_Dikarya	False	8	0.6500263	26	0.105266	0.0	94.88846153846154	0.41268239999999995	False	mc	mc	True		385	2793	1293	8	384.0	206.0	205.0	206.0	230.0	1.0	384.0	True	False	False	False
+Ascomycota	R2	Dikarya	False	9	0.7902393000000001	15	0.140213	0.0	94.69999999999999	0.5528953999999999	False	mc	mc	True		178	2012	1068	4	178.0	131.0	131.0	131.0	133.0	1.0	177.0	True	False	False	False
+Taphrinomycotina	R2	Ascomycota	False	10	0.8229118	4	0.0326725	0.0	87.375	0.5032325	False	mc	mc	True		40	2954	333	1	39.0	25.0	25.0	25.0	25.0	1.0	39.0	True	False	False	False
+Neolirr	R2	Taphrinomycotina	True	11	1.2596978	1	0.436786	0.0	82.0	0.780382	False	mc	mc	True	R2_neolecta	987	2433	276	0		962.0		962.0	965.0	2.0	985.0	True	True	False	False
+Saitcom	R2	Taphrinomycotina	True	11	1.1665078	1	0.343596	0.0	94.5	0.780382	False	uni	mc	False	R2_rev_saitoella	1525	1566	474	0		1486.0		1486.0	1500.0	2.0	1523.0	True	True	False	False
+Schipom	R2	Taphrinomycotina	True	11	1.4301458	1	0.607234	0.0	97.3	0.9508300000000001	False	uni	mc	False	R2_rev_schizosaccharomyces	623	2612	372	0		605.0		605.0	607.0	2.0	621.0	True	True	False	False
+Taphdef	R2	Taphrinomycotina	True	11	1.3172948	1	0.494383	0.0	75.7	0.837979	False	mc	mc	True		542	2732	153	0								False	False	False	False
+saccharomyceta	R2	Ascomycota	False	10	0.8640289000000001	11	0.0737896	0.0	97.36363636363636	0.4500581	False	mc	mc	True		90	668	1204	52	73.0	62.0	52.0	62.0	62.0	0.0	90.0	True	False	False	False
+Pezizomycotina	R2	saccharomyceta	False	11	0.9875939	8	0.123565	0.0	98.3375	0.548853	False	mc	mc	True	R2_pezizomycotina	503	684	1649	25	503.0	417.0	417.0	417.0	417.0	2.0	501.0	True	True	False	False
+Artholi	R2	Pezizomycotina	True	12	1.3210659	1	0.333472	0.0	96.5	0.6066773999999999	False	mc	mc	True		3345	3862	552	6								False	False	False	False
+Pezizales	R2	Pezizomycotina	False	12	1.0855593	2	0.0979654	0.0	97.65	0.43143739999999997	False	mc	mc	True		101	4561	298	1	100.0	91.0	91.0	91.0	91.0	2.0	99.0	True	False	False	False
+Pyroomp	R2	Pezizales	True	13	1.3152823	1	0.229723	0.0	99.2	0.404963	False	mc	mc	True		4478	531	868	10								False	False	False	False
+Tubemel	R2	Pezizales	True	13	1.2607993	1	0.17524	0.0	96.1	0.404963	False	mc	mc	True		1152	1392	256	1								False	False	False	False
+leotiomyceta	R2	Pezizomycotina	False	12	1.1303109	5	0.142717	0.0	98.97999999999999	0.4159224	False	mc	mc	True		357	1285	980	5	357.0	281.0	281.0	281.0	283.0	1.0	356.0	True	False	False	False
+Aspenid	R2	leotiomyceta	True	13	1.3932619000000002	1	0.262951	0.0	95.3	0.5027877000000001	False	mc	mc	True		1253	3020	657	5								False	False	False	False
+Zymobre	R2	leotiomyceta	True	13	1.4696619	1	0.339351	0.0	99.6	0.5791877000000001	False	mc	mc	True		2272	3669	467	1								False	False	False	False
+sordariomyceta	R2	leotiomyceta	False	13	1.2135416	3	0.0832307	0.0	100.0	0.3461817	False	mc	mc	True		178	1937	518	15	174.0	146.0	144.0	146.0	147.0	2.0	176.0	True	False	False	False
+Botrcin	R2	sordariomyceta	True	14	1.3701476000000001	1	0.156606	0.0	100.0	0.44053	False	mc	mc	True		2260	1600	777	24								False	False	False	False
+Sordariomycetes	R2	sordariomyceta	False	14	1.3174056	2	0.103864	0.0	100.0	0.26047	False	mc	mc	True		115	1273	834	5	114.0	99.0	99.0	99.0	99.0	2.0	113.0	True	False	False	False
+Fusagra	R2	Sordariomycetes	True	15	1.5023045999999998	1	0.184899	0.0	100.0	0.36495900000000003	False	mc	mc	True		3281	552	1389	4								False	False	False	False
+Neurcra	R2	Sordariomycetes	True	15	1.4974656	1	0.18006	0.0	100.0	0.36495900000000003	False	mc	mc	True		2087	2527	242	1								False	False	False	False
+Saccharomycotina	R2	saccharomyceta	False	11	0.9720268999999999	3	0.107998	0.0	94.76666666666667	0.5047684	False	uni	mc	False	R2_rev_saccharomycotina	35	4018	467	0	35.0	32.0	32.0	32.0	32.0	0.0	35.0	True	True	False	False
+Liposta	R2	Saccharomycotina	True	12	1.2893169	1	0.31729	0.0	96.1	0.8220584	False	uni	uni	False		1341	528	893	2								False	False	False	False
+Yarrowia_Saccharomyces	R2	Saccharomycotina	False	12	1.1030029000000001	2	0.130976	0.0	94.1	0.44826600000000005	False	uni	uni	False		13	1752	396	0	13.0	11.0	11.0	11.0	11.0	0.0	13.0	True	False	True	False
+Sacccer	R2	Yarrowia_Saccharomyces	True	13	1.7526618999999999	1	0.649659	0.0	93.7	1.0842749999999999	False	uni	uni	False		1215	1148	769	0								False	False	False	False
+Yarrlip	R2	Yarrowia_Saccharomyces	True	13	1.5376188999999998	1	0.434616	0.0	94.5	0.882882	False	uni	uni	False		1157	349	540	0								False	False	False	False
+Basidiomycota	R2	Dikarya	False	9	0.7832123	11	0.133186	0.0	95.14545454545454	0.5458683999999999	False	mc	mc	True		138	2161	811	24	134.0	116.0	114.0	116.0	119.0	8.0	130.0	True	False	False	False
+Rhodtor	R2	Basidiomycota	True	10	1.2227643	1	0.439552	0.0	96.1	0.8868231	False	uni	mc	False	R2_rev_rhodotorula	1759	3132	687	4		1720.0		1720.0	1720.0	7.0	1752.0	True	True	False	False
+Ustilaginomycotina_Agaricomycotina	R2	Basidiomycota	False	10	0.8075181	10	0.0243058	0.0	95.05	0.4638578	False	mc	mc	True		49	607	1016	74	28.0	38.0	23.0	38.0	38.0	0.0	49.0	True	False	False	False
+Ustimay	R2	Ustilaginomycotina_Agaricomycotina	True	11	1.2763791	1	0.468861	0.0	99.2	0.8918263	False	mc	mc	True		1202	4119	320	1								False	False	False	False
+Wallemiomycotina_Agaricomycotina	R2	Ustilaginomycotina_Agaricomycotina	False	11	0.8371381	9	0.02962	0.0	94.58888888888889	0.49347779999999997	False	mc	mc	True		36	524	1286	25	30.0	32.0	28.0	32.0	32.0	0.0	36.0	True	False	False	False
+Wallmel	R2	Wallemiomycotina_Agaricomycotina	True	12	1.3593501000000001	1	0.522212	0.0	90.6	0.9155573	False	mc	mc	True		706	5927	282	2								False	False	False	False
+Agaricomycotina	R2	Wallemiomycotina_Agaricomycotina	False	12	0.8809936999999999	8	0.0438556	0.0	95.0875	0.5373334000000001	False	mc	mc	True		64	190	1426	1	63.0	59.0	58.0	59.0	60.0	0.0	64.0	True	False	False	False
+Agaricomycetes_Dacrymycetes	R2	Agaricomycotina	False	13	0.9588254	6	0.0778317	0.0	94.94999999999999	0.5474777	False	mc	mc	True	R2_agaricomycetes	160	498	1678	7	159.0	139.0	138.0	139.0	140.0	0.0	160.0	True	True	False	False
+Dacrpri	R2	Agaricomycetes_Dacrymycetes	True	14	1.2663934	1	0.307568	0.0	94.1	0.579226	False	mc	mc	True		2227	6183	1339	3								False	False	False	False
+Agaricomycetes	R2	Agaricomycetes_Dacrymycetes	False	14	1.0220442	5	0.0632188	0.0	95.12	0.3707868	False	mc	mc	True		375	761	2113	14	373.0	327.0	325.0	327.0	328.0	0.0	375.0	True	False	False	False
+Aurisub	R2	Agaricomycetes	True	15	1.2840672	1	0.262023	0.0	94.1	0.47046220000000005	False	mc	mc	True		6966	3223	5006	162								False	False	False	False
+Sereind	R2	Agaricomycetes	True	15	1.3735602	1	0.351516	0.0	93.7	0.5599552	False	mc	mc	True	R2_rev_serendipita	2766	7431	1616	13		2694.0		2694.0	2694.0	12.0	2754.0	True	True	False	False
+Polyporales_Agaricales	R2	Agaricomycetes	False	15	1.0932874	3	0.0712432	0.0	95.93333333333332	0.3332662	False	mc	mc	True		242	5489	927	25	240.0	209.0	207.0	209.0	210.0	4.0	238.0	True	False	False	False
+Tramcoc	R2	Polyporales_Agaricales	True	16	1.2304834	1	0.137196	0.0	98.0	0.35019900000000004	False	mc	mc	True		2854	2237	1709	24								False	False	False	False
+Agaricales	R2	Polyporales_Agaricales	False	16	1.1342594	2	0.040972	0.0	94.9	0.17816800000000002	False	mc	mc	True		82	1144	1524	43	76.0	62.0	59.0	62.0	63.0	1.0	81.0	True	False	False	False
+Coprcin	R2	Agaricales	True	17	1.3062904	1	0.172031	0.0	93.7	0.35019900000000004	False	mc	mc	True		3090	2395	1792	17								False	False	False	False
+Schicom	R2	Agaricales	True	17	1.3124644	1	0.178205	0.0	96.1	0.350236	False	mc	mc	True		3704	1749	2198	38								False	False	False	False
+Tremellales	R2	Agaricomycotina	False	13	1.1889987	2	0.308005	0.0	95.5	0.6574947	False	mc	mc	True		354	5817	426	0	354.0	335.0	335.0	335.0	336.0	9.0	345.0	True	False	False	False
+Crypneo	R2	Tremellales	True	14	1.3506397	1	0.161641	0.0	96.5	0.343282	False	uni	mc	False	R2_rev_cryptococcus	718	547	329	0		698.0		698.0	698.0	2.0	716.0	True	True	False	False
+Tremmes	R2	Tremellales	True	14	1.3706397000000001	1	0.181641	0.0	94.5	0.343282	False	mc	mc	True	R2_tremella	1888	595	294	14		1849.0		1849.0	1849.0	1.0	1887.0	True	True	False	False
+Mucoromycota	R2	Mucoromycota_Dikarya	False	8	0.5851398000000001	3	0.0403795	0.0	86.56666666666666	0.3477959	False	mc	mc	True		54	2963	1211	11	51.0	30.0	29.0	30.0	33.0	3.0	51.0	True	False	False	False
+Morthyg	R2	Mucoromycota	True	9	0.9155878	1	0.330448	0.0	97.3	0.6175554999999999	False	mc	mc	True		2756	2286	2235	29								False	False	False	False
+Mucoromycotina	R2	Mucoromycota	False	9	0.6435993	2	0.0584595	0.0	81.19999999999999	0.3889075	False	mc	mc	True		85	1936	1256	14	82.0	6.0	6.0	6.0	6.0	0.0	85.0	True	False	False	False
+Endosp	R2	Mucoromycotina	True	10	0.8722473	1	0.228648	0.0	65.1	0.5363249999999999	False	mc	mc	True	R2_endogone	2188	2689	790	0		1966.0		1966.0	2021.0	4.0	2184.0	True	True	False	False
+Rhizmic	R2	Mucoromycotina	True	10	0.9512763	1	0.307677	0.0	97.3	0.5363249999999999	False	mc	mc	True		1875	1889	1921	25								False	False	False	False
+Zoopagomycota	R2	Amastigomycota	False	7	0.5682299	2	0.045124	0.0	97.45	0.3942654	False	mc	mc	True		16	4327	1519	8	15.0	6.0	5.0	6.0	6.0	2.0	14.0	True	False	False	False
+Basimer	R2	Zoopagomycota	True	8	0.8088678999999999	1	0.240638	0.0	98.0	0.6349034	False	mc	mc	True		2526	477	5415	16								False	False	False	False
+Coemumb	R2	Zoopagomycota	True	8	1.1520339	1	0.583804	0.0	96.9	0.824442	False	mc	mc	True		1137	3399	766	16								False	False	False	False
+chytridiomyceta	R2	Eumycota	False	5	0.5291303	3	0.0630725	0.0	92.56666666666666	0.4058826	False	uni	uni	False		103	2445	972	30	96.0	36.0	34.0	36.0	38.0	5.0	98.0	True	False	True	False
+Gonapro	R2	chytridiomyceta	True	6	1.0845933	1	0.555463	0.0	91.0	0.8681989000000001	False	mc	uni	False	R2_gonapodya	4760	1836	1981	104		4373.0		4373.0	4395.0	9.0	4751.0	True	True	False	False
+Chytridiomycetes	R2	chytridiomyceta	False	6	0.6220612000000001	2	0.0929309	0.0	93.35	0.4988134999999999	False	uni	uni	False		158	1966	744	7	154.0	92.0	92.0	92.0	95.0	1.0	157.0	True	False	True	False
+Batrden	R2	Chytridiomycetes	True	7	0.9922082000000001	1	0.370147	0.0	92.2	0.589952	False	uni	uni	False		2108	1859	627	2								False	False	False	False
+Spizpun	R2	Chytridiomycetes	True	7	0.8418662000000001	1	0.219805	0.0	94.5	0.589952	False	uni	uni	False		1635	1074	645	5								False	False	False	False
+Rotosphaerida	R2	Holomycota	False	2	0.3983	2	0.093338	0.5	69.65	0.5972438999999999	False	uni	uni	False		495	677	1225	330	456.0	23.0	21.0	23.0	31.0	20.0	475.0	True	False	True	False
+Fontalb	R2	Rotosphaerida	True	3	1.298731	1	0.900431	0.0	72.2	1.316074	False	mc	uni	False	R2_fonticula	2117	3771	247	8		1912.0		1912.0	1931.0	10.0	2107.0	True	True	False	False
+Parvatl	R2	Rotosphaerida	True	3	0.8139430000000001	1	0.415643	1.0	67.1	1.0128868999999998	False	uni	uni	False		7759	457	2067	340								False	False	False	False

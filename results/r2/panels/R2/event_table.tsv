@@ -1,0 +1,15 @@
+panel	event_id	kind	from_state	to_state	confidence	M	M_is_tip	P	P_is_parent	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	hog_gains	supported_gains	seq_novel	seq_novel_supported	dups	losses	n_controls_panel	smd_depth_all_events_vs_controls	smd_root_dist_all_events_vs_controls
+R2	R2_hyphae	origin	unicellular	simple	clear	Blastocladiomycota_Amastigomycota	0	Eumycota	True	5	0.4863318	32	0.020274	0.0	94.19375	0.39608240000000006	132	115.0	36.0	31.0	1563	1425	7	1.5749646437922868	2.2310247386752113
+R2	R2_gonapodya	origin	unicellular	simple	grey	Gonapro	1	chytridiomyceta	True	6	1.0845933	1	0.555463	0.0	91.0	0.8681989000000001	4760		4373.0		1981	1836	7	1.5749646437922868	2.2310247386752113
+R2	R2_fonticula	origin	unicellular	simple	clear	Fontalb	1	Rotosphaerida	True	3	1.298731	1	0.900431	0.0	72.2	1.316074	2117		1912.0		247	3771	7	1.5749646437922868	2.2310247386752113
+R2	R2_pezizomycotina	nested	simple	complex	grey	Pezizomycotina	0	saccharomyceta	True	11	0.9875939	8	0.123565	0.0	98.3375	0.548853	503	503.0	417.0	417.0	1649	684	7	1.5749646437922868	2.2310247386752113
+R2	R2_neolecta	nested	simple	complex	grey	Neolirr	1	Taphrinomycotina	True	11	1.2596978	1	0.436786	0.0	82.0	0.780382	987		962.0		276	2433	7	1.5749646437922868	2.2310247386752113
+R2	R2_agaricomycetes	nested	simple	complex	clear	Agaricomycetes_Dacrymycetes	0	Agaricomycotina	True	13	0.9588254	6	0.0778317	0.0	94.94999999999999	0.5474777	160	159.0	139.0	138.0	1678	498	7	1.5749646437922868	2.2310247386752113
+R2	R2_tremella	nested	simple	complex	grey	Tremmes	1	Tremellales	True	14	1.3706397000000001	1	0.181641	0.0	94.5	0.343282	1888		1849.0		294	595	7	1.5749646437922868	2.2310247386752113
+R2	R2_endogone	nested	simple	complex	grey	Endosp	1	Mucoromycotina	True	10	0.8722473	1	0.228648	0.0	65.1	0.5363249999999999	2188		1966.0		790	2689	7	1.5749646437922868	2.2310247386752113
+R2	R2_rev_saccharomycotina	reversal	simple	unicellular	grey	Saccharomycotina	0	saccharomyceta	True	11	0.9720268999999999	3	0.107998	0.0	94.76666666666667	0.5047684	35	35.0	32.0	32.0	467	4018	7	1.5749646437922868	2.2310247386752113
+R2	R2_rev_schizosaccharomyces	reversal	simple	unicellular	clear	Schipom	1	Taphrinomycotina	True	11	1.4301458	1	0.607234	0.0	97.3	0.9508300000000001	623		605.0		372	2612	7	1.5749646437922868	2.2310247386752113
+R2	R2_rev_saitoella	reversal	simple	unicellular	clear	Saitcom	1	Taphrinomycotina	True	11	1.1665078	1	0.343596	0.0	94.5	0.780382	1525		1486.0		474	1566	7	1.5749646437922868	2.2310247386752113
+R2	R2_rev_cryptococcus	reversal	simple	unicellular	grey	Crypneo	1	Tremellales	True	14	1.3506397	1	0.161641	0.0	96.5	0.343282	718		698.0		329	547	7	1.5749646437922868	2.2310247386752113
+R2	R2_rev_rhodotorula	reversal	simple	unicellular	clear	Rhodtor	1	Basidiomycota	True	10	1.2227643	1	0.439552	0.0	96.1	0.8868231	1759		1720.0		687	3132	7	1.5749646437922868	2.2310247386752113
+R2	R2_rev_serendipita	reversal	complex	simple	grey	Sereind	1	Agaricomycetes	True	15	1.3735602	1	0.351516	0.0	93.7	0.5599552	2766		2694.0		1616	7431	7	1.5749646437922868	2.2310247386752113

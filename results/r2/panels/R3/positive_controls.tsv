@@ -1,0 +1,3 @@
+panel	control	ancestra_event_control	round1_recovered	panel_recovered	observed	components	notes	aliases
+R3	C09	False	yes	yes	Streptophyta->Klebsormidiophyceae_Phragmoplastophyta: 96 PF-HOG(PF05920) present at P with a member in Klebsormidiophyceae_Phragmoplastophyta	Streptophyta=True		
+R3	C10	True	yes	no	(a) PF-HOG(PF03514) with origin on stem(Anydrophyta): 0; (b) outside species with hit: 0; (c) not needed	a=False;b=True		

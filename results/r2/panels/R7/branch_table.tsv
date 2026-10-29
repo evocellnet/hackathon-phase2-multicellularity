@@ -1,0 +1,45 @@
+branch_child	panel	branch_parent	is_leaf	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	root_child	state_child	state_parent	inside_crown	events	hog_gains	losses	dups	dups_at_origin	supported_gains	seq_novel	seq_novel_supported	seq_novel_tx_sens	seq_novel_genomes_only	split_repaired	gains_after_repair	laddered	is_event	control	tip_control
+Amoebozoa	R7	Eukaryota	False	1	0.0700208	22	0.0700208	0.4090909090909091	84.88636363636364	0.6542366	True	uni	uni	False		5495	0	3052	0	5495.0	660.0	660.0	660.0	873.0	0.0	5495.0	True	False	False	False
+Discosea	R7	Amoebozoa	False	2	0.124966	2	0.0549452	0.5	80.6	0.6211572	False	uni	uni	False		580	4854	1010	199	541.0	45.0	38.0	45.0	69.0	68.0	512.0	True	False	True	False
+Acancas	R7	Discosea	True	3	0.6362990000000001	1	0.511333	0.0	76.1	1.1324902	False	uni	uni	False		4508	3802	2560	275								False	False	False	False
+Stygreg	R7	Discosea	True	3	0.815636	1	0.69067	1.0	85.1	1.202003	False	uni	uni	False		10296	2408	3896	489								False	False	False	False
+Evosea	R7	Amoebozoa	False	2	0.1150431	16	0.0450223	0.25	85.73750000000001	0.6112342999999999	False	uni	uni	False		1329	2614	1950	504	1262.0	167.0	152.0	167.0	259.0	74.0	1255.0	True	False	True	False
+Archamoebae	R7	Evosea	False	3	0.3318251	3	0.216782	0.0	71.36666666666667	0.7518085	False	uni	uni	False		411	7865	2314	327	351.0	129.0	103.0	129.0	153.0	38.0	373.0	True	False	True	False
+Pelosch	R7	Archamoebae	True	4	0.9066261	1	0.574801	0.0	80.8	1.1575205	False	uni	uni	False		7157	2139	3562	355								False	False	False	False
+Mastigamoebida	R7	Archamoebae	False	4	0.3772746	2	0.0454495	0.0	66.65	0.6202505	False	uni	uni	False		42	4266	1768	112	17.0	14.0	1.0	14.0	15.0	5.0	37.0	True	False	True	False
+Entahis	R7	Mastigamoebida	True	5	1.8471046	1	1.46983	0.0	52.5	2.0071	False	uni	uni	False		2966	5459	1974	28								False	False	False	False
+Mastbal	R7	Mastigamoebida	True	5	0.9145446	1	0.53727	0.0	80.8	1.1575205	False	uni	uni	False		3633	955	3564	101								False	False	False	False
+Eumycetozoa	R7	Evosea	False	3	0.19577309999999998	10	0.08073	0.2	88.63	0.633262	False	uni	uni	False	R7_sens_macromycetozoa	378	4784	2209	167	341.0	122.0	104.0	122.0	140.0	28.0	350.0	True	True	False	False
+Dictyostelia	R7	Eumycetozoa	False	4	0.5111771	8	0.315404	0.0	91.425	0.7697005	False	mc	uni	False	R7_dictyostelia	725	5497	1501	61	720.0	550.0	546.0	550.0	576.0	25.0	700.0	True	True	False	False
+Acytosteliales	R7	Dictyostelia	False	5	0.5740263	3	0.0628492	0.0	89.43333333333334	0.3354114	False	mc	mc	True		152	1384	1090	18	150.0	98.0	97.0	98.0	98.0	5.0	147.0	True	False	False	False
+Cavefas	R7	Acytosteliales	True	6	0.8150223	1	0.240996	0.0	90.6	0.45294619999999997	False	mc	mc	True		2286	1924	1282	74								False	False	False	False
+Acytosteliaceae	R7	Acytosteliales	False	6	0.6457155	2	0.0716892	0.0	88.85	0.3126852	False	mc	mc	True		136	1264	1984	57	129.0	103.0	97.0	103.0	105.0	2.0	134.0	True	False	False	False
+Acytsub	R7	Acytosteliaceae	True	7	0.7934235	1	0.147708	0.0	92.2	0.28796900000000003	False	mc	mc	True		1620	1879	1712	7								False	False	False	False
+Hetepal	R7	Acytosteliaceae	True	7	0.7859765	1	0.140261	0.0	85.5	0.28796900000000003	False	mc	mc	True		1703	2044	1332	17								False	False	False	False
+Dictyosteliales	R7	Dictyostelia	False	5	0.5742478999999999	5	0.0630708	0.0	92.61999999999999	0.33787019999999995	False	mc	mc	True		144	1437	920	58	141.0	103.0	102.0	103.0	105.0	1.0	143.0	True	False	False	False
+Tieglac	R7	Dictyosteliales	True	6	0.8064329	1	0.232185	0.0	91.8	0.4416764	False	mc	mc	True		1243	2178	1072	21								False	False	False	False
+Dictyosteliaceae	R7	Dictyosteliales	False	6	0.6288092999999999	4	0.0545614	0.0	92.825	0.2867464	False	mc	mc	True		129	782	1566	65	120.0	97.0	91.0	97.0	97.0	1.0	128.0	True	False	False	False
+Polyvio	R7	Dictyosteliaceae	True	7	0.7837393	1	0.15493	0.0	94.5	0.33272100000000004	False	mc	mc	True		1133	2625	950	48								False	False	False	False
+Dictyostelium	R7	Dictyosteliaceae	False	7	0.7814842999999999	3	0.152675	0.0	92.26666666666667	0.307605	False	mc	mc	True		821	1130	1820	51	811.0	767.0	762.0	767.0	767.0	4.0	817.0	True	False	False	False
+Dictdis	R7	Dictyostelium	True	8	0.8066002999999999	1	0.025116	0.0	94.1	0.0516374	False	mc	mc	True		1078	1981	830	0								False	False	False	False
+Dictfir	R7	Dictyostelium	True	8	0.8080056999999999	1	0.0265214	0.0	93.7	0.0516374	False	mc	mc	True		268	2961	526	0								False	False	False	False
+Dictpur	R7	Dictyostelium	True	8	0.9665452999999999	1	0.185061	0.0	89.0	0.210177	False	mc	mc	True		1468	2598	866	0								False	False	False	False
+Myxogastria_Ceratiomyxa	R7	Eumycetozoa	False	4	0.25594859999999997	2	0.0601755	1.0	77.45	0.6481417000000002	False	mc	uni	False	R7_myxogastria	330	1980	3843	127	307.0	138.0	136.0	138.0	156.0	10.0	320.0	True	True	False	False
+Cerafru	R7	Myxogastria_Ceratiomyxa	True	5	0.6500695999999999	1	0.394121	1.0	74.9	0.8056989999999999	False	mc	mc	True		3488	7129	1326	22								False	False	False	False
+Physpol	R7	Myxogastria_Ceratiomyxa	True	5	0.6675266	1	0.411578	1.0	80.0	0.8056989999999999	False	mc	mc	True		7871	2099	2662	131								False	False	False	False
+Variosea	R7	Evosea	False	3	0.3229731	3	0.20793	0.6666666666666666	90.46666666666665	0.7429565	False	uni	uni	False		830	5198	2305	300	803.0	387.0	376.0	387.0	428.0	41.0	789.0	True	False	True	False
+Protnoc	R7	Variosea	True	4	0.6675751	1	0.344602	1.0	89.4	0.7263395529000001	False	uni	uni	False		2599	4655	1692	46								False	False	False	False
+Cavosteliaceae	R7	Variosea	False	4	0.3230006529	2	2.75529e-05	0.5	91.0	0.3446295529	False	uni	uni	False		102	1809	1851	149	69.0	22.0	14.0	22.0	32.0	6.0	96.0	True	False	True	False
+Cavoapo	R7	Cavosteliaceae	True	5	0.7578096528999999	1	0.434809	1.0	87.5	0.7794385529000001	False	uni	uni	False		5309	3836	2671	51								False	False	False	False
+Planfun	R7	Cavosteliaceae	True	5	0.7047106528999999	1	0.38171	0.0	94.5	0.7263395529000001	False	uni	uni	False		4314	4759	2835	106								False	False	False	False
+Tubulinea	R7	Amoebozoa	False	2	0.2019628	4	0.131942	1.0	83.625	0.6982202000000001	False	uni	uni	False		889	3838	1545	519	838.0	128.0	119.0	128.0	162.0	79.0	810.0	True	False	True	False
+Vermver	R7	Tubulinea	True	3	0.6362327999999999	1	0.43427	1.0	89.4	1.053823	False	uni	uni	False		3386	5277	1510	132								False	False	False	False
+Elardia	R7	Tubulinea	False	3	0.3357778	3	0.133815	1.0	81.7	0.568085	False	uni	uni	False		1108	1534	4000	900	964.0	297.0	238.0	297.0	373.0	31.0	1077.0	True	False	True	False
+Arceint	R7	Elardia	True	4	0.8215158	1	0.485738	1.0	83.5	0.973785	False	uni	uni	False		9541	4168	3359	417								False	False	False	False
+Coprpro	R7	Elardia	True	4	0.8238248	1	0.488047	1.0	82.0	0.973785	False	mc	uni	False	R7_copromyxa	4463	8531	1408	79		3823.0		3827.0	4001.0	51.0	4412.0	True	True	False	False
+Rhizsax	R7	Elardia	True	4	0.9474148	1	0.611637	1.0	79.6	1.097375	False	uni	uni	False		3217	9535	1104	52								False	False	False	False
+Opisthokonta	R7	Eukaryota	False	1	0.0700208	3	0.0700208	0.0	89.13333333333333	0.7062535999999999	True	uni	uni	False		588	0	259	0	588.0	44.0	44.0	44.0	57.0	0.0	588.0	True	False	False	False
+Spizpun	R7	Opisthokonta	True	2	0.5842158	1	0.514195	0.0	94.5	1.0937459999999999	False	uni	uni	False		2948	1740	828	168								False	False	False	False
+Holozoa	R7	Opisthokonta	False	2	0.1829238	2	0.112903	0.0	86.45	0.6270979999999999	False	uni	uni	False		288	1053	1138	312	225.0	32.0	16.0	32.0	49.0	7.0	281.0	True	False	True	False
+Capsowc	R7	Holozoa	True	3	0.6495718	1	0.466648	0.0	93.7	1.0937459999999999	False	uni	uni	False		2348	1760	704	20								False	False	False	False
+Monobre	R7	Holozoa	True	3	0.8946497999999999	1	0.711726	0.0	79.2	1.178374	False	uni	uni	False		3166	2193	713	48								False	False	False	False

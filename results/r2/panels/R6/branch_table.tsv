@@ -1,0 +1,46 @@
+branch_child	panel	branch_parent	is_leaf	depth	root_dist	n_desc	bl	frac_tx	mean_busco	dist_outgroup	root_child	state_child	state_parent	inside_crown	events	hog_gains	losses	dups	dups_at_origin	supported_gains	seq_novel	seq_novel_supported	seq_novel_tx_sens	seq_novel_genomes_only	split_repaired	gains_after_repair	laddered	is_event	control	tip_control
+Caferoe	R6	Stramenopiles	True	1	0.478094	1	0.478094	0.0	66.7	1.402584	True	uni	uni	False		3876	0	371	0		2687		2687	2739	0	3876	True	False	False	True
+Gyrista	R6	Stramenopiles	False	1	0.478094	28	0.478094	0.0	74.04642857142858	0.956188	True	uni	uni	False		3447	0	2580	0	3447.0	295	295.0	295	394	0	3447	True	False	False	False
+Ochrophyta	R6	Gyrista	False	2	0.5871810000000001	26	0.109087	0.0	72.92307692307693	0.5554830000000001	False	uni	uni	False		6137	329	3934	2965	6010.0	816	790.0	816	1039	22	6115	True	False	True	False
+Heteaka	R6	Ochrophyta	True	3	0.979804	1	0.392623	0.0	71.8	0.7695265	False	uni	uni	False		3324	14926	1778	60		2783		2783	2814	46	3278	True	False	False	True
+Nannsal	R6	Ochrophyta	True	3	1.081918	1	0.494737	0.0	72.9	0.8716405	False	uni	uni	False		2078	16517	322	11		1776		1776	1797	42	2036	True	False	False	True
+Potemal	R6	Ochrophyta	True	3	1.206768	1	0.619587	0.0	80.4	0.9964905	False	uni	uni	False		10299	11400	4709	390		7991		7991	8397	82	10217	True	False	False	True
+Bacillariophyta	R6	Ochrophyta	False	3	0.962797	3	0.375616	0.0	74.5	0.7525195	False	uni	uni	False		902	14274	1300	59	898.0	522	519.0	522	547	48	854	True	False	True	False
+Thalpse	R6	Bacillariophyta	True	4	1.190042	1	0.227245	0.0	72.2	0.549952	False	uni	uni	False		2254	2534	967	104		1901		1901	1929	15	2239	True	False	False	True
+Bacillariophycidae	R6	Bacillariophyta	False	4	1.0661360000000002	2	0.103339	0.0	75.65	0.330584	False	uni	uni	False		432	1221	1472	76	414.0	241	229.0	241	251	5	427	True	False	True	False
+Fragcyl	R6	Bacillariophycidae	True	5	1.314654	1	0.248518	0.0	73.7	0.467886	False	uni	uni	False		5842	1212	1666	90		5210		5210	5262	17	5825	True	False	False	True
+Phaetri	R6	Bacillariophycidae	True	5	1.285504	1	0.219368	0.0	77.6	0.467886	False	uni	uni	False		1323	3378	812	18		1139		1139	1148	11	1312	True	False	False	True
+PX_clade	R6	Ochrophyta	False	3	0.724118	18	0.136937	0.0	73.57222222222224	0.52956	False	mc	uni	False	R6_px_filaments	3456	5245	4148	550	3425.0	1100	1087.0	1100	1440	50	3406	True	True	False	False
+Chryaus	R6	PX_clade	True	4	1.020377	1	0.296259	0.0	76.5	0.5362255	False	uni	mc	False	R6_rev_chrysoparadoxa	4664	12842	794	44		3592		3593	3793	60	4604	True	True	False	False
+Phaecon	R6	PX_clade	True	4	1.0005540000000002	1	0.276436	0.0	53.7	0.5164025	False	mc	mc	True		8802	10213	1935	129		6818		6818	7183	68	8734	True	False	False	False
+Tribmin	R6	PX_clade	True	4	0.9963890000000001	1	0.272271	0.0	81.6	0.5122375	False	mc	mc	True		5084	15431	2476	119		4378		4378	4468	39	5045	True	False	False	False
+Phaeophyceae_Schizocladia	R6	PX_clade	False	4	0.8021705	15	0.0780525	0.0	74.16666666666667	0.3503235	False	mc	mc	True		671	7175	2684	203	657.0	342	335.0	342	355	20	651	True	False	False	False
+Schiisc	R6	Phaeophyceae_Schizocladia	True	5	0.9640845	1	0.161914	0.0	74.1	0.3638198	False	mc	mc	True		7588	9596	952	16		7213		7213	7226	59	7529	True	False	False	False
+Phaeophyceae	R6	Phaeophyceae_Schizocladia	False	5	0.8546642	14	0.0524937	0.0	74.17142857142858	0.2144077	False	mc	mc	True	R6_sens_phaeophyceae	535	1883	5685	123	513.0	314	303.0	314	323	14	521	True	True	False	False
+Dictyotophycidae_Fucophycidae	R6	Phaeophyceae	False	6	0.9208227	12	0.0661585	0.0	79.86666666666666	0.2155706	False	mc	mc	True		513	4445	4202	105	499.0	348	347.0	348	349	11	502	True	False	False	False
+Dictyotophycidae	R6	Dictyotophycidae_Fucophycidae	False	7	0.9356492999999999	2	0.0148266	0.0	64.30000000000001	0.1058551	False	mc	mc	True		52	11964	1463	83	46.0	17	14.0	17	17	8	44	True	False	False	False
+Dictdic	R6	Dictyotophycidae	True	8	1.0454843	1	0.109835	0.0	80.4	0.1881419	False	mc	mc	True	R6_dictyota	3779	3467	2766	84		3656		3656	3656	8	3771	True	True	False	False
+Halopan	R6	Dictyotophycidae	True	8	1.0139562	1	0.0783069	0.0	48.2	0.184162	False	mc	mc	True		2327	4416	2411	20		2205		2205	2205	7	2320	True	False	False	False
+Fucophycidae	R6	Dictyotophycidae_Fucophycidae	False	7	0.9523379000000001	10	0.0315152	0.0	82.98	0.1246487	False	mc	mc	True	R6_fucophycidae	753	2015	5924	144	736.0	493	488.0	493	502	4	749	True	True	False	False
+Desmher	R6	Fucophycidae	True	8	1.0118512000000002	1	0.0595133	0.0	83.5	0.12093090000000001	False	mc	mc	True		2187	17974	679	4		2122		2122	2124	19	2168	True	False	False	False
+Ectocarpales	R6	Fucophycidae	False	8	0.9864076	4	0.0340697	0.0	83.825	0.093583	False	mc	mc	True		360	9591	3103	62	355.0	223	221.0	223	225	9	351	True	False	False	False
+Chorlin	R6	Ectocarpales	True	9	1.0237565000000002	1	0.0373489	0.0	89.0	0.0781263	False	mc	mc	True	R6_rev_chordaria	2169	11890	883	30		2064		2064	2064	18	2151	True	True	False	False
+Ectosil	R6	Ectocarpales	True	9	1.027185	1	0.0407774	0.0	83.5	0.0781263	False	mc	mc	True	R6_rev_ectocarpus	1022	11514	837	29		958		958	958	15	1007	True	True	False	False
+Pylalit	R6	Ectocarpales	True	9	1.0286858	1	0.0422782	0.0	87.1	0.0796271	False	mc	mc	True	R6_rev_pylaiella	3424	10516	2328	48		3248		3248	3250	15	3409	True	True	False	False
+Scytpro	R6	Ectocarpales	True	9	1.0391298	1	0.0527222	0.0	75.7	0.09007109999999999	False	mc	mc	True		4345	6068	4062	22		3864		3864	4014	11	4334	True	False	False	False
+Fucaceae	R6	Fucophycidae	False	8	1.0422181	3	0.0898802	0.0	87.2	0.14939349999999998	False	mc	mc	True		506	9833	4848	69	477.0	371	367.0	371	371	19	487	True	False	False	False
+Ascnod	R6	Fucaceae	True	9	1.0560486999999998	1	0.0138306	0.0	85.5	0.0276312	False	mc	mc	True		2062	8766	1764	0		1693		1693	1693	7	2055	True	False	False	False
+Fucuser	R6	Fucaceae	True	9	1.0560187	1	0.0138006	0.0	83.9	0.0276312	False	mc	mc	True		1505	10142	1452	0		1358		1358	1358	13	1492	True	False	False	False
+Pelvcan	R6	Fucaceae	True	9	1.6895410999999998	1	0.647323	0.0	92.2	0.6611236	False	mc	mc	True		7314	11193	432	0		5460		5460	5506	8	7306	True	False	False	False
+Laminariales	R6	Fucophycidae	False	8	0.9914791000000001	2	0.0391412	0.0	74.7	0.0986545	False	mc	mc	True		80	17604	1050	30	78.0	51	49.0	51	51	6	74	True	False	False	False
+Sacclat	R6	Laminariales	True	9	1.0209994	1	0.0295203	0.0	71.4	0.0517967	False	mc	mc	True		3901	2459	1620	11		3800		3800	3800	5	3896	True	False	False	False
+Undapin	R6	Laminariales	True	9	1.0137555	1	0.0222764	0.0	78.0	0.0517967	False	mc	mc	True		806	3543	1490	31		770		770	771	4	802	True	False	False	False
+Discosporangiales	R6	Phaeophyceae	False	6	0.9031633	2	0.0484991	0.0	40.0	0.20568609999999998	False	mc	mc	True		113	9113	2192	10	112.0	63	62.0	63	63	10	103	True	False	False	False
+Chorten	R6	Discosporangiales	True	7	1.0370433000000001	1	0.13388	0.0	34.1	0.234793	False	mc	mc	True		1228	8740	912	25		1134		1134	1137	5	1223	True	False	False	False
+Discmes	R6	Discosporangiales	True	7	1.0040763	1	0.100913	0.0	45.9	0.234793	False	mc	mc	True		3916	2326	4155	32		3494		3494	3552	3	3913	True	False	False	False
+Pelagomonadaceae	R6	Ochrophyta	False	3	1.03445	2	0.447269	0.0	61.55	0.8241725	False	uni	uni	False		874	13431	1196	101	868.0	390	387.0	390	415	62	812	True	False	True	False
+Aureano	R6	Pelagomonadaceae	True	4	1.1861730000000001	1	0.151723	0.0	52.9	0.386517	False	uni	uni	False		1603	3418	1568	81		1218		1218	1243	17	1586	True	False	False	True
+Pelacal	R6	Pelagomonadaceae	True	4	1.269244	1	0.234794	0.0	70.2	0.386517	False	uni	uni	False		4895	1963	1680	145		3973		3973	4051	27	4868	True	False	False	True
+Oomycota	R6	Gyrista	False	2	0.727408	2	0.249314	0.0	88.65	0.7353045	False	uni	uni	False		1696	2853	2314	330	1677.0	698	696.0	698	737	42	1654	True	False	True	False
+Phytinf	R6	Oomycota	True	3	0.92449	1	0.197082	0.0	89.8	0.40436300000000003	False	uni	uni	False		5007	2466	2955	340		3019		3019	3024	15	4992	True	False	False	True
+Saprpar	R6	Oomycota	True	3	0.934689	1	0.207281	0.0	87.5	0.40436300000000003	False	uni	uni	False		5709	1562	3763	439		4398		4398	4431	19	5690	True	False	False	True

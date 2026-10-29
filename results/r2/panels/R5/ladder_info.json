@@ -1,0 +1,57 @@
+{
+ "n_branches": 15,
+ "n_gains": 10914,
+ "n_seq_novel": 7583,
+ "n_split_repaired": 111,
+ "passes": [
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R5/work/ladder/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R5/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R5/work/ladder/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 626.7,
+   "n_queries": 10914
+  },
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R5/work/ladder/queries_pass2.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R5/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R5/work/ladder/hits_pass2.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 424.5,
+   "n_queries": 6670
+  }
+ ],
+ "sensitivity": "very-sensitive",
+ "n_rep": 3,
+ "db_proteins": 3011845,
+ "db_species": 192,
+ "round1_placed": {
+  "Ambotri": "Archaeplastida",
+  "Arabtha": "Archaeplastida",
+  "Astrgub": "Chlorophyta",
+  "BryospKO2023": "Chlorophyta",
+  "Caullen": "Chlorophyta",
+  "Ceraric": "Archaeplastida",
+  "Charbra": "Archaeplastida",
+  "Chlainc": "Chlorophyta",
+  "Chlasch": "Chlorophyta",
+  "Chloatm": "Archaeplastida",
+  "Chlovul": "Chlorophyta",
+  "ClosspNIES67": "Archaeplastida",
+  "Coccsub": "Chlorophyta",
+  "Colescu": "Archaeplastida",
+  "Dunasal": "Chlorophyta",
+  "Edapdeb": "Chlorophyta",
+  "Gonipec": "Chlorophyta",
+  "Klebnit": "Archaeplastida",
+  "Marcpol": "Archaeplastida",
+  "Mesoend": "Archaeplastida",
+  "Mesovir": "Archaeplastida",
+  "Micrcom": "Chlorophyta",
+  "Ostrque": "Chlorophyta",
+  "Physpat": "Archaeplastida",
+  "Pleosta": "Chlorophyta",
+  "Prascol": "Archaeplastida",
+  "Raphsub": "Chlorophyta",
+  "Selamoe": "Archaeplastida",
+  "Spirmus": "Archaeplastida",
+  "Tetrsoc": "Chlorophyta",
+  "Ulvamut": "Chlorophyta",
+  "Volvafr": "Chlorophyta",
+  "Volvcar": "Chlorophyta"
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "n_taxa": 36,
+ "n_markers": 150,
+ "n_sites": 42663,
+ "occupancy_threshold": 0.8,
+ "model": "LG+G4",
+ "fixed_topology": true,
+ "iqtree_s": 16.6,
+ "cmd": "nice -n 10 iqtree3 -s /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/phylo/supermatrix.fa -te /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/phylo/guide_topology.nwk -m LG+G4 -T 4 -seed 11 -keep-ident --prefix /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/phylo/concat -redo -quiet",
+ "min_taxon_occupancy": 0.954,
+ "low_occupancy_taxa": {},
+ "total_tree_length": 14.7344
+}

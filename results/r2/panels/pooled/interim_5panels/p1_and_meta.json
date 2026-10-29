@@ -1,0 +1,294 @@
+{
+ "panels": [
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R8"
+ ],
+ "model": {
+  "covariates_used": [
+   "log_bl",
+   "log_n",
+   "frac_tx",
+   "mean_busco",
+   "log_dout"
+  ],
+  "method": "nb",
+  "alpha": 0.3938029367197654,
+  "phi": 1.0,
+  "n_controls": 32,
+  "panels": [
+   "R2",
+   "R3",
+   "R5",
+   "R6",
+   "R8"
+  ],
+  "fallback": "",
+  "n_loo_fallback": 0,
+  "covariates": [
+   "log_bl",
+   "log_n",
+   "frac_tx",
+   "mean_busco",
+   "log_dout"
+  ],
+  "tip_model": {
+   "covariates_used": [
+    "log_bl",
+    "mean_busco",
+    "log_dout"
+   ],
+   "method": "nb",
+   "alpha": 0.16006896314379943,
+   "phi": 1.0,
+   "n_controls": 11,
+   "panels": [
+    "R6"
+   ],
+   "fallback": "",
+   "n_loo_fallback": 0,
+   "covariates": [
+    "log_bl",
+    "frac_tx",
+    "mean_busco",
+    "log_dout"
+   ]
+  }
+ },
+ "n_controls_by_panel": {
+  "R2": 7,
+  "R3": 6,
+  "R5": 5,
+  "R6": 5,
+  "R8": 9
+ },
+ "depth_smd_all_events_vs_controls": 1.012421670282112,
+ "p1_mapping": {
+  "R6_fucophycidae": "node Fucophycidae of the R6 tree (= MRCA of sampled Fucophycidae; checked in p1_mapping.txt)"
+ },
+ "p1_missing_events": [
+  "R4_astrephomene",
+  "R4_volvox_africanus",
+  "R4_volvox_carteri"
+ ],
+ "p1": {
+  "k": 1,
+  "events": [
+   "R6_fucophycidae"
+  ],
+  "p_perm": [
+   0.1667
+  ],
+  "n_matched": [
+   5
+  ],
+  "stouffer_Z": 0.967421566101701,
+  "p_stouffer_one_sided": 0.16666666666666663,
+  "complete": false
+ },
+ "p1_meta": {
+  "k": 1,
+  "mu": 1.2744819059029593,
+  "se": 1.068580859938336,
+  "ci_low": -0.819936579576179,
+  "ci_high": 3.3689003913820974,
+  "tau2": NaN,
+  "q": NaN,
+  "pi_low": NaN,
+  "pi_high": NaN,
+  "p_one_sided": 0.11649609833408459,
+  "RR": 3.576847786243187,
+  "RR_low": 0.44045958775395205,
+  "RR_high": 29.046569632398676,
+  "PI_RR_low": NaN,
+  "PI_RR_high": NaN
+ },
+ "p1_meta_with_pleodorina": {
+  "k": 1,
+  "mu": 1.2744819059029593,
+  "se": 1.068580859938336,
+  "ci_low": -0.819936579576179,
+  "ci_high": 3.3689003913820974,
+  "tau2": NaN,
+  "q": NaN,
+  "pi_low": NaN,
+  "pi_high": NaN,
+  "p_one_sided": 0.11649609833408459,
+  "RR": 3.576847786243187,
+  "RR_low": 0.44045958775395205,
+  "RR_high": 29.046569632398676,
+  "PI_RR_low": NaN,
+  "PI_RR_high": NaN
+ },
+ "p1_tip_sensitivity": {
+  "p": [
+   0.1667
+  ],
+  "stouffer_Z": 0.967421566101701,
+  "p_stouffer_one_sided": 0.16666666666666663
+ },
+ "p1_tip_sensitivity_meta": {
+  "k": 1,
+  "mu": 1.2744819059029593,
+  "se": 1.068580859938336,
+  "ci_low": -0.819936579576179,
+  "ci_high": 3.3689003913820974,
+  "tau2": NaN,
+  "q": NaN,
+  "pi_low": NaN,
+  "pi_high": NaN,
+  "p_one_sided": 0.11649609833408459,
+  "RR": 3.576847786243187,
+  "RR_low": 0.44045958775395205,
+  "RR_high": 29.046569632398676,
+  "PI_RR_low": NaN,
+  "PI_RR_high": NaN
+ },
+ "secondary_all_nested": {
+  "k": 11,
+  "mu": 2.5895110821258127,
+  "se": 0.5299840455049822,
+  "ci_low": 1.4086330394146078,
+  "ci_high": 3.770389124837018,
+  "tau2": 2.3438577885326524,
+  "q": 1.0138568203226725,
+  "I2": 0.7715061392211302,
+  "pi_low": -1.0754215129837275,
+  "pi_high": 6.254443677235352,
+  "p_one_sided": 0.00031811417136472285,
+  "RR": 13.32325603251941,
+  "RR_low": 4.0903602195439,
+  "RR_high": 43.39694838120107,
+  "PI_RR_low": 0.34115392418128904,
+  "PI_RR_high": 520.3198284588293,
+  "events": [
+   "R2_pezizomycotina",
+   "R2_neolecta",
+   "R2_agaricomycetes",
+   "R2_tremella",
+   "R2_endogone",
+   "R3_embryophyta",
+   "R3_chara",
+   "R5_florideophyceae",
+   "R6_fucophycidae",
+   "R6_dictyota",
+   "R8_heterocyst"
+  ]
+ },
+ "secondary_one_per_panel": {
+  "k": 5,
+  "mu": 2.4111982644766106,
+  "se": 0.24816340442960483,
+  "ci_low": 1.7221861949588124,
+  "ci_high": 3.1002103339944087,
+  "tau2": 0.0,
+  "q": 1.0214913299076156,
+  "I2": 0.02103917016070933,
+  "pi_low": 1.6214315549428504,
+  "pi_high": 3.200964974010371,
+  "p_one_sided": 0.0003141067294596166,
+  "RR": 11.147310571663937,
+  "RR_low": 5.596750687465403,
+  "RR_high": 22.20262075625978,
+  "PI_RR_low": 5.060329273229049,
+  "PI_RR_high": 24.556214876870524
+ },
+ "secondary_T_only": {
+  "k": 11,
+  "mu": 2.5895110821258127,
+  "se": 0.5299840455049822,
+  "ci_low": 1.4086330394146078,
+  "ci_high": 3.770389124837018,
+  "tau2": 2.3438577885326524,
+  "q": 1.0138568203226725,
+  "I2": 0.7715061392211302,
+  "pi_low": -1.0754215129837275,
+  "pi_high": 6.254443677235352,
+  "p_one_sided": 0.00031811417136472285,
+  "RR": 13.32325603251941,
+  "RR_low": 4.0903602195439,
+  "RR_high": 43.39694838120107,
+  "PI_RR_low": 0.34115392418128904,
+  "PI_RR_high": 520.3198284588293,
+  "events": [
+   "R2_pezizomycotina",
+   "R2_neolecta",
+   "R2_agaricomycetes",
+   "R2_tremella",
+   "R2_endogone",
+   "R3_embryophyta",
+   "R3_chara",
+   "R5_florideophyceae",
+   "R6_fucophycidae",
+   "R6_dictyota",
+   "R8_heterocyst"
+  ]
+ },
+ "secondary_nested_internal_only": {
+  "k": 6,
+  "mu": 1.2240394702616346,
+  "se": 0.31519630081551175,
+  "ci_low": 0.41380158441712456,
+  "ci_high": 2.034277356106145,
+  "tau2": 0.0,
+  "q": 0.44363872763785367,
+  "I2": 0.0,
+  "pi_low": 0.34891424368595403,
+  "pi_high": 2.099164696837315,
+  "p_one_sided": 0.005800878414894266,
+  "RR": 3.4008978499026816,
+  "RR_low": 1.512556982233429,
+  "RR_high": 7.646724269782067,
+  "PI_RR_low": 1.4175276231854623,
+  "PI_RR_high": 8.15935153311607,
+  "events": [
+   "R2_pezizomycotina",
+   "R2_agaricomycetes",
+   "R3_embryophyta",
+   "R5_florideophyceae",
+   "R6_fucophycidae",
+   "R8_heterocyst"
+  ]
+ },
+ "secondary_all_nested_stouffer": {
+  "Z": 3.1859231804677166,
+  "p": 0.0007214645269399144
+ },
+ "descriptive_origins": {
+  "k": 15,
+  "mu": 1.9864828343591387,
+  "se": 0.3667425379935675,
+  "ci_low": 1.1998983209776672,
+  "ci_high": 2.7730673477406103,
+  "tau2": 1.3794735569680743,
+  "q": 0.9952191475147832,
+  "I2": 0.6908011387387009,
+  "pi_low": -0.6717133204495829,
+  "pi_high": 4.64467898916786,
+  "p_one_sided": 4.543083052068185e-05,
+  "RR": 7.289849013551785,
+  "RR_low": 3.3197793536559512,
+  "RR_high": 16.007659840964646,
+  "PI_RR_low": 0.510832607639059,
+  "PI_RR_high": 104.02996567895408,
+  "events": [
+   "R2_hyphae",
+   "R2_gonapodya",
+   "R2_fonticula",
+   "R3_streptophyte_filaments",
+   "R5_eurhodophytina",
+   "R5_bangiopsis",
+   "R5_compsopogon",
+   "R6_px_filaments",
+   "R8_oscillatoriales",
+   "R8_leptolyngbya",
+   "R8_pseudanabaena",
+   "R8_coleofasciculus",
+   "R8_spirulina",
+   "R8_hyella",
+   "R8_hydrococcus"
+  ]
+ }
+}
