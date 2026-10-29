@@ -1,0 +1,8 @@
+Corrections for report v2 final edit (from figure agent, 2026-10-29 ~22:45; and citation audit report/citation_audit_v2.txt)
+1. Motif-binding LOO: 6 of 7 estimates negative (not 5); only 'without volvocines' positive (+0.005).
+2. Internal origins pooled RR: 0.82 spec-literal (0.835 floored); not 0.84.
+3. P1 vs tip controls, spec-literal: p = 0.49, RR 0.81 [0.32, 2.03] (0.57/0.80 are floored variant).
+4. Volvocine DUF3707 (pherophorin-like), Peptidase_M11 (matrix metalloprotease) and guanylate cyclase families are DUPLICATIONS (not gains) at all four volvocine events.
+5. 'Kinases at 5 of 7 events' = one new kinase-domain family per event.
+6. Duplication agreement 4–8% only for the 6 internal stems; incl. 2 single-species stems: 11% and 22% (agreement_pooled.tsv).
+7. Citation audit: apply corrected reference list and the 8 rewordings (Lynch & Conery; Herrero; Durand; Shiu & Bleecker; Brunet & King; EukaryOMA citation; Pagel 1999 for lambda).
