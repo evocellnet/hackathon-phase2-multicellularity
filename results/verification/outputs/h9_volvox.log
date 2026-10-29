@@ -1,0 +1,6 @@
+gene trees: 250
+primary T_volvocine_tgv (P=Chlamydomonas_TGV, M=Gonium_Volvocaceae, S=Chlamydomonas): n_genes=177 r_i=0.16297 CI~[0.0547,0.2330] excluded={'MRCA_not_M': 53, 'lt2_M': 20}
+   reported: n_genes=177 r_i=0.16297; same gene set: True; max |diff r_g| = 4.66e-06
+buggy single-edge alternative (P=TGV_clade, M=Gonium_Volvocaceae, S=Tetrsoc): n_genes=64 r_i=-0.10847 CI~[-0.2434,0.0380] excluded={'no_S': 113, 'MRCA_not_M': 53, 'lt2_M': 20}
+check T_metazoa: n_genes=250 r_i=-0.12254 CI~[-0.1795,-0.0646] excluded={}
+   reported: n_genes=250 r_i=-0.12254; same gene set: True; max |diff r_g| = 4.87e-06

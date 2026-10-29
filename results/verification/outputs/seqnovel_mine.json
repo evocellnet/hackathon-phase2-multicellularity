@@ -1,0 +1,27 @@
+{
+ "Choanozoa>Metazoa": {
+  "hog_gains": 760,
+  "seq_novel": 594,
+  "non_novel": 166
+ },
+ "Eumycetozoa>Dictyostelia": {
+  "hog_gains": 598,
+  "seq_novel": 507,
+  "non_novel": 91
+ },
+ "Alveolata>Myzozoa": {
+  "hog_gains": 186,
+  "seq_novel": 152,
+  "non_novel": 34
+ },
+ "TGV_clade>Gonium_Volvocaceae": {
+  "hog_gains": 87,
+  "seq_novel": 56,
+  "non_novel": 31
+ },
+ "Chlamydomonas_TGV>TGV_clade": {
+  "hog_gains": 78,
+  "seq_novel": 32,
+  "non_novel": 46
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "C05a_SH2_before_PK_proteins": {
+  "Choanoflagellata": 97,
+  "Metazoa": 212,
+  "Filasterea": 17
+ },
+ "C01b_outside_Metazoa_species_PF00110": [],
+ "C10b_outside_Anydrophyta_species_PF03514": [],
+ "C01a_PF-HOG_PF00110_origin_Metazoa_stem": {
+  "n_hog_rows": 69,
+  "n_families": 4,
+  "families": [
+   "HOG0003847",
+   "HOG0003900",
+   "HOG0003915",
+   "HOG0004103"
+  ]
+ },
+ "C10a_PF-HOG_PF03514_origin_Anydrophyta_stem": {
+  "n_hog_rows": 57,
+  "n_families": 1,
+  "families": [
+   "HOG0038019"
+  ]
+ },
+ "C05b_ext_PF-HOG_PF00102_any_level_present_at_Choanozoa_with_Metazoa_and_nonmetazoan_Filozoa": {
+  "n": 140,
+  "n_families": 10
+ }
+}

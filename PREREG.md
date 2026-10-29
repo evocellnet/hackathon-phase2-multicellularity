@@ -81,3 +81,7 @@ Any change after the freeze is added here with date, reason and whether it was m
   independent of Ancestra) and the exploratory gene-level RER/Kr/Kc had already been run (15:21–15:40); Dev-1–Dev-4 concern only the
   gene-content tests (H1/H2) and gain ladder, not H9. Earlier timestamp edits (Dev-2, Dev-4) corrected values written without checking
   the clock; they are visible in git history.
+- **Correction (2026-10-29 01:18).** Dev-1's time "~14:45" was an estimate; the commit introducing Dev-1 is 2026-10-28 14:29 (verified by
+  the independent verification agent, results/verification/verification_report.md). The pre-registration tag prereg-v1 is 14:20; the
+  first eukaryote Ancestra stage output (families) appeared later (completion noticed 18:41) and the first eukaryote primary results
+  were committed at 22:43.

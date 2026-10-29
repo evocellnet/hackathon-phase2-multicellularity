@@ -1,0 +1,338 @@
+branch	branch_class	transition_id	role	stem_path	branch_length	in_U	U_exclusion	adjacent_to_stem	h9_pool
+Bikonta	within_unicellular				0.01011	False	root_child	False	False
+Gefioke	within_unicellular				0.584058	False	terminal	False	False
+Parapyr	within_unicellular				0.772752	False	terminal	False	False
+Diaphoretickes	within_unicellular				0.0322361	True		False	True
+Guilthe	within_unicellular				0.60976	False	terminal	False	False
+Archaeplastida	within_unicellular				0.0434211	True		False	True
+Cyanpar	within_unicellular				0.466306	False	terminal	False	False
+Rhodophyta_Rhodelphidia	within_unicellular				0.0532877	True		False	False
+Rhodemar	within_unicellular				0.551246	False	terminal	False	False
+Rhodophyta	within_unicellular				0.163002	False	sister_tips<2	False	False
+Cyanidiophyceae	within_unicellular				0.0639913	True		False	False
+Cyanmer	within_unicellular				0.921008	False	terminal	False	False
+Galdsul	within_unicellular				0.533017	False	terminal	False	False
+Rhodophytina	within_unicellular				0.0891189	False	adjacent_to_stem	True	False
+Eurhodophytina	stem	T_rhodophyta	stem	Eurhodophytina	0.0899156	False	class:stem	True	False
+Bangiaceae	within_multicellular				0.500757	False	class:within_multicellular	True	False
+Porpumb	within_multicellular				0.0770288	False	class:within_multicellular	False	False
+Pyroyez	within_multicellular				0.0748602	False	class:within_multicellular	False	False
+Rhodymeniophycidae	nested_stem	T_florideophyceae	nested_stem	Rhodymeniophycidae	0.238013	False	class:nested_stem	False	False
+Choncri	within_multicellular				0.204232	False	class:within_multicellular	False	False
+Gracilariaceae	within_multicellular				0.147993	False	class:within_multicellular	False	False
+Agarchi	within_multicellular				0.11974	False	class:within_multicellular	False	False
+Graccho	within_multicellular				0.0899836	False	class:within_multicellular	False	False
+Proteorhodophytina	within_unicellular				0.0398616	False	adjacent_to_stem	True	False
+Porppur	within_unicellular				0.551271	False	terminal	False	False
+Rhodmar	within_unicellular				0.446568	False	terminal	False	False
+Viridiplantae	within_unicellular				0.13021	True		False	False
+Prascol	within_unicellular				0.558366	False	terminal	False	False
+Chlorophyta_Streptophyta	within_unicellular				0.0277718	False	sister_tips<2	False	False
+Chlorophyta	within_unicellular				0.0474381	True		False	True
+Mamiellales	within_unicellular				0.214098	True		False	False
+Micrcom	within_unicellular				0.24615	False	terminal	False	False
+Ostrtau	within_unicellular				0.370601	False	terminal	False	False
+UTC_clade	within_unicellular				0.109661	True		False	True
+CS_clade	within_unicellular				0.104985	True		False	False
+Raphsub	within_unicellular				0.277403	False	terminal	False	False
+Chlamydomonadales	within_unicellular				0.0464068	False	sister_tips<2	False	False
+Dunasal	within_unicellular				0.303405	False	terminal	False	False
+Reinhardtinia	within_unicellular				0.160791	False	sister_tips<2	False	False
+Edapdeb	within_unicellular				0.0820626	False	terminal	False	False
+Chlamydomonas_TGV	within_unicellular				0.0188277	False	sister_tips<2	True	False
+Chlamydomonas	within_unicellular				0.0705656	False	adjacent_to_stem	True	False
+Chlainc	within_unicellular				0.018716	False	terminal	False	False
+Chlarei	within_unicellular				0.017855	False	terminal	False	False
+Chlasch	within_unicellular				0.0224139	False	terminal	False	False
+TGV_clade	stem	T_volvocine_tgv	path_edge		0.0108204	False	class:stem	True	False
+Tetrsoc	stem	T_volvocales_tetrabaena	stem	Tetrsoc	0.143081	False	class:stem	True	False
+Gonium_Volvocaceae	stem	T_volvocales_gv;T_volvocine_tgv	stem;stem	Gonium_Volvocaceae	0.00702763	False	class:stem	True	False
+Gonipec	within_multicellular				0.0829768	False	class:within_multicellular	False	False
+Astrephomene_Volvocaceae	within_multicellular				0.00959582	False	class:within_multicellular	False	False
+Astrgub	within_multicellular				0.0698393	False	class:within_multicellular	False	False
+Volvocaceae	within_multicellular				0.0301212	False	class:within_multicellular	False	False
+Pleosta	within_multicellular				0.0405378	False	class:within_multicellular	False	False
+Volvafr	within_multicellular				0.0579543	False	class:within_multicellular	False	False
+Volvcar	within_multicellular				0.0634051	False	class:within_multicellular	False	False
+Trebouxiophyceae	within_unicellular				0.065259	True		False	False
+Chlovul	within_unicellular				0.297486	False	terminal	False	False
+Coccsub	within_unicellular				0.259778	False	terminal	False	False
+Ulvophyceae	within_unicellular				0.0444645	False	adjacent_to_stem	True	False
+Ulvamut	stem	T_ulvophyceae	stem	Ulvamut	0.582376	False	class:stem	True	False
+Bryopsidales	grey_zone	T_siphonous_coenocytic	grey_stem	Bryopsidales	0.149309	False	class:grey_zone	True	False
+BryospKO2023	grey_zone				0.251401	False	class:grey_zone	False	False
+Caullen	grey_zone				0.424209	False	class:grey_zone	False	False
+Ostrque	grey_zone				0.297457	False	class:grey_zone	False	False
+Streptophyta	within_unicellular				0.056899	False	adjacent_to_stem	True	False
+Klebsormidiophyceae_Phragmoplastophyta	stem	T_streptophyta	stem	Klebsormidiophyceae_Phragmoplastophyta	0.0685881	False	class:stem	False	False
+Klebnit	within_multicellular				0.220417	False	class:within_multicellular	False	False
+Streptophytina	within_multicellular				0.0271744	False	class:within_multicellular	True	False
+Charbra	nested_stem	T_chara	nested_stem	Charbra	0.229486	False	class:nested_stem	False	False
+Coleochaetophyceae_Anydrophyta	within_multicellular				0.0169634	False	class:within_multicellular	True	False
+Colescu	within_multicellular				0.225572	False	class:within_multicellular	False	False
+Anydrophyta	within_multicellular				0.0105089	False	class:within_multicellular	True	False
+Embryophyta	nested_stem	T_embryophyta	nested_stem	Embryophyta	0.0745689	False	class:nested_stem	True	False
+Setaphyta	within_multicellular				0.0268585	False	class:within_multicellular	False	False
+Marcpol	within_multicellular				0.128173	False	class:within_multicellular	False	False
+Physpat	within_multicellular				0.158072	False	class:within_multicellular	False	False
+Tracheophyta	within_multicellular				0.017978	False	class:within_multicellular	False	False
+Selamoe	within_multicellular				0.194914	False	class:within_multicellular	False	False
+Euphyllophyta	within_multicellular				0.0211335	False	class:within_multicellular	False	False
+Ceraric	within_multicellular				0.163079	False	class:within_multicellular	False	False
+Magnoliopsida	within_multicellular				0.106015	False	class:within_multicellular	False	False
+Ambotri	within_multicellular				0.11022	False	class:within_multicellular	False	False
+Arabtha	within_multicellular				0.168281	False	class:within_multicellular	False	False
+Zygnematophyceae	other	T_rev_zygnematophyceae	reversal_stem	Zygnematophyceae	0.0322402	False	class:other	True	False
+Spirmus	other				0.336353	False	class:other	False	False
+Zygnematophycidae	other				0.0315409	False	class:other	False	False
+ClosspNIES67	other				0.277587	False	class:other	False	False
+Mesoend	other				0.180271	False	class:other	False	False
+Mesostigmatophyceae_Chlorokybophyceae	within_unicellular				0.0463193	False	adjacent_to_stem	True	False
+Chloatm	grey_zone				0.273914	False	class:grey_zone	False	False
+Mesovir	within_unicellular				0.302831	False	terminal	False	False
+Haptista	within_unicellular				0.0894031	True		False	False
+Raphhet	within_unicellular				0.599581	False	terminal	False	False
+Prymnesiales	within_unicellular				0.344666	False	sister_tips<2	False	False
+Chrypar	within_unicellular				0.257774	False	terminal	False	False
+Prympar	within_unicellular				0.221142	False	terminal	False	False
+TSAR	within_unicellular				0.0244766	True		False	False
+Telosub	within_unicellular				0.647701	False	terminal	False	False
+Sar	within_unicellular				0.02714	False	sister_tips<2	False	False
+Alveolata	within_unicellular				0.11021	True		False	True
+Ciliophora	within_unicellular				0.159558	True		False	False
+Stencoe	within_unicellular				0.716959	False	terminal	False	False
+Intramacronucleata	within_unicellular				0.132536	False	sister_tips<2	False	False
+Platmac	within_unicellular				0.605355	False	terminal	False	False
+Oligohymenophorea	within_unicellular				0.184958	False	sister_tips<2	False	False
+Paratet	within_unicellular				0.595746	False	terminal	False	False
+Tetrthe	within_unicellular				0.441149	False	terminal	False	False
+Myzozoa	within_unicellular				0.187088	True		False	False
+Perkmar	within_unicellular				0.63749	False	terminal	False	False
+Apicomplexa_Chrompodellida	within_unicellular				0.0943876	False	sister_tips<2	False	False
+Vitrbra	within_unicellular				0.391502	False	terminal	False	False
+Apicomplexa	within_unicellular				0.105702	False	sister_tips<2	False	False
+Plasfal	within_unicellular				0.907668	False	terminal	False	False
+Toxogon	within_unicellular				0.458129	False	terminal	False	False
+Rhizaria	within_unicellular				0.105893	False	adjacent_to_stem	True	False
+Plasbra	grey_zone	T_plasmodiophorid_plasmodium	grey_stem	Plasbra	0.577425	False	class:grey_zone	False	False
+Cercozoa	within_unicellular				0.0727159	False	sister_tips<2	True	False
+Brevmot	within_unicellular				0.47061	False	terminal	True	False
+Guttvul	stem	T_guttulinopsis	stem	Guttvul	0.844221	False	class:stem	False	False
+Paulmic	within_unicellular				0.496373	False	terminal	True	False
+Chlorarachniophyceae	within_unicellular				0.32444	False	adjacent_to_stem	True	False
+Bigenat	within_unicellular				0.185438	False	terminal	False	False
+Lothglo	within_unicellular				0.169197	False	terminal	False	False
+Stramenopiles	within_unicellular				0.0835152	True		False	True
+Bigyra	within_unicellular				0.0680525	True		False	False
+Caferoe	within_unicellular				0.758014	False	terminal	False	False
+Labyrinthulomycetes	within_unicellular				0.136821	False	sister_tips<2	True	False
+LabyspSRHaC	grey_zone	T_labyrinthula_nets	grey_stem	LabyspSRHaC	0.850741	False	class:grey_zone	False	False
+Thraustochytriidae	within_unicellular				0.350849	False	sister_tips<2	True	False
+Auralim	within_unicellular				0.0847947	False	terminal	False	False
+Hondfer	within_unicellular				0.0936975	False	terminal	False	False
+Gyrista	within_unicellular				0.0548615	False	adjacent_to_stem	True	False
+Ochrophyta	within_unicellular				0.10064	False	adjacent_to_stem	True	False
+Aureano	within_unicellular				0.612735	False	terminal	True	False
+Heteaka	within_unicellular				0.426314	False	terminal	True	False
+Nannsal	within_unicellular				0.456221	False	terminal	True	False
+Potemal	within_unicellular				0.642195	False	terminal	True	False
+Bacillariophyta	within_unicellular				0.374067	False	adjacent_to_stem	True	False
+Phaetri	within_unicellular				0.285856	False	terminal	False	False
+Thalpse	within_unicellular				0.246592	False	terminal	False	False
+PX_clade	stem	T_px_filaments	stem	PX_clade	0.137494	False	class:stem	True	False
+Phaecon	within_multicellular				0.335848	False	class:within_multicellular	True	False
+Phaeophyceae_Schizocladia	within_multicellular				0.0873015	False	class:within_multicellular	True	False
+Schiisc	within_multicellular				0.175788	False	class:within_multicellular	True	False
+Phaeophyceae	nested_stem	T_phaeophyceae	nested_stem	Phaeophyceae	0.0577767	False	class:nested_stem	False	False
+Discmes	within_multicellular				0.207556	False	class:within_multicellular	False	False
+Dictyotophycidae_Fucophycidae	within_multicellular				0.0620879	False	class:within_multicellular	False	False
+Dictdic	within_multicellular				0.114842	False	class:within_multicellular	False	False
+Fucophycidae	within_multicellular				0.0346892	False	class:within_multicellular	False	False
+Ectosil	within_multicellular				0.0602506	False	class:within_multicellular	False	False
+Fucuser	within_multicellular				0.0865673	False	class:within_multicellular	False	False
+Sacclat	within_multicellular				0.0822806	False	class:within_multicellular	False	False
+Xanthophyceae	grey_zone	T_xanthophyceae_filaments	grey_stem	Xanthophyceae	0.157595	False	class:grey_zone	False	False
+Tribmin	grey_zone				0.143642	False	class:grey_zone	False	False
+Vauclit	grey_zone				0.31652	False	class:grey_zone	False	False
+Oomycota	grey_zone	T_oomycete_hyphae	grey_stem	Oomycota	0.238192	False	class:grey_zone	False	False
+Saprpar	grey_zone				0.235926	False	class:grey_zone	False	False
+Peronosporomycetes	grey_zone				0.107722	False	class:grey_zone	False	False
+Phytinf	grey_zone				0.135465	False	class:grey_zone	False	False
+Pytholi	grey_zone				0.103718	False	class:grey_zone	False	False
+Discoba	within_unicellular				0.0665878	True		False	False
+Andagod	within_unicellular				0.81257	False	terminal	False	False
+Discicristata	within_unicellular				0.0387827	False	sister_tips<2	False	False
+Euglenozoa	within_unicellular				0.1711	True		False	False
+Euglgra	within_unicellular				0.50687	False	terminal	False	False
+Metakinetoplastina	within_unicellular				0.661509	False	sister_tips<2	False	False
+Bodosal	within_unicellular				0.348587	False	terminal	False	False
+Trypbru	within_unicellular				0.370078	False	terminal	False	False
+Heterolobosea	within_unicellular				0.0781109	True		False	False
+Pharkir	within_unicellular				0.512093	False	terminal	False	False
+Tetramitia	within_unicellular				0.149104	False	sister_tips<2	True	False
+Acrakon	stem	T_acrasis	stem	Acrakon	0.407183	False	class:stem	False	False
+Neovdam	within_unicellular				0.511326	False	terminal	True	False
+Naegleriidae	within_unicellular				0.295958	False	adjacent_to_stem	True	False
+Naeggru	within_unicellular				0.187815	False	terminal	False	False
+Willmag	within_unicellular				0.176001	False	terminal	False	False
+Podiata	within_unicellular				0.01011	False	root_child	False	False
+Amorphea	within_unicellular				0.0178824	True		False	True
+Amoebozoa	within_unicellular				0.0633063	True		False	True
+Discosea	within_unicellular				0.0528114	True		False	False
+Acancas	within_unicellular				0.41402	False	terminal	False	False
+Stygreg	within_unicellular				0.540877	False	terminal	False	False
+Evosea	within_unicellular				0.0376579	True		False	True
+Mastbal	within_unicellular				0.668785	False	terminal	False	False
+Eumycetozoa	within_unicellular				0.0758403	False	adjacent_to_stem	True	False
+Dictyostelia	stem	T_dictyostelia	stem	Dictyostelia	0.253019	False	class:stem	False	False
+Acytosteliales	within_multicellular				0.05664	False	class:within_multicellular	False	False
+Cavefas	within_multicellular				0.204991	False	class:within_multicellular	False	False
+Acytosteliaceae	within_multicellular				0.0668936	False	class:within_multicellular	False	False
+Acytsub	within_multicellular				0.121263	False	class:within_multicellular	False	False
+Hetepal	within_multicellular				0.13303	False	class:within_multicellular	False	False
+Dictyosteliales	within_multicellular				0.0612133	False	class:within_multicellular	False	False
+Tieglac	within_multicellular				0.190028	False	class:within_multicellular	False	False
+Dictyostelium	within_multicellular				0.0987794	False	class:within_multicellular	False	False
+Dictdis	within_multicellular				0.0878077	False	class:within_multicellular	False	False
+Dictpur	within_multicellular				0.0916135	False	class:within_multicellular	False	False
+Myxogastria_Ceratiomyxa	within_unicellular				0.0415875	False	adjacent_to_stem	True	False
+Cerafru	within_unicellular				0.344387	False	terminal	True	False
+Physpol	grey_zone	T_myxogastria_plasmodium	grey_stem	Physpol	0.326547	False	class:grey_zone	False	False
+Variosea	within_unicellular				0.169418	True		False	False
+Protnoc	within_unicellular				0.296544	False	terminal	False	False
+Cavosteliaceae	within_unicellular				0.0027734	False	sister_tips<2	False	False
+Cavoapo	within_unicellular				0.347649	False	terminal	False	False
+Planfun	within_unicellular				0.32686	False	terminal	False	False
+Tubulinea	within_unicellular				0.119188	True		False	False
+Vermver	within_unicellular				0.376761	False	terminal	False	False
+Elardia	within_unicellular				0.113775	False	sister_tips<2	True	False
+Arceint	within_unicellular				0.402789	False	terminal	True	False
+Coprpro	stem	T_copromyxa	stem	Coprpro	0.397528	False	class:stem	False	False
+Rhizsax	within_unicellular				0.483417	False	terminal	True	False
+Obazoa	within_unicellular				0.0174509	True		False	False
+Pygsbif	within_unicellular				0.687162	False	terminal	False	False
+Apusomonadida_Opisthokonta	within_unicellular				0.00930231	False	sister_tips<2	False	False
+Thectra	within_unicellular				0.730398	False	terminal	False	False
+Opisthokonta	within_unicellular				0.0446351	False	sister_tips<2	False	False
+Holomycota	within_unicellular				0.0604514	True		False	True
+Fungi	within_unicellular				0.0374236	True		False	False
+Rozeall	within_unicellular				0.621565	False	terminal	False	False
+Aphelida_Eumycota	within_unicellular				0.0281951	False	sister_tips<2	False	False
+Paratri	within_unicellular				0.553084	False	terminal	False	False
+Eumycota	within_unicellular				0.0350967	False	sister_tips<2	True	False
+Blastocladiomycota_Amastigomycota	stem	T_fungi_hyphae	path_edge		0.0115619	False	class:stem	False	False
+Allomac	other				0.624595	False	class:other	True	False
+Amastigomycota	stem	T_fungi_hyphae	stem	Blastocladiomycota_Amastigomycota;Amastigomycota	0.0446531	False	class:stem	False	False
+Mucoromycota_Dikarya	within_multicellular				0.019874	False	class:within_multicellular	False	False
+Dikarya	within_multicellular				0.091562	False	class:within_multicellular	False	False
+Ascomycota	within_multicellular				0.129615	False	class:within_multicellular	False	False
+Taphrinomycotina	within_multicellular				0.0347021	False	class:within_multicellular	True	False
+Neolirr	nested_stem	T_fungi_neolecta	nested_stem	Neolirr	0.359469	False	class:nested_stem	True	False
+Saitcom	other	T_rev_saitoella	reversal_stem	Saitcom	0.306707	False	class:other	True	False
+Schipom	other	T_rev_schizosaccharomyces	reversal_stem	Schipom	0.522963	False	class:other	True	False
+Taphdef	within_multicellular				0.419967	False	class:within_multicellular	True	False
+saccharomyceta	within_multicellular				0.0625301	False	class:within_multicellular	True	False
+Pezizomycotina	nested_stem	T_fungi_pezizomycotina	nested_stem	Pezizomycotina	0.113087	False	class:nested_stem	True	False
+Pyroomp	within_multicellular				0.252488	False	class:within_multicellular	False	False
+leotiomyceta	within_multicellular				0.112242	False	class:within_multicellular	False	False
+Aspenid	within_multicellular				0.22392	False	class:within_multicellular	False	False
+Zymobre	within_multicellular				0.291688	False	class:within_multicellular	False	False
+sordariomyceta	within_multicellular				0.0780018	False	class:within_multicellular	False	False
+Botrcin	within_multicellular				0.134125	False	class:within_multicellular	False	False
+Neurcra	within_multicellular				0.212242	False	class:within_multicellular	False	False
+Saccharomycotina	other	T_rev_saccharomycotina	reversal_stem	Saccharomycotina	0.10748	False	class:other	True	False
+Liposta	other				0.273553	False	class:other	False	False
+Sacccer	other				0.649874	False	class:other	False	False
+Yarrlip	other				0.449535	False	class:other	False	False
+Basidiomycota	within_multicellular				0.137693	False	class:within_multicellular	True	False
+Rhodtor	other	T_rev_rhodotorula	reversal_stem	Rhodtor	0.382758	False	class:other	False	False
+Ustilaginomycotina_Agaricomycotina	within_multicellular				0.0251687	False	class:within_multicellular	True	False
+Ustimay	within_multicellular				0.397094	False	class:within_multicellular	False	False
+Wallemiomycotina_Agaricomycotina	within_multicellular				0.0330807	False	class:within_multicellular	False	False
+Wallmel	within_multicellular				0.450505	False	class:within_multicellular	False	False
+Agaricomycotina	within_multicellular				0.039206	False	class:within_multicellular	True	False
+Agaricomycetes_Dacrymycetes	nested_stem	T_fungi_agaricomycetes	nested_stem	Agaricomycetes_Dacrymycetes	0.073147	False	class:nested_stem	False	False
+Dacrpri	within_multicellular				0.274405	False	class:within_multicellular	False	False
+Agaricales	within_multicellular				0.125666	False	class:within_multicellular	False	False
+Schicom	within_multicellular				0.157357	False	class:within_multicellular	False	False
+Agaricineae	within_multicellular				0.0482389	False	class:within_multicellular	False	False
+Coprcin	within_multicellular				0.12353	False	class:within_multicellular	False	False
+Laccbic	within_multicellular				0.100046	False	class:within_multicellular	False	False
+Tremellales	within_multicellular				0.273763	False	class:within_multicellular	True	False
+Crypneo	other	T_rev_cryptococcus	reversal_stem	Crypneo	0.141742	False	class:other	True	False
+Tremmes	nested_stem	T_fungi_tremella	nested_stem	Tremmes	0.155336	False	class:nested_stem	True	False
+Mucoromycota	within_multicellular				0.0464507	False	class:within_multicellular	False	False
+Morthyg	within_multicellular				0.263833	False	class:within_multicellular	False	False
+Mucorineae	within_multicellular				0.208426	False	class:within_multicellular	False	False
+Mucolus	within_multicellular				0.0907657	False	class:within_multicellular	False	False
+Rhizmic	within_multicellular				0.0997034	False	class:within_multicellular	False	False
+Zoopagomycota	within_multicellular				0.0403673	False	class:within_multicellular	False	False
+Basimer	within_multicellular				0.213513	False	class:within_multicellular	False	False
+Coemumb	within_multicellular				0.484015	False	class:within_multicellular	False	False
+chytridiomyceta	within_unicellular				0.0608905	False	adjacent_to_stem	True	False
+Gonapro	stem	T_fungi_hyphae_gonapodya	stem	Gonapro	0.470671	False	class:stem	False	False
+Pirofin	within_unicellular				0.35063	False	terminal	True	False
+Chytridiomycetes	within_unicellular				0.0861938	False	adjacent_to_stem	True	False
+Batrden	within_unicellular				0.319307	False	terminal	False	False
+Spizpun	within_unicellular				0.199991	False	terminal	False	False
+Rotosphaerida	within_unicellular				0.0948849	False	adjacent_to_stem	True	False
+Fontalb	stem	T_fonticula	stem	Fontalb	0.69745	False	class:stem	False	False
+Parvatl	within_unicellular				0.370524	False	terminal	True	False
+Holozoa	within_unicellular				0.0574855	False	adjacent_to_stem	True	False
+Filozoa	within_unicellular				0.0167548	False	adjacent_to_stem	True	False
+Choanozoa	within_unicellular				0.0340384	False	adjacent_to_stem	True	False
+Choanoflagellata	within_unicellular				0.117227	False	adjacent_to_stem	True	False
+Acanthoecida	within_unicellular				0.134175	False	adjacent_to_stem	True	False
+Acanspe	within_unicellular				0.331029	False	terminal	False	False
+Didycos	within_unicellular				0.324226	False	terminal	False	False
+Salpingoecidae	within_unicellular				0.120244	False	adjacent_to_stem	True	False
+Barrmon	grey_zone	T_choano_colonies	grey_stem	Barrmon	0.412443	False	class:grey_zone	True	False
+Choafle	grey_zone	T_choano_colonies	grey_stem	Choafle	0.407277	False	class:grey_zone	True	False
+Codohol	grey_zone	T_choano_colonies	grey_stem	Codohol	0.523795	False	class:grey_zone	True	False
+Monobre	within_unicellular				0.428228	False	terminal	True	False
+Mylnflu	within_unicellular				0.463503	False	terminal	True	False
+Salpros	grey_zone	T_choano_colonies	grey_stem	Salpros	0.376402	False	class:grey_zone	True	False
+Metazoa	stem	T_metazoa	stem	Metazoa	0.101737	False	class:stem	False	False
+Mnemlei	within_multicellular				0.538359	False	class:within_multicellular	False	False
+ParaHoxozoa	within_multicellular				0.0415383	False	class:within_multicellular	False	False
+Bilateria	within_multicellular				0.0597123	False	class:within_multicellular	False	False
+Deuterostomia	within_multicellular				0.0230466	False	class:within_multicellular	False	False
+Stropur	within_multicellular				0.235695	False	class:within_multicellular	False	False
+Chordata	within_multicellular				0.0302706	False	class:within_multicellular	False	False
+Branbel	within_multicellular				0.179868	False	class:within_multicellular	False	False
+Homosap	within_multicellular				0.215425	False	class:within_multicellular	False	False
+Protostomia	within_multicellular				0.037676	False	class:within_multicellular	False	False
+Capitel	within_multicellular				0.241713	False	class:within_multicellular	False	False
+Ecdysozoa	within_multicellular				0.0888002	False	class:within_multicellular	False	False
+Caenele	within_multicellular				0.697011	False	class:within_multicellular	False	False
+Drosmel	within_multicellular				0.367391	False	class:within_multicellular	False	False
+Cnidaria	within_multicellular				0.0554058	False	class:within_multicellular	False	False
+Hydrvul	within_multicellular				0.325117	False	class:within_multicellular	False	False
+Nemavec	within_multicellular				0.199623	False	class:within_multicellular	False	False
+Uniplacotomia	within_multicellular				0.321625	False	class:within_multicellular	False	False
+Hoilhon	within_multicellular				0.0529476	False	class:within_multicellular	False	False
+Tricadh	within_multicellular				0.0566658	False	class:within_multicellular	False	False
+Porifera	within_multicellular				0.0302919	False	class:within_multicellular	False	False
+Calcarea_Homoscleromorpha	within_multicellular				0.0383464	False	class:within_multicellular	False	False
+Oscapea	within_multicellular				0.30575	False	class:within_multicellular	False	False
+Sycocil	within_multicellular				0.370577	False	class:within_multicellular	False	False
+Heteroscleromorpha	within_multicellular				0.139261	False	class:within_multicellular	False	False
+Amphque	within_multicellular				0.288162	False	class:within_multicellular	False	False
+Ephymue	within_multicellular				0.23421	False	class:within_multicellular	False	False
+Filasterea	within_unicellular				0.0615475	False	adjacent_to_stem	True	False
+Capsowc	grey_zone	T_capsaspora_aggregation	grey_stem	Capsowc	0.383949	False	class:grey_zone	False	False
+Minivib	within_unicellular				0.49889	False	terminal	True	False
+Pigochi	within_unicellular				0.370741	False	terminal	True	False
+Teretosporea	grey_zone	T_ichthyosporea_coenocytic	grey_stem	Teretosporea	0.0274841	False	class:grey_zone	False	False
+Ichthyosporea	grey_zone				0.0389679	False	class:grey_zone	False	False
+Chroper	grey_zone				0.394829	False	class:grey_zone	False	False
+Ichthyophonida	grey_zone				0.351655	False	class:grey_zone	False	False
+Amoepar	grey_zone				0.479731	False	class:grey_zone	False	False
+Creofra	grey_zone				0.124651	False	class:grey_zone	False	False
+Sphaarc	grey_zone				0.136125	False	class:grey_zone	False	False
+Pluriformea	grey_zone				0.0676543	False	class:grey_zone	False	False
+Coralim	grey_zone				0.656883	False	class:grey_zone	False	False
+Syssmul	grey_zone				0.340191	False	class:grey_zone	False	False
+CRuMs	within_unicellular				0.140207	True		False	False
+Diphrot	within_unicellular				0.43947	False	terminal	False	False
+Rigiram	within_unicellular				0.450296	False	terminal	False	False

@@ -212,3 +212,6 @@ one. Across species, high pherophorin counts are not specific to multicellular l
    architecture-novel tier.
 5. Three of the five failures (C06 b/c, C08 b, C12) come from the expectations or thresholds themselves, and two of those
    contradict the more recent or cited literature. They are not evidence against the pipeline.
+
+
+**Update 2026-10-29:** after the eukaryote gain ladder became available, C10 (GRAS) was re-scored as recovered, so the final count is **11/16** (results/positive_controls/euk/summary.md). The diagnoses above are unchanged.

@@ -1,0 +1,66 @@
+{
+ "Choanozoa>Metazoa": {
+  "n_parent": 35878,
+  "n_child": 30764,
+  "fam_with_dup": 1167,
+  "anc_with_dup": 1338,
+  "gains": 760,
+  "dups": 5677,
+  "dups_at_origin": 42,
+  "losses": 11593
+ },
+ "Eumycetozoa>Dictyostelia": {
+  "n_parent": 15542,
+  "n_child": 10942,
+  "fam_with_dup": 660,
+  "anc_with_dup": 694,
+  "gains": 598,
+  "dups": 1510,
+  "dups_at_origin": 18,
+  "losses": 6726
+ },
+ "Alveolata>Myzozoa": {
+  "n_parent": 21129,
+  "n_child": 14825,
+  "fam_with_dup": 1193,
+  "anc_with_dup": 1248,
+  "gains": 186,
+  "dups": 3618,
+  "dups_at_origin": 44,
+  "losses": 10152
+ },
+ "Amoebozoa>Evosea": {
+  "n_parent": 25705,
+  "n_child": 21165,
+  "fam_with_dup": 1021,
+  "anc_with_dup": 1051,
+  "gains": 261,
+  "losses": 7840,
+  "dups": 2913,
+  "dups_at_origin": 126
+ },
+ "Chlamydomonas_TGV>TGV_clade": {
+  "n_parent": 17731,
+  "n_child": 17040,
+  "fam_with_dup": 898,
+  "anc_with_dup": 1017,
+  "gains": 78,
+  "dups": 2050,
+  "dups_at_origin": 67,
+  "losses": 2886
+ },
+ "TGV_clade>Gonium_Volvocaceae": {
+  "n_parent": 17040,
+  "n_child": 17778,
+  "fam_with_dup": 1390,
+  "anc_with_dup": 1583,
+  "gains": 87,
+  "dups": 2809,
+  "dups_at_origin": 15,
+  "losses": 2173
+ },
+ "_meta": {
+  "n_top_groups": 74920,
+  "n_genes": 2969261
+ }
+}

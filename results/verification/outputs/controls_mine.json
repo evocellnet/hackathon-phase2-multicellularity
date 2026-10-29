@@ -1,0 +1,53 @@
+{
+ "C05a_SH2_before_PK_proteins": {
+  "Choanoflagellata": 97,
+  "Metazoa": 212,
+  "Filasterea": 17
+ },
+ "C01b_outside_Metazoa_species_PF00110": [],
+ "C10b_outside_Anydrophyta_species_PF03514": [],
+ "C01a_PF-HOG_PF00110_origin_Metazoa_stem": {
+  "n_hog_rows": 69,
+  "n_families": 4,
+  "families": [
+   "HOG0003847",
+   "HOG0003900",
+   "HOG0003915",
+   "HOG0004103"
+  ]
+ },
+ "C10a_PF-HOG_PF03514_origin_Anydrophyta_stem": {
+  "n_hog_rows": 57,
+  "n_families": 1,
+  "families": [
+   "HOG0038019"
+  ]
+ },
+ "C05b_PF-HOG_PF00102_at_Choanozoa_with_Metazoa_and_nonmetazoan_Filozoa": {
+  "n": 41,
+  "n_families": 8
+ },
+ "C10c_best_outside_hits": {
+  "HOG0038019": [
+   [
+    167.0,
+    "Soracel",
+    "prok",
+    4.1e-43
+   ],
+   [
+    139.0,
+    "Soracel",
+    "prok",
+    5.46e-33
+   ]
+  ]
+ },
+ "C10c_families_with_rep_best_hit_prok": 1,
+ "C01_families_with_any_outside_hit(seq-novel if 0)": {
+  "HOG0003847": 0,
+  "HOG0003900": 0,
+  "HOG0003915": 0,
+  "HOG0004103": 0
+ }
+}

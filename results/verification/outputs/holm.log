@@ -1,0 +1,16 @@
+                                analysis        label   scheme  n   k    T_obs        p    p_mcse
+0                                primary      primary  permute  7  10  0.65584  0.26937  0.004436
+1            S1 literal v3 'spec' scheme  sensitivity     spec  7  10  0.65584  0.00010  0.000100
+2                    S2 genome-only taxa  sensitivity  permute  6   7  0.58333  0.62964  0.004829
+3  S3 control r on unicellular tips only  sensitivity  permute  7   9  0.70714  0.14579  0.003529
+source p: {'H1H2': 0.113, 'H4': 0.361064, 'H5': 0.772223, 'H12': 0.020498, 'H9': 0.26937}
+H1H2: p=0.113 holm mine=0.452 reported=0.452 match=True
+H4: p=0.361064 holm mine=0.80811 reported=0.80811 match=True
+H5: p=0.772223 holm mine=0.80811 reported=0.80811 match=True
+H12: p=0.020498 holm mine=0.10249 reported=0.10249 match=True
+H9: p=0.26937 holm mine=0.80811 reported=0.80811 match=True
+H1H2 T_obs from per-transition u = 0.710884 n= 7
+H12 T_obs from per-transition u = 0.738095 n= 6
+H9 T_obs from u_percentile = 0.655846
+H9 u recomputed from r and r_oriented: [0.86364 0.86364 0.31818 0.13636 0.86364 0.68182 0.86364] T= 0.655844
+H9 own permutation: T_obs=0.65584 p=0.2766 (reported 0.26937)
