@@ -12,3 +12,5 @@ One line per rule, with the evidence that motivated it. Pruned at milestone M3 (
 8. Cap CPUs per agent (explicit thread count, `nice -n 19` for non-critical jobs). (Load 73 on 24 CPUs stalled the critical Ancestra run at t~2 h.)
 9. Isolate environments and always call env binaries by full path or env-first PATH; never install into the pinned env. (metapredict upgraded numpy/scipy, pulled torch; BUSCO 'No module named busco' cost two rebuilds.)
 10. Use the tool's background mode for long jobs and kill by PID, never `pkill -f` with a pattern in your own command line. (`( ... ) &` Pfam download died silently; pkill -f killed the caller twice, exit 144.)
+11. Analysis scripts that rewrite a whole results file must be run with all their tests together (or merge, not overwrite): running only H1/H2 overwrote the H4/H5/H12 rows (t≈12 h); a full deterministic rerun fixed it and doubled as a determinism check.
+12. Expect subagents to be blocked from writing report `.md` files in this harness; have them write `.txt` and convert, or extract their returned text programmatically (saved ~4,000 words of re-typing at t≈7 h).
