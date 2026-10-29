@@ -1,0 +1,26 @@
+code	species	taxid	source	data_type	mc_state	D	T	mc_conf	mc_ref	role	group	note
+Cavefas			R1:Cavefas		simple	0	0	clear	Kin & Schaap 2021 Genes 12:487; Knoll 2011 Annu Rev Earth Planet Sci 39:217 (aggregative fruiting; dictyostelids coded simple)	focal	Dictyostelia-group 1	
+Hetepal			R1:Hetepal		simple	0	0	clear	Kin & Schaap 2021 Genes 12:487; Knoll 2011 Annu Rev Earth Planet Sci 39:217 (aggregative fruiting; dictyostelids coded simple)	focal	Dictyostelia-group 2B	
+Tieglac			R1:Tieglac		simple	0	0	clear	Kin & Schaap 2021 Genes 12:487; Knoll 2011 Annu Rev Earth Planet Sci 39:217 (aggregative fruiting; dictyostelids coded simple)	focal	Dictyostelia-group 3	
+Dictdis			R1:Dictdis		simple	0	0	clear	Kin & Schaap 2021 Genes 12:487; Knoll 2011 Annu Rev Earth Planet Sci 39:217 (aggregative fruiting; dictyostelids coded simple)	focal	Dictyostelia-group 4	
+Dictpur			R1:Dictpur		simple	0	0	clear	Kin & Schaap 2021 Genes 12:487; Knoll 2011 Annu Rev Earth Planet Sci 39:217 (aggregative fruiting; dictyostelids coded simple)	focal	Dictyostelia-group 4	
+Acytsub			R1:Acytsub		simple	0	0	clear	Kin & Schaap 2021 Genes 12:487; Urushihara et al. 2015 BMC Genomics 16:80 (acellular stalk: no stalk-cell death)	focal	Dictyostelia-group 2A	flag: no stalk-cell death (cell-death contrast)
+Dictfir	Dictyostelium firmibasis	79012	UniProt:UP001344447	genome	simple	0	0	clear	Kin & Schaap 2021 Genes 12:487	focal	Dictyostelia-group 4	
+Polyvio	Polysphondylium violaceum	133409	UniProt:UP000695562	genome	simple	0	0	clear	Kin & Schaap 2021 Genes 12:487	focal	Dictyostelia-group 4 (violaceum clade)	
+Physpol			R1:Physpol		simple	0	0	grey	Schaap et al. 2015 Genome Biol Evol 8:109 (plasmodium coenocyte + sporocarps)	focal	Myxogastria	TRANSCRIPTOME: the Physarum genome annotation (Schaap et al. 2015) is not in NCBI/UniProt/EukProt/LukProt
+Cerafru			R1:Cerafru		simple	0	0	grey	Fiore-Donno et al. 2010 Protist 161:55 (plasmodium + sporophores)	focal	Ceratiomyxa	TRANSCRIPTOME
+Protnoc			R1:Protnoc		unicellular	0	0	clear	Shadwick et al. 2009 PLoS One 4:e6754 (protosteloid: single-cell fruiting)	control	Protosteliida	TRANSCRIPTOME
+Cavoapo			R1:Cavoapo		unicellular	0	0	clear	Shadwick et al. 2009 PLoS One 4:e6754	control	Protosteliida	TRANSCRIPTOME
+Planfun			R1:Planfun		unicellular	0	0	clear	Hillmann et al. 2018 (Planoprotostelium genome; protosteloid)	control	Variosea	
+Acancas			R1:Acancas		unicellular	0	0	clear	Clarke et al. 2013 Genome Biol 14:R11	control	Discosea	
+Stygreg			R1:Stygreg		unicellular	0	0	clear	Kang et al. 2017 MBE 34:2258	control	Discosea	TRANSCRIPTOME
+Vermver			R1:Vermver		unicellular	0	0	clear	Kang et al. 2017 MBE 34:2258	control	Tubulinea	TRANSCRIPTOME
+Arceint			R1:Arceint		unicellular	0	0	clear	Kang et al. 2017 MBE 34:2258	control	Tubulinea	TRANSCRIPTOME
+Rhizsax			R1:Rhizsax		unicellular	0	0	clear	Brown et al. 2011 Protist 162:277	control	Tubulinea	TRANSCRIPTOME
+Coprpro			R1:Coprpro		simple	0	0	clear	Brown et al. 2011 Protist 162:277 (sorocarpic aggregation)	focal	Tubulinea	TRANSCRIPTOME: only data for Copromyxa
+Mastbal			R1:Mastbal		unicellular	0	0	clear	Kang et al. 2017 MBE 34:2258	control	Archamoebae	
+Pelosch	Pelomyxa schiedti	1580589	NCBI:GCA_020536535.1	genome	unicellular	0	0	clear	Zadrobilkova et al. 2015 (Pelomyxa, multinucleate amoeba)	control	Archamoebae	genome
+Entahis	Entamoeba histolytica HM-1:IMSS	294381	UniProt:UP000001926	genome	unicellular	0	0	clear	Loftus et al. 2005 Nature 433:865	control	Archamoebae	parasite; reduced (BUSCO ~52)
+Capsowc			R1:Capsowc		simple	0	0	grey	Sebe-Pedros et al. 2013 eLife 2:e01287	outgroup	Opisthokonta-Holozoa	
+Monobre			R1:Monobre		unicellular	0	0	clear	King et al. 2008 Nature 451:783	outgroup	Opisthokonta-Holozoa	
+Spizpun			R1:Spizpun		unicellular	0	0	clear	James et al. 2006 Nature 443:818	outgroup	Opisthokonta-Fungi	

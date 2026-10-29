@@ -1,0 +1,22 @@
+code	species	taxid	source	data_type	mc_state	D	T	mc_conf	mc_ref	role	group	note
+Mesovir			R1:Mesovir		unicellular	0	0	clear	Wang S. et al. 2020 Nat Plants 6:95 (unicellular flagellate)	control	Mesostigmatophyceae	
+Chloatm			R1:Chloatm		unicellular	0	0	grey	Wang S. et al. 2020 Nat Plants 6:95 (sarcinoid cell packets)	control	Chlorokybophyceae	packets of cells (grey zone)
+Klebnit			R1:Klebnit		simple	0	0	clear	Hori et al. 2014 Nat Commun 5:3978 (unbranched filaments); Umen 2014 Cold Spring Harb Perspect Biol 6:a016170	focal	Klebsormidiophyceae	
+Charbra			R1:Charbra		complex	1	1	grey	Nishiyama et al. 2018 Cell 174:448 (nodes/internodes, cortication: secondary complexity)	focal	Charophyceae	second simple->complex event (tip)
+Colescu			R1:Colescu		simple	0	0	grey	Delwiche & Cooper 2015 Curr Biol 25:R899 (discoid parenchymatous thallus); Umen 2014 Cold Spring Harb Perspect Biol 6:a016170	focal	Coleochaetophyceae	TRANSCRIPTOME, BUSCO 46: only Coleochaetophyceae data (key position)
+Mesoend			R1:Mesoend		unicellular	0	0	clear	Cheng et al. 2019 Cell 179:1057	control	Zygnematophyceae	
+Spirmus			R1:Spirmus		unicellular	0	0	clear	Cheng et al. 2019 Cell 179:1057	control	Zygnematophyceae	
+ClosspNIES67			R1:ClosspNIES67		unicellular	0	0	clear	Hess et al. 2022 Curr Biol (unicellular desmids)	control	Zygnematophyceae	
+Cylibre	Cylindrocystis brebissonii	102167	EukProt:EP00271	transcriptome	unicellular	0	0	clear	One Thousand Plant Transcriptomes Initiative 2019 Nature 574:679	control	Zygnematophyceae	TRANSCRIPTOME; 4th Zygnematophyceae lineage (Zygnematales s.l.)
+Marcpol			R1:Marcpol		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Embryophyta-Marchantiophyta	
+Physpat			R1:Physpat		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Embryophyta-Bryophyta	
+Selamoe			R1:Selamoe		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Embryophyta-Lycopodiophyta	
+Ceraric			R1:Ceraric		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Embryophyta-Polypodiopsida	
+Ginkbil	Ginkgo biloba	3311	LukProt:EP01018	genome	complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Embryophyta-Acrogymnospermae	genome annotation (LukProt), BUSCO ~66
+Ambotri			R1:Ambotri		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Embryophyta-Angiospermae	
+Orysat	Oryza sativa subsp. indica	39946	UniProt:UP000007015	genome	complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Embryophyta-Angiospermae-monocots	
+Arabtha			R1:Arabtha		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Embryophyta-Angiospermae-eudicots	
+Prascol			R1:Prascol		unicellular	0	0	clear	Li L. et al. 2020 Nat Ecol Evol 4:1220	outgroup	Prasinodermophyta	
+Ostrtau			R1:Ostrtau		unicellular	0	0	clear	Derelle et al. 2006 PNAS 103:11647	outgroup	Chlorophyta-Mamiellophyceae	
+Chlovul			R1:Chlovul		unicellular	0	0	clear	Cecchin et al. 2019 Plant J 100:1289	outgroup	Chlorophyta-Trebouxiophyceae	
+Chlarei			R1:Chlarei		unicellular	0	0	clear	Umen & Herron 2021 Annu Rev Genet 55:603	outgroup	Chlorophyta-Chlorophyceae	

@@ -1,0 +1,31 @@
+code	species	taxid	source	data_type	mc_state	D	T	mc_conf	mc_ref	role	group	note
+Discmes			R1:Discmes		simple	0	0	clear	Denoeud et al. 2024 Cell 187:6943 (Discosporangiales: branched uniseriate filaments)	focal	Phaeophyceae-Discosporangiales	BUSCO C=46 (flag)
+Chorten	Choristocarpus tenellus	116065	NCBI:GCA_964200185.2	genome	simple	0	0	clear	Denoeud et al. 2024 Cell 187:6943 (Discosporangiales: uniseriate filaments)	focal	Phaeophyceae-Discosporangiales	Phaeoexplorer
+Dictdic			R1:Dictdic		complex	0	1	grey	Denoeud et al. 2024 Cell 187:6943; Bringloe et al. 2020 Crit Rev Plant Sci (brown algal thallus evolution) (parenchymatous thallus from apical cell)	focal	Phaeophyceae-Dictyotales	
+Halopan	Halopteris paniculata	588760	NCBI:GCA_964200445.2	genome	simple	0	0	grey	Denoeud et al. 2024 Cell 187:6943; Bringloe et al. 2020 Crit Rev Plant Sci (brown algal thallus evolution) (polystichous filaments)	focal	Phaeophyceae-Sphacelariales	Phaeoexplorer
+Ectosil			R1:Ectosil		simple	0	0	clear	Cock et al. 2010 Nature 465:617 (uniseriate branched filaments)	focal	Phaeophyceae-Ectocarpales	secondarily simple within Fucophycidae
+Pylalit	Pylaiella littoralis	2885	NCBI:GCA_964200295.2	genome	simple	0	0	clear	Denoeud et al. 2024 Cell 187:6943 (uniseriate filaments)	focal	Phaeophyceae-Ectocarpales	Phaeoexplorer
+Chorlin	Chordaria linearis	64904	NCBI:GCA_964200645.2	genome	simple	0	0	grey	Denoeud et al. 2024 Cell 187:6943; Bringloe et al. 2020 Crit Rev Plant Sci (brown algal thallus evolution) (pseudoparenchymatous, filament-based axes)	focal	Phaeophyceae-Ectocarpales	Phaeoexplorer
+Scytpro	Scytosiphon promiscuus	1403536	NCBI:GCA_964200315.2	genome	complex	0	1	clear	Denoeud et al. 2024 Cell 187:6943; Bringloe et al. 2020 Crit Rev Plant Sci (brown algal thallus evolution) (parenchymatous tubular thallus)	focal	Phaeophyceae-Ectocarpales	Phaeoexplorer
+Sacclat			R1:Sacclat		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217 (laminarialean kelps: complex)	focal	Phaeophyceae-Laminariales	
+Desmher	Desmarestia herbacea	1205903	NCBI:GCA_964200475.2	genome	complex	0	1	clear	Denoeud et al. 2024 Cell 187:6943; Bringloe et al. 2020 Crit Rev Plant Sci (brown algal thallus evolution) (trichothallic, parenchymatous)	focal	Phaeophyceae-Desmarestiales	Phaeoexplorer
+Fucuser			R1:Fucuser		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217; Denoeud et al. 2024 Cell 187:6943 (Fucales: parenchymatous, differentiated tissues)	focal	Phaeophyceae-Fucales	
+Ascnod	Ascophyllum nodosum	52969	NCBI:GCA_964200345.2	genome	complex	1	1	clear	Denoeud et al. 2024 Cell 187:6943 (Fucales)	focal	Phaeophyceae-Fucales	Phaeoexplorer
+Schiisc			R1:Schiisc		simple	0	0	clear	Kawai et al. 2003 J Phycol 39:556 (branched filaments)	focal	Schizocladiophyceae	
+Phaecon			R1:Phaecon		simple	0	0	clear	Bailey et al. 1998 J Phycol (branched filaments)	focal	Phaeothamniophyceae	BUSCO C=54 (flag)
+Tribmin			R1:Tribmin		simple	0	0	clear	Wang et al. 2021 Biotechnol Biofuels (Tribonema genome; unbranched filaments)	focal	Xanthophyceae	
+Chryaus	Chrysoparadoxa australica	2498842	NCBI:GCA_964200425.2	genome	unicellular	0	0	grey	Wetherbee et al. 2019 J Phycol (benthic coccoid cells)	control	Chrysoparadoxophyceae	Phaeoexplorer
+Heteaka			R1:Heteaka		unicellular	0	0	clear	Derelle et al. 2016 MBE 33:2890	control	Raphidophyceae	
+Aureano			R1:Aureano		unicellular	0	0	clear	Gobler et al. 2011 PNAS 108:4352	control	Pelagophyceae	
+Pelacal	Pelagomonas calceolata	35677	UniProt:UP000789595	genome	unicellular	0	0	clear	Guerin et al. 2022 ISME J (Pelagomonas genome)	control	Pelagophyceae	
+Nannsal			R1:Nannsal		unicellular	0	0	clear	Derelle et al. 2016 MBE 33:2890	control	Eustigmatophyceae	
+Potemal			R1:Potemal		unicellular	0	0	clear	Derelle et al. 2016 MBE 33:2890	control	Chrysophyceae	
+Phaetri			R1:Phaetri		unicellular	0	0	clear	Bowler et al. 2008 Nature 456:239	control	Bacillariophyta	
+Thalpse			R1:Thalpse		unicellular	0	0	clear	Armbrust et al. 2004 Science 306:79	control	Bacillariophyta	
+Fragcyl	Fragilariopsis cylindrus CCMP1102	635003	UniProt:UP000095751	genome	unicellular	0	0	clear	Mock et al. 2017 Nature 541:536	control	Bacillariophyta	
+Phytinf			R1:Phytinf		simple	0	0	grey	Haas et al. 2009 Nature 461:393 (coenocytic hyphae)	outgroup	Oomycota	
+Saprpar			R1:Saprpar		simple	0	0	grey	Jiang et al. 2013 PLoS Genet 9:e1003272 (coenocytic hyphae)	outgroup	Oomycota	
+Caferoe			R1:Caferoe		unicellular	0	0	clear	Hackl et al. 2020 BMC Biol (bicosoecid flagellate)	outgroup	Bigyra-Bicosoecida	
+Undapin	Undaria pinnatifida	74381	EukProt:EP00904	genome	complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217 (laminarialean kelp)	focal	Phaeophyceae-Laminariales	EukProt genome (Shan et al. 2020)
+Pelvcan	Pelvetia canaliculata	74467	NCBI:GCA_964200415.2	genome	complex	1	1	clear	Denoeud et al. 2024 Cell 187:6943 (Fucales)	focal	Phaeophyceae-Fucales	Phaeoexplorer
+# rejected after BUSCO (eukaryota_odb10 C): Macrpyr (BUSCO C 35), Saccpol (BUSCO C 31), Himaelo (BUSCO C 25), Sphrig (BUSCO C 15), Lamidig (BUSCO C 29), Saccder (BUSCO C 28)

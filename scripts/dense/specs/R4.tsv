@@ -1,0 +1,22 @@
+code	species	taxid	source	data_type	mc_state	D	T	mc_conf	mc_ref	role	group	note
+Chlarei			R1:Chlarei		unicellular	0	0	clear	Umen & Herron 2021 Annu Rev Genet 55:603	control	Chlamydomonadales-Reinhardtinia	
+Chlainc			R1:Chlainc		unicellular	0	0	clear	Craig et al. 2021 Plant Cell 33:1016	control	Chlamydomonadales-Reinhardtinia	
+Chlasch			R1:Chlasch		unicellular	0	0	clear	Craig et al. 2021 Plant Cell 33:1016	control	Chlamydomonadales-Reinhardtinia	
+Edapdeb			R1:Edapdeb		unicellular	0	0	clear	Craig et al. 2021 Plant Cell 33:1016	control	Chlamydomonadales-Reinhardtinia	
+Tetrsoc			R1:Tetrsoc		simple	0	0	clear	Featherston et al. 2018 Mol Biol Evol 35:855 (4-celled colony); Lindsey et al. 2021 BMC Biol 19:182	focal	Volvocales-Tetrabaenaceae	BUSCO C=32 (eukaryota_odb10); only Tetrabaenaceae genome: key position
+Gonipec			R1:Gonipec		simple	0	0	clear	Hanschen et al. 2016 Nat Commun 7:11370 (8-16-celled colony, no differentiation)	focal	Volvocales-Goniaceae	
+Astrgub			R1:Astrgub		complex	1	0	clear	Yamashita et al. 2016 BMC Evol Biol 16:243 (somatic cells evolved independently); Lindsey et al. 2021 BMC Biol 19:182	focal	Volvocales-Goniaceae	independent germ-soma origin
+Pleosta			R1:Pleosta		complex	1	0	grey	Takahashi et al. 2023 Commun Biol (Pleodorina starrii genome; anterior somatic cells); Herron & Michod 2008 Evolution 62:436	focal	Volvocales-Volvocaceae	partial soma (flag)
+Volvcar			R1:Volvcar		complex	1	0	clear	Prochnik et al. 2010 Science 329:223; Kirk 2005 Bioessays 27:299 (germ-soma)	focal	Volvocales-Volvocaceae	
+Volvafr			R1:Volvafr		complex	1	0	clear	Herron & Michod 2008 Evolution 62:436; Lindsey et al. 2021 BMC Biol 19:182 (germ-soma)	focal	Volvocales-Volvocaceae	
+Chlaeus	Chlamydomonas eustigma	1157962	UniProt:UP000232323	genome	unicellular	0	0	clear	Hirooka et al. 2017 PNAS 114:E8304	control	Chlamydomonadales-other	
+Chlapri	Chlamydomonas priscui	1653778	NCBI:GCA_016618255.1	genome	unicellular	0	0	clear	Zhang et al. 2021 Curr Biol (C. priscui UWO241 genome; unicellular psychrophile)	control	Chlamydomonadales-other	
+Sangaur	Sanguina aurantia	2578422	NCBI:GCA_040746525.1	genome	unicellular	0	0	clear	Prochazkova et al. 2019 J Phycol (Sanguina; unicellular snow alga)	control	Chlamydomonadales-other	
+Dunasal			R1:Dunasal		unicellular	0	0	clear	Polle et al. 2017 Genome Announc (Dunaliella salina genome)	control	Chlamydomonadales-Dunaliellinia	
+Raphsub			R1:Raphsub		unicellular	0	0	clear	Suzuki et al. 2018 Sci Rep 8:8058	outgroup	Chlorophyceae-Sphaeropleales	
+Chlovul			R1:Chlovul		unicellular	0	0	clear	Cecchin et al. 2019 Plant J 100:1289	outgroup	Trebouxiophyceae	
+Coccsub			R1:Coccsub		unicellular	0	0	clear	Blanc et al. 2012 Genome Biol 13:R39	outgroup	Trebouxiophyceae	
+Ostrtau			R1:Ostrtau		unicellular	0	0	clear	Derelle et al. 2006 PNAS 103:11647	outgroup	Mamiellophyceae	
+Volvret	Volvox reticuliferus	1737510	NCBI:GCA_019650255.1	genome	complex	1	0	clear	Nozaki et al. 2015 PLoS One 10:e0142632 (V. reticuliferus, sister of V. africanus); Herron & Michod 2008 Evolution 62:436	focal	Volvocales-Volvocaceae	NCBI annotation GCA_019650255.1 (BUSCO C 74.1) preferred over UniProt UP000747110 (C 61.6)
+Yamauni	Yamagishiella unicocca	51707	AUGUSTUS:GCA_003116995.1	genome	simple	0	0	clear	Herron & Michod 2008 Evolution 62:436 (16-32-celled undifferentiated colony)	focal	Volvocales-Volvocaceae	AB INITIO PREDICTION (AUGUSTUS chlamy2011) on unannotated assembly GCA_003116995.1; no published annotation
+Eudosp	Eudorina sp. 2006-703-Eu-15	593785	AUGUSTUS:GCA_003117095.1	genome	simple	0	0	clear	Herron & Michod 2008 Evolution 62:436 (Eudorina: undifferentiated colony)	focal	Volvocales-Volvocaceae	AB INITIO PREDICTION (AUGUSTUS chlamy2011) on unannotated assembly GCA_003117095.1; no published annotation

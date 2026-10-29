@@ -1,0 +1,39 @@
+code	species	taxid	source	data_type	mc_state	D	T	mc_conf	mc_ref	role	group	note
+Amphque			R1:Amphque		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Porifera-Demospongiae	
+Halipan	Halichondria panicea	6063	NCBI:GCF_963675165.1	genome	complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Porifera-Demospongiae	RefSeq chromosome-level
+Sycocil			R1:Sycocil		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Porifera-Calcarea	
+Oscalob	Oscarella lobularis	121494	NCBI:GCF_947507565.1	genome	complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Porifera-Homoscleromorpha	genome replaces round-1 O. pearsei transcriptome
+Aphrvas	Aphrocallistes vastus	83887	LukProt:LP00220	genome	complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217; Leys et al. 2007 Adv Mar Biol 52:1 (syncytial tissues)	focal	Porifera-Hexactinellida	syncytial glass sponge
+Mnemlei			R1:Mnemlei		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Ctenophora	
+Hormcal	Hormiphora californensis	1403702	LukProt:LP00209	genome	complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Ctenophora	Schultz et al. 2023 genome
+Tricadh			R1:Tricadh		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217; Smith et al. 2014 Curr Biol 24:1565 (placozoan cell types)	focal	Placozoa	
+Hoilhon			R1:Hoilhon		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217; Smith et al. 2014 Curr Biol 24:1565	focal	Placozoa	
+Nemavec			R1:Nemavec		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Cnidaria-Anthozoa	
+Hydrvul			R1:Hydrvul		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Cnidaria-Medusozoa	
+Clyther	Clytia hemisphaerica	252671	NCBI:GCF_902728285.1	genome	complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Cnidaria-Medusozoa	RefSeq
+Homosap			R1:Homosap		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Bilateria-Deuterostomia	
+Branbel			R1:Branbel		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Bilateria-Deuterostomia	
+Drosmel			R1:Drosmel		complex	1	1	clear	Knoll 2011 Annu Rev Earth Planet Sci 39:217	focal	Bilateria-Protostomia	
+Salpros			R1:Salpros		simple	0	0	clear	Dayel et al. 2011 Dev Biol 357:73; Fairclough et al. 2013 Genome Biol 14:R15 (facultative clonal rosettes)	focal	Choanoflagellata-Craspedida	
+Barrmon			R1:Barrmon		simple	0	0	clear	Hake et al. 2021 mBio 12:e0182821 (rosette colonies)	focal	Choanoflagellata-Craspedida	
+Choafle			R1:Choafle		simple	0	0	clear	Brunet et al. 2019 Science 366:326 (contractile cup colonies)	focal	Choanoflagellata-Craspedida	transcriptome kept: only data for this colonial species
+Choaper	Choanoeca perplexa	81531	EukProt:EP00045	transcriptome	simple	0	0	grey	Leadbeater 2015 The Choanoflagellates (CUP); Brunet et al. 2019 Science 366:326 (cup colonies reported)	focal	Choanoflagellata-Craspedida	transcriptome; sister of C. flexa
+Codohol			R1:Codohol		simple	0	0	grey	Richter et al. 2018 eLife 7:e34226 (colonial clusters); coloniality scattered in Craspedida (Carr et al. 2017)	focal	Choanoflagellata-Craspedida	transcriptome
+Salphel	Salpingoeca helianthica	1928494	EukProt:EP00048	transcriptome	simple	0	0	grey	Richter et al. 2018 eLife 7:e34226 (reported colony-forming in culture; unverified)	focal	Choanoflagellata-Craspedida	transcriptome
+Monobre			R1:Monobre		unicellular	0	0	clear	King et al. 2008 Nature 451:783	control	Choanoflagellata-Craspedida	
+Mylnflu			R1:Mylnflu		unicellular	0	0	clear	Richter et al. 2018 eLife 7:e34226	control	Choanoflagellata-Craspedida	transcriptome
+Acanspe			R1:Acanspe		unicellular	0	0	clear	Richter et al. 2018 eLife 7:e34226 (solitary loricate)	control	Choanoflagellata-Acanthoecida	transcriptome
+Didycos			R1:Didycos		unicellular	0	0	clear	Richter et al. 2018 eLife 7:e34226	control	Choanoflagellata-Acanthoecida	transcriptome
+Capsowc			R1:Capsowc		simple	0	0	grey	Sebe-Pedros et al. 2013 eLife 2:e01287 (facultative aggregative stage)	focal	Filasterea	
+Minivib			R1:Minivib		unicellular	0	0	clear	Torruella et al. 2015 Curr Biol 25:2404	control	Filasterea	
+Pigochi			R1:Pigochi		unicellular	0	0	grey	Hehenberger et al. 2017 Curr Biol 27:2043 (cell clusters/aggregations reported)	control	Filasterea	transcriptome
+Sphaarc			R1:Sphaarc		simple	0	0	grey	Dudin et al. 2019 eLife 8:e49801 (coenocyte cellularises into epithelium-like layer)	focal	Ichthyosporea	
+Creofra			R1:Creofra		simple	0	0	grey	Suga & Ruiz-Trillo 2013 Dev Biol 377:284 (coenocytic)	focal	Ichthyosporea	
+Amoepar			R1:Amoepar		simple	0	0	grey	Lamza 2023 (census of multicellular lineages; coenocytic thallus)	focal	Ichthyosporea	transcriptome
+Chroper			R1:Chroper		simple	0	0	clear	Olivetta et al. 2024 Nature (palintomic colony with distinct cell types)	focal	Ichthyosporea	
+Coralim			R1:Coralim		simple	0	0	grey	Kozyczkowska et al. 2021 PNAS 118:e2025504118 (coenocytic development)	focal	Pluriformea	
+Syssmul			R1:Syssmul		unicellular	0	0	grey	Hehenberger et al. 2017 Curr Biol 27:2043	control	Pluriformea	transcriptome
+Fontalb			R1:Fontalb		simple	0	0	clear	Brown et al. 2009 Mol Biol Evol 26:2699 (sorocarpic aggregation)	outgroup	Holomycota	
+Spizpun			R1:Spizpun		unicellular	0	0	clear	James et al. 2006 Nature 443:818	outgroup	Fungi	
+Thectra			R1:Thectra		unicellular	0	0	clear	Cavalier-Smith & Chao 2010 Protist 161:549	outgroup	Apusomonadida	
+# rejected: Tuniuni (Tunicaraptor unikontum LukProt LP00009 transcriptome, BUSCO C 56.5); Abeoforma/Pirum EukProt genomes (BUSCO C 2.8/2.4); Ichthyophonus (C 54)

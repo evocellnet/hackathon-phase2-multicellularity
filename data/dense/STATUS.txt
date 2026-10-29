@@ -1,0 +1,55 @@
+DENSE PANEL STATUS (round 2) - updated 2026-10-29 17:30 CET
+
+Each READY panel has: data/dense/<R>/proteomes/<code>.fa (symlinks), species.tsv, guide_tree.nwk (leaves = file stems, unique internal names), tree_edits.md, transitions.tsv.
+Ancestra input: proteome directory data/dense/<R>/proteomes/ + species tree data/dense/<R>/guide_tree.nwk
+
+R2 Fungi: READY
+   species=40 proteins=401,122 residues=182,511,568 genomes=39 non-genome=1 BUSCO_C<70=2
+   states uni/simple/complex=11/13/16; events=14 {'reversal': 6, 'nested': 5, 'origin': 3}
+   non-genome: Parvatl (transcriptome)
+   BUSCO C<70: Parvatl (67.1), Endosp (65.1)
+
+R4 Volvocales: READY
+   species=21 proteins=302,934 residues=176,692,918 genomes=21 non-genome=0 BUSCO_C<70=4
+   states uni/simple/complex=12/4/5; events=7 {'nested': 4, 'origin': 2, 'sensitivity': 1}
+   non-genome: none
+   BUSCO C<70: Tetrsoc (32.2), Astrgub (68.2), Dunasal (59.2), Eudosp (69.0)
+
+R3 Streptophyta: READY
+   species=21 proteins=471,379 residues=211,266,612 genomes=19 non-genome=2 BUSCO_C<70=2
+   states uni/simple/complex=10/2/9; events=4 {'nested': 2, 'origin': 1, 'reversal': 1}
+   non-genome: Colescu (transcriptome), Cylibre (transcriptome)
+   BUSCO C<70: Colescu (45.9), Ginkbil (66.7)
+
+R6 Stramenopiles / Phaeophyceae: READY
+   species=29 proteins=521,323 residues=212,728,261 genomes=29 non-genome=0 BUSCO_C<70=6
+   states uni/simple/complex=10/11/8; events=8 {'reversal': 4, 'nested': 2, 'origin': 1, 'sensitivity': 1}
+   non-genome: none
+   BUSCO C<70: Discmes (45.9), Chorten (34.1), Halopan (48.2), Phaecon (53.7), Aureano (52.9), Caferoe (66.7)
+
+R5 Rhodophyta: READY
+   species=18 proteins=189,824 residues=93,736,233 genomes=15 non-genome=3 BUSCO_C<70=6
+   states uni/simple/complex=9/5/4; events=5 {'origin': 3, 'nested': 1, 'sensitivity': 1}
+   non-genome: Bangsp (transcriptome), Compcae (transcriptome), Rhodemar (transcriptome)
+   BUSCO C<70: Bangsp (56.1), Compcae (48.2), Porpumb (43.9), Pyroyez (50.2), Pyrovie (61.2), Choncri (63.1)
+
+R1 Holozoa: READY
+   species=37 proteins=628,756 residues=291,706,363 genomes=27 non-genome=10 BUSCO_C<70=3
+   states uni/simple/complex=9/13/15; events=7 {'origin': 6, 'origin_complex': 1}
+   non-genome: Choafle (transcriptome), Choaper (transcriptome), Codohol (transcriptome), Salphel (transcriptome), Mylnflu (transcriptome), Acanspe (transcriptome), Didycos (transcriptome), Pigochi (transcriptome), Amoepar (transcriptome), Syssmul (transcriptome)
+   BUSCO C<70: Acanspe (69.8), Pigochi (61.6), Syssmul (58.0)
+
+R8 Cyanobacteria: READY
+   species=36 proteins=187,809 residues=60,173,198 genomes=36 non-genome=0 BUSCO_C<70=0
+   states uni/simple/complex=14/12/10; events=10 {'origin': 7, 'nested': 1, 'T_event': 1, 'sensitivity': 1}
+   non-genome: none
+   BUSCO C<70: none
+
+R7 Amoebozoa: READY
+   species=25 proteins=355,932 residues=166,145,899 genomes=16 non-genome=9 BUSCO_C<70=1
+   states uni/simple/complex=13/12/0; events=4 {'origin': 3, 'sensitivity': 1}
+   non-genome: Physpol (transcriptome), Cerafru (transcriptome), Protnoc (transcriptome), Cavoapo (transcriptome), Stygreg (transcriptome), Vermver (transcriptome), Arceint (transcriptome), Rhizsax (transcriptome), Coprpro (transcriptome)
+   BUSCO C<70: Entahis (52.5)
+
+NOTES:
+- R4 released 17:31 CET incl. two AUGUSTUS de novo proteomes (Yamauni, Eudosp; species.tsv annotation_source=augustus_denovo; see data/dense/R4/ANNOTATION_NOTES.txt). Run a sensitivity without them.

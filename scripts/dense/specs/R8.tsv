@@ -1,0 +1,37 @@
+code	species	taxid	source	data_type	mc_state	D	T	mc_conf	mc_ref	role	group	note
+Nostpun			R1:Nostpun		complex	1	0	clear	Herrero et al. 2016 FEMS Microbiol Rev 40:831 (heterocysts, akinetes, hormogonia: >=3 cell types)	focal	Nostocales	
+Nostsp103690			R1:Nostsp103690		complex	1	0	clear	Herrero et al. 2016 FEMS Microbiol Rev 40:831 (heterocysts, akinetes, hormogonia: >=3 cell types)	focal	Nostocales	
+Tricvar			R1:Tricvar		complex	1	0	clear	Herrero et al. 2016 FEMS Microbiol Rev 40:831 (heterocysts, akinetes, hormogonia: >=3 cell types)	focal	Nostocales	
+Anabcyl			R1:Anabcyl		complex	1	0	clear	Herrero et al. 2016 FEMS Microbiol Rev 40:831 (heterocysts, akinetes, hormogonia: >=3 cell types)	focal	Nostocales	
+Cylirac			R1:Cylirac		complex	1	0	clear	Herrero et al. 2016 FEMS Microbiol Rev 40:831 (heterocysts, akinetes, hormogonia: >=3 cell types)	focal	Nostocales	
+Noduspu			R1:Noduspu		complex	1	0	clear	Herrero et al. 2016 FEMS Microbiol Rev 40:831 (heterocysts, akinetes, hormogonia: >=3 cell types)	focal	Nostocales	
+Calopar			R1:Calopar		complex	1	0	clear	Herrero et al. 2016 FEMS Microbiol Rev 40:831 (heterocysts, akinetes, hormogonia: >=3 cell types)	focal	Nostocales	
+Scythof			R1:Scythof		complex	1	0	clear	Herrero et al. 2016 FEMS Microbiol Rev 40:831 (heterocysts, akinetes, hormogonia: >=3 cell types)	focal	Nostocales	
+Fiscthe			R1:Fiscthe		complex	1	1	grey	Herrero et al. 2016 FEMS Microbiol Rev 40:831; Schirrmeister et al. 2011 BMC Evol Biol 11:45 (true branching, multiseriate trichomes)	focal	Nostocales-branching	T coded 1 (exploratory)
+Chlofri			R1:Chlofri		complex	1	1	grey	Herrero et al. 2016 FEMS Microbiol Rev 40:831; Schirrmeister et al. 2011 BMC Evol Biol 11:45 (true branching, multiseriate trichomes)	focal	Nostocales-branching	T coded 1 (exploratory)
+Planaga			R1:Planaga		simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249 (undifferentiated filaments)	focal	Oscillatoriales	
+Lyngaes			R1:Lyngaes		simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249 (undifferentiated filaments)	focal	Oscillatoriales	
+Phornig			R1:Phornig		simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249 (undifferentiated filaments)	focal	Oscillatoriales	
+Micrvag			R1:Micrvag		simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249 (undifferentiated filaments)	focal	Oscillatoriales	
+Leptbor			R1:Leptbor		simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249 (undifferentiated filaments)	focal	Leptolyngbyales	
+Pseubic			R1:Pseubic		simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249 (undifferentiated filaments)	focal	Pseudanabaenales	
+Limnind	Limnospira indica PCC 8005	376219	UniProt:UP000032946	genome	simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45 (Arthrospira/Limnospira helical filaments)	focal	Oscillatoriales	
+Trichery	Trichodesmium erythraeum IMS101	203124	NCBI:GCF_000014265.1	genome	simple	0	0	grey	Bergman et al. 2013 FEMS Microbiol Rev 37:286 (filaments; diazocyte-like cells, no heterocysts)	focal	Oscillatoriales	D grey (diazocytes)
+Colechth	Coleofasciculus chthonoplastes PCC 7420	118168	UniProt:UP000003835	genome	simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45 (bundled filaments)	focal	Coleofasciculales	
+Spirsub	Spirulina subsalsa FACHB-351	234711	UniProt:UP001526426	genome	simple	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45 (helical filaments)	focal	Spirulinales	
+Stancya			R1:Stancya		unicellular	0	0	clear	Rippka et al. 1979 J Gen Microbiol 111:1 (baeocytous, section II)	control	Pleurocapsales	
+Hyelpat	Hyella patelloides LEGE 07179	945734	UniProt:UP000320055	genome	simple	0	0	grey	Rippka et al. 1979 J Gen Microbiol 111:1 (Pleurocapsales: pseudofilamentous aggregates)	focal	Pleurocapsales	Pleurocapsales (PI request)
+Hydrriv	Hydrococcus rivularis NIES-593	1921803	UniProt:UP000186868	genome	simple	0	0	grey	Rippka et al. 1979 J Gen Microbiol 111:1 (Pleurocapsales: pseudoparenchymatous colonies)	focal	Pleurocapsales	Pleurocapsales (PI request)
+Chrothe			R1:Chrothe		unicellular	0	0	clear	Shih et al. 2013 PNAS 110:1053 (baeocytous unicellular sister of Nostocales)	control	Chroococcidiopsidales	
+Alitatl	Aliterella atlantica CENA595	1618023	UniProt:UP000032452	genome	unicellular	0	0	clear	Rigonato et al. 2016 (unicellular Chroococcidiopsidales)	control	Chroococcidiopsidales	
+Synesp1111708			R1:Synesp1111708		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Synechococcales	
+Syneelo			R1:Syneelo		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Synechococcales	
+Crocsub			R1:Crocsub		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Chroococcales	
+Gloecit			R1:Gloecit		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Chroococcales	
+Micraer			R1:Micraer		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Chroococcales	
+Acarmar			R1:Acarmar		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Acaryochloridales	
+Therves			R1:Therves		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Thermosynechococcales	
+Gloelit			R1:Gloelit		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Gloeomargaritales	
+Gloevio			R1:Gloevio		unicellular	0	0	clear	Schirrmeister et al. 2011 BMC Evol Biol 11:45; Hammerschmidt et al. 2021 Genome Biol Evol 13:evaa249	control	Gloeobacterales	
+Vampchl	Vampirovibrio chlorellavorus	758823	NCBI:GCF_003149375.1	genome	unicellular	0	0	clear	Soo et al. 2015 Genome Biol Evol (non-photosynthetic Vampirovibrionia)	outgroup	Vampirovibrionia	
+Sericyt	Candidatus Sericytochromatia bacterium	2762020	NCBI:GCA_062031849.1	genome	unicellular	0	0	grey	Soo et al. 2017 Science 355:1436 (Sericytochromatia, sister of Oxyphotobacteria + Melainabacteria)	outgroup	Sericytochromatia	MAG (BUSCO bacteria_odb10 C 96)

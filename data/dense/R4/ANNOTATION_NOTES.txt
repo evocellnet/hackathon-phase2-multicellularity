@@ -1,0 +1,26 @@
+R4 ANNOTATION NOTES - de novo gene prediction for unannotated volvocine assemblies
+
+Why: Yamagishiella unicocca and Eudorina sp. (undifferentiated Volvocaceae; needed as simple-state relatives of the differentiated Pleodorina/Volvox events) have public assemblies (Volvocales Genome Consortium) but no published gene annotation in NCBI, UniProt 2026_03, EukProt v3 or LukProt v1.5.1 (checked 2026-10-29).
+
+Method (scripts/dense/augustus_predict.sh): AUGUSTUS 3.5.0 (conda_envs/augustus, bioconda; libboost 1.85) ab initio, species model chlamy2011 (Chlamydomonas reinhardtii, shipped with AUGUSTUS), no hints/RNA-seq/protein evidence, --gff3=on --protein=on --uniqueGeneId=true --alternatives-from-sampling=false (one transcript per gene), both strands, partial genes allowed (default). Assemblies split into 7 length-balanced chunks run in parallel (nice 10). Proteins taken from the GFF3 protein comments, then the round-1 cleaning (terminal stop trimmed, non-standard -> X, >= 50 aa, exact duplicates removed, IDs <code>_<chunk>_<gene.t1>).
+
+Runtime: AUGUSTUS run 16:25-17:21 (Yamagishiella, 134 Mb) and 16:25-17:29 CET (Eudorina, 169 Mb) on 7 chunks each (14 cores, nice 10); a first attempt (15:55-16:25) was killed by the session's background time limit and restarted from scratch.
+
+Caveats: ab initio predictions without evidence miss/merge/split genes and miss lineage-specific genes poorly captured by the Chlamydomonas model; gene-content differences involving these two proteomes must be checked with a sensitivity run without them (species.tsv column annotation_source == augustus_denovo).
+
+Comparison (BUSCO 6.1.0 eukaryota_odb10, protein mode):
+
+code       species                            source                     annot             n_prot meanlen  C     S     D    F    M
+Yamauni    Yamagishiella unicocca             AUGUSTUS:GCA_003116995.1   augustus_denovo    16242     462  71.0  70.2  0.8  16.5 12.5
+Eudosp     Eudorina sp. 2006-703-Eu-15        AUGUSTUS:GCA_003117095.1   augustus_denovo    18192     444  69.0  68.6  0.4  16.9 14.1
+Chlarei    Chlamydomonas reinhardtii          UniProt:UP000006906 (round curated            17611     739  91.8  91.0  0.8  4.3  3.9
+Tetrsoc    Tetrabaena socialis                UniProt:UP000236333 (round curated            14091     411  32.2  31.8  0.4  26.7 41.2
+Gonipec    Gonium pectorale                   UniProt:UP000075714 (round curated            16278     501  71.4  70.6  0.8  12.5 16.1
+Astrgub    Astrephomene gubernaculifera       UniProt:UP001054857 (round curated            13688     563  68.2  67.1  1.2  13.3 18.4
+Pleosta    Pleodorina starrii                 UniProt:UP001165080 (round curated            15429     687  85.9  84.7  1.2  5.5  8.6
+Volvcar    Volvox carteri f. nagariensis      UniProt:UP000001058 (round curated            14332     571  80.0  79.2  0.8  8.2  11.8
+Volvafr    Volvox africanus                   UniProt:UP001165090 (round curated            13265     656  79.6  78.4  1.2  4.3  16.1
+Volvret    Volvox reticuliferus               NCBI:GCA_019650255.1       curated            13722     618  74.1  71.4  2.7  5.9  20.0
+
+Yamauni: assembly GCA_003116995.1; AUGUSTUS genes=16824, CDS features=117615, proteins after cleaning=16242
+Eudosp: assembly GCA_003117095.1; AUGUSTUS genes=18942, CDS features=122729, proteins after cleaning=18192
