@@ -6,6 +6,21 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## ROUND 2 (started 2026-10-29 15:07; 48 CPU, 500 GB, A100; soft deadline ~30 h; START_ROUND2.txt)
 
+### R2-M1 — 2026-10-29 18:18 (round-2 t ≈ 3.2 h): first confirmatory result; cross-method check is sobering
+Confirmatory R2-P3 is supported: genomes of multicellular species carry more cell-death machinery than expected for their proteome
+size (1.21-fold [1.04, 1.42], raw one-sided p = 0.0047 < Holm 0.0167 regardless of P1; mainly complex multicellularity; sign
+holds leaving out any origin), independently re-derived with a symmetric inclusion rule and a random-set check of the pipeline
+(2.5% false positives); caveat: p = 0.025 without the ten largest proteomes, and the proportion-of-proteome version is not
+significant. R2-P2 (motif-binding domains) is clearly null (0.98-fold); cell-type TF families (exploratory) null. Pfam-wide
+expansions do not recur across origins beyond chance; contractions do (incl. bacterial-like glycosidases likely reflecting
+contamination/bacterivory in sister transcriptomes).
+
+EukaryOMA cross-validation shows that two orthology methods agree poorly on where stem families arise (29% of Ancestra stem
+gains confirmed; duplications <8%), so per-stem HOG counts are method-dependent; the sequence-level novelty statistic agrees in
+direction. Errata confirm the reviewer's three points without changing any round-1 conclusion. Seven of nine panel runs are done
+and verified (15–60 min each); R4 (3 of 4 confirmatory P1 events) and R7 running; ProstT5 3Di validated (0.655 vs AlphaFold) and
+R1 3Di nearly complete for the structure-mode test. Next: P1 and per-event analyses, structure mode, report skeleton by t≈10 h.
+
 ### R2-M0 — 2026-10-29 15:41 (round-2 t ≈ 0.6 h): checkpoint, external review, new plan
 Round 1 checkpointed (tag `phase1-final`). The round-2 instructions are saved verbatim (PROMPT_ROUND2.md). A department-head reviewer
 (Fable agent) judged round 1 honest and methodologically valuable but aimed at a question it could not answer (7 heterogeneous stems,
