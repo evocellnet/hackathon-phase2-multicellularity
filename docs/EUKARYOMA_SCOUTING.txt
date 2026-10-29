@@ -1,0 +1,52 @@
+EUKARYOMA SCOUTING (2026-10-29)
+================================
+WHAT: https://eukaryoma.unil.ch = OMA-browser instance (SIB/UNIL Dessimoz lab), release "All.Oct2026"
+ (API /api/version/: oma_version All.Oct2026, api_version 1.11). Page title "EukaryOMA Database",
+ "specialized database for inference of orthologs among eukaryotic genomes".
+SIZE: 1328 eukaryotic species (all codes X0001..., 1328 lines in oma-species.txt; names/taxids look EukProt-style),
+ 33,776,005 proteins; 1,564,658 OMA groups (11.76M proteins, 34.8%); 1,567,736 deepest-level HOGs (17.80M proteins, 52.7%).
+ No prokaryotes. Method: OMA ecosystem / FastOMA (Majidian et al. Nat Methods 22:269-272, 2025, doi:10.1038/s41592-024-02552-8)
+ is the engine listed; the site itself does not state the exact pipeline (inferred, not confirmed).
+LICENCE: CC BY 4.0 (OMA data, /oma/terms_of_use/). Source-genome licences not stated per species.
+CITATION: no dedicated EukaryOMA paper/preprint found (bioRxiv MCP has no keyword search; web search returned only FastOMA).
+ Site says cite: Altenhoff et al. NAR 52:D513 (2024) doi:10.1093/nar/gkad1020 and FastOMA above. ASK LEAD for a dedicated reference.
+DOWNLOADS (base https://eukaryoma.unil.ch/All/ ; listed at /oma/current/):
+ oma-hogs.orthoXML.gz   512,377,257 B (Last-Mod 21 Oct 2026)  -> DOWNLOADED, gzip -t OK, md5 296586b7eaae71fb1ce5676c5cc3736e
+ speciestree.nwk 42,029 B md5 e1954dfcb7a445c8b4b973cc8d4b2d0a ; speciestree.phyloxml 292,246 B md5 10f7510705027ccd20d9e5764aea3051 (both downloaded)
+ oma-species.txt 65,020 B md5 f60a0bf6a8f0080a02fe02dbb53e6c56 (OMA_Code, OMA_taxid, NCBI_taxid, name; downloaded)
+ Linked on page but returned 404 at tested URLs (not served): oma-groups.txt.gz, oma-seqs.fa.gz, oma-protein-annotations.txt.gz
+ (other mapping files untested). No checksum files published (md5sum.txt etc 404). Archives: /oma/archives/.
+ Local: data/raw/eukaryoma/ (+ md5sums.txt); log logs/dl_eukaryoma.log (empty = no errors).
+ Pairwise orthologs: via REST/genome-pair view only. No bulk per-level ancestral genome size file seen; derive from the OrthoXML
+ (or API: /oma/genome/ "Extant and Ancestral genomes" page, /oma/phylostratigraphy/).
+API: https://eukaryoma.unil.ch/api/ (docs /api/docs/, /api/docs/redoc/). Works: /api/version/, /api/genome/ (paginated, 1328, X-Total-Count),
+ /api/genome/X2647/ (lineage, nr_entries), /api/taxonomy/ (tree JSON), /api/hog/, /api/xref/. Python pyomadb / R OmaDB clients usable.
+ Species tree has named internal nodes (e.g. Breviatea, Obazoa, Amorphea, Opimoda).
+OVERLAP with our 187 (data/eukaryoma_species_overlap.tsv; match by NCBI taxid and lowercase name):
+ matched 122/187 (taxid+name 93, name only 24, taxid only 5); 65 unmatched. Name-only/taxid-only cases are probably strain/taxid
+ differences of the same species (e.g. EukProt taxid choices) -> verify before use. Multicellular (flag=1): 40/75 matched.
+ Fully covered: metazoa (all 15 M species: bilateria, cnidaria, ctenophore, placozoa, porifera), Ichthyosporea 4/4, Filasterea 3/3,
+ Pluriformea 2/2, Rotosphaerida 2/2, Choanoflagellata 7/8 (Barroeca missing), Rhodophyta incl. Florideophyceae 3/3, Cercozoa 5/5,
+ Oomycota 3/3, Bacillariophyta 2/2, Coleochaete, Klebsormidium, Mesostigma, Chlorophyta except below.
+ Partial: Dictyostelia 4/6 (Heterostelium pallidum, Acytostelium missing by our names, but Eukaryoma has Heterostelium album),
+ Pezizomycotina 1/5, Taphrinomycotina 1/4, Agaricomycetes 2/3, Embryophyta 5/6, Phaeophyceae 1/5, Volvocales 1/10.
+ MISSING for key transitions: Volvocine clade (Volvox carteri f. nagariensis, Gonium, Tetrabaena, Pleodorina, Astrephomene, Edaphochlamys;
+ Eukaryoma has "Volvox carteri" and Chlamydomonas chlamydogama - name/taxid mismatch for V. carteri, check; Gonium/Tetrabaena absent),
+ Zygnematophyceae (0/3), Chara braunii (Eukaryoma has C. vulgaris instead), Chlorokybus, Ulva/Bryopsis, Neolecta, Taphrina, Saitoella,
+ Dacryopinax, Tremella, Wallemia, Rhodotorula, Mucoromycota, Zoopagomycota, Neocallimastigomycota, Ceratiomyxa, Protosteliida (Protostelium/Cavostelium),
+ Copromyxa, Rhizamoeba, Acrasis kona, Fucus/Saccharina/Dictyota (but Eukaryoma has Laminaria digitata, Ectocarpus, Vaucheria), Phaeothamnion,
+ Schizocladia, Stentor, Vitrella, Thecamonas trahens (Eukaryoma has Amastigomonas + Thecamonas trahens under other taxid).
+ Unmatched list = rows with match=none in the TSV.
+EUKARYOMA TAXA WE LACK (additions near transitions, from name search; not exhaustive): Holozoa: Salpingoeca infusionum, Choanoeca perplexa,
+ Stephanoeca diplocostata, Hartaetosiga gracilis/balthica (more choanoflagellates, denser sister sampling for animals and colonial
+ choanoflagellates); Abeoforma whisleri, Pirum gemmata, Ichthyophonus hoferi (Ichthyosporea); Tunicaraptor unikontum, Pigoraptor vietnamica
+ (Filasterea/Pluriformea sisters); Oscarella lobularis, Trichoplax sp. H2, Anemonia viridis. Fungi: Amoeboaphelidium x2 (Aphelida), Aspergillus niger/oryzae,
+ Cryptococcus gattii, Rhizopus delemar. Plants: Chara vulgaris, Klebsormidium subtile, Chlorella variabilis, Acetabularia, Prasinoderma singulare,
+ Chlamydomonas chlamydogama; Rhodophyta: Palmaria palmata, Porphyra purpurea, Compsopogon, Rhodochaete, Rhodella, Erythrolobus x2, Porphyridium aerugineum.
+ Stramenopiles: Laminaria digitata, Tribonema gayanum. Amoebozoa: Heterostelium album. Full list: oma-species.txt (taxid col 3).
+USE: (1) independent orthology (FastOMA HOGs, different algorithm and species sampling) to cross-validate Ancestra gains/losses at
+ M/P nodes: map our proteins by exact sequence/ID if EukProt-sourced, else by taxid/species; compare HOG presence at matching
+ taxonomic levels (Metazoa, Choanozoa, Opisthokonta, Streptophyta...). (2) Denser sampling around transitions, esp. choanoflagellates,
+ ichthyosporeans, aphelids, additional sponges/placozoa, red algae, brown algae; could supply stand-ins for missing Volvocales/Zygnematophyceae
+ only partly (those clades are poorly covered). (3) Caveats: need sequences for ID-mapping (seqs file 404 -> use API /api/genome/CODE/proteins/
+ or request); the OrthoXML gives gene IDs only; many transcriptome-based species (EukProt) -> missing-gene bias; no dedicated citation yet.

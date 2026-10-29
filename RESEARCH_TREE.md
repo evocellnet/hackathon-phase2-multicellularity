@@ -4,6 +4,34 @@ Legend: `[ ]` planned · `[~]` in progress · `[x]` done · `[-]` abandoned/nega
 
 START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; target finish ≤ 36 h after start, leaving margin.
 
+## ROUND 2 (started 2026-10-29 15:07; 48 CPU, 500 GB, A100; soft deadline ~30 h; START_ROUND2.txt)
+
+### R2-M0 — 2026-10-29 15:41 (round-2 t ≈ 0.6 h): checkpoint, external review, new plan
+Round 1 checkpointed (tag `phase1-final`). The round-2 instructions are saved verbatim (PROMPT_ROUND2.md). A department-head reviewer
+(Fable agent) judged round 1 honest and methodologically valuable but aimed at a question it could not answer (7 heterogeneous stems,
+13–35% power), and found three overstated report statements (depth SMD 2.06 not 1.77; power table used placeholder branch lengths;
+5 of 11 recovered positive controls never use Ancestra events). The review is public as a page (reviews/review_round1.html;
+https://claude.ai/artifact/NfrexbqRBFmS3A97VvTqcR). Scouts: EukaryOMA = OMA instance, 1,328 genomes, HOG OrthoXML downloaded,
+122/187 of our species overlap; Cox et al. (Marcotte lab) CF-MS complex map is LECA-centred (no lineage-specific complexes), 16/31 species overlap.
+
+GPU: Foldseek's GPU build fell back to CPU for ProstT5; an own encoder+CNN ProstT5 implementation runs at 48 proteins/s on the A100 and
+agrees 97.1% per residue with Foldseek's ProstT5 (5,000 proteins); 3Di prediction for all 269 round-1 proteomes started (~17–20 h).
+Plan: DESIGN_ROUND2.md v0 (W0 errata, W1 EukaryOMA cross-validation, W2 eight dense per-event Ancestra panels, W3 simple→complex,
+W4 specific families incl. ELM motif-binding domains, cell death, cell-type TFs, W5/W6 structure, W7 complexes) under one review round
+(statistics, evolutionary biology, compute/AI). Running: errata agent, EukaryOMA agent, dense-panel data agent, ProstT5.
+
+### Round-2 tree
+- [x] R2-0 Checkpoint (tag phase1-final), PROMPT_ROUND2.md, START_ROUND2.txt
+- [x] R2-1 Department-head review → reviews/round2_department_head_review.txt; public page
+- [x] R2-2 Scouting: EukaryOMA (docs/EUKARYOMA_SCOUTING.txt), Cox et al. CF-MS (docs/MARCOTTE_SCOUTING.txt), ELM interaction domains (200 Pfam)
+- [x] R2-3 GPU ProstT5 pilot (Foldseek GPU fell back to CPU: 15 prot/s; HF autoregressive: too slow; encoder+CNN: 48 prot/s, 97.1% agreement)
+- [~] R2-4 ProstT5 3Di for all proteomes (data/structure3di/all/)
+- [~] R2-5 Design round 2 + review (3 reviewers)
+- [~] W0 errata · [~] W1 EukaryOMA cross-validation · [~] W2 dense panel data
+- [ ] W2 runs · [ ] W3 · [ ] W4 · [ ] W5 · [ ] W6 · [ ] W7 · [ ] verification · [ ] report update
+
+## ROUND 1 (frozen at tag phase1-final)
+
 ## Status summary (latest first)
 
 ### M5 — 2026-10-29 01:55 (t ≈ 13.6 h): report final
@@ -123,3 +151,4 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - D8 (t=5.9h): Eukaryote Ancestra S0 stage-2 graph has ONE connected component of 2.16 M genes (73%; 473k stage-1 reps); stricter coverage does not dissolve it (min-cov 0.5: 1.48 M; 0.7: 0.96 M). The frozen leiden_split rescans all component edges per part and runs serially → many hours. Kept the original run going; launched in parallel an output-identical patched wrapper (parallel independent parts, per-part edge partitioning; identity verified on random graphs and the prokaryote run before use). Whichever finishes first is used; both must give identical families. Scientific note for the report: in eukaryote-wide data single-linkage collapses most of the proteome into one 'family', so Leiden cut points define family boundaries — the mechanism behind spurious HOG gains that the DIAMOND novelty ladder guards against.
 - Bug found by an independent agent (t≈7h, before any eukaryote results): exploratory T_volvocales_gv shadowed the primary volvocine path stem in mcell.branchstats; fixed (priority order) — verify H9 unaffected during verification.
 - D8 outcome (t=6.3h): the ORIGINAL frozen run finished the family stage first (18,944 s; peak 33.6 GB; 553,686 families incl. 468,618 singletons; max family 7,565; Σn² = 7.1e9). The patched run (verified byte-identical on prokaryotes) was stopped unused at 3% progress; its code is kept in scripts/ancestra_patch/ as a documented, tested speed-up for future runs.
+- D9 (R2 t=0.5h): ProstT5 3Di computed for ALL proteomes on the otherwise idle GPU (~17-20 h), multicellular species first, rather than only targeted sets: it enables Ancestra 3Di rescue on any panel and complete structural novelty checks; cost is GPU time only.

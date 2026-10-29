@@ -1,0 +1,188 @@
+code	species	ncbi_taxid	lineage_group	transition_roles	multicellular	match	eukaryoma_code	eukaryoma_taxid	eukaryoma_name
+Amphque	Amphimedon queenslandica	400682	Holozoa-Metazoa-Porifera	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2599	400682	Amphimedon queenslandica
+Sycocil	Sycon ciliatum	27933	Holozoa-Metazoa-Porifera	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2633	27933	Sycon ciliatum
+Ephymue	Ephydatia muelleri	6052	Holozoa-Metazoa-Porifera	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2611	6052	Ephydatia muelleri
+Oscapea	Oscarella pearsei	1940113	Holozoa-Metazoa-Porifera	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2637	1940113	Oscarella pearsei
+Tricadh	Trichoplax adhaerens	10228	Holozoa-Metazoa-Placozoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2561	10228	Trichoplax adhaerens
+Hoilhon	Hoilungia hongkongensis	1964320	Holozoa-Metazoa-Placozoa	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2565	1964320	Hoilungia hongkongensis
+Mnemlei	Mnemiopsis leidyi	27923	Holozoa-Metazoa-Ctenophora	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X1201	27923	Mnemiopsis leidyi
+Nemavec	Nematostella vectensis	45351	Holozoa-Metazoa-Cnidaria	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X1281	45351	Nematostella vectensis
+Hydrvul	Hydra vulgaris	6087	Holozoa-Metazoa-Cnidaria	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X1333	6087	Hydra vulgaris
+Homosap	Homo sapiens	9606	Holozoa-Metazoa-Bilateria	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2091	9606	Homo sapiens
+Branbel	Branchiostoma belcheri	7741	Holozoa-Metazoa-Bilateria	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2533	7741	Branchiostoma belcheri
+Stropur	Strongylocentrotus purpuratus	7668	Holozoa-Metazoa-Bilateria	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X2543	7668	Strongylocentrotus purpuratus
+Drosmel	Drosophila melanogaster	7227	Holozoa-Metazoa-Bilateria	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X1447	7227	Drosophila melanogaster
+Capitel	Capitella teleta	283909	Holozoa-Metazoa-Bilateria	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X1777	283909	Capitella teleta
+Caenele	Caenorhabditis elegans	6239	Holozoa-Metazoa-Bilateria	T_metazoa:M;T_ichthyosporea_coenocytic:sister	1	taxid+name	X1653	6239	Caenorhabditis elegans
+Salpros	Salpingoeca rosetta	946362	Holozoa-Choanoflagellata	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister	0	taxid+name	X1167	946362	Salpingoeca rosetta
+Barrmon	Barroeca monosierra	2830476	Holozoa-Choanoflagellata	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister	0	none			
+Choafle	Choanoeca flexa	2572930	Holozoa-Choanoflagellata	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister	0	taxid+name	X1157	2572930	Choanoeca flexa
+Codohol	Codosiga hollandica	1742608	Holozoa-Choanoflagellata	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister	0	taxid+name	X1171	1742608	Codosiga hollandica
+Monobre	Monosiga brevicollis	81824	Holozoa-Choanoflagellata	T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister	0	taxid+name	X1175	81824	Monosiga brevicollis
+Mylnflu	Mylnosiga fluctuans	1928486	Holozoa-Choanoflagellata	T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister	0	taxid+name	X1169	1928486	Mylnosiga fluctuans
+Acanspe	Acanthoeca spectabilis	81533	Holozoa-Choanoflagellata	T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister	0	taxid+name	X1145	81533	Acanthoeca spectabilis
+Didycos	Didymoeca costata	459534	Holozoa-Choanoflagellata	T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister	0	taxid+name	X1151	459534	Didymoeca costata
+Capsowc	Capsaspora owczarzaki	595528	Holozoa-Filasterea	T_capsaspora_aggregation:M;T_ichthyosporea_coenocytic:sister	0	name	X1137	192875	Capsaspora owczarzaki
+Minivib	Ministeria vibrans ATCC 50519	134558	Holozoa-Filasterea	T_capsaspora_aggregation:sister;T_ichthyosporea_coenocytic:sister	0	taxid	X1139	134558	Ministeria vibrans
+Pigochi	Pigoraptor chileana	2006546	Holozoa-Filasterea	T_capsaspora_aggregation:sister;T_ichthyosporea_coenocytic:sister	0	taxid+name	X1135	2006546	Pigoraptor chileana
+Coralim	Corallochytrium limacisporum strain India	98351	Holozoa-Pluriformea	T_ichthyosporea_coenocytic:M	0	taxid	X1113	98351	Corallochytrium limacisporum
+Syssmul	Syssomonas multiformis	2006709	Holozoa-Pluriformea	T_ichthyosporea_coenocytic:M	0	taxid+name	X1115	2006709	Syssomonas multiformis
+Sphaarc	Sphaeroforma arctica	72019	Holozoa-Ichthyosporea	T_ichthyosporea_coenocytic:M	0	taxid+name	X1123	72019	Sphaeroforma arctica
+Creofra	Creolimax fragrantissima	470921	Holozoa-Ichthyosporea	T_ichthyosporea_coenocytic:M	0	taxid+name	X1119	470921	Creolimax fragrantissima
+Chroper	Chromosphaera perkinsii	1932427	Holozoa-Ichthyosporea	T_ichthyosporea_coenocytic:M	0	taxid	X1131	1932427	Ichthyosporea sp. XGB-2017a
+Amoepar	Amoebidium parasiticum	4881	Holozoa-Ichthyosporea	T_ichthyosporea_coenocytic:M	0	taxid+name	X1121	4881	Amoebidium parasiticum
+Fontalb	Fonticula alba	691883	Holomycota-Rotosphaerida	T_fonticula:M	1	taxid+name	X1049	691883	Fonticula alba
+Parvatl	Parvularia atlantis	1993908	Holomycota-Rotosphaerida	T_fonticula:sister	0	taxid+name	X1047	1993908	Parvularia atlantis
+Rozeall	Rozella allomycis	988480	Holomycota-Fungi-Rozellomycota		0	name	X1069	281847	Rozella allomycis
+Batrden	Batrachochytrium dendrobatidis	684364	Holomycota-Fungi-Chytridiomycota	T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:sister	0	name	X1063	109871	Batrachochytrium dendrobatidis
+Spizpun	Spizellomyces punctatus	645134	Holomycota-Fungi-Chytridiomycota	T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:sister	0	name	X1061	109760	Spizellomyces punctatus
+Pirofin	Piromyces finnis	1754191	Holomycota-Fungi-Neocallimastigomycota	T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:sister	0	none			
+Gonapro	Gonapodya prolifera	1344416	Holomycota-Fungi-Monoblepharidomycota	T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:M	1	name	X1065	1123529	Gonapodya prolifera
+Allomac	Allomyces macrogynus	578462	Holomycota-Fungi-Blastocladiomycota	T_fungi_hyphae:M	1	name	X1071	28583	Allomyces macrogynus
+Rhizmic	Rhizopus microsporus ATCC 52813	1340429	Holomycota-Fungi-Mucoromycota	T_fungi_hyphae:M	1	none			
+Mucolus	Mucor lusitanicus CBS 277.49	747725	Holomycota-Fungi-Mucoromycota	T_fungi_hyphae:M	1	none			
+Morthyg	Mortierella hygrophila	979708	Holomycota-Fungi-Mucoromycota	T_fungi_hyphae:M	1	none			
+Basimer	Basidiobolus meristosporus CBS 931.73	1314790	Holomycota-Fungi-Zoopagomycota	T_fungi_hyphae:M	1	none			
+Coemumb	Coemansia umbellata	1424467	Holomycota-Fungi-Zoopagomycota	T_fungi_hyphae:M	1	none			
+Schipom	Schizosaccharomyces pombe	284812	Holomycota-Fungi-Ascomycota-Taphrinomycotina	T_fungi_neolecta:sister;T_rev_schizosaccharomyces:M;T_rev_saitoella:sister	0	name	X1095	4896	Schizosaccharomyces pombe
+Saitcom	Saitoella complicata	698492	Holomycota-Fungi-Ascomycota-Taphrinomycotina	T_fungi_neolecta:sister;T_rev_schizosaccharomyces:sister;T_rev_saitoella:M	0	none			
+Taphdef	Taphrina deformans	1097556	Holomycota-Fungi-Ascomycota-Taphrinomycotina	T_fungi_hyphae:M;T_fungi_neolecta:sister;T_rev_schizosaccharomyces:sister;T_rev_saitoella:sister	1	none			
+Neolirr	Neolecta irregularis	1198029	Holomycota-Fungi-Ascomycota-Taphrinomycotina	T_fungi_hyphae:M;T_fungi_neolecta:M;T_rev_schizosaccharomyces:sister;T_rev_saitoella:sister	1	none			
+Sacccer	Saccharomyces cerevisiae	559292	Holomycota-Fungi-Ascomycota-Saccharomycotina	T_fungi_pezizomycotina:sister;T_rev_saccharomycotina:M	0	name	X1075	4932	Saccharomyces cerevisiae
+Yarrlip	Yarrowia lipolytica	284591	Holomycota-Fungi-Ascomycota-Saccharomycotina	T_fungi_pezizomycotina:sister;T_rev_saccharomycotina:M	0	name	X1079	4952	Yarrowia lipolytica
+Liposta	Lipomyces starkeyi NRRL Y-11557	675824	Holomycota-Fungi-Ascomycota-Saccharomycotina	T_fungi_pezizomycotina:sister;T_rev_saccharomycotina:M	0	none			
+Pyroomp	Pyronema omphalodes	1076935	Holomycota-Fungi-Ascomycota-Pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister	1	none			
+Neurcra	Neurospora crassa	367110	Holomycota-Fungi-Ascomycota-Pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister	1	name	X1091	5141	Neurospora crassa
+Aspenid	Aspergillus nidulans	227321	Holomycota-Fungi-Ascomycota-Pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister	1	none			
+Botrcin	Botrytis cinerea	332648	Holomycota-Fungi-Ascomycota-Pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister	1	none			
+Zymobre	Zymoseptoria brevis	1047168	Holomycota-Fungi-Ascomycota-Pezizomycotina	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister	1	none			
+Coprcin	Coprinopsis cinerea	240176	Holomycota-Fungi-Basidiomycota-Agaricomycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister	1	name	X1103	5346	Coprinopsis cinerea
+Schicom	Schizophyllum commune Tattone D	1314663	Holomycota-Fungi-Basidiomycota-Agaricomycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister	1	none			
+Laccbic	Laccaria bicolor	486041	Holomycota-Fungi-Basidiomycota-Agaricomycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister	1	name	X1101	29883	Laccaria bicolor
+Dacrpri	Dacryopinax primogenitus	1858805	Holomycota-Fungi-Basidiomycota-Dacrymycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister	1	none			
+Tremmes	Tremella mesenterica	5217	Holomycota-Fungi-Basidiomycota-Tremellomycetes	T_fungi_hyphae:M;T_fungi_agaricomycetes:sister;T_fungi_tremella:M;T_rev_cryptococcus:sister;T_rev_rhodotorula:sister	1	none			
+Crypneo	Cryptococcus neoformans	235443	Holomycota-Fungi-Basidiomycota-Tremellomycetes	T_fungi_agaricomycetes:sister;T_fungi_tremella:sister;T_rev_cryptococcus:M;T_rev_rhodotorula:sister	0	name	X1099	5207	Cryptococcus neoformans
+Wallmel	Wallemia mellicola	671144	Holomycota-Fungi-Basidiomycota-Wallemiomycetes	T_fungi_hyphae:M;T_rev_rhodotorula:sister	1	none			
+Ustimay	Ustilago maydis	5270	Holomycota-Fungi-Basidiomycota-Ustilaginomycotina	T_fungi_hyphae:M;T_rev_rhodotorula:sister	1	taxid+name	X1105	5270	Ustilago maydis
+Rhodtor	Rhodotorula toruloides	1130832	Holomycota-Fungi-Basidiomycota-Pucciniomycotina	T_rev_rhodotorula:M	0	none			
+Dictdis	Dictyostelium discoideum	44689	Amoebozoa-Dictyostelia	T_dictyostelia:M	1	taxid+name	X1011	44689	Dictyostelium discoideum
+Dictpur	Dictyostelium purpureum	5786	Amoebozoa-Dictyostelia	T_dictyostelia:M	1	taxid+name	X1013	5786	Dictyostelium purpureum
+Hetepal	Heterostelium pallidum	670386	Amoebozoa-Dictyostelia	T_dictyostelia:M	1	none			
+Tieglac	Tieghemostelium lacteum	361077	Amoebozoa-Dictyostelia	T_dictyostelia:M	1	taxid+name	X1009	361077	Tieghemostelium lacteum
+Cavefas	Cavenderia fasciculata	261658	Amoebozoa-Dictyostelia	T_dictyostelia:M	1	taxid+name	X1017	261658	Cavenderia fasciculata
+Acytsub	Acytostelium subglobosum	361139	Amoebozoa-Dictyostelia	T_dictyostelia:M	1	none			
+Physpol	Physarum polycephalum	5791	Amoebozoa-Myxogastria	T_dictyostelia:sister;T_myxogastria_plasmodium:M	0	taxid+name	X1019	5791	Physarum polycephalum
+Cerafru	Ceratiomyxa fruticulosa	435415	Amoebozoa-Myxogastria	T_dictyostelia:sister;T_myxogastria_plasmodium:sister	0	none			
+Protnoc	Protostelium nocturnum	668368	Amoebozoa-Protosteliida		0	none			
+Cavoapo	Cavostelium apophysatum	435410	Amoebozoa-Protosteliida		0	none			
+Planfun	Planoprotostelium fungivorum	1890364	Amoebozoa-Variosea		0	taxid+name	X1025	1890364	Planoprotostelium fungivorum
+Acancas	Acanthamoeba castellanii	1257118	Amoebozoa-Discosea		0	name	X1005	5755	Acanthamoeba castellanii
+Mastbal	Mastigamoeba balamuthi	108607	Amoebozoa-Archamoebae		0	taxid+name	X1027	108607	Mastigamoeba balamuthi
+Coprpro	Copromyxa protea	931554	Amoebozoa-Tubulinea	T_copromyxa:M	1	none			
+Vermver	Vermamoeba vermiformis	5778	Amoebozoa-Tubulinea		0	taxid+name	X1039	5778	Vermamoeba vermiformis
+Rhizsax	Rhizamoeba saxonica	200886	Amoebozoa-Tubulinea	T_copromyxa:sister	0	none			
+Arceint	Arcella intermedia	1963864	Amoebozoa-Tubulinea	T_copromyxa:sister	0	taxid+name	X1035	1963864	Arcella intermedia
+Stygreg	Stygamoeba regulata	1042828	Amoebozoa-Discosea		0	taxid+name	X1007	1042828	Stygamoeba regulata
+Volvcar	Volvox carteri f. nagariensis	3068	Archaeplastida-Chlorophyta-Volvocales	T_volvocales_tetrabaena:sister;T_volvocales_gv:M	1	none			
+Pleosta	Pleodorina starrii	330485	Archaeplastida-Chlorophyta-Volvocales	T_volvocales_tetrabaena:sister;T_volvocales_gv:M	1	none			
+Volvafr	Volvox africanus	51714	Archaeplastida-Chlorophyta-Volvocales	T_volvocales_tetrabaena:sister;T_volvocales_gv:M	1	none			
+Astrgub	Astrephomene gubernaculifera	47775	Archaeplastida-Chlorophyta-Volvocales	T_volvocales_tetrabaena:sister;T_volvocales_gv:M	1	none			
+Gonipec	Gonium pectorale	33097	Archaeplastida-Chlorophyta-Volvocales	T_volvocales_tetrabaena:sister;T_volvocales_gv:M	1	none			
+Tetrsoc	Tetrabaena socialis	47790	Archaeplastida-Chlorophyta-Volvocales	T_volvocales_tetrabaena:M;T_volvocales_gv:sister	1	none			
+Chlarei	Chlamydomonas reinhardtii	3055	Archaeplastida-Chlorophyta-Volvocales		0	taxid+name	X0127	3055	Chlamydomonas reinhardtii
+Chlainc	Chlamydomonas incerta	51695	Archaeplastida-Chlorophyta-Volvocales		0	none			
+Chlasch	Chlamydomonas schloesseri	2026947	Archaeplastida-Chlorophyta-Volvocales		0	none			
+Edapdeb	Edaphochlamys debaryana	47281	Archaeplastida-Chlorophyta-Volvocales		0	none			
+Dunasal	Dunaliella salina	3046	Archaeplastida-Chlorophyta-Chlamydomonadales		0	none			
+Raphsub	Raphidocelis subcapitata	307507	Archaeplastida-Chlorophyta-Sphaeropleales		0	none			
+Chlovul	Chlorella vulgaris	3077	Archaeplastida-Chlorophyta-Trebouxiophyceae		0	none			
+Coccsub	Coccomyxa subellipsoidea	574566	Archaeplastida-Chlorophyta-Trebouxiophyceae		0	name	X0111	248742	Coccomyxa subellipsoidea
+Ulvamut	Ulva mutabilis	498180	Archaeplastida-Chlorophyta-Ulvophyceae	T_ulvophyceae:M;T_siphonous_coenocytic:sister	1	none			
+Caullen	Caulerpa lentillifera	148947	Archaeplastida-Chlorophyta-Ulvophyceae	T_ulvophyceae:sister;T_siphonous_coenocytic:M	0	taxid+name	X0119	148947	Caulerpa lentillifera
+BryospKO2023	Bryopsis sp. KO-2023	3041901	Archaeplastida-Chlorophyta-Ulvophyceae	T_ulvophyceae:sister;T_siphonous_coenocytic:M	0	none			
+Ostrque	Ostreobium quekettii	121088	Archaeplastida-Chlorophyta-Ulvophyceae	T_ulvophyceae:sister;T_siphonous_coenocytic:M	0	none			
+Ostrtau	Ostreococcus tauri	70448	Archaeplastida-Chlorophyta-Mamiellophyceae		0	taxid+name	X0089	70448	Ostreococcus tauri
+Micrcom	Micromonas commoda	296587	Archaeplastida-Chlorophyta-Mamiellophyceae		0	taxid+name	X0095	296587	Micromonas commoda
+Prascol	Prasinoderma coloniale	156133	Archaeplastida-Prasinodermophyta		0	taxid+name	X0159	156133	Prasinoderma coloniale
+Mesovir	Mesostigma viride	41882	Archaeplastida-Streptophyta-Mesostigmatophyceae	T_streptophyta:sister	0	taxid+name	X0219	41882	Mesostigma viride
+Chloatm	Chlorokybus atmophyticus	3144	Archaeplastida-Streptophyta-Chlorokybophyceae	T_streptophyta:sister	0	none			
+Klebnit	Klebsormidium nitens	105231	Archaeplastida-Streptophyta-Klebsormidiophyceae	T_streptophyta:M	1	taxid+name	X0223	105231	Klebsormidium nitens
+Charbra	Chara braunii	69332	Archaeplastida-Streptophyta-Charophyceae	T_streptophyta:M;T_chara:M	1	none			
+Colescu	Coleochaete scutata	3125	Archaeplastida-Streptophyta-Coleochaetophyceae	T_streptophyta:M;T_chara:sister	1	taxid+name	X0215	3125	Coleochaete scutata
+Spirmus	Spirogloea muscicola	2576442	Archaeplastida-Streptophyta-Zygnematophyceae	T_rev_zygnematophyceae:M;T_embryophyta:sister;T_chara:sister	0	none			
+Mesoend	Mesotaenium endlicherianum	184485	Archaeplastida-Streptophyta-Zygnematophyceae	T_rev_zygnematophyceae:M;T_embryophyta:sister;T_chara:sister	0	none			
+ClosspNIES67	Closterium sp. NIES-67	2790670	Archaeplastida-Streptophyta-Zygnematophyceae	T_rev_zygnematophyceae:M;T_embryophyta:sister;T_chara:sister	0	none			
+Marcpol	Marchantia polymorpha	3197	Archaeplastida-Streptophyta-Embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister	1	taxid+name	X0205	3197	Marchantia polymorpha
+Physpat	Physcomitrium patens	3218	Archaeplastida-Streptophyta-Embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister	1	taxid+name	X0207	3218	Physcomitrium patens
+Selamoe	Selaginella moellendorffii	88036	Archaeplastida-Streptophyta-Embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister	1	taxid+name	X0203	88036	Selaginella moellendorffii
+Ceraric	Ceratopteris richardii	49495	Archaeplastida-Streptophyta-Embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister	1	none			
+Ambotri	Amborella trichopoda	13333	Archaeplastida-Streptophyta-Embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister	1	taxid+name	X0191	13333	Amborella trichopoda
+Arabtha	Arabidopsis thaliana	3702	Archaeplastida-Streptophyta-Embryophyta	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister	1	taxid+name	X0171	3702	Arabidopsis thaliana
+Choncri	Chondrus crispus	2769	Archaeplastida-Rhodophyta-Florideophyceae	T_rhodophyta:M;T_florideophyceae:M	1	taxid+name	X0233	2769	Chondrus crispus
+Graccho	Gracilariopsis chorda	448386	Archaeplastida-Rhodophyta-Florideophyceae	T_rhodophyta:M;T_florideophyceae:M	1	taxid+name	X0241	448386	Gracilariopsis chorda
+Agarchi	Agarophyton chilense	2510777	Archaeplastida-Rhodophyta-Florideophyceae	T_rhodophyta:M;T_florideophyceae:M	1	taxid+name	X0237	2510777	Agarophyton chilense
+Pyroyez	Pyropia yezoensis	2788	Archaeplastida-Rhodophyta-Bangiophyceae	T_rhodophyta:M;T_florideophyceae:sister	1	taxid	X0259	2788	Neopyropia yezoensis
+Porpumb	Porphyra umbilicalis	2786	Archaeplastida-Rhodophyta-Bangiophyceae	T_rhodophyta:M;T_florideophyceae:sister	1	taxid+name	X0255	2786	Porphyra umbilicalis
+Porppur	Porphyridium purpureum	35688	Archaeplastida-Rhodophyta-Porphyridiophyceae	T_rhodophyta:sister	0	taxid+name	X0263	35688	Porphyridium purpureum
+Rhodmar	Rhodosorus marinus	101924	Archaeplastida-Rhodophyta-Stylonematophyceae	T_rhodophyta:sister	0	taxid+name	X0275	101924	Rhodosorus marinus
+Cyanmer	Cyanidioschyzon merolae	280699	Archaeplastida-Rhodophyta-Cyanidiophyceae		0	name	X0253	45157	Cyanidioschyzon merolae
+Galdsul	Galdieria sulphuraria	130081	Archaeplastida-Rhodophyta-Cyanidiophyceae		0	taxid+name	X0271	130081	Galdieria sulphuraria
+Rhodemar	Rhodelphis marinus	2584957	Archaeplastida-Rhodelphidia		0	taxid+name	X0285	2584957	Rhodelphis marinus
+Cyanpar	Cyanophora paradoxa	2762	Archaeplastida-Glaucophyta		0	taxid+name	X0081	2762	Cyanophora paradoxa
+Ectosil	Ectocarpus siliculosus	2880	Stramenopiles-Phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	1	taxid+name	X0849	2880	Ectocarpus siliculosus
+Sacclat	Saccharina latissima	309358	Stramenopiles-Phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	1	none			
+Fucuser	Fucus serratus	87148	Stramenopiles-Phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	1	none			
+Dictdic	Dictyota dichotoma	2876	Stramenopiles-Phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	1	none			
+Discmes	Discosporangium mesarthrocarpum	376270	Stramenopiles-Phaeophyceae	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	1	none			
+Schiisc	Schizocladia ischiensis	196139	Stramenopiles-Schizocladiophyceae	T_px_filaments:M;T_phaeophyceae:sister;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	1	none			
+Phaecon	Phaeothamnion confervicola	77034	Stramenopiles-Phaeothamniophyceae	T_px_filaments:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister	1	none			
+Tribmin	Tribonema minus	303371	Stramenopiles-Xanthophyceae	T_px_filaments:M;T_xanthophyceae_filaments:M;T_oomycete_hyphae:sister	1	none			
+Vauclit	Vaucheria litorea	109269	Stramenopiles-Xanthophyceae	T_px_filaments:M;T_xanthophyceae_filaments:M;T_oomycete_hyphae:sister	0	taxid+name	X0845	109269	Vaucheria litorea
+Heteaka	Heterosigma akashiwo	2829	Stramenopiles-Raphidophyceae	T_px_filaments:sister;T_oomycete_hyphae:sister	0	taxid+name	X0865	2829	Heterosigma akashiwo
+Nannsal	Nannochloropsis salina CCMP1776	1027361	Stramenopiles-Eustigmatophyceae	T_px_filaments:sister;T_oomycete_hyphae:sister	0	none			
+Potemal	Poterioochromonas malhamensis	88167	Stramenopiles-Chrysophyceae	T_px_filaments:sister;T_oomycete_hyphae:sister	0	none			
+Aureano	Aureococcus anophagefferens	44056	Stramenopiles-Pelagophyceae	T_px_filaments:sister;T_oomycete_hyphae:sister	0	taxid+name	X0681	44056	Aureococcus anophagefferens
+Phaetri	Phaeodactylum tricornutum	556484	Stramenopiles-Bacillariophyta	T_px_filaments:sister;T_oomycete_hyphae:sister	0	name	X0785	2850	Phaeodactylum tricornutum
+Thalpse	Thalassiosira pseudonana	35128	Stramenopiles-Bacillariophyta	T_px_filaments:sister;T_oomycete_hyphae:sister	0	taxid+name	X0737	35128	Thalassiosira pseudonana
+Phytinf	Phytophthora infestans	403677	Stramenopiles-Oomycota	T_oomycete_hyphae:M	0	name	X0883	4787	Phytophthora infestans
+Saprpar	Saprolegnia parasitica	695850	Stramenopiles-Oomycota	T_oomycete_hyphae:M	0	name	X0897	101203	Saprolegnia parasitica
+Pytholi	Pythium oligandrum	41045	Stramenopiles-Oomycota	T_oomycete_hyphae:M	0	taxid+name	X0875	41045	Pythium oligandrum
+Caferoe	Cafeteria roenbergensis	33653	Stramenopiles-Bigyra-Bicosoecida		0	taxid+name	X0903	33653	Cafeteria roenbergensis
+Hondfer	Hondaea fermentalgiana	2315210	Stramenopiles-Labyrinthulomycetes	T_labyrinthula_nets:sister	0	taxid+name	X0923	2315210	Hondaea fermentalgiana
+Auralim	Aurantiochytrium limacinum	87102	Stramenopiles-Labyrinthulomycetes	T_labyrinthula_nets:sister	0	taxid+name	X0925	87102	Aurantiochytrium limacinum
+LabyspSRHaC	Labyrinthula sp SR-Ha-C	2710872	Stramenopiles-Labyrinthulomycetes	T_labyrinthula_nets:M	0	none			
+Platmac	Platyophrya macrostoma	938130	Alveolata-Ciliophora-Colpodea		0	taxid+name	X0617	938130	Platyophrya macrostoma
+Tetrthe	Tetrahymena thermophila	312017	Alveolata-Ciliophora		0	name	X0597	5911	Tetrahymena thermophila
+Paratet	Paramecium tetraurelia	5888	Alveolata-Ciliophora		0	taxid+name	X0607	5888	Paramecium tetraurelia
+Stencoe	Stentor coeruleus	5963	Alveolata-Ciliophora		0	none			
+Plasfal	Plasmodium falciparum	36329	Alveolata-Apicomplexa		0	name	X0657	5833	Plasmodium falciparum
+Toxogon	Toxoplasma gondii	508771	Alveolata-Apicomplexa		0	name	X0635	5811	Toxoplasma gondii
+Vitrbra	Vitrella brassicaformis	1169539	Alveolata-Chrompodellida		0	none			
+Perkmar	Perkinsus marinus	423536	Alveolata-Perkinsozoa		0	name	X0673	31276	Perkinsus marinus
+Guttvul	Guttulinopsis vulgaris	1144922	Rhizaria-Cercozoa	T_guttulinopsis:M;T_plasmodiophorid_plasmodium:sister	1	taxid+name	X0465	1144922	Guttulinopsis vulgaris
+Bigenat	Bigelowiella natans	227086	Rhizaria-Cercozoa	T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister	0	taxid+name	X0437	227086	Bigelowiella natans
+Paulmic	Paulinella micropora	1928728	Rhizaria-Cercozoa	T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister	0	taxid+name	X0453	1928728	Paulinella micropora
+Lothglo	Lotharella globosa	91324	Rhizaria-Cercozoa	T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister	0	taxid+name	X0431	91324	Lotharella globosa
+Brevmot	Brevimastigomonas motovehiculus	1885055	Rhizaria-Cercozoa	T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister	0	taxid+name	X0461	1885055	Brevimastigomonas motovehiculus
+Plasbra	Plasmodiophora brassicae	37360	Rhizaria-Endomyxa	T_plasmodiophorid_plasmodium:M	0	taxid+name	X0427	37360	Plasmodiophora brassicae
+Acrakon	Acrasis kona	1008807	Discoba-Heterolobosea	T_acrasis:M	1	none			
+Naeggru	Naegleria gruberi	5762	Discoba-Heterolobosea	T_acrasis:sister	0	taxid+name	X0061	5762	Naegleria gruberi
+Neovdam	Neovahlkampfia damariscottae	166956	Discoba-Heterolobosea	T_acrasis:sister	0	taxid+name	X0069	166956	Neovahlkampfia damariscottae
+Willmag	Willaertia magna	51641	Discoba-Heterolobosea	T_acrasis:sister	0	none			
+Pharkir	Pharyngomonas kirbyi	63601	Discoba-Heterolobosea		0	taxid+name	X0071	63601	Pharyngomonas kirbyi
+Euglgra	Euglena gracilis	3039	Discoba-Euglenozoa		0	taxid+name	X0053	3039	Euglena gracilis
+Trypbru	Trypanosoma brucei brucei	185431	Discoba-Euglenozoa		0	none			
+Bodosal	Bodo saltans	75058	Discoba-Euglenozoa		0	taxid+name	X0021	75058	Bodo saltans
+Andagod	Andalucia godoyi	505711	Discoba-Jakobida		0	taxid+name	X0003	505711	Andalucia godoyi
+Parapyr	Paratrimastix pyriformis	342808	Metamonada-Preaxostyla		0	taxid+name	X0961	342808	Paratrimastix pyriformis
+Gefioke	Gefionella okellyi	2853422	Malawimonadida		0	taxid+name	X0981	2853422	Gefionella okellyi
+Thectra	Thecamonas trahens ATCC 50062	461836	Apusomonadida		0	none			
+Pygsbif	Pygsuia biforma	1277256	Breviatea		0	taxid+name	X2649	1277256	Pygsuia biforma
+Rigiram	Rigifila ramosa	1122280	CRuMs		0	taxid+name	X0985	1122280	Rigifila ramosa
+Diphrot	Diphylleia rotans	190327	CRuMs		0	taxid+name	X0983	190327	Diphylleia rotans
+Guilthe	Guillardia theta	905079	Cryptista		0	name	X0307	55529	Guillardia theta
+Chrypar	Chrysochromulina parva	127563	Haptista-Haptophyta		0	none			
+Prympar	Prymnesium parvum	97485	Haptista-Haptophyta		0	taxid+name	X0351	97485	Prymnesium parvum
+Raphhet	Raphidiophrys heterophryoidea	1703429	Haptista-Centroplasthelida		0	taxid+name	X0323	1703429	Raphidiophrys heterophryoidea
+Telosub	Telonema subtile	232287	Telonemia		0	taxid+name	X0375	232287	Telonema subtile
+Paratri	Paraphelidium tribonemae	2548444	Holomycota-Aphelida		0	taxid	X1111	2548444	Paraphelidium tribonematis
