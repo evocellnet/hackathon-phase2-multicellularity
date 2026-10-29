@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1002.24pt" height="574.244447pt" viewBox="0 0 1002.24 574.244447" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T01:02:54.376688</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 574.244447 
+L 1002.24 574.244447 
+L 1002.24 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 2.2608 91.711524 
+L 999.9792 91.711524 
+L 999.9792 121.419831 
+L 2.2608 121.419831 
+z
+" clip-path="url(#pd874b7b95b)" style="fill: #f4f3ef"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 2.2608 151.128139 
+L 999.9792 151.128139 
+L 999.9792 180.836447 
+L 2.2608 180.836447 
+z
+" clip-path="url(#pd874b7b95b)" style="fill: #f4f3ef"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 2.2608 210.544755 
+L 999.9792 210.544755 
+L 999.9792 240.253062 
+L 2.2608 240.253062 
+z
+" clip-path="url(#pd874b7b95b)" style="fill: #f4f3ef"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 2.2608 269.96137 
+L 999.9792 269.96137 
+L 999.9792 299.669678 
+L 2.2608 299.669678 
+z
+" clip-path="url(#pd874b7b95b)" style="fill: #f4f3ef"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 2.2608 329.377985 
+L 999.9792 329.377985 
+L 999.9792 359.086293 
+L 2.2608 359.086293 
+z
+" clip-path="url(#pd874b7b95b)" style="fill: #f4f3ef"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 2.2608 388.794601 
+L 999.9792 388.794601 
+L 999.9792 418.502908 
+L 2.2608 418.502908 
+z
+" clip-path="url(#pd874b7b95b)" style="fill: #f4f3ef"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 2.2608 448.211216 
+L 999.9792 448.211216 
+L 999.9792 477.919524 
+L 2.2608 477.919524 
+z
+" clip-path="url(#pd874b7b95b)" style="fill: #f4f3ef"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 2.2608 507.627831 
+L 999.9792 507.627831 
+L 999.9792 537.336139 
+L 2.2608 537.336139 
+z
+" clip-path="url(#pd874b7b95b)" style="fill: #f4f3ef"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 807.3504 65.568213 
+L 995.04 65.568213 
+" clip-path="url(#pd874b7b95b)" style="fill: none; stroke: #8f8d88; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 7.2 91.711524 
+L 995.04 91.711524 
+" clip-path="url(#pd874b7b95b)" style="fill: none; stroke: #52514e; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m2bc01e80de" d="M 0 1.581139 
+C 0.419323 1.581139 0.821528 1.41454 1.118034 1.118034 
+C 1.41454 0.821528 1.581139 0.419323 1.581139 0 
+C 1.581139 -0.419323 1.41454 -0.821528 1.118034 -1.118034 
+C 0.821528 -1.41454 0.419323 -1.581139 0 -1.581139 
+C -0.419323 -1.581139 -0.821528 -1.41454 -1.118034 -1.118034 
+C -1.41454 -0.821528 -1.581139 -0.419323 -1.581139 0 
+C -1.581139 0.419323 -1.41454 0.821528 -1.118034 1.118034 
+C -0.821528 1.41454 -0.419323 1.581139 0 1.581139 
+z
+" style="stroke: #e4e2dc"/>
+    </defs>
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2bc01e80de" x="901.1952" y="165.982293" style="fill: #e4e2dc; stroke: #e4e2dc"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2bc01e80de" x="965.4048" y="165.982293" style="fill: #e4e2dc; stroke: #e4e2dc"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2bc01e80de" x="965.4048" y="255.107216" style="fill: #e4e2dc; stroke: #e4e2dc"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2bc01e80de" x="901.1952" y="284.815524" style="fill: #e4e2dc; stroke: #e4e2dc"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2bc01e80de" x="965.4048" y="284.815524" style="fill: #e4e2dc; stroke: #e4e2dc"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2bc01e80de" x="836.9856" y="314.523831" style="fill: #e4e2dc; stroke: #e4e2dc"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2bc01e80de" x="836.9856" y="433.357062" style="fill: #e4e2dc; stroke: #e4e2dc"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2bc01e80de" x="965.4048" y="433.357062" style="fill: #e4e2dc; stroke: #e4e2dc"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="80.57677" transform="rotate(-0 7.2 80.57677)">ID</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="80.577106" transform="rotate(-0 41.7744 80.577106)">Gene family (Pfam)</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="80.577106" transform="rotate(-0 219.5856 80.577106)">Expected event</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="80.577106" transform="rotate(-0 357.8832 80.577106)">Expected node or branch</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="664.1136" y="80.577106" transform="rotate(-0 664.1136 80.577106)">Confidence</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="733.2624" y="80.57677" transform="rotate(-0 733.2624 80.57677)">Outcome</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(816.493928 76.763645)">Ancestra</text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(815.163991 85.909848)">inference</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(873.77645 76.095473)">Expectation</text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(872.732231 85.909848)">or threshold</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(939.750331 76.889848)">Annotation</text>
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(949.829284 85.427457)">(Pfam)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="901.1952" y="62.752121" transform="rotate(-0 901.1952 62.752121)">Cause of failure</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="108.617826" transform="rotate(-0 7.2 108.617826)">C01</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="109.339318" transform="rotate(-0 41.7744 109.339318)">wnt</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="108.618135" transform="rotate(-0 219.5856 108.618135)">gain</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="108.745584" transform="rotate(-0 357.8832 108.745584)">Metazoa stem (gain; absent outside Metazoa)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="108.618135" transform="rotate(-0 664.1136 108.618135)">high</text>
+   </g>
+   <g id="PathCollection_9">
+    <defs>
+     <path id="m49c5a65f92" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #2a78d6; stroke-width: 1.4"/>
+    </defs>
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="106.565678" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="108.618135" transform="rotate(-0 751.04352 108.618135)">recovered</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="138.326134" transform="rotate(-0 7.2 138.326134)">C02</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="138.344032" transform="rotate(-0 41.7744 138.344032)">TGF_beta, TGFb_propeptide</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="138.326442" transform="rotate(-0 219.5856 138.326442)">gain</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="138.453892" transform="rotate(-0 357.8832 138.453892)">Metazoa stem (gain)</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="138.326442" transform="rotate(-0 664.1136 138.326442)">high</text>
+   </g>
+   <g id="PathCollection_10">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="136.273985" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="138.326442" transform="rotate(-0 751.04352 138.326442)">recovered</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="168.034441" transform="rotate(-0 7.2 168.034441)">C03</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="167.982598" transform="rotate(-0 41.7744 167.982598)">CADH_Y-type_LIR</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="168.03475" transform="rotate(-0 219.5856 168.03475)">gain</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 164.014699)">Metazoa stem (gain of classical cadherin cytoplasmic</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 172.61027)">domain)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="168.03475" transform="rotate(-0 664.1136 168.03475)">high</text>
+   </g>
+   <g id="PathCollection_11">
+    <defs>
+     <path id="m93ec4c3881" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #eb6834; stroke-width: 1.4"/>
+    </defs>
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m93ec4c3881" x="739.18944" y="165.982293" style="fill: #ffffff; stroke: #eb6834; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="168.03475" transform="rotate(-0 751.04352 168.03475)">not recovered</text>
+   </g>
+   <g id="PathCollection_12">
+    <defs>
+     <path id="m2ba35d8fcb" d="M -4.1833 4.1833 
+L 4.1833 4.1833 
+L 4.1833 -4.1833 
+L -4.1833 -4.1833 
+z
+" style="stroke: #ffffff"/>
+    </defs>
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2ba35d8fcb" x="836.9856" y="165.982293" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="197.742749" transform="rotate(-0 7.2 197.742749)">C04</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="198.635819" transform="rotate(-0 41.7744 198.635819)">Cadherin</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="197.742749" transform="rotate(-0 219.5856 197.742749)">present at P</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="197.870507" transform="rotate(-0 357.8832 197.870507)">Filozoa; present at P of Metazoa (Choanozoa node)</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="197.743058" transform="rotate(-0 664.1136 197.743058)">high</text>
+   </g>
+   <g id="PathCollection_13">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="195.690601" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="197.743058" transform="rotate(-0 751.04352 197.743058)">recovered</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="227.451057" transform="rotate(-0 7.2 227.451057)">C05</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(41.7744 223.321455)">SH2+PK_Tyr_Ser-Thr,</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(41.7744 231.616455)">Y_phosphatase</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="227.451057" transform="rotate(-0 219.5856 227.451057)">present at P</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="228.344127" transform="rotate(-0 357.8832 228.344127)">Filozoa or earlier</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="227.451365" transform="rotate(-0 664.1136 227.451365)">high</text>
+   </g>
+   <g id="PathCollection_14">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="225.398908" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="227.451365" transform="rotate(-0 751.04352 227.451365)">recovered</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="257.159365" transform="rotate(-0 7.2 257.159365)">C06</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="257.177263" transform="rotate(-0 41.7744 257.177263)">Integrin_beta</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="257.159673" transform="rotate(-0 219.5856 257.159673)">present at P + loss</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 253.139622)">pre-Opisthokonta (present with Thecamonas); losses on</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 261.434622)">Fungi and Choanoflagellata stems</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="257.159673" transform="rotate(-0 664.1136 257.159673)">high</text>
+   </g>
+   <g id="PathCollection_15">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m93ec4c3881" x="739.18944" y="255.107216" style="fill: #ffffff; stroke: #eb6834; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="257.159673" transform="rotate(-0 751.04352 257.159673)">not recovered</text>
+   </g>
+   <g id="PathCollection_16">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2ba35d8fcb" x="836.9856" y="255.107216" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="PathCollection_17">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2ba35d8fcb" x="901.1952" y="255.107216" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="286.867672" transform="rotate(-0 7.2 286.867672)">C07</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="287.760743" transform="rotate(-0 41.7744 287.760743)">T-box</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="286.867981" transform="rotate(-0 219.5856 286.867981)">present at P + loss + dup.</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 282.84793)">Opisthokonta/Holozoa; lost on Choanoflagellata stem;</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 291.14293)">duplications at Metazoa stem</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="286.867981" transform="rotate(-0 664.1136 286.867981)">high</text>
+   </g>
+   <g id="PathCollection_18">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m93ec4c3881" x="739.18944" y="284.815524" style="fill: #ffffff; stroke: #eb6834; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="286.867981" transform="rotate(-0 751.04352 286.867981)">not recovered</text>
+   </g>
+   <g id="PathCollection_19">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2ba35d8fcb" x="836.9856" y="284.815524" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_53">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="316.57598" transform="rotate(-0 7.2 316.57598)">C08</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="316.996285" transform="rotate(-0 41.7744 316.996285)">DSL, NOD, NODP</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="316.57598" transform="rotate(-0 219.5856 316.57598)">present at P</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="316.703738" transform="rotate(-0 357.8832 316.703738)">Choanozoa (in some choanoflagellates)</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="316.576289" transform="rotate(-0 664.1136 316.576289)">moderate</text>
+   </g>
+   <g id="PathCollection_20">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m93ec4c3881" x="739.18944" y="314.523831" style="fill: #ffffff; stroke: #eb6834; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="316.576289" transform="rotate(-0 751.04352 316.576289)">not recovered</text>
+   </g>
+   <g id="PathCollection_21">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2ba35d8fcb" x="901.1952" y="314.523831" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="PathCollection_22">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2ba35d8fcb" x="965.4048" y="314.523831" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_59">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="346.284288" transform="rotate(-0 7.2 346.284288)">C09</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="346.302186" transform="rotate(-0 41.7744 346.302186)">Homeobox_KN</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="346.284288" transform="rotate(-0 219.5856 346.284288)">present at P</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 342.264545)">present at P of the Streptophyta, Phaeophyceae and</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 350.559545)">Rhodophyta transitions</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="346.284596" transform="rotate(-0 664.1136 346.284596)">high</text>
+   </g>
+   <g id="PathCollection_23">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="344.232139" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="346.284596" transform="rotate(-0 751.04352 346.284596)">recovered</text>
+   </g>
+   <g id="text_65">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="375.992595" transform="rotate(-0 7.2 375.992595)">C10</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="376.815923" transform="rotate(-0 41.7744 376.815923)">GRAS</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="375.992904" transform="rotate(-0 219.5856 375.992904)">gain</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="376.120353" transform="rotate(-0 357.8832 376.120353)">Zygnematophyceae+Embryophyta stem</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="375.992904" transform="rotate(-0 664.1136 375.992904)">high</text>
+   </g>
+   <g id="PathCollection_24">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="373.940447" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="375.992904" transform="rotate(-0 751.04352 375.992904)">recovered</text>
+   </g>
+   <g id="text_71">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="405.700903" transform="rotate(-0 7.2 405.700903)">C11</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="405.597216" transform="rotate(-0 41.7744 405.597216)">RB_A, RB_B</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="405.700903" transform="rotate(-0 219.5856 405.700903)">present at P</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="405.828661" transform="rotate(-0 357.8832 405.828661)">present in Chlamydomonas (P of volvocine M); no gain at M</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="405.701212" transform="rotate(-0 664.1136 405.701212)">high</text>
+   </g>
+   <g id="PathCollection_25">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="403.648755" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="405.701212" transform="rotate(-0 751.04352 405.701212)">recovered</text>
+   </g>
+   <g id="text_77">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="435.409211" transform="rotate(-0 7.2 435.409211)">C12</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="435.536969" transform="rotate(-0 41.7744 435.536969)">DUF3707 (pherophorin)</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="435.409519" transform="rotate(-0 219.5856 435.409519)">expansion</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 431.389469)">Volvox carteri vs Chlamydomonas reinhardtii copy number</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 439.684469)">(tip/Volvocaceae expansion)</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="435.409519" transform="rotate(-0 664.1136 435.409519)">moderate</text>
+   </g>
+   <g id="PathCollection_26">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m93ec4c3881" x="739.18944" y="433.357062" style="fill: #ffffff; stroke: #eb6834; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="435.409519" transform="rotate(-0 751.04352 435.409519)">not recovered</text>
+   </g>
+   <g id="PathCollection_27">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m2ba35d8fcb" x="901.1952" y="433.357062" style="fill: #eb6834; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_83">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="465.117518" transform="rotate(-0 7.2 465.117518)">C13</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="465.889003" transform="rotate(-0 41.7744 465.889003)">N. crassa Hex1</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="465.117827" transform="rotate(-0 219.5856 465.117827)">duplication + gain</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="465.245276" transform="rotate(-0 357.8832 465.245276)">Pezizomycotina stem</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="465.117827" transform="rotate(-0 664.1136 465.117827)">moderate</text>
+   </g>
+   <g id="PathCollection_28">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="463.06537" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="465.117827" transform="rotate(-0 751.04352 465.117827)">recovered</text>
+   </g>
+   <g id="text_89">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="494.825826" transform="rotate(-0 7.2 494.825826)">C14</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="494.953584" transform="rotate(-0 41.7744 494.953584)">Hydrophobin</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="494.826135" transform="rotate(-0 219.5856 494.826135)">expansion</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="494.953584" transform="rotate(-0 357.8832 494.953584)">Agaricomycetes</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="494.826135" transform="rotate(-0 664.1136 494.826135)">moderate</text>
+   </g>
+   <g id="PathCollection_29">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="492.773678" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="494.826135" transform="rotate(-0 751.04352 494.826135)">recovered</text>
+   </g>
+   <g id="text_95">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="524.534134" transform="rotate(-0 7.2 524.534134)">C15</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(41.7744 520.514392)">toolkit classes: kinase ptyr,</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(41.7744 528.809392)">adhesion ecm, signalling</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="524.534442" transform="rotate(-0 219.5856 524.534442)">no expansion (null)</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 520.514392)">fungal hyphal node (Blastocladio+Zoopago+Mucoro+Dikarya</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; fill: #1b1b1b" transform="translate(357.8832 529.105642)">stem)</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="524.534442" transform="rotate(-0 664.1136 524.534442)">high</text>
+   </g>
+   <g id="PathCollection_30">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="522.481985" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="524.534442" transform="rotate(-0 751.04352 524.534442)">recovered</text>
+   </g>
+   <g id="text_101">
+    <text style="font-weight: 700; font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="554.242441" transform="rotate(-0 7.2 554.242441)">C16</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="41.7744" y="554.26034" transform="rotate(-0 41.7744 554.26034)">ketoacyl-synt+Acyl_transf_1</text>
+   </g>
+   <g id="text_103">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="219.5856" y="554.24275" transform="rotate(-0 219.5856 554.24275)">expansion</text>
+   </g>
+   <g id="text_104">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="357.8832" y="554.370199" transform="rotate(-0 357.8832 554.370199)">Dictyostelia</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="664.1136" y="554.24275" transform="rotate(-0 664.1136 554.24275)">low-moderate</text>
+   </g>
+   <g id="PathCollection_31">
+    <g clip-path="url(#pd874b7b95b)">
+     <use xlink:href="#m49c5a65f92" x="739.18944" y="552.190293" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="751.04352" y="554.24275" transform="rotate(-0 751.04352 554.24275)">recovered</text>
+   </g>
+  </g>
+  <g id="text_107">
+   <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1b1b1b" x="7.2" y="16.698047" transform="rotate(-0 7.2 16.698047)">Positive controls: 11 of 16 expected events recovered; every failure traced to a cause</text>
+  </g>
+  <g id="text_108">
+   <text style="font-size: 8.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="7.2" y="42.445247" transform="rotate(-0 7.2 42.445247)">Pre-registered criterion: ≥ 11 of 16 recovered and every high-confidence failure (C03, C06, C07) explained.  P = parent node of a transition stem.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd874b7b95b">
+   <rect x="7.2" y="64.974047" width="987.84" height="502.0704"/>
+  </clipPath>
+ </defs>
+</svg>

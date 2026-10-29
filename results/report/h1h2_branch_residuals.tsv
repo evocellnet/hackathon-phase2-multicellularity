@@ -1,0 +1,338 @@
+branch	seq_novel	yhat	resid_s	in_U
+Bikonta	2555	53.6335	3.85455	False
+Gefioke		210.341		False
+Parapyr		84.7895		False
+Diaphoretickes	1337	212.674	1.83645	True
+Guilthe		64.9829		False
+Archaeplastida	90	182.894	-0.706287	True
+Cyanpar		55.4163		False
+Rhodophyta_Rhodelphidia	9	52.8444	-1.72548	True
+Rhodemar		378.308		False
+Rhodophyta	89	427.885	-1.56578	False
+Cyanidiophyceae	9	17.9145	-0.661844	True
+Cyanmer		376.957		False
+Galdsul		188.813		False
+Rhodophytina	117	126.25	-0.075775	False
+Eurhodophytina	62	89.5571	-0.365277	False
+Bangiaceae		267.037		False
+Porpumb		16.37		False
+Pyroyez		15.7896		False
+Rhodymeniophycidae	277	178.94	0.435979	False
+Choncri		46.3229		False
+Gracilariaceae		77.5928		False
+Agarchi		28.5916		False
+Graccho		19.9246		False
+Proteorhodophytina		9.45376		False
+Porppur		197.024		False
+Rhodmar		150.966		False
+Viridiplantae	115	950.015	-2.10773	True
+Prascol		75.2229		False
+Chlorophyta_Streptophyta	188	192.42	-0.0231762	False
+Chlorophyta	36	105.127	-1.06261	True
+Mamiellales	231	23.8734	2.25109	True
+Micrcom		71.0989		False
+Ostrtau		119.264		False
+UTC_clade	227	499.624	-0.787705	True
+CS_clade	148	208.118	-0.339921	True
+Raphsub		42.4972		False
+Chlamydomonadales		108.008		False
+Dunasal		48.87		False
+Reinhardtinia		469.955		False
+Edapdeb		9.63548		False
+Chlamydomonas_TGV	142	27.9469	1.6113	False
+Chlamydomonas		28.3643		False
+Chlainc		2.25808		False
+Chlarei		2.12757		False
+Chlasch		2.83613		False
+TGV_clade	32	6.67084	1.51122	False
+Tetrsoc	1244	22.9062	3.97349	False
+Gonium_Volvocaceae	88	14.0587	1.80481	False
+Gonipec		12.2386		False
+Astrephomene_Volvocaceae		5.07119		False
+Astrgub		10.6608		False
+Volvocaceae		15.9014		False
+Pleosta		5.99848		False
+Volvafr		9.42469		False
+Volvcar		10.5589		False
+Trebouxiophyceae	18	11.1023	0.466563	True
+Chlovul		90.3356		False
+Coccsub		76.1109		False
+Ulvophyceae	10	16.933	-0.506987	False
+Ulvamut	4454	155.664	3.35076	False
+Bryopsidales	302	120.303	0.917916	False
+BryospKO2023		60.2387		False
+Caullen		116.709		False
+Ostrque		74.5126		False
+Streptophyta	113	85.8429	0.273477	False
+Klebsormidiophyceae_Phragmoplastophyta	189	177.779	0.0610392	False
+Klebnit		31.7773		False
+Streptophytina	83	61.5868	0.296313	False
+Charbra	12042	34.3356	5.84556	False
+Coleochaetophyceae_Anydrophyta		31.0559		False
+Colescu		122.26		False
+Anydrophyta	73	13.3723	1.66739	False
+Embryophyta	217	76.5458	1.0378	False
+Setaphyta		6.10584		False
+Marcpol		31.1604		False
+Physpat		40.6175		False
+Tracheophyta		9.25148		False
+Selamoe		39.0184		False
+Euphyllophyta		10.1598		False
+Ceraric		34.8544		False
+Magnoliopsida		50.8957		False
+Ambotri		25.7488		False
+Arabtha		43.9615		False
+Zygnematophyceae	25	10.5371	0.83742	False
+Spirmus		87.0357		False
+Zygnematophycidae		10.9932		False
+ClosspNIES67		82.7655		False
+Mesoend		47.9577		False
+Mesostigmatophyceae_Chlorokybophyceae		8.96347		False
+Chloatm		81.3836		False
+Mesovir		92.3922		False
+Haptista	21	29.1972	-0.323	True
+Raphhet		638.767		False
+Prymnesiales		225.921		False
+Chrypar		75.3694		False
+Prympar		62.0932		False
+TSAR	120	65.0963	0.60813	True
+Telosub		315.66		False
+Sar	186	236.066	-0.237796	False
+Alveolata	32	113.366	-1.25378	True
+Ciliophora	208	159.491	0.26482	True
+Stencoe		202.455		False
+Intramacronucleata		157.622		False
+Platmac		646.553		False
+Oligohymenophorea		102.856		False
+Paratet		217.327		False
+Tetrthe		148.654		False
+Myzozoa	152	146.653	0.0356899	True
+Perkmar		174.514		False
+Apicomplexa_Chrompodellida		67.3751		False
+Vitrbra		105.452		False
+Apicomplexa		50.7058		False
+Plasfal		370.068		False
+Toxogon		155.923		False
+Rhizaria	20	118.296	-1.75698	False
+Plasbra	2317	133.632	2.84942	False
+Cercozoa	67	177.045	-0.967098	False
+Brevmot		387.969		False
+Guttvul	6561	812.133	2.08869	False
+Paulmic		117.429		False
+Chlorarachniophyceae		290.022		False
+Bigenat		49.7019		False
+Lothglo		156.435		False
+Stramenopiles	112	269.423	-0.875183	True
+Bigyra	6	39.9949	-1.82937	True
+Caferoe		217.219		False
+Labyrinthulomycetes	90	164.091	-0.598116	False
+LabyspSRHaC	7354	281.285	3.26192	False
+Thraustochytriidae		434.369		False
+Auralim		65.3226		False
+Hondfer		20.9698		False
+Gyrista	104	163.71	-0.451957	False
+Ochrophyta	293	319.522	-0.0865122	False
+Aureano		108.23		False
+Heteaka		68.4216		False
+Nannsal		74.5447		False
+Potemal		114.85		False
+Bacillariophyta		122.922		False
+Phaetri		85.8944		False
+Thalpse		71.2603		False
+PX_clade	403	241.421	0.511564	False
+Phaecon		59.1182		False
+Phaeophyceae_Schizocladia	340	93.4263	1.2879	False
+Schiisc		29.715		False
+Phaeophyceae	212	62.0666	1.22271	False
+Discmes		39.0017		False
+Dictyotophycidae_Fucophycidae		53.7312		False
+Dictdic		19.9915		False
+Fucophycidae		19.0088		False
+Ectosil		9.8992		False
+Fucuser		15.6518		False
+Sacclat		14.6785		False
+Xanthophyceae	53	92.0126	-0.547663	False
+Tribmin		35.9881		False
+Vauclit		345.294		False
+Oomycota	632	102.371	1.81621	False
+Saprpar		55.59		False
+Peronosporomycetes		51.9339		False
+Phytinf		33.418		False
+Pytholi		23.8438		False
+Discoba	66	50.3726	0.267878	True
+Andagod		180.631		False
+Discicristata	75	84.3775	-0.117077	False
+Euglenozoa	19	155.21	-2.07758	True
+Euglgra		516.562		False
+Metakinetoplastina		515.086		False
+Bodosal		110.379		False
+Trypbru		119.051		False
+Heterolobosea	102	83.9798	0.19335	True
+Pharkir		431.693		False
+Tetramitia	293	162.632	0.587316	False
+Acrakon	3715	99.0204	3.61991	False
+Neovdam		132.056		False
+Naegleriidae		153.722		False
+Naeggru		50.5086		False
+Willmag		46.5262		False
+Podiata	199	55.295	1.27413	False
+Amorphea	678	199.746	1.22034	True
+Amoebozoa	285	131.276	0.77314	True
+Discosea	16	19.2213	-0.178341	True
+Acancas		137.193		False
+Stygreg		679.75		False
+Evosea	82	84.4757	-0.0295675	True
+Mastbal		129.265		False
+Eumycetozoa	74	134.051	-0.591142	False
+Dictyostelia	507	401.378	0.233349	False
+Acytosteliales		26.0412		False
+Cavefas		46.5407		False
+Acytosteliaceae		28.4365		False
+Acytsub		29.0521		False
+Hetepal		32.6605		False
+Dictyosteliales		28.727		False
+Tieglac		42.2884		False
+Dictyostelium		46.5448		False
+Dictdis		19.3175		False
+Dictpur		20.382		False
+Myxogastria_Ceratiomyxa	93	33.5098	1.01131	False
+Cerafru		384.161		False
+Physpol	6679	359.179	2.92159	False
+Variosea	344	134.985	0.933233	True
+Protnoc		262.315		False
+Cavosteliaceae		0.956125		False
+Cavoapo		388.767		False
+Planfun		101.755		False
+Tubulinea	93	274.887	-1.08022	True
+Vermver		317.23		False
+Elardia	227	301.538	-0.283402	False
+Arceint		386.312		False
+Coprpro	3753	379.944	2.2891	False
+Rhizsax		486.534		False
+Obazoa	38	135.447	-1.26161	True
+Pygsbif		285.105		False
+Apusomonadida_Opisthokonta		118.472		False
+Thectra		87.5004		False
+Opisthokonta	320	849.457	-0.975303	False
+Holomycota	24	238.749	-2.27883	True
+Fungi	32	258.022	-2.07374	True
+Rozeall		87.6048		False
+Aphelida_Eumycota		184.422		False
+Paratri		269.495		False
+Eumycota	130	226.129	-0.55194	False
+Blastocladiomycota_Amastigomycota	13	32.6855	-0.899424	False
+Allomac		93.3756		False
+Amastigomycota	120	254.714	-0.750454	False
+Mucoromycota_Dikarya		69.4085		False
+Dikarya		371.591		False
+Ascomycota		235.642		False
+Taphrinomycotina	26	14.4582	0.571885	False
+Neolirr	1009	84.5862	2.47355	False
+Saitcom	1522	69.2075	3.0838	False
+Schipom	625	135.867	1.5232	False
+Taphdef		102.967		False
+saccharomyceta	56	76.6039	-0.310913	False
+Pezizomycotina	200	106.928	0.623995	False
+Pyroomp		49.9653		False
+leotiomyceta		113.579		False
+Aspenid		46.4979		False
+Zymobre		64.9514		False
+sordariomyceta		28.4868		False
+Botrcin		33.0007		False
+Neurcra		58.9512		False
+Saccharomycotina	47	50.7874	-0.0767148	False
+Liposta		67.025		False
+Sacccer		200.116		False
+Yarrlip		125.585		False
+Basidiomycota	100	173.41	-0.548379	False
+Rhodtor	1804	69.743	3.24608	False
+Ustilaginomycotina_Agaricomycotina		35.6272		False
+Ustimay		75.8207		False
+Wallemiomycotina_Agaricomycotina		43.7249		False
+Wallmel		92.8233		False
+Agaricomycotina	55	46.0716	0.175392	False
+Agaricomycetes_Dacrymycetes	179	54.531	1.18228	False
+Dacrpri		60.125		False
+Agaricales		96.7464		False
+Schicom		33.3157		False
+Agaricineae		18.8099		False
+Coprcin		29.7404		False
+Laccbic		22.7817		False
+Tremellales	364	114.911	1.15003	False
+Crypneo	716	35.3874	2.99399	False
+Tremmes	1915	39.7308	3.8631	False
+Mucoromycota		11.8074		False
+Morthyg		64.0287		False
+Mucorineae		119.622		False
+Mucolus		20.1438		False
+Rhizmic		22.6831		False
+Zoopagomycota		6.21428		False
+Basimer		59.3978		False
+Coemumb		167.142		False
+chytridiomyceta	54	20.9963	0.930322	False
+Gonapro	4254	118.925	3.57304	False
+Pirofin		81.9655		False
+Chytridiomycetes		32.32		False
+Batrden		98.7917		False
+Spizpun		54.6829		False
+Rotosphaerida	15	31.5021	-0.72496	False
+Fontalb	1776	265.245	1.89986	False
+Parvatl		421.381		False
+Holozoa	293	231.901	0.233415	False
+Filozoa		63.0188		False
+Choanozoa	118	162.735	-0.320276	False
+Choanoflagellata		258.575		False
+Acanthoecida		147.315		False
+Acanspe		365.422		False
+Didycos		355.955		False
+Salpingoecidae	884	294.622	1.09763	False
+Barrmon	2440	87.3331	3.32452	False
+Choafle	2858	303.767	2.24015	False
+Codohol	14077	417.516	3.51681	False
+Monobre		91.5795		False
+Mylnflu		357.715		False
+Salpros	1422	77.7997	2.89963	False
+Metazoa	594	246.712	0.877475	False
+Mnemlei		91.8975		False
+ParaHoxozoa		54.3157		False
+Bilateria		53.3646		False
+Deuterostomia		8.35595		False
+Stropur		55.5212		False
+Chordata		10.4365		False
+Branbel		47.8222		False
+Homosap		60.071		False
+Protostomia		15.5538		False
+Capitel		57.3192		False
+Ecdysozoa		40.682		False
+Caenele		265.034		False
+Drosmel		117.959		False
+Cnidaria		12.5807		False
+Hydrvul		101.07		False
+Nemavec		54.5557		False
+Uniplacotomia		116.21		False
+Hoilhon		10.1915		False
+Tricadh		11.1045		False
+Porifera		15.2815		False
+Calcarea_Homoscleromorpha		21.8248		False
+Oscapea		330.509		False
+Sycocil		119.254		False
+Heteroscleromorpha		59.2731		False
+Amphque		86.7713		False
+Ephymue		66.7674		False
+Filasterea	23	25.029	-0.0828164	False
+Capsowc	1407	102.886	2.6111	False
+Minivib		143.261		False
+Pigochi		347.872		False
+Teretosporea	27	18.1272	0.389561	False
+Ichthyosporea		33.7277		False
+Chroper		95.2379		False
+Ichthyophonida		541.172		False
+Amoepar		481.849		False
+Creofra		24.8159		False
+Sphaarc		27.7379		False
+Pluriformea		36.904		False
+Coralim		245.894		False
+Syssmul		378.254		False
+CRuMs	56	85.6909	-0.422323	True
+Diphrot		522.833		False
+Rigiram		539.167		False
