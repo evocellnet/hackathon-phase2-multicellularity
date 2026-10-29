@@ -1,0 +1,153 @@
+CITATION AUDIT — report/REPORT.md
+Auditor: citation-audit subagent, 2026-10-29
+Sources used: LITERATURE.md (References and body text), PubMed (get_article_metadata abstracts; PMC full text for Richter 2018, Lindsey 2021, Kiss 2019, Prochnik 2010), Crossref, one web search (Holm 1979).
+Companion file: report/references_section.txt (the References section to paste into REPORT.md).
+
+========================================================================
+PART 1. IN-TEXT CITATIONS AND THEIR MATCH IN LITERATURE.md
+========================================================================
+
+51 distinct in-text citations were extracted from REPORT.md (HTML comments excluded).
+50 match a LITERATURE.md References entry; 1 does not.
+
+Unmatched (no LITERATURE.md entry):
+  U1. Zhang 2000 (§6.3, Kr/Kc). Now verified: Zhang J 2000, J Mol Evol 50:56-68, doi:10.1007/s002399910007, PMID:10654260. Entry added to references_section.txt.
+
+Matched but needing attention:
+  M1. Lynch 2007 — LITERATURE.md has two "Lynch 2007" entries (PNAS paper and the Sinauer book, the latter marked [book not tool-verified]). The report's use (drift and organismal complexity) fits the PNAS paper (PMID:17494740); only that entry is listed.
+  M2. Pentz et al. 2023 — LITERATURE.md lists it as Crossref-only, but it is in PubMed (PMID:37889142). The entry was updated.
+  M3. Richter et al. 2022 (EukProt) — LITERATURE.md marks the article number e56 [unverified]. Crossref confirms e56. Entry updated.
+  M4. Mistry et al. 2021 is cited for Pfam-A 38.2. That paper describes Pfam 33.1. Recommend adding Paysan-Lafosse et al. 2025 (already in LITERATURE.md, PMID:39540428): "(Mistry et al. 2021; Paysan-Lafosse et al. 2025; ...)".
+  M5. Emenecker et al. 2021 is cited for metapredict 3.1. Version 3 is described in Lotthammer et al. 2024 (bioRxiv preprint, doi:10.1101/2024.11.05.622168, Crossref-verified, not peer reviewed). Optional: "(Emenecker et al. 2021; Lotthammer et al. 2024, preprint)".
+  M6. Manni et al. 2021 cited for BUSCO 6.1.0. That paper is BUSCO v5, but the odb10 lineage sets used are those it describes, so the citation is acceptable.
+
+Tools, methods and data named in the text WITHOUT a citation (all now verified; entries in references_section.txt, "Software and data"):
+  S1. SYNERGY (§4.1; PI-NOTE asks for it) -> Wapinski et al. 2007, Nature 449:54-61, PMID:17805289. Replacement text: "The approach descends from the bottom-up methods SYNERGY (Wapinski et al. 2007) and Hieranoid (Schreiber & Sonnhammer 2013) ..."
+  S2. Ancestra (§4.1) -> repository github.com/evocellnet/ancestra-mvp-ai, commit ffb0bbe, tag freeze-v1 (no paper).
+  S3. DIAMOND (§4.1, §4.2) -> Buchfink et al. 2021, PMID:33828273.
+  S4. MMseqs2, FAMSA, FastTree (called inside Ancestra per its README; not named in REPORT.md) -> Steinegger & Söding 2017 PMID:29035372; Deorowicz et al. 2016 PMID:27670777; Price et al. 2010 PMID:20224823. Optional.
+  S5. MAFFT, trimAl, IQ-TREE 3.1.4 (§3 Guide trees; PI-NOTE) -> Katoh & Standley 2013 PMID:23329690; Capella-Gutiérrez et al. 2009 PMID:19505945; Wong et al. 2026 (IQ-TREE 3, Mol Biol Evol 43(5):msag117, PMID:42085559). Minh et al. 2020 (IQ-TREE 2, PMID:32011700) is optional.
+     Replacement text (§3): "each was aligned with MAFFT (Katoh & Standley 2013) and trimmed with trimAl (Capella-Gutiérrez et al. 2009), giving 64,727 concatenated columns, and the tree was fitted with IQ-TREE 3.1.4 (Wong et al. 2026) under LG+G4."
+  S6. cd-hit (§3 Preparation) -> Fu et al. 2012 PMID:23060610. Text: "(cd-hit; Fu et al. 2012, shorter sequence ≥90% covered)".
+  S7. pyhmmer / HMMER (§4.4) -> Larralde & Zeller 2023 PMID:37074928; Eddy 2011 PMID:22039361. Text: "pyhmmer 0.12.3 (Larralde & Zeller 2023), a binding to HMMER3 (Eddy 2011)".
+  S8. Leiden algorithm (§4.2, §6.1) -> Traag et al. 2019 PMID:30914743. Text: "with the Leiden community-detection algorithm (Traag et al. 2019)".
+  S9. Holm correction (§4.3, Table 2) -> Holm 1979, Scand J Stat 6:65-70 (no DOI; JSTOR 4615733; WEB-verified). Text: "The five primary p-values are Holm-corrected (Holm 1979)".
+  S10. UniProt reference proteomes (§3 table) -> UniProt Consortium 2025, PMID:39552041. Text: "UniProt reference proteomes 2026_03 (UniProt Consortium 2025)".
+  S11. AlphaFold DB "v6" (§4.6) is cited to Varadi et al. 2024, which describes the 2024 release; acceptable, but say "AlphaFold DB (Varadi et al. 2024), release v6".
+  S12. Mahalanobis matching (§4.3) — named, not cited; a standard method, no citation needed. Not added.
+  S13. Uncited factual statements: "TM >0.5 generally means the same fold" (§4.6) -> Xu & Zhang 2010 PMID:20164152; "RELAX" (§7.4) -> Wertheim et al. 2015 PMID:25540451. Optional entries are in references_section.txt.
+  S14. "Hartung–Knapp adjustment" (§6.5) and "random-effects pooled estimate" are uncited standard methods; optional.
+
+========================================================================
+PART 2. CLAIM–CITATION AUDIT (48 pairs)
+========================================================================
+
+Verdicts: S = supported, P = partially supported, N = not supported, C = cannot check with the available text.
+"Evidence" names what was checked: abstract (PubMed), full text (PMC), or LITERATURE.md (LIT; abstract-derived per its own method note).
+
+#   | Location | Claim (abridged) | Citation | Verdict | Evidence / note
+----|----------|------------------|----------|---------|----------------
+A1  | §1 bullet 1 | Clonal vs aggregative definitions | Grosberg & Strathmann 2007; Brunet & King 2017 | S | LIT §1.1. Brunet & King abstract covers animal origins; Grosberg is the primary source for the dichotomy.
+A2  | §1 bullet 1 | Single-cell bottleneck is the main defence against cell-lineage conflict | Grosberg & Strathmann 2007 | S | LIT §1.1 (Crossref; abstract-derived).
+A3  | §1 bullet 1 | Clonal groups more likely obligately multicellular and with more cell types | Fisher, Cornwallis & West 2013 | S | Abstract: "species with clonal group formation were more likely to have undergone the major evolutionary transition to obligate multicellularity and had more cell types". Pedantic fix optional: "species with clonal group formation" instead of "clonal groups".
+A4  | §1 bullet 2 | All known aggregative organisms are facultative | Márquez-Zacarías et al. 2021 | S | Abstract, verbatim.
+A5  | §1 bullet 3 | Knoll restricts complex MC to animals, land plants, florideophyte reds, laminarialean browns, two fungal groups; requires channels and tissues | Knoll 2011 | S | LIT §1.1 quotes the list (Crossref; not in PubMed).
+A6  | §1 bullet 3 / §1 "How many" | 8–11 origins of complex fruiting bodies in fungi | Nagy, Kovács & Krizsán 2018 | S | Abstract: complex multicellularity "appears 8-11 times in distinct fungal lineages".
+A7  | §1 bullet 4 | Cytoplasmic bridges from incomplete division as grey zone | Chaigne & Brunet 2022 | S | Abstract.
+A8  | §1 bullet 4 | Organismality continuum | Queller & Strassmann 2009 | S | Abstract.
+A9  | §1 "How many" | 45 independent lineages of simple MC eukaryotes, six types, true number likely ~100 | Lamża 2023 | S | Abstract: "45 independent multicellular lineages ... six distinct types ... likely close to a hundred". Title restricts to 'simple'.
+A10 | §1 "How many" | Complex MC in five or six eukaryotic clades | Knoll 2011 | S | LIT; Knoll's list has six entries if the two fungal groups are counted separately.
+A11 | §1 "How many" | Several bacterial lineages multicellular; archaeal cases rare | Claessen et al. 2014; Rados et al. 2025 | S | Claessen abstract "independently several times"; Rados abstract "only once in archaea".
+A12 | §1 idea 1 | *Monosiga brevicollis* has cadherins and tyrosine kinases | King et al. 2008 | P | Abstract says only "cell adhesion and signalling protein domains that are otherwise restricted to metazoans"; cadherins and TKs are in the paper's main text, and LITERATURE.md cites dedicated papers. Correction: "The choanoflagellate *Monosiga brevicollis* has cadherins and tyrosine kinases (King et al. 2008; Abedin & King 2008; Manning et al. 2008)". Both entries are in LITERATURE.md and in the conditional block of references_section.txt.
+A13 | §1 idea 1 | *Capsaspora* has integrin adhesion machinery | Sebé-Pedrós et al. 2010 | C | Abstract names only the apusozoan *Amastigomonas* and states the machinery predates Opisthokonta, with losses in fungi and choanoflagellates. PMC full text was empty. The *Capsaspora* claim matches LIT §3.1 and the paper's known content but was not tool-checked. Safer text: "the integrin adhesion machinery predates opisthokonts and was lost in fungi and choanoflagellates (Sebé-Pedrós et al. 2010)".
+A14 | §1 idea 1; §7.1 | ~80% of proteins essential for dictyostelid development present in unicellular relatives | Glöckner et al. 2016 | S | Abstract, verbatim ("80% of proteins essential for the development of multicellular Dictyostelia are already present in their unicellular relatives").
+A15 | §1 idea 1 | *Volvox* proteome differs little in coding potential from *Chlamydomonas* | Prochnik et al. 2010 | S | Abstract: "similar protein-coding potentials and few species-specific protein-coding gene predictions".
+A16 | §1 idea 1 | Fungal hyphae arose by co-opting ancient genes, without expansions of kinases, receptors or adhesive proteins | Kiss et al. 2019 | P | The "no expansion" half is verbatim. But Kiss et al. describe "diverse genetic changes, including co-option ..., the origin of new gene families, gene duplications", co-option being "probably the dominant mechanism", and 414 novel gene families correlated with hyphae. Correction: "fungal hyphae arose mainly by co-opting ancient genes, together with some new gene families, and without expansions of kinases, receptors or adhesive proteins (Kiss et al. 2019)".
+A17 | §1 idea 2 | Quote: "an unprecedented increase in the extent of genomic novelty" at the origin of animals | Paps & Holland 2018 | S | Abstract, verbatim ("... during the origin of metazoans").
+A18 | §1 idea 2; §7.1 | Two bursts of genomic novelty in the plant lineage | Bowles et al. 2020 | S | Abstract: novelties "in two nodes": streptophytes and land plants.
+A19 | §1 idea 2; §7.1 | Marked gain of new gene families at the emergence of brown algae | Denoeud et al. 2024 | S | Abstract: "marked gain of new orthologous gene families".
+A20 | §1 idea 2 | Adding 19 choanoflagellate transcriptomes moved ~372 supposedly animal-specific families to before the animal–choanoflagellate split | Richter et al. 2018 | S | Abstract + full text: "This more comprehensive data set revealed that ~372 gene families that were previously thought to be animal-specific actually evolved prior to the divergence of choanoflagellates and animals". The data set is 19 new transcriptomes plus prior genomes.
+A21 | §7.1 | ~1,944 families on the animal stem | Richter et al. 2018 | S | Abstract.
+A22 | §7.1 | Richter showed that sampling can move hundreds of "novel" animal families to earlier nodes | Richter et al. 2018 | S | As A20.
+A23 | §6.1 item 4 | *Didymoeca costata* has integrin β, as Richter et al. reported | Richter et al. 2018 | S (with caveat) | Full text: "'strong' evidence for integrin β (... Integrin_beta Pfam domain) in only a single species of choanoflagellate". The species name is stripped from the PMC text, so the identity "Didymoeca costata" could not be confirmed by tool. The project's failure_diagnosis.md makes the same identification.
+A24 | §6.1 item 4 | Notch-specific domains absent from every choanoflagellate and sponge in Richter et al. | Richter et al. 2018 | S | Full text: "In our data, the NOD and NODP domains were not present in any sponge or choanoflagellate species". Clarity fix: "The Notch NOD/NODP domains we required are absent from every choanoflagellate and sponge in Richter et al. (2018), who identified Notch by its EGF–LNR–transmembrane–ankyrin architecture instead".
+A25 | §6.1 item 4 | Expectation of integrin-β absence came from the two-genome study | Sebé-Pedrós et al. 2010 | S | Abstract: key components "lost independently in fungi and choanoflagellates".
+A26 | §6.1 item 4 | Prochnik reports pherophorin expansion of 1.81-fold | Prochnik et al. 2010 | S | Full text: "pherophorins (49 versus 27 members)" = 1.81.
+A27 | §1 idea 3; §7.1 | TF families expand at transitions | de Mendoza et al. 2013; Lang et al. 2010 | S | de Mendoza abstract: complex TF repertoires in Metazoa and Embryophyta, assembled stepwise. Lang abstract: two bursts of TAP gain/expansion; correlation with complexity. Note: de Mendoza also reports that much of the toolkit predates these lineages.
+A28 | §1 idea 3; §7.1 | Adhesion/ECM and signalling families expand | Knoll 2011; Cock et al. 2010 | P | Cock abstract supports signalling (receptor kinases) only, not adhesion/ECM. Knoll (via LIT §3.7) covers adhesion co-option. Correction: "adhesion and extracellular-matrix families (Knoll 2011) and signalling families such as receptor kinases (Cock et al. 2010)".
+A29 | §1 idea 3 | Shared functional themes across 81 eukaryotes, complex lineages only | Pereira Lobo et al. 2025 | S | Abstract: 81 species; families "independently expanded in 2 or more complex multicellular lineages".
+A30 | §7.1 Toolkit | Pereira Lobo found shared themes *only* in complex lineages | Pereira Lobo et al. 2025 | P | They tested associations with cell-type number across 81 species and reported convergence in complex lineages; they did not test simple lineages as a separate group and find nothing. Correction: "Pereira Lobo et al. (2025) reported shared functional themes for complex lineages and did not analyse simple lineages separately, and our primary set is mostly simple."
+A31 | §1 idea 3; §7.1 | Transitions shed unicellular functions such as the flagellum; quote "gradual shedding of protist genes" | Merényi et al. 2023 | P | Quote is verbatim from the abstract, but Merényi et al. describe a gradual trend across early fungal evolution (with "delayed loss"), not loss at the transition, and do not name the flagellum. Correction (§1): "A related idea is that unicellular functions such as the flagellum are lost; for fungi, Merényi et al. (2023) describe early evolution as a 'gradual shedding of protist genes' rather than an abrupt loss at one node."
+A32 | §1 idea 4 | Groups that reproduce through bottlenecks have smaller Ne, so slightly harmful changes accumulate | Lynch & Conery 2003; Lynch 2007 | P | Lynch & Conery link small long-term Ne to increased organism size and nonadaptive genome complexity; Lynch 2007 argues the general nonadaptive case. Neither proposes the bottleneck mechanism, which is Bingham & Ratcliff's (2024) extension. Correction: "Larger organisms have smaller effective population sizes, so selection is weaker relative to genetic drift and slightly harmful genomic changes accumulate (Lynch & Conery 2003; Lynch 2007). Bingham & Ratcliff (2024) argue that the genetic bottlenecks of multicellular life cycles reduce Ne in the same way."
+A33 | §1 idea 4; §7.1 | Bingham & Ratcliff extend drift to multicellularity | Bingham & Ratcliff 2024 | S | Abstract: bottlenecks "greatly reduce the effective population size".
+A34 | §1 idea 4 | Snowflake-yeast experiments: more drift in clonal than aggregative groups | Pentz et al. 2023 | S | Abstract: clonal life cycle bottlenecks "drive much higher rates of genetic drift" (compared with aggregative floc yeast).
+A35 | §7.1 | Pentz measured drift in experimental clonal groups | Pentz et al. 2023 | S | As A34.
+A36 | §2 Round 1; §2 Round 3; §3 | Volvocines have two origins; node chosen as volvocine start is inferred unicellular; *Gonium* sister to *Astrephomene* + Volvocaceae | Lindsey et al. 2021 | S | Abstract: "independently evolved at least twice"; full text: Tetrabaenaceae sister to a unicell (MLBS 100), and *Astrephomene* sister to Volvocaceae rather than to *Gonium* (MLBS 98). So the TGV ancestor is unicellular and *Gonium* is sister to *Astrephomene* + Volvocaceae.
+A37 | §2 Round 3 | Fungal-hyphae node rested on one species whose hyphal status Kiss et al. consider uncertain | Kiss et al. 2019 | S | Full text: most Blastocladiomycota "form mono- or polycentric, unicellular thalli", some with structures "resembling true hyphae", which "suggests potential convergent origins of hypha-like structures". Optional precision: "whose hypha-like growth Kiss et al. (2019) consider possibly convergent".
+A38 | §6.1; §7.1 | Fungal-hyphae stem shows no expansion of TKs, adhesion, signalling, as Kiss et al. report | Kiss et al. 2019 | S | Abstract.
+A39 | §4.1 | Bottom-up HOG methods: Hieranoid; HOG framework of OMA and FastOMA | Schreiber & Sonnhammer 2013; Altenhoff et al. 2013; Majidian et al. 2025 | S | Titles and LIT §5.1. SYNERGY lacks a citation (see S1).
+A40 | §4.2; §6.4 | Homology-detection failure explains many, not all, lineage-specific genes | Weisman et al. 2020 | S | Title/abstract.
+A41 | §6.4 Structure | "as Weisman et al. (2020) argued for lineage-specific genes in general" | Weisman et al. 2020 | P | Weisman et al. tested fungi and insects and found that a minority of genes are not explained. Correction: "as Weisman et al. (2020) showed for many lineage-specific genes in fungi and insects".
+A42 | §6.4 Architectures | More new domain architectures on stems consistent with elevated domain rearrangement | Ekman et al. 2007; Denoeud et al. 2024 | S | Ekman abstract: architecture creation "accelerated in the metazoan lineage", major changes "in the process of multicellularization"; Denoeud: "enhanced protein domain rearrangement".
+A43 | §6.4 Reversals; §7.1 | Reversals might lose transition genes first, "as Yang et al. (2026) report in cyanobacteria" | Yang et al. 2026 | P | Abstract: reversions to unicellularity "often involve losing genes linked to motility, regulatory complexity, and cytoskeletal organization"; "many lost genes trace back to deep ancestral innovations". It does not report preferential loss of genes gained at the preceding transition, relative to a control. Correction (§6.4): "Lineages that became unicellular again might lose genes acquired at the transition; in cyanobacteria, Yang et al. (2026) found that reversions to unicellularity often lose genes for motility, regulatory complexity and cytoskeletal organization, many of them traceable to earlier ancestral innovations." Correction (§7.1): "This contrasts with the gene losses Yang et al. (2026) describe at cyanobacterial reversions, but ..."
+A44 | §6.5 | Convergent family expansions in complex fungi; land-plant burst | Merényi et al. 2020; Bowles et al. 2020 | S | Merényi abstract: similar gene sets co-opted "followed by expansions of their gene families by duplications"; >82% of shared families expanding in both clades.
+A45 | §7.1 Toolkit | TF expansions fit the animal-centred literature | Larroux et al. 2008; de Mendoza et al. 2013 | S | Larroux abstract: TF classes "gradually expanded at the base of Metazoa". de Mendoza also covers plants; "animal-centred" is a slight simplification but acceptable.
+A46 | §7.2 | Regulatory change emphasised in the literature | Sebé-Pedrós et al. 2016 | S | Abstract: animal origins linked to "a major shift in genome cis-regulatory complexity".
+A47 | §6.3 | Kr/Kc radical vs conservative (charge, polarity) after Zhang 2000; relaxed constraint predicts more radical changes | Zhang 2000 | S (method) / P (prediction) | Abstract: defines conservative/radical classes by charge, polarity, polarity+volume, and finds the radical/conservative ratio "positively correlated" with dN/dS. That supports the method and, indirectly, the prediction. Zhang's estimator is nucleotide-based; applying it at the amino-acid level is an adaptation. Optional: "(Kr/Kc classes after Zhang 2000, applied to amino-acid changes)".
+A48 | §4.5; §6.3 | RERconverge-style gene-specific relative rates | Chikina et al. 2016; Kowalczyk et al. 2019 | S | Titles/LIT §4.4.
+
+Summary of verdicts (48 claim–citation pairs, A1–A48):
+  Supported: 39 (A47 counted as supported for the method; its prediction is only indirectly supported)
+  Partially supported: 8 (A12, A16, A28, A30, A31, A32, A41, A43)
+  Not supported: 0
+  Cannot check: 1 (A13, Capsaspora integrins: abstract silent, full text unavailable)
+
+========================================================================
+PART 3. CORRECTIONS TO APPLY (exact replacement text)
+========================================================================
+
+C1 (A12, §1 idea 1)
+  Old: "The choanoflagellate *Monosiga brevicollis* has cadherins and tyrosine kinases (King et al. 2008);"
+  New: "The choanoflagellate *Monosiga brevicollis* has cadherins and tyrosine kinases (King et al. 2008; Abedin & King 2008; Manning et al. 2008);"
+
+C2 (A13, §1 idea 1)
+  Old: "*Capsaspora* has integrin adhesion machinery (Sebé-Pedrós et al. 2010);"
+  New: "the integrin adhesion machinery predates the split of animals and fungi and was later lost in fungi and choanoflagellates (Sebé-Pedrós et al. 2010);"
+  (Or keep the original after checking the paper's main text by hand.)
+
+C3 (A16, §1 idea 1)
+  Old: "fungal hyphae arose by co-opting ancient genes, without expansions of kinases, receptors or adhesive proteins (Kiss et al. 2019)."
+  New: "fungal hyphae arose mainly by co-opting ancient genes, together with some new gene families, and without expansions of kinases, receptors or adhesive proteins (Kiss et al. 2019)."
+
+C4 (A28, §1 idea 3)
+  Old: "and adhesion, extracellular-matrix and signalling families (Knoll 2011; Cock et al. 2010)"
+  New: "and adhesion and extracellular-matrix families (Knoll 2011) and signalling families such as receptor kinases (Cock et al. 2010)"
+  (§7.1 "Toolkit expansions": same split: "adhesion families expand convergently (Knoll 2011; Pereira Lobo et al. 2025) and signalling families expand (Cock et al. 2010)".)
+
+C5 (A31, §1 idea 3)
+  Old: "A related idea is that transitions shed unicellular functions such as the flagellum (Merényi et al. 2023: early fungal evolution as a \"gradual shedding of protist genes\")."
+  New: "A related idea is that unicellular functions such as the flagellum are lost; for fungi, Merényi et al. (2023) describe early evolution as a \"gradual shedding of protist genes\" rather than an abrupt loss at one node."
+
+C6 (A32, §1 idea 4)
+  Old: "Groups of cells that reproduce through bottlenecks have smaller effective population sizes, so selection is weaker relative to chance (genetic drift) and slightly harmful changes accumulate (Lynch & Conery 2003; Lynch 2007). Bingham & Ratcliff (2024) extend this to multicellularity,"
+  New: "Larger organisms have smaller effective population sizes, so selection is weaker relative to chance (genetic drift) and slightly harmful genomic changes accumulate (Lynch & Conery 2003; Lynch 2007). Bingham & Ratcliff (2024) extend this to multicellularity: groups of cells that reproduce through genetic bottlenecks have reduced effective population sizes,"
+
+C7 (A30, §7.1 Toolkit)
+  Old: "Pereira Lobo et al. (2025) found shared functional themes only in *complex* lineages, and our primary set is mostly simple."
+  New: "Pereira Lobo et al. (2025) reported shared functional themes for *complex* lineages and did not analyse simple lineages separately, and our primary set is mostly simple."
+
+C8 (A41, §6.4 Structure)
+  Old: "as Weisman et al. (2020) argued for lineage-specific genes in general."
+  New: "as Weisman et al. (2020) showed for many lineage-specific genes in fungi and insects."
+
+C9 (A43, §6.4 Reversals)
+  Old: "Lineages that became unicellular again might lose transition genes first, as Yang et al. (2026) report in cyanobacteria."
+  New: "Lineages that became unicellular again might lose genes acquired at the transition; in cyanobacteria, Yang et al. (2026) found that reversions to unicellularity often lose genes for motility, regulatory complexity and cytoskeletal organization, many of them traceable to earlier ancestral innovations."
+  §7.1 "Shedding": Old: "This differs from what Yang et al. (2026) report for cyanobacteria," New: "This contrasts with the losses Yang et al. (2026) describe at cyanobacterial reversions,"
+
+C10 (S1, §4.1): add "(Wapinski et al. 2007)" after "SYNERGY" and delete the PI-NOTE.
+C11 (S5–S9, S10): add the tool citations given in Part 1. Then delete the PI-NOTEs in §3 and §6.3 (the Zhang 2000 note), since both are resolved.
+C12 (M4): "Pfam-A 38.2 domains (Mistry et al. 2021; Paysan-Lafosse et al. 2025; 30,134 families; ...)".
+C13 (optional, A24): "The Notch NOD/NODP domains we required are absent from every choanoflagellate and sponge in Richter et al. (2018), who identified Notch by its domain architecture instead (C06, C08)."
+
+Not checked against primary text beyond the abstract or LITERATURE.md: Grosberg & Strathmann 2007, Knoll 2011 (both Crossref-only; LITERATURE.md quotes used), and the *Capsaspora* part of Sebé-Pedrós et al. 2010.

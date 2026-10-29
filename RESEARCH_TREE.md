@@ -6,6 +6,17 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## Status summary (latest first)
 
+### M5 — 2026-10-29 01:55 (t ≈ 13.6 h): report final
+The report (report/REPORT.md, ~8,900 words of prose, Figures 1–7 + S1) went through a citation audit (51 citations, 48 claim–citation
+pairs: 39 supported, 8 partially → reworded, 0 unsupported, 1 uncheckable) and an external critical review (10 major problems, all
+addressed — notably: the co-option index is equally high on control branches so it cannot favour co-option; the stem-specific gain bias
+rests on one simulation draw; the rate-test interval is widened for shared controls to about 0.94–1.29; 'the only convergent loss is
+the flagellum' softened). Revision log: report/revision_notes.txt. README.md carries the human disclaimer verbatim.
+
+Bottom line: across seven independent eukaryotic origins, no shared genomic signature of multicellularity was detected with the
+pre-registered tests; a ≥1.5-fold average shift in protein evolutionary rate is excluded; Ancestra's deep-node origins and duplication
+placement are the main limitation for gene-content questions at this phylogenetic depth.
+
 ### M4 — 2026-10-29 01:18 (t ≈ 13.0 h): all pre-registered tests done; nothing significant after Holm
 The eukaryote Ancestra run finished at t = 10.3 h (families 5.3 h, scoring 3.7 h, merge 10 min; verified). None of the five primary
 tests is significant after Holm: H1/H2 sequence-novel gains p = 0.113 (Holm 0.45), H4 TF duplications p = 0.36, H5 adhesion/signalling
@@ -97,8 +108,8 @@ adds cost without informing the transitions (all prokaryotic transitions are com
   - [~] Reversals: odds ratios mixed (0.5–2.0), see results/exploratory/euk/reversals
   - [-] Structure (Q6): 85% of stem vs 79% of control seq-novel gains lack a usable AFDB model (OR 1.51, p=0.025); of modelled ones ~24% vs 21% structurally old (Swiss-Prot ref; OR 0.96, p=0.92) — no stem-specific structural novelty signal; underpowered
 - [x] 9a. Independent verification: event counts, novel gains, Holm, T_obs, H9 (unaffected by bug), controls C01/C05/C10, PREREG timeline — all PASS (results/verification/)
-- [ ] 9b. Citation audit of the report (≥20 claim–citation pairs)
-- [~] 10. Report: pre-results sections + Figures 1, 2, S1 drafted (report/REPORT_draft_methods.md)
+- [x] 9b. Citation audit: 51 citations; 48 claim–citation pairs audited (39 supported, 8 partial → reworded, 0 unsupported)
+- [x] 10. Report final: report/REPORT.md (+ external review, revision notes, references); Figures 1–7, S1
 
 ## Decision log
 - D0 (t=0): Eukaryote and prokaryote runs kept separate (see M0).

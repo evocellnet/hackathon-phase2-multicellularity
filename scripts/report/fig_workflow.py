@@ -104,8 +104,8 @@ h9 = box(8.85, y - hgt(3), 2.75, hgt(3), "Rate test (H9)",
 y = h9[1] - 0.4
 holm = box(8.85, y - 0.5, 3.95, 0.5, "Holm correction across the 5 primary tests", "", "test")
 y = holm[1] - 0.3
-expl = box(8.85, y - hgt(2), 3.95, hgt(2), "Exploratory (labelled as such)",
-           "structural novelty (AlphaFold DB + Foldseek), gene-\nlevel rates, nested and prokaryotic transitions", "test",
+expl = box(8.85, y - hgt(2), 3.95, hgt(2), "Secondary and exploratory (labelled as such)",
+           "secondary: nested and prokaryotic transitions;\nexploratory: structure (AlphaFold DB + Foldseek), gene-level rates", "test",
            dashed=True)
 
 arrow(prot, anc, frac_a=0.72, frac_b=0.5)

@@ -330,7 +330,7 @@ def fig4():
     ax.set_title("c   Gains are inflated most", fontsize=10, fontweight="bold", color=INK, pad=32)
     ax.text(0, 1.02, "Ancestra 'fast' preset vs simulated truth", transform=ax.transAxes, fontsize=7.8,
             color=INK2, va="bottom")
-    fig.suptitle("Gains are mostly uncertain: on simulations only gain counts are strongly inflated",
+    fig.suptitle("Gain counts are the least reliable event type",
                  x=0.07, y=1.07, ha="left", fontsize=12.5, fontweight="bold", color=INK)
     save(fig, "fig4_gain_uncertainty")
 

@@ -324,7 +324,7 @@ def write_summary(a, p, br, cls, info, pfam_info) -> None:
           "`results/gainladder/validation_sim/summary.md`): level 2 is a diagnostic only; report levels 1 and 3. "
           "On the simulations seq-novel recall of true gains is 0.91-0.97 but precision only 0.42-0.56 "
           "(deep splits beyond detectable homology), so seq-novel counts are upper bounds.", "",
-          "## Ladder totals (internal branches)", "",
+          "## Ladder totals (all selected branches, including terminal branches)", "",
          "| level | n | % of HOG gains |", "|---|---|---|",
          f"| 1. HOG-level gains | {n} | 100% |",
          f"| 2. split-repaired (gain re-merged with a HOG lost on the same branch) | {rep} | {pct(rep)} |",

@@ -1,0 +1,460 @@
+EXTERNAL REVIEW OF report/REPORT.md (+ figures/captions.md, figures/fig1-7)
+Reviewer perspective: evolutionary genomics, statistics, and a reader from the broader scientific audience.
+Basis: PROMPT.md (Reporting + WRITING STANDARDS), PREREG.md, REPORT.md, captions.md, fig1-7 PNGs, and spot checks of results/.
+Date: 2026-10-29. The report was not edited.
+
+OVERALL VERDICT
+The design is careful, the main null result is honestly stated, and the method-validation material is the strongest part. The problems are
+(a) four conclusions that go beyond the data shown: co-option "fits best", "the only convergent loss is the flagellum", the
+1.7-2.2-fold stem-specific bias called "strong", and "every per-stem excess is within" that bias, which the data contradict;
+(b) one headline number that is misleading: 81.9% of gains called "sequence-novel" is dominated by species-specific gains on terminal
+branches, while Figure 4a shows 47%;
+(c) the pre-registration timeline is described more cleanly than PREREG.md records it;
+(d) jargon and internal labels a general reader cannot follow; and
+(e) length. The prose is about 10,500 words excluding HTML comments and tables (about 10,280 without the human disclaimer). The target
+is 8,000-9,000.
+
+======================================================================================================================
+PART 1. THE TEN MOST IMPORTANT PROBLEMS (ranked)
+======================================================================================================================
+
+----------------------------------------------------------------------------------------------------------------------
+1. The co-option conclusion is overstated. The index the report cites as support is equally high on control branches and is LOWER
+   on transition stems than on controls in 4 of 7 transitions.
+----------------------------------------------------------------------------------------------------------------------
+Evidence: results/exploratory/euk/summary.md §2. Median of the pfam_expanded index over matched unicellular controls: 0.977-0.990.
+Percentile of each transition among its controls: animals 0.024, streptophytes 0.024, fungal hyphae 0.071, dictyostelids 0.119.
+Mean percentile over the 7 transitions: 0.39. The HOG-based version points the other way (mean percentile 0.77). The "presence"
+positive controls (cadherin, SH2-kinase, TALE, RB) were chosen from the co-option papers, so their passing validates the pipeline,
+not the hypothesis. §5 itself says "some agreement is built in".
+
+(a) Abstract
+QUOTE: "In every lineage, 80–100% of the domain families expanded in the multicellular clade were already present in its unicellular
+ancestor. This agrees with the co-option view, but the measure is descriptive: families shared with the sister lineage count as
+ancestral by construction."
+REPLACE WITH: "In every lineage, 80–100% of the protein-domain families that expanded in the multicellular clade were already present
+in its unicellular ancestor. The same measure is 97–99% on comparable unicellular branches, so a high value is expected for any
+branch and does not by itself favour co-option."
+
+(b) §7 lead
+QUOTE: "Read together with the positive controls, the results fit the co-option view best."
+REPLACE WITH: "The results are compatible with the co-option view, but this design could not tell it apart from a modest burst of
+novelty."
+
+(c) §7.1
+QUOTE: "Our data agree descriptively: 80–100% of expanded Pfam families were present in the unicellular ancestor of every
+transition, and the presence controls passed (cadherin repeats, SH2–kinase pairs, TALE homeobox, RB pathway)."
+REPLACE WITH: "Our data are compatible with this but do not discriminate. 80–100% of expanded Pfam families were present in the
+unicellular ancestor of every transition, against 97–99% on matched unicellular control branches. Four of the seven transitions rank
+below most of their controls (percentiles 0.02–0.12). The presence controls (cadherin repeats, SH2–kinase pairs, TALE homeobox, RB
+pathway) show that the pipeline recovers families the co-option literature documents. Because they were chosen from that
+literature, they validate the method, not the hypothesis."
+
+(d) §8, third bullet
+QUOTE: "*Strength: descriptive agreement with the co-option literature; the comparative part is weak.*"
+REPLACE WITH: "*Strength: weak. The index is equally high on unicellular control branches (97–99%), so it does not distinguish
+co-option from novelty.*"
+In the same bullet, also change "Most families expanded in multicellular clades predate the transition" to "Most families expanded
+in multicellular clades predate the transition, as they do on any branch".
+
+----------------------------------------------------------------------------------------------------------------------
+2. The stem-specific gain bias ("1.7–2.2-fold") is reported as firm, and §7.1 makes a claim about it that the data contradict.
+----------------------------------------------------------------------------------------------------------------------
+Evidence: results/calibration_tree/summary.md.
+- The estimate comes from ONE simulation draw per setting: 7 stems vs 9 control branches, with a simulator that has no gene birth.
+  The Poisson intervals ignore over-dispersion.
+- On the scale of the actual test statistic, the shift for sequence-novel gains is +0.064 and −0.036, which the file itself calls
+  "not distinguishable from 0".
+- The ratio arises mainly because CONTROL branches carry fewer spurious gains than predicted (O/E 0.5–0.6). Stems are about as
+  predicted (O/E 0.9–1.2).
+- Per-stem ratios to the regression prediction (per_transition_H1H2.tsv, exp(resid_s)): animals 2.40-fold, volvocines 6.1-fold
+  (88 vs 14). Both are OUTSIDE 1.7–2.2.
+
+(a) Abstract
+QUOTE: "and inferred gene gains were inflated, more so on transition branches (1.7–2.2-fold) than on controls."
+(As written, this reads as "stems are inflated 1.7–2.2-fold".)
+REPLACE WITH: "and inferred gene gains were inflated 2.1–2.6-fold on simulated genomes. One simulation on our own tree suggested that
+transition branches may carry about twice as many spurious gains as control branches."
+
+(b) §6.1, "Simulations and tree calibration"
+QUOTE: "After adjusting for branch length and clade size, stems carried 1.7–2.2 times more spurious gains than control branches,
+while losses and duplications did not differ (shift of the test statistic +0.02 to +0.09, within noise)."
+REPLACE WITH: "After adjusting for branch length and clade size, stems carried 1.7–2.2 times as many spurious gains as control
+branches. This is mostly because control branches carried fewer spurious gains than other internal branches (0.5–0.6 of the
+expected number), not because stems carried more (0.9–1.2). The estimate rests on one simulation draw per setting, 7 stems and 9
+control branches, and a simulator without true gene birth. On the scale of the test statistic itself, the shift for sequence-novel
+gains was +0.06 and −0.04 in the two settings, within noise. Losses and duplications did not differ."
+
+(c) §7.1
+QUOTE: "Every per-stem excess is within the 1.7–2.2-fold extra inflation that our calibration attributes to the method on stems."
+REPLACE WITH: "Two per-stem excesses exceed the calibrated bias range: animals (2.4-fold over the regression prediction) and
+volvocines (about 6-fold, but from a predicted count of only 14). Method bias alone therefore may not explain every stem, although
+the test across all seven stems was not significant."
+
+(d) §8, sixth bullet
+QUOTE: "gains are inflated more on stems (1.7–2.2-fold), and 52% of pre-animal duplication products are animal-only. *Strength:
+strong; shown by simulation, calibration and diagnosed control failures.*"
+REPLACE WITH: "gains are inflated 2.1–2.6-fold in simulations, possibly more on stems than on controls, and 52% of pre-animal
+duplication products are animal-only. *Strength: strong for gain inflation and duplication misplacement; preliminary (one
+simulation draw) for the stem-specific excess.*"
+
+----------------------------------------------------------------------------------------------------------------------
+3. The headline gain-ladder percentage is misleading and contradicts Figure 4a.
+----------------------------------------------------------------------------------------------------------------------
+Evidence: results/gainladder/euk/branch_gain_ladder.tsv.
+- 87,524 of the 122,945 HOG gains (71%) lie on 22 TERMINAL (leaf) branches. These are species-specific groups, and 96% of them are
+  "novel" almost trivially.
+- On the 85 internal branches, 16,709 of 35,421 gains are sequence-novel (47%). This is what Figure 4a shows.
+- The summary file mislabels the 122,945 total as "Ladder totals (internal branches)". Fix the source too.
+- The text then compares only stems (84%) with unicellular-clade branches (66%). It leaves out mixed clades (40%) and root children
+  (32%), which makes stems look unusual.
+
+(a) §6.1
+QUOTE: "Of the 122,945 HOG gains on the 107 branches searched, the DIAMOND novelty search classified 81.9% as *sequence-novel*: no
+representative protein had a hit outside the clade. Another 17.1% had an outside relative, 1.3% had outside relatives only in the
+other domain of life (candidates for horizontal gene transfer), and 1.0% could be re-joined to a family lost on the same branch."
+REPLACE WITH: "On the 85 internal branches searched, 47% of 35,421 HOG gains were *sequence-novel*: no representative protein had a
+detectable relative outside the clade (Figure 4a). The other 22 searched branches lead to single species. There, most gains are
+species-specific groups that are almost all 'novel', which raises the overall figure to 82% of 122,945. About 1% of gains had
+relatives only in the other domain of life (candidates for horizontal gene transfer)."
+
+(b) §6.1
+QUOTE: "The share called sequence-novel was 83.6% on transition stems and 65.5% on branches inside unicellular lineages."
+REPLACE WITH: "The share called sequence-novel was 84% on transition stems, 66% inside unicellular lineages, 40% on branches whose
+descendants include both unicellular and multicellular species, and 32% on the two branches next to the root."
+
+----------------------------------------------------------------------------------------------------------------------
+4. "The only convergent loss was the flagellum" goes beyond what was shown.
+----------------------------------------------------------------------------------------------------------------------
+Evidence: results/robustness/exploratory/summary.md §1 and Fig 7c.
+- Cilium/flagellum domains are only 15% of the 421 convergently lost domains.
+- With the ORIGINAL null, removing the 358 cilium-linked domains still leaves 258 vs 170 expected (p = 0.17; Fig 7c shows this, the
+  text omits it). The excess disappears only under a second, post-hoc null that preserves each lineage's loss count.
+- The excess is mostly the fungal-hyphae × dictyostelid pair (177 vs 61), and loss counts fall with the number of sampled
+  multicellular species (ρ = −0.58). This is a data-structure effect, not shown to be flagellar.
+- The primary flagellum test only examined flagellar genes, so it cannot show that nothing else was lost convergently.
+
+(a) Abstract
+QUOTE: "The only convergent loss was the flagellum, in fungi and dictyostelids."
+REPLACE WITH: "The clearest convergent loss was the flagellum, in fungi and dictyostelids, where it was expected. A broader excess of
+convergently lost domains did not survive removal of dictyostelids or of transcriptome-based proteomes."
+
+(b) §6.4 paragraph heading
+QUOTE: "**Convergent domain loss: disappears, and turns out to be the flagellum.**"
+REPLACE WITH: "**Convergent domain loss: driven by one pair of lineages and by data quality; flagellar domains are enriched.**"
+
+(c) §6.4, same paragraph
+QUOTE: "Excluding them leaves no signal (258 vs 264 under a null that preserves each transition's number of losses; p = 0.70).
+<!-- ... --> The only convergent loss is the H12 flagellum loss seen again."
+REPLACE WITH: "Excluding them leaves a smaller excess (258 vs 170 expected; p = 0.17). That excess disappears under a null that
+preserves each transition's total number of losses (258 vs 264; p = 0.70), but this null was chosen after the results were seen.
+Flagellar domains therefore explain part of the excess. The rest tracks the dictyostelids and the number of species sampled per
+clade (fewer losses are called when more species are sampled; ρ = −0.58)."
+
+(d) §7.1
+QUOTE: "The only convergent loss in our data is the flagellum, in fungi and dictyostelids, where it was expected. No other function
+is lost convergently once flagellar domains are removed (p = 0.70)."
+REPLACE WITH: "The clearest convergent loss in our data is the flagellum, in fungi and dictyostelids, where it was expected. No excess
+of convergent loss remains once flagellar domains are removed and the null keeps each lineage's total number of losses (p = 0.70;
+a post-hoc null)."
+
+(e) §8, fourth bullet
+QUOTE: "**The only convergent loss is the flagellum**"
+REPLACE WITH: "**The one clear convergent loss is the flagellum**"
+
+----------------------------------------------------------------------------------------------------------------------
+5. The pre-registration timeline and the "safeguards prevented a false finding" claim are stated more cleanly than the record
+   supports.
+----------------------------------------------------------------------------------------------------------------------
+Evidence: PREREG.md "Clarification (20:09)".
+- Dev-2, Dev-3 and Dev-4 (18:19, 19:47) were made AFTER the eukaryote family stage had finished.
+- They were also made after the primary rate test (H9) and the exploratory RER and Kr/Kc analyses had been run (15:21–15:40).
+- The gain inflation was not "corrected": split-repair failed (Dev-3). It was handled with a novelty filter and an interpretation
+  threshold.
+- The p = 0.024 under the original null would not have survived Holm correction either: 0.024 × 4 ≈ 0.096. The report says so in
+  §6.2, but §7.3 and §8 imply the safeguards were decisive.
+
+(a) Abstract
+QUOTE: "Before any result, two problems with the method were found and corrected for:"
+REPLACE WITH: "Before any gene-content result, two problems with the method were found and accounted for:"
+
+(b) §2, "Pre-registration and deviations"
+QUOTE: "Later changes are dated deviations, all made before eukaryote results existed:"
+REPLACE WITH: "Later changes are dated deviations, all made before any eukaryote gene-content result existed. Dev-2 to Dev-4 were made
+after Ancestra's first (family-building) stage had finished but before its output was parsed. They were also made after the rate
+test, which does not use Ancestra, had been run. They concern only the gene-gain test."
+
+(c) §2, "Verification" (now outdated; §7.3 reports the verification as done)
+QUOTE: "Planned: re-derivation of headline numbers by an agent that did not produce them, and an audit of ≥20 claim–citation pairs."
+REPLACE WITH: "An agent that had not produced the results later re-derived the headline numbers from raw files (Section 7.3)." Then
+add one sentence on whether the citation audit happened. If it did not, say so.
+
+(d) §7.3
+QUOTE: "Without them the gain test would have reported a nominally significant "burst of novelty" (p = 0.024 under the original
+null), and raw gain counts would have been read at face value."
+REPLACE WITH: "Without them the gain test would have given a nominal p = 0.024 for a 'burst of novelty' (still not significant after
+Holm correction), and raw gain counts would have been read at face value."
+
+(e) §8, last bullet
+QUOTE: "A calibrated null, a pre-set bias threshold and independent verification kept a nominal "burst" (p = 0.024 under the
+original, anti-conservative null) from being reported as a finding. *Strength: shown for this project.*"
+REPLACE WITH: "A calibrated null and a pre-set bias threshold removed a nominal 'burst' (p = 0.024 under the original,
+anti-conservative null). Holm correction alone would also have kept it non-significant, and the safeguards make that conclusion
+robust to the choice of null. *Strength: shown for this project.*"
+
+----------------------------------------------------------------------------------------------------------------------
+6. The rate test (H9) is framed as more decisive than it is, and its controls are mis-described.
+----------------------------------------------------------------------------------------------------------------------
+Evidence: results/h9/summary.md and h9_tests.tsv.
+- The pooled interval treats the 7 stem-minus-control-mean differences as independent, although all 7 share the SAME 10 controls.
+  The uncertainty of the control mean does not average out over the 7 stems, so the 0.96–1.26 interval is too narrow. My rough
+  recomputation is about 0.92–1.31, which still excludes 1.5. Recompute properly.
+- "Unicellular control pairs" is wrong: in 9 of 10 controls one descendant clade contains multicellular species (§5 says this).
+- Sensitivity S3 (unicellular tips only) gives a pooled rate ratio of 1.16 [1.01, 1.34], which EXCLUDES 1. The report calls this
+  "agree".
+- The p-value ranges 0.19–0.61 across the five pre-registered orientation seeds.
+- The measure covers all evolution after P, not only the stem.
+- The pooled ratio is an AVERAGE: per-transition ratios run from 0.81 to 1.36.
+
+(a) Abstract
+QUOTE: "The rate test was sensitive: it excluded a 1.5-fold genome-wide rate shift (pooled ratio 1.10, 95% CI 0.96–1.26), and we
+found no within-protein sign of relaxed selection."
+REPLACE WITH: "The rate test had the most statistical power. Averaged over the seven transitions, conserved proteins did not evolve
+1.5-fold faster or slower on the multicellular side (pooled rate ratio 1.10, 95% CI 0.96–1.26), although individual transitions
+ranged from 0.81 to 1.36. A within-protein measure of relaxed constraint showed no consistent shift."
+
+(b) §6.3
+QUOTE: "Yet the 10 unicellular control pairs, randomly oriented, already span log ratios from −0.26 to +0.36"
+REPLACE WITH: "Yet the 10 control pairs, randomly oriented, already span log ratios from −0.26 to +0.36. Each pair splits at a
+unicellular ancestor, but in 9 of the 10 one side includes multicellular species."
+
+(c) §6.3
+QUOTE: "Two sensitivities agree: using genome-derived species only gives p = 0.63, and using only unicellular tips in the controls
+gives p = 0.146 (rate ratio 1.16 [1.01, 1.34])."
+REPLACE WITH: "Two sensitivity analyses give the same test result: p = 0.63 with genome-derived species only, and p = 0.146 with only
+unicellular tips in the controls. In the second, however, the pooled rate ratio (1.16, 1.01–1.34) excludes 1. This is a weak hint of
+faster evolution on the multicellular side, still well below 1.5-fold."
+
+(d) §6.3, add after "which excludes a 1.5-fold shift"
+ADD: "This interval treats the seven comparisons as independent, although they share the same ten controls, so it is somewhat too
+narrow."
+
+----------------------------------------------------------------------------------------------------------------------
+7. The gene-content tests: power is understated in the abstract, the H1/H2 effect size is not the tested quantity, a robustness check
+   uses the null the report rejected, and the H4/H5 measurement problem is missing from the abstract.
+----------------------------------------------------------------------------------------------------------------------
+Evidence:
+- The power table gives 2.4–5.9-fold for H1/H2 and odds ratios 2.2–2.8 for H4/H5. The fitted over-dispersion (0.77) is close to the
+  pessimistic (5.9-fold) scenario.
+- The Table 2 pooled effect for H1/H2 (1.67) is observed vs the RAW mean of the matched controls (per_transition_H1H2.tsv, column
+  est). The test uses the regression residual. For animals the first is 4.6-fold, the second 2.4-fold. A reader who sees "1.67
+  pooled" next to "animals 594 vs 247" cannot reconcile them.
+- The leave-one-out p-values (loo.tsv) use the PERMUTATION scheme. §4.3 calls that scheme anti-conservative for this test, and its
+  whole-data p is 0.084, not 0.113.
+- H4/H5 count stem duplications, the quantity whose placement failed control C07 and moves for 38% of duplications on real control
+  branches.
+
+(a) Abstract
+QUOTE: "The gene-content tests could detect only effects of about 2-fold or more."
+REPLACE WITH: "The gene-content tests could detect only large effects. They needed roughly a 2.2–2.8-fold change in the share of
+regulatory or adhesion genes among duplications, and a 2.4- to 6-fold excess of new genes, with our data near the less favourable
+end. The two duplication tests also depend on duplication timing, which the positive controls showed to be unreliable; orthology-free
+versions gave the same result."
+
+(b) §6.2, add after Table 2
+ADD: "For the gain test, the pooled effect compares observed gains with the average of the matched controls. The test itself, and
+the per-stem ratios below (e.g. animals 2.4-fold), compare observed gains with a regression prediction that adjusts for branch
+length and clade size. The two quantities differ."
+
+(c) §6.2
+QUOTE: "Leaving out any one transition gives p = 0.052–0.181."
+REPLACE WITH: "Under the permutation scheme (whole-data p = 0.084), leaving out any one transition gives p = 0.052–0.181. This scheme
+is anti-conservative for this test (Section 4.3), so the true values are higher."
+
+(d) §7.2
+QUOTE: "(about 2.4-fold or more for novel gains, odds ratios of 2.2–2.8 for toolkit shares)"
+REPLACE WITH: "(about 2.4-fold or more for novel gains under moderate over-dispersion, closer to 6-fold at the over-dispersion we
+observed; odds ratios of 2.2–2.8 for toolkit shares)"
+
+(e) §8, first bullet
+QUOTE: "*Strength: moderate for effects of ≥2.4-fold; uninformative for smaller ones (power 13–35% at 1.5-fold).*"
+REPLACE WITH: "*Strength: moderate for effects of roughly 3- to 6-fold; uninformative for smaller ones (power 13–35% at 1.5-fold).*"
+
+----------------------------------------------------------------------------------------------------------------------
+8. Internal names, codes and jargon a broad reader cannot follow (breaks the WRITING STANDARDS).
+----------------------------------------------------------------------------------------------------------------------
+- Test codes: "H1/H2", "H4", "H5", "H9", "H12" appear 38 times. The numbering is non-contiguous and "H1/H2" is never explained.
+  Decision and deviation codes ("D0"–"D8", "Dev-1"–"Dev-4") and control codes ("C01"–"C16") appear about 74 times.
+  FIX: in prose, use names: "the novel-gene test", "the TF-duplication test", "the adhesion/signalling test", "the rate test", "the
+  flagellum test". Keep the codes only in Table 2, Figure 3 and Figure 5. Add one sentence at the start of §4.3: "Codes such as H4
+  refer to the numbered hypotheses of the pre-registration. H1 (co-option) and H2 (burst of novelty) are the two directions of one
+  two-sided test." Delete the parenthetical "(D5)", "(D7)", "(D0)", "(D6, Dev-1)" and the control codes in running text, e.g.
+  "(C03)", "(C07)", "(C06, C08)". Name the gene family instead.
+- Symbols: "|U| = 30" → "The pool has 30 branches". Define "u" and "T" once in §4.3, then write "percentile" and "mean percentile"
+  in Results. "spec scheme" (Table 2 comment and §6.2) → "the originally planned null".
+- Clade names in Table 1 and the Results that no general reader knows:
+  "Eumycota → Blastocladiomycota+Amastigomycota → Amastigomycota"
+    → "true fungi → (blastoclads + non-flagellate fungi) → non-flagellate fungi (Amastigomycota)"
+  "Ochrophyta → PX clade"
+    → "ochrophyte algae → PX clade (brown algae, yellow-green algae and relatives)"
+  "Chlamydomonas+TGV → TGV clade → Gonium+Volvocaceae"
+    → expand TGV once as "Tetrabaenaceae–Goniaceae–Volvocaceae"
+  "Rhodophytina → Eurhodophytina" → add "(the red-algal lineage excluding the unicellular Cyanidiophyceae ...)" or similar
+  "Amorphea + CRuMs" (§3) → "animals, fungi, amoebozoans and their relatives"
+  Also use ONE name for transition 6. The report currently has "Filamentous ochrophytes incl. brown algae", "brown-algal filament
+  stem", "brown-algal filaments" and, in the figures, "Brown-algal lineage (PX)".
+- File names in prose: "(LITERATURE.md §1)", "(LITERATURE.md §3–4, §7)", "(LITERATURE.md §4.3 ...)", "(LITERATURE.md, main point
+  2)", "(LITERATURE.md §5.1)", "(RESEARCH_TREE.md)", "DATA.md lists ...", "(LITERATURE.md §4)".
+  FIX: replace with "(literature review, Supplementary File 1)" and similar, or delete.
+- Software minutiae in prose: "commit ffb0bbe, tag `freeze-v1`", "`--very-sensitive` instead of `--ultra-sensitive`", "`-k 0`",
+  "the pre-registered `fast` preset", "`prereg-v1`", "odb10". Move them to a short "Software and data availability" paragraph.
+- Undefined statistical terms: Mahalanobis distance, random-effects pooling, Hartung–Knapp, mid-rank, logit (Fig 3), REML, q-value
+  ("q = 0.56", first used in §6.4 before it is defined in §6.3), "anti-conservative" (defined only in §2; repeat briefly in the
+  abstract). Either define each in one clause or remove it (e.g. drop "Hartung–Knapp" from §6.5).
+
+----------------------------------------------------------------------------------------------------------------------
+9. Reader-facing elements are incomplete: figures, references, placeholders.
+----------------------------------------------------------------------------------------------------------------------
+- Only Figures 1 and 2 are embedded. Figures 3–7 and S1 are cited but not inserted, and the captions (figures/captions.md) are not in
+  the report. FIX: embed each figure at its first citation, with its caption.
+- Figure 7 is NEVER cited in the text. FIX: in §6.4 add "(Figure 7a)" to the architecture paragraph, "(Figure 7b)" to co-option,
+  "(Figure 7c)" to convergent loss and "(Figure 7d)" to structure.
+- Figure order: Figures 4 and 5 are cited (§6.1) before Figure 3 (§6.2). FIX: renumber to the order of first citation.
+- The "## References" section is empty ("<!-- to be completed by the citation audit -->"), although about 60 works are cited. The
+  report cannot be released without a reference list. Missing from LITERATURE.md, as the PI-NOTEs say: Zhang 2000, Wapinski et al.
+  2007, MAFFT, trimAl, IQ-TREE, DIAMOND, cd-hit, pyhmmer, Leiden (Traag et al. 2019), Holm (1979), metapredict, Foldseek.
+- Placeholders and internal notes left in: "[TIME]" in the disclaimer; PI-NOTE comments at lines 14, 87, 91, 115/119, 127, 168, 337;
+  the draft-status comment before §6 ("Plain-text file because the harness blocks subagents..."). Resolve or remove before release.
+  Keep the human disclaimer verbatim (PROMPT.md), but tell the user that its last paragraph mentions a "predictive model" and
+  "benchmarking against other methods" that this project does not have.
+- Captions are long and full of file paths and script names. Fig 3 is about 400 words; "Sources: results/primary/euk/{holm.tsv,...}"
+  is not caption material. FIX: move all "Sources:" and "Script:" text to a single data-availability table and cut each caption to
+  ≤120 words.
+
+----------------------------------------------------------------------------------------------------------------------
+10. Length: about 10,500 words of prose, against a target of 8,000–9,000. Cut about 1,700 words. Much of the excess is repetition.
+----------------------------------------------------------------------------------------------------------------------
+Repeated content:
+- The giant component is explained three times: §4.2 paragraph 2, §5, §6.1.
+- The 13.8% anti-conservative null is explained three times: §2, §4.3, §7.3.
+- The "load 73 on 24 CPUs" anecdote appears twice: §2, §7.3.
+- The 2.1–2.6-fold inflation appears five times.
+- §5 and §7.2 are largely the same list.
+
+Specific cuts (approximate words saved):
+ a) §2 "Three rounds of design review" (467 words). Replace the three bullets with this paragraph (−280):
+    "Three rounds of review by agent reviewers (an external PI, an evolutionary biologist, a statistician, a data/compute expert and
+    an AI-failure-modes expert) reshaped the design. The most consequential changes were these. Gains had to pass a novelty filter,
+    because simulations showed raw gains inflated about 2-fold. Transitions were recoded as changes between states, which turned
+    budding yeasts and zygnematophyte algae into reversals and gave volvocines two origins. Branches were split into three classes
+    (transition stems, inside multicellular clades, inside unicellular lineages). Each test received a power table before any data
+    were seen. Two mis-specified transitions (volvocines, fungal hyphae) were redefined as two-branch 'path stems'. Horizontal gene
+    transfer and site-level convergence were dropped for time."
+ b) §2: delete "A lessons file recorded process rules learned the hard way, for example capping each agent's CPU use after four
+    agents together pushed the load to 73 on 24 CPUs and stalled the main computation." (−40)
+ c) §2: delete the paragraph "Still before any eukaryote output, the PI calibrated the statistics on the real tree. ... (Section 4.3;
+    D6, Dev-1)." It duplicates §4.3. (−70)
+ d) §2 "Verification by agents ..." subsection: replace with one sentence, "Every module was tested on toy data with known answers
+    before use, and independent agents reviewed code and inputs (Section 7.3)." (−60)
+ e) §3 Proteomes paragraph:
+    - delete "The starting pools were 151 core and 104 optional eukaryotic candidates and 79 core prokaryotic ones."
+    - delete "'Eukaryoma' could not be found ... and was flagged to the user. *Sorogena* and *Sorodiplophrys* have no public
+      proteome."
+    - shorten the licence sentences to "All sources are openly licensed; a script re-creates the dataset and DATA.md lists every
+      file's source, version, checksum and licence." (−90)
+ f) §3 "Memory cap": shorten to "To fit 150 GB of memory, ten optional, non-essential species were dropped by a pre-written rule
+    (e.g. *Trichomonas vaginalis*), capping the set at 2.97 million proteins." (−40)
+ g) §3 Guide trees: delete "For example, *Gonium* was placed ... (2021)." and "The prokaryote tree needed three edits." (−45)
+ h) §4.1: replace "The approach descends from ... one merge over all families." with "It builds on earlier bottom-up methods for
+    hierarchical orthologous groups (Wapinski et al. 2007; Schreiber & Sonnhammer 2013; Altenhoff et al. 2013; Majidian et al.
+    2025)." Merge the three-bullet parser list into one sentence. (−50)
+ i) §4.2: delete the paragraph "The eukaryote run itself showed why. ... can create a spurious gain." It is repeated in §6.1. (−60)
+ j) §4.3:
+    - shorten "Null distributions, and how the planned one failed" to: "The planned null, relabelling random controls as
+      transitions, rejected 13.8% of null datasets at a nominal 5% because the seven stems share controls. We therefore permute
+      values over stems and controls jointly (calibrated: 5.1%), and for the gain test we use a parametric bootstrap from the
+      control-fitted regression (4.0–5.3%; Dev-1)." (−90)
+    - delete "The simulations assumed equal branch lengths ... before the switch to the bootstrap." (−40)
+ k) §4.6: delete "In tests, 16/16 proteins ... ~12–13 h for the reference set)". §4.7: replace the six-item reproducibility list
+    with one sentence. (−100)
+ l) §7.2: keep only the bold lead sentence and the sentence on rate-test power; everything else repeats §5. (−150)
+ m) §6.1:
+    - "Scale and runtime": delete the clock times and stage breakdown ("(launched 13:20, finished 22:36): 5.3 h ... merge along the
+      tree").
+    - "The giant component": cut to two sentences.
+    - Failure item 4 ("Expectations the cited literature contradicts"): cut to two sentences. (−180)
+ n) §6.2 H1/H2 paragraph: delete the per-stem list "Dictyostelids have 507 against 401 predicted, ... red algae (62 vs 90) have
+    *fewer* than predicted." Figure 4b shows it. Keep animals and volvocines. (−50)
+ o) §6.3 disorder bullet: cut to "Protein length and disorder shifted within several transitions, but none was unusual relative to
+    control pairs." (−40)
+ p) §6.4: shorten the registry sentence to "In total the analysis registry holds 248 tested rows, 238 of them secondary or
+    exploratory; exploratory p-values should be read against that number." Cut the reversals paragraph to one sentence. (−90)
+ q) §6.5: delete the prokaryote table and the transcription-factor note; keep "The prokaryote tree has only 2 eligible control
+    branches, so no test is possible; both prokaryotic positive controls were recovered (Figure S1)." (−70)
+ r) §7.1:
+    - delete "Our 760 raw HOG gains on the animal stem are fewer than the ~1,944 families of Richter et al. (2018), who sampled more
+      choanoflagellates and defined families differently."
+    - delete "We believe, but did not show, that published bursts measured at deep nodes would shrink under the same matched-control
+      comparison."
+    - in "Toolkit expansions" and "Relaxed selection", remove the p-values and percentiles already given in §6. (−150)
+ s) §7.3: cut the "Timestamps and bookkeeping" bullet to one sentence. (−50)
+Total ≈ 1,700 words, which brings the prose to about 8,600–8,800.
+
+======================================================================================================================
+PART 2. MINOR FIXES
+======================================================================================================================
+ 1. §3: "Nine further transitions are secondary: three nested ... and four prokaryotic ones". 3 + 4 = 7. Change to "Seven further
+    transitions are secondary".
+ 2. Abstract: "Each transition branch was compared with 30 unicellular control branches." → "Each transition branch was compared with
+    its 20 most similar branches from a pool of 30 unicellular control branches."
+ 3. §6.4: "248 distinct analyses with a p-value: the 5 primary tests (10 rows ...), 13 secondary, 217 exploratory ... and 8
+    explicitly post hoc". 10 + 13 + 217 + 8 = 248 ROWS, not analyses. Say "248 registry rows". The robustness summary refers to 102
+    "posthoc" rows while the report says 8; reconcile.
+ 4. §6.4 structure heading "about three-quarters of novel gains cannot be tested". The data are 85.0% / 78.8%, so write "about
+    four-fifths". §4.6 names the unicellular-relative (P-side) database as the primary reference, but §6.4 reports only the
+    Swiss-Prot reference. Add the P-side result (stems 5/49 = 10% vs controls 6/22 = 27%, OR 0.36 [0.09–1.40], 4 of 7 transitions)
+    or explain why it is omitted.
+ 5. §6.1: "three are artefacts of Ancestra's inference, the others errors in our own expectations". C06 is in both groups and C08 is
+    also annotation. Write: "three involve Ancestra's inference (classical cadherin, integrin, T-box) and three involve our own
+    expectations or thresholds (integrin, Notch ligands, pherophorin)."
+ 6. §6.1 positive controls: say that the criterion is met exactly at its threshold (11/16), and that 8 of the 11 high-confidence
+    controls passed. Say that the GRAS control could be scored only after the novelty search (Fig 5 caption mentions 10/16). Also say
+    that "every high-confidence failure explained" is a lenient criterion, because the explanations were written after the fact.
+ 7. §6.1: "72,429 multi-gene families originating on a branch" vs "553,686 families, 468,618 of them single genes" (implying 85,068
+    multi-gene families), and "750,000 singletons" vs "468,618 single genes". These are different units (root HOGs vs Ancestra
+    families vs ungrouped proteins). Name the unit each time or drop two of the three numbers.
+ 8. §4.2 vs Fig 4c caption: gains "2.1–2.6-fold" (text) vs "2.1–2.5-fold" (caption); losses "totals within about 2–25%" / "1.5–1.8-fold
+    in one simulation" (text) vs "losses (1.1–1.5-fold)" (caption). Harmonise.
+ 9. Fig 4 suptitle "Gains are mostly uncertain: on simulations only gain counts are strongly inflated" → "Gain counts are the least
+    reliable event type". Fig 4a's subtitle (47%) conflicts with the §6.1 text (81.9%); see Problem 3.
+10. §6.2 H12 lead: "reflects a known biological fact on the only two stems where loss was expected". T = 0.738 also gets a large
+    contribution from animals (percentile 0.90 for NOT losing flagellar genes where controls lose a few; Fig 3). Add "and partly from
+    animals retaining flagellar genes slightly more fully than their controls".
+11. Fig 2: the "Exploratory" box lists "nested and prokaryotic transitions", but the text calls them "secondary". Use one label.
+12. §4.3 table, H9 row: "(4.5)" → "(Section 4.5)".
+13. §6.3: "its values (0.032 and 0.042)" has no units. Write "log Kr/Kc differences of 0.032 (charge) and 0.042 (polarity)". Mention
+    that parsimony ancestral states at these depths undercount multiple substitutions.
+14. §6.4: "q = 0.56 for all" is used before q is defined. Write "(false-discovery-rate q = 0.56)".
+15. §2 source comment cites "LESSONS.md rule 6" for the CPU-load anecdote; §7.3 cites "LESSONS.md rule 8". Fix one.
+16. §6.5 lead calls the nested-transition result "more sequence-novel gains than controls (p = 0.016)" in bold. Add in the same
+    sentence "three stems; leaving one out gives p = 0.037–0.078".
+17. §1: "five or six eukaryotic clades (Knoll 2011)" vs six listed in "What 'multicellular' means". Use one count.
+18. §4.4: "The class tests use a pre-registered subset of Pfam models, run first; full Pfam supports domain-wide and architecture
+    analyses." is unclear. Write "The domain-class tests used a pre-registered subset of Pfam models; the domain-wide and
+    architecture analyses used all of Pfam."
+19. §4.5: explain in one clause why control pairs are "randomly oriented" (a control has no 'multicellular side', so its sign is
+    assigned at random).
+20. Table 2 header "pre-registered wording": the H12 cell "not detected at this power (nominal p < 0.05 only)" contradicts the
+    pre-registered rule, which uses only the Holm result. Write "not significant after correction".
+21. Fig 1: the outer arc label "Teretosporea" is not used in the text. "Choanoflag." should be written out.
+22. Fig 7b caption says u is from "the Pfam-based index; u HOG is the same index computed from toolkit HOGs". The report text calls
+    the HOG version "the version of the index based on Ancestra's families". Use one name.
+23. §3 Table 1: "M rests on two incomplete Bangiales" → "the crown node rests on two incomplete Bangiales proteomes (e.g. *Porphyra*,
+    44% complete)".
+24. §6.1: "An independent agent re-parsed the raw output with its own code and obtained identical event counts on six test branches"
+    is good. Mention once that it was a Sonnet/Opus agent and not a human, consistent with the disclaimer.
+25. Captions: "Dictyostelid" (Fig 6a) vs "Dictyostelids" (elsewhere). "Red algae (no flagellum at P)": define P in the caption or
+    write "in the ancestor".
+26. Abstract last sentence: "Settling the 'burst of novelty' debate will require better reconstruction at deep nodes more than
+    additional genomes." Nothing in the study compares these two options. Write "Settling the 'burst of novelty' debate will require
+    better reconstruction of gene origins at deep nodes, not only more genomes." Make the same change to the §7 lead sentence.

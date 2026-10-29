@@ -220,10 +220,10 @@ def draw_tree(tree_path, traits_path, transitions_path, kingdom, sets, out_stem,
 SHORT = {
     "T_metazoa": "Animals (Metazoa)",
     "T_fungi_hyphae": "Fungal hyphae (path stem to Amastigomycota)",
-    "T_dictyostelia": "Dictyostelid social amoebae (aggregative)",
+    "T_dictyostelia": "Dictyostelids (social amoebae; aggregative)",
     "T_streptophyta": "Streptophyte algae + land plants",
     "T_rhodophyta": "Red algae (Bangiophyceae + Florideophyceae)",
-    "T_px_filaments": "Filamentous ochrophytes incl. brown algae (PX clade)",
+    "T_px_filaments": "Brown-algal lineage (PX clade: brown, yellow-green algae and kin)",
     "T_volvocine_tgv": "Volvocine colonies (path stem to Gonium + Volvocaceae)",
     "T_myxobacteria": "Myxobacteria (aggregative fruiting bodies)",
     "T_streptomyces": "Streptomycetes (mycelium)",
@@ -239,7 +239,7 @@ def short_label(tr):
 def main():
     os.makedirs(OUT, exist_ok=True)
     euk_clades = [
-        ("Metazoa", "Animals"), ("Choanoflagellata", "Choanoflag."), ("Teretosporea", "Teretosporea"),
+        ("Metazoa", "Animals"), ("Choanoflagellata", "Choanoflagellates"), ("Teretosporea", "Ichthyosporeans + kin"),
         ("Fungi", "Fungi"), ("Amoebozoa", "Amoebozoa"), ("Rhodophyta", "Red algae"),
         ("Chlorophyta", "Chlorophyta"), ("Streptophyta", "Streptophyta"), ("Stramenopiles", "Stramenopiles"),
         ("Alveolata", "Alveolates"), ("Rhizaria", "Rhizaria"), ("Discoba", "Discoba"),

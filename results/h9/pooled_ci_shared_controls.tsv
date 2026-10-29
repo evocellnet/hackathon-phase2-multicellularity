@@ -1,0 +1,2 @@
+n_stems	k_controls	var_controls	est_mean_diff	se_shared	ci_low	ci_high	rate_ratio	rr_ci_low	rr_ci_high	prereg_pooled_diff	prereg_rr_ci_low	prereg_rr_ci_high	note
+7	10	0.0274	0.0962	0.0816	-0.0638	0.2562	1.1009	0.9382	1.2920	0.0962	0.9629	1.2588	post hoc reporting check; shared-control variance counted once; not part of the pre-registered analysis

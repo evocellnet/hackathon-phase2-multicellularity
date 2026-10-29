@@ -182,9 +182,9 @@ def panel_c(ax):
     hs = [Line2D([], [], ls="", marker="D", ms=6.5, color=BLUE, mec="white", label="observed"),
           Line2D([], [], ls="", marker="o", ms=6.5, mfc="white", mec=INK2, label="null mean (permutation)")]
     ax.legend(handles=hs, loc="upper left", bbox_to_anchor=(-0.02, -0.11), frameon=False, fontsize=7.6, ncol=2)
-    head(ax, "c", "Convergent domain loss: the excess disappears",
-         "The excess comes from Dictyostelids, transcriptome proteomes and cilium domains,\n"
-         "i.e. the known flagellum loss already tested in H12")
+    head(ax, "c", "Convergent domain loss: excess not robust",
+         "The excess depends on Dictyostelids and transcriptome proteomes; cilium/flagellum\n"
+         "domains are enriched (15% vs 1.9%) and explain part of it")
 
 
 # ----------------------------------------------------------------------------- (d)

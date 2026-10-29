@@ -1,7 +1,7 @@
 # Robustness of the three positive-looking exploratory results (POST HOC checks)
 
 Written by the PI from the analysing agent's report (the agent could not write .md files). Numbers: TSVs in this directory, code
-scripts/robustness/exploratory_posthoc.py, and 102 rows in results/analysis_registry.tsv (tier `exploratory`, note starts `posthoc`).
+scripts/robustness/exploratory_posthoc.py, and registry rows whose note starts `posthoc` (86 in results/analysis_registry.tsv, 66 in the de-duplicated view; corrected 2026-10-29 from an earlier "102" that did not match the file).
 All checks were designed after seeing the exploratory results; they can only weaken, not strengthen, a claim.
 
 ## Main point

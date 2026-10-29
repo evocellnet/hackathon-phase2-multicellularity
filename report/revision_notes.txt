@@ -1,0 +1,155 @@
+REVISION NOTES: report/REPORT.md -> report/REPORT_revised.txt
+Editor: final-version editor agent, 2026-10-29 (01:39-02:00 CET)
+Inputs: PROMPT.md, report/REPORT.md, report/review_of_report.txt, report/citation_audit.txt, report/references_section.txt,
+figures/captions.md, committed results/ files. Rule used: where the reviewer's numbers differ from the committed files, the files win.
+
+Length: prose (excluding HTML comments, tables, figure captions, references, software/data section) is 8,864 words
+without the human disclaimer and 9,073 with it (draft: 10,297 / 10,505, same counting script).
+
+======================================================================================================
+A. NUMBERS WHERE THE FILES DIFFER FROM THE REVIEW (files win)
+======================================================================================================
+A1. Co-option control medians: reviewer "97-99%"; results/exploratory/euk/summary.md §2 gives 0.977-0.990 -> written "98-99%"
+    (abstract, 7.1, conclusions).
+A2. Rate-test pooled CI with shared controls: reviewer's rough recomputation 0.92-1.31. Recomputed with a new committed script
+    (scripts/report/h9_shared_control_ci.py -> results/h9/pooled_ci_shared_controls.tsv; var = var(controls)/7 + var(controls)/10):
+    0.94-1.29. Reported as a post-hoc check in 6.3 and Conclusions; the pre-registered interval 0.96-1.26 is kept as primary.
+A3. Horizontal-transfer candidates: reviewer text "about 1%"; branch_gain_ladder.tsv gives 1.3% of all gains (1,611/122,945) and
+    3.2% on internal branches (1,144/35,421). Both written.
+A4. Registry: the robustness summary said "102 posthoc rows"; analysis_registry.tsv has 86 rows with notes starting 'posthoc'
+    (66 in the de-duplicated view) plus 8 rows of tier exploratory_posthoc. The report now gives 248 rows = 10 primary + 13
+    secondary + 217 exploratory + 8 post hoc, with 66 further post-hoc checks among the exploratory rows. The wrong "102" in
+    results/robustness/exploratory/summary.md was corrected in place (annotated).
+A5. Gain-ladder heading: results/gainladder/euk/summary.md labelled the 122,945 total "internal branches"; heading corrected in
+    place (annotated) and the label fixed in scripts/gain_ladder.py. Internal branches: 16,709/35,421 = 47.2% sequence-novel.
+A6. Simulation inflation (minor 8): validation_hogparser/metrics.tsv (fast preset): gains 2.39-2.65x all branches, 2.15-2.54x
+    internal; losses 1.08-1.25x all, 1.07-1.53x internal; duplications 0.98-1.14x. Text: gains 2.1-2.6-fold (2.1-2.5 internal),
+    losses within 8-25% (1.5-fold internal in the high-turnover/WGD run), duplications within 2-14%; Fig 4 caption: internal
+    branches 2.1-2.5 / 1.1-1.5 / ~1. The draft's "1.5-1.8-fold" losses mixed in the 'accurate' preset (1.805), which was not used.
+    "6-11% of genes with too-young origin" checked (0.065-0.114).
+A7. Timeline (task item 5): START 12:21 (START.txt), Ancestra done 22:36, primary family committed 00:55, last commit before
+    revision 01:38; revision finished ~02:00 = about 13.5 h. "14-16 hours" would not match the git log, so "about 13.5 hours" is used.
+
+======================================================================================================
+B. THE TEN MAJOR PROBLEMS
+======================================================================================================
+1. Co-option overstated. Applied (a) abstract, (b) Section 7 lead, (c) 7.1, (d) conclusions bullet 3 with the reviewer's text
+   (control value 98-99%, see A1). 6.4 co-option paragraph rewritten to lead with the control comparison (mean percentile 0.39;
+   HOG-based version 0.77). Figure 7b cited.
+2. Stem-specific bias. Applied (a) abstract, (b) 6.1 calibration paragraph (verbatim, values checked against
+   results/calibration_tree/summary.md: O/E controls 0.50-0.63, stems 0.93-1.18; T_bias seq-novel +0.064/-0.036), (c) 7.1
+   (animals exp(0.877)=2.40; volvocines exp(1.805)=6.08 from yhat 14.06), (d) conclusions bullet 6. "2.2-fold that method bias can
+   produce" elsewhere reworded to "the pre-set 2.2-fold bias threshold". 7.1 sentence on the reconstruction inflating gains more on
+   stems softened to "may inflate". 7.3 "stem-specific inflation" -> "a possible stem-specific inflation (one simulation draw)".
+3. Gain-ladder headline. Applied (a) and (b) in 6.1, with A3. Verified 87,524/122,945 on 22 terminal branches (96% novel) and
+   class shares 84/66/40/32%. Source label fixed (A5).
+4. Flagellum as "only convergent loss". Applied (a) abstract, (b) heading, (c) 6.4 paragraph (258 vs 170, p = 0.17; post-hoc null
+   flagged; rho = -0.58), (d) 7.1, (e) conclusions bullet 4. Figure 7c panel subtitle in scripts/report/fig_exploratory.py changed from
+   "the excess disappears ... i.e. the known flagellum loss" to "excess not robust ... cilium/flagellum domains are enriched (15% vs
+   1.9%) and explain part of it"; figure regenerated. Fig 7 caption no longer says "the only convergent loss".
+5. Pre-registration timeline. Applied (a) abstract, (b) Section 2 deviations paragraph (verbatim, with "Dev-2 to Dev-4" written as
+   "the second to fourth"), (c) verification paragraph now states the re-derivation was done and that a citation audit of 48 pairs
+   happened (39 supported, 9 reworded), (d) 7.3 and (e) conclusions last bullet verbatim. Deviation times taken from git (14:29,
+   18:19, 18:19, 19:47), resolving the Dev-2 PI-NOTE.
+6. Rate test framing. Applied (a) abstract, (b) control-pair sentence, (c) sensitivity paragraph (S3 1.16 [1.01, 1.34] excludes 1),
+   (d) shared-control caveat plus a recomputed interval (A2). Per-transition range 0.81-1.36 and "covers all evolution after P"
+   added (4.5). Seed range 0.19-0.61 kept. Conclusions bullet 2 now says "on average" and lists the per-transition range.
+7. Gene-content power and effect definitions. Applied (a) abstract, (b) note after Table 2, (c) leave-one-out sentence with
+   whole-data permutation p 0.084 (loo.tsv), (d) 7.2, (e) conclusions bullet 1.
+8. Internal labels and jargon. Test codes now only in the two methods tables, Table 2 and the Figure 3/5 captions, defined once in
+   4.3 ("Codes such as H4 ... H1 and H2 are the two directions of one two-sided test"); prose uses names (novel-gene, TF-duplication,
+   adhesion/signalling, rate, flagellum test). D0-D8, Dev-1..4 (now "Deviation 1-4" in words), C01-C16 (only in Fig 5 caption)
+   removed from prose. "|U| = 30" -> "a control pool of 30 branches"; u and T defined in 4.3; "spec scheme" -> "originally planned
+   null". Table 1 clade names expanded as suggested (true fungi/blastoclads/non-flagellate fungi; PX clade; TGV expanded; red-algal
+   lineage gloss). Root described in words. One name for transition 6: "brown-algal lineage (PX clade)" (text, Table 1; Figure 1 key
+   regenerated; Figures 3,4,6,7 already "Brown-algal lineage (PX)"). File names in prose replaced by "Supplementary File N" with a
+   list in "Software and data availability"; software minutiae (commit, tag, DIAMOND flags, preset, prereg-v1, odb10) moved there.
+   Defined or removed: Mahalanobis (defined in one clause), random effects (defined), Hartung-Knapp (removed), mid-rank (removed),
+   logit (glossed in Fig 3 caption), REML (absent), q-value (defined at first use in 6.3; 6.4 says "false-discovery-rate q"),
+   anti-conservative (defined in abstract and 4.3), Holm (explained in 4.3), stem/path stem (3), HOG (4.1), pLDDT (4.6).
+9. Reader-facing elements. All Figures 1-7 embedded at first mention with shortened captions (<=~130 words, no paths/scripts;
+   sources moved to a figure-source table in "Software and data availability" and to figures/captions.md). Figure S1 in a
+   "Supplementary figure" section. Figure 7 cited as 7a-7d in 6.4. Figure order: instead of renumbering (would break file names and
+   in-figure labels), Figure 3 is now cited in the Results lead, so first citations run 1,2,3,4,5,6,7. References section inserted
+   (see D). All placeholders/PI-NOTEs and the draft-status comment removed. [TIME] resolved by restoring the human text verbatim
+   (see E).
+10. Length. Reviewer cuts a-s applied (a design-review paragraph verbatim; b load anecdote removed from Section 2; c calibration
+   paragraph removed from Section 2; d verification shortened; e,f,g dataset cuts incl. Eukaryoma/Sorogena/start pools/licence
+   detail/Gonium/prokaryote edits; h 4.1 lineage sentence and parser list merged; i duplicate giant-component paragraph in 4.2 removed;
+   j null text shortened and equal-branch-length sentence removed; k 4.6 test counts/rate-limit and 4.7 list cut; l 7.2 reduced;
+   m clock times and stage breakdown removed, giant component two sentences, failure item 4 two sentences; n per-stem list removed;
+   o disorder bullet one sentence; p registry/reversals shortened; q prokaryote table and TF note removed; r Richter 760 vs 1,944
+   and "we believe" sentence removed, p-values removed from 7.1; s timestamps bullet one sentence). Additional trims throughout
+   to reach target (see Length above).
+
+======================================================================================================
+C. MINOR FIXES (1-26)
+======================================================================================================
+ 1. "Seven further transitions are secondary". Done.
+ 2. Abstract: "its 20 most similar branches from a pool of 30". Done.
+ 3. "248 registry rows" with tier breakdown; post-hoc count reconciled (A4).
+ 4. "about four-fifths"; P-side (unicellular-relative) result added: 5/49 vs 6/22, OR 0.36 [0.09-1.40], p = 0.26, 4 transitions;
+    wording now says no stem-control difference is significant (the P-side estimate leans the other way).
+ 5. Failure grouping reworded as suggested.
+ 6. Threshold met exactly (11/16); 8 of 11 high-confidence passed (controls.tsv); GRAS scored only after novelty search (10/16
+    at diagnosis); leniency of "every failure explained" stated.
+ 7. Units: kept 2.22 M proteins in HOGs / 750,000 singleton proteins; dropped 72,429 root-HOG gains and the 553,686/468,618 family
+    counts from prose (kept in comments).
+ 8. Harmonised (A6).
+ 9. Fig 4 suptitle changed to "Gain counts are the least reliable event type" (scripts/report/fig_results.py; regenerated). Fig 4a
+    (47%) now matches the text.
+10. Animals' contribution to the flagellum p-value added to the 6.2 lead (animals u = 0.90, per_transition_H12.tsv).
+11. Fig 2 box relabelled "Secondary and exploratory (labelled as such)", listing secondary vs exploratory separately (regenerated).
+12. "(Section 4.5)". Done.
+13. "log Kr/Kc differences of 0.032 (charge) and 0.042 (polarity)" and parsimony caveat. Done.
+14. "false-discovery-rate q = 0.56". Done.
+15. Section 2 load anecdote deleted (cut b); 7.3 cites LESSONS rule 8, which is the correct rule.
+16. Nested-transition lead now includes "with three stems, leaving one out gives p = 0.037-0.078".
+17. One count: "six groups" (Knoll's list), used consistently.
+18. Pfam subset sentence replaced with the reviewer's wording.
+19. Random orientation explained in 4.5.
+20. Table 2 H12 wording: "not significant after correction".
+21. Fig 1: "Teretosporea" -> "Ichthyosporeans + kin", "Choanoflag." -> "Choanoflagellates"; key labels for transitions 3 and 6
+    harmonised (scripts/report/fig_trees.py; Figure 1 and S1 regenerated).
+22. One name: "HOG-based version of the index" in text and Fig 7 caption.
+23. Table 1 red-algae note reworded as suggested.
+24. "All verifying agents were Claude subagents, not humans" (Section 2).
+25. Captions: "Dictyostelid" no longer used; "no flagellum at P" -> "lacked a flagellum already in the ancestor".
+26. Abstract last sentence and Section 7 lead changed as suggested.
+
+======================================================================================================
+D. CITATION AUDIT (Part 3) AND REFERENCES
+======================================================================================================
+C1 King + Abedin & King + Manning: applied. C2 Capsaspora -> integrin machinery predates animals/fungi: applied.
+C3 Kiss "mainly ... together with some new gene families": applied. C4 split adhesion (Knoll) / signalling (Cock), also in 7.1:
+applied. C5 Merényi 2023 gradual shedding: applied. C6 Lynch/Bingham reworded: applied. C7 Pereira Lobo: applied.
+C8 Weisman "fungi and insects": applied. C9 Yang 2026 (6.4 and 7.1): applied. C10 SYNERGY (Wapinski 2007): applied.
+C11 tool citations (MAFFT, trimAl, IQ-TREE 3 [Wong 2026], cd-hit, pyhmmer, HMMER3, Leiden, Holm, UniProt): applied.
+C12 Paysan-Lafosse 2025 with Mistry 2021: applied. C13 Notch NOD/NODP clarification: applied.
+Optional items applied: A3 ("species with clonal group formation"), A47 (Kr/Kc "applied to amino-acid changes"), M5 (Lotthammer
+2024 preprint, marked as preprint), S4 (MMseqs2, FAMSA, FastTree in software section), S11 (AlphaFold DB release v6 phrasing),
+S13 (Xu & Zhang 2010 for TM-score; Wertheim 2015 for RELAX). Not applied: A37 optional precision (the sentence was cut);
+Minh et al. 2020 (optional, not cited, so excluded from the list).
+References: inserted from references_section.txt; only works cited in the revised text are listed (47 + 24 in "Software and
+data"); editorial notes removed from entries; checked programmatically against the text.
+
+======================================================================================================
+E. DISCLAIMER, PI-NOTES, PLACEHOLDERS
+======================================================================================================
+- Human disclaimer restored verbatim from PROMPT.md (word-for-word identical, checked programmatically; only CRLF line endings and
+  trailing spaces normalised). It says "finished within 24 hours"; the actual time (~13.5 h) is given separately in Section 2.
+- FOR THE USER (human text, not edited): the disclaimer still contains the placeholder "(LINK)", and its last paragraph mentions
+  "the predictive model" and "benchmarking against other methods", which this project does not have.
+- PI-NOTEs resolved: [TIME] (above); Dev-2 timestamp (git 18:19 used); SYNERGY/Zhang/tool citations (added); BUSCO medians now
+  from a committed script (scripts/report/busco_medians.py -> results/qc/busco_medians.tsv: 84.7% / 97.6%); verification status
+  (stated). Draft-status comment removed.
+
+======================================================================================================
+F. FILES CHANGED OR ADDED (not committed)
+======================================================================================================
+report/REPORT_revised.txt (new), report/revision_notes.txt (new), figures/captions.md (synced to revised captions, sources kept
+per figure), figures/fig1,2,3,4,5,6,7,S1 .png/.svg (regenerated; only label text changed in 1, 2, 4, 7, S1),
+scripts/report/fig_{results,exploratory,trees,workflow}.py (label strings), scripts/report/h9_shared_control_ci.py and
+results/h9/pooled_ci_shared_controls.tsv (new, post hoc), scripts/report/busco_medians.py and results/qc/busco_medians.tsv (new),
+scripts/gain_ladder.py (heading label), results/gainladder/euk/summary.md and results/robustness/exploratory/summary.md (annotated
+label corrections). No metric, control, label or test was changed.
