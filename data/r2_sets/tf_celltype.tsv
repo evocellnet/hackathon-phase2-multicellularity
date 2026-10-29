@@ -1,0 +1,27 @@
+pfam	name	lineages	reference
+PF00046	Homeodomain	all eukaryotes	Derelle et al. 2007
+PF05920	Homeobox_KN (TALE)	all eukaryotes	Arun et al. 2019
+PF03790	KNOX1	plants	Bowman et al. 2017
+PF03791	KNOX2	plants	Bowman et al. 2017
+PF00010	HLH	eukaryotes	de Mendoza et al. 2013
+PF00250	Forkhead	opisthokonts	de Mendoza et al. 2013
+PF00907	T-box	holozoans	Sebé-Pedrós et al. 2011
+PF00853	Runt	holozoans	Sebé-Pedrós et al. 2011
+PF02864	STAT_bind	animals, dictyostelids	Kawata et al. 1997
+PF09271	LAG1-DNAbind (CSL)	holozoans, fungi	de Mendoza et al. 2013
+PF00319	SRF-TF (MADS)	eukaryotes	Gramzow et al. 2010
+PF01285	TEA	opisthokonts	Sebé-Pedrós et al. 2012
+PF00249	Myb_DNA-binding	eukaryotes	Catarino et al. 2016
+PF00847	AP2	plants, protists	Catarino et al. 2016
+PF02365	NAM (NAC)	plants	Catarino et al. 2016
+PF03106	WRKY	plants, some protists	Catarino et al. 2016
+PF03514	GRAS	plants	Bowman et al. 2017
+PF03634	TCP	plants	Bowman et al. 2017
+PF03195	LOB	plants	Bowman et al. 2017
+PF03110	SBP	green lineage	Bowman et al. 2017
+PF02042	RWP-RK	green algae, plants	Ferris & Goodenough 1997
+PF11754	Velvet	fungi	Bayram & Braus 2012
+PF04383	KilA-N (APSES)	fungi	Krizsán et al. 2019
+PF00172	Zn_clus (Zn2Cys6)	fungi	Krizsán et al. 2019
+PF18460	HetR_C	cyanobacteria	Herrero et al. 2016
+PF28281	PatS	cyanobacteria	Herrero et al. 2016

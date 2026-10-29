@@ -1,0 +1,23 @@
+pfam	name	lineages	reference
+PF00656	Peptidase_C14 (caspase)	animals; caspase-like in many lineages	Uren et al. 2000
+PF31181	metacaspase (Pfam 38 split)	plants, fungi, protists, cyanobacteria	Minina et al. 2020; Asplund-Samuelsson et al. 2012
+PF01650	Peptidase_C13 (VPE/legumain)	plants	Hatsugai et al. 2004
+PF00452	Bcl-2	animals	Aouacheria et al. 2005
+PF02180	BH4	animals	Aouacheria et al. 2005
+PF00653	BIR	animals, fungi	Uren et al. 1998
+PF00619	CARD	animals	Koonin & Aravind 2002
+PF00531	Death	animals	Koonin & Aravind 2002
+PF01335	DED	animals	Koonin & Aravind 2002
+PF00931	NB-ARC	plants, animals, bacteria	Dyrka et al. 2014
+PF05729	NACHT	animals, fungi, bacteria	Dyrka et al. 2014
+PF06985	HET	fungi	Paoletti & Saupe 2009
+PF14479	HeLo	fungi	Daskalov et al. 2016
+PF04598	Gasdermin	animals	Johnson et al. 2022
+PF26164	Gasdermin (bacterial/fungal, Pfam 38)	bacteria, fungi	Johnson et al. 2022; Clavé et al. 2022
+PF01823	MACPF	animals, plants	Morita-Yamamuro et al. 2005
+PF01582	TIR	animals, plants	Horsefield et al. 2019
+PF13676	TIR_2	plants, bacteria	Horsefield et al. 2019
+PF01027	Bax1-I	all eukaryotes	Hückelhoven 2004
+PF06943	zf-LSD1	plants	Dietrich et al. 1997
+PF14721	AIF_C	animals, fungi	Klim et al. 2018
+PF02452	PemK_toxin (MazF)	bacteria	Engelberg-Kulka et al. 2006

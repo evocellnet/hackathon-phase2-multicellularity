@@ -1,6 +1,7 @@
 # DESIGN — Round 2: resolving single events and the step from simple to complex multicellularity
 
-Version: v0 (2026-10-29 15:45, round-2 t ≈ 0.6 h; pre-review). Round 1 is frozen at git tag `phase1-final`.
+Version: v1 (2026-10-29 16:15, round-2 t ≈ 1.1 h), revised after one review round (statistics, evolutionary biology,
+compute/AI; reviews/round2_design_review_*.txt). Change log in §7. v0 text below is superseded where §6 says so. Round 1 is frozen at git tag `phase1-final`.
 Inputs: PROMPT.md (rules unchanged), PROMPT_ROUND2.md (new scientific points), the department-head review
 (reviews/round2_department_head_review.txt; public page https://claude.ai/artifact/NfrexbqRBFmS3A97VvTqcR).
 Resources: 48 CPU, 500 GB RAM, 1× A100-40GB, ~30 h soft deadline (START_ROUND2.txt: 2026-10-29 15:07).
@@ -80,3 +81,62 @@ deep-node positive controls (C03/C06/C07) and does not lower EukaryOMA agreement
 | 10–22 | W2–W7 analyses in parallel agents |
 | 22–27 | verification, figures |
 | 27–30 | report (round-2 sections integrated into the technical report; errata section) |
+
+## 6. Revisions after review (v1; these override §1–§5 where they conflict)
+
+**Confirmatory family (Holm over 3, one-sided α = 0.05; frozen at tag `prereg-r2` before any round-2 Ancestra output):**
+- **R2-P1** Simple→complex events carry more sequence-novel families than matched in-run controls. Unit = event; *confirmatory events are
+  only those without any round-1 novelty value* (round 1 already saw Pezizomycotina, Agaricomycetes, Embryophyta in its nested set and
+  Florideophyceae, Phaeophyceae, heterocystous cyanobacteria in exploratory tables). Expected confirmatory events: Volvox germ–soma
+  (Volvocaceae), Fucophycidae (parenchymatous brown algae), Astrephomene (independent soma) — the exact list is fixed in
+  `data/r2_prereg/p1_events.tsv` when the panels are built and before their Ancestra output exists. Statistic: per-event one-sided
+  permutation p-value against the in-run controls (event label permuted among internal non-crown branches matched for depth class),
+  combined by Stouffer's method. Effect sizes: per-event rate ratio (95% CI) and a pooled ratio with modified Hartung–Knapp CI
+  (q* = max(1, q); Röver et al. 2015), τ² and prediction interval; nested events handled by one effect per panel in a sensitivity analysis.
+  All simple→complex events (seen and unseen) are pooled as a *secondary* estimate. Rough power with 3 events: 18% at 2-fold, 41% at 3-fold —
+  we expect an estimate, not a decision.
+- **R2-P2** Motif-binding domains (ELM LIG/DOC/DEG/TRG interaction domains mapped to Pfam 38.2: 115 primary families; WD40/TPR/ARM in a
+  sensitivity set; 41 ELM entries given only as InterPro/SMART IDs not used) are more abundant in multicellular than unicellular species.
+- **R2-P3** Cell-death machinery (22 Pfam families incl. non-animal forms: metacaspases, VPE, HET/HeLo, NB-ARC, gasdermins, MazF) — same test.
+- Statistic for P2/P3: PGLS (phylolm, Pagel's λ) of the equal-weight mean of standardised per-family log(count + 0.5) on a one-sided
+  multicellular-vs-unicellular contrast, with log proteome size and proteome disorder fraction as covariates, on genome-based proteomes with
+  BUSCO ≥ 50% of the round-1 187-species set on the round-1 phylogenomic tree. Sign must survive leave-one-origin-out; sensitivity:
+  all proteomes, phylogenetic NB GLMM, complex-vs-simple contrast, sets including repeats. Lineage-restricted families are analysed only within
+  panels where they occur.
+- Moved to exploratory: **P4** (cell-type TF families; 26 Pfam incl. KNOX, RWP-RK, velvet, HetR: TF expansion in animals and plants is already
+  known and round 1 used these families) and **P5** (3Di vs amino-acid divergence: ProstT5 3Di is a function of sequence, so the ratio partly
+  measures the model; to be calibrated against AlphaFold-derived 3Di, restricted to confident Pfam-domain regions and compared within matched
+  amino-acid distance bins; one-sided expectation = higher on multicellular branches, read together with round-1 H9).
+
+**States.** Two binary axes coded per species with references: D (germ–soma split or ≥3 cell types) and T (3D tissue with cell–cell
+connections); complex = D or T (primary), T-only as sensitivity. Volvox and Nostocales are D-only; Fucophycidae, Florideophyceae, land plants,
+fruiting bodies are T. Fruiting bodies arose 8–11 times in fungi (Nagy et al. 2018): the Pezizomycotina stem may hide several origins.
+
+**Panels.** Ancestra preset `fast` (as round 1; the 2.1–2.6× gain-inflation calibration and the 2.2× rule were made on `fast`), with the verified
+patched Leiden wrapper (scripts/ancestra_patch/), a 30-min family-graph pilot per panel, ≤40 proteomes / ≤700k proteins per panel. Priority
+R2, R4, R3, R6, R5, R1, R8, R7. Go/no-go: a panel not launched by round-2 t = 8 h is dropped and recorded.
+
+**Controls/models.** One NB GLM fitted on the control branches of all panels (panel intercepts, shared slopes; covariates log branch length,
+log descendants, transcriptome fraction, BUSCO, distance to nearest outgroup, which proxies homology-detection failure; Weisman et al. 2020);
+branches inside multicellular crowns excluded from controls; the sister-clade stem reported as the depth-matched comparison; SMD reported.
+
+**Scans.** Per-family NB GLM, multicellular clade vs sister, log-proteome offset, BH q < 0.1 within event after transposon masking (224 Pfam,
+`data/r2_sets/transposon_mask.tsv`); recurrence (significant in ≥2 events) calibrated by permuting event labels; fold-changes shrunk (ashr)
+before ranking; architectures and GO terms (pfam2go) reported for top families.
+
+**Structure (W5).** ProstT5 3Di (own GPU implementation; windowing 1,000/250) validated against AlphaFold-derived 3Di of round-1 AFDB models
+by length/disorder bin and checked for integrity (one record per ID, 3Di length = sequence length). `--family-rescue 3di` tested on R1 only, and only
+if R1's 3Di is complete by round-2 t = 14 h; decision rule as §3. Foldseek on CPU (its GPU build fell back to CPU here); no MMseqs2-GPU (would
+change the novelty definition).
+
+**Independence.** EukaryOMA shares 122 input proteomes with us, so W1 is a cross-method check, not independent data; W1 is reported separately
+for overlapping and non-overlapping species.
+
+**Process.** Round-2 outputs only under results/r2/ and runs/r2/<panel>/, with refuse-if-exists guards and DONE.json (md5); every new analysis
+gets a D-entry with its time cost; report skeleton by t = 10 h; analysis freeze t = 24 h; numbers in the report come from script output files and
+are re-derived by a second agent.
+
+## 7. Change log
+- v1: confirmatory family reduced from 5 to 3 tests (P4, P5 exploratory); P1 restricted to unseen events; Stouffer + modified HK; pooled NB
+  controls; PGLS specification; D/T state axes; ELM restricted to LIG/DOC/DEG/TRG; curated cell-death and TF lists; `fast` preset; panel caps,
+  pilots, priority and go/no-go; 3Di validation against AFDB; W1 independence caveat; output guards.

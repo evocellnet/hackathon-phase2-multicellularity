@@ -1,0 +1,64 @@
+ROUND-2 DESIGN REVIEW (evolutionary biology), DESIGN_ROUND2.md v0, 2026-10-29
+
+1. STATES. "Complex" currently merges two axes: differentiated cell types and 3D tissue (Knoll 2011). Volvox (a 2D spheroid with a germ-soma split) and Nostocales (filaments with 3 or more cell types) are complex only on the first axis. Code two columns, D (germ-soma split or 3 or more cell types) and T (3D tissue with cell-cell connections). Use "D or T" as primary and run R2-P1 also with T only.
+- Mycelia: simple. Fruiting bodies are complex but arose convergently 8-11 times (Nagy 2018). Flag the Pezizomycotina stem, which may hide several origins.
+- Volvox is polyphyletic (Herron & Michod 2008), and Astrephomene evolved soma independently (Yamashita 2016). Astrgub is currently coded simple; recode it complex as a separate event and flag Pleodorina.
+- Brown algae: Ectocarpus is filamentous. Make the parenchymatous Fucophycidae the primary event and the Phaeophyceae stem a sensitivity coding (Bringloe 2020).
+- Red algae: filamentous Proteorhodophytina make "Eurhodophytina uni→simple" contested (Muñoz-Gómez 2017). Florideophyceae are complex.
+- Dictyostelids: simple. Acytostelium has no stalk-cell death (Urushihara 2015), a natural contrast for the cell-death set.
+- Choanoflagellate rosettes: facultative, ancestral state unresolved. Keep them as tip-level exploratory events.
+- Fischerella (true branching): exploratory T event.
+
+2. PANELS are sound. Add genome-based taxa:
+- R2: Fonticula/Nuclearia (an aggregative event), Endogone sporocarps, Allomyces.
+- R3: Chara (Nishiyama 2018) as a second simple→complex event; Zygnematophyceae genomes (Feng 2024).
+- R4: Yamagishiella, Eudorina, Pleodorina, Volvox reticuliferus.
+- R5: Galdieria/Cyanidioschyzon, Porphyridium, a filamentous proteorhodophyte.
+- R6: Phaeoexplorer genomes (Denoeud 2024).
+- R7: the Physarum genome; dictyostelid groups 1-4.
+- R8: Pleurocapsales.
+
+3. SETS. The ELM file has 142 unique Pfams, not 200. 24 of them come from the MOD/CLV classes (Pkinase, proteases, glycosyltransferases), which are enzymes rather than motif binders, and kinases would dominate. Restrict R2-P2 to the LIG/DOC/DEG/TRG classes, put repeat domains (WD40, TPR, ARM) in a sensitivity set, and add disorder fraction as a covariate (Niklas 2018; Pincus 2008).
+
+cell_death.tsv (Pfam 38.2):
+PF00656, PF31181 Caspase/metacaspase: all lineages incl. cyanobacteria (Uren 2000; Minina 2020; Asplund-Samuelsson 2012)
+PF01650 Peptidase_C13/VPE: plants (Hatsugai 2004)
+PF00452, PF02180 Bcl-2/BH4: animals (Aouacheria 2005)
+PF00653 BIR (Uren 1998)
+PF00619, PF00531, PF01335 CARD/Death/DED: animals (Koonin & Aravind 2002)
+PF00931, PF05729 NB-ARC/NACHT: plants, fungi, animals, bacteria (Dyrka 2014)
+PF06985, PF14479 HET/HeLo: fungi (Paoletti & Saupe 2009; Daskalov 2016)
+PF04598, PF26164 Gasdermins: animals, fungi, bacteria (Johnson 2022; Clavé 2022)
+PF01823 MACPF (Morita-Yamamuro 2005)
+PF01582, PF13676 TIR (Horsefield 2019)
+PF01027 Bax1-I (Hückelhoven 2004)
+PF06943 zf-LSD1: plants (Dietrich 1997)
+PF14721 AIF_C (Klim 2018)
+PF02452 MazF: bacteria (Engelberg-Kulka 2006)
+
+tf_celltype.tsv:
+PF00046, PF05920 Homeodomain/TALE (Derelle 2007; Arun 2019)
+PF03790, PF03791 KNOX1/2 (Bowman 2017)
+PF00010 HLH; PF00250 Forkhead (de Mendoza 2013)
+PF00907, PF00853 T-box/Runt (Sebé-Pedrós 2011)
+PF02864, PF09271 STAT/CSL (Kawata 1997)
+PF00319 MADS (Gramzow 2010)
+PF01285 TEA (Sebé-Pedrós 2012)
+PF00249, PF00847, PF02365, PF03106 Myb/AP2/NAC/WRKY (Catarino 2016)
+PF03514, PF03634, PF03195, PF03110 GRAS/TCP/LOB/SBP (Bowman 2017)
+PF02042 RWP-RK: volvocines (Ferris & Goodenough 1997)
+PF11754, PF04383, PF00172 Velvet/APSES/Zn2Cys6: fungi (Bayram & Braus 2012; Krizsán 2019)
+PF18460, PF28281 HetR_C/PatS: cyanobacteria (Herrero 2016)
+
+Test lineage-restricted families only within the panels where they occur. Otherwise the pooled PGLS mostly measures presence/absence.
+
+4. W6. ProstT5 predicts 3Di from sequence, so the 3Di/AA ratio partly reflects the model's mapping rather than real structural change. The ratio is also non-linear in distance and inflated in disordered regions, which are enriched in multicellular proteomes. Required changes:
+- calibrate against AFDB 3Di;
+- restrict to confident Pfam-domain regions;
+- compare branches within matched AA-distance bins.
+The expected biological signal is relaxed purifying selection under a smaller effective population size (Lynch & Conery 2003). Make R2-P5 one-sided (higher on multicellular branches) and read it together with the round-1 H9 rate result.
+
+5. CONFRONT
+- W1/W2: Paps & Holland 2018; Fernández & Gabaldón 2020.
+- W3: Merényi 2023, Krizsán 2019 (fungi); Bowles 2020 (plants); Denoeud 2024 (brown algae); Collén 2013, Brawley 2017 (red algae); Hanschen 2016 (Volvox: little gene-content change).
+- W4: de Mendoza 2013; Catarino 2016 (TF families predate land plants); Durand 2016; Glöckner 2016.

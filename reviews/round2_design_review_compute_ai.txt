@@ -1,0 +1,24 @@
+ROUND-2 DESIGN REVIEW: COMPUTE, ALGORITHMS, AGENT FAILURE MODES (DESIGN_ROUND2.md v0; 2026-10-29 15:42)
+
+Verdict: the science is sound, but the schedule is not feasible as written. Cut it to a critical path and make the changes below.
+
+1. ProstT5 will probably not finish in time. The "48 proteins/s" figure looks like a short-protein pilot. The live Amphque log (longest proteins first) shows 9.6 seq/s, about 11.4k residues/s. The 269 proteomes hold 1.43 G residues. The T5-XL encoder's feed-forward cost dominates, so cost per residue is roughly flat: 20–35 h in total. The job also leaves out the new panel genomes that W5 needs.
+   Change: re-estimate from residues/s after 3 species. Reorder the queue: R1/R2 panel proteomes, including new genomes, first. Then the proteins W5/W6 need (stem-gained families, single-copy orthologs). Prokaryotes last. Skip speed tricks: HF T5 has no flash/SDPA attention (relative position bias), so it would need a custom kernel and re-validation. bf16 is no faster than fp16 and may flip argmax states.
+
+2. Foldseek/DIAMOND on GPU: skip both. Foldseek GPU fell back to CPU here, and the GPU is busy. MMseqs2-GPU in place of DIAMOND would change the "sequence-novel" definition and break comparability with round 1.
+
+3. The 3Di checks are self-consistency only. 97.1% agreement with Foldseek's ProstT5 is the same model twice, and that number is in no log file, so save that comparison. Add: per-residue agreement with structure-derived 3Di on round-1 AFDB/Swiss-Prot models, by length and disorder bin; and an integrity check (one record per ID, 3Di length = sequence length). A killed run leaves a truncated record that resume treats as done.
+   R2-P5 is circular: ProstT5 3Di is a function of the amino-acid sequence, so "3Di vs AA divergence" mostly measures the model. Make it exploratory, or base it on AFDB structures.
+
+4. Ancestra panels. Round 1 used `fast`, and the 2.1–2.6x gain inflation and the 2.2x rule were calibrated on `fast`. `accurate` buys only ~1.4 F (CI includes 0) and breaks comparability, so use `fast`. The README reports `--family-rescue 3di` at OrthoBench F -5.0 with no QfO gain. Run it on R1 only, and only if its 3Di is done by t=14 h; otherwise drop it and record that. Dense panels will again produce giant components (D8), so use the verified patched Leiden wrapper, run a 30-min S0 component pilot per panel, and cap panels at about 40 proteomes / 700k proteins.
+
+5. Cuts and order. Critical path: data, pilots, panels, novelty ladder, R2-P1. Priority: R2–R6 (nested events), then R1, then R8. Drop R7. Go/no-go at t=8 h: any panel not launched by then is dropped. Run R2-P2..P4 on the 187 round-1 species, whose Pfam exists; this saves about 5 h of 24 CPUs.
+
+6. Agent failure modes.
+   - Overwrite: write outputs only to results/r2/ and runs/r2/<panel>/. Use a refuse-if-exists guard and DONE.json with md5.
+   - Pre-registration: tag `prereg-r2` (hashed family lists, transitions.tsv, test code) before any panel output. Write down which round-1 per-family results the authors have already seen.
+   - Hidden non-independence: R2-P1 re-tests round-1 events on partly the same proteomes. EukaryOMA shares input proteomes with us (122/187), so W1 does not validate against independent data and shares annotation errors. Report W1 separately for overlapping and non-overlapping species.
+   - Scope creep: a new analysis needs a D-entry with its time cost.
+   - Claims: every reported number must come from a script output file and be re-derived by a second agent.
+   - Deadline: report skeleton at t=10 h, analysis freeze at t=24 h, then only verification and writing; tables are generated, not typed.
+   - Bug: in prostt5_3di.py the progress condition `(n // len(batch)) % 50` fires irregularly. Log by time instead.
