@@ -6,6 +6,19 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## ROUND 2 (started 2026-10-29 15:07; 48 CPU, 500 GB, A100; soft deadline ~30 h; START_ROUND2.txt)
 
+### R2-M2 — 2026-10-29 22:03 (round-2 t ≈ 6.9 h): confirmatory family closed; one positive, two nulls
+Holm over the three confirmatory tests: P3 (cell death) rejected (adjusted 0.014); P1 (more sequence-novel families at four unseen
+simple→complex events) not significant (Stouffer p = 0.072, adjusted 0.144); P2 (motif-binding domains) null. P1 was underpowered
+by design (3–4 events, 18–41% power) and, in retrospect, should have been labelled estimation (LESSONS rule 5). Its largest per-event
+ratios (Volvox carteri, Astrephomene ≈ 13–14×) are a tip-versus-internal-branch artefact: reversal tips score ≈ 21× by the same
+comparison, and against tip controls the effect is ≈ 0.6–1.0. A cleaner secondary estimate, internal simple→complex stems only, is
+2.70× [1.29, 5.63] (k = 7) versus 0.84 for internal origins — the one gene-content lead that survives in round 2, exploratory.
+
+All 8 dense panels ran in 15–60 min each (vs 10 h for the round-1 eukaryote run). Positive controls recover 14/18 on panels, including
+the deep-node T-box control (C07) that failed in round 1; cadherin and integrin controls still fail. The LECA complex map (W7) adds
+nothing. Running: independent verification of P1/panels, W5 (Ancestra 3Di structure mode on R1; structural novelty), W6 (3Di vs
+amino-acid divergence, exploratory); GPU 3Di 93/322 species. Next: report drafting starts after verification (target t ≈ 10 h).
+
 ### R2-M1 — 2026-10-29 18:18 (round-2 t ≈ 3.2 h): first confirmatory result; cross-method check is sobering
 Confirmatory R2-P3 is supported: genomes of multicellular species carry more cell-death machinery than expected for their proteome
 size (1.21-fold [1.04, 1.42], raw one-sided p = 0.0047 < Holm 0.0167 regardless of P1; mainly complex multicellularity; sign

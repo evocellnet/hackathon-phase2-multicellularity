@@ -23,12 +23,26 @@ def design(df):
     for c in covs:
         X[c] = (df[c] - mu_c[c]) / (sd_c[c] if sd_c[c] > 0 else 1.0)
     return X
+from scipy.special import gammaln
+def nb_nll(th, X, y):
+    b = th[:-1]; a = np.exp(th[-1]); mu = np.exp(X @ b); r = 1/a
+    return -(gammaln(y+r) - gammaln(r) - gammaln(y+1) + r*np.log(r/(r+mu)) + y*np.log(mu/(r+mu))).sum()
+def num_hess(f, x, h=1e-4):
+    n = len(x); H = np.zeros((n,n))
+    for i in range(n):
+        for j in range(i, n):
+            ei = np.zeros(n); ej = np.zeros(n); ei[i] = h; ej[j] = h
+            H[i,j] = H[j,i] = (f(x+ei+ej) - f(x+ei-ej) - f(x-ei+ej) + f(x-ei-ej)) / (4*h*h)
+    return H
 def fit(df):
-    X = design(df); y = df['seq_novel'].astype(float).values
-    m = sm.NegativeBinomial(y, X, loglike_method='nb2').fit(disp=0, maxiter=500, method='bfgs')
-    m = sm.NegativeBinomial(y, X, loglike_method='nb2').fit(start_params=m.params, disp=0, maxiter=200, method='newton')
-    k = X.shape[1]
-    return m.params[:k].values, m.cov_params().values[:k,:k], float(m.params.iloc[-1]), list(X.columns)
+    X = design(df); cols = list(X.columns); X = X.values.astype(float); y = df['seq_novel'].astype(float).values
+    p0 = sm.GLM(y, X, family=sm.families.Poisson()).fit().params
+    th0 = np.r_[p0, np.log(0.5)]
+    r = optimize.minimize(nb_nll, th0, args=(X, y), method='BFGS', options={'gtol':1e-8, 'maxiter':5000})
+    r = optimize.minimize(nb_nll, r.x, args=(X, y), method='Nelder-Mead', options={'xatol':1e-9,'fatol':1e-10,'maxiter':200000,'maxfev':200000}) if not r.success else r
+    H = num_hess(lambda t: nb_nll(t, X, y), r.x)
+    cov = np.linalg.inv(H); k = X.shape[1]
+    return r.x[:k], cov[:k,:k], float(np.exp(r.x[-1])), cols
 beta, V, alpha, names = fit(C)
 print('alpha', alpha); print(pd.Series(beta, index=names).round(4).to_dict())
 # LOO control residuals
