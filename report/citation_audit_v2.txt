@@ -1,0 +1,107 @@
+CITATION AUDIT of report/REPORT_v2_draft.txt (draft not edited)
+Method: every DOI resolved against Crossref; abstracts read via PubMed E-utilities / bioRxiv API for claim checks (abstract level only; full text read only for ProstT5 "41-65%"). Date of audit 2026-10-29.
+
+=====================================================================
+PART A. METADATA CHECK
+=====================================================================
+All 49 DOI-bearing entries resolved to the stated authors/year/title/journal/volume/pages EXCEPT the items below.
+
+FIXES REQUIRED
+A1. Cox et al. - WRONG TITLE for the 2026 paper. bioRxiv 2024 title is "Ancient eukaryotic protein interactions illuminate modern genetic traits and disorders" (correct for the preprint). The published Cell Genomics 6:101254 (June 2026) is titled "A protein interactome for the last eukaryotic common ancestor illuminates the biochemical basis of modern genetic diseases" and has 16 authors (Ansari Z added). Cite the 2026 paper (peer reviewed); mention preprint DOI. Text on line 301 ("Cox et al. (2024, bioRxiv...; published 2026...)") should become "Cox et al. (2026)". Abstract: 156 organisms, >26,000 MS analyses from 31 species: consistent with the draft.
+A2. Heinzinger et al. 2024 - title is "Bilingual language model for protein sequence and structure" (7 authors: Heinzinger, Weissenow, Sanchez, Henkel, Mirdita, Steinegger, Rost). The "[ProstT5]" placeholder should be replaced.
+A3. Altenhoff et al. 2024 OMA - verified. Full title "OMA orthology in 2024: improved prokaryote coverage, ancestral and extant GO enrichment, a revamped synteny viewer and more in the OMA Ecosystem"; second author Warwick Vesztrocy A, third Bernard C; pages D513-D521; online Nov 2023 (issue year 2024). Note: this is the OMA database paper; it does not describe the "EukaryOMA" site specifically (see B-row 143).
+A4. Rover et al. 2015 - verified: Röver C, Knapp G, Friede T. BMC Med Res Methodol 15:99. doi:10.1186/s12874-015-0091-1. The abstract describes the modified Knapp-Hartung (mKH) method, so it supports the draft's use. Draft's q* = max(1,q) detail not in abstract (it is the mKH definition).
+A5. Uyeda et al. 2018 - verified: Uyeda JC, Zenil-Ferguson R, Pennell MW. Syst Biol 67:1091-1109. doi:10.1093/sysbio/syy031. (Preprint 10.1101/222729.)
+A6. Foldseek: published online 2023 (Nat Biotechnol 42:243-246, issue date 2024); citing "2024" is acceptable but van Kempen et al. 2024 is the usual form. No change needed.
+A7. Software list (all verified by Crossref): DIAMOND Nat Methods 18:366 (2021); MAFFT MBE 30:772 (2013); trimAl Bioinformatics 25:1972 (2009); IQ-TREE 3: Wong et al. 2026, Mol Biol Evol 43:msag117 (preprint EcoEvoRxiv 2025); PyHMMER Bioinformatics 39:btad214 (2023); metapredict Emenecker et al. 2021 Biophys J 120:4312 (draft says metapredict 3.1 was run: also cite the version used; v2 preprint 10.1101/2022.06.06.494887); Leiden Sci Rep 9:5233 (2019); AlphaFold DB Varadi et al. 2024 NAR 52:D368. Pfam: Paysan-Lafosse et al. 2025 = "The Pfam protein families database: embracing AI/ML", NAR 53:D523-D534, doi:10.1093/nar/gkae997 (verified).
+A8. Holm 1979 has no DOI (Scand J Stat 6:65-70): correct. Pagel 1994 first author only on Crossref, correct. Grosberg & Strathmann, Knoll: verified.
+
+NEW REFERENCES (the "[needs check]" and not-in-LITERATURE items), all verified
+- ELM: Kumar M, Michael S, Alvarado-Valverde J et al. 2024. ELM - the Eukaryotic Linear Motif resource - 2024 update. NAR 52:D442-D455. doi:10.1093/nar/gkad1058. (Latest ELM paper found; no 2026 ELM paper found in Crossref/web search.)
+- phylolm: Ho LST, Ané C 2014. A linear-time algorithm for Gaussian and non-Gaussian trait evolution models. Syst Biol 63:397-408. doi:10.1093/sysbio/syu005.
+- MCMCglmm: Hadfield JD 2010. MCMC methods for multi-response generalized linear mixed models: the MCMCglmm R package. J Stat Softw 33(2):1-22. doi:10.18637/jss.v033.i02.
+- ashr: Stephens M 2017. False discovery rates: a new deal. Biostatistics 18:275-294. doi:10.1093/biostatistics/kxw041.
+- AUGUSTUS: Stanke M, Keller O, Gunduz I, Hayes A, Waack S, Morgenstern B 2006. AUGUSTUS: ab initio prediction of alternative transcripts. NAR 34:W435-W439. doi:10.1093/nar/gkl200 (and/or Stanke M, Diekhans M, Baertsch R, Haussler D 2008. Using native and syntenically mapped cDNA alignments to improve de novo gene finding. Bioinformatics 24:637-644. doi:10.1093/bioinformatics/btn013). Use whichever matches how it was run (hints => 2008).
+- pfam2go: Mitchell A, Chang H-Y, Daugherty L et al. 2015. The InterPro protein families database: the classification resource after 15 years. NAR 43:D213-D221. doi:10.1093/nar/gku1243 (GO-consortium-recommended citation for pfam2go/InterPro2GO), plus GO: Gene Ontology Consortium 2026. The Gene Ontology knowledgebase in 2026. NAR 54:D1779-D1792. doi:10.1093/nar/gkaf1292; Ashburner M et al. 2000. Gene Ontology: tool for the unification of biology. Nat Genet 25:25-29. doi:10.1038/75556 (not re-checked here; standard reference).
+- Pfam, earlier: Mistry J et al. 2021. Pfam: the protein families database in 2021. NAR 49:D412-D419 (only if Pfam-A 38.2 is cited with both).
+- Lynch & Conery 2003, Knoll 2011, Nagy et al. 2018, Hanschen et al. 2016, FastOMA, Foldseek: verified, no change.
+NOTE: draft line 91 (ELM, "115 Pfam families that bind short linear motifs") and line 392 need in-text citations added (ELM; Ho & Ané 2014; Hadfield 2010; Stephens 2017); line 123/382 (AUGUSTUS) too. GO/pfam2go is not cited in the body I could find; add where used.
+
+=====================================================================
+PART B. CLAIM-CITATION AUDIT  (S = supported, P = partially, U = unsupported; "line" = line in draft)
+=====================================================================
+No claim was found UNSUPPORTED. Items marked P need rewording or a caveat.
+
+line | claim -> reference | verdict | note / suggested wording
+36 | aggregative vs clonal multicellularity -> Grosberg & Strathmann 2007; Brunet & King 2017 | S (G&S) / P (B&K) | G&S abstract covers aggregation vs unicellular bottleneck. B&K abstract is about animals only; move B&K to the animal sentence or cite for clonal animal origin.
+36 | complex multicellularity per Knoll: ~six groups (animals, land plants, florideophyte red algae, laminarialean brown algae, two fungal groups) | S | exact match with abstract.
+36 | Nagy et al. count 8-11 complex origins in fungi | S | abstract: "8-11 times".
+36 | cytoplasmic bridges grey zone -> Chaigne & Brunet 2022 | S |
+36 | Lamża 2023: 45 independent simple-multicellular lineages | S | abstract: 45 lineages, six types. (Lamża counts all multicellular lineages, not only "simple": suggest "45 independent multicellular lineages in eukaryotes".)
+42 | co-option: genes pre-existed in unicellular ancestors -> King 2008; Sebé-Pedrós 2010; Prochnik 2010; Hanschen 2016; Kiss 2019 | S | all abstracts support (domains/integrin machinery predate; Volvox protein-coding similarity; Rb co-option; hyphae via co-option). Prochnik is about lineage-specific protein modification rather than co-option strictly: acceptable.
+42 | novelty burst: Paps & Holland 2018; Bowles 2020; Denoeud 2024 | S | each reports a gain of novelty / new families.
+42, 240 | TF/adhesion/signalling expansion -> de Mendoza 2013; Cock 2010; Pereira Lobo 2025 | S | de Mendoza: complex lineages have most complex TF repertoires; Pereira Lobo: expansions in >=2 complex lineages; Cock: signal-transduction genes (receptor kinases) correlate with multicellularity.
+42 | relaxed selection / smaller Ne -> Lynch & Conery 2003; Bingham & Ratcliff 2024 | P | both argue reduced Ne affects genome architecture (introns, mobile elements, genome expansion), not specifically "weaker selection on proteins". Reword: "multicellular lineages have smaller effective population sizes, so genetic drift is stronger and selection is weaker (Lynch & Conery 2003; Bingham & Ratcliff 2024)" and drop "so proteins evolve under weaker selection" unless supported by data.
+46 | HOGs developed in OMA/FastOMA -> Altenhoff 2013; Majidian 2025 | S | GETHOGs defines HOGs; FastOMA = OMA-accuracy linear-time method.
+62 | Holm method -> Holm 1979 | S |
+93 | Volvox polyphyletic -> Herron & Michod 2008 | S | "multiple origins and reversals".
+105 | alternative coding: single colonial volvocine origin vs two -> Lindsey 2021 | S | abstract discusses once-vs-multiple origins; paper title supports multiple.
+143 | EukaryOMA built with OMA and FastOMA (Altenhoff 2024; Majidian 2025) | P | Altenhoff 2024 is the OMA database paper, not the EukaryOMA release; cite the EukaryOMA website/release (eukaryoma.unil.ch) as a data source and keep the two papers as method references: "built with the OMA and FastOMA methods (Altenhoff et al. 2024; Majidian et al. 2025)" is acceptable if "release" is cited to the web resource.
+165 | distance to outgroup as a proxy for homology-detection difficulty -> Weisman 2020 | S | abstract: detectability failure explains many lineage-specific genes; the proxy is the authors' own choice, so say "(cf. Weisman et al. 2020)".
+165 | modified Hartung-Knapp CI -> Röver 2015 | S | mKH described in abstract.
+197 | consistent with convergent gene-family expansion in complex fungi -> Merényi 2020; land-plant burst -> Bowles 2020 | S | Merényi: >82% shared families expanding in both clades.
+213 | Pagel's lambda -> Pagel 1994 | S | Pagel 1994 introduced lambda-like correlated-evolution models; lambda proper is Pagel 1999 (Nature 401:877, doi:10.1038/44766). Suggest adding Pagel 1999 for lambda and keeping Pagel 1994 only if Pagel's correlated-evolution test is used. [P]
+230 | phylogenetic regression with few origins can be carried by one lineage -> Uyeda 2018 | S | abstract: PCMs susceptible to unreplicated/singular evolutionary events.
+254 | pherophorin-like ECM glycoproteins expanded in Volvox -> Prochnik 2010 | S (minor P) | abstract: expanded, compartmentalised ECM; "pherophorin" is not in the abstract (is in the paper).
+255 | heterocyst signalling controlled by two-component systems -> Herrero 2016 | P | abstract states intercellular signalling regulates heterocyst differentiation; two-component systems are not mentioned. Reword: "fit the intercellular signalling that regulates heterocyst differentiation (Herrero et al. 2016)", and drop "two-component" attribution or cite a paper on HetR/NtcA/NrrA pathways.
+256, 330 | land plant receptor-like kinases -> Shiu & Bleecker 2001 | S | RLK/Pelle family of >600 genes in Arabidopsis.
+330 | kinases/signalling families expand independently (Cock 2010; Shiu & Bleecker 2001; Pereira Lobo 2025) | S/P | Cock and Shiu support receptor kinases in brown algae and plants; Shiu & Bleecker is about one family's phylogeny, not independent expansion in multiple lineages. Reword "fit reports of receptor kinase families in brown algae and plants (Cock 2010; Shiu & Bleecker 2001) and the broader pattern in Pereira Lobo 2025".
+330 | no kinase/adhesion expansion at fungal hyphae -> Kiss 2019 | S | abstract: "did not correlate with expansions of kinases, receptors or adhesive proteins".
+271, 332 | sequence-novel families partly homology-detection failure -> Weisman 2020 | S | "many, but not all".
+277 | Foldseek 3Di alphabet describes tertiary interactions; 20 letters | S | abstract says "tertiary amino acid interactions ... structural alphabet"; "20 letters" and "nearest neighbour" are from the full text (correct).
+277 | ProstT5 predicts 3Di from sequence without 3D model | S |
+291, 396 | Heinzinger report 41-65% for predicted 3Di | S (with qualification) | Full text: 41-65% is the classification accuracy of a CNN on ProstT5 encoder embeddings (Suppl Fig S3), i.e. the same architecture as ours. Write "for the encoder-plus-CNN predictor".
+301 | Cox et al.: co-fractionation MS from 31 species -> map of LECA complexes | S | abstract: >26,000 MS analyses from 31 species, 156 genomes for LECA families. Claim that "no unicellular sister of animals was fractionated" is the authors' own judgement; not checkable at abstract level.
+326 | PCD role: eliminate damaged or cheating cells, shape tissues, sacrifice somatic cells for germ line -> Durand 2016 | P | abstract covers ecological effects of PCD in microbes, kin benefit, group-level property and origin of multicellularity; not tissue shaping or germ-soma sacrifice. Reword: "cell death in microbes can benefit relatives and may have contributed to the origin of multicellularity (Durand et al. 2016)".
+326 | joint origin of PCD and multicellularity via virus arms race -> Iranzo 2014 | S | mathematical model, so say "one model".
+326 | core apoptosis machinery in the LECA -> Klim 2018 | S | ancestral state reconstruction of protomitochondrial apoptosis machinery in the common ancestor of eukaryotes (incl. caspases/metacaspases).
+328 | Prochnik 2010 quotation "modifications of lineage-specific proteins rather than large-scale invention" | S | exact (continues "of protein-coding capacity").
+328 | Hanschen 2016: Gonium colony formation co-opted Rb pathway | S | abstract; "showed" is slightly strong: they also show Gonium Rb expressed in Chlamydomonas induces colony formation, so acceptable.
+332 | Richter 2018: denser choanoflagellate sampling moved hundreds of supposedly animal-specific families earlier | S | ~372 families.
+349 | regulatory change emphasised in the literature -> Sebé-Pedrós 2016 | S | abstract: shift in cis-regulatory complexity.
+382 | EukProt v3 / LukProt / CD-HIT / BUSCO citations as tools/data | S | existence and function verified.
+
+Summary: 44 pairs checked: 36 supported, 8 partially (lines 36 B&K, 42 Lynch/Bingham, 143, 213 Pagel, 255 Herrero, 326 Durand, 330 Shiu, plus the Altenhoff-EukaryOMA scope), 0 unsupported.
+
+=====================================================================
+PART C. CORRECTED REFERENCE LIST (report style; new/changed entries marked *)
+=====================================================================
+(Unchanged entries in the draft's Literature list that were verified are not repeated, except those that change. Alphabetical positions follow the draft.)
+
+- Altenhoff AM, Warwick Vesztrocy A, Bernard C et al. 2024. OMA orthology in 2024: improved prokaryote coverage, ancestral and extant GO enrichment, a revamped synteny viewer and more in the OMA Ecosystem. Nucleic Acids Res 52:D513-D521. doi:10.1093/nar/gkad1020 *
+- Ashburner M, Ball CA, Blake JA et al. 2000. Gene Ontology: tool for the unification of biology. Nat Genet 25:25-29. doi:10.1038/75556 *
+- Buchfink B, Reuter K, Drost H-G 2021. Sensitive protein alignments at tree-of-life scale using DIAMOND. Nat Methods 18:366-368. doi:10.1038/s41592-021-01101-x
+- Capella-Gutiérrez S, Silla-Martínez JM, Gabaldón T 2009. trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses. Bioinformatics 25:1972-1973. doi:10.1093/bioinformatics/btp348
+- Cox RM, Papoulas O, Shril S et al. 2026. A protein interactome for the last eukaryotic common ancestor illuminates the biochemical basis of modern genetic diseases. Cell Genomics 6:101254. doi:10.1016/j.xgen.2026.101254 (preprint: Cox RM et al. 2024. Ancient eukaryotic protein interactions illuminate modern genetic traits and disorders. bioRxiv. doi:10.1101/2024.05.26.595818) *
+- Emenecker RJ, Griffith D, Holehouse AS 2021. Metapredict: a fast, accurate, and easy-to-use predictor of consensus disorder and structure. Biophys J 120:4312-4319. doi:10.1016/j.bpj.2021.08.039
+- Gene Ontology Consortium 2026. The Gene Ontology knowledgebase in 2026. Nucleic Acids Res 54:D1779-D1792. doi:10.1093/nar/gkaf1292 *
+- Hadfield JD 2010. MCMC methods for multi-response generalized linear mixed models: the MCMCglmm R package. J Stat Softw 33(2):1-22. doi:10.18637/jss.v033.i02 *
+- Heinzinger M, Weissenow K, Sanchez JG et al. 2024. Bilingual language model for protein sequence and structure. NAR Genom Bioinform 6:lqae150. doi:10.1093/nargab/lqae150 *
+- Ho LST, Ané C 2014. A linear-time algorithm for Gaussian and non-Gaussian trait evolution models. Syst Biol 63:397-408. doi:10.1093/sysbio/syu005 *
+- Katoh K, Standley DM 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol 30:772-780. doi:10.1093/molbev/mst010
+- Kumar M, Michael S, Alvarado-Valverde J et al. 2024. ELM - the Eukaryotic Linear Motif resource - 2024 update. Nucleic Acids Res 52:D442-D455. doi:10.1093/nar/gkad1058 *
+- Larralde M, Zeller G 2023. PyHMMER: a Python library binding to HMMER for efficient sequence analysis. Bioinformatics 39:btad214. doi:10.1093/bioinformatics/btad214
+- Mistry J, Chuguransky S, Williams L et al. 2021. Pfam: the protein families database in 2021. Nucleic Acids Res 49:D412-D419. doi:10.1093/nar/gkaa913 *
+- Mitchell A, Chang H-Y, Daugherty L et al. 2015. The InterPro protein families database: the classification resource after 15 years. Nucleic Acids Res 43:D213-D221. doi:10.1093/nar/gku1243 *
+- Pagel M 1999. Inferring the historical patterns of biological evolution. Nature 401:877-884. doi:10.1038/44766 * (add if lambda is cited; not re-verified here)
+- Paysan-Lafosse T, Andreeva A, Blum M et al. 2025. The Pfam protein families database: embracing AI/ML. Nucleic Acids Res 53:D523-D534. doi:10.1093/nar/gkae997 *
+- Röver C, Knapp G, Friede T 2015. Hartung-Knapp-Sidik-Jonkman approach and its modification for random-effects meta-analysis with few studies. BMC Med Res Methodol 15:99. doi:10.1186/s12874-015-0091-1 *
+- Stanke M, Diekhans M, Baertsch R, Haussler D 2008. Using native and syntenically mapped cDNA alignments to improve de novo gene finding. Bioinformatics 24:637-644. doi:10.1093/bioinformatics/btn013 * (and/or Stanke M, Keller O, Gunduz I et al. 2006. AUGUSTUS: ab initio prediction of alternative transcripts. Nucleic Acids Res 34:W435-W439. doi:10.1093/nar/gkl200)
+- Stephens M 2017. False discovery rates: a new deal. Biostatistics 18:275-294. doi:10.1093/biostatistics/kxw041 *
+- Traag VA, Waltman L, van Eck NJ 2019. From Louvain to Leiden: guaranteeing well-connected communities. Sci Rep 9:5233. doi:10.1038/s41598-019-41695-z
+- Uyeda JC, Zenil-Ferguson R, Pennell MW 2018. Rethinking phylogenetic comparative methods. Syst Biol 67:1091-1109. doi:10.1093/sysbio/syy031 *
+- Varadi M, Bertoni D, Magana P et al. 2024. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. Nucleic Acids Res 52:D368-D375. doi:10.1093/nar/gkad1011
+- Wong T, Ly-Trong N, Ren H et al. 2026. IQ-TREE 3: phylogenomic inference software using complex evolutionary models. Mol Biol Evol 43:msag117. doi:10.1093/molbev/msag117
+
+Remove from the draft: the sentence "phylolm, MCMCglmm, ashr, AUGUSTUS, ELM and pfam2go [needs check...]" and all "[needs check]" tags, and the placeholder "[ProstT5]".
+Items not verifiable here: Ashburner 2000 and Pagel 1999 DOIs (from memory), Stanke 2006/2008 Bioinformatics pages verified via Crossref; full-text-only claims flagged in Part B.
