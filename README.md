@@ -28,11 +28,14 @@ proteins) and 82 prokaryotic (0.41 M) proteomes and compared the branches on whi
 - None of five pre-registered tests was significant after Holm correction across seven independent eukaryotic origins (animals, fungal
   hyphae, dictyostelids, streptophytes, red algae, the brown-algal lineage, volvocine algae): novel genes p = 0.11, transcription-factor
   duplications p = 0.36, adhesion/signalling duplications p = 0.77, flagellar loss p = 0.020 (Holm 0.10), protein-evolution rate p = 0.27.
-- The rate test was sensitive enough to exclude a ≥ 1.5-fold genome-wide rate shift (pooled ratio 1.10, 95% CI 0.96–1.26).
+- The rate test excluded a ≥ 1.5-fold genome-wide rate shift (pooled ratio 1.10, 95% CI 0.96–1.26; the interval is optimistic because all
+  seven transitions share the same 10 control branches, and a sensitivity analysis gives 1.16, 1.01–1.34 — still below 1.5).
 - Ancestra recovered 11 of 16 pre-registered positive controls; its failures show that deep-node gene origins and duplication timing are
-  unreliable for large multi-domain families, and simulations show gene gains are inflated (more on transition branches).
-- Exploratory signals that survived skeptical checks are weak: more new domain combinations on transition branches (fragile to proteome
-  completeness) and lower co-option in animals and streptophytes (Pfam-based only).
+  unreliable for large multi-domain families, and simulations show gene gains are inflated 2.1–2.6-fold (in one calibration draw on our
+  tree, more on transition branches than on controls).
+- Exploratory signals are weak: more new domain combinations on transition branches (fragile to proteome completeness); a lower
+  share of pre-existing (co-opted) domain families in animals and streptophytes than in comparable unicellular clades (Pfam-based only);
+  an apparent excess of convergent domain loss disappeared under post-hoc checks.
 
 **Read first:** [`report/REPORT.md`](report/REPORT.md) (the full report, with figures in `figures/`).
 
