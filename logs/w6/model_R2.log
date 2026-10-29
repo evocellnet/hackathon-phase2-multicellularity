@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/r2/w6/w6_prep.py", line 397, in <module>
+    main()
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/r2/w6/w6_prep.py", line 393, in main
+    {"select": cmd_select, "pfam": cmd_pfam, "align": cmd_align, "model": cmd_model, "fit": cmd_fit}[a.cmd](a)
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/r2/w6/w6_prep.py", line 336, in cmd_model
+    rates, freqs = parse_gtr20(prefix + ".iqtree")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/r2/w6/w6_prep.py", line 282, in parse_gtr20
+    for line in m.group(1).splitlines():
+                ^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'

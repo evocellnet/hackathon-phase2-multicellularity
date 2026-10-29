@@ -300,3 +300,33 @@
 127    R2                      sordariomyceta       old   25            24           0.0400
 128    R2                      sordariomyceta  shuffled   25             0           1.0000
 [2026-10-29T21:08:19+01:00] R2: end
+[2026-10-29T22:55:05+01:00] R4: start
+[2026-10-29 22:55:07] R4: 302,934 proteins, 284,742 with 3Di
+[2026-10-29 22:55:10] R4: sample {'novel': 5852, 'old': 1682, 'shuffled': 1682} families; 13,562 query sequences
+[2026-10-29 22:55:35] R4 Astrephomene_Volvocaceae: 192 queries vs 198,064 targets (14 species) -> 15,097 hits in 22s
+[2026-10-29 22:55:59] R4 Astrgub: 276 queries vs 271,054 targets (20 species) -> 5,365 hits in 24s
+[2026-10-29 22:56:21] R4 CS_clade: 906 queries vs 28,124 targets (3 species) -> 31,033 hits in 21s
+[2026-10-29 22:56:55] R4 Chlaeus: 328 queries vs 270,702 targets (20 species) -> 21,372 hits in 33s
+[2026-10-29 22:57:31] R4 Chlainc: 320 queries vs 268,490 targets (20 species) -> 20,003 hits in 35s
+[2026-10-29 22:57:56] R4 Chlamydomonadales: 860 queries vs 41,471 targets (4 species) -> 45,794 hits in 24s
+[2026-10-29 23:00:12] R4 Chlamydomonas: 878 queries vs 235,464 targets (18 species) -> 106,064 hits in 135s
+[2026-10-29 23:00:52] R4 Chlamydomonas_TGV: 724 queries vs 118,417 targets (9 species) -> 32,035 hits in 39s
+[2026-10-29 23:01:17] R4 Chlapri: 323 queries vs 268,952 targets (20 species) -> 50,908 hits in 25s
+[2026-10-29 23:01:33] R4 Chlarei: 320 queries vs 267,131 targets (20 species) -> 7,641 hits in 14s
+[2026-10-29 23:02:05] R4 Chlasch: 320 queries vs 269,327 targets (20 species) -> 16,140 hits in 32s
+[2026-10-29 23:02:36] R4 Chlovul: 360 queries vs 274,109 targets (20 species) -> 26,539 hits in 29s
+[2026-10-29 23:03:01] R4 Coccsub: 368 queries vs 274,974 targets (20 species) -> 36,659 hits in 25s
+[2026-10-29 23:03:27] R4 Dunasal: 330 queries vs 268,252 targets (20 species) -> 14,995 hits in 24s
+[2026-10-29 23:04:07] R4 Edapdeb: 332 queries vs 265,643 targets (20 species) -> 31,172 hits in 40s
+[2026-10-29 23:04:30] R4 Gonipec: 329 queries vs 268,464 targets (20 species) -> 27,398 hits in 22s
+[2026-10-29 23:04:58] R4 Gonium_Volvocaceae: 365 queries vs 181,786 targets (13 species) -> 30,700 hits in 27s
+[2026-10-29 23:05:31] R4 Ostrtau: 290 queries vs 277,019 targets (20 species) -> 23,705 hits in 33s
+[2026-10-29 23:05:50] R4 Pleosta: 278 queries vs 269,313 targets (20 species) -> 12,063 hits in 18s
+[2026-10-29 23:06:23] R4 Raphsub: 344 queries vs 271,395 targets (20 species) -> 38,718 hits in 32s
+[2026-10-29 23:07:24] R4 Reinhardtinia: 924 queries vs 99,318 targets (8 species) -> 86,336 hits in 61s
+[2026-10-29 23:07:51] R4 Sangaur: 324 queries vs 273,215 targets (20 species) -> 25,114 hits in 26s
+[2026-10-29 23:08:06] R4 TGV_clade: 336 queries vs 167,695 targets (12 species) -> 34,591 hits in 14s
+[2026-10-29 23:08:25] R4 Tetrsoc: 338 queries vs 270,651 targets (20 species) -> 24,111 hits in 18s
+[2026-10-29 23:08:57] R4 Trebouxiophyceae: 379 queries vs 264,341 targets (19 species) -> 46,016 hits in 31s
+[2026-10-29 23:09:10] R4 Volvafr: 252 queries vs 271,477 targets (20 species) -> 851 hits in 12s
+[2026-10-29 23:09:22] R4 Volvcar: 280 queries vs 270,410 targets (20 species) -> 4,850 hits in 12s

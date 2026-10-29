@@ -2,3 +2,5 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 1020/11527 proteins 2480000 res 60s 41198 res/s
 2088/11527 proteins 4392998 res 122s 36053 res/s
+4381/11527 proteins 5928601 res 182s 32600 res/s
+DONE 11527 proteins 7856781 residues in 230s (34150 res/s); skipped 0 > 100000 aa

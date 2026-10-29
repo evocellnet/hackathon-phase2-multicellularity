@@ -1,0 +1,109 @@
+W6 (EXPLORATORY, R2-P5 moved to exploratory): does protein structure (ProstT5 3Di) change more per amino-acid change
+on multicellular branches?  Panels: R1 Holozoa, R2 Fungi, R4_curated Volvocales (R4 without the two AUGUSTUS proteomes;
+the full R4 lacked 3Di for Eudosp at analysis time). Other panels had <= 3 of 18-29 species with 3Di; not analysed.
+Scripts: scripts/r2/w6/{w6_prep.py, w6_analyze.py, w6_figure.py}. Seed 11. <= 14 threads, nice 10.
+
+BOTTOM LINE
+No robust evidence. Inside multicellular crowns, 3Di branch lengths per AA branch length are slightly higher than on
+unicellular branches in all three panels, by about 7-12 % (gene-level medians; table below). But the result fails the
+phylogenetically honest test: with branches as the units (16-17 unicellular vs 5-42 crown branches), only R2 reaches
+p < 0.05, and not in the ratio-of-sums version. A 3Di with no phylogenetic signal (the shuffled-3Di control) gives an
+equal or larger "effect" of the same sign. Event stems (21 origins/nested events) are not shifted (12/21 positive,
+sign test p = 0.33). This agrees with round-1 H9 (no >= 1.5-fold AA rate shift): neither sequence rates nor
+structure-per-sequence change show a clear signature of relaxed constraint (Lynch & Conery 2003) at these transitions.
+
+METHOD
+- Genes: root-level Ancestra HOGs (runs/r2/<R>/hogs.orthoxml, via the panel cache) with one gene per species. A species
+  with >1 copy is dropped from that gene (allowed in <= 10 % of species), and >= 80 % of panel species must be
+  single-copy. This is the same rule as the panel phylogenomic markers. Strictly single-copy HOGs alone were too few:
+  70 in R1, 21 in R2, 801 in R4_curated. Candidates: 538 / 897 / 1,438; 450 drawn at random; first 300 that pass filters
+  used.
+- Domains: Pfam-A 38.2 hmmsearch (pyhmmer, gathering cutoffs) on all selected proteins. MAFFT --auto on full-length AA;
+  3Di letters projected onto the same columns (3Di length = sequence length was checked for every protein).
+  Residues outside each taxon's own Pfam envelopes are masked in both alphabets. Columns are kept if >= 50 % of rows
+  are in-domain. Taxa with < 50 % coverage are dropped. Genes need >= 50 columns and >= 8 taxa. Median 216-230
+  columns, 17-35 taxa per gene.
+- Branch lengths on the fixed panel topology (pruned per gene), IQ-TREE 3.1.4 -te: AA LG+G4; 3Di with a panel-specific
+  exchangeability matrix + G4.
+  3Di MODEL (documented deviation): IQ-TREE GTR20+FO+G4 on the concatenated 3Di did not estimate the exchangeabilities.
+  On R2 all 189 stayed at the start value, so it was effectively Poisson (R2/work/model3di/gtr20.iqtree). On a subset
+  it aborted with an assertion. Foldseek's mat3di.out is a log-odds scoring matrix; it is not on disk and would need a
+  matrix-log conversion. So exchangeabilities were estimated per panel by Dayhoff-style pair counting: aligned 3Di
+  letter pairs between taxa at AA p-distance 0.05-0.30 and 3Di p <= 0.40, r_ij = N_ij / (pi_i pi_j), mean scaled to 1.
+  Empirical 3Di frequencies were used. Counts: 14.7k / 21.6k / 18.5k taxon pairs; 0.28 M / 0.49 M / 0.50 M
+  substitutions. Files: <R>/work/model3di/{panel3di.paml, exchangeabilities.tsv, model_info.json}.
+  Sensitivity: 3Di under Poisson+FO+G4.
+- Statistic per gene and branch: y = log((L3Di*n + 0.5) / (LAA*n + 0.5)), where n = alignment columns and 0.5 is a
+  pseudo-count of substitutions. 7-9 % of gene-branches have 3Di length ~0. Gene-branches are used only if the branch
+  equals one guide edge, is not a root child, and has >= 1 expected AA substitution.
+  Saturation/non-linearity: within tips and within internal branches separately, the AA lengths of unicellular
+  reference branches are cut into deciles. Residual e = y - median(y of reference branches in the same decile).
+  Sensitivity: linear residual on log LAA; per-branch ratio of sums (sum L3Di / sum LAA over genes) with a linear
+  AA-length correction.
+- (a) Stems of origin / origin_complex / nested events vs matched controls. Internal stems use the panel CONTROL
+  branches; tip stems use unicellular non-event tips. d = stem median e minus control median. One-sided rank p.
+  95 % CI from a gene bootstrap. Pooled: sign test and Stouffer across events.
+  (b) Crown vs unicellular branches: per gene, mean e on crown branches minus mean e on unicellular branches, within
+  tip/internal strata. Reported as the median over genes with a bootstrap CI and Wilcoxon test. Also reported with
+  branches as units (Mann-Whitney on branch medians). The branch-unit version is the one to trust: genes share one tree.
+- Controls:
+  - Positive sanity: 3Di tracks AA length. Spearman across gene-branches 0.76 / 0.79 / 0.68; across branch medians
+    0.94 / 0.97 / 0.83.
+  - Constant-ratio simulation: 3Di simulated with AliSim on each gene's AA tree, scaled so that the true 3Di/AA ratio
+    is the same on every branch. Panel model, the gene's fitted gamma and the real gap pattern were used, then the
+    data were refitted the same way.
+  - Shuffled 3Di: column-wise permutation among taxa.
+  - AA split-half: two random column halves of the AA alignment.
+
+RESULTS (log scale; exp(x) gives the fold change in 3Di-per-AA)
+(b) crown minus unicellular       R1                    R2                    R4_curated
+ gene-level median e [95% CI]     0.110 [0.083,0.149]   0.076 [0.042,0.125]   0.074 [-0.018,0.136]
+ branches as units: diff, MW p    0.070, p=0.15         0.126, p=0.020        0.039, p=0.14 (5 crown branches)
+ ratio-of-sums branches, MW p     0.003, p=0.73         0.087, p=0.11         0.026, p=0.18
+ real minus constant-ratio null   0.132 [0.103,0.160]   0.052 [-0.013,0.120]  0.157 [0.028,0.205]  (per gene)
+ constant-ratio null alone        -0.049                -0.039                -0.026
+ shuffled-3Di null                0.222 (MW p=0.026)    0.058                 0.049
+ AA split-half null               -0.031                -0.002                -0.276
+ 3Di Poisson model                0.096                 0.050                 0.063
+ no transcriptome tips            0.106                 0.082                 0.074
+ Across panels: all 3 positive (sign test p = 0.125; with three panels nothing smaller is possible).
+(a) stems (21 events): 12/21 positive; sign p = 0.33; Stouffer p = 0.96; median d 0.072 [-0.043, 0.293].
+ Calibrated against the constant-ratio null: 14/21 positive, p = 0.095, median 0.091 [-0.021, 0.262].
+ The large positive stems are mostly tips: Tetrabaena 0.48, Volvox carteri 0.47, Endogone 0.36, Tremella 0.35,
+ Barroeca 0.25, Neolecta 0.19. Internal positive stems are Choanoeca 0.34 and Salpingoeca 0.30, whose genomes are
+ transcriptomes or very short branches. Metazoa (-0.13), Teretosporea (-0.28), the fungal hyphal stem (-0.53, very
+ short branch, CI to +0.24), Agaricomycetes (-0.14) and Gonium+Volvocaceae (-0.76) are negative.
+
+HOW TO READ THE CONTROLS
+- The constant-ratio simulation gives a small NEGATIVE crown effect (-0.03 to -0.05) and no stem shift (4/21
+  positive). So the binning on a noisy AA length (regression to the mean) and saturation do not create the positive
+  signal. If anything they work against it.
+- The shuffled-3Di control FAILS as a negative control. 3Di with no phylogenetic signal gives a crown "effect" as large
+  as or larger than the real data in R1 (0.22 vs 0.11, branch-level p = 0.026). Such 3Di behaves like near-saturated
+  noise, so within an AA-length decile its length is about constant and the ratio follows where branches sit inside
+  the decile. Crown branches then come out high from tree shape alone. ProstT5 3Di agrees with AlphaFold-derived 3Di
+  at only 65.5 % of residues (W5), so part of the real 3Di is prediction noise of this kind. The modest positive crown
+  values therefore cannot be told apart from a geometry x noise artefact.
+- AA split-half is about 0 in R1/R2 but -0.28 in R4_curated (5 crown branches; regression-to-the-mean on a short-branch
+  tree). This shows how unstable the crown contrast is when there are few crown branches.
+- Calibration against AFDB-derived 3Di: per-species ProstT5 accuracy (W5) exists for only 4 panel species. Spearman
+  with the tip residual is -0.8, p = 0.2: noisier species tend to have higher tip residuals, as the artefact reading
+  predicts, but n = 4. A branch-level calibration on AFDB structures was not possible: most panel species have no AFDB
+  models in our set.
+
+CAVEATS
+ProstT5 3Di is a function of the AA sequence, so the 3Di/AA ratio partly measures the model. Genes are not
+independent replicates of branches: gene-level p-values (~1e-10 to 0.02) overstate the evidence. Tip stems are
+compared with tips of other species, so species-level data quality (gene models, transcriptomes, ProstT5 accuracy)
+is confounded with state. Single-copy genes present in >= 80 % of species are conserved housekeeping genes; relaxed
+constraint, if present, may lie elsewhere. Pfam envelopes are per taxon, so domain boundaries differ slightly among
+orthologs.
+
+FILES
+panel_tests.tsv (per panel x pipeline x analysis, test b), stem_tests.tsv (per event, test a, with CIs),
+pooled_tests.tsv, calibrated_tests.tsv (real minus constant-ratio null), branch_pooled_tests.tsv +
+branch_pooled_stem_tests.tsv (ratio-of-sums sensitivity), gene_crown_effects.tsv.gz,
+calibration_species_accuracy.tsv / calibration_summary.json, w6_figure.png/.pdf
+(A sanity scatter, B stems, C crown contrasts).
+Per panel: branch_lengths.tsv.gz (all fits), sim_lengths.tsv.gz, gene_branch_residuals.tsv.gz,
+work/{selected.tsv, alignments.tsv, pfam_hits.tsv.gz, model3di/, genes/}.

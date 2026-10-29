@@ -1,0 +1,12 @@
+[2026-10-29 22:45:27] R4_curated: 4,539 root HOGs, 1438 one-gene-per-species (<=10% multi-copy dropped) with >= 80% of 19 species
+[2026-10-29 22:45:28] R4_curated: wrote 450 genes (0 member sequences without matching 3Di)
+[2026-10-29 22:47:13] R4_curated: pfam done in 104s
+[2026-10-29 22:48:15] R4_curated: {'ok': 300, 'over_cap': 107, 'few_domain_columns': 43}
+[2026-10-29 22:48:20] R4_curated: 3Di exchangeabilities from 18528 pairs, 498100 substitutions
+[2026-10-29 22:48:22] R4_curated: 1/300 genes fitted (1s)
+[2026-10-29 22:48:27] R4_curated: 51/300 genes fitted (6s)
+[2026-10-29 22:48:33] R4_curated: 101/300 genes fitted (12s)
+[2026-10-29 22:48:51] R4_curated: 151/300 genes fitted (30s)
+[2026-10-29 22:48:51] R4_curated: 201/300 genes fitted (30s)
+[2026-10-29 22:48:54] R4_curated: 251/300 genes fitted (33s)
+[2026-10-29 22:49:02] R4_curated: fitted 300 genes in 40s

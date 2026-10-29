@@ -1,0 +1,8 @@
+test	panel	k	effect	lo	hi	frac_positive	p_one_sided
+(b) crown vs unicellular, real minus constant-ratio null (per gene)	R1	300	0.1315506793733808	0.10334136760157674	0.15983456921925127	0.6733333333333333	1.0090430420137761e-09
+(b) crown vs unicellular, real minus constant-ratio null (per gene)	R2	300	0.05241472231177779	-0.01330291911233391	0.12034012949658202	0.5466666666666666	0.015990854980813783
+(b) crown vs unicellular, real minus constant-ratio null (per gene)	R4_curated	290	0.15700307379776796	0.027854663654382855	0.20485385169376946	0.5620689655172414	0.004372241673771521
+(a) stems, d(real) minus d(constant-ratio null), sign test over events	pooled	21	0.09093937113660394	-0.021017539851269584	0.261739184530358	0.6666666666666666	0.09462356567382812
+(a) stems, d(real) minus d(constant-ratio null), sign test over events	R1	7	0.09093937113660394			0.5714285714285714	0.5
+(a) stems, d(real) minus d(constant-ratio null), sign test over events	R2	8	0.015290691377082416			0.625	0.36328125
+(a) stems, d(real) minus d(constant-ratio null), sign test over events	R4_curated	6	0.21475128010913624			0.8333333333333334	0.109375
