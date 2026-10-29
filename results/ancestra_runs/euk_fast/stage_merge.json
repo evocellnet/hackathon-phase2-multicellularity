@@ -1,0 +1,15 @@
+{
+ "key": "a6c939b0d308fd30",
+ "wall_s": 610.54,
+ "peak_rss_mb": 36134.5,
+ "children_max_rss_mb": 84221.2,
+ "stats": {
+  "n_root_groups": 74920,
+  "n_root_anc_genes": 825157,
+  "merge_s_sum_nodes": 518.546,
+  "tree_clusters": 1066393,
+  "tree_units": 4338142,
+  "tree_s": 219.66
+ },
+ "skipped": false
+}

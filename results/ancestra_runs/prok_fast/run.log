@@ -1,0 +1,22 @@
+[2026-10-28T13:20:42+01:00] start ancestra preset=fast threads=4 prot=data/proteomes/prok tree=data/guide_tree_prok.nwk
+[ancestra] stage input: running
+[ancestra] stage input: done in 0.3s, peak RSS 231 MB
+[ancestra] stage families: running
+[ancestra] stage families: done in 904.6s, peak RSS 2017 MB
+[ancestra] stage scores: running
+[ancestra] stage scores: done in 4167.3s, peak RSS 8824 MB
+[ancestra] stage merge: running
+[ancestra] stage merge: done in 49.7s, peak RSS 2884 MB
+[ancestra] stage output: running
+[ancestra] stage output: done in 16.8s, peak RSS 2273 MB
+[ancestra] done in 5141.6s -> runs/prok_fast/hogs.orthoxml
+[2026-10-28T14:46:32+01:00] ancestra exit 0 peak_rss_kb=7409876
+[verify_orthoxml] PASS xsd (4.4s): {}
+[verify_orthoxml] PASS generef_integrity (4.5s): {"n_genes_declared": 405664, "n_generefs": 355799, "n_groups": 213391}
+[verify_orthoxml] PASS genes_once (4.5s): {"n_genes_in_groups": 355799, "n_singletons": 49865, "n_genes_referenced_more_than_once": 0, "gene_table": "runs/prok_fast/stages/input/genes.tsv", "n_input_genes": 405664, "n_missing": 0, "n_extra": 0, "n_wrong_species": 0}
+[verify_orthoxml] PASS taxrange_lca (3.0s): {"n_orthologGroups": 176633, "n_paralogGroups": 36758, "n_taxrange_ne_lca": 0, "n_taxonid_ne_taxrange": 0, "n_nesting_violations": 0, "n_paralog_level_violations": 0, "n_unknown_levels": 0}
+[verify_orthoxml] PASS pairs_count (3.1s): {"n_pairs_hogs": 6873178, "n_lines_pairs_tsv": 6873178}
+[verify_orthoxml] SKIP flattening_vs_qfo (s): {"skipped": "QfO map_relations.py not found in /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/external/ancestra-mvp-ai/data/qfo/benchmark-webservice (set QFO_BENCHMARK_DIR)"}
+[verify_orthoxml] PASS pyham (15.8s): {"n_top_level_hogs_pyham": 24077, "n_expected": 24077, "n_genes": 355799, "load_s": 10.7, "mode": "full"}
+[verify_orthoxml] SKIP orthobench_export (s): {"skipped": "Open_Orthobench benchmark.py not found in /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/external/ancestra-mvp-ai/data/orthobench/Open_Orthobench/BENCHMARKS (set ORTHOBENCH_DIR)"}
+[verify_orthoxml] overall: PASS

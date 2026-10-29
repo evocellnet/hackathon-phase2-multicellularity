@@ -1,0 +1,22 @@
+[2026-10-28T13:20:40+01:00] start ancestra preset=fast threads=12 prot=data/proteomes/euk tree=data/guide_tree_euk.nwk
+[ancestra] stage input: running
+[ancestra] stage input: done in 1.8s, peak RSS 1813 MB
+[ancestra] stage families: running
+[ancestra] stage families: done in 18943.7s, peak RSS 33584 MB
+[ancestra] stage scores: running
+[ancestra] stage scores: done in 13295.2s, peak RSS 84221 MB
+[ancestra] stage merge: running
+[ancestra] stage merge: done in 610.5s, peak RSS 36134 MB
+[ancestra] stage output: running
+[ancestra] stage output: done in 136.6s, peak RSS 18871 MB
+[ancestra] done in 33024.5s -> runs/euk_fast/hogs.orthoxml
+[2026-10-28T22:31:47+01:00] ancestra exit 0 peak_rss_kb=72566844
+[verify_orthoxml] PASS xsd (31.0s): {}
+[verify_orthoxml] PASS generef_integrity (35.3s): {"n_genes_declared": 2969261, "n_generefs": 2219024, "n_groups": 1455331}
+[verify_orthoxml] PASS genes_once (35.3s): {"n_genes_in_groups": 2219024, "n_singletons": 750237, "n_genes_referenced_more_than_once": 0, "gene_table": "runs/euk_fast/stages/input/genes.tsv", "n_input_genes": 2969261, "n_missing": 0, "n_extra": 0, "n_wrong_species": 0}
+[verify_orthoxml] PASS taxrange_lca (22.9s): {"n_orthologGroups": 1117361, "n_paralogGroups": 337970, "n_taxrange_ne_lca": 0, "n_taxonid_ne_taxrange": 0, "n_nesting_violations": 0, "n_paralog_level_violations": 0, "n_unknown_levels": 0}
+[verify_orthoxml] PASS pairs_count (34.6s): {"n_pairs_hogs": 120012024, "n_lines_pairs_tsv": 120012024}
+[verify_orthoxml] SKIP flattening_vs_qfo (s): {"skipped": "QfO map_relations.py not found in /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/external/ancestra-mvp-ai/data/qfo/benchmark-webservice (set QFO_BENCHMARK_DIR)"}
+[verify_orthoxml] PASS pyham (110.8s): {"n_top_level_hogs_pyham": 72518, "n_expected": 72518, "n_genes": 2219024, "load_s": 78.7, "mode": "full"}
+[verify_orthoxml] SKIP orthobench_export (s): {"skipped": "Open_Orthobench benchmark.py not found in /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/external/ancestra-mvp-ai/data/orthobench/Open_Orthobench/BENCHMARKS (set ORTHOBENCH_DIR)"}
+[verify_orthoxml] overall: PASS

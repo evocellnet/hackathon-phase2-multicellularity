@@ -1,0 +1,20 @@
+{
+ "key": "168ef152f9864588",
+ "wall_s": 904.578,
+ "peak_rss_mb": 2016.8,
+ "children_max_rss_mb": 1571.3,
+ "stats": {
+  "source": "ancestra.families",
+  "s0_timings": {
+   "stage1_s": 443.1434905529022,
+   "stage2_search_s": 378.17184925079346,
+   "stage2_s": 448.28597044944763,
+   "total_s": 900.5931973457336
+  },
+  "n_families": 55234,
+  "n_singletons": 38371,
+  "max_family": 7436,
+  "sum_g2": 714772636
+ },
+ "skipped": false
+}

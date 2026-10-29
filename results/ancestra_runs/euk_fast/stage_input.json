@@ -1,0 +1,12 @@
+{
+ "key": "d309b8ad11ae1ed7",
+ "wall_s": 1.829,
+ "peak_rss_mb": 1813.3,
+ "children_max_rss_mb": 1957.4,
+ "stats": {
+  "n_genes": 2969261,
+  "n_species": 187,
+  "n_internal_nodes": 151
+ },
+ "skipped": false
+}

@@ -1,0 +1,13 @@
+{
+ "key": "2a0934c4a2a32313",
+ "wall_s": 16.795,
+ "peak_rss_mb": 2273.2,
+ "children_max_rss_mb": 8824.0,
+ "stats": {
+  "xsd_valid": true,
+  "n_top_groups": 23116,
+  "n_pairs": 6873178,
+  "n_ogs_multi": 23116
+ },
+ "skipped": false
+}
