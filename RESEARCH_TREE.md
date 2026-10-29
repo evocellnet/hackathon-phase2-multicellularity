@@ -76,9 +76,9 @@ adds cost without informing the transitions (all prokaryotic transitions are com
   - [x] gene-level RER (250 markers): 0 genes at q < 0.10; none consistent across ≥ 4 transitions
   - [x] Kr/Kc radical/conservative: no support for relaxed constraint (p = 0.60 / 0.16)
   - [-] Pfam-wide convergent expansion/gain: not above chance (k≥2 p=0.79; top 'convergent' domains are transposon domains)
-  - [!] Pfam-wide convergent LOSS above chance (k≥2: 421 vs 192 expected, p=0.043 permute / 0.005 matched) — robustness check pending
-  - [!] New domain architectures (H11) on stems > controls (residual T=0.80, p=0.005, q=0.016) — Metazoa dominates; LOO pending
-  - [~] Co-option index: Metazoa and Streptophyta less co-opted than controls (u=0.024 each); volvocine/red/PX ≈100% co-opted
+  - [-] Pfam-wide convergent LOSS (k≥2: 421 vs 192, p=0.043) DISAPPEARS under post-hoc checks: entirely fungi×Dictyostelia shared flagellar losses (= H12 signal); without Dictyostelia p=0.60, genome-only p=0.77
+  - [~] New domain architectures (H11) on stems > controls (T=0.80, p=0.005): survives LOO (≤0.017, incl. without Metazoa) and genome-only; weakens with BUSCO≥80% (p=0.16) → suggestive only
+  - [~] Co-option index (Pfam): Metazoa and Streptophyta less co-opted than controls (u=0.024; 0.071 after subsampling M to 3–5 species); volvocine/red/PX ≈100% co-opted; HOG-based version shows no effect; Pfam annotation bias caveat
   - [-] Protein traits (length/disorder on shared single-copy HOGs): within-transition shifts common but not distinct from controls
   - [~] Reversals: odds ratios mixed (0.5–2.0), see results/exploratory/euk/reversals
   - [-] Structure (Q6): 85% of stem vs 79% of control seq-novel gains lack a usable AFDB model (OR 1.51, p=0.025); of modelled ones ~24% vs 21% structurally old (Swiss-Prot ref; OR 0.96, p=0.92) — no stem-specific structural novelty signal; underpowered

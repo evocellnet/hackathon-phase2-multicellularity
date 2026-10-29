@@ -1,0 +1,25 @@
+[posthoc     0.5s] part 3: co-option
+[posthoc     2.2s] wrote coopt_full_data.tsv
+[posthoc     2.2s] wrote coopt_C_vs_size_controls.tsv
+[posthoc    12.5s] controls subsampled pfam_expanded m=3
+[posthoc    21.0s] controls subsampled pfam_expanded m=4
+[posthoc    29.2s] controls subsampled pfam_expanded m=5
+[posthoc    41.5s] controls subsampled toolkit_present m=3
+[posthoc    51.6s] controls subsampled toolkit_present m=4
+[posthoc    61.2s] controls subsampled toolkit_present m=5
+[posthoc    63.7s] coopt pfam_expanded T_metazoa m=3: 0.769 vs ctrl 0.976
+[posthoc    66.1s] coopt pfam_expanded T_streptophyta m=3: 0.871 vs ctrl 0.987
+[posthoc    68.6s] coopt pfam_expanded T_metazoa m=4: 0.760 vs ctrl 0.974
+[posthoc    71.1s] coopt pfam_expanded T_streptophyta m=4: 0.838 vs ctrl 0.980
+[posthoc    73.6s] coopt pfam_expanded T_metazoa m=5: 0.793 vs ctrl 0.984
+[posthoc    76.1s] coopt pfam_expanded T_streptophyta m=5: 0.851 vs ctrl 0.986
+[posthoc    78.8s] coopt toolkit_present T_metazoa m=3: 0.815 vs ctrl 1.000
+[posthoc    81.6s] coopt toolkit_present T_streptophyta m=3: 0.911 vs ctrl 1.000
+[posthoc    84.3s] coopt toolkit_present T_metazoa m=4: 0.800 vs ctrl 1.000
+[posthoc    87.1s] coopt toolkit_present T_streptophyta m=4: 0.913 vs ctrl 1.000
+[posthoc    89.8s] coopt toolkit_present T_metazoa m=5: 0.812 vs ctrl 1.000
+[posthoc    92.6s] coopt toolkit_present T_streptophyta m=5: 0.911 vs ctrl 1.000
+[posthoc    92.6s] wrote coopt_subsamples.tsv
+[posthoc   105.8s] wrote coopt_subsample_summary.tsv
+[posthoc   105.8s] wrote coopt_T_size_matched.tsv
+[posthoc   105.8s] done

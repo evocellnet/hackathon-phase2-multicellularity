@@ -1,0 +1,43 @@
+species_set	version	contrast	n_M	n_S	C	median_C_controls	k_controls	u
+all	pfam_expanded	T_metazoa	15	8	0.798582995951417	0.9830689589665653	20	0.023809523809523808
+all	pfam_expanded	T_fungi_hyphae	26	4	0.8823529411764706	0.9895276614184603	20	0.07142857142857142
+all	pfam_expanded	T_dictyostelia	6	2	0.9212598425196851	0.9772627819237638	20	0.11904761904761904
+all	pfam_expanded	T_streptophyta	12	2	0.8276810265811182	0.9883720930232558	20	0.023809523809523808
+all	pfam_expanded	T_rhodophyta	5	2	1.0	0.9830689589665653	20	0.8571428571428571
+all	pfam_expanded	T_px_filaments	9	6	0.9945945945945946	0.9863735465116279	20	0.7857142857142857
+all	pfam_expanded	T_volvocine_tgv	5	3	1.0	0.9883720930232558	20	0.8333333333333334
+all	toolkit_present	T_metazoa	15	8	0.8064516129032258	1.0	20	0.023809523809523808
+all	toolkit_present	T_fungi_hyphae	26	4	1.0	1.0	20	0.6428571428571429
+all	toolkit_present	T_dictyostelia	6	2	1.0	1.0	20	0.6190476190476191
+all	toolkit_present	T_streptophyta	12	2	0.9111111111111111	1.0	20	0.023809523809523808
+all	toolkit_present	T_rhodophyta	5	2	1.0	1.0	20	0.6666666666666666
+all	toolkit_present	T_px_filaments	9	6	1.0	1.0	20	0.6428571428571429
+all	toolkit_present	T_volvocine_tgv	5	3	1.0	1.0	20	0.6190476190476191
+genome_only	pfam_expanded	T_metazoa	14	3	0.8312146892655368	0.9683768244139761	16	0.08823529411764706
+genome_only	pfam_expanded	T_fungi_hyphae	26	4	0.8823529411764706	0.9834462412587412	18	0.07894736842105263
+genome_only	pfam_expanded	T_dictyostelia	6	0		0.9661654135338346	17	
+genome_only	pfam_expanded	T_streptophyta	11	2	0.8363171355498721	0.9768028846153847	18	0.07894736842105263
+genome_only	pfam_expanded	T_rhodophyta	5	2	1.0	0.9768028846153847	18	0.868421052631579
+genome_only	pfam_expanded	T_px_filaments	8	6	0.9960159362549801	0.9676980913823019	18	0.868421052631579
+genome_only	pfam_expanded	T_volvocine_tgv	5	3	1.0	0.984375	17	0.8611111111111112
+genome_only	toolkit_present	T_metazoa	14	3	0.7872340425531915	1.0	17	0.027777777777777776
+genome_only	toolkit_present	T_fungi_hyphae	26	4	1.0	1.0	18	0.6578947368421053
+genome_only	toolkit_present	T_dictyostelia	6	0	1.0	1.0	18	0.631578947368421
+genome_only	toolkit_present	T_streptophyta	11	2	0.9111111111111111	1.0	18	0.02631578947368421
+genome_only	toolkit_present	T_rhodophyta	5	2	1.0	1.0	18	0.6842105263157895
+genome_only	toolkit_present	T_px_filaments	8	6	1.0	1.0	18	0.6578947368421053
+genome_only	toolkit_present	T_volvocine_tgv	5	3	1.0	1.0	17	0.6388888888888888
+genome_busco80_hq	pfam_expanded	T_metazoa	13	2	0.8183098591549296	0.937981981981982	10	0.22727272727272727
+genome_busco80_hq	pfam_expanded	T_fungi_hyphae	25	4	0.8916666666666667	0.9532050035647158	12	0.2692307692307692
+genome_busco80_hq	pfam_expanded	T_dictyostelia	6	0		0.912	9	
+genome_busco80_hq	pfam_expanded	T_streptophyta	9	2	0.8191414496833216	0.9532050035647158	12	0.11538461538461539
+genome_busco80_hq	pfam_expanded	T_rhodophyta	1	1		0.963963963963964	11	
+genome_busco80_hq	pfam_expanded	T_px_filaments	4	1	0.9966329966329966	0.9532050035647158	12	0.8846153846153846
+genome_busco80_hq	pfam_expanded	T_volvocine_tgv	2	3	0.8677685950413223	0.963963963963964	11	0.20833333333333334
+genome_busco80_hq	toolkit_present	T_metazoa	13	2	0.776595744680851	1.0	13	0.03571428571428571
+genome_busco80_hq	toolkit_present	T_fungi_hyphae	25	4	1.0	1.0	14	0.7
+genome_busco80_hq	toolkit_present	T_dictyostelia	6	0	1.0	1.0	13	0.6785714285714286
+genome_busco80_hq	toolkit_present	T_streptophyta	9	2	0.9111111111111111	0.9886363636363636	14	0.1
+genome_busco80_hq	toolkit_present	T_rhodophyta	1	1		0.9772727272727273	13	
+genome_busco80_hq	toolkit_present	T_px_filaments	4	1	1.0	1.0	13	0.7142857142857143
+genome_busco80_hq	toolkit_present	T_volvocine_tgv	2	3	1.0	1.0	14	0.6666666666666666

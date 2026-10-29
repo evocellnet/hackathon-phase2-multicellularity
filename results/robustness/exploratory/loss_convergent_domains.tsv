@@ -1,0 +1,422 @@
+pfam_acc	pfam_name	desc	clan	k_lost	transitions	n_controls_lost	n_controls_eligible	kw_cilium_flagellum	kw_DNA_repair_recomb	kw_metabolism_enzyme	kw_transporter_channel	kw_TE_viral	kw_photosynth_plastid	kw_DUF_UPF
+PF31193	LSM_LSM12_Trypanos	LSM12, LSM domain, fungi/Trypanosomatids	CL0986	4	T_dictyostelia;T_streptophyta;T_rhodophyta;T_volvocine_tgv	0	3	False	False	False	False	False	False	False
+PF00094	VWD	von Willebrand factor type D domain	CL0741	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	0	4	False	False	False	False	False	False	False
+PF01186	Lysyl_oxidase	Lysyl oxidase 		3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	0	2	False	False	True	False	False	False	False
+PF01401	Peptidase_M2	Angiotensin-converting enzyme	CL0126	3	T_fungi_hyphae;T_dictyostelia;T_rhodophyta	0	1	False	False	False	False	False	False	False
+PF01933	CofD	2-phospho-L-lactate transferase CofD		3	T_metazoa;T_dictyostelia;T_rhodophyta	1	10	False	False	True	False	False	False	False
+PF03588	Leu_Phe_trans	Leucyl/phenylalanyl-tRNA protein transferase	CL0257	3	T_metazoa;T_streptophyta;T_rhodophyta	3	7	False	False	True	False	False	False	False
+PF03590	AsnA	Aspartate-ammonia ligase	CL0040	3	T_dictyostelia;T_rhodophyta;T_px_filaments	0	0	False	False	False	False	False	False	False
+PF05041	Pecanex_C	Pecanex protein (C-terminus)		3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	1	6	False	False	False	False	False	False	False
+PF08991	CMC4	Cx9C motif-containing protein 4	CL0351	3	T_dictyostelia;T_rhodophyta;T_volvocine_tgv	0	4	False	False	False	False	False	False	False
+PF14311	DUF4379	Probable Treble clef zinc finger domain	CL0839	3	T_dictyostelia;T_streptophyta;T_rhodophyta	1	2	False	False	False	False	False	False	True
+PF14623	Vint	Hint-domain	CL0363	3	T_dictyostelia;T_px_filaments;T_volvocine_tgv	1	8	False	False	False	False	False	False	False
+PF14926	CFAP300	Cilia- and flagella-associated protein 300		3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	2	16	True	False	False	False	False	False	False
+PF14933	CEP19	CEP19-like protein		3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	1	13	False	False	False	False	False	False	False
+PF14996	RMP	Retinal Maintenance		3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	1	13	False	False	False	False	False	False	False
+PF15016	C5orf34_C	C5orf34 C-terminal domain	CL0708	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	2	5	False	False	False	False	False	False	False
+PF15149	CATSPERB_C	CATSPERB, C-terminal domain	CL0941	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF16269	DUF4922	Domain of unknown function (DUF4922)	CL0265	3	T_metazoa;T_streptophyta;T_rhodophyta	3	4	False	False	False	False	False	False	True
+PF16980	CitMHS_2	Putative citrate transport	CL0182	3	T_fungi_hyphae;T_streptophyta;T_rhodophyta	0	1	False	False	False	True	False	False	False
+PF17741	DUF5578	Family of unknown function (DUF5578)		3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	0	4	False	False	False	False	False	False	True
+PF18143	HAD_SAK_2	HAD domain in Swiss Army Knife RNA repair proteins		3	T_dictyostelia;T_rhodophyta;T_px_filaments	0	6	False	True	False	False	False	False	False
+PF20263	LYRM2-like	LYR motif-containing protein 2-like	CL0491	3	T_dictyostelia;T_rhodophyta;T_px_filaments	1	5	False	False	False	False	False	False	False
+PF22069	Androglobin_IV	Androglobin, domain IV	CL0202	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	0	3	False	False	False	False	False	False	False
+PF22086	DUF6940	Family of unknown function (DUF6940)	CL0265	3	T_metazoa;T_dictyostelia;T_streptophyta	1	5	False	False	False	False	False	False	True
+PF24923	ATP-grasp_IQCH	IQCH-like, ATP-grasp	CL0179	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	2	14	False	False	False	False	False	False	False
+PF25144	Zn_ribbon_IFT122	IFT122, zinc ribbon domain	CL0167	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	1	12	True	False	False	False	False	False	False
+PF26038	Dimer_MINDY4_N	MINDY4, N-terminal dimerisation domain	CL0561	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	3	7	False	False	False	False	False	False	False
+PF26190	Ig_NPHP4_1st	NPH4 Ig-like domain 1	CL0159	3	T_fungi_hyphae;T_dictyostelia;T_volvocine_tgv	1	3	False	False	False	False	False	False	False
+PF29378	CFAP70_N	Cilia and flagella-associated protein 70 N-terminal domain	CL0154	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	1	3	True	False	False	False	False	False	False
+PF30381	CEP135_N	CEP135 N-terminal coiled-coil domain		3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	3	5	False	False	False	False	False	False	False
+PF31050	DUF8789	Domain of unknown function (DUF8789)	CL0100	3	T_fungi_hyphae;T_dictyostelia;T_streptophyta	1	8	False	False	False	False	False	False	True
+PF00030	Crystall	Beta/Gamma crystallin	CL0333	2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	False
+PF00088	Trefoil	Trefoil (P-type) domain	CL0630	2	T_dictyostelia;T_rhodophyta	1	8	False	False	False	False	False	False	False
+PF00313	CSD	'Cold-shock' DNA-binding domain	CL0021	2	T_dictyostelia;T_rhodophyta	0	23	False	False	False	False	False	False	False
+PF00449	Urease_alpha	Urease alpha-subunit, N-terminal domain	CL0036	2	T_dictyostelia;T_rhodophyta	1	7	False	False	False	False	False	False	False
+PF00547	Urease_gamma	Urease, gamma subunit		2	T_dictyostelia;T_rhodophyta	1	6	False	False	False	False	False	False	False
+PF00634	BRCA2	BRCA2 repeat		2	T_dictyostelia;T_rhodophyta	1	3	False	False	False	False	False	False	False
+PF00641	Zn_ribbon_RanBP	Zn-finger in Ran binding protein and others	CL0167	2	T_dictyostelia;T_rhodophyta	0	27	False	False	False	False	False	False	False
+PF00645	zf-PARP	Poly(ADP-ribose) polymerase and DNA-Ligase Zn-finger region	CL0839	2	T_rhodophyta;T_volvocine_tgv	0	25	False	False	False	False	False	False	False
+PF00648	Peptidase_C2	Calpain family cysteine protease	CL0125	2	T_dictyostelia;T_rhodophyta	1	26	False	False	False	False	False	False	False
+PF00677	Lum_binding	Lumazine binding domain	CL0866	2	T_metazoa;T_dictyostelia	0	23	False	False	False	False	False	False	False
+PF00699	Urease_beta	Urease beta subunit		2	T_dictyostelia;T_rhodophyta	1	7	False	False	False	False	False	False	False
+PF00793	DAHP_synth_1	DAHP synthetase I family	CL0036	2	T_dictyostelia;T_rhodophyta	1	12	False	False	True	False	False	False	False
+PF00821	PEPCK_GTP	Phosphoenolpyruvate carboxykinase C-terminal P-loop domain	CL0374	2	T_streptophyta;T_rhodophyta	1	8	False	False	False	False	False	False	False
+PF00848	Ring_hydroxyl_A	Ring hydroxylating alpha subunit (catalytic domain)	CL0209	2	T_dictyostelia;T_rhodophyta	0	5	False	False	False	False	False	False	False
+PF00858	ASC	Amiloride-sensitive sodium channel		2	T_dictyostelia;T_streptophyta	0	2	False	False	False	True	False	False	False
+PF01062	Bestrophin	Bestrophin, RFP-TM, chloride channel	CL0897	2	T_dictyostelia;T_rhodophyta	3	3	False	False	False	True	False	False	False
+PF01149	Fapy_DNA_glyco	Formamidopyrimidine-DNA glycosylase N-terminal domain		2	T_dictyostelia;T_rhodophyta	0	18	False	True	False	False	False	False	False
+PF01226	Form_Nir_trans	Formate/nitrite transporter	CL0716	2	T_metazoa;T_dictyostelia	1	20	False	False	False	True	False	False	False
+PF01284	MARVEL	Membrane-associating domain	CL0396	2	T_dictyostelia;T_rhodophyta	1	6	False	False	False	False	False	False	False
+PF01297	ZnuA	Zinc-uptake complex component A periplasmic	CL0043	2	T_streptophyta;T_rhodophyta	0	0	False	False	False	False	False	False	False
+PF01323	DSBA	DSBA-like thioredoxin domain	CL0172	2	T_dictyostelia;T_rhodophyta	0	26	False	False	False	False	False	False	False
+PF01345	CLIPPER	CLIPPER domain	CL0159	2	T_dictyostelia;T_streptophyta	1	1	False	False	False	False	False	False	False
+PF01358	PARP_regulatory	Poly A polymerase regulatory subunit	CL0063	2	T_metazoa;T_dictyostelia	1	8	False	False	False	False	False	False	False
+PF01429	MBD	Methyl-CpG binding domain	CL0081	2	T_dictyostelia;T_px_filaments	1	9	False	False	False	False	False	False	False
+PF01447	Peptidase_M4	Thermolysin metallopeptidase, catalytic domain	CL0126	2	T_dictyostelia;T_rhodophyta	0	1	False	False	False	False	False	False	False
+PF01487	DHquinase_I	Type I 3-dehydroquinase	CL0036	2	T_metazoa;T_dictyostelia	0	23	False	False	False	False	False	False	False
+PF01510	Amidase_2	N-acetylmuramoyl-L-alanine amidase		2	T_dictyostelia;T_streptophyta	0	2	False	False	False	False	False	False	False
+PF01549	ShK	ShK domain-like	CL0213	2	T_dictyostelia;T_rhodophyta	0	11	False	False	False	False	False	False	False
+PF01551	Peptidase_M23	Peptidase family M23	CL0105	2	T_dictyostelia;T_rhodophyta	1	12	False	False	False	False	False	False	False
+PF01774	UreD	UreD urease accessory protein		2	T_dictyostelia;T_rhodophyta	1	6	False	False	False	False	False	False	False
+PF01793	Glyco_transf_15	Glycolipid 2-alpha-mannosyltransferase	CL0110	2	T_dictyostelia;T_streptophyta	2	9	False	False	True	False	False	False	False
+PF01804	Penicil_amidase	Penicillin amidase	CL0052	2	T_dictyostelia;T_streptophyta	0	10	False	False	False	False	False	False	False
+PF01828	Peptidase_A4	Peptidase A4 family	CL0004	2	T_metazoa;T_dictyostelia	0	1	False	False	False	False	False	False	False
+PF01855	POR_N	Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg	CL0254	2	T_dictyostelia;T_streptophyta	2	6	False	False	True	False	False	False	False
+PF01977	UbiD	3-octaprenyl-4-hydroxybenzoate carboxy-lyase Rift-related domain	CL0336	2	T_dictyostelia;T_streptophyta	0	0	False	False	True	False	False	False	False
+PF02197	RIIa	Regulatory subunit of type II PKA R-subunit	CL0068	2	T_dictyostelia;T_rhodophyta	1	21	False	False	False	False	False	False	False
+PF02211	NHase_beta_C	Nitrile hydratase beta subunit, C-terminal	CL0010	2	T_metazoa;T_dictyostelia	0	1	False	False	True	False	False	False	False
+PF02350	Epimerase_2	UDP-N-acetylglucosamine 2-epimerase	CL0113	2	T_fungi_hyphae;T_streptophyta	1	4	False	False	True	False	False	False	False
+PF02366	PMT	Dolichyl-phosphate-mannose-protein mannosyltransferase  	CL0111	2	T_dictyostelia;T_streptophyta	0	7	False	False	True	False	False	False	False
+PF02547	Queuosine_synth	Queuosine biosynthesis protein		2	T_dictyostelia;T_streptophyta	1	4	False	False	True	False	False	False	False
+PF02615	Ldh_2	Malate/L-lactate dehydrogenase		2	T_dictyostelia;T_streptophyta	0	12	False	False	True	False	False	False	False
+PF02632	BioY	BioY family	CL0315	2	T_fungi_hyphae;T_streptophyta	1	4	False	False	False	False	False	False	False
+PF02727	Cu_amine_oxidN2	Copper amine oxidase, N2 domain	CL0047	2	T_dictyostelia;T_rhodophyta	0	8	False	False	True	False	False	False	False
+PF02752	Arrestin_C	Arrestin (or S-antigen), C-terminal domain	CL0135	2	T_streptophyta;T_rhodophyta	1	20	False	False	False	False	False	False	False
+PF02836	Glyco_hydro_2_C	Glycosyl hydrolases family 2, TIM barrel domain	CL0036	2	T_dictyostelia;T_rhodophyta	0	22	False	False	True	False	False	False	False
+PF02837	Glyco_hydro_2_N	Glycosyl hydrolases family 2, sugar binding domain	CL0202	2	T_dictyostelia;T_rhodophyta	0	15	False	False	True	False	False	False	False
+PF02868	Peptidase_M4_C	Thermolysin metallopeptidase, alpha-helical domain	CL0126	2	T_dictyostelia;T_rhodophyta	0	2	False	False	False	False	False	False	False
+PF02901	PFL-like	Pyruvate formate lyase-like	CL0339	2	T_fungi_hyphae;T_dictyostelia	2	4	False	False	True	False	False	False	False
+PF02931	Neur_chan_LBD	Neurotransmitter-gated ion-channel ligand binding domain	CL0974	2	T_streptophyta;T_rhodophyta	1	5	False	False	False	True	False	False	False
+PF02979	NHase_alpha	Nitrile hydratase, alpha chain		2	T_metazoa;T_dictyostelia	0	1	False	False	True	False	False	False	False
+PF03094	Mlo	Mlo family		2	T_dictyostelia;T_rhodophyta	2	11	False	False	False	False	False	False	False
+PF03227	GILT	Gamma interferon inducible lysosomal thiol reductase (GILT)	CL0172	2	T_dictyostelia;T_px_filaments	1	19	False	False	True	False	False	False	False
+PF03382	DUF285	Mycoplasma protein of unknown function, DUF285	CL0022	2	T_rhodophyta;T_px_filaments	1	1	False	False	False	False	False	False	True
+PF03425	CBM_11	Carbohydrate binding domain (family 11)	CL0202	2	T_dictyostelia;T_rhodophyta	0	0	False	False	False	False	False	False	False
+PF03458	Gly_transporter	Glycine transporter		2	T_metazoa;T_streptophyta	4	6	False	False	False	True	False	False	False
+PF03496	ADPrib_exo_Tox	ADP-ribosyltransferase exoenzyme	CL0084	2	T_metazoa;T_streptophyta	0	0	False	False	True	False	False	False	False
+PF03607	DCX	Doublecortin	CL0072	2	T_fungi_hyphae;T_streptophyta	1	9	False	False	False	False	False	False	False
+PF03713	DUF305	Domain of unknown function (DUF305)	CL0044	2	T_streptophyta;T_rhodophyta	0	0	False	False	False	False	False	False	True
+PF03894	XFP	D-xylulose 5-phosphate/D-fructose 6-phosphate phosphoketolase	CL0254	2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	False
+PF04253	TFR_dimer	Transferrin receptor-like dimerisation domain		2	T_dictyostelia;T_rhodophyta	2	13	False	False	False	False	False	False	False
+PF04295	GD_AH_second	D-galactarate dehydratase/Altronate hydrolase, second domain		2	T_metazoa;T_dictyostelia	0	1	False	False	True	False	False	False	False
+PF04307	YdjM	YdjM inner membrane protein	CL0368	2	T_dictyostelia;T_streptophyta	1	1	False	False	False	False	False	False	False
+PF04403	PqiA	Paraquat-inducible protein A		2	T_metazoa;T_dictyostelia	3	7	False	False	False	False	False	False	False
+PF04616	Glyco_hydro_43	Glycosyl hydrolases family 43	CL0143	2	T_dictyostelia;T_px_filaments	1	8	False	False	True	False	False	False	False
+PF04654	DUF599	Protein of unknown function, DUF599		2	T_fungi_hyphae;T_rhodophyta	1	9	False	False	False	False	False	False	True
+PF04712	Radial_spoke	Radial spokehead-like protein		2	T_fungi_hyphae;T_dictyostelia	1	21	True	False	False	False	False	False	False
+PF04952	AstE_AspA_hybrid	AstE/AspA barrel-sandwich hybrid domain	CL0105	2	T_rhodophyta;T_px_filaments	0	0	False	False	False	False	False	False	False
+PF05167	DUF711	Uncharacterised ACR (DUF711)	CL0339	2	T_metazoa;T_px_filaments	0	1	False	False	False	False	False	False	True
+PF05181	XPA_C	XPA protein C-terminus	CL0123	2	T_dictyostelia;T_streptophyta	2	11	False	False	False	False	False	False	False
+PF05212	DUF707	Protein of unknown function (DUF707)	CL0110	2	T_metazoa;T_dictyostelia	0	3	False	False	False	False	False	False	True
+PF05238	CENP-N	Centromere protein Chl4/mis15/CENP-N	CL0952	2	T_dictyostelia;T_streptophyta	0	3	False	False	False	False	False	False	False
+PF05250	UPF0193	Uncharacterised protein family (UPF0193)		2	T_fungi_hyphae;T_dictyostelia	1	11	False	False	False	False	False	False	True
+PF05351	GMP_PDE_delta	GMP-PDE, delta subunit	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	18	False	False	False	False	False	False	False
+PF05426	Alginate_lyase	Alginate lyase	CL0059	2	T_dictyostelia;T_streptophyta	0	0	False	False	True	False	False	False	False
+PF05547	Peptidase_M6	Immune inhibitor A peptidase M6, catalytic domain	CL0126	2	T_dictyostelia;T_px_filaments	0	0	False	False	False	False	False	False	False
+PF05681	Fumerase	Fumarate hydratase (Fumerase)		2	T_dictyostelia;T_rhodophyta	1	16	False	False	True	False	False	False	False
+PF05683	Fumerase_C	Fumarase C-terminus		2	T_dictyostelia;T_rhodophyta	1	16	False	False	False	False	False	False	False
+PF05707	Zot	Zonular occludens toxin (Zot)	CL0023	2	T_dictyostelia;T_volvocine_tgv	1	5	False	False	False	False	False	False	False
+PF05839	Apc13p	Apc13p protein		2	T_px_filaments;T_volvocine_tgv	1	2	False	False	False	False	False	False	False
+PF05914	RIB43A	RIB43A		2	T_fungi_hyphae;T_dictyostelia	0	18	False	False	False	False	False	False	False
+PF05960	DUF885	Bacterial protein of unknown function (DUF885)	CL0126	2	T_fungi_hyphae;T_rhodophyta	0	6	False	False	False	False	False	False	True
+PF06098	Radial_spoke_3	Radial spoke protein 3		2	T_fungi_hyphae;T_dictyostelia	1	20	True	False	False	False	False	False	False
+PF06101	Vps62	Vacuolar protein sorting-associated protein 62		2	T_dictyostelia;T_rhodophyta	1	15	False	False	False	False	False	False	False
+PF06108	DUF952	Protein of unknown function (DUF952)	CL0084	2	T_metazoa;T_dictyostelia	0	15	False	False	False	False	False	False	True
+PF06113	BRE	Brain and reproductive organ-expressed protein (BRE)		2	T_fungi_hyphae;T_dictyostelia	0	8	False	False	False	False	False	False	False
+PF06209	COBRA1	Cofactor of BRCA1 (COBRA1)		2	T_streptophyta;T_rhodophyta	2	17	False	False	False	False	False	False	False
+PF06224	AlkZ-like	DNA glycosylase AlkZ-like	CL0123	2	T_fungi_hyphae;T_dictyostelia	0	1	False	True	False	False	False	False	False
+PF06283	ThuA	Trehalose utilisation	CL0014	2	T_metazoa;T_rhodophyta	0	0	False	False	False	False	False	False	False
+PF06294	CH_2	CH-like domain in sperm protein	CL0188	2	T_fungi_hyphae;T_dictyostelia	0	21	False	False	False	False	False	False	False
+PF06314	ADC	Acetoacetate decarboxylase (ADC)	CL0403	2	T_metazoa;T_dictyostelia	3	5	False	False	True	False	False	False	False
+PF06437	ISN1	IMP-specific 5'-nucleotidase	CL0137	2	T_rhodophyta;T_px_filaments	1	10	False	False	False	False	False	False	False
+PF06565	DM10_dom	DM10 domain	CL0266	2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	False	False	False	False
+PF06730	FAM92	FAM92 protein	CL0145	2	T_fungi_hyphae;T_dictyostelia	0	1	False	False	False	False	False	False	False
+PF06772	LtrA	Bacterial low temperature requirement A protein (LtrA)		2	T_metazoa;T_dictyostelia	1	5	False	False	False	False	False	False	False
+PF06824	Glyco_hydro_125	Metal-independent alpha-mannosidase (GH125)	CL0059	2	T_dictyostelia;T_px_filaments	2	9	False	False	False	False	False	False	False
+PF06951	PLA2G12	Group XII secretory phospholipase A2 precursor (PLA2G12)	CL0629	2	T_streptophyta;T_rhodophyta	1	4	False	False	True	False	False	False	False
+PF07004	SHIPPO-rpt	Sperm-tail PG-rich repeat		2	T_fungi_hyphae;T_dictyostelia	0	20	False	False	False	False	False	False	False
+PF07059	EDR2_C	Protein ENHANCED DISEASE RESISTANCE 2, C-terminal		2	T_metazoa;T_rhodophyta	0	13	False	False	False	False	False	False	False
+PF07160	SKA1	Spindle and kinetochore-associated protein 1 	CL0123	2	T_fungi_hyphae;T_dictyostelia	2	14	False	False	False	False	False	False	False
+PF07162	B9-C2	Ciliary basal body-associated, B9 protein	CL0154	2	T_fungi_hyphae;T_dictyostelia	1	20	True	False	False	False	False	False	False
+PF07221	GlcNAc_2-epim	N-acylglucosamine 2-epimerase (GlcNAc 2-epimerase)	CL0059	2	T_dictyostelia;T_streptophyta	1	3	False	False	True	False	False	False	False
+PF07289	BBL5	Bardet-Biedl syndrome 5 protein N-terminal PH-like domain	CL0266	2	T_dictyostelia;T_streptophyta	1	17	True	False	False	False	False	False	False
+PF07773	TCTN_DUF1619	Tectonic domain of DUF1619		2	T_fungi_hyphae;T_dictyostelia	2	6	False	False	False	False	False	False	False
+PF07787	TMEM43	Transmembrane protein 43		2	T_streptophyta;T_rhodophyta	2	9	False	False	False	False	False	False	False
+PF07814	WAPL	Wings apart-like protein regulation of heterochromatin		2	T_dictyostelia;T_rhodophyta	1	10	False	False	False	False	False	False	False
+PF07929	PRiA4_ORF3	Plasmid pRiA4b ORF-3-like protein		2	T_dictyostelia;T_rhodophyta	0	7	False	False	False	False	False	False	False
+PF07940	Hepar_II_III_C	Heparinase II/III-like, C-terminal	CL0103	2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF07989	Cnn_1N	Centrosomin N-terminal motif 1		2	T_streptophyta;T_rhodophyta	1	6	False	False	False	False	False	False	False
+PF08325	WLM	WLM domain	CL0126	2	T_metazoa;T_dictyostelia	2	21	False	False	False	False	False	False	False
+PF08328	ASL_C	Adenylosuccinate lyase C-terminal		2	T_metazoa;T_rhodophyta	2	21	False	False	True	False	False	False	False
+PF08357	SEFIR	SEFIR domain	CL0173	2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	False
+PF08418	Pol_alpha_B_N	DNA polymerase alpha subunit B N-terminal		2	T_fungi_hyphae;T_dictyostelia	0	3	False	False	False	False	False	False	False
+PF08457	Sfi1	Sfi1 spindle body protein		2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF08501	Shikimate_dh_N	Shikimate dehydrogenase substrate binding domain	CL0603	2	T_metazoa;T_dictyostelia	0	25	False	False	True	False	False	False	False
+PF08530	PepX_C	X-Pro dipeptidyl-peptidase C-terminal non-catalytic domain	CL0202	2	T_dictyostelia;T_streptophyta	1	11	False	False	False	False	False	False	False
+PF08649	DASH_Dad1	DASH complex subunit Dad1		2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	False
+PF08670	MEKHLA	MEKHLA domain	CL0183	2	T_fungi_hyphae;T_rhodophyta	1	9	False	False	False	False	False	False	False
+PF08675	RNA_bind	RNA binding domain	CL0221	2	T_fungi_hyphae;T_dictyostelia	0	0	False	False	False	False	False	False	False
+PF08757	CotH	CotH kinase protein	CL0016	2	T_dictyostelia;T_streptophyta	0	7	False	False	False	False	False	False	False
+PF08857	ParBc_2	Putative ParB-like nuclease	CL0248	2	T_metazoa;T_streptophyta	1	7	False	False	False	False	False	False	False
+PF08925	DUF1907	Domain of Unknown Function (DUF1907)	CL0615	2	T_dictyostelia;T_rhodophyta	1	2	False	False	False	False	False	False	True
+PF08939	Bles03	Basophilic leukemia-expressed protein Bles03	CL0625	2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF09359	VTC	VTC domain	CL0273	2	T_dictyostelia;T_streptophyta	0	17	False	False	False	False	False	False	False
+PF09363	XFP_C	XFP C-terminal domain	CL0591	2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	False
+PF09364	XFP_N	XFP N-terminal domain	CL0254	2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF09369	MZB	MrfA Zn-binding domain		2	T_metazoa;T_rhodophyta	2	19	False	False	False	False	False	False	False
+PF09371	Tex_N	Tex-like protein N-terminal domain	CL0805	2	T_dictyostelia;T_streptophyta	0	4	False	False	False	False	False	False	False
+PF09398	FOP_dimer	FOP N terminal dimerisation domain	CL0561	2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF09418	DUF2009	Non-canonical E2 ubiquitin-conjugating enzyme, DUF2009 family		2	T_metazoa;T_streptophyta	2	26	False	False	False	False	False	False	True
+PF09494	Slx4	Slx4 endonuclease	CL0123	2	T_dictyostelia;T_streptophyta	2	8	False	False	False	False	False	False	False
+PF09773	Meckelin	Meckelin (Transmembrane protein 67)		2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF09799	Transmemb_17	Predicted membrane protein		2	T_fungi_hyphae;T_dictyostelia	1	17	False	False	False	False	False	False	False
+PF09807	ELP6	Elongation complex protein 6	CL0023	2	T_rhodophyta;T_volvocine_tgv	1	14	False	False	False	False	False	False	False
+PF09825	BPL_N	Biotin-protein ligase, N terminal	CL0014	2	T_dictyostelia;T_streptophyta	1	12	False	False	False	False	False	False	False
+PF09830	ATP_transf	ATP adenylyltransferase C-terminal domain	CL0265	2	T_metazoa;T_streptophyta	4	19	False	False	True	False	False	False	False
+PF09876	DUF2103	Predicted metal-binding protein (DUF2103)		2	T_metazoa;T_rhodophyta	1	1	False	False	False	False	False	False	True
+PF10011	DUF2254	Predicted membrane protein (DUF2254)	CL0105	2	T_dictyostelia;T_rhodophyta	0	1	False	False	False	False	False	False	True
+PF10149	TM231	Transmembrane protein 231		2	T_fungi_hyphae;T_dictyostelia	1	17	False	False	False	False	False	False	False
+PF10192	GPR180-TMEM145_TM	GPR180/TMEM145, transmembrane domain	CL0192	2	T_streptophyta;T_rhodophyta	0	17	False	False	False	False	False	False	False
+PF10211	Ax_dynein_light	Axonemal dynein light chain		2	T_fungi_hyphae;T_dictyostelia	1	20	True	False	False	False	False	False	False
+PF10234	Cluap1	Clusterin-associated protein-1		2	T_fungi_hyphae;T_dictyostelia	0	20	False	False	False	False	False	False	False
+PF10243	MIP-T3	Microtubule-binding protein MIP-T3 CH-like domain	CL0188	2	T_fungi_hyphae;T_dictyostelia	0	21	False	False	False	False	False	False	False
+PF10338	YBL028C_N	YBL028C ribosome biogenesis factor, N-terminal domain	CL0820	2	T_dictyostelia;T_rhodophyta	1	4	False	False	False	False	False	False	False
+PF10342	Kre9_KNH	Kre9/KNH-like N-terminal Ig-like domain	CL0159	2	T_metazoa;T_dictyostelia	0	2	False	False	False	False	False	False	False
+PF10373	EST1_DNA_bind	Est1 DNA/RNA binding domain	CL0020	2	T_dictyostelia;T_rhodophyta	0	23	False	False	False	False	False	False	False
+PF10404	BHD_2	Rad4 beta-hairpin domain 2	CL0700	2	T_dictyostelia;T_px_filaments	0	14	False	True	False	False	False	False	False
+PF10451	Stn1	Telomere regulation protein Stn1	CL0021	2	T_dictyostelia;T_rhodophyta	0	1	False	False	False	False	False	False	False
+PF10498	IFT57	Intra-flagellar transport protein 57  		2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	True	False	False	False
+PF10558	MTP18	Mitochondrial 18 KDa protein (MTP18)  		2	T_dictyostelia;T_rhodophyta	1	17	False	False	False	False	False	False	False
+PF10595	FAM161A_B	Protein FAM161A/B		2	T_fungi_hyphae;T_dictyostelia	0	11	False	False	False	False	False	False	False
+PF11069	CFAP298	Cilia- and flagella-associated protein 298		2	T_fungi_hyphae;T_dictyostelia	0	20	True	False	False	False	False	False	False
+PF11095	Gemin7	Gem-associated protein 7 (Gemin7)	CL0986	2	T_dictyostelia;T_streptophyta	1	3	False	False	False	False	False	False	False
+PF11175	GH172_2nd	GH172 second beta-sandwich domain	CL0055	2	T_dictyostelia;T_streptophyta	0	2	False	False	False	False	False	False	False
+PF11375	DUF3177	Protein of unknown function (DUF3177)		2	T_streptophyta;T_rhodophyta	0	0	False	False	False	False	False	False	True
+PF11470	TUG-UBL1	TUG ubiquitin-like domain	CL0072	2	T_streptophyta;T_rhodophyta	3	22	False	False	False	False	False	False	False
+PF11527	ARL2_Bind_BART	The ARF-like 2 binding protein BART		2	T_fungi_hyphae;T_dictyostelia	1	17	False	False	False	False	False	False	False
+PF11538	Snurportin1	Snurportin1		2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF11618	C2-C2_1	First C2 domain of RPGR-interacting protein 1	CL0154	2	T_fungi_hyphae;T_dictyostelia	1	14	False	False	False	False	False	False	False
+PF11626	Rap1_C	TRF2-interacting telomeric protein/Rap1 - C terminal domain		2	T_dictyostelia;T_streptophyta	1	2	False	False	False	False	False	False	False
+PF11735	CAP59_mtransfer	Cryptococcal mannosyltransferase 1	CL0110	2	T_metazoa;T_dictyostelia	2	6	False	False	True	False	False	False	False
+PF11802	CENP-K	Centromere-associated protein K		2	T_dictyostelia;T_streptophyta	0	3	False	False	False	False	False	False	False
+PF11971	CAMSAP_CH	CAMSAP CH domain	CL0188	2	T_fungi_hyphae;T_dictyostelia	0	22	False	False	False	False	False	False	False
+PF12018	FAP206	Domain of unknown function		2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	True
+PF12214	TPX2_importin	Cell cycle regulated microtubule associated protein		2	T_fungi_hyphae;T_dictyostelia	1	9	False	False	False	False	False	False	False
+PF12315	DA1-like	Protein DA1	CL0126	2	T_dictyostelia;T_rhodophyta	1	10	False	False	False	False	False	False	False
+PF12317	IFT46_B_C	Intraflagellar transport complex B protein 46 C terminal		2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	True	False	False	False
+PF12762	DDE_Tnp_IS1595	ISXO2-like transposase domain	CL0219	2	T_dictyostelia;T_rhodophyta	0	1	False	False	False	False	True	False	False
+PF12947	EGF_3	EGF domain	CL0001	2	T_dictyostelia;T_volvocine_tgv	3	6	False	False	False	False	False	False	False
+PF13020	NOV_C	Protein NO VEIN, C-terminal	CL0236	2	T_fungi_hyphae;T_dictyostelia	1	15	False	False	False	False	False	False	False
+PF13186	SPASM	Iron-sulfur cluster-binding domain		2	T_dictyostelia;T_streptophyta	1	1	False	False	False	False	False	False	False
+PF13369	Transglut_core2	Transglutaminase-like superfamily	CL0125	2	T_dictyostelia;T_rhodophyta	1	15	False	False	False	False	False	False	False
+PF13429	TPR_15	Tetratricopeptide repeat	CL0020	2	T_dictyostelia;T_rhodophyta	0	3	False	False	False	False	False	False	False
+PF13570	Beta-prop_ACSF4	Beta-alanine-activating enzyme, beta-propeller	CL0186	2	T_fungi_hyphae;T_dictyostelia	0	6	False	False	False	False	False	False	False
+PF13574	Reprolysin_2	Metallo-peptidase family M12B Reprolysin-like	CL0126	2	T_dictyostelia;T_streptophyta	1	8	False	False	False	False	False	False	False
+PF13664	DUF4149	Domain of unknown function (DUF4149)	CL0430	2	T_dictyostelia;T_rhodophyta	5	10	False	False	False	False	False	False	True
+PF13688	Reprolysin_5	Metallo-peptidase family M12	CL0126	2	T_dictyostelia;T_streptophyta	1	12	False	False	False	False	False	False	False
+PF13772	AIG2_2	AIG2-like family	CL0278	2	T_dictyostelia;T_px_filaments	2	10	False	False	False	False	False	False	False
+PF13813	MBOAT_2	Membrane bound O-acyl transferase family	CL0517	2	T_metazoa;T_dictyostelia	0	12	False	False	True	False	False	False	False
+PF13851	GAS	Growth-arrest specific micro-tubule binding		2	T_fungi_hyphae;T_dictyostelia	0	22	False	False	False	False	False	False	False
+PF13859	BNR_3	BNR repeat-like domain	CL0186	2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	False
+PF13863	DUF4200	Domain of unknown function (DUF4200)		2	T_fungi_hyphae;T_dictyostelia	0	21	False	False	False	False	False	False	True
+PF13868	TPH	Trichohyalin-plectin-homology domain		2	T_fungi_hyphae;T_dictyostelia	0	21	False	False	False	False	False	False	False
+PF13870	CCDC113_CCDC96_CC	CCDC113/CCDC96, coiled-coil		2	T_fungi_hyphae;T_dictyostelia	0	21	False	False	False	False	False	False	False
+PF13879	Hmw_CFAP97	Hemingway/CFA97		2	T_fungi_hyphae;T_dictyostelia	1	19	True	False	False	False	False	False	False
+PF13898	MINDY-3_4_CD	Deubiquitinating enzyme MINDY-3/4, conserved domain		2	T_fungi_hyphae;T_dictyostelia	2	19	False	False	False	False	False	False	False
+PF14033	DUF4246	Protein of unknown function (DUF4246)	CL0029	2	T_dictyostelia;T_px_filaments	3	8	False	False	False	False	False	False	True
+PF14145	YrhK	YrhK-like protein		2	T_metazoa;T_volvocine_tgv	1	2	False	False	False	False	False	False	False
+PF14381	EDR1_CTR1_ARMC3_pept	EDR1/CTR1/ARMC3, peptidase-like	CL0125	2	T_fungi_hyphae;T_dictyostelia	2	14	False	False	False	False	False	False	False
+PF14646	MYCBPAP	MYCBP-associated protein family	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF14707	Sulfatase_C	C-terminal region of aryl-sulfatase	CL0088	2	T_dictyostelia;T_streptophyta	1	3	False	False	False	False	False	False	False
+PF14713	DUF4464	Domain of unknown function (DUF4464)		2	T_fungi_hyphae;T_dictyostelia	0	19	False	False	False	False	False	False	True
+PF14727	PHTB1_N	PTHB1 N-terminal	CL0186	2	T_dictyostelia;T_streptophyta	1	18	False	False	False	False	False	False	False
+PF14738	CFAP91	Cilia- and flagella-associated protein 91		2	T_fungi_hyphae;T_dictyostelia	0	19	True	False	False	False	False	False	False
+PF14768	RPA_interact_C	Replication protein A interacting C-terminal		2	T_dictyostelia;T_volvocine_tgv	3	19	False	False	False	False	False	False	False
+PF14769	CLAMP	Flagellar C1a complex subunit C1a-32		2	T_fungi_hyphae;T_dictyostelia	1	20	True	False	False	False	False	False	False
+PF14772	NYD-SP28	Sperm tail		2	T_fungi_hyphae;T_dictyostelia	0	20	False	False	False	False	False	False	False
+PF14775	NYD-SP28_assoc	Sperm tail C-terminal domain		2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF14817	HAUS5	HAUS augmin-like complex subunit 5		2	T_dictyostelia;T_rhodophyta	0	10	False	False	False	False	False	False	False
+PF14858	CFAP54_N	Cilia- and flagella-associated protein 54		2	T_fungi_hyphae;T_dictyostelia	2	8	True	False	False	False	False	False	False
+PF14874	PapD-like	Flagellar-associated PapD-like	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	18	True	False	False	False	False	False	False
+PF14906	DUF4495	Domain of unknown function (DUF4495)	CL0020	2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	True
+PF14913	DPCD	DPCD protein family		2	T_fungi_hyphae;T_dictyostelia	0	8	False	False	False	False	False	False	False
+PF14922	FWWh	Protein of unknown function		2	T_fungi_hyphae;T_dictyostelia	2	12	False	False	False	False	False	False	False
+PF14924	MAP10_N	Microtubule associated protein 10, N-terminal domain	CL0154	2	T_dictyostelia;T_streptophyta	2	3	False	False	False	False	False	False	False
+PF14931	IFT20	Intraflagellar transport complex B, subunit 20		2	T_fungi_hyphae;T_dictyostelia	0	19	True	False	False	True	False	False	False
+PF14934	TMEM254	Transmembrane protein 254		2	T_dictyostelia;T_rhodophyta	1	8	False	False	False	False	False	False	False
+PF14935	TMEM138	Transmembrane protein 138		2	T_fungi_hyphae;T_dictyostelia	0	3	False	False	False	False	False	False	False
+PF14939	DCAF15_WD40	DDB1-and CUL4-substrate receptor 15, WD repeat		2	T_dictyostelia;T_streptophyta	2	3	False	False	False	False	False	False	False
+PF14988	DUF4515	Domain of unknown function (DUF4515)		2	T_fungi_hyphae;T_dictyostelia	0	1	False	False	False	False	False	False	True
+PF15007	CEP44	Centrosomal spindle body, CEP44		2	T_fungi_hyphae;T_dictyostelia	0	18	False	False	False	False	False	False	False
+PF15158	TMEM249	Cation channel sperm-associated auxiliary subunit TMEM249	CL0266	2	T_dictyostelia;T_streptophyta	0	1	False	False	False	True	False	False	False
+PF15253	STIL_N	STIL N-terminal domain	CL0909	2	T_fungi_hyphae;T_dictyostelia	2	6	False	False	False	False	False	False	False
+PF15261	JHY	Jhy protein		2	T_fungi_hyphae;T_dictyostelia	3	10	False	False	False	False	False	False	False
+PF15305	IFT43	Intraflagellar transport protein 43		2	T_fungi_hyphae;T_dictyostelia	1	16	True	False	False	True	False	False	False
+PF15479	DUF4639	Domain of unknown function (DUF4639)		2	T_fungi_hyphae;T_dictyostelia	0	2	False	False	False	False	False	False	True
+PF15619	Lebercilin	Ciliary protein causing Leber congenital amaurosis disease		2	T_fungi_hyphae;T_dictyostelia	0	2	True	False	False	False	False	False	False
+PF15624	Mif2_N	Kinetochore CENP-C fungal homologue, Mif2, N-terminal		2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF15625	CC2D2AN-C2	CC2D2A N-terminal C2 domain	CL0154	2	T_fungi_hyphae;T_dictyostelia	3	13	False	False	False	False	False	False	False
+PF15669	CCDC24	Coiled-coil domain-containing protein 24 family		2	T_fungi_hyphae;T_dictyostelia	1	9	False	False	False	False	False	False	False
+PF15739	TSNAXIP1_N	Translin-associated factor X-interacting N-terminus		2	T_fungi_hyphae;T_streptophyta	1	6	False	False	False	False	False	False	False
+PF15874	Il2rg	Putative Interleukin 2 receptor, gamma chain		2	T_fungi_hyphae;T_dictyostelia	0	3	False	False	False	False	False	False	False
+PF15911	Beta-prop_WDR19_2nd	WDR19 second beta-propeller	CL0186	2	T_fungi_hyphae;T_dictyostelia	0	20	False	False	False	False	False	False	False
+PF15927	Casc1_N	Cancer susceptibility candidate 1 N-terminus		2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF15967	Nucleoporin_FG2	Nucleoporin FG repeated region	CL0647	2	T_dictyostelia;T_rhodophyta	0	3	False	False	False	True	False	False	False
+PF16045	LisH_2	LisH	CL0561	2	T_fungi_hyphae;T_dictyostelia	0	20	False	False	False	False	False	False	False
+PF16092	CFAP61_N	Cilia- and flagella-associated protein 61, N-terminal domain	CL0257	2	T_fungi_hyphae;T_dictyostelia	1	18	True	False	False	False	False	False	False
+PF16347	SGSH_C	N-sulphoglucosamine sulphohydrolase, C-terminal	CL0088	2	T_dictyostelia;T_rhodophyta	1	6	False	False	True	False	False	False	False
+PF16403	Bact_surface_Ig-like	Bacterial surface protein, Ig-like domain	CL0159	2	T_metazoa;T_streptophyta	1	3	False	False	False	False	False	False	False
+PF16470	S8_pro-domain	Peptidase S8 pro-domain	CL0570	2	T_fungi_hyphae;T_dictyostelia	1	6	False	False	False	False	False	False	False
+PF16531	SAS-6_N	Centriolar protein SAS N-terminal domain	CL0777	2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	False	False	False	False
+PF16586	DUF5060	Domain of unknown function (DUF5060)	CL0159	2	T_metazoa;T_dictyostelia	1	1	False	False	False	False	False	False	True
+PF16862	Glyco_hydro_79C	Glycosyl hydrolase family 79 C-terminal beta domain		2	T_dictyostelia;T_streptophyta	0	0	False	False	True	False	False	False	False
+PF16889	Hepar_II_III_N	Heparinase II/III N-terminus	CL0059	2	T_metazoa;T_dictyostelia	0	0	False	False	False	False	False	False	False
+PF16905	GPHH	Voltage-dependent L-type calcium channel, IQ-associated		2	T_streptophyta;T_rhodophyta	3	5	False	False	False	True	False	False	False
+PF16921	Tex_YqgF	Tex protein YqgF-like domain	CL0580	2	T_dictyostelia;T_streptophyta	0	6	False	False	False	False	False	False	False
+PF16983	MFS_MOT1	Molybdate transporter of MFS superfamily	CL0062	2	T_dictyostelia;T_px_filaments	1	7	False	False	False	True	False	False	False
+PF17124	ThiJ_like	ThiJ/PfpI family-like	CL0014	2	T_dictyostelia;T_rhodophyta	2	6	False	False	False	False	False	False	False
+PF17175	MOLO1	Modulator of levamisole receptor-1	CL0063	2	T_dictyostelia;T_streptophyta	3	8	False	False	False	False	False	False	False
+PF17297	PEPCK_N	Phosphoenolpyruvate carboxykinase N-terminal domain		2	T_streptophyta;T_rhodophyta	1	8	False	False	False	False	False	False	False
+PF17389	Bac_rhamnosid6H	Bacterial alpha-L-rhamnosidase 6 hairpin glycosidase domain	CL0059	2	T_dictyostelia;T_px_filaments	0	2	False	False	False	False	False	False	False
+PF17749	MIP-T3_C	Microtubule-binding protein MIP-T3 C-terminal region		2	T_fungi_hyphae;T_dictyostelia	1	18	False	False	False	False	False	False	False
+PF17783	WHD_CvfB	CvfB-like winged helix domain	CL0123	2	T_rhodophyta;T_px_filaments	0	0	False	False	False	False	False	False	False
+PF17954	Pirin_C_2	Quercetinase C-terminal cupin domain	CL0029	2	T_metazoa;T_dictyostelia	0	12	False	False	False	False	False	False	False
+PF18027	Pepdidase_M14_N	Cytosolic carboxypeptidase N-terminal domain		2	T_fungi_hyphae;T_dictyostelia	0	18	False	False	False	False	False	False	False
+PF18111	RPGR1_C	Retinitis pigmentosa G-protein regulator interacting C-terminal	CL0154	2	T_fungi_hyphae;T_dictyostelia	0	2	False	False	False	False	False	False	False
+PF18139	LSDAT_euk	SLOG in TRPM	CL0349	2	T_dictyostelia;T_streptophyta	2	3	False	False	False	False	False	False	False
+PF18171	LSDAT_prok	SLOG in TRPM, prokaryote	CL0349	2	T_dictyostelia;T_streptophyta	2	3	False	False	False	False	False	False	False
+PF18289	HU-CCDC81_euk_2	CCDC81 eukaryotic HU domain 2	CL0548	2	T_fungi_hyphae;T_streptophyta	1	12	False	False	False	False	False	False	False
+PF18295	Pdase_M17_N2	M17 aminopeptidase N-terminal domain 2	CL0223	2	T_streptophyta;T_rhodophyta	1	6	False	False	False	False	False	False	False
+PF18368	Ig_GlcNase	Exo-beta-D-glucosaminidase Ig-fold domain	CL0159	2	T_metazoa;T_dictyostelia	2	3	False	False	False	False	False	False	False
+PF18383	IFT81_CH	Intraflagellar transport 81 calponin homology domain	CL0188	2	T_fungi_hyphae;T_dictyostelia	1	18	True	False	False	True	False	False	False
+PF18599	LCIB_C_CA	Limiting CO2-inducible proteins B/C beta carbonyic anhydrases		2	T_metazoa;T_dictyostelia	2	9	False	False	False	False	False	False	False
+PF18859	acVLRF1	Actinobacteria/chloroflexi VLRF1 release factor	CL0267	2	T_rhodophyta;T_volvocine_tgv	1	12	False	False	False	False	False	False	False
+PF19298	KshA_C	3-Ketosteroid 9alpha-hydroxylase C-terminal domain	CL0209	2	T_dictyostelia;T_streptophyta	1	7	False	False	False	False	False	False	False
+PF19340	GCP6_N	Gamma-tubulin complex component 6 N-terminus		2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	False
+PF20398	DUF6691	Family of unknown function (DUF6691)	CL0710	2	T_metazoa;T_dictyostelia	1	19	False	False	False	False	False	False	True
+PF20584	DUF6787	Family of unknown function (DUF6787)		2	T_metazoa;T_rhodophyta	1	6	False	False	False	False	False	False	True
+PF20668	DUF6815	Domain of unknown function (DUF6815)		2	T_streptophyta;T_rhodophyta	0	1	False	False	False	False	False	False	True
+PF20680	DUF6817	Domain of unknown function (DUF6817)	CL0237	2	T_dictyostelia;T_px_filaments	1	5	False	False	False	False	False	False	True
+PF20695	UbiD_N	3-octaprenyl-4-hydroxybenzoate carboxy-lyase N-terminal domain		2	T_dictyostelia;T_streptophyta	0	0	False	False	True	False	False	False	False
+PF20696	UbiD_C	3-octaprenyl-4-hydroxybenzoate carboxy-lyase C-terminal domain		2	T_dictyostelia;T_streptophyta	0	0	False	False	True	False	False	False	False
+PF21031	WDR54	WDR54	CL0186	2	T_dictyostelia;T_rhodophyta	2	12	False	False	False	False	False	False	False
+PF21035	CCDC138_C	Coiled-coil domain-containing protein 138, C-terminal domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	0	2	False	False	False	False	False	False	False
+PF21049	CFA69_ARM_rpt	Cilia- and flagella-associated protein 69, ARM repeat	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	18	True	False	False	False	False	False	False
+PF21050	ARMC9_ARM	LisH domain-containing protein ARMC9, ARM repeats	CL0020	2	T_fungi_hyphae;T_dictyostelia	3	5	False	False	False	False	False	False	False
+PF21137	ANM3_C2H2_Zf	Protein arginine N-methyltransferase 3, C2H2 zinc finger domain	CL0361	2	T_dictyostelia;T_rhodophyta	1	7	False	False	True	False	False	False	False
+PF21178	Itf52_C	Intraflagellar transport protein 52, C-terminal domain		2	T_fungi_hyphae;T_dictyostelia	2	17	True	False	False	True	False	False	False
+PF21202	SLX1_C	Structure-specific endonuclease subunit SLX1, C-terminal	CL0229	2	T_dictyostelia;T_streptophyta	0	7	False	False	False	False	False	False	False
+PF21267	UBA2_UBAP-1	Ubiquitin-associated protein 1, UBA2 domain	CL0214	2	T_fungi_hyphae;T_dictyostelia	0	4	False	False	False	False	False	False	False
+PF21314	TM_ErbB1	Epidermal growth factor receptor transmembrane-juxtamembrane segment		2	T_dictyostelia;T_volvocine_tgv	0	0	False	False	False	False	False	False	False
+PF21634	MOV-10_beta-barrel	Helicase MOV-10, beta-barrel domain	CL0021	2	T_dictyostelia;T_px_filaments	2	11	False	True	False	False	False	False	False
+PF21688	FAD-depend_C	FAD-dependent protein, C-terminal domain-like	CL0063	2	T_rhodophyta;T_volvocine_tgv	1	5	False	False	True	False	False	False	False
+PF21771	CFAP58_CC	CFAP58 central coiled coil		2	T_fungi_hyphae;T_dictyostelia	0	20	True	False	False	False	False	False	False
+PF21773	ODAD1_CC	ODAD1 central coiled coil region		2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	False	False	False	False
+PF21795	JAG1-like_EGF2	Protein jagged-1-like, atypical EGF2	CL0001	2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	False
+PF22065	Cep192_D7	Cep192 domain 7	CL0159	2	T_fungi_hyphae;T_dictyostelia	0	1	False	False	False	False	False	False	False
+PF22067	Cep192_D3	Cep192 domain 3	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	3	False	False	False	False	False	False	False
+PF22070	Androglobin_V	Androglobin, domain V	CL0202	2	T_fungi_hyphae;T_dictyostelia	0	0	False	False	False	False	False	False	False
+PF22244	GCE_fung	Glucuronyl esterase, fungi	CL0028	2	T_dictyostelia;T_rhodophyta	0	0	False	False	True	False	False	False	False
+PF22740	PapZ_C	RapZ C-terminal domain	CL0031	2	T_dictyostelia;T_streptophyta	1	3	False	False	False	False	False	False	False
+PF22774	DNAJC11_beta-barrel	DNAJC11, beta-barrel domain	CL0193	2	T_dictyostelia;T_rhodophyta	0	13	False	False	False	False	False	False	False
+PF22846	CATSPERG_C	CATSPERG C-terminal domain	CL0941	2	T_fungi_hyphae;T_dictyostelia	0	1	False	False	False	False	False	False	False
+PF22850	CATSPERD-E_C	CATSPERD/E C-terminal domain	CL0941	2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF22946	SPEF2_D5	CPC1/SPEF2 domain D5		2	T_fungi_hyphae;T_dictyostelia	1	18	False	False	False	False	False	False	False
+PF23031	GBD_ELAPOR1	ELAPOR1-like, galactose binding domain	CL0202	2	T_dictyostelia;T_streptophyta	0	2	False	False	False	False	False	False	False
+PF23040	PH_SSH1-like_1st	Protein phosphatase Slingshot homolog 1-like, PH domain-like	CL0266	2	T_dictyostelia;T_rhodophyta	1	1	False	False	True	False	False	False	False
+PF23109	ARCH_RTEL1	RTEL1 helicase, ARCH domain	CL0823	2	T_fungi_hyphae;T_dictyostelia	0	21	False	True	False	False	False	False	False
+PF23145	Zf_2nd_IFT121	IFT121, second zinc finger domain		2	T_fungi_hyphae;T_dictyostelia	1	20	True	False	False	False	False	False	False
+PF23150	CFAP61_dimer	CFAP61 dimerisation domain	CL0608	2	T_fungi_hyphae;T_dictyostelia	1	17	True	False	False	False	False	False	False
+PF23339	PTHB1_CtH	PTHB1 C-terminal helix bundle		2	T_dictyostelia;T_streptophyta	2	16	False	False	False	False	False	False	False
+PF23352	IFT52_central	IFT52 central domain		2	T_fungi_hyphae;T_dictyostelia	0	20	True	False	False	False	False	False	False
+PF23355	IFT52_GIFT	IFT52 GIFT domain	CL0014	2	T_fungi_hyphae;T_dictyostelia	0	20	True	False	False	False	False	False	False
+PF23361	BBS7_pf	BBS7 platform domain		2	T_dictyostelia;T_streptophyta	1	17	True	False	False	False	False	False	False
+PF23377	Beta-prop_IFT122_2nd	IFT122 second beta-propeller	CL0186	2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	False	False	False	False
+PF23387	TPR_IFT80_172	IFT80/172/WDR35/WDR19 TPR domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	21	True	False	False	False	False	False	False
+PF23390	Beta-prop_WDR35_2nd	WDR35 second beta-propeller	CL0186	2	T_fungi_hyphae;T_dictyostelia	1	21	False	False	False	False	False	False	False
+PF23440	BROMI_C	Broad-minded protein Rab TBC domain	CL0816	2	T_fungi_hyphae;T_streptophyta	0	2	False	False	False	False	False	False	False
+PF23564	EF-hand_FSTL1	Follistatin-related protein 1, EF-hand domain pair	CL0220	2	T_dictyostelia;T_rhodophyta	1	6	False	False	False	False	False	False	False
+PF23602	CS_DNAAF11_C	Dynein axonemal assembly factor 11-like, CS domain	CL0190	2	T_fungi_hyphae;T_dictyostelia	0	19	True	False	False	False	False	False	False
+PF23625	UIM_2	Ubiquitin interaction motif	CL0702	2	T_dictyostelia;T_volvocine_tgv	1	8	False	False	False	False	False	False	False
+PF23735	KIF9	Kinesin-like protein KIF9 domain		2	T_fungi_hyphae;T_dictyostelia	0	20	True	False	False	False	False	False	False
+PF24080	AP3B1_C_2	AP-3 complex subunit beta-1, C-terminal domain	CL0545	2	T_dictyostelia;T_rhodophyta	1	3	False	False	False	False	False	False	False
+PF24082	SPEF2_C	SPEF2 C-terminal domain	CL0220	2	T_fungi_hyphae;T_dictyostelia	2	4	False	False	False	False	False	False	False
+PF24161	CCDC39	Coiled-coil domain-containing protein 39		2	T_fungi_hyphae;T_dictyostelia	0	20	False	False	False	False	False	False	False
+PF24291	Ig_CFAP65	Cilia- and flagella-associated protein 65-like, Ig-like domain	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	19	True	False	False	False	False	False	False
+PF24456	RHD_RETREG1-3	RETREG1-3/ARL6IP-like, N-terminal reticulon-homology domain	CL0484	2	T_streptophyta;T_rhodophyta	0	6	False	False	False	False	False	False	False
+PF24485	zf-C2H2_DHX34	DHX34-like, C2H2-type zinc finger	CL0361	2	T_fungi_hyphae;T_dictyostelia	1	3	False	False	False	False	False	False	False
+PF24507	Ig_CFAP65_4th	CFAP65, fourth Ig-like domain	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	19	True	False	False	False	False	False	False
+PF24529	CFAP47	Cilia- and flagella-associated protein 47 domain		2	T_fungi_hyphae;T_dictyostelia	1	14	True	False	False	False	False	False	False
+PF24569	CFAP161	Cilia- and flagella-associated protein 161-like domain	CL0066	2	T_fungi_hyphae;T_dictyostelia	1	11	True	False	False	False	False	False	False
+PF24605	CEMIP_X	CEMIP domain X		2	T_streptophyta;T_volvocine_tgv	2	8	False	False	False	False	False	False	False
+PF24649	DUF7642	Domain of unknown function (DUF7642)	CL0266	2	T_dictyostelia;T_rhodophyta	1	1	False	False	False	False	False	False	True
+PF24652	CEP76_C	Centrosomal protein of 76 kDa C-terminal domain	CL0659	2	T_fungi_hyphae;T_dictyostelia	2	15	False	False	False	False	False	False	False
+PF24654	CEP76_N	CEP76 N-terminal domain		2	T_dictyostelia;T_streptophyta	0	4	False	False	False	False	False	False	False
+PF24656	CEPT76_peptidase	CEP76 peptidase-like domain	CL0125	2	T_fungi_hyphae;T_dictyostelia	1	21	False	False	False	False	False	False	False
+PF24667	MORN_DRC7	Dynein regulatory complex subunit 7 MORN domain	CL0251	2	T_fungi_hyphae;T_dictyostelia	0	20	True	False	False	False	False	False	False
+PF24671	DRC7_C	Dynein regulatory complex subunit 7 C-terminal		2	T_fungi_hyphae;T_dictyostelia	0	19	True	False	False	False	False	False	False
+PF24760	TPR_IF140_C	IF140 C-terminal TPR domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	21	False	False	False	False	False	False	False
+PF24762	TPR_IF140-IFT172	IF140/IFT172 TPR domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	False	False	False	False
+PF24771	Ig_CFAP74_1st	CFAP74 first Ig-like domain	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	15	True	False	False	False	False	False	False
+PF24787	TEX47	Testis-expressed protein 47	CL0622	2	T_fungi_hyphae;T_dictyostelia	3	15	False	False	False	False	False	False	False
+PF24797	Beta-prop_WDR35_TULP_N	WDR35/TULP4 N-terminal	CL0186	2	T_fungi_hyphae;T_dictyostelia	1	20	False	False	False	False	False	False	False
+PF24798	Ig-CFAP74_4th	CFAP74 forth Ig-like domain	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	16	True	False	False	False	False	False	False
+PF24816	Ig_CFAP65__9th	Cilia- and flagella-associated protein 65-like, Ig-like domain	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	20	True	False	False	False	False	False	False
+PF24852	DUF7726	Domain of unknown function (DUF7726)	CL0123	2	T_dictyostelia;T_streptophyta	0	0	False	False	False	False	False	False	True
+PF24901	WHD_MCM7	DNA replication licensing factor MCM7, winged helix	CL0123	2	T_dictyostelia;T_rhodophyta	0	9	False	False	False	False	False	False	False
+PF25007	DYH2-5-8_CC	Dynein axonemal heavy chain 2/5/8 coiled-coil	CL0743	2	T_fungi_hyphae;T_dictyostelia	0	20	True	False	False	False	False	False	False
+PF25017	zf-C2HC_3	C2HC zinc finger	CL0361	2	T_metazoa;T_px_filaments	2	6	False	False	False	False	False	False	False
+PF25021	TEN_NHL	Teneurin NHL domain	CL0186	2	T_dictyostelia;T_volvocine_tgv	1	1	False	False	False	False	False	False	False
+PF25058	ARM_TT21	Tetratricopeptide repeat protein 21 ARM repeat	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF25060	ARM_TT21_2nd	Tetratricopeptide repeat protein 21 second ARM domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF25062	ARM_TT21_N	Tetratricopeptide repeat protein 21 N-terminal ARM repeat	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF25063	ARM_TT21_C	Tetratricopeptide repeat protein 21 C-terminal ARM domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	21	False	False	False	False	False	False	False
+PF25064	ARM_TT21_5th	TT21 fifth ARM repeats domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF25068	ARM_TT21_4th	Tetratricopeptide repeat protein 21 forth ARM domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF25088	GPKOW_C	GPKOW C-terminal domain	CL0010	2	T_fungi_hyphae;T_rhodophyta	1	24	False	False	False	False	False	False	False
+PF25248	Ig_CFAP65_8th	CFAP65, eight Ig-like domain   	CL0159	2	T_fungi_hyphae;T_dictyostelia	0	5	True	False	False	False	False	False	False
+PF25249	Ig_CFAP65_7th	CFAP65, seventh Ig-like domain	CL0159	2	T_fungi_hyphae;T_dictyostelia	1	17	True	False	False	False	False	False	False
+PF25295	TPR_IFT122	IFT122, TPR domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	False	False	False	False
+PF25343	PH_UBFD1_C	C-terminal PH-like domain in UBFD1	CL0266	2	T_fungi_hyphae;T_dictyostelia	1	8	False	False	False	False	False	False	False
+PF25364	PH_NDK7_N	Nucleoside diphosphate kinase 7 N-terminal PH domain	CL0266	2	T_fungi_hyphae;T_dictyostelia	1	9	False	False	False	False	False	False	False
+PF25413	Rossman_Mical	Mical, Rossman domain	CL0063	2	T_fungi_hyphae;T_dictyostelia	0	3	False	False	False	False	False	False	False
+PF25448	DUF7897	Domain of unknown function (DUF7897)	CL0126	2	T_metazoa;T_streptophyta	2	2	False	False	False	False	False	False	True
+PF25508	TRPM2	TRPM2-like domain		2	T_dictyostelia;T_streptophyta	1	2	False	False	False	False	False	False	False
+PF25556	SET_TTL	Tubulin tyrosine ligase SET-like domain	CL0489	2	T_dictyostelia;T_rhodophyta	1	6	False	False	False	False	False	False	False
+PF25752	DUF1619_N	N-terminal domain of DUF1619		2	T_fungi_hyphae;T_dictyostelia	1	12	False	False	False	False	False	False	True
+PF25768	TPR_IFT121	IFT121-like, TPR repeats	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	19	True	False	False	False	False	False	False
+PF25805	IQUB	IQUB-like domain		2	T_fungi_hyphae;T_dictyostelia	1	20	False	False	False	False	False	False	False
+PF25828	CC_Cfap43	Cfap43 coiled coil		2	T_fungi_hyphae;T_dictyostelia	1	20	True	False	False	False	False	False	False
+PF26015	Ig_NPH4_3rd	NPH4 Ig-like domain 3	CL0159	2	T_fungi_hyphae;T_dictyostelia	2	7	False	False	False	False	False	False	False
+PF26186	NPHP4_C2_3rd	Nephrocystin-4 C2 third domain	CL0154	2	T_fungi_hyphae;T_dictyostelia	1	8	False	False	False	False	False	False	False
+PF26187	Ig_NPHP4_4th	NPH4 Ig-like domain 4	CL0159	2	T_fungi_hyphae;T_dictyostelia	0	9	False	False	False	False	False	False	False
+PF27107	DRC11_N	Dynein regulatory complex subunit 11-like, N-terminal domain		2	T_fungi_hyphae;T_dictyostelia	0	19	True	False	False	False	False	False	False
+PF27634	Amo1_N	Amo1 N-terminal domain		2	T_dictyostelia;T_rhodophyta	0	9	False	False	False	False	False	False	False
+PF27660	SCI1_hairpin	Style cell-cycle inhibitor 1-like helix hairpin domain		2	T_dictyostelia;T_rhodophyta	1	22	False	False	False	False	False	False	False
+PF27661	DRC10_N	DRC10 N-terminal domain		2	T_fungi_hyphae;T_dictyostelia	1	19	False	False	False	False	False	False	False
+PF27681	CEP131_CC	CEP131 coiled-coil domain		2	T_fungi_hyphae;T_dictyostelia	0	15	False	False	False	False	False	False	False
+PF27695	CEP131_C	CEP131 C-terminal domain		2	T_fungi_hyphae;T_dictyostelia	0	18	False	False	False	False	False	False	False
+PF27785	DNAI3_N	Dynein axonemal intermediate chain 3 N-terminal domain		2	T_fungi_hyphae;T_dictyostelia	2	12	True	False	False	False	False	False	False
+PF27813	CCDC148	CCDC148 coiled-coil domain		2	T_fungi_hyphae;T_dictyostelia	2	5	False	False	False	False	False	False	False
+PF27933	CCDC61_N	CCDC61 N-terminal domain	CL0777	2	T_fungi_hyphae;T_dictyostelia	0	19	False	False	False	False	False	False	False
+PF27956	CFAP99_CC	CFAP99 V-shaped coiled-coil domain		2	T_fungi_hyphae;T_dictyostelia	1	18	True	False	False	False	False	False	False
+PF28302	FLJ43738_C	Uncharacterised protein FLJ43738 C-terminal domain		2	T_fungi_hyphae;T_dictyostelia	1	12	False	False	False	False	False	False	True
+PF28322	FLJ43738_N	Uncharacterised protein FLJ43738 N-terminal domain		2	T_fungi_hyphae;T_dictyostelia	0	3	False	False	False	False	False	False	True
+PF28495	TMEM260_2	TMEM260-associated domain 2		2	T_dictyostelia;T_streptophyta	1	2	False	False	False	False	False	False	False
+PF28588	GH172_1st	GH172 first beta-sandwich domain	CL0055	2	T_dictyostelia;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF29351	Acidic_SOMP	Acidic skeletal organic matrix protein		2	T_dictyostelia;T_streptophyta	0	2	False	False	False	False	False	False	False
+PF29377	CFAP70_C2	Cilia and flagella-associated protein 70 C2 domain	CL0154	2	T_fungi_hyphae;T_dictyostelia	3	9	True	False	False	False	False	False	False
+PF29410	CFAP70_helical	Cilia and flagella-associated protein 70 helical domain		2	T_fungi_hyphae;T_dictyostelia	1	12	True	False	False	False	False	False	False
+PF29555	Citrulline_exp	Probable citrulline exporter		2	T_streptophyta;T_rhodophyta	1	7	False	False	False	False	False	False	False
+PF29715	BBL5_2nd	Bardet-Biedl syndrome 5 protein second PH-like domain	CL0266	2	T_dictyostelia;T_streptophyta	1	18	True	False	False	False	False	False	False
+PF29967	Cep290_mid_CC	Cep290 middle coiled-coil region		2	T_fungi_hyphae;T_streptophyta	0	1	False	False	False	False	False	False	False
+PF30356	GPT2_C	Glycerol-3-phosphate acyltransferase 2 C-terminal domain		2	T_metazoa;T_dictyostelia	0	16	False	False	True	False	False	False	False
+PF30363	IFT70_C	Intraflagellar transport protein 70 C-terminal domain	CL0020	2	T_fungi_hyphae;T_dictyostelia	0	21	True	False	False	True	False	False	False
+PF30378	CEP135_TSGA10_CC	CEP135/TSGA10 coiled-coil		2	T_fungi_hyphae;T_dictyostelia	1	14	False	False	False	False	False	False	False
+PF30475	IFT56	Intraflagellar transport protein 56	CL0020	2	T_fungi_hyphae;T_dictyostelia	1	21	True	False	False	True	False	False	False
+PF30485	CCDC13	Coiled-coil domain-containing protein 13		2	T_fungi_hyphae;T_dictyostelia	2	10	False	False	False	False	False	False	False
+PF30489	Ropporin_N	Ropporin N-terminal domain		2	T_fungi_hyphae;T_dictyostelia	1	17	False	False	False	True	False	False	False
+PF30496	Cys_Met_Meta_N	Fungal trans-sulfuration enzyme, N-terminal domain		2	T_metazoa;T_px_filaments	1	1	False	False	False	False	False	False	False
+PF30551	CFAP251_C	CFAP251 C-terminal domain	CL0220	2	T_fungi_hyphae;T_dictyostelia	1	18	True	False	False	False	False	False	False
+PF30552	CFAP251_N	CFAP251 N-terminal domain	CL0186	2	T_fungi_hyphae;T_dictyostelia	1	19	True	False	False	False	False	False	False
+PF30644	SAF_GD_AH	Altronate/galactarate dehydratase SAF domain	CL0489	2	T_metazoa;T_dictyostelia	0	0	False	False	True	False	False	False	False
+PF30661	TSPO_2	TSPO-like protein	CL0976	2	T_streptophyta;T_rhodophyta	0	15	False	False	False	False	False	False	False
+PF30828	CEP83_CC_1st	CEP83 first coiled-coil		2	T_fungi_hyphae;T_dictyostelia	3	9	False	False	False	False	False	False	False
+PF30858	SFI1_first_CC	SFI1 first Coiled-coil region		2	T_fungi_hyphae;T_dictyostelia	0	4	False	False	False	False	False	False	False
+PF30871	Sft1-BET1	Sft1/BET1 SNARE domain	CL0445	2	T_dictyostelia;T_rhodophyta	0	19	False	False	False	False	False	False	False
+PF30882	CCDC146_CC_N	CCDC146 N-terminal coiled-coil region		2	T_fungi_hyphae;T_dictyostelia	2	8	False	False	False	False	False	False	False
+PF30925	CCDC146_C	CCDC146 C-terminal coiled-coil domain		2	T_fungi_hyphae;T_dictyostelia	1	18	False	False	False	False	False	False	False
+PF30951	IFT74	Intraflagellar transport protein 74		2	T_fungi_hyphae;T_dictyostelia	1	18	True	False	False	True	False	False	False
+PF30981	CCDC162_C	CCDC162 C-terminal region		2	T_fungi_hyphae;T_dictyostelia	0	5	False	False	False	False	False	False	False
+PF31031	TFIP11_C	TFIP11 C-terminal domain		2	T_dictyostelia;T_rhodophyta	1	6	False	False	False	False	False	False	False

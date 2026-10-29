@@ -1,0 +1,7 @@
+version	m	T_mean_u	u
+pfam_expanded	3	0.445578231292517	"{""T_metazoa"": 0.071, ""T_fungi_hyphae"": 0.071, ""T_dictyostelia"": 0.357, ""T_streptophyta"": 0.071, ""T_rhodophyta"": 0.857, ""T_px_filaments"": 0.833, ""T_volvocine_tgv"": 0.857}"
+pfam_expanded	4	0.4421768707482993	"{""T_metazoa"": 0.071, ""T_fungi_hyphae"": 0.119, ""T_dictyostelia"": 0.31, ""T_streptophyta"": 0.071, ""T_rhodophyta"": 0.881, ""T_px_filaments"": 0.786, ""T_volvocine_tgv"": 0.857}"
+pfam_expanded	5	0.4149659863945578	"{""T_metazoa"": 0.071, ""T_fungi_hyphae"": 0.071, ""T_dictyostelia"": 0.214, ""T_streptophyta"": 0.071, ""T_rhodophyta"": 0.857, ""T_px_filaments"": 0.786, ""T_volvocine_tgv"": 0.833}"
+toolkit_present	3	0.4693877551020408	"{""T_metazoa"": 0.024, ""T_fungi_hyphae"": 0.643, ""T_dictyostelia"": 0.619, ""T_streptophyta"": 0.071, ""T_rhodophyta"": 0.667, ""T_px_filaments"": 0.643, ""T_volvocine_tgv"": 0.619}"
+toolkit_present	4	0.4761904761904762	"{""T_metazoa"": 0.024, ""T_fungi_hyphae"": 0.643, ""T_dictyostelia"": 0.619, ""T_streptophyta"": 0.119, ""T_rhodophyta"": 0.667, ""T_px_filaments"": 0.643, ""T_volvocine_tgv"": 0.619}"
+toolkit_present	5	0.46258503401360546	"{""T_metazoa"": 0.024, ""T_fungi_hyphae"": 0.643, ""T_dictyostelia"": 0.619, ""T_streptophyta"": 0.024, ""T_rhodophyta"": 0.667, ""T_px_filaments"": 0.643, ""T_volvocine_tgv"": 0.619}"

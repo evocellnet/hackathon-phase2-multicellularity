@@ -1,0 +1,3 @@
+group	median_control_loss_rate	mean_control_loss_rate	mwu_p_hits_gt_bg
+k>=2 lost	0.15	0.2068685461945689	1.182337214983338e-36
+background eligible>=2	0.06818181818181818	0.13457943690764543	1.182337214983338e-36

@@ -1,0 +1,353 @@
+species_set	statistic	dropped	variant	version	covariates	glm_method	n	T_obs	p	u
+all	new_arch_multi		base_GLM	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	nb	7	0.7993197278911565	0.0052994700529947	"{""T_metazoa"": 0.976, ""T_fungi_hyphae"": 0.5, ""T_dictyostelia"": 0.881, ""T_streptophyta"": 0.881, ""T_rhodophyta"": 0.548, ""T_px_filaments"": 0.833, ""T_volvocine_tgv"": 0.976}"
+all	new_arch_multi		base_GLM	raw			7	0.7108843537414966	0.041195880411958805	"{""T_metazoa"": 0.976, ""T_fungi_hyphae"": 0.786, ""T_dictyostelia"": 0.833, ""T_streptophyta"": 0.786, ""T_rhodophyta"": 0.262, ""T_px_filaments"": 0.738, ""T_volvocine_tgv"": 0.595}"
+all	new_arch_multi	T_metazoa	base_GLM	residual			6	0.7698412698412698	0.0165983401659834	
+all	new_arch_multi	T_metazoa	base_GLM	raw			6	0.6666666666666666	0.10208979102089791	
+all	new_arch_multi	T_fungi_hyphae	base_GLM	residual			6	0.8492063492063492	0.0018998100189981002	
+all	new_arch_multi	T_fungi_hyphae	base_GLM	raw			6	0.6984126984126985	0.061493850614938506	
+all	new_arch_multi	T_dictyostelia	base_GLM	residual			6	0.7857142857142857	0.0124987501249875	
+all	new_arch_multi	T_dictyostelia	base_GLM	raw			6	0.6904761904761904	0.07219278072192781	
+all	new_arch_multi	T_streptophyta	base_GLM	residual			6	0.7857142857142857	0.0112988701129887	
+all	new_arch_multi	T_streptophyta	base_GLM	raw			6	0.6984126984126985	0.06359364063593641	
+all	new_arch_multi	T_rhodophyta	base_GLM	residual			6	0.8412698412698413	0.0025997400259974	
+all	new_arch_multi	T_rhodophyta	base_GLM	raw			6	0.7857142857142856	0.0112988701129887	
+all	new_arch_multi	T_px_filaments	base_GLM	residual			6	0.7936507936507936	0.009999000099990002	
+all	new_arch_multi	T_px_filaments	base_GLM	raw			6	0.7063492063492064	0.05499450054994501	
+all	new_arch_multi	T_volvocine_tgv	base_GLM	residual			6	0.7698412698412698	0.015598440155984402	
+all	new_arch_multi	T_volvocine_tgv	base_GLM	raw			6	0.7301587301587302	0.03569643035696431	
+all	new_arch_multi		GLM+mean_busco_desc	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc,mean_busco_kept	nb	7	0.7585034013605442	0.0165983401659834	"{""T_metazoa"": 0.976, ""T_fungi_hyphae"": 0.357, ""T_dictyostelia"": 0.786, ""T_streptophyta"": 0.833, ""T_rhodophyta"": 0.548, ""T_px_filaments"": 0.833, ""T_volvocine_tgv"": 0.976}"
+all	new_arch_multi		GLM+mean_busco_desc	raw			7	0.7108843537414966	0.041195880411958805	"{""T_metazoa"": 0.976, ""T_fungi_hyphae"": 0.786, ""T_dictyostelia"": 0.833, ""T_streptophyta"": 0.786, ""T_rhodophyta"": 0.262, ""T_px_filaments"": 0.738, ""T_volvocine_tgv"": 0.595}"
+all	new_arch_multi	T_metazoa	GLM+mean_busco_desc	residual			6	0.7222222222222222	0.043995600439956005	
+all	new_arch_multi	T_metazoa	GLM+mean_busco_desc	raw			6	0.6666666666666666	0.10208979102089791	
+all	new_arch_multi	T_fungi_hyphae	GLM+mean_busco_desc	residual			6	0.8253968253968255	0.0045995400459954	
+all	new_arch_multi	T_fungi_hyphae	GLM+mean_busco_desc	raw			6	0.6984126984126985	0.061493850614938506	
+all	new_arch_multi	T_dictyostelia	GLM+mean_busco_desc	residual			6	0.753968253968254	0.024797520247975203	
+all	new_arch_multi	T_dictyostelia	GLM+mean_busco_desc	raw			6	0.6904761904761904	0.07219278072192781	
+all	new_arch_multi	T_streptophyta	GLM+mean_busco_desc	residual			6	0.746031746031746	0.0273972602739726	
+all	new_arch_multi	T_streptophyta	GLM+mean_busco_desc	raw			6	0.6984126984126985	0.06359364063593641	
+all	new_arch_multi	T_rhodophyta	GLM+mean_busco_desc	residual			6	0.7936507936507936	0.0093990600939906	
+all	new_arch_multi	T_rhodophyta	GLM+mean_busco_desc	raw			6	0.7857142857142856	0.0112988701129887	
+all	new_arch_multi	T_px_filaments	GLM+mean_busco_desc	residual			6	0.746031746031746	0.027597240275972403	
+all	new_arch_multi	T_px_filaments	GLM+mean_busco_desc	raw			6	0.7063492063492064	0.05499450054994501	
+all	new_arch_multi	T_volvocine_tgv	GLM+mean_busco_desc	residual			6	0.7222222222222222	0.042995700429957005	
+all	new_arch_multi	T_volvocine_tgv	GLM+mean_busco_desc	raw			6	0.7301587301587302	0.03569643035696431	
+all	new_arch_all		base_GLM	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	nb	7	0.8061224489795917	0.0045995400459954	"{""T_metazoa"": 0.976, ""T_fungi_hyphae"": 0.548, ""T_dictyostelia"": 0.881, ""T_streptophyta"": 0.881, ""T_rhodophyta"": 0.5, ""T_px_filaments"": 0.881, ""T_volvocine_tgv"": 0.976}"
+all	new_arch_all		base_GLM	raw			7	0.7108843537414966	0.0413958604139586	"{""T_metazoa"": 0.976, ""T_fungi_hyphae"": 0.786, ""T_dictyostelia"": 0.833, ""T_streptophyta"": 0.833, ""T_rhodophyta"": 0.214, ""T_px_filaments"": 0.833, ""T_volvocine_tgv"": 0.5}"
+all	new_arch_all	T_metazoa	base_GLM	residual			6	0.7777777777777777	0.013298670132986702	
+all	new_arch_all	T_metazoa	base_GLM	raw			6	0.6666666666666666	0.1045895410458954	
+all	new_arch_all	T_fungi_hyphae	base_GLM	residual			6	0.8492063492063492	0.0023997600239976003	
+all	new_arch_all	T_fungi_hyphae	base_GLM	raw			6	0.6984126984126985	0.063993600639936	
+all	new_arch_all	T_dictyostelia	base_GLM	residual			6	0.7936507936507936	0.010498950104989501	
+all	new_arch_all	T_dictyostelia	base_GLM	raw			6	0.6904761904761906	0.07239276072392761	
+all	new_arch_all	T_streptophyta	base_GLM	residual			6	0.7936507936507936	0.008799120087991202	
+all	new_arch_all	T_streptophyta	base_GLM	raw			6	0.6904761904761906	0.0714928507149285	
+all	new_arch_all	T_rhodophyta	base_GLM	residual			6	0.8571428571428571	0.0012998700129987	
+all	new_arch_all	T_rhodophyta	base_GLM	raw			6	0.7936507936507936	0.0100989901009899	
+all	new_arch_all	T_px_filaments	base_GLM	residual			6	0.7936507936507936	0.0112988701129887	
+all	new_arch_all	T_px_filaments	base_GLM	raw			6	0.6904761904761906	0.07239276072392761	
+all	new_arch_all	T_volvocine_tgv	base_GLM	residual			6	0.7777777777777777	0.014498550144985502	
+all	new_arch_all	T_volvocine_tgv	base_GLM	raw			6	0.746031746031746	0.027197280271972803	
+all	new_arch_all		GLM+mean_busco_desc	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc,mean_busco_kept	poisson_quasi	7	0.8469387755102041	0.0018998100189981002	"{""T_metazoa"": 0.976, ""T_fungi_hyphae"": 0.69, ""T_dictyostelia"": 0.976, ""T_streptophyta"": 0.976, ""T_rhodophyta"": 0.548, ""T_px_filaments"": 0.786, ""T_volvocine_tgv"": 0.976}"
+all	new_arch_all		GLM+mean_busco_desc	raw			7	0.7108843537414966	0.0413958604139586	"{""T_metazoa"": 0.976, ""T_fungi_hyphae"": 0.786, ""T_dictyostelia"": 0.833, ""T_streptophyta"": 0.833, ""T_rhodophyta"": 0.214, ""T_px_filaments"": 0.833, ""T_volvocine_tgv"": 0.5}"
+all	new_arch_all	T_metazoa	GLM+mean_busco_desc	residual			6	0.8253968253968255	0.004199580041995801	
+all	new_arch_all	T_metazoa	GLM+mean_busco_desc	raw			6	0.6666666666666666	0.1045895410458954	
+all	new_arch_all	T_fungi_hyphae	GLM+mean_busco_desc	residual			6	0.873015873015873	0.0016998300169983002	
+all	new_arch_all	T_fungi_hyphae	GLM+mean_busco_desc	raw			6	0.6984126984126985	0.063993600639936	
+all	new_arch_all	T_dictyostelia	GLM+mean_busco_desc	residual			6	0.8253968253968255	0.0045995400459954	
+all	new_arch_all	T_dictyostelia	GLM+mean_busco_desc	raw			6	0.6904761904761906	0.07239276072392761	
+all	new_arch_all	T_streptophyta	GLM+mean_busco_desc	residual			6	0.8253968253968255	0.004199580041995801	
+all	new_arch_all	T_streptophyta	GLM+mean_busco_desc	raw			6	0.6904761904761906	0.0714928507149285	
+all	new_arch_all	T_rhodophyta	GLM+mean_busco_desc	residual			6	0.8968253968253969	0.0004999500049995	
+all	new_arch_all	T_rhodophyta	GLM+mean_busco_desc	raw			6	0.7936507936507936	0.0100989901009899	
+all	new_arch_all	T_px_filaments	GLM+mean_busco_desc	residual			6	0.8571428571428572	0.001999800019998	
+all	new_arch_all	T_px_filaments	GLM+mean_busco_desc	raw			6	0.6904761904761906	0.07239276072392761	
+all	new_arch_all	T_volvocine_tgv	GLM+mean_busco_desc	residual			6	0.8253968253968255	0.0047995200479952005	
+all	new_arch_all	T_volvocine_tgv	GLM+mean_busco_desc	raw			6	0.746031746031746	0.027197280271972803	
+genome_only	new_arch_multi		base_GLM	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	poisson_quasi	7	0.8680033416875521	0.00039996000399960006	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.605, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.974, ""T_rhodophyta"": 0.711, ""T_px_filaments"": 0.921, ""T_volvocine_tgv"": 0.972}"
+genome_only	new_arch_multi		base_GLM	raw			7	0.7944862155388471	0.005599440055994401	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.789, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.816, ""T_rhodophyta"": 0.5, ""T_px_filaments"": 0.868, ""T_volvocine_tgv"": 0.694}"
+genome_only	new_arch_multi	T_metazoa	base_GLM	residual			6	0.8506335282651073	0.0025997400259974	
+genome_only	new_arch_multi	T_metazoa	base_GLM	raw			6	0.7648635477582846	0.017998200179982	
+genome_only	new_arch_multi	T_fungi_hyphae	base_GLM	residual			6	0.9117933723196882	0.00039996000399960006	
+genome_only	new_arch_multi	T_fungi_hyphae	base_GLM	raw			6	0.7953216374269007	0.0084991500849915	
+genome_only	new_arch_multi	T_dictyostelia	base_GLM	residual			6	0.8591617933723197	0.0015998400159984002	
+genome_only	new_arch_multi	T_dictyostelia	base_GLM	raw			6	0.7733918128654972	0.015498450154984501	
+genome_only	new_arch_multi	T_streptophyta	base_GLM	residual			6	0.8503898635477584	0.0023997600239976003	
+genome_only	new_arch_multi	T_streptophyta	base_GLM	raw			6	0.7909356725146198	0.0091990800919908	
+genome_only	new_arch_multi	T_rhodophyta	base_GLM	residual			6	0.8942495126705654	0.0005999400059994001	
+genome_only	new_arch_multi	T_rhodophyta	base_GLM	raw			6	0.8435672514619883	0.0023997600239976003	
+genome_only	new_arch_multi	T_px_filaments	base_GLM	residual			6	0.8591617933723197	0.0017998200179982	
+genome_only	new_arch_multi	T_px_filaments	base_GLM	raw			6	0.7821637426900585	0.012998700129987	
+genome_only	new_arch_multi	T_volvocine_tgv	base_GLM	residual			6	0.8506335282651071	0.0027997200279972004	
+genome_only	new_arch_multi	T_volvocine_tgv	base_GLM	raw			6	0.8111598440545809	0.006199380061993801	
+genome_only	new_arch_multi		GLM+mean_busco_desc	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	poisson_quasi	7	0.8680033416875521	0.00039996000399960006	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.605, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.974, ""T_rhodophyta"": 0.711, ""T_px_filaments"": 0.921, ""T_volvocine_tgv"": 0.972}"
+genome_only	new_arch_multi		GLM+mean_busco_desc	raw			7	0.7944862155388471	0.005599440055994401	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.789, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.816, ""T_rhodophyta"": 0.5, ""T_px_filaments"": 0.868, ""T_volvocine_tgv"": 0.694}"
+genome_only	new_arch_multi	T_metazoa	GLM+mean_busco_desc	residual			6	0.8506335282651073	0.0025997400259974	
+genome_only	new_arch_multi	T_metazoa	GLM+mean_busco_desc	raw			6	0.7648635477582846	0.017998200179982	
+genome_only	new_arch_multi	T_fungi_hyphae	GLM+mean_busco_desc	residual			6	0.9117933723196882	0.00039996000399960006	
+genome_only	new_arch_multi	T_fungi_hyphae	GLM+mean_busco_desc	raw			6	0.7953216374269007	0.0084991500849915	
+genome_only	new_arch_multi	T_dictyostelia	GLM+mean_busco_desc	residual			6	0.8591617933723197	0.0015998400159984002	
+genome_only	new_arch_multi	T_dictyostelia	GLM+mean_busco_desc	raw			6	0.7733918128654972	0.015498450154984501	
+genome_only	new_arch_multi	T_streptophyta	GLM+mean_busco_desc	residual			6	0.8503898635477584	0.0023997600239976003	
+genome_only	new_arch_multi	T_streptophyta	GLM+mean_busco_desc	raw			6	0.7909356725146198	0.0091990800919908	
+genome_only	new_arch_multi	T_rhodophyta	GLM+mean_busco_desc	residual			6	0.8942495126705654	0.0005999400059994001	
+genome_only	new_arch_multi	T_rhodophyta	GLM+mean_busco_desc	raw			6	0.8435672514619883	0.0023997600239976003	
+genome_only	new_arch_multi	T_px_filaments	GLM+mean_busco_desc	residual			6	0.8591617933723197	0.0017998200179982	
+genome_only	new_arch_multi	T_px_filaments	GLM+mean_busco_desc	raw			6	0.7821637426900585	0.012998700129987	
+genome_only	new_arch_multi	T_volvocine_tgv	GLM+mean_busco_desc	residual			6	0.8506335282651071	0.0027997200279972004	
+genome_only	new_arch_multi	T_volvocine_tgv	GLM+mean_busco_desc	raw			6	0.8111598440545809	0.006199380061993801	
+genome_only	new_arch_multi		GLM_recounted_n	residual	log_bl,log_n_desc_kept,log_n_sister_kept	nb	7	0.7848788638262324	0.0064993500649935	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.5, ""T_dictyostelia"": 0.816, ""T_streptophyta"": 0.868, ""T_rhodophyta"": 0.553, ""T_px_filaments"": 0.868, ""T_volvocine_tgv"": 0.917}"
+genome_only	new_arch_multi		GLM_recounted_n	raw			7	0.7944862155388471	0.005599440055994401	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.789, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.816, ""T_rhodophyta"": 0.5, ""T_px_filaments"": 0.868, ""T_volvocine_tgv"": 0.694}"
+genome_only	new_arch_multi	T_metazoa	GLM_recounted_n	residual			6	0.753654970760234	0.024197580241975804	
+genome_only	new_arch_multi	T_metazoa	GLM_recounted_n	raw			6	0.7648635477582846	0.017998200179982	
+genome_only	new_arch_multi	T_fungi_hyphae	GLM_recounted_n	residual			6	0.8323586744639377	0.0026997300269973002	
+genome_only	new_arch_multi	T_fungi_hyphae	GLM_recounted_n	raw			6	0.7953216374269007	0.0084991500849915	
+genome_only	new_arch_multi	T_dictyostelia	GLM_recounted_n	residual			6	0.7797270955165693	0.012998700129987	
+genome_only	new_arch_multi	T_dictyostelia	GLM_recounted_n	raw			6	0.7733918128654972	0.015498450154984501	
+genome_only	new_arch_multi	T_streptophyta	GLM_recounted_n	residual			6	0.770955165692008	0.015198480151984802	
+genome_only	new_arch_multi	T_streptophyta	GLM_recounted_n	raw			6	0.7909356725146198	0.0091990800919908	
+genome_only	new_arch_multi	T_rhodophyta	GLM_recounted_n	residual			6	0.8235867446393762	0.0035996400359964	
+genome_only	new_arch_multi	T_rhodophyta	GLM_recounted_n	raw			6	0.8435672514619883	0.0023997600239976003	
+genome_only	new_arch_multi	T_px_filaments	GLM_recounted_n	residual			6	0.7709551656920078	0.015198480151984802	
+genome_only	new_arch_multi	T_px_filaments	GLM_recounted_n	raw			6	0.7821637426900585	0.012998700129987	
+genome_only	new_arch_multi	T_volvocine_tgv	GLM_recounted_n	residual			6	0.7629142300194932	0.018198180181981802	
+genome_only	new_arch_multi	T_volvocine_tgv	GLM_recounted_n	raw			6	0.8111598440545809	0.006199380061993801	
+genome_only	new_arch_all		base_GLM	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	poisson_quasi	7	0.8755221386800336	0.0005999400059994001	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.553, ""T_dictyostelia"": 0.974, ""T_streptophyta"": 0.974, ""T_rhodophyta"": 0.763, ""T_px_filaments"": 0.921, ""T_volvocine_tgv"": 0.972}"
+genome_only	new_arch_all		base_GLM	raw			7	0.8132832080200502	0.0029997000299970002	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.816, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.868, ""T_rhodophyta"": 0.447, ""T_px_filaments"": 0.974, ""T_volvocine_tgv"": 0.694}"
+genome_only	new_arch_all	T_metazoa	base_GLM	residual			6	0.8594054580896686	0.0012998700129987	
+genome_only	new_arch_all	T_metazoa	base_GLM	raw			6	0.7867933723196882	0.0105989401059894	
+genome_only	new_arch_all	T_fungi_hyphae	base_GLM	residual			6	0.9293372319688108	9.999000099990002e-05	
+genome_only	new_arch_all	T_fungi_hyphae	base_GLM	raw			6	0.8128654970760234	0.005599440055994401	
+genome_only	new_arch_all	T_dictyostelia	base_GLM	residual			6	0.8591617933723197	0.0017998200179982	
+genome_only	new_arch_all	T_dictyostelia	base_GLM	raw			6	0.7953216374269005	0.008999100089991	
+genome_only	new_arch_all	T_streptophyta	base_GLM	residual			6	0.8591617933723197	0.0011998800119988001	
+genome_only	new_arch_all	T_streptophyta	base_GLM	raw			6	0.8040935672514619	0.006999300069993001	
+genome_only	new_arch_all	T_rhodophyta	base_GLM	residual			6	0.8942495126705654	0.00029997000299970003	
+genome_only	new_arch_all	T_rhodophyta	base_GLM	raw			6	0.8742690058479532	0.0012998700129987	
+genome_only	new_arch_all	T_px_filaments	base_GLM	residual			6	0.8679337231968812	0.0010998900109989002	
+genome_only	new_arch_all	T_px_filaments	base_GLM	raw			6	0.7865497076023392	0.010698930106989302	
+genome_only	new_arch_all	T_volvocine_tgv	base_GLM	residual			6	0.8594054580896687	0.0021997800219978004	
+genome_only	new_arch_all	T_volvocine_tgv	base_GLM	raw			6	0.8330896686159844	0.0031996800319968005	
+genome_only	new_arch_all		GLM+mean_busco_desc	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	poisson_quasi	7	0.8755221386800336	0.0005999400059994001	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.553, ""T_dictyostelia"": 0.974, ""T_streptophyta"": 0.974, ""T_rhodophyta"": 0.763, ""T_px_filaments"": 0.921, ""T_volvocine_tgv"": 0.972}"
+genome_only	new_arch_all		GLM+mean_busco_desc	raw			7	0.8132832080200502	0.0029997000299970002	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.816, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.868, ""T_rhodophyta"": 0.447, ""T_px_filaments"": 0.974, ""T_volvocine_tgv"": 0.694}"
+genome_only	new_arch_all	T_metazoa	GLM+mean_busco_desc	residual			6	0.8594054580896686	0.0012998700129987	
+genome_only	new_arch_all	T_metazoa	GLM+mean_busco_desc	raw			6	0.7867933723196882	0.0105989401059894	
+genome_only	new_arch_all	T_fungi_hyphae	GLM+mean_busco_desc	residual			6	0.9293372319688108	9.999000099990002e-05	
+genome_only	new_arch_all	T_fungi_hyphae	GLM+mean_busco_desc	raw			6	0.8128654970760234	0.005599440055994401	
+genome_only	new_arch_all	T_dictyostelia	GLM+mean_busco_desc	residual			6	0.8591617933723197	0.0017998200179982	
+genome_only	new_arch_all	T_dictyostelia	GLM+mean_busco_desc	raw			6	0.7953216374269005	0.008999100089991	
+genome_only	new_arch_all	T_streptophyta	GLM+mean_busco_desc	residual			6	0.8591617933723197	0.0011998800119988001	
+genome_only	new_arch_all	T_streptophyta	GLM+mean_busco_desc	raw			6	0.8040935672514619	0.006999300069993001	
+genome_only	new_arch_all	T_rhodophyta	GLM+mean_busco_desc	residual			6	0.8942495126705654	0.00029997000299970003	
+genome_only	new_arch_all	T_rhodophyta	GLM+mean_busco_desc	raw			6	0.8742690058479532	0.0012998700129987	
+genome_only	new_arch_all	T_px_filaments	GLM+mean_busco_desc	residual			6	0.8679337231968812	0.0010998900109989002	
+genome_only	new_arch_all	T_px_filaments	GLM+mean_busco_desc	raw			6	0.7865497076023392	0.010698930106989302	
+genome_only	new_arch_all	T_volvocine_tgv	GLM+mean_busco_desc	residual			6	0.8594054580896687	0.0021997800219978004	
+genome_only	new_arch_all	T_volvocine_tgv	GLM+mean_busco_desc	raw			6	0.8330896686159844	0.0031996800319968005	
+genome_only	new_arch_all		GLM_recounted_n	residual	log_bl,log_n_desc_kept,log_n_sister_kept	poisson_quasi	7	0.8379281537176275	0.0015998400159984002	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.5, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.868, ""T_rhodophyta"": 0.658, ""T_px_filaments"": 0.974, ""T_volvocine_tgv"": 0.972}"
+genome_only	new_arch_all		GLM_recounted_n	raw			7	0.8132832080200502	0.0029997000299970002	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.816, ""T_dictyostelia"": 0.921, ""T_streptophyta"": 0.868, ""T_rhodophyta"": 0.447, ""T_px_filaments"": 0.974, ""T_volvocine_tgv"": 0.694}"
+genome_only	new_arch_all	T_metazoa	GLM_recounted_n	residual			6	0.8155458089668617	0.0058994100589941	
+genome_only	new_arch_all	T_metazoa	GLM_recounted_n	raw			6	0.7867933723196882	0.0105989401059894	
+genome_only	new_arch_all	T_fungi_hyphae	GLM_recounted_n	residual			6	0.8942495126705654	0.00019998000199980003	
+genome_only	new_arch_all	T_fungi_hyphae	GLM_recounted_n	raw			6	0.8128654970760234	0.005599440055994401	
+genome_only	new_arch_all	T_dictyostelia	GLM_recounted_n	residual			6	0.8240740740740741	0.0037996200379962005	
+genome_only	new_arch_all	T_dictyostelia	GLM_recounted_n	raw			6	0.7953216374269005	0.008999100089991	
+genome_only	new_arch_all	T_streptophyta	GLM_recounted_n	residual			6	0.8328460038986355	0.0025997400259974	
+genome_only	new_arch_all	T_streptophyta	GLM_recounted_n	raw			6	0.8040935672514619	0.006999300069993001	
+genome_only	new_arch_all	T_rhodophyta	GLM_recounted_n	residual			6	0.8679337231968812	0.0008999100089991	
+genome_only	new_arch_all	T_rhodophyta	GLM_recounted_n	raw			6	0.8742690058479532	0.0012998700129987	
+genome_only	new_arch_all	T_px_filaments	GLM_recounted_n	residual			6	0.8153021442495128	0.0046995300469953	
+genome_only	new_arch_all	T_px_filaments	GLM_recounted_n	raw			6	0.7865497076023392	0.010698930106989302	
+genome_only	new_arch_all	T_volvocine_tgv	GLM_recounted_n	residual			6	0.8155458089668617	0.0047995200479952005	
+genome_only	new_arch_all	T_volvocine_tgv	GLM_recounted_n	raw			6	0.8330896686159844	0.0031996800319968005	
+genome_busco80_hq	new_arch_multi		base_GLM	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	poisson_quasi	6	0.763095238095238	0.0206979302069793	"{""T_metazoa"": 0.964, ""T_fungi_hyphae"": 0.5, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.9, ""T_px_filaments"": 0.821, ""T_volvocine_tgv"": 0.5}"
+genome_busco80_hq	new_arch_multi		base_GLM	raw			6	0.7559523809523809	0.022497750224977502	"{""T_metazoa"": 0.964, ""T_fungi_hyphae"": 0.833, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.9, ""T_px_filaments"": 0.679, ""T_volvocine_tgv"": 0.267}"
+genome_busco80_hq	new_arch_multi	T_metazoa	base_GLM	residual			5	0.7228571428571428	0.057894210578942104	
+genome_busco80_hq	new_arch_multi	T_metazoa	base_GLM	raw			5	0.7142857142857142	0.060493950604939506	
+genome_busco80_hq	new_arch_multi	T_fungi_hyphae	base_GLM	residual			5	0.8157142857142856	0.010798920107989201	
+genome_busco80_hq	new_arch_multi	T_fungi_hyphae	base_GLM	raw			5	0.7404761904761905	0.040495950404959506	
+genome_busco80_hq	new_arch_multi	T_dictyostelia	base_GLM	residual			5	0.7371428571428572	0.044495550444955505	
+genome_busco80_hq	new_arch_multi	T_dictyostelia	base_GLM	raw			5	0.7285714285714286	0.053394660533946606	
+genome_busco80_hq	new_arch_multi	T_streptophyta	base_GLM	residual			5	0.7357142857142858	0.047495250474952504	
+genome_busco80_hq	new_arch_multi	T_streptophyta	base_GLM	raw			5	0.7271428571428572	0.04939506049395061	
+genome_busco80_hq	new_arch_multi	T_rhodophyta	base_GLM	residual			6	0.763095238095238	0.0206979302069793	
+genome_busco80_hq	new_arch_multi	T_rhodophyta	base_GLM	raw			6	0.7559523809523809	0.022497750224977502	
+genome_busco80_hq	new_arch_multi	T_px_filaments	base_GLM	residual			5	0.7514285714285714	0.0364963503649635	
+genome_busco80_hq	new_arch_multi	T_px_filaments	base_GLM	raw			5	0.7714285714285715	0.025197480251974803	
+genome_busco80_hq	new_arch_multi	T_volvocine_tgv	base_GLM	residual			5	0.8157142857142856	0.0112988701129887	
+genome_busco80_hq	new_arch_multi	T_volvocine_tgv	base_GLM	raw			5	0.8538095238095238	0.0038996100389961006	
+genome_busco80_hq	new_arch_multi		GLM+mean_busco_desc	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	poisson_quasi	6	0.763095238095238	0.0206979302069793	"{""T_metazoa"": 0.964, ""T_fungi_hyphae"": 0.5, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.9, ""T_px_filaments"": 0.821, ""T_volvocine_tgv"": 0.5}"
+genome_busco80_hq	new_arch_multi		GLM+mean_busco_desc	raw			6	0.7559523809523809	0.022497750224977502	"{""T_metazoa"": 0.964, ""T_fungi_hyphae"": 0.833, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.9, ""T_px_filaments"": 0.679, ""T_volvocine_tgv"": 0.267}"
+genome_busco80_hq	new_arch_multi	T_metazoa	GLM+mean_busco_desc	residual			5	0.7228571428571428	0.057894210578942104	
+genome_busco80_hq	new_arch_multi	T_metazoa	GLM+mean_busco_desc	raw			5	0.7142857142857142	0.060493950604939506	
+genome_busco80_hq	new_arch_multi	T_fungi_hyphae	GLM+mean_busco_desc	residual			5	0.8157142857142856	0.010798920107989201	
+genome_busco80_hq	new_arch_multi	T_fungi_hyphae	GLM+mean_busco_desc	raw			5	0.7404761904761905	0.040495950404959506	
+genome_busco80_hq	new_arch_multi	T_dictyostelia	GLM+mean_busco_desc	residual			5	0.7371428571428572	0.044495550444955505	
+genome_busco80_hq	new_arch_multi	T_dictyostelia	GLM+mean_busco_desc	raw			5	0.7285714285714286	0.053394660533946606	
+genome_busco80_hq	new_arch_multi	T_streptophyta	GLM+mean_busco_desc	residual			5	0.7357142857142858	0.047495250474952504	
+genome_busco80_hq	new_arch_multi	T_streptophyta	GLM+mean_busco_desc	raw			5	0.7271428571428572	0.04939506049395061	
+genome_busco80_hq	new_arch_multi	T_rhodophyta	GLM+mean_busco_desc	residual			6	0.763095238095238	0.0206979302069793	
+genome_busco80_hq	new_arch_multi	T_rhodophyta	GLM+mean_busco_desc	raw			6	0.7559523809523809	0.022497750224977502	
+genome_busco80_hq	new_arch_multi	T_px_filaments	GLM+mean_busco_desc	residual			5	0.7514285714285714	0.0364963503649635	
+genome_busco80_hq	new_arch_multi	T_px_filaments	GLM+mean_busco_desc	raw			5	0.7714285714285715	0.025197480251974803	
+genome_busco80_hq	new_arch_multi	T_volvocine_tgv	GLM+mean_busco_desc	residual			5	0.8157142857142856	0.0112988701129887	
+genome_busco80_hq	new_arch_multi	T_volvocine_tgv	GLM+mean_busco_desc	raw			5	0.8538095238095238	0.0038996100389961006	
+genome_busco80_hq	new_arch_multi		GLM_recounted_n	residual	log_bl,log_n_desc_kept,log_n_sister_kept	nb	6	0.6892857142857144	0.07729227077292271	"{""T_metazoa"": 0.893, ""T_fungi_hyphae"": 0.7, ""T_dictyostelia"": 0.464, ""T_streptophyta"": 0.7, ""T_px_filaments"": 0.679, ""T_volvocine_tgv"": 0.7}"
+genome_busco80_hq	new_arch_multi		GLM_recounted_n	raw			6	0.7559523809523809	0.022497750224977502	"{""T_metazoa"": 0.964, ""T_fungi_hyphae"": 0.833, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.9, ""T_px_filaments"": 0.679, ""T_volvocine_tgv"": 0.267}"
+genome_busco80_hq	new_arch_multi	T_metazoa	GLM_recounted_n	residual			5	0.6485714285714286	0.1516848315168483	
+genome_busco80_hq	new_arch_multi	T_metazoa	GLM_recounted_n	raw			5	0.7142857142857142	0.060493950604939506	
+genome_busco80_hq	new_arch_multi	T_fungi_hyphae	GLM_recounted_n	residual			5	0.6871428571428572	0.09409059094090591	
+genome_busco80_hq	new_arch_multi	T_fungi_hyphae	GLM_recounted_n	raw			5	0.7404761904761905	0.040495950404959506	
+genome_busco80_hq	new_arch_multi	T_dictyostelia	GLM_recounted_n	residual			5	0.7342857142857143	0.0496950304969503	
+genome_busco80_hq	new_arch_multi	T_dictyostelia	GLM_recounted_n	raw			5	0.7285714285714286	0.053394660533946606	
+genome_busco80_hq	new_arch_multi	T_streptophyta	GLM_recounted_n	residual			5	0.6871428571428572	0.09299070092990701	
+genome_busco80_hq	new_arch_multi	T_streptophyta	GLM_recounted_n	raw			5	0.7271428571428572	0.04939506049395061	
+genome_busco80_hq	new_arch_multi	T_rhodophyta	GLM_recounted_n	residual			6	0.6892857142857144	0.07729227077292271	
+genome_busco80_hq	new_arch_multi	T_rhodophyta	GLM_recounted_n	raw			6	0.7559523809523809	0.022497750224977502	
+genome_busco80_hq	new_arch_multi	T_px_filaments	GLM_recounted_n	residual			5	0.6914285714285715	0.08799120087991201	
+genome_busco80_hq	new_arch_multi	T_px_filaments	GLM_recounted_n	raw			5	0.7714285714285715	0.025197480251974803	
+genome_busco80_hq	new_arch_multi	T_volvocine_tgv	GLM_recounted_n	residual			5	0.6871428571428572	0.09429057094290572	
+genome_busco80_hq	new_arch_multi	T_volvocine_tgv	GLM_recounted_n	raw			5	0.8538095238095238	0.0038996100389961006	
+genome_busco80_hq	new_arch_all		base_GLM	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	poisson_quasi	6	0.7845238095238095	0.0143985601439856	"{""T_metazoa"": 0.893, ""T_fungi_hyphae"": 0.633, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.967, ""T_px_filaments"": 0.821, ""T_volvocine_tgv"": 0.5}"
+genome_busco80_hq	new_arch_all		base_GLM	raw			6	0.7448412698412699	0.027097290270972903	"{""T_metazoa"": 0.964, ""T_fungi_hyphae"": 0.833, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.833, ""T_px_filaments"": 0.679, ""T_volvocine_tgv"": 0.267}"
+genome_busco80_hq	new_arch_all	T_metazoa	base_GLM	residual			5	0.7628571428571428	0.031096890310968902	
+genome_busco80_hq	new_arch_all	T_metazoa	base_GLM	raw			5	0.700952380952381	0.07429257074292571	
+genome_busco80_hq	new_arch_all	T_fungi_hyphae	base_GLM	residual			5	0.8147619047619047	0.0098990100989901	
+genome_busco80_hq	new_arch_all	T_fungi_hyphae	base_GLM	raw			5	0.7271428571428572	0.049795020497950204	
+genome_busco80_hq	new_arch_all	T_dictyostelia	base_GLM	residual			5	0.7628571428571428	0.029197080291970802	
+genome_busco80_hq	new_arch_all	T_dictyostelia	base_GLM	raw			5	0.7152380952380952	0.06409359064093591	
+genome_busco80_hq	new_arch_all	T_streptophyta	base_GLM	residual			5	0.7480952380952381	0.0377962203779622	
+genome_busco80_hq	new_arch_all	T_streptophyta	base_GLM	raw			5	0.7271428571428572	0.0491950804919508	
+genome_busco80_hq	new_arch_all	T_rhodophyta	base_GLM	residual			6	0.7845238095238095	0.0143985601439856	
+genome_busco80_hq	new_arch_all	T_rhodophyta	base_GLM	raw			6	0.7448412698412699	0.027097290270972903	
+genome_busco80_hq	new_arch_all	T_px_filaments	base_GLM	residual			5	0.7771428571428571	0.022797720227977204	
+genome_busco80_hq	new_arch_all	T_px_filaments	base_GLM	raw			5	0.7580952380952382	0.032296770322967704	
+genome_busco80_hq	new_arch_all	T_volvocine_tgv	base_GLM	residual			5	0.8414285714285714	0.0059994000599940004	
+genome_busco80_hq	new_arch_all	T_volvocine_tgv	base_GLM	raw			5	0.8404761904761905	0.005499450054994501	
+genome_busco80_hq	new_arch_all		GLM+mean_busco_desc	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	poisson_quasi	6	0.7845238095238095	0.0143985601439856	"{""T_metazoa"": 0.893, ""T_fungi_hyphae"": 0.633, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.967, ""T_px_filaments"": 0.821, ""T_volvocine_tgv"": 0.5}"
+genome_busco80_hq	new_arch_all		GLM+mean_busco_desc	raw			6	0.7448412698412699	0.027097290270972903	"{""T_metazoa"": 0.964, ""T_fungi_hyphae"": 0.833, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.833, ""T_px_filaments"": 0.679, ""T_volvocine_tgv"": 0.267}"
+genome_busco80_hq	new_arch_all	T_metazoa	GLM+mean_busco_desc	residual			5	0.7628571428571428	0.031096890310968902	
+genome_busco80_hq	new_arch_all	T_metazoa	GLM+mean_busco_desc	raw			5	0.700952380952381	0.07429257074292571	
+genome_busco80_hq	new_arch_all	T_fungi_hyphae	GLM+mean_busco_desc	residual			5	0.8147619047619047	0.0098990100989901	
+genome_busco80_hq	new_arch_all	T_fungi_hyphae	GLM+mean_busco_desc	raw			5	0.7271428571428572	0.049795020497950204	
+genome_busco80_hq	new_arch_all	T_dictyostelia	GLM+mean_busco_desc	residual			5	0.7628571428571428	0.029197080291970802	
+genome_busco80_hq	new_arch_all	T_dictyostelia	GLM+mean_busco_desc	raw			5	0.7152380952380952	0.06409359064093591	
+genome_busco80_hq	new_arch_all	T_streptophyta	GLM+mean_busco_desc	residual			5	0.7480952380952381	0.0377962203779622	
+genome_busco80_hq	new_arch_all	T_streptophyta	GLM+mean_busco_desc	raw			5	0.7271428571428572	0.0491950804919508	
+genome_busco80_hq	new_arch_all	T_rhodophyta	GLM+mean_busco_desc	residual			6	0.7845238095238095	0.0143985601439856	
+genome_busco80_hq	new_arch_all	T_rhodophyta	GLM+mean_busco_desc	raw			6	0.7448412698412699	0.027097290270972903	
+genome_busco80_hq	new_arch_all	T_px_filaments	GLM+mean_busco_desc	residual			5	0.7771428571428571	0.022797720227977204	
+genome_busco80_hq	new_arch_all	T_px_filaments	GLM+mean_busco_desc	raw			5	0.7580952380952382	0.032296770322967704	
+genome_busco80_hq	new_arch_all	T_volvocine_tgv	GLM+mean_busco_desc	residual			5	0.8414285714285714	0.0059994000599940004	
+genome_busco80_hq	new_arch_all	T_volvocine_tgv	GLM+mean_busco_desc	raw			5	0.8404761904761905	0.005499450054994501	
+genome_busco80_hq	new_arch_all		GLM_recounted_n	residual	log_bl,log_n_desc_kept,log_n_sister_kept	nb	6	0.7123015873015873	0.055894410558944105	"{""T_metazoa"": 0.893, ""T_fungi_hyphae"": 0.7, ""T_dictyostelia"": 0.536, ""T_streptophyta"": 0.767, ""T_px_filaments"": 0.679, ""T_volvocine_tgv"": 0.7}"
+genome_busco80_hq	new_arch_all		GLM_recounted_n	raw			6	0.7448412698412699	0.027097290270972903	"{""T_metazoa"": 0.964, ""T_fungi_hyphae"": 0.833, ""T_dictyostelia"": 0.893, ""T_streptophyta"": 0.833, ""T_px_filaments"": 0.679, ""T_volvocine_tgv"": 0.267}"
+genome_busco80_hq	new_arch_all	T_metazoa	GLM_recounted_n	residual			5	0.6761904761904762	0.10868913108689131	
+genome_busco80_hq	new_arch_all	T_metazoa	GLM_recounted_n	raw			5	0.700952380952381	0.07429257074292571	
+genome_busco80_hq	new_arch_all	T_fungi_hyphae	GLM_recounted_n	residual			5	0.7147619047619049	0.06309369063093691	
+genome_busco80_hq	new_arch_all	T_fungi_hyphae	GLM_recounted_n	raw			5	0.7271428571428572	0.049795020497950204	
+genome_busco80_hq	new_arch_all	T_dictyostelia	GLM_recounted_n	residual			5	0.7476190476190476	0.0397960203979602	
+genome_busco80_hq	new_arch_all	T_dictyostelia	GLM_recounted_n	raw			5	0.7152380952380952	0.06409359064093591	
+genome_busco80_hq	new_arch_all	T_streptophyta	GLM_recounted_n	residual			5	0.7014285714285714	0.07629237076292371	
+genome_busco80_hq	new_arch_all	T_streptophyta	GLM_recounted_n	raw			5	0.7271428571428572	0.0491950804919508	
+genome_busco80_hq	new_arch_all	T_rhodophyta	GLM_recounted_n	residual			6	0.7123015873015873	0.055894410558944105	
+genome_busco80_hq	new_arch_all	T_rhodophyta	GLM_recounted_n	raw			6	0.7448412698412699	0.027097290270972903	
+genome_busco80_hq	new_arch_all	T_px_filaments	GLM_recounted_n	residual			5	0.7190476190476189	0.06059394060593941	
+genome_busco80_hq	new_arch_all	T_px_filaments	GLM_recounted_n	raw			5	0.7580952380952382	0.032296770322967704	
+genome_busco80_hq	new_arch_all	T_volvocine_tgv	GLM_recounted_n	residual			5	0.7147619047619047	0.06519348065193481	
+genome_busco80_hq	new_arch_all	T_volvocine_tgv	GLM_recounted_n	raw			5	0.8404761904761905	0.005499450054994501	
+busco80	new_arch_multi		base_GLM	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	nb	6	0.6284381808278866	0.16128387161283872	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.528, ""T_dictyostelia"": 0.656, ""T_streptophyta"": 0.75, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.306}"
+busco80	new_arch_multi		base_GLM	raw			6	0.666632625272331	0.098990100989901	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.778, ""T_dictyostelia"": 0.719, ""T_streptophyta"": 0.806, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.167}"
+busco80	new_arch_multi	T_metazoa	base_GLM	residual			5	0.5596813725490195	0.3408659134086591	
+busco80	new_arch_multi	T_metazoa	base_GLM	raw			5	0.6055147058823528	0.22827717228277172	
+busco80	new_arch_multi	T_fungi_hyphae	base_GLM	residual			5	0.6485702614379084	0.14358564143585642	
+busco80	new_arch_multi	T_fungi_hyphae	base_GLM	raw			5	0.6444035947712418	0.1488851114888511	
+busco80	new_arch_multi	T_dictyostelia	base_GLM	residual			5	0.622875816993464	0.20427957204279573	
+busco80	new_arch_multi	T_dictyostelia	base_GLM	raw			5	0.6562091503267973	0.1351864813518648	
+busco80	new_arch_multi	T_streptophyta	base_GLM	residual			5	0.604125816993464	0.22857714228577142	
+busco80	new_arch_multi	T_streptophyta	base_GLM	raw			5	0.6388480392156862	0.1613838616138386	
+busco80	new_arch_multi	T_rhodophyta	base_GLM	residual			6	0.6284381808278866	0.16128387161283872	
+busco80	new_arch_multi	T_rhodophyta	base_GLM	raw			6	0.666632625272331	0.098990100989901	
+busco80	new_arch_multi	T_px_filaments	base_GLM	residual			5	0.642361111111111	0.15528447155284472	
+busco80	new_arch_multi	T_px_filaments	base_GLM	raw			5	0.6881944444444443	0.08819118088191182	
+busco80	new_arch_multi	T_volvocine_tgv	base_GLM	residual			5	0.6930147058823529	0.08249175082491751	
+busco80	new_arch_multi	T_volvocine_tgv	base_GLM	raw			5	0.766625816993464	0.025697430256974303	
+busco80	new_arch_multi		GLM+mean_busco_desc	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	nb	6	0.6284381808278866	0.16128387161283872	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.528, ""T_dictyostelia"": 0.656, ""T_streptophyta"": 0.75, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.306}"
+busco80	new_arch_multi		GLM+mean_busco_desc	raw			6	0.666632625272331	0.098990100989901	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.778, ""T_dictyostelia"": 0.719, ""T_streptophyta"": 0.806, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.167}"
+busco80	new_arch_multi	T_metazoa	GLM+mean_busco_desc	residual			5	0.5596813725490195	0.3408659134086591	
+busco80	new_arch_multi	T_metazoa	GLM+mean_busco_desc	raw			5	0.6055147058823528	0.22827717228277172	
+busco80	new_arch_multi	T_fungi_hyphae	GLM+mean_busco_desc	residual			5	0.6485702614379084	0.14358564143585642	
+busco80	new_arch_multi	T_fungi_hyphae	GLM+mean_busco_desc	raw			5	0.6444035947712418	0.1488851114888511	
+busco80	new_arch_multi	T_dictyostelia	GLM+mean_busco_desc	residual			5	0.622875816993464	0.20427957204279573	
+busco80	new_arch_multi	T_dictyostelia	GLM+mean_busco_desc	raw			5	0.6562091503267973	0.1351864813518648	
+busco80	new_arch_multi	T_streptophyta	GLM+mean_busco_desc	residual			5	0.604125816993464	0.22857714228577142	
+busco80	new_arch_multi	T_streptophyta	GLM+mean_busco_desc	raw			5	0.6388480392156862	0.1613838616138386	
+busco80	new_arch_multi	T_rhodophyta	GLM+mean_busco_desc	residual			6	0.6284381808278866	0.16128387161283872	
+busco80	new_arch_multi	T_rhodophyta	GLM+mean_busco_desc	raw			6	0.666632625272331	0.098990100989901	
+busco80	new_arch_multi	T_px_filaments	GLM+mean_busco_desc	residual			5	0.642361111111111	0.15528447155284472	
+busco80	new_arch_multi	T_px_filaments	GLM+mean_busco_desc	raw			5	0.6881944444444443	0.08819118088191182	
+busco80	new_arch_multi	T_volvocine_tgv	GLM+mean_busco_desc	residual			5	0.6930147058823529	0.08249175082491751	
+busco80	new_arch_multi	T_volvocine_tgv	GLM+mean_busco_desc	raw			5	0.766625816993464	0.025697430256974303	
+busco80	new_arch_multi		GLM_recounted_n	residual	log_bl,log_n_desc_kept,log_n_sister_kept	nb	6	0.6074686819172114	0.20567943205679431	"{""T_metazoa"": 0.806, ""T_fungi_hyphae"": 0.528, ""T_dictyostelia"": 0.406, ""T_streptophyta"": 0.75, ""T_px_filaments"": 0.794, ""T_volvocine_tgv"": 0.361}"
+busco80	new_arch_multi		GLM_recounted_n	raw			6	0.666632625272331	0.098990100989901	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.778, ""T_dictyostelia"": 0.719, ""T_streptophyta"": 0.806, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.167}"
+busco80	new_arch_multi	T_metazoa	GLM_recounted_n	residual			5	0.5678513071895425	0.31496850314968505	
+busco80	new_arch_multi	T_metazoa	GLM_recounted_n	raw			5	0.6055147058823528	0.22827717228277172	
+busco80	new_arch_multi	T_fungi_hyphae	GLM_recounted_n	residual			5	0.623406862745098	0.19138086191380863	
+busco80	new_arch_multi	T_fungi_hyphae	GLM_recounted_n	raw			5	0.6444035947712418	0.1488851114888511	
+busco80	new_arch_multi	T_dictyostelia	GLM_recounted_n	residual			5	0.6477124183006536	0.1543845615438456	
+busco80	new_arch_multi	T_dictyostelia	GLM_recounted_n	raw			5	0.6562091503267973	0.1351864813518648	
+busco80	new_arch_multi	T_streptophyta	GLM_recounted_n	residual			5	0.5789624183006536	0.2886711328867113	
+busco80	new_arch_multi	T_streptophyta	GLM_recounted_n	raw			5	0.6388480392156862	0.1613838616138386	
+busco80	new_arch_multi	T_rhodophyta	GLM_recounted_n	residual			6	0.6074686819172114	0.20567943205679431	
+busco80	new_arch_multi	T_rhodophyta	GLM_recounted_n	raw			6	0.666632625272331	0.098990100989901	
+busco80	new_arch_multi	T_px_filaments	GLM_recounted_n	residual			5	0.570138888888889	0.3100689931006899	
+busco80	new_arch_multi	T_px_filaments	GLM_recounted_n	raw			5	0.6881944444444443	0.08819118088191182	
+busco80	new_arch_multi	T_volvocine_tgv	GLM_recounted_n	residual			5	0.6567401960784314	0.13158684131586842	
+busco80	new_arch_multi	T_volvocine_tgv	GLM_recounted_n	raw			5	0.766625816993464	0.025697430256974303	
+busco80	new_arch_all		base_GLM	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	nb	6	0.6469566993464052	0.12808719128087193	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.639, ""T_dictyostelia"": 0.656, ""T_streptophyta"": 0.75, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.306}"
+busco80	new_arch_all		base_GLM	raw			6	0.6816789215686274	0.07789221077892211	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.806, ""T_dictyostelia"": 0.781, ""T_streptophyta"": 0.806, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.167}"
+busco80	new_arch_all	T_metazoa	base_GLM	residual			5	0.5819035947712419	0.28557144285571445	
+busco80	new_arch_all	T_metazoa	base_GLM	raw			5	0.6235702614379085	0.1912808719128087	
+busco80	new_arch_all	T_fungi_hyphae	base_GLM	residual			5	0.6485702614379084	0.1434856514348565	
+busco80	new_arch_all	T_fungi_hyphae	base_GLM	raw			5	0.6569035947712417	0.1292870712928707	
+busco80	new_arch_all	T_dictyostelia	base_GLM	residual			5	0.6450980392156863	0.16378362163783622	
+busco80	new_arch_all	T_dictyostelia	base_GLM	raw			5	0.6617647058823528	0.1260873912608739	
+busco80	new_arch_all	T_streptophyta	base_GLM	residual			5	0.6263480392156863	0.1817818218178182	
+busco80	new_arch_all	T_streptophyta	base_GLM	raw			5	0.6569035947712417	0.12888711128887112	
+busco80	new_arch_all	T_rhodophyta	base_GLM	residual			6	0.6469566993464052	0.12808719128087193	
+busco80	new_arch_all	T_rhodophyta	base_GLM	raw			6	0.6816789215686274	0.07789221077892211	
+busco80	new_arch_all	T_px_filaments	base_GLM	residual			5	0.6645833333333334	0.11948805119488051	
+busco80	new_arch_all	T_px_filaments	base_GLM	raw			5	0.7062499999999999	0.07029297070292971	
+busco80	new_arch_all	T_volvocine_tgv	base_GLM	residual			5	0.7152369281045752	0.0603939606039396	
+busco80	new_arch_all	T_volvocine_tgv	base_GLM	raw			5	0.7846813725490195	0.017298270172982702	
+busco80	new_arch_all		GLM+mean_busco_desc	residual	log_bl,log_n_desc,log_n_sister,frac_tx_desc	nb	6	0.6469566993464052	0.12808719128087193	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.639, ""T_dictyostelia"": 0.656, ""T_streptophyta"": 0.75, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.306}"
+busco80	new_arch_all		GLM+mean_busco_desc	raw			6	0.6816789215686274	0.07789221077892211	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.806, ""T_dictyostelia"": 0.781, ""T_streptophyta"": 0.806, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.167}"
+busco80	new_arch_all	T_metazoa	GLM+mean_busco_desc	residual			5	0.5819035947712419	0.28557144285571445	
+busco80	new_arch_all	T_metazoa	GLM+mean_busco_desc	raw			5	0.6235702614379085	0.1912808719128087	
+busco80	new_arch_all	T_fungi_hyphae	GLM+mean_busco_desc	residual			5	0.6485702614379084	0.1434856514348565	
+busco80	new_arch_all	T_fungi_hyphae	GLM+mean_busco_desc	raw			5	0.6569035947712417	0.1292870712928707	
+busco80	new_arch_all	T_dictyostelia	GLM+mean_busco_desc	residual			5	0.6450980392156863	0.16378362163783622	
+busco80	new_arch_all	T_dictyostelia	GLM+mean_busco_desc	raw			5	0.6617647058823528	0.1260873912608739	
+busco80	new_arch_all	T_streptophyta	GLM+mean_busco_desc	residual			5	0.6263480392156863	0.1817818218178182	
+busco80	new_arch_all	T_streptophyta	GLM+mean_busco_desc	raw			5	0.6569035947712417	0.12888711128887112	
+busco80	new_arch_all	T_rhodophyta	GLM+mean_busco_desc	residual			6	0.6469566993464052	0.12808719128087193	
+busco80	new_arch_all	T_rhodophyta	GLM+mean_busco_desc	raw			6	0.6816789215686274	0.07789221077892211	
+busco80	new_arch_all	T_px_filaments	GLM+mean_busco_desc	residual			5	0.6645833333333334	0.11948805119488051	
+busco80	new_arch_all	T_px_filaments	GLM+mean_busco_desc	raw			5	0.7062499999999999	0.07029297070292971	
+busco80	new_arch_all	T_volvocine_tgv	GLM+mean_busco_desc	residual			5	0.7152369281045752	0.0603939606039396	
+busco80	new_arch_all	T_volvocine_tgv	GLM+mean_busco_desc	raw			5	0.7846813725490195	0.017298270172982702	
+busco80	new_arch_all		GLM_recounted_n	residual	log_bl,log_n_desc_kept,log_n_sister_kept	nb	6	0.6456631263616558	0.13338666133386662	"{""T_metazoa"": 0.917, ""T_fungi_hyphae"": 0.583, ""T_dictyostelia"": 0.469, ""T_streptophyta"": 0.75, ""T_px_filaments"": 0.794, ""T_volvocine_tgv"": 0.361}"
+busco80	new_arch_all		GLM_recounted_n	raw			6	0.6816789215686274	0.07789221077892211	"{""T_metazoa"": 0.972, ""T_fungi_hyphae"": 0.806, ""T_dictyostelia"": 0.781, ""T_streptophyta"": 0.806, ""T_px_filaments"": 0.559, ""T_volvocine_tgv"": 0.167}"
+busco80	new_arch_all	T_metazoa	GLM_recounted_n	residual			5	0.5914624183006536	0.26137386261373863	
+busco80	new_arch_all	T_metazoa	GLM_recounted_n	raw			5	0.6235702614379085	0.1912808719128087	
+busco80	new_arch_all	T_fungi_hyphae	GLM_recounted_n	residual			5	0.6581290849673203	0.1284871512848715	
+busco80	new_arch_all	T_fungi_hyphae	GLM_recounted_n	raw			5	0.6569035947712417	0.1292870712928707	
+busco80	new_arch_all	T_dictyostelia	GLM_recounted_n	residual			5	0.681045751633987	0.10578942105789421	
+busco80	new_arch_all	T_dictyostelia	GLM_recounted_n	raw			5	0.6617647058823528	0.1260873912608739	
+busco80	new_arch_all	T_streptophyta	GLM_recounted_n	residual			5	0.6247957516339869	0.1862813718628137	
+busco80	new_arch_all	T_streptophyta	GLM_recounted_n	raw			5	0.6569035947712417	0.12888711128887112	
+busco80	new_arch_all	T_rhodophyta	GLM_recounted_n	residual			6	0.6456631263616558	0.13338666133386662	
+busco80	new_arch_all	T_rhodophyta	GLM_recounted_n	raw			6	0.6816789215686274	0.07789221077892211	
+busco80	new_arch_all	T_px_filaments	GLM_recounted_n	residual			5	0.6159722222222223	0.20337966203379662	
+busco80	new_arch_all	T_px_filaments	GLM_recounted_n	raw			5	0.7062499999999999	0.07029297070292971	
+busco80	new_arch_all	T_volvocine_tgv	GLM_recounted_n	residual			5	0.7025735294117647	0.07479252074792521	
+busco80	new_arch_all	T_volvocine_tgv	GLM_recounted_n	raw			5	0.7846813725490195	0.017298270172982702	

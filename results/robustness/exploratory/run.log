@@ -1,0 +1,90 @@
+[posthoc     0.5s] part 1: convergent loss
+[posthoc    22.9s] baseline {'G2_obs': 421, 'G2_permute_null_mean': 191.58, 'G2_permute_p': 0.0433956604339566, 'G3_obs': 30, 'G3_permute_null_mean': 12.31, 'G3_permute_p': 0.08909109089091091, 'G2_matched_null_mean': 158.63, 'G2_matched_p': 0.0053994600539946005, 'G3_matched_null_mean': 10.39, 'G3_matched_p': 0.062493750624937505, 'matched_scheme': 'matched'}
+[posthoc    72.0s] filter genome_only: {'analysis': 'species_filter+LOTO', 'dropped': 'T_rhodophyta', 'species_set': 'genome_only', 'n_transitions': 5, 'n_controls': 25, 'n_lost_per_transition': '', 'G2_obs': 47, 'G2_permute_null_mean': 127.26, 'G2_permute_p': 0.7589241075892411, 'G3_obs': 0, 'G3_permute_null_mean': 5.83, 'G3_permute_p': 1.0, 'G2_matched_null_mean': 114.3, 'G2_matched_p': 0.724027597240276, 'G3_matched_null_mean': 4.75, 'G3_matched_p': 1.0, 'matched_scheme': 'matched'}
+[posthoc    90.8s] filter busco80: {'analysis': 'species_filter+LOTO', 'dropped': 'T_dictyostelia', 'species_set': 'busco80', 'n_transitions': 5, 'n_controls': 22, 'n_lost_per_transition': '', 'G2_obs': 161, 'G2_permute_null_mean': 140.99, 'G2_permute_p': 0.34236576342365765, 'G3_obs': 7, 'G3_permute_null_mean': 7.1, 'G3_permute_p': 0.27687231276872315, 'G2_matched_null_mean': 114.79, 'G2_matched_p': 0.24547545245475452, 'G3_matched_null_mean': 4.75, 'G3_matched_p': 0.20637936206379362, 'matched_scheme': 'matched'}
+[posthoc   102.2s] filter genome_busco80_hq: {'analysis': 'species_filter', 'dropped': 'T_dictyostelia,T_rhodophyta', 'species_set': 'genome_busco80_hq', 'n_transitions': 5, 'n_controls': 15, 'n_lost_per_transition': '{"T_metazoa": 175, "T_fungi_hyphae": 316, "T_streptophyta": 513, "T_px_filaments": 742, "T_volvocine_tgv": 172}', 'G2_obs': 157, 'G2_permute_null_mean': 170.15, 'G2_permute_p': 0.42415758424157585, 'G3_obs': 6, 'G3_permute_null_mean': 9.43, 'G3_permute_p': 0.3287671232876712, 'G2_matched_null_mean': 133.8, 'G2_matched_p': 0.31526847315268475, 'G3_matched_null_mean': 6.01, 'G3_matched_p': 0.21997800219978003, 'matched_scheme': 'matched'}
+[posthoc   102.2s] wrote loss_species_filter_coverage.tsv
+[posthoc   102.5s] wrote loss_counts_per_contrast.tsv
+[posthoc   102.5s] wrote loss_count_dependence.tsv
+[posthoc   106.4s] matched_nM_nS: {'G2_obs': 421, 'G2_permute_null_mean': 191.58, 'G2_permute_p': 0.0433956604339566, 'G3_obs': 30, 'G3_permute_null_mean': 12.31, 'G3_permute_p': 0.08909109089091091, 'G2_matched_null_mean': 173.11, 'G2_matched_p': 9.999000099990002e-05, 'G3_matched_null_mean': 12.59, 'G3_matched_p': 0.058694130586941305, 'matched_scheme': 'matched'}
+[posthoc   110.4s] matched_nM_nS_busco: {'G2_obs': 421, 'G2_permute_null_mean': 191.58, 'G2_permute_p': 0.0433956604339566, 'G3_obs': 30, 'G3_permute_null_mean': 12.31, 'G3_permute_p': 0.08909109089091091, 'G2_matched_null_mean': 164.15, 'G2_matched_p': 9.999000099990002e-05, 'G3_matched_null_mean': 11.85, 'G3_matched_p': 0.054594540545945404, 'matched_scheme': 'matched'}
+[posthoc   114.3s] matched_n_lost: {'G2_obs': 421, 'G2_permute_null_mean': 191.58, 'G2_permute_p': 0.0433956604339566, 'G3_obs': 30, 'G3_permute_null_mean': 12.31, 'G3_permute_p': 0.08909109089091091, 'G2_matched_null_mean': 200.42, 'G2_matched_p': 0.0006999300069993001, 'G3_matched_null_mean': 14.04, 'G3_matched_p': 0.0811918808119188, 'matched_scheme': 'matched'}
+[posthoc   116.4s] fixed-margin uniform drop=None: 421 vs 349.7 p=0.0005
+[posthoc   118.2s] fixed-margin uniform drop=T_metazoa: 378 vs 316.9 p=0.0005
+[posthoc   120.0s] fixed-margin uniform drop=T_fungi_hyphae: 251 vs 261.5 p=0.813
+[posthoc   121.7s] fixed-margin uniform drop=T_dictyostelia: 87 vs 118.3 p=1
+[posthoc   123.5s] fixed-margin uniform drop=T_streptophyta: 317 vs 238.3 p=0.0005
+[posthoc   125.3s] fixed-margin uniform drop=T_rhodophyta: 323 vs 212.8 p=0.0005
+[posthoc   127.1s] fixed-margin uniform drop=T_px_filaments: 401 vs 323.9 p=0.0005
+[posthoc   128.9s] fixed-margin uniform drop=T_volvocine_tgv: 408 vs 331.2 p=0.0005
+[posthoc   130.3s] fixed-margin uniform drop=T_dictyostelia+T_rhodophyta: 43 vs 47.8 p=0.803
+[posthoc   132.5s] fixed-margin control_propensity drop=None: 421 vs 321.4 p=0.0005
+[posthoc   134.3s] fixed-margin control_propensity drop=T_metazoa: 378 vs 292.1 p=0.0005
+[posthoc   136.1s] fixed-margin control_propensity drop=T_fungi_hyphae: 251 vs 241.9 p=0.225
+[posthoc   137.8s] fixed-margin control_propensity drop=T_dictyostelia: 87 vs 106.9 p=0.986
+[posthoc   139.5s] fixed-margin control_propensity drop=T_streptophyta: 317 vs 214.9 p=0.0005
+[posthoc   141.3s] fixed-margin control_propensity drop=T_rhodophyta: 323 vs 200.2 p=0.0005
+[posthoc   143.1s] fixed-margin control_propensity drop=T_px_filaments: 401 vs 299.4 p=0.0005
+[posthoc   144.9s] fixed-margin control_propensity drop=T_volvocine_tgv: 408 vs 304.4 p=0.0005
+[posthoc   146.3s] fixed-margin control_propensity drop=T_dictyostelia+T_rhodophyta: 43 vs 40.6 p=0.364
+[posthoc   146.3s] wrote loss_fixed_margin_null.tsv
+[posthoc   146.3s] wrote loss_pairwise_overlap.tsv
+[posthoc   146.3s] wrote loss_convergence_checks.tsv
+[posthoc   147.6s] wrote loss_functional_enrichment.tsv
+[posthoc   147.7s] wrote loss_convergent_domains.tsv
+[posthoc   147.7s] wrote loss_k2_contribution.tsv
+[posthoc   147.7s] wrote loss_control_propensity.tsv
+[posthoc   147.8s] wrote loss_ciliary_profile.tsv
+[posthoc   147.8s] ciliated species 109/187; ciliary-profile domains excluded: 358; of k>=2 hits: 163
+[posthoc   155.7s] non-ciliary drop=None: {'dropped': '', 'n_domains_excluded': 358, 'n_transitions': 7, 'n_lost_per_transition': '{"T_metazoa": 110, "T_fungi_hyphae": 125, "T_dictyostelia": 1138, "T_streptophyta": 410, "T_rhodophyta": 497, "T_px_filaments": 81, "T_volvocine_tgv": 59}', 'G2_obs': 258, 'G2_permute_null_mean': 169.61, 'G2_permute_p': 0.16718328167183283, 'G3_obs': 17, 'G3_permute_null_mean': 10.75, 'G3_permute_p': 0.21577842215778423, 'G2_matched_null_mean': 151.16, 'G2_matched_p': 0.09859014098590141, 'G3_matched_null_mean': 9.95, 'G3_matched_p': 0.20067993200679932, 'matched_scheme': 'matched', 'fm_uniform_null_mean': 264.1405, 'fm_uniform_p': 0.7026486756621689, 'fm_propensity_null_mean': 241.169, 'fm_propensity_p': 0.0814592703648176}
+[posthoc   162.6s] non-ciliary drop=T_dictyostelia: {'dropped': 'T_dictyostelia', 'n_domains_excluded': 358, 'n_transitions': 6, 'n_lost_per_transition': '{"T_metazoa": 110, "T_fungi_hyphae": 125, "T_streptophyta": 410, "T_rhodophyta": 497, "T_px_filaments": 81, "T_volvocine_tgv": 59}', 'G2_obs': 69, 'G2_permute_null_mean': 107.78, 'G2_permute_p': 0.6802319768023197, 'G3_obs': 4, 'G3_permute_null_mean': 5.38, 'G3_permute_p': 0.46885311468853114, 'G2_matched_null_mean': 109.94, 'G2_matched_p': 0.7078292170782922, 'G3_matched_null_mean': 5.63, 'G3_matched_p': 0.47795220477952205, 'matched_scheme': 'matched', 'fm_uniform_null_mean': 88.511, 'fm_uniform_p': 0.9955022488755623, 'fm_propensity_null_mean': 81.3305, 'fm_propensity_p': 0.95952023988006}
+[posthoc   169.6s] non-ciliary drop=T_fungi_hyphae: {'dropped': 'T_fungi_hyphae', 'n_domains_excluded': 358, 'n_transitions': 6, 'n_lost_per_transition': '{"T_metazoa": 110, "T_dictyostelia": 1138, "T_streptophyta": 410, "T_rhodophyta": 497, "T_px_filaments": 81, "T_volvocine_tgv": 59}', 'G2_obs': 229, 'G2_permute_null_mean': 127.14, 'G2_permute_p': 0.1105889411058894, 'G3_obs': 11, 'G3_permute_null_mean': 6.6, 'G3_permute_p': 0.21187881211878812, 'G2_matched_null_mean': 112.87, 'G2_matched_p': 0.06259374062593741, 'G3_matched_null_mean': 6.02, 'G3_matched_p': 0.18868113188681132, 'matched_scheme': 'matched', 'fm_uniform_null_mean': 230.6715, 'fm_uniform_p': 0.567216391804098, 'fm_propensity_null_mean': 211.7075, 'fm_propensity_p': 0.07446276861569215}
+[posthoc   169.6s] wrote loss_convergence_nonciliary.tsv
+[posthoc   169.7s] part 2: architectures
+[posthoc   176.7s] arch all new_arch_multi done
+[posthoc   181.9s] arch all new_arch_all done
+[posthoc   199.4s] arch genome_only new_arch_multi done
+[posthoc   218.9s] arch genome_only new_arch_all done
+[posthoc   229.7s] arch genome_busco80_hq new_arch_multi done
+[posthoc   239.2s] arch genome_busco80_hq new_arch_all done
+[posthoc   242.9s] arch busco80 new_arch_multi done
+[posthoc   244.3s] arch busco80 new_arch_all done
+[posthoc   244.3s] wrote arch_checks.tsv
+[posthoc   244.3s] wrote arch_per_transition.tsv
+[posthoc   244.4s] part 3: co-option
+[posthoc   246.2s] wrote coopt_full_data.tsv
+[posthoc   246.2s] wrote coopt_C_vs_size_controls.tsv
+[posthoc   256.7s] controls subsampled pfam_expanded m=3
+[posthoc   265.4s] controls subsampled pfam_expanded m=4
+[posthoc   273.6s] controls subsampled pfam_expanded m=5
+[posthoc   286.4s] controls subsampled toolkit_present m=3
+[posthoc   296.9s] controls subsampled toolkit_present m=4
+[posthoc   306.8s] controls subsampled toolkit_present m=5
+[posthoc   309.3s] coopt pfam_expanded T_metazoa m=3: 0.769 vs ctrl 0.976
+[posthoc   311.8s] coopt pfam_expanded T_streptophyta m=3: 0.871 vs ctrl 0.987
+[posthoc   314.3s] coopt pfam_expanded T_metazoa m=4: 0.760 vs ctrl 0.974
+[posthoc   316.7s] coopt pfam_expanded T_streptophyta m=4: 0.838 vs ctrl 0.980
+[posthoc   319.3s] coopt pfam_expanded T_metazoa m=5: 0.793 vs ctrl 0.984
+[posthoc   321.8s] coopt pfam_expanded T_streptophyta m=5: 0.851 vs ctrl 0.986
+[posthoc   324.6s] coopt toolkit_present T_metazoa m=3: 0.815 vs ctrl 1.000
+[posthoc   327.5s] coopt toolkit_present T_streptophyta m=3: 0.911 vs ctrl 1.000
+[posthoc   330.3s] coopt toolkit_present T_metazoa m=4: 0.800 vs ctrl 1.000
+[posthoc   333.2s] coopt toolkit_present T_streptophyta m=4: 0.913 vs ctrl 1.000
+[posthoc   336.1s] coopt toolkit_present T_metazoa m=5: 0.812 vs ctrl 1.000
+[posthoc   339.0s] coopt toolkit_present T_streptophyta m=5: 0.911 vs ctrl 1.000
+[posthoc   339.0s] wrote coopt_subsamples.tsv
+[posthoc   352.4s] wrote coopt_subsample_summary.tsv
+[posthoc   352.4s] wrote coopt_T_size_matched.tsv
+Traceback (most recent call last):
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/robustness/exploratory_posthoc.py", line 698, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/robustness/exploratory_posthoc.py", line 693, in main
+    part_coopt(ctx, X, a)
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/robustness/exploratory_posthoc.py", line 664, in part_coopt
+    reg(dict(hypothesis=f"Q3 co-option index ({r['version']}) robustness",
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/robustness/exploratory_posthoc.py", line 78, in reg
+    bs.append_registry(os.path.join(ROOT, "results", "analysis_registry.tsv"), r)
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/mcell/branchstats.py", line 1594, in append_registry
+    raise ValueError(f"unknown registry fields: {sorted(bad)}")
+ValueError: unknown registry fields: ['ci']
