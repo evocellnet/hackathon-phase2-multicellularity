@@ -1,0 +1,109 @@
+query	db	acc	species	taxid	data_type	n_prot	busco	extra
+Dictyostelia	UniProt	UP000002195	Dictyostelium discoideum (Social amoeba)	44689	genome	12718	C:93.7%[S:89.8%,D:3.9%],F:1.6%,M:4.7%,n:255	GCA_000004695.1|full|Dictyostelia, Dictyosteliales, Dictyosteliaceae
+Dictyostelia	UniProt	UP000001064	Dictyostelium purpureum (Slime mold)	5786	genome	12347	C:89.0%[S:87.8%,D:1.2%],F:3.5%,M:7.5%,n:255	GCA_000190715.1|full|Dictyostelia, Dictyosteliales, Dictyosteliaceae
+Dictyostelia	UniProt	UP000001396	Heterostelium pallidum (strain ATCC 26659 / Pp 5 / PN500) (Cellular slime mold) (Polysphondylium pallidum)	670386	genome	12351	C:86.7%[S:85.9%,D:0.8%],F:7.5%,M:5.9%,n:255	GCA_000004825.1|full|Acytosteliales, Acytosteliaceae, Heterostelium
+Dictyostelia	UniProt	UP000007797	Cavenderia fasciculata (Slime mold) (Dictyostelium fasciculatum)	261658	genome	12152	C:90.6%[S:90.2%,D:0.4%],F:3.5%,M:5.9%,n:255	GCA_000203815.1|full|Dictyostelia, Acytosteliales, Cavenderiaceae
+Dictyostelia	UniProt	UP000076078	Tieghemostelium lacteum (Slime mold) (Dictyostelium lacteum)	361077	genome	10208	C:91.0%[S:90.2%,D:0.8%],F:4.7%,M:4.3%,n:255	GCA_001606155.1|full|Dictyostelia, Dictyosteliales, Raperosteliaceae
+Dictyostelia	UniProt	UP000695562	Polysphondylium violaceum	133409	genome	10561	C:94.5%[S:93.7%,D:0.8%],F:2.0%,M:3.5%,n:255	GCA_000277445.1|full|Dictyostelia, Dictyosteliales, Dictyosteliaceae
+Dictyostelia	UniProt	UP001344447	Dictyostelium firmibasis	79012	genome	10512	C:93.3%[S:92.5%,D:0.8%],F:2.4%,M:4.3%,n:255	GCA_036169595.1|full|Dictyostelia, Dictyosteliales, Dictyosteliaceae
+Dictyostelia	NCBI	GCF_000787575.1	Acytostelium subglobosum LB1	1410327	genome	12682		NCBI RefSeq|2015-06-15|Scaffold|
+Dictyostelia	NCBI	GCF_000203815.1	Cavenderia fasciculata	261658	genome	12135		Leibniz Institute for Age Research - Fritz Lipmann Institute|2023-10-25|Scaffold|
+Dictyostelia	NCBI	GCA_054859235.1	Dictyostelium cf. discoideum	3454433	genome	12506		University of Pittsburgh|2026-01-30|Scaffold|
+Dictyostelia	NCBI	GCA_054859145.1	Dictyostelium citrinum	361072	genome	11202		University of Pittsburgh|2026-01-30|Contig|
+Dictyostelia	NCBI	GCA_054859025.1	Dictyostelium dimigraforme	142830	genome	12300		University of Pittsburgh|2026-01-30|Contig|
+Dictyostelia	NCBI	GCA_054859355.1	Dictyostelium discoideum	44689	genome	12913		University of Pittsburgh|2026-01-30|Scaffold|
+Dictyostelia	NCBI	GCF_000004695.1	Dictyostelium discoideum AX4	352472	genome	13289		NCBI RefSeq|2023-04-03|Chromosome|
+Dictyostelia	NCBI	GCA_036169595.1	Dictyostelium firmibasis	79012	genome	10564		Uppsala University|2024-01-26|Chromosome|
+Dictyostelia	NCBI	GCA_059609475.1	Dictyostelium giganteum	5787	genome	12893		Institute of Bioinformatics and Applied Biotechnology|2026-07-25|Chromosome|
+Dictyostelia	NCBI	GCF_000190715.1	Dictyostelium purpureum	5786	genome	12395		NCBI RefSeq|2012-09-13|Scaffold|
+Dictyostelia	NCBI	GCF_000004825.1	Heterostelium album PN500	670386	genome	12367		Leibniz Institute for Age Research - Fritz Lipmann Institute|2025-09-29|Scaffold|
+Dictyostelia	NCBI	GCA_000277445.1	Polysphondylium violaceum	133409	genome	10568		BCM-HGSC|2020-02-11|Contig|
+Dictyostelia	NCBI	GCA_001606155.1	Tieghemostelium lacteum	361077	genome	10225		University of Cologne|2018-01-03|Contig|
+Dictyostelia	EukProt	EP00021	Heterostelium album PN500	2086695	genome	12336	84.70%	PolPal_Dec2009|
+Dictyostelia	EukProt	EP00022	Cavenderia fasciculata SH3	261658	genome	12165	90.20%	DFas_2.0|
+Dictyostelia	EukProt	EP00023	Dictyostelium discoideum AX4	44689	genome	13315	93.70%	dicty_2.7|
+Dictyostelia	EukProt	EP00024	Dictyostelium purpureum QSDP1	5786	genome	12399	87.90%	v1.0|
+Dictyostelia	EukProt	EP00025	Tieghemostelium lacteum TK	361077	genome	10225	91.00%	ASM160615v1|
+Dictyostelia	EukProt	EP01109		361139	genome	12686	91.00%	Asub_2.0|
+Dictyostelia	EukProt	EP01132		142831	genome	24033	91.00%	ASM90009226v1|
+Dictyostelia	EukProt	EP01133		361085	genome	30876	72.90%	ASM90009225v1|
+Myxogastria	EukProt	EP00026	Physarum polycephalum	5791	transcriptome	24731	80.00%	Physarum reference transcriptome|
+Myxogastria	EukProt	EP01110		1973072	transcriptome	13820	13.70%	Echinostelium bisporum Nx14-A1-A Transcriptome|
+Myxogastria	EukProt	EP01111		1908696	transcriptome	20065	77.60%	Echinosteliopsis oligospora HH14-A2-1A Transcriptome|
+Physarum	EukProt	EP00026	Physarum polycephalum	5791	transcriptome	24731	80.00%	Physarum reference transcriptome|
+Ceratiomyxa	EukProt	EP01112		435415	transcriptome	24383	77.60%	Ceratiomyxa fruticulosa Pit14 Transcriptome|
+Tubulinea	EukProt	EP00028	Trichosphaerium sp. Am-I-7-wt Am-I-7 wt	498011	transcriptome	15838	43.90%	MMETSP0405|MMETSP – be very careful
+Tubulinea	EukProt	EP00029	Vermamoeba vermiformis 4391-Kostka	5778	transcriptome	14884	89.00%	4391-Kostka transcriptome|
+Tubulinea	EukProt	EP01120		1972849	transcriptome	17782	54.90%	Amphizonella sp. Union 15-10 transcriptome|
+Tubulinea	EukProt	EP01121		1972854	transcriptome	23030	51.80%	Diplochlamys sp. Union 15-3 Transcriptome|
+Tubulinea	EukProt	EP01122		136450	transcriptome	18094	81.10%	Echinamoeba exudans ATCC 50171 Transcriptome|
+Tubulinea	EukProt	EP01123		2507089	transcriptome	16292	26.30%	Transcriptome: Difflugia compressa|
+Tubulinea	EukProt	EP01124		1963864	transcriptome	37366	84.30%	Arcella intermedia USP transcriptome|
+Tubulinea	EukProt	EP01125		1078852	transcriptome	23297	78.40%	Transcriptome: Pyxidicula operculata|
+Tubulinea	EukProt	EP01126		5775	transcriptome	67580	73.80%	Amoeba proteus Carolina Biological Item #131306 transcriptome|
+Tubulinea	EukProt	EP01127		931554	transcriptome	24820	82.70%	Copromyxa protea ATCC-PRA324 Transcriptome|
+Tubulinea	EukProt	EP01128		1215679	transcriptome	13099	71.40%	Nolandella sp. AFSM9 Transcriptome|
+Tubulinea	EukProt	EP01129		1912740	transcriptome	17783	80.80%	Flabellula citata JDS-PC Transcriptome|
+Tubulinea	EukProt	EP01130		200886	transcriptome	19362	80.00%	Rhizamoeba saxonica ATCC 50812 Transcriptome|
+Discosea	UniProt	UP000011083	Acanthamoeba castellanii (strain ATCC 30010 / Neff)	1257118	genome	14938	C:77.6%[S:76.1%,D:1.6%],F:6.3%,M:16.1%,n:255	GCA_000313135.1|full|Centramoebida, Acanthamoebidae, Acanthamoeba
+Discosea	NCBI	GCF_000313135.1	Acanthamoeba castellanii str. Neff	1257118	genome	14968		JCVI|2021-10-07|Scaffold|
+Discosea	NCBI	GCA_057986245.1	Balamuthia mandrillaris	66527	genome	32503		UCSF|2026-06-05|Chromosome|
+Discosea	EukProt	EP00005	Dracoamoeba jomungandri Chinc5	2484127	transcriptome	15003	65.10%	MMETSP0439|MMETSP – be very careful
+Discosea	EukProt	EP00006	Acanthamoeba castellanii Neff	5755	genome	14974	76.10%	Acastellanii.strNEFF v1|
+Discosea	EukProt	EP00007	Cunea sp. BSH-02190019 BSH-02190019		transcriptome	10384	75.70%	MMETSP0417|MMETSP – be very careful
+Discosea	EukProt	EP00008	Paramoeba atlantica CCAP 1560/9	1077153	transcriptome	15723	53.40%	MMETSP0151|MMETSP – be very careful
+Discosea	EukProt	EP00009	Paramoeba aestuarina SoJaBio B1-5/56/2	180227	transcriptome	18871	57.20%	MMETSP0161|MMETSP – be very careful
+Discosea	EukProt	EP00010	Vexillifera abyssalis		transcriptome	9639	54.50%	MMETSP0173|MMETSP – be very careful
+Discosea	EukProt	EP00011	Vannellida sp. DIVA3-517-6-12		transcriptome	15269	75.00%	MMETSP0168|MMETSP – be very careful
+Discosea	EukProt	EP00012	Vannella robusta DIVA3 518/3/11/1/6	1487602	transcriptome	14542	62.80%	MMETSP0166|MMETSP – be very careful
+Discosea	EukProt	EP00013	Stygamoeba regulata BSH-02190019	1042828	transcriptome	30434	84.70%	MMETSP0447|MMETSP – be very careful
+Discosea	EukProt	EP01085		1895019	transcriptome	5666	6.70%	Mycagemm|
+Discosea	EukProt	EP01087		1899548	transcriptome	25338	85.90%	Luapeleamoeba hula ATCC PRA-198 Transcriptome|
+Discosea	EukProt	EP01088		668362	transcriptome	22689	63.90%	Endostelium zonatum PRA-191 Transcriptome|
+Discosea	EukProt	EP01089		1078849	transcriptome	23551	51.30%	Gocevia fonbrunei ATCC 50196 transcriptome|
+Discosea	EukProt	EP01090		1485083	transcriptome	23809	63.90%	Pellita catalonica ATCC PRA-25 Transcriptome|
+Discosea	EukProt	EP01091		313997	transcriptome	21604	81.10%	Cochliopodium minus CCAP1537/1A/I Transcriptome|
+Discosea	EukProt	EP01092		2773111	transcriptome	17196	14.10%	Ovalopodium desertum CCAP 1530/1 Transcriptome|
+Discosea	EukProt	EP01093		1076758	transcriptome	20597	9.10%	Parvamoeba rugata CCAP 1556/1 Transcriptome|
+Discosea	EukProt	EP01094		218662	transcriptome	30527	77.20%	amoeba transcriptome project|
+Discosea	EukProt	EP01095		1973062	transcriptome	18302	64.00%	Lingulamoeba sp. RSL-Kostka Transcriptome|
+Discosea	EukProt	EP01096		1973050	transcriptome	18427	64.70%	Ripella sp. DP13-Kostka Transcriptome|
+Discosea	EukProt	EP01097		242549	transcriptome	12180	47.90%	Dermamoeba algensis CCAP 1524-1 Transcriptome|
+Discosea	EukProt	EP01098		1072175	transcriptome	17385	45.40%	Paradermamoeba levis CCAP 1555/1 Transcriptome|
+Discosea	EukProt	EP01099		1973064	transcriptome	9105	22.00%	Mayorella cantabrigensis CCAP 1547/7 Transcriptome|
+Discosea	EukProt	EP01100		2184267	transcriptome	16104	71.30%	RNA-Seq of Stratorugosa tubuloviscum: Whole Culture|
+Discosea	EukProt	EP01101		472956	transcriptome	13745	71.40%	Sappina pedata ATCC PRA-232 Transcriptome|
+Discosea	EukProt	EP01102		242542	transcriptome	23307	72.60%	Stenamoeba stenopodia CCAP 1565/3 Transcriptome|
+Discosea	EukProt	EP01103		343530	transcriptome	21621	83.90%	amoeba transcriptome project|
+Discosea	EukProt	EP01104		354202	transcriptome	21688	83.90%	Phylogenomics of ‘Discosea’: A new molecular phylogenetic perspective on Amoebozoa with flat body forms|
+Archamoebae	UniProt	UP000001926	Entamoeba histolytica (strain ATCC 30459 / HM-1:IMSS / ABRM)	294381	genome	7967	C:52.5%[S:46.3%,D:6.3%],F:5.1%,M:42.4%,n:255	GCA_000208925.2|full|Mastigamoebida, Entamoebidae, Entamoeba
+Archamoebae	UniProt	UP000008076	Entamoeba dispar (strain ATCC PRA-260 / SAW760)	370354	genome	8606	C:51.8%[S:46.3%,D:5.5%],F:4.7%,M:43.5%,n:255	GCA_000209125.2|full|Mastigamoebida, Entamoebidae, Entamoeba
+Archamoebae	UniProt	UP000014680	Entamoeba invadens IP1	370355	genome	9857	C:36.5%[S:36.1%,D:0.4%],F:8.2%,M:55.3%,n:255	GCA_000330505.1|full|Mastigamoebida, Entamoebidae, Entamoeba
+Archamoebae	UniProt	UP001628156	Entamoeba nuttalli	412467	genome	8892	C:49.0%[S:36.9%,D:12.2%],F:5.9%,M:45.1%,n:255	GCA_045861985.1|full|Archamoebae, Mastigamoebida, Entamoebidae
+Archamoebae	NCBI	GCA_057946545.1	Entamoeba dispar	46681	genome	9435		The University of Tokyo|2026-06-04|Complete Genome|
+Archamoebae	NCBI	GCF_000209125.1	Entamoeba dispar SAW760	370354	genome	8811		TIGR|2023-12-21|Scaffold|
+Archamoebae	NCBI	GCA_057946535.1	Entamoeba histolytica	5759	genome	9675		The University of Tokyo|2026-06-04|Complete Genome|
+Archamoebae	NCBI	GCF_000208925.1	Entamoeba histolytica HM-1:IMSS	294381	genome	8151		J. Craig Venter Institute (TIGR)|2024-02-16|Scaffold|
+Archamoebae	NCBI	GCA_000365475.1	Entamoeba histolytica HM-1:IMSS-A	885318	genome	6325		J. Craig Venter Institute|2015-03-21|Scaffold|
+Archamoebae	NCBI	GCA_000344925.1	Entamoeba histolytica HM-1:IMSS-B	885319	genome	6301		J. Craig Venter Institute|2015-03-19|Scaffold|
+Archamoebae	NCBI	GCA_000346345.1	Entamoeba histolytica HM-3:IMSS	885315	genome	7358		J. Craig Venter Institute|2015-03-20|Scaffold|
+Archamoebae	NCBI	GCA_000338855.1	Entamoeba histolytica KU27	885311	genome	7455		J. Craig Venter Institute|2015-03-19|Scaffold|
+Archamoebae	NCBI	GCF_000330505.1	Entamoeba invadens IP1	370355	genome	11997		NCBI RefSeq|2013-03-27|Scaffold|
+Archamoebae	NCBI	GCA_051620835.1	Entamoeba marina	1621016	genome	10859		The University of Tokyo|2025-07-30|Contig|
+Archamoebae	NCBI	GCA_045861985.1	Entamoeba nuttalli	412467	genome	9647		Tokai University|2024-08-07|Contig|
+Archamoebae	NCBI	GCF_000257125.1	Entamoeba nuttalli P19	1076696	genome	6187		NCBI RefSeq|2014-08-15|Scaffold|
+Archamoebae	NCBI	GCA_020536535.1	Pelomyxa schiedti	1580589	genome	19876		Charles University, BIOCEV|2021-10-20|Scaffold|
+Variosea	UniProt	UP000241769	Planoprotostelium fungivorum	1890364	genome	16856	C:94.5%[S:89.8%,D:4.7%],F:3.1%,M:2.4%,n:255	GCA_003024175.1|full|Variosea, Cavosteliida, Cavosteliaceae
+Variosea	NCBI	GCA_003024175.1	Planoprotostelium fungivorum	1890364	genome	17124		The Protostelium analysis consortium|2018-03-12|Contig|
+Variosea	EukProt	EP00027	Filamoeba sp. ATCC50430	136452	transcriptome	19572	69.80%	MMETSP0413|MMETSP – be very careful
+Variosea	EukProt	EP01114		435410	transcriptome	24947	87.50%	Cavostelium apophysatum ATCC 38567 transcriptome|
+Variosea	EukProt	EP01115		490354	transcriptome	15821	18.00%	Flamella aegyptia CCAP 1525/1 Transcriptome|
+Variosea	EukProt	EP01116		136499	transcriptome	25764	74.90%	Phalasterium solitarium TexasCypress Transcriptome|
+Variosea	EukProt	EP01117		668368	transcriptome	21069	93.00%	Protostelium nocturum ATCC PRA-194 Transcriptome|
+Variosea	EukProt	EP01118		1973068	transcriptome	20557	57.70%	Nematostelium gracile CY15-Wall Transcriptome|
+Variosea	EukProt	EP01119		435424	transcriptome	26282	93.00%	Soliformovum irregularis ATCC 26826 Transcriptome|
+Variosea	LukProt	LP00146	Planoprotostelium fungivorum	1890364	genome	16856	93.70%	|
+Cutosea	EukProt	EP00019	Armaparvus languidus ATCC PRA-29		transcriptome	14143	41.20%	MMETSP0420|MMETSP – be very careful
+Cutosea	EukProt	EP00020	Sapocribrum chincoteaguense ATCC 50979		transcriptome	14146	44.30%	MMETSP0437|MMETSP – be very careful
+Cutosea	EukProt	EP01108		1167875	transcriptome	10332	29.90%	Squamamoeba japonica CCAP 1593/1 Transcriptome|
+Copromyxa	EukProt	EP01127		931554	transcriptome	24820	82.70%	Copromyxa protea ATCC-PRA324 Transcriptome|

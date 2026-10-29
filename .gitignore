@@ -14,3 +14,4 @@ busco_*.log
 data/annotations/pfam/
 data/annotations/disorder/
 data/structure/
+data/dense/*/proteomes/

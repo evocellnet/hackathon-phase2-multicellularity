@@ -1,0 +1,42 @@
+query	db	acc	species	taxid	data_type	n_prot	busco	extra
+Zygnematophyceae	NCBI	GCA_949281275.1	Closterium sp. NIES-53	3014310	genome	92564		tokyo university|2023-06-18|Scaffold|
+Zygnematophyceae	NCBI	GCA_949281255.1	Closterium sp. NIES-54	3014311	genome	98642		tokyo university|2023-06-18|Scaffold|
+Zygnematophyceae	NCBI	GCA_948144035.1	Closterium sp. NIES-64	3014308	genome	34905		tokyo university|2023-06-18|Scaffold|
+Zygnematophyceae	NCBI	GCA_948144175.1	Closterium sp. NIES-65	3014309	genome	40587		tokyo university|2023-06-18|Scaffold|
+Zygnematophyceae	NCBI	GCA_027943415.1	Closterium sp. NIES-67	2790670	genome	25681		Sekimoto Laboratory, Department of Chemical and Biological Sciences, Faculty of Science, Japan Women's University|2022-12-27|Contig|
+Zygnematophyceae	NCBI	GCA_027943385.1	Closterium sp. NIES-68	2019903	genome	24605		Sekimoto Laboratory, Department of Chemical and Biological Sciences, Faculty of Science, Japan Women's University|2022-12-27|Contig|
+Zygnematophyceae	NCBI	GCA_947471745.1	Closterium sp. Naga37s-1	2996811	genome	52529		tokyo university|2023-06-18|Contig|
+Zygnematophyceae	NCBI	GCA_947470075.1	Closterium sp. Yama58-4	2996821	genome	27822		tokyo university|2023-06-18|Contig|
+Zygnematophyceae	EukProt	EP00270	Netrium digitus CCAC 0148	43946	transcriptome	22362	42.80%	Population Genomics of Netrium digitus|
+Zygnematophyceae	EukProt	EP00271	Cylindrocystis brebissonii CCAC 0211	102167	transcriptome	23720	78.00%	Population Genomics of Cylindrocystis brebissonii|
+Zygnematophyceae	EukProt	EP00850		2576442	genome	27137	86.70%	Spiroglea_muscicola_gene|
+Zygnematophyceae	EukProt	EP00897		184485	genome	11080	75.30%	Mesen1|
+Charophyceae	UniProt	UP000265515	Chara braunii (Braun's stonewort)	69332	genome	34645	C:72.2%[S:65.4%,D:6.8%],F:11.5%,M:16.2%,n:425	GCA_003427395.1|full|Charophyceae, Charales, Characeae
+Charophyceae	NCBI	GCA_003427395.1	Chara braunii	69332	genome	34719		Kanazawa University|2018-07-13|Scaffold|
+Charophyceae	EukProt	EP00244	Chara vulgaris CCAC 3183 B	55564	transcriptome	15135	25.50%	Population Genomics of Chara vulgaris|
+Charophyceae	EukProt	EP00896		69332	genome	35665	77.70%	Cbr_1.0|
+Coleochaetophyceae	EukProt	EP00245	Coleochaete scutata SAG 110.80M	3125	transcriptome	18831	45.80%	Population Genomics of Coleochaete scutata|
+Klebsormidiophyceae	UniProt	UP000054558	Klebsormidium nitens (Green alga) (Ulothrix nitens)	105231	genome	16171	C:96.9%[S:96.5%,D:0.5%],F:1.9%,M:1.2%,n:425	GCA_000708835.1|full|Klebsormidiophyceae, Klebsormidiales, Klebsormidiaceae
+Klebsormidiophyceae	NCBI	GCA_000708835.1	Klebsormidium nitens	105231	genome	16195		Tokyo Institute of Technology, Center for Biological Resources and Informatics|2018-08-08|Scaffold|
+Klebsormidiophyceae	EukProt	EP00243	Klebsormidium subtile CCAC 0119	937591	transcriptome	14218	22.80%	Population Genomics of Klebsormidium subtile|
+Klebsormidiophyceae	EukProt	EP00895		105231	genome	16283	96.90%	ASM70883v1|
+Anthocerotophyta	EukProt	EP00246	Nothoceros aenigmaticus J. C. VIllarreal 1026B (CONN)	13813	transcriptome	18779	45.50%	Population Genomics of Nothoceros aenigmaticus|
+Ginkgo	EukProt	EP01018		3311	genome	41309	65.90%	HiC|
+Oryza	UniProt	UP000059680	Oryza sativa subsp. japonica (Rice)	39947	genome	43678	C:84.3%[S:78.0%,D:6.3%],F:5.0%,M:10.7%,n:4896	GCA_001433935.1|full|Oryzeae, Oryzinae, Oryza
+Oryza	UniProt	UP000006038	Oryza brachyantha (Wild rice)	4533	genome	31989	C:90.1%[S:88.2%,D:2.0%],F:4.8%,M:5.1%,n:4896	GCA_000231095.2|full|Oryzoideae, Oryzeae, Oryzinae
+Oryza	UniProt	UP000006591	Oryza nivara (Indian wild rice) (Oryza sativa f. spontanea)	4536	genome	36306	C:95.8%[S:69.2%,D:26.6%],F:0.9%,M:3.3%,n:4896	GCA_000576065.1|full|Oryzoideae, Oryzeae, Oryzinae
+Oryza	UniProt	UP000007015	Oryza sativa subsp. indica (Rice)	39946	genome	37431	C:93.4%[S:90.6%,D:2.8%],F:2.4%,M:4.2%,n:4896	GCA_000004655.2|full|Oryzeae, Oryzinae, Oryza
+Oryza	UniProt	UP000007306	Oryza glaberrima (African rice)	4538	genome	31807	C:87.4%[S:81.9%,D:5.4%],F:1.9%,M:10.8%,n:4896	GCA_000147395.1|full|Oryzoideae, Oryzeae, Oryzinae
+Oryza	UniProt	UP000008021	Oryza meridionalis	40149	genome	29137	C:83.1%[S:56.8%,D:26.3%],F:1.4%,M:15.5%,n:4896	GCA_000338895.2|full|Oryzoideae, Oryzeae, Oryzinae
+Oryza	UniProt	UP000008022	Oryza rufipogon (Brownbeard rice) (Asian wild rice)	4529	genome	37110	C:95.6%[S:71.8%,D:23.8%],F:1.4%,M:2.9%,n:4896	GCA_000817225.1|full|Oryzoideae, Oryzeae, Oryzinae
+Oryza	UniProt	UP000026960	Oryza barthii	65489	genome	34345	C:91.4%[S:73.3%,D:18.1%],F:3.3%,M:5.3%,n:4896	GCA_000182155.2|full|Oryzoideae, Oryzeae, Oryzinae
+Oryza	UniProt	UP000026961	Oryza glumipatula	40148	genome	35649	C:95.0%[S:70.4%,D:24.6%],F:1.2%,M:3.7%,n:4896	GCA_000576495.1|full|Oryzoideae, Oryzeae, Oryzinae
+Oryza	UniProt	UP000026962	Oryza punctata (Red rice)	4537	genome	31311	C:94.7%[S:68.4%,D:26.3%],F:1.6%,M:3.7%,n:4896	GCA_000573905.1|full|Oryzoideae, Oryzeae, Oryzinae
+Oryza	UniProt	UP000479710	Oryza meyeriana var. granulata	110450	genome	39387	C:87.2%[S:68.9%,D:18.2%],F:3.5%,M:9.4%,n:4896	GCA_005223365.2|full|Oryzeae, Oryzinae, Oryza
+Oryza	NCBI	GCF_000231095.2	Oryza brachyantha	4533	genome	23334	0.99162585	NCBI RefSeq|2021-04-01|Chromosome|poales_odb10
+Oryza	NCBI	GCF_000147395.1	Oryza glaberrima	4538	genome	27018	0.9906046	NCBI RefSeq|2022-11-18|Chromosome|poales_odb10
+Oryza	NCBI	GCA_005223365.2	Oryza meyeriana var. granulata	110450	genome	39549		South China Agricultural University|2020-01-14|Scaffold|
+Oryza	NCBI	GCA_004007595.1	Oryza sativa	4530	genome	32965		Center for Computational Biology, JHU|2019-10-22|Chromosome|
+Oryza	NCBI	GCA_000004655.2	Oryza sativa Indica Group	39946	genome	37358		Beijing Institute of Genomics, Chinese Academy of Sciences|2015-03-23|Chromosome|
+Oryza	NCBI	GCF_034140825.1	Oryza sativa Japonica Group	39947	genome	29427	0.9930556	NCBI RefSeq|2024-06-21|Complete Genome|poales_odb10
+Oryza	EukProt	EP00265	Oryza sativa ssp. japonica cv. Nipponbare	4530	genome	28555	82.30%	Build 4.0|

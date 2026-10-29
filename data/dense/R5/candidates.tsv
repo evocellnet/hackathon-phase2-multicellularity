@@ -1,0 +1,61 @@
+query	db	acc	species	taxid	data_type	n_prot	busco	extra
+Rhodophyta	UniProt	UP000007014	Cyanidioschyzon merolae (strain NIES-3377 / 10D) (Unicellular red alga)	280699	genome	5018	C:72.5%[S:71.4%,D:1.2%],F:6.7%,M:20.8%,n:255	GCA_000091205.1|full|Cyanidiales, Cyanidiaceae, Cyanidioschyzon
+Rhodophyta	UniProt	UP000012073	Chondrus crispus (Carrageen Irish moss) (Polymorpha crispa)	2769	genome	9598	C:63.9%[S:62.0%,D:2.0%],F:7.5%,M:28.6%,n:255	GCA_000350225.2|full|Rhodymeniophycidae, Gigartinales, Gigartinaceae
+Rhodophyta	UniProt	UP000030680	Galdieria sulphuraria (Red alga)	130081	genome	6602	C:78.0%[S:67.8%,D:10.2%],F:7.8%,M:14.1%,n:255	GCA_000341285.1|full|Bangiophyceae, Galdieriales, Galdieriaceae
+Rhodophyta	UniProt	UP000218209	Porphyra umbilicalis (Purple laver) (Red alga)	2786	genome	13291	C:43.9%[S:42.4%,D:1.6%],F:14.5%,M:41.6%,n:255	GCA_002049455.2|full|Bangiophyceae, Bangiales, Bangiaceae
+Rhodophyta	UniProt	UP000247409	Gracilariopsis chorda	448386	genome	10593	C:80.8%[S:78.8%,D:2.0%],F:5.1%,M:14.1%,n:255	GCA_003194525.1|full|Rhodymeniophycidae, Gracilariales, Gracilariaceae
+Rhodophyta	UniProt	UP000324585	Porphyridium purpureum (Red alga) (Porphyridium cruentum)	35688	genome	9673	C:72.5%[S:70.2%,D:2.4%],F:7.8%,M:19.6%,n:255	GCA_008690995.1|full|Bangiophyceae, Porphyridiales, Porphyridiaceae
+Rhodophyta	UniProt	UP000530660	Cyanidiococcus yangmingshanensis	2690220	genome	5170	C:55.3%[S:54.1%,D:1.2%],F:16.1%,M:28.6%,n:255	GCA_013995675.1|full|Bangiophyceae, Cyanidiales, Cyanidiaceae
+Rhodophyta	UniProt	UP000798662	Pyropia yezoensis (Susabi-nori) (Porphyra yezoensis)	2788	genome	12940	C:51.0%[S:49.4%,D:1.6%],F:16.1%,M:32.9%,n:255	GCA_009829735.1|full|Bangiophyceae, Bangiales, Bangiaceae
+Rhodophyta	UniProt	UP001061958	Galdieria partita	83374	genome	7492	C:82.4%[S:59.2%,D:23.1%],F:5.1%,M:12.5%,n:255	GCA_025991245.1|full|Bangiophyceae, Galdieriales, Galdieriaceae
+Rhodophyta	UniProt	UP001157974	Rhodosorus marinus	101924	genome	8380	C:84.3%[S:83.5%,D:0.8%],F:3.9%,M:11.8%,n:255	GCA_029953675.1|full|Stylonematophyceae, Stylonematales, Stylonemataceae
+Rhodophyta	UniProt	UP001300502	Galdieria yellowstonensis	3028027	genome	6893	C:80.4%[S:69.8%,D:10.6%],F:6.7%,M:12.9%,n:255	GCA_026122205.1|full|Bangiophyceae, Galdieriales, Galdieriaceae
+Rhodophyta	UniProt	UP001301350	Cyanidium caldarium (Red alga)	2771	genome	4861	C:66.7%[S:65.5%,D:1.2%],F:10.2%,M:23.1%,n:255	GCA_026184775.1|full|Bangiophyceae, Cyanidiales, Cyanidiaceae
+Rhodophyta	NCBI	GCA_965643885.1	Agarophyton chilense	2510777	genome	7831		max planck institute for biology tuebingen|2025-09-04|Scaffold|
+Rhodophyta	NCBI	GCF_000350225.1	Chondrus crispus	2769	genome	9807		NCBI RefSeq|2023-04-03|Scaffold|
+Rhodophyta	NCBI	GCA_013995675.1	Cyanidiococcus yangmingshanensis	2690220	genome	5185		National Sun Yat-sen Univeristy|2020-07-31|Contig|
+Rhodophyta	NCBI	GCF_000091205.1	Cyanidioschyzon merolae strain 10D	280699	genome	4803		National Institute of Genetics, Japan|2017-06-16|Complete Genome|
+Rhodophyta	NCBI	GCA_059727715.1	Cyanidium caldarium	2771	genome	5152		Symbiosis and Cell Evolution Laboratory Department of Gene Function and Phenomics, National Institute of Genetics|2026-02-13|Complete Genome|
+Rhodophyta	NCBI	GCA_978019225.1	Delisea pulchra	40385	genome	11719		STATION BIOLOGIQUE DE ROSCOFF|2026-01-13|Contig|
+Rhodophyta	NCBI	GCA_025991245.1	Galdieria partita	83374	genome	8036		Department of Gene Function and Phenomics, National Institute of Genetics|2022-10-08|Contig|
+Rhodophyta	NCBI	GCF_000341285.1	Galdieria sulphuraria	130081	genome	6594		Galdieria sulphuraria Genome Project|2024-01-05|Scaffold|
+Rhodophyta	NCBI	GCA_026122205.1	Galdieria yellowstonensis	3028027	genome	7022		Sungkyunkwan University|2024-01-05|Contig|
+Rhodophyta	NCBI	GCA_965643895.1	Gracilaria caudata	2572395	genome	10800		max planck institute for biology tuebingen|2025-09-04|Scaffold|
+Rhodophyta	NCBI	GCA_022539475.1	Gracilaria domingensis	172961	genome	11532		USP|2022-03-14|Scaffold|
+Rhodophyta	NCBI	GCA_003194525.1	Gracilariopsis chorda	448386	genome	10813		Sungkyunkwan University|2022-09-28|Contig|
+Rhodophyta	NCBI	GCA_981602585.1	Porphyra dioica	81938	genome	6619		Ghent University|2026-06-14|Chromosome|
+Rhodophyta	NCBI	GCA_981691865.1	Porphyra linearis	60544	genome	2559		Ghent University|2026-06-14|Chromosome|
+Rhodophyta	NCBI	GCA_002049455.2	Porphyra umbilicalis	2786	genome	13332		DOE Joint Genome Institute|2017-11-29|Scaffold|
+Rhodophyta	NCBI	GCA_008690995.1	Porphyridium purpureum	35688	genome	9898		Sungkyunkwan university|2019-09-24|Contig|
+Rhodophyta	NCBI	GCA_042855435.1	Pyropia vietnamensis	683352	genome	10052		Analytical Research Center for Experimental Sciences, Saga University, Saga University|2024-07-10|Contig|
+Rhodophyta	NCBI	GCA_009829735.1	Pyropia yezoensis	2788	genome	12940		Ocean University|2023-09-01|Chromosome|
+Rhodophyta	NCBI	GCA_029953675.1	Rhodosorus marinus	101924	genome	8392		Sungkyunkwan University|2023-05-08|Contig|
+Rhodophyta	EukProt	EP00165	Cyanidioschyzon merolae 10D	45157	genome	4803	73.00%	ASM9120v1|
+Rhodophyta	EukProt	EP00166	Cyanidium caldarium Tilden_Geitler	2771	genome	6520	21.60%	Cyanidium.protein|
+Rhodophyta	EukProt	EP00167	Galdieria sulphuraria 074W	130081	genome	7174	78.10%	ASM34128v1|
+Rhodophyta	EukProt	EP00168	Porphyra purpurea CCAP 1379/4	2787	transcriptome	21879	25.10%	Porphyra purpurea EST project|
+Rhodophyta	EukProt	EP00169	Porphyra umbilicalis Schoodic Point	2786	genome	13567	42.80%	v1|
+Rhodophyta	EukProt	EP00170	Pyropia yezoensis U-51		genome	10327	26.30%	Ver. 1|
+Rhodophyta	EukProt	EP00171	Calliarthron tuberculosum VIBC	48942	genome	23961	13.30%	Calliarthron_tuberculosum_aa|
+Rhodophyta	EukProt	EP00172	Hildenbrandia rubra UTEX 2621	31481	transcriptome	4693	32.20%	est|
+Rhodophyta	EukProt	EP00173	Palmaria palmata	2822	transcriptome	5529	11.80%	est|
+Rhodophyta	EukProt	EP00174	Griffithsia okiensis	291168	EST	949	0.00%	LIBEST_024364|
+Rhodophyta	EukProt	EP00175	Furcellaria lumbricalis Northern Ireland,Atlantic Ocean,Baltic Sea	28020	EST	1625	0.40%	LIBEST_026199,LIBEST_026198|
+Rhodophyta	EukProt	EP00176	Chondrus crispus	2769	genome	9807	63.20%	ASM35022v2|
+Rhodophyta	EukProt	EP00177	Eucheuma denticulatum sd	305493	transcriptome	8907	49.80%	GFKZ01000000|
+Rhodophyta	EukProt	EP00178	Gracilaria changii	172969	transcriptome	28382	31.80%	GC_UT_1,GC_UT_2|
+Rhodophyta	EukProt	EP00179	Madagascaria erythrocladioides CCMP3234	753684	transcriptome	32228	49.40%	MMETSP1450|MMETSP – be very careful
+Rhodophyta	EukProt	EP00180	Rhodochaete pulchella CCMP3232	867925	transcriptome	4844	20.40%	est|
+Rhodophyta	EukProt	EP00181	Compsopogon caeruleus SAG 36.94	31354	transcriptome	6830	48.20%	MMETSP0312|MMETSP – be very careful
+Rhodophyta	EukProt	EP00182	Erythrolobus australicus CCMP3124	1077150	transcriptome	7261	27.80%	MMETSP1353|MMETSP – be very careful
+Rhodophyta	EukProt	EP00183	Erythrolobus madagascarensis CCMP3276	708628	transcriptome	7363	29.00%	MMETSP1354|MMETSP – be very careful
+Rhodophyta	EukProt	EP00184	Porphyridium aerugineum SAG 1380-2	2792	transcriptome	8879	38.80%	MMETSP0313|MMETSP – be very careful
+Rhodophyta	EukProt	EP00185	Porphyridium purpureum CCMP1328	35688	genome	9902	70.90%	v.2|
+Rhodophyta	EukProt	EP00186	Timspurckia oligopyrenoides CCMP3278	708627	transcriptome	5362	38.80%	MMETSP1172|MMETSP – be very careful
+Rhodophyta	EukProt	EP00187	Rhodella violacea CCMP736	2801	transcriptome	20674	30.20%	MMETSP0167,MMETSP0314|MMETSP – be very careful
+Rhodophyta	EukProt	EP00188	Purpureofilum apyrenoidigerum CCMP3233	282340	transcriptome	6421	34.90%	est|
+Rhodophyta	EukProt	EP00189	Rhodosorus marinus CCMP769,UTEX LB 2760	101924	transcriptome	14348	72.60%	MMETSP0011,MMETSP0315|MMETSP – be very careful
+Rhodophyta	EukProt	EP00190	Bangiopsis sp. CCMP1999		transcriptome	7995	55.70%	MMETSP1475|MMETSP – be very careful
+Rhodophyta	EukProt	EP00737	Agarophyton chilense San Vicente	2510777	transcriptome	6353	35.30%	GEZJ01000000|
+Rhodophyta	EukProt	EP00871		1389228	genome	6125	77.30%	Galph1|
+Rhodophyta	EukProt	EP00872		448386	genome	10806	81.20%	GraCho1.0|

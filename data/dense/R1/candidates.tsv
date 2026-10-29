@@ -1,0 +1,317 @@
+query	db	acc	species	taxid	data_type	n_prot	busco	extra
+Choanoflagellata	UniProt	UP000001357	Monosiga brevicollis (Choanoflagellate)	81824	genome	9156	C:78.8%[S:78.8%,D:0.0%],F:7.5%,M:13.7%,n:255	GCA_000002865.1|full|Choanoflagellata, Craspedida, Salpingoecidae
+Choanoflagellata	UniProt	UP000007799	Salpingoeca rosetta (Choanoflagellate)	946362	genome	11614	C:83.1%[S:82.7%,D:0.4%],F:6.7%,M:10.2%,n:255	GCA_000188695.1|full|Choanoflagellata, Craspedida, Salpingoecidae
+Choanoflagellata	NCBI	GCF_000002865.3	Monosiga brevicollis MX1	431895	genome	9202		DOE Joint Genome Institute|2022-11-29|Scaffold|
+Choanoflagellata	NCBI	GCF_000188695.1	Salpingoeca rosetta	946362	genome	11618		Broad Institute|2020-05-01|Scaffold|
+Choanoflagellata	EukProt	EP00035	Acanthoeca spectabilis ATCC PRA-387	81533	transcriptome	40467	93.30%	Acanthoeca_spectabilis Version 2|
+Choanoflagellata	EukProt	EP00036	Acanthoeca sp. 10tr 10tr		transcriptome	26656	78.10%	MMETSP0105,MMETSP0106|MMETSP – be very careful
+Choanoflagellata	EukProt	EP00037	Helgoeca nana ATCC 50073	530540	transcriptome	38250	93.70%	Helgoeca_nana Version 2|
+Choanoflagellata	EukProt	EP00038	Savillea parva ATCC PRA-391	1909275	transcriptome	32055	87.50%	Savillea_parva Version 2|
+Choanoflagellata	EukProt	EP00039	Didymoeca costata ATCC PRA-389	459534	transcriptome	33705	94.50%	Didymoeca_costata Version 2|
+Choanoflagellata	EukProt	EP00040	Diaphanoeca grandis ATCC 50111	28014	transcriptome	44901	91.40%	Diaphanoeca_grandis Version 2|
+Choanoflagellata	EukProt	EP00041	Stephanoeca diplocostata ATCC 50456	81535	transcriptome	43380	89.90%	Stephanoeca_diplocostata.France Version 2|
+Choanoflagellata	EukProt	EP00042	Codosiga hollandica ATCC PRA-388	1742608	transcriptome	61053	88.60%	Codosiga_hollandica Version 2|
+Choanoflagellata	EukProt	EP00043	Microstomoeca roanoka ATCC 50931	1923864	transcriptome	30393	93.30%	Microstomoeca_roanoka Version 2|
+Choanoflagellata	EukProt	EP00044	Salpingoeca rosetta ATCC 50818	946362	genome	11731	82.80%	Proterospongia_sp_ATCC50818|
+Choanoflagellata	EukProt	EP00045	Choanoeca perplexa ATCC 50453	81531	transcriptome	23213	91.70%	Choanoeca_perplexa Version 2|
+Choanoflagellata	EukProt	EP00046	Monosiga brevicollis MX1	81824	genome	9203	79.20%	V1.0|
+Choanoflagellata	EukProt	EP00047	Mylnosiga fluctuans ATCC 50635	1928486	transcriptome	25158	93.70%	Mylnosiga_fluctuans Version 2|
+Choanoflagellata	EukProt	EP00048	Salpingoeca helianthica ATCC 50153	1928494	transcriptome	25209	91.40%	Salpingoeca_helianthica Version 2|
+Choanoflagellata	EukProt	EP00049	Salpingoeca infusionum ATCC 50559	86018	transcriptome	28123	89.40%	Salpingoeca_infusionum Version 2|
+Choanoflagellata	EukProt	EP00050	Salpingoeca kvevrii ATCC 50929	1924737	transcriptome	23252	94.90%	Salpingoeca_kvevrii Version 2|
+Choanoflagellata	EukProt	EP00051	Salpingoeca urceolata ATCC 50560	473813	transcriptome	35982	91.80%	Salpingoeca_urceolata Version 2|
+Choanoflagellata	EukProt	EP00052	Salpingoeca macrocollata ATCC 50938	1924736	transcriptome	36525	89.00%	Salpingoeca_macrocollata Version 2|
+Choanoflagellata	EukProt	EP00053	Salpingoeca punica ATCC 50788	1924735	transcriptome	28067	88.70%	Salpingoeca_punica Version 2|
+Choanoflagellata	EukProt	EP00054	Salpingoeca dolichothecata ATCC 50959	1742605	transcriptome	39355	90.60%	Salpingoeca_dolichothecata Version 2|
+Choanoflagellata	EukProt	EP00055	Hartaetosiga balthica ATCC 50964	1194294	transcriptome	18816	89.40%	Hartaetosiga_balthica Version 2|
+Choanoflagellata	EukProt	EP00056	Hartaetosiga gracilis ATCC 50454	216892	transcriptome	23114	87.50%	Hartaetosiga_gracilis Version 2|
+Choanoflagellata	EukProt	EP00729	Bicosta minor 4_SAGs	1864616	single-cell genome	33168	60.40%	B.minor.tetranucleotide.filtered.Choano-contigs.fa|
+Choanoflagellata	EukProt	EP00730	Choanoeca flexa	2572930	transcriptome	20477	89.80%	Version 2|
+Choanoflagellata	EukProt	EP00911			single-cell genome	3025	18.40%	SAGS annotation/UC1/UC1_evm.pep|
+Choanoflagellata	EukProt	EP00912			single-cell genome	2518	5.10%	SAGS annotation/UC4/UC4_evm.pep|
+Choanoflagellata	EukProt	EP01147		2830476	genome	11367	82.40%	NKKH001C_Barroeca_monosierra|
+Choanoflagellata	LukProt	LP00177	Acanthoecidae sp		transcriptome	2094	10.20%	EukProt_proteins.v02.2020_06_30.tgz|
+Filasterea	UniProt	UP000008743	Capsaspora owczarzaki (strain ATCC 30864)	595528	genome	8738	C:93.7%[S:84.7%,D:9.0%],F:2.4%,M:3.9%,n:255	GCA_000151315.2|full|Opisthokonta, Filasterea, Capsaspora
+Filasterea	NCBI	GCF_000151315.2	Capsaspora owczarzaki ATCC 30864	595528	genome	8621		NCBI RefSeq|2015-02-06|Scaffold|
+Filasterea	EukProt	EP00120	Capsaspora owczarzaki ATCC 30864	192875	genome	8792	91.80%	C_owczarzaki_V2|
+Filasterea	EukProt	EP01136		2006545	transcriptome	46018	28.70%	Opistho-1_predicted_peptides|
+Filasterea	EukProt	EP01137		2006546	transcriptome	37783	61.50%	Opistho-2_predicted_peptides|
+Filasterea	LukProt	LP00007	Ministeria vibrans ATCC 50519	134558	genome	12742	85.10%	|
+Filasterea	LukProt	LP00009	Tunicaraptor unikontum	2744139	transcriptome	36503	61.60%	|
+Ichthyosporea	UniProt	UP000054560	Sphaeroforma arctica JP610	667725	genome	18207	C:63.1%[S:60.0%,D:3.1%],F:23.5%,M:13.3%,n:255	GCA_001186125.1|full|Ichthyosporea, Ichthyophonida, Sphaeroforma
+Ichthyosporea	NCBI	GCF_001186125.1	Sphaeroforma arctica JP610	667725	genome	18213		NCBI RefSeq|2015-09-22|Scaffold|
+Ichthyosporea	EukProt	EP00121	Abeoforma whisleri	749232	genome	17283	2.80%	Awhi_long.pep|
+Ichthyosporea	EukProt	EP00122	Pirum gemmata	749231	genome	21835	2.40%	Pgem_long.pep Version 2|
+Ichthyosporea	EukProt	EP00123	Amoebidium parasiticum JAP-7-2	4881	transcriptome	23007	89.10%	Apar_Trinity_nonfilt_contigs Version 2|
+Ichthyosporea	EukProt	EP00124	Ichthyophonus hoferi	39843	genome	6351	53.70%	Ihof_long.pep|
+Ichthyosporea	EukProt	EP00126	Sphaerothecum destruens	42893	transcriptome	15930	66.20%	clean|
+Ichthyosporea	EukProt	EP01134		470921	genome	8694	95.70%	Creolimax_fragrantissima.pep|
+Ichthyosporea	EukProt	EP01135		1932427	genome	12463	92.20%	Nk52_long.pep|
+Ichthyosporea	LukProt	LP00010	Sphaeroforma arctica	72019	genome	33969	91.30%	Sarc4_long.update.pep.fasta|
+Pluriformea	EukProt	EP00127	Corallochytrium limacisporum Hawaii	98351	genome	7535	90.20%	Clim_long.pep|
+Pluriformea	EukProt	EP00128	Syssomonas multiformis Colp12	2006709	transcriptome	19135	58.10%	Colp-12_sorted|
+Pluriformea	LukProt	LP00014	Corallochytrium limacisporum strain India	98351	genome	7667	90.20%	|
+Porifera	UniProt	UP000007879	Amphimedon queenslandica (Sponge)	400682	genome	20174	C:90.8%[S:76.1%,D:14.7%],F:2.8%,M:6.4%,n:954	GCA_000090795.2|full|Heteroscleromorpha, Haplosclerida, Niphatidae
+Porifera	UniProt	UP001165289	Oopsacas minuta	111878	genome	16108	C:75.6%[S:74.4%,D:1.2%],F:4.4%,M:20.0%,n:954	GCA_024704765.1|full|Hexasterophora, Lyssacinosida, Leucopsacidae
+Porifera	UniProt	UP001174909	Geodia barretti (Barrett's horny sponge)	519541	genome	31807	C:79.2%[S:51.9%,D:27.4%],F:9.6%,M:11.1%,n:954	GCA_030341885.1|full|Tetractinellida, Astrophorina, Geodiidae
+Porifera	NCBI	GCF_000090795.2	Amphimedon queenslandica	400682	genome	20215	0.9025157	NCBI RefSeq|2026-04-23|Scaffold|metazoa_odb10
+Porifera	NCBI	GCF_963422355.1	Corticium candelabrum	121492	genome	20197	0.9308176	NCBI RefSeq|2024-01-24|Chromosome|metazoa_odb10
+Porifera	NCBI	GCF_963678975.1	Dysidea avara	196820	genome	25344	0.9161426	NCBI RefSeq|2024-06-24|Chromosome|metazoa_odb10
+Porifera	NCBI	GCA_049114765.1	Ephydatia muelleri	6052	genome	30360		Centre for Genomic Regulation|2025-03-28|Chromosome|
+Porifera	NCBI	GCA_030341885.1	Geodia barretti	519541	genome	31884		pharmaceutical biosciences, uppsala university|2023-06-23|Scaffold|
+Porifera	NCBI	GCF_963675165.1	Halichondria panicea	6063	genome	17301	0.918239	NCBI RefSeq|2024-04-15|Chromosome|metazoa_odb10
+Porifera	NCBI	GCA_024704765.1	Oopsacas minuta	111878	genome	16264		Spongex|2022-08-16|Scaffold|
+Porifera	NCBI	GCF_947507565.1	Oscarella lobularis	121494	genome	14530	0.9004193	NCBI RefSeq|2024-06-21|Chromosome|metazoa_odb10
+Porifera	NCBI	GCF_964019385.1	Sycon ciliatum	27933	genome	20530	0.8710692	NCBI RefSeq|2024-05-09|Chromosome|metazoa_odb10
+Porifera	EukProt	EP00117	Sycon ciliatum	27933	genome	50731	97.30%	SCIL_T-PEP_130802|
+Porifera	EukProt	EP00118	Oscarella pearsei	1940113	transcriptome	29220	94.90%	OCAR_T-PEP_130911|
+Porifera	EukProt	EP00119	Amphimedon queenslandica	400682	genome	24115	95.30%	v1.0|
+Porifera	EukProt	EP00731	Ephydatia muelleri RBCM019-00140-001	6052	genome	39329	76.50%	v1|
+Porifera	EukProt	EP00800		2710537	transcriptome	23969	60.80%	RNA-Seq of sponge tissue control 1,RNA-Seq of sponge tissue treatment 1|
+Porifera	EukProt	AP00092		196260	transcriptome	13907	76.50%	see AniProt supplement|
+Porifera	LukProt	LP00126	Leucosolenia complicata	433461	transcriptome	92106	94.50%	leucosolenia.pep.fa.gz|
+Porifera	LukProt	LP00127	Cymbastela concentrica	484451	transcriptome	112661	94.90%	MEC-16-0957.R1.tar.gz Cym_Euk_165645.fasta|
+Porifera	LukProt	LP00128	Xestospongia testudinaria	178554	genome	52886	62.70%	http://xt.reefgenomics.org/download/XT_proteins_ltAED075.fa.gz|
+Porifera	LukProt	LP00129	Crella elegans	252961	transcriptome	59361	31.40%	Reference_transcriptome.fasta|
+Porifera	LukProt	LP00130	Tedania anhelens	1091431	transcriptome	68949	90.60%	MEC-16-0957.R1.tar.gz Ted_Euk_113832.fasta|
+Porifera	LukProt	LP00131	Scopalina sp. CDV-2016	1866878	transcriptome	52257	87.40%	MEC-16-0957.R1.tar.gz Sco_Euk_90948.fasta|
+Porifera	LukProt	LP00132	Stylissa carteri	279588	genome	46515	43.60%	http://sc.reefgenomics.org/download/SC_proteins_ltAED075.fa.gz|
+Porifera	LukProt	LP00133	Eunapius fragilis	91661	transcriptome	42451	77.30%	Eufr_Trinity.fa|
+Porifera	LukProt	LP00134	Spongilla lacustris	6055	transcriptome	31534	49.10%	Spongilla_lacustris_ar.fa|
+Porifera	LukProt	LP00135	Tethya wilhelma	463344	genome	86088	98.40%	twilhelma_trinity_transdecoder_proteins.fasta.gz|
+Porifera	LukProt	LP00136	Euplectella aspergillum	936045	transcriptome	10879	40.80%	kairoudouketsu_454AllContigs.tar.gz|
+Porifera	LukProt	LP00138	Oscarella carmela	386100	transcriptome	53755	47.10%	00_Oscarella_carmela.nr.fpkm_0.01.proteins.fasta|
+Porifera	LukProt	LP00143	Halichondria panicea	6063	transcriptome	347879	98.40%	GIFJ01.1.fsa_nt.gz GIFJ01.2.fsa_nt.gz|
+Porifera	LukProt	LP00150	Spongia officinalis	252964	transcriptome	151407	93.30%	assembly_nobacteria_final.fasta|
+Porifera	LukProt	LP00164	Corticium candelabrum	121492	transcriptome	71161	29.80%	Corticium_candelabrum_CLC.fasta|
+Porifera	LukProt	LP00165	Ircinia fasciculata	1234657	transcriptome	19977	31.80%	Ircinia_fasciculata_CLC.fasta|
+Porifera	LukProt	LP00167	Pseudospongosorites suberitoides	396895	transcriptome	13288	25.10%	Pseudospongosorites_suberitoides_CLC.fasta|
+Porifera	LukProt	LP00170	Hyalonema populiferum	1631155	transcriptome	24268	34.90%	Hyalonema_populiferum_TRI_1_14_NORM.fasta.tar.gz|
+Porifera	LukProt	LP00171	Kirkpatrickia variolosa	1631157	transcriptome	52817	72.20%	Kirpatrickia_variolosa_TRI_1_13_NORM.fasta.tar.gz|
+Porifera	LukProt	LP00172	Latrunculia apicalis	1325597	transcriptome	40831	85.50%	Latrunculia_apicalis_TRI_1_13_NORM.fasta.tar.gz|
+Porifera	LukProt	LP00173	Rossella fibulata	1076269	transcriptome	20162	74.50%	Rossella_fibulata_TRI_1_14_NORM.fasta.tar.gz|
+Porifera	LukProt	LP00174	Sympagella nux	76350	transcriptome	30089	87.90%	Sympagella_nux_TRI_1_14_NORM.fasta.tar.gz|
+Porifera	LukProt	LP00210	Sycon coactum	1009717	transcriptome	24613	53.00%	Sycon_coactum.fa|
+Porifera	LukProt	LP00211	Chondrilla caribensis	1336846	transcriptome	38349	54.50%	Chondrilla_caribensis.fa|
+Porifera	LukProt	LP00212	Cliona varians	297654	transcriptome	49929	71.80%	Cliona_varians.fa|
+Porifera	LukProt	LP00213	Chondrosia reniformis	68574	genome	84032	96.10%	genomes.tar.gz peptide file|
+Porifera	LukProt	LP00214	Cladorhizid Schultz2023	2732015	genome	33096	75.70%	genomes.tar.gz peptide file|
+Porifera	LukProt	LP00215	Petrosia ficiformis	68564	genome	79980	77.60%	genomes.tar.gz peptide file|
+Porifera	LukProt	LP00216	Baikalospongia bacillifera	83851;2081495	transcriptome	47934	97.60%	A2_trinity.fa|
+Porifera	LukProt	LP00217	Lubomirskia abietina	75884;2081496	transcriptome	50792	96.10%	A10_trinity.fa|
+Porifera	LukProt	LP00218	Lubomirskia baikalensis	289074	transcriptome	49663	93.30%	A8_trinity.fa|
+Porifera	LukProt	LP00219	Hexactinellid Schultz2023	2996061	genome	55338	91.80%	genomes.tar.gz peptide file|
+Porifera	LukProt	LP00220	Aphrocallistes vastus	83887	genome	19994	93.40%	Avas.v1.29_annotations.prot.fr.fasta.gz|
+Porifera	LukProt	LP00221	Oopsacas minuta	111878	genome	16413	88.70%	GCA_024704765.1_ASM2470476v1_protein_locus_tags.faa.tgz|
+Porifera	LukProt	LP00255	Pleraplysilla spinifera	119433	transcriptome	54213	97.70%	|
+Porifera	LukProt	LP00256	Plakina jani	450361	transcriptome	78578	94.50%	|
+Porifera	LukProt	LP00257	Clathrina coriacea	1031551	transcriptome	54446	58.80%	|
+Porifera	LukProt	LP00258	Leuconia nivea	283886	transcriptome	99114	84.30%	|
+Porifera	LukProt	LP00261	Leucetta chagosensis	185688	transcriptome	98561	99.20%	|
+Porifera	LukProt	LP00267	Clathrina sp		transcriptome	44062	58.50%	https://data.ub.uni-muenchen.de/202/2/Csp_Trinity.fasta|
+Porifera	LukProt	LP00268	Pericharax orientalis	2027427	transcriptome	71373	55.30%	https://data.ub.uni-muenchen.de/202/4/Por_combi_Trinity.fasta|
+Ctenophora	UniProt	UP001729289	Mnemiopsis leidyi (Sea walnut) (Warty comb jellyfish)	27923	genome	19289	C:80.9%[S:73.4%,D:7.5%],F:2.3%,M:16.8%,n:954	GCA_048537945.1|full|Tentaculata, Lobata, Bolinopsidae
+Ctenophora	NCBI	GCF_026151205.1	Bolinopsis microptera	2820187	genome	14118	0.7651992	NCBI RefSeq|2024-03-16|Chromosome|metazoa_odb10
+Ctenophora	NCBI	GCA_048537945.1	Mnemiopsis leidyi	27923	genome	19625		Centre for Genomic Regulation|2025-03-10|Chromosome|
+Ctenophora	EukProt	EP00115	Mnemiopsis leidyi	27923	genome	16058	83.20%	MneLei_Aug2011|
+Ctenophora	EukProt	EP00116	Pleurobrachia bachei	34499	genome	19523	44.30%	N/A|
+Ctenophora	EukProt	AP00059		2516999	transcriptome	29822	89.00%	see AniProt supplement|
+Ctenophora	LukProt	LP00104	Beroe sp.	2023890	transcriptome	28798	67.50%	Beroe_sp_pink_Illumina_RNA-seq|
+Ctenophora	LukProt	LP00105	Beroe abyssicola	320166	transcriptome	21398	80.80%	Beroe_abyssicola_Illumina_RNA-seq|
+Ctenophora	LukProt	LP00107	Dryodora sp.	50341	transcriptome	26001	66.30%	Dryodora_glandiformis_Illumina_RNA-seq|
+Ctenophora	LukProt	LP00108	Euplokamis sp.	1128080	transcriptome	34939	40.40%	EuplokamisSp-Gulf-2|
+Ctenophora	LukProt	LP00109	Mertensiidae sp.	2038144	transcriptome	42483	57.60%	Mertensiidae_sp_Illumina_RNA-seq|
+Ctenophora	LukProt	LP00110	Pleurobrachia pileus	140457	transcriptome	4629	14.90%	http://comparative.reefgenomics.org/faa/Ctenophora/Pleurobrachia_pileus_peptides_100.final.clstr.faa|
+Ctenophora	LukProt	LP00111	Pukia falcata	2023903	transcriptome	57814	70.20%	Pukia_falcata_Illumina_RNA-seq|
+Ctenophora	LukProt	LP00113	Bolinopsis ashleyi	2023888	transcriptome	30541	39.60%	Bolinopsis_ashleyi_Illumina_RNA-seq|
+Ctenophora	LukProt	LP00115	Coeloplana astericola	1912745	transcriptome	32942	48.70%	Coeloplana_astericola_Illumina_RNA-seq|
+Ctenophora	LukProt	LP00116	Ctenophore sp.	2038146	transcriptome	21200	31.80%	Ctenophore-2-larvas|
+Ctenophora	LukProt	LP00141	Beroe forskalii	140453	transcriptome	100867	95.70%	GHXY01.1.fsa_nt.gz|
+Ctenophora	LukProt	LP00175	Vampyroctena delmarvensis	2584720	transcriptome	41291	89.40%	Vampyroctena_trinity.Trinity.fasta|
+Ctenophora	LukProt	LP00176	Lampea sp. Stechow	2584719	transcriptome	38666	90.90%	Lampea_trinity.Trinity.fasta|
+Ctenophora	LukProt	LP00182	Vallicula sp.	140489	transcriptome	70341	64.30%	|PAIRED reads
+Ctenophora	LukProt	LP00183	Cydippida sp. WA		transcriptome	72979	65.10%	|PAIRED reads
+Ctenophora	LukProt	LP00184	Cestum veneris	12997	transcriptome	36657	52.60%	|PAIRED reads
+Ctenophora	LukProt	LP00185	Pleurobrachia sp. UF2017	2023894	transcriptome	40459	58.00%	|PAIRED reads
+Ctenophora	LukProt	LP00186	Callianira antarctica	2023889	transcriptome	39944	36.50%	|PAIRED reads
+Ctenophora	LukProt	LP00187	Cydippida sp. Antarctica	2023891	transcriptome	40320	53.70%	|PAIRED reads
+Ctenophora	LukProt	LP00188	Lobata sp.	2023892	transcriptome	45609	51.70%	|PAIRED reads
+Ctenophora	LukProt	LP00189	Lobatolampea tetragona	2023900	transcriptome	41357	17.20%	|PAIRED reads
+Ctenophora	LukProt	LP00190	Ocyropsis sp. FL	2023893	transcriptome	74338	54.50%	|PAIRED reads
+Ctenophora	LukProt	LP00191	Ocyropsis crystallina	140481	transcriptome	43962	87.10%	|PAIRED reads
+Ctenophora	LukProt	LP00192	Ocyropsis crystallina guttata	140482	transcriptome	36023	74.50%	|SINGLE reads
+Ctenophora	LukProt	LP00193	Eurhamphaea vexilligera	2038148	transcriptome	38348	64.70%	|PAIRED reads
+Ctenophora	LukProt	LP00194	Cydippida sp. MD	2038145	transcriptome	44948	84.70%	|SINGLE reads
+Ctenophora	LukProt	LP00195	Hormiphora palmata	2023895	transcriptome	54911	49.80%	|SINGLE reads
+Ctenophora	LukProt	LP00196	Pleurobrachia sp. SC A	2038143	transcriptome	27448	53.70%	|SINGLE reads
+Ctenophora	LukProt	LP00197	Pleurobrachia sp. FL	2038141	transcriptome	22482	43.90%	|SINGLE reads
+Ctenophora	LukProt	LP00198	Pleurobrachia sp. SC B	2038142	transcriptome	21399	41.60%	|SINGLE reads
+Ctenophora	LukProt	LP00199	Coeloplana cf. meteoris	1820129	transcriptome	48078	96.40%	|PAIRED reads
+Ctenophora	LukProt	LP00208	Bolinopsis microptera	2820187	genome	16013	73.70%	genomes.tar.gz peptide file|
+Ctenophora	LukProt	LP00209	Hormiphora californensis	1403702	genome	14238	90.20%	genomes.tar.gz peptide file|
+Ctenophora	LukProt	LP00253	Lampea pancerina	1532213	transcriptome	31280	94.90%	|
+Ctenophora	LukProt	LP00254	Vallicula multiformis	140489	transcriptome	43046	96.00%	|source data are not available for download from NCBI any more.
+Placozoa	UniProt	UP000009022	Trichoplax adhaerens (Trichoplax reptans)	10228	genome	11518	C:89.3%[S:88.7%,D:0.6%],F:4.6%,M:6.1%,n:954	GCA_000150275.1|full|Uniplacotomia, Trichoplacea, Trichoplacidae
+Placozoa	NCBI	GCF_000150275.1	Trichoplax adhaerens	10228	genome	11304		US DOE Joint Genome Institute (JGI-PGF)|2024-02-16|Scaffold|
+Placozoa	NCBI	GCA_003344405.1	Trichoplax sp. H2	287889	genome	12174		University of Veterinary Medicine Hannover, Foundation|2019-01-24|Scaffold|
+Placozoa	EukProt	EP00113	Trichoplax adhaerens	10228	genome	11520	92.60%	v1.0|
+Placozoa	EukProt	EP00114	Trichoplax sp. H2 H2	287889	genome	12174	96.10%	TrispH2_1.0|
+Placozoa	LukProt	LP00124	Hoilungia hongkongensis	1964320	genome	12575	92.90%	Hhon_BRAKER1_proteins.fasta.gz|will be updated according to https://f1000research.com/articles/13-679/v2 
+Placozoa	LukProt	LP00239	Placozoa H4	1034858	genome	13123	95.30%	Placozoa_H4.fa|
+Placozoa	LukProt	LP00240	Placozoa H6		genome	10631	80.80%	Placozoa_H6.fa|
+Placozoa	LukProt	LP00241	Placozoa H11	2017598	genome	9300	74.90%	Placozoa_H11.fa|
+Cnidaria	UniProt	UP000001593	Nematostella vectensis (Starlet sea anemone)	45351	genome	24428	C:89.7%[S:87.9%,D:1.8%],F:4.8%,M:5.5%,n:954	GCA_000209225.1|full|Hexacorallia, Actiniaria, Edwardsiidae
+Cnidaria	UniProt	UP000225706	Stylophora pistillata (Smooth cauliflower coral)	50429	genome	23873	C:85.8%[S:85.5%,D:0.3%],F:5.0%,M:9.1%,n:954	GCA_002571385.2|full|Scleractinia, Vacatina, Pocilloporidae
+Cnidaria	UniProt	UP000275408	Pocillopora damicornis (Cauliflower coral) (Millepora damicornis)	46731	genome	25411	C:87.7%[S:87.5%,D:0.2%],F:5.7%,M:6.6%,n:954	GCA_003704095.1|full|Scleractinia, Vacatina, Pocilloporidae
+Cnidaria	UniProt	UP000515163	Actinia tenebrosa (Australian red waratah sea anemone)	6105	genome	19940	C:97.3%[S:85.8%,D:11.4%],F:1.4%,M:1.4%,n:954	GCF_009602425.1|full|Hexacorallia, Actiniaria, Actiniidae
+Cnidaria	UniProt	UP000594262	Clytia hemisphaerica	252671	genome	19013	C:81.1%[S:72.1%,D:9.0%],F:2.9%,M:15.9%,n:954	GCA_902728285.1|full|Leptothecata, Obeliida, Clytiidae
+Cnidaria	UniProt	UP000887567	Exaiptasia diaphana (Tropical sea anemone) (Aiptasia pulchella)	2652724	genome	22271	C:94.8%[S:83.5%,D:11.2%],F:2.1%,M:3.1%,n:954	GCA_001417965.1|full|Hexacorallia, Actiniaria, Aiptasiidae
+Cnidaria	UniProt	UP001159405	Porites lobata	104759	genome	42611	C:95.0%[S:91.3%,D:3.7%],F:1.8%,M:3.2%,n:954	GCA_942486035.1|full|Scleractinia, Refertina, Poritidae
+Cnidaria	UniProt	UP001159427	Porites evermanni	104178	genome	39801	C:93.2%[S:80.6%,D:12.6%],F:2.7%,M:4.1%,n:954	GCA_942486025.1|full|Scleractinia, Refertina, Poritidae
+Cnidaria	UniProt	UP001159428	Pocillopora meandrina	46732	genome	31944	C:94.9%[S:92.0%,D:2.8%],F:2.4%,M:2.7%,n:954	GCA_942486045.1|full|Scleractinia, Vacatina, Pocilloporidae
+Cnidaria	UniProt	UP001163046	Desmophyllum pertusum	174260	genome	37379	C:71.6%[S:70.2%,D:1.4%],F:15.6%,M:12.8%,n:954	GCA_029204205.1|full|Scleractinia, Vacatina, Caryophylliidae
+Cnidaria	UniProt	UP001249851	Acropora cervicornis (Staghorn coral)	6130	genome	27986	C:81.3%[S:80.7%,D:0.6%],F:9.6%,M:9.0%,n:954	GCA_032359415.1|full|Scleractinia, Refertina, Acroporidae
+Cnidaria	UniProt	UP001652625	Hydra vulgaris (Hydra) (Hydra attenuata)	6087	genome	22468	C:94.7%[S:76.7%,D:17.9%],F:0.7%,M:4.6%,n:954	GCF_038396675.1|full|Anthoathecata, Aplanulata, Hydridae
+Cnidaria	UniProt	UP000031668	Thelohanellus kitauei (Myxosporean)	669202	genome	14792	C:25.4%[S:23.8%,D:1.6%],F:7.9%,M:66.8%,n:954	GCA_000827895.1|full|Bivalvulida, Platysporina, Myxobolidae
+Cnidaria	UniProt	UP001152795	Paramuricea clavata (Red gorgonian) (Violescent sea-whip)	317549	genome	62443	C:80.2%[S:63.2%,D:17.0%],F:11.4%,M:8.4%,n:954	GCA_902702795.2|full|Octocorallia, Malacalcyonacea, Plexauridae
+Cnidaria	NCBI	GCA_032359415.1	Acropora cervicornis	6130	genome	28059		Northeastern University|2023-10-04|Scaffold|
+Cnidaria	NCBI	GCF_000222465.1	Acropora digitifera	70779	genome	26073	0.7746331	NCBI RefSeq|2016-03-10|Scaffold|metazoa_odb10
+Cnidaria	NCBI	GCF_013753865.1	Acropora millepora	45264	genome	30136	0.9654088	NCBI RefSeq|2021-10-01|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_036669905.1	Acropora muricata	159855	genome	26093	0.9643606	NCBI RefSeq|2024-08-07|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_964030605.1	Acropora palmata	6131	genome	21010	0.9685535	NCBI RefSeq|2025-06-18|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_029948245.1	Actinia tenebrosa	6105	genome	24789	0.9779874	NCBI RefSeq|2026-09-24|Scaffold|metazoa_odb10
+Cnidaria	NCBI	GCA_033675265.1	Actinostola sp. cb2023	3060491	genome	20812		BGI-SZ|2023-11-15|Scaffold|
+Cnidaria	NCBI	GCF_902728285.1	Clytia hemisphaerica	252671	genome	22204	0.9109015	NCBI RefSeq|2024-07-29|Scaffold|metazoa_odb10
+Cnidaria	NCBI	GCA_059441185.1	Cyphastrea microphthalma	570133	genome	24706		Coral Global Search|2026-07-15|Scaffold|
+Cnidaria	NCBI	GCF_004324835.1	Dendronephthya gigantea	151771	genome	22045	0.9433962	NCBI RefSeq|2019-03-27|Contig|metazoa_odb10
+Cnidaria	NCBI	GCA_029204205.1	Desmophyllum pertusum	174260	genome	37484		Lehigh University|2023-03-20|Scaffold|
+Cnidaria	NCBI	GCF_001417965.1	Exaiptasia diaphana	2652724	genome	22509	0.9454927	NCBI RefSeq|2023-11-03|Scaffold|metazoa_odb10
+Cnidaria	NCBI	GCA_988225545.1	Henneguya salminicola	69463	genome	8760		TEL-AVIV UNIVERSITY|2026-09-17|Contig|
+Cnidaria	NCBI	GCF_964215635.1	Hydra viridissima	6082	genome	15153	0.8689727	NCBI RefSeq|2026-02-18|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_022113875.1	Hydra vulgaris	6087	genome	21385	0.9528302	NCBI RefSeq|2022-03-18|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_029227915.1	Hydractinia symbiolongicarpus	13093	genome	20492	0.9538784	NCBI RefSeq|2023-06-08|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_036669925.1	Montipora capricornis	246305	genome	32425	0.9643606	NCBI RefSeq|2024-09-25|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_036669935.1	Montipora foliosa	591990	genome	31642	0.9654088	NCBI RefSeq|2024-09-27|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCA_010108815.2	Myxobolus squamalis	59785	genome	5712		Tel-Aviv University|2020-02-03|Contig|
+Cnidaria	NCBI	GCF_000209225.1	Nematostella vectensis	45351	genome	23845	0.9769392	NCBI RefSeq|2020-01-29|Scaffold|metazoa_odb10
+Cnidaria	NCBI	GCF_052425735.1	Oculina patagonica	130080	genome	31718	0.9769392	NCBI RefSeq|2025-12-31|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_042242905.1	Orbicella faveolata	48498	genome	30364	0.9748428	NCBI RefSeq|2026-10-05|Contig|metazoa_odb10
+Cnidaria	NCBI	GCF_964199315.1	Orbicella franksi	48499	genome	28073	0.966457	NCBI RefSeq|2026-03-17|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCA_902702795.2	Paramuricea clavata	317549	genome	62650		Centro Nacional de Análisis Genómico|2022-11-04|Scaffold|
+Cnidaria	NCBI	GCF_977016875.1	Pavona decussata	227230	genome	30878	0.9696017	NCBI RefSeq|2026-06-04|Contig|metazoa_odb10
+Cnidaria	NCBI	GCF_964200805.1	Pocillopora damicornis	46731	genome	30701	0.9706499	NCBI RefSeq|2026-09-30|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCA_942486045.1	Pocillopora meandrina	46732	genome	32095		Genoscope CEA|2023-05-12|Contig|
+Cnidaria	NCBI	GCF_030620025.1	Pocillopora verrucosa	203993	genome	26915	0.9727463	NCBI RefSeq|2023-08-21|Contig|metazoa_odb10
+Cnidaria	NCBI	GCA_059054395.1	Podocoryna americana	589949	genome	19095		National Human Genome Research Institute|2026-07-07|Chromosome|
+Cnidaria	NCBI	GCA_942486025.1	Porites evermanni	104178	genome	40380		Genoscope CEA|2023-05-12|Scaffold|
+Cnidaria	NCBI	GCA_040938025.2	Porites harrisoni	627007	genome	23672		Coral Global Search|2026-01-21|Contig|
+Cnidaria	NCBI	GCA_942486035.1	Porites lobata	104759	genome	42872		Genoscope CEA|2023-05-12|Contig|
+Cnidaria	NCBI	GCF_958299795.1	Porites lutea	51062	genome	26672	0.966457	NCBI RefSeq|2025-04-10|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_057945365.1	Rhopilema esculentum	499914	genome	15311	0.9444444	NCBI RefSeq|2026-09-29|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCF_964205215.1	Stylophora pistillata	50429	genome	35391	0.9779874	NCBI RefSeq|2026-09-16|Chromosome|metazoa_odb10
+Cnidaria	NCBI	GCA_000827895.1	Thelohanellus kitauei	669202	genome	15020		Chinese Academy of Agricultural Sciences (CAAS)|2015-01-23|Scaffold|
+Cnidaria	NCBI	GCF_021976095.1	Xenia sp. Carnegie-2017	2897299	genome	18425	0.9213836	NCBI RefSeq|2022-02-24|Scaffold|metazoa_odb10
+Cnidaria	EukProt	EP00110	Nematostella vectensis	45351	genome	24780	93.40%	ASM20922v1|
+Cnidaria	EukProt	EP00111	Clytia hemisphaerica	252671	genome	25087	84.30%	v1.0|
+Cnidaria	EukProt	EP00112	Aurelia sp. Birch-Aquarium-sp1 Birch_Aquarium_sp.1		genome	27044	65.90%	v1.2|
+Cnidaria	EukProt	EP00794		128131	genome	21484	91.30%	ASM1307629v1|
+Cnidaria	EukProt	EP00795		499914	genome	17925	85.10%	ASM1307630v1|
+Cnidaria	EukProt	AP00053		1193083	transcriptome	26623	83.90%	see AniProt supplement|
+Cnidaria	LukProt	LP00030	Anemonia viridis	51769	transcriptome	3235	6.70%	http://comparative.reefgenomics.org/faa/Cnidaria/Anemonia_viridis_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00031	Anthopleura elegantissima	6110	transcriptome	28527	61.20%	http://comparative.reefgenomics.org/faa/Cnidaria/Anthopleura_elegantissima_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00037	Anthopleura buddemeieri	1566020	transcriptome	82236	87.90%	http://cnimmunity.reefgenomics.org/download/Anthopleura_buddemeieri.fa.gz|
+Cnidaria	LukProt	LP00038	Aulactinia veratra	1730095	transcriptome	64716	94.90%	http://cnimmunity.reefgenomics.org/download/Aulactinia_veratra.fa.gz|
+Cnidaria	LukProt	LP00039	Exaiptasia diaphana	2652724	genome	53985	96.50%	|
+Cnidaria	LukProt	LP00040	Telmatactis sp.		transcriptome	46880	67.80%	http://cnimmunity.reefgenomics.org/download/Telmatactis_sp.fa.gz|
+Cnidaria	LukProt	LP00043	Nemanthus annamensis	1813764	transcriptome	46393	96.40%	http://cnimmunity.reefgenomics.org/download/Nemanthus_annamensis.fa.gz|
+Cnidaria	LukProt	LP00044	Clavularia sp.	86521	transcriptome	174636	83.90%	|
+Cnidaria	LukProt	LP00045	Gorgonia ventalina	204384	transcriptome	31334	54.90%	http://comparative.reefgenomics.org/faa/Cnidaria/Gorgonia_ventalina_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00046	Xenia sp. KK-2018	2483981	transcriptome	28010	90.20%	xenSp1.proteins.fa|
+Cnidaria	LukProt	LP00047	Renilla muelleri	37510	genome	23671	78.80%	http://rmue.reefgenomics.org/download/renilla_predicted_proteins.fa.gz|
+Cnidaria	LukProt	LP00048	Acropora digitifera	70779	genome	33880	73.70%	|
+Cnidaria	LukProt	LP00049	Acropora millepora	45264	genome	26615	89.40%	Acropora_millepora_1.1.maker_006.proteins.fasta|
+Cnidaria	LukProt	LP00050	Acropora tenuis	70783	genome	30327	87.40%	http://aten.reefgenomics.org/download/aten_0.11.maker_post_001.proteins.fasta.gz|
+Cnidaria	LukProt	LP00054	Astreopora sp.		transcriptome	23921	69.80%	http://comparative.reefgenomics.org/faa/Coral/Astreopora_sp_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00055	Astreopora expansa	1288472	transcriptome	41011	84.80%	http://sgcorals.reefgenomics.org/download/Astreopora_expansa_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00056	Dendrophyllia sp.		transcriptome	33520	77.70%	Dendrophylia_assembly250_longest.fasta|
+Cnidaria	LukProt	LP00057	Eguchipsammia fistula	1262131	transcriptome	24416	59.60%	Efis_assembly250_longest.fasta|
+Cnidaria	LukProt	LP00058	Diploastrea heliopora	214969	transcriptome	31323	30.20%	http://sgcorals.reefgenomics.org/download/Diploastrea_heliopora_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00059	Galaxea fascicularis	46745	genome	22418	83.50%	http://gfas.reefgenomics.org/download/gfas_1.0.proteins.fasta.gz|
+Cnidaria	LukProt	LP00060	Fimbriaphyllia ancora	46750	transcriptome	41969	70.20%	http://sgcorals.reefgenomics.org/download/Fimbriaphyllia_ancora_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00061	Galaxea astreata	154325	transcriptome	53617	79.30%	http://sgcorals.reefgenomics.org/download/Galaxea_astreata_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00062	Rhizotrochus typus	655485	transcriptome	31105	69.40%	Rtyp_assembly250_longest.fasta|
+Cnidaria	LukProt	LP00063	Lobactis scutaria	46714	transcriptome	28265	83.20%	http://comparative.reefgenomics.org/faa/Coral/Fungia_scutaria_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00064	Lobactis spp.		genome	38209	83.90%	http://ffun.reefgenomics.org/download/ffun_1.0.proteins.fasta.gz|
+Cnidaria	LukProt	LP00065	Herpolitha limax	371667	transcriptome	59759	63.20%	http://sgcorals.reefgenomics.org/download/Herpolitha_limax_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00066	Lobophyllia radians	1917253	transcriptome	59535	51.40%	http://sgcorals.reefgenomics.org/download/Lobophyllia_radians_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00067	Coelastrea aspera	1540031	genome	35901	85.10%	http://gasp.reefgenomics.org/download/gasp_1.0.proteins.fasta.gz|
+Cnidaria	LukProt	LP00068	Cyphastrea serailia	242754	transcriptome	31265	40.80%	http://sgcorals.reefgenomics.org/download/Cyphastrea_serailia_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00069	Goniastrea retiformis	465062	transcriptome	52027	72.90%	http://sgcorals.reefgenomics.org/download/Goniastrea_retiformis_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00071	Orbicella faveolata	48498	genome	32587	86.30%	|
+Cnidaria	LukProt	LP00072	Platygyra carnosa	1136245	transcriptome	66449	63.60%	http://comparative.reefgenomics.org/faa/Coral/Platygyra_carnosus_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00073	Platygyra sinensis	102205	transcriptome	67034	52.20%	http://sgcorals.reefgenomics.org/download/Platygyra_sinensis_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00074	Montastraea cavernosa 	63558	transcriptome	39938	79.60%	http://comparative.reefgenomics.org/faa/Coral/Montastraea_cavernosa_peptides_100.final.clstr.faa |
+Cnidaria	LukProt	LP00075	Favia sp.		transcriptome	26627	38.50%	http://comparative.reefgenomics.org/faa/Coral/Favia_sp_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00076	Pseudodiploria strigosa 	1428006	transcriptome	24345	50.20%	http://comparative.reefgenomics.org/faa/Coral/Pseudodiploria_strigosa_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00077	Oulastrea crispata	154329	transcriptome	59589	91.30%	http://sgcorals.reefgenomics.org/download/Oulastrea_crispata_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00078	Plesiastrea versipora	187483	transcriptome	71279	80.30%	http://sgcorals.reefgenomics.org/download/Plesiastrea_versipora_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00079	Madracis auretenra 	999287	transcriptome	42119	67.50%	http://comparative.reefgenomics.org/faa/Coral/Madracis_auretenra_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00080	Pocillopora damicornis	46731	genome	26077	85.50%	http://pdam.reefgenomics.org/download/pdam_proteins.fasta.gz|
+Cnidaria	LukProt	LP00082	Seriatopora hystrix 	51070	transcriptome	27680	45.10%	http://comparative.reefgenomics.org/faa/Coral/Seriatopora_hystrix_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00083	Seriatopora sp. 		transcriptome	35409	36.90%	http://comparative.reefgenomics.org/faa/Coral/Seriatopora_sp_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00084	Stylophora pistillata	50429	genome	24067	83.90%	|
+Cnidaria	LukProt	LP00085	Goniopora columna	541198	transcriptome	44978	38.40%	http://sgcorals.reefgenomics.org/download/Goniopora_columna_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00086	Porites australiensis 	51061	transcriptome	19567	81.20%	http://comparative.reefgenomics.org/faa/Coral/Porites_australiensis_peptides_100.final.clstr.faa|
+Cnidaria	LukProt	LP00087	Porites lutea	51062	genome	31126	92.20%	http://plut.reefgenomics.org/download/plut2v1.1.proteins.fasta.gz|
+Cnidaria	LukProt	LP00088	Pachyseris speciosa	497657	transcriptome	64476	71.70%	http://sgcorals.reefgenomics.org/download/Pachyseris_speciosa_transcriptome_REL.fa.gz|
+Cnidaria	LukProt	LP00089	Siderastrea siderea	130672	transcriptome	44809	86.60%	http://ssid.reefgenomics.org/download/Siderastrea_siderea_transcriptome.tar.gz|
+Cnidaria	LukProt	LP00090	Morbakka virulenta	686327	transcriptome	37301	91.00%	GHAF01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00091	Copula sivickisi	168718	transcriptome	90986	93.30%	GHBG01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00092	Tripedalia cystophora	6141	transcriptome	51541	96.40%	GHAQ01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00093	Chironex yamaguchii	672230	transcriptome	45450	96.80%	GHAX01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00094	Hydractinia echinata	35630	transcriptome	50573	98.00%	Hydractinia_echinata_2.0_genemodels.fasta|
+Cnidaria	LukProt	LP00095	Hydra vulgaris	6087	genome	36059	84.30%	hydra2.0_genemodels.aa.gz|
+Cnidaria	LukProt	LP00096	Porpita porpita	316235	transcriptome	35792	91.40%	GHBA01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00097	Velella velella	264060	transcriptome	172395	81.20%	GHAZ01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00098	Physalia physalis	168775	transcriptome	18606	86.20%	GHBB01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00099	Nemopilema nomurai	321803	transcriptome	44527	96.50%	GHAR01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00114	Turbinaria mesenterina	51073	transcriptome	52868	62.00%	Turbinaria_mesenterina_transcriptome_REL.fasta|
+Cnidaria	LukProt	LP00144	Actinia tenebrosa all	6105	transcriptome	121175	99.20%	http://cnimmunity.reefgenomics.org/download/Actinia_tenebrosa_blue.fa.gz http://cnimmunity.reefgenomics.org/download/Actinia_tenebrosa_brown.fa.gz  http://cnimmunity.reefgenomics.org/download/Actinia_tenebrosa_green.fa.gz http://cnimmunity.reefgenomics.org/download/Actinia_tenebrosa_red.fa.gz |
+Cnidaria	LukProt	LP00145	Aurelia aurita	6145	transcriptome	184030	99.60%	GHAG01.1.fsa_nt.gz GHAK01.1.fsa_nt.gz GHAI01.1.fsa_nt.gz GHAS01.1.fsa_nt.gz|
+Cnidaria	LukProt	LP00148	Calliactis polypus	656064	transcriptome	76039	98.10%	http://cnimmunity.reefgenomics.org/download/Calliactis_polypus_1.fa.gz http://cnimmunity.reefgenomics.org/download/Calliactis_polypus_2.fa.gz |
+Cnidaria	LukProt	LP00222	Alcyonium palmatum	124282	transcriptome	32248	76.40%	Alcyonium_palmatum.fa|
+Cnidaria	LukProt	LP00223	Pachycerianthus borealis	2736680	transcriptome	17297	24.70%	HAGY01|PAIRED reads
+Cnidaria	LukProt	LP00224	Abylopsis tetragona	316209	transcriptome	38418	83.10%	Abylopsis_tetragona.fa|
+Cnidaria	LukProt	LP00225	Craspedacusta sowerbii	128124	transcriptome	20496	91.80%	Craspedacusta_sowerbii.fa|
+Cnidaria	LukProt	LP00226	Liriope tetraphylla	37524	transcriptome	51908	84.70%	Liriope_tetraphylla.fa|
+Cnidaria	LukProt	LP00227	Hydractinia symbiolongicarpus	13093	genome	25825	93.70%	HSymV2.0.Protein.fasta|
+Cnidaria	LukProt	LP00228	Calvadosia campanulata	1843190	transcriptome	24920	70.20%	Calvadosia_campanulata.fa|
+Cnidaria	LukProt	LP00229	Pelagia noctiluca	400838	transcriptome	24845	93.70%	Pelagia_noctiluca.fa|
+Cnidaria	LukProt	LP00230	Stomolophus meleagris	168796	transcriptome	15500	71.40%	Stomolophus_meleagris.fa|
+Cnidaria	LukProt	LP00231	Calvadosia cruxmelitensis	1843192	transcriptome	49024	80.00%	HAHC01|PAIRED reads
+Cnidaria	LukProt	LP00232	Haliclystus sanjuanensis	168739	transcriptome	31190	49.80%	HAHB01|PAIRED reads
+Cnidaria	LukProt	LP00233	Lucernaria quadricornis	1843199	transcriptome	53300	77.20%	HAHD01|PAIRED reads
+Cnidaria	LukProt	LP00234	Ceratonova shasta	60662	transcriptome-guided mass spectrometry proteome	2292	34.90%	Table S2 Protein seq.fasta (only the identified proteins)|
+Cnidaria	LukProt	LP00235	Henneguya zschokkei	35592	genome	8187	34.50%	|
+Cnidaria	LukProt	LP00236	Myxobolus honghuensis	1085956	genome	15433	49.10%	Myxobolus_honghuensis_EVM.pep|
+Cnidaria	LukProt	LP00237	Myxobolus squamalis	59785	genome	5738	21.20%	|
+Cnidaria	LukProt	LP00238	Thelohanellus kitauei	669202	genome	14792	29.00%	|
+Cnidaria	LukProt	LP00259	Antipathes caribbeana	934276	transcriptome	63218	94.50%	|
+Cnidaria	LukProt	LP00260	Plumapathes pennacea	1350358	transcriptome	72134	98.00%	|
+Cnidaria	LukProt	LP00262	Polypodium hydriforme	43186	transcriptome	42218	96.50%	|
+Apusomonadida	UniProt	UP000054408	Thecamonas trahens ATCC 50062	461836	genome	10533	C:81.6%[S:81.6%,D:0.0%],F:7.1%,M:11.4%,n:255	GCA_000142905.1|full|Apusomonadida, Apusomonadidae, Thecamonas
+Apusomonadida	NCBI	GCF_000142905.1	Thecamonas trahens ATCC 50062	461836	genome	10515		Broad Institute|2024-02-16|Scaffold|
+Apusomonadida	EukProt	EP00030	Apusomonadida sp. AF-17	1703432	transcriptome	8975	40.80%	Transcriptome assembly of Amastigomonas sp|
+Apusomonadida	EukProt	EP00031	Thecamonas trahens ATCC 50062	529818	genome	10626	81.20%	TheTra_May2010|
+Apusomonadida	EukProt	EP01139		172822	EST	28077	42.00%	PhyloFisher_v1.0_input_proteomes/Manchomonas_bermudensis|
+Breviatea	EukProt	EP00032	Breviata anathema ATCC 50338	81100	EST	2015	6.30%	LIBEST_028366|
+Breviatea	EukProt	EP00033	Pygsuia biforma PCbi66	1277256	transcriptome	9511	61.60%	GCRY01000000|
+Breviatea	EukProt	EP00034	Subulatomonas tetraspora ATCC 50623	999882	transcriptome	3029	0.00%	GABW01000000|
+Breviatea	EukProt	EP01086		1653305	transcriptome	18279	44.30%	mRNA library of an enriched Lenisia limosa culture with bacterial symbionts|
+Rotosphaerida	UniProt	UP000030693	Fonticula alba (Slime mold)	691883	genome	5901	C:71.0%[S:68.2%,D:2.7%],F:10.6%,M:18.4%,n:255	GCA_000388065.2|full|Opisthokonta, Rotosphaerida, Fonticulaceae
+Rotosphaerida	NCBI	GCF_000388065.1	Fonticula alba	691883	genome	5901		NCBI RefSeq|2014-10-06|Scaffold|
+Rotosphaerida	EukProt	EP00159	Fonticula alba ATCC 38817	691883	genome	6309	71.00%	Font_alba_ATCC_38817_V2|
+Rotosphaerida	EukProt	EP00160	Parvularia atlantis ATCC 50694	1993908	transcriptome	22303	75.30%	a-Unigene Version 4|
+Rotosphaerida	EukProt	EP00732	Lithocolla globosa MK547176-SnP	2511775	transcriptome	9277	22.80%	cleaned_NUC|
+Rotosphaerida	EukProt	EP00733	Pompholyxophrys punicea MK547175-LG129	2510583	single-cell transcriptome	3121	2.00%	cleaned|
+Rotosphaerida	EukProt	EP00734	Pompholyxophrys sp. LG126	2511779	single-cell genome	1094	0.80%	cleaned|

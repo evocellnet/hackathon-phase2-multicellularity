@@ -1,0 +1,308 @@
+query	db	acc	species	taxid	data_type	n_prot	busco	extra
+Endogone	NCBI	GCA_003990785.1	Endogone sp. FLAS-F59071	2340872	genome	9218		DOE Joint Genome Institute|2019-01-02|Contig|
+Endogone	EukProt	EP00862			genome	9491	64.70%	Endsp1|
+Amoeboaphelidium	NCBI	GCA_023515795.1	Amoeboaphelidium occidentale	1498855	genome	7496		A.N. Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University|2022-05-20|Scaffold|
+Amoeboaphelidium	NCBI	GCA_023515745.1	Amoeboaphelidium protococcarum	1243177	genome	13180		A.N. Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University|2022-05-20|Scaffold|
+Aphelida	NCBI	GCA_023515795.1	Amoeboaphelidium occidentale	1498855	genome	7496		A.N. Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University|2022-05-20|Scaffold|
+Aphelida	NCBI	GCA_023515745.1	Amoeboaphelidium protococcarum	1243177	genome	13180		A.N. Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University|2022-05-20|Scaffold|
+Pneumocystis	UniProt	UP000011958	Pneumocystis murina (strain B123) (Mouse pneumocystis pneumonia agent) (Pneumocystis carinii f. sp. muris)	1069680	genome	3635	C:75.9%[S:75.8%,D:0.1%],F:1.6%,M:22.5%,n:1706	GCA_000349005.2|full|Pneumocystales, Pneumocystaceae, Pneumocystis
+Pneumocystis	UniProt	UP000053447	Pneumocystis jirovecii (strain RU7) (Human pneumocystis pneumonia agent)	1408657	genome	3746	C:75.7%[S:75.5%,D:0.2%],F:2.3%,M:22.0%,n:1706	GCA_001477535.1|full|Pneumocystales, Pneumocystaceae, Pneumocystis
+Pneumocystis	UniProt	UP000054454	Pneumocystis carinii (strain B80) (Rat pneumocystis pneumonia agent) (Pneumocystis carinii f. sp. carinii)	1408658	genome	3641	C:76.6%[S:76.4%,D:0.2%],F:1.3%,M:22.1%,n:1706	GCA_001477545.1|full|Pneumocystales, Pneumocystaceae, Pneumocystis
+Pneumocystis	UniProt	UP000663699	Pneumocystis wakefieldiae	38082	genome	3181	C:65.5%[S:65.2%,D:0.2%],F:4.2%,M:30.3%,n:1706	GCA_017301755.1|full|Pneumocystomycetes, Pneumocystales, Pneumocystaceae
+Pneumocystis	UniProt	UP000768646	Pneumocystis oryctolagi	42067	genome	2856	C:61.9%[S:61.7%,D:0.2%],F:2.8%,M:35.3%,n:1706	GCA_017311285.1|full|Pneumocystomycetes, Pneumocystales, Pneumocystaceae
+Pneumocystis	NCBI	GCA_017311265.1	Pneumocystis canis	2698477	genome	3203		National Institutes Of Health|2021-03-09|Scaffold|
+Pneumocystis	NCBI	GCF_001477545.1	Pneumocystis carinii B80	1408658	genome	3646		Broad Institute|2017-08-28|Contig|
+Pneumocystis	NCBI	GCA_000333975.2	Pneumocystis jirovecii	42068	genome	3535		Vital-IT / High Performance Computing Center|2012-12-19|Contig|
+Pneumocystis	NCBI	GCF_001477535.1	Pneumocystis jirovecii RU7	1408657	genome	3761		Broad Institute|2022-04-19|Contig|
+Pneumocystis	NCBI	GCF_000349005.2	Pneumocystis murina B123	1069680	genome	3623		Broad Institute|2017-08-29|Contig|
+Pneumocystis	NCBI	GCA_017311285.1	Pneumocystis oryctolagi	42067	genome	2856		National Institutes Of Health|2021-03-09|Scaffold|
+Pneumocystis	NCBI	GCA_018127085.1	Pneumocystis sp. 'macacae'	2698480	genome	3390		National Institutes Of Health|2021-04-23|Chromosome|
+Pneumocystis	NCBI	GCA_017301755.1	Pneumocystis wakefieldiae	38082	genome	3182		National Institutes Of Health|2021-03-09|Complete Genome|
+Arthrobotrys	UniProt	UP000008784	Arthrobotrys oligospora (strain ATCC 24927 / CBS 115.81 / DSM 1491) (Nematode-trapping fungus) (Didymozoophaga oligospora)	756982	genome	11478	C:96.1%[S:95.9%,D:0.2%],F:1.4%,M:2.5%,n:1706	GCA_000225545.1|full|Orbiliales, Orbiliaceae, Orbilia
+Arthrobotrys	UniProt	UP000283090	Arthrobotrys flagrans (Nematode-trapping fungus) (Trichothecium flagrans)	97331	genome	9880	C:97.0%[S:94.7%,D:2.3%],F:1.1%,M:1.9%,n:1706	GCA_004000055.1|full|Orbiliomycetes, Orbiliales, Orbiliaceae
+Arthrobotrys	UniProt	UP001307849	Arthrobotrys conoides	74498	genome	11355	C:97.6%[S:92.0%,D:5.6%],F:0.5%,M:1.9%,n:1706	GCA_036971725.1|full|Orbiliomycetes, Orbiliales, Orbiliaceae
+Arthrobotrys	UniProt	UP001370758	Arthrobotrys musiformis	47236	genome	12191	C:97.7%[S:93.7%,D:4.0%],F:0.6%,M:1.7%,n:1706	GCA_036971715.1|full|Orbiliomycetes, Orbiliales, Orbiliaceae
+Arthrobotrys	UniProt	UP001658139	Arthrobotrys megalospora	2528406	genome	11859	C:95.4%[S:90.1%,D:5.3%],F:0.9%,M:3.7%,n:1706	GCA_036971655.1|full|Orbiliomycetes, Orbiliales, Orbiliaceae
+Arthrobotrys	NCBI	GCA_036971725.1	Arthrobotrys conoides	74498	genome	11356		Academia Sinica|2024-03-04|Contig|
+Arthrobotrys	NCBI	GCA_012184315.1	Arthrobotrys entomopaga	321852	genome	10344		Laboratory for Conservation and Utilization of Bio-Resources and Key Laboratory for Microbial Diversity in Southwest China, Ministry of Education|2020-04-08|Scaffold|
+Arthrobotrys	NCBI	GCF_004000055.1	Arthrobotrys flagrans	97331	genome	9897		Institute for Applied Biosciences|2024-09-04|Contig|
+Arthrobotrys	NCBI	GCA_036971655.1	Arthrobotrys megalospora	2528406	genome	11866		Academia Sinica|2024-03-04|Contig|
+Arthrobotrys	NCBI	GCA_036971715.1	Arthrobotrys musiformis	47236	genome	12197		Academia Sinica|2024-03-04|Contig|
+Tuber	UniProt	UP000006911	Tuber melanosporum (strain Mel28) (Perigord black truffle)	656061	genome	7494	C:90.2%[S:89.4%,D:0.8%],F:2.9%,M:6.9%,n:1706	GCA_000151645.1|full|Pezizales, Tuberaceae, Tuber
+Tuber	UniProt	UP000244722	Tuber borchii (White truffle)	42251	genome	12324	C:95.5%[S:94.2%,D:1.3%],F:1.9%,M:2.6%,n:1706	GCA_003070745.1|full|Pezizomycetes, Pezizales, Tuberaceae
+Tuber	UniProt	UP000246991	Tuber magnatum (white Piedmont truffle)	42249	genome	9390	C:91.6%[S:90.3%,D:1.2%],F:2.9%,M:5.6%,n:1706	GCA_003182015.1|full|Pezizomycetes, Pezizales, Tuberaceae
+Tuber	UniProt	UP001412239	Tuber aestivum (summer truffle)	59557	genome	9295	C:93.4%[S:92.8%,D:0.5%],F:0.8%,M:5.9%,n:1706	GCA_900010015.1|full|Pezizomycetes, Pezizales, Tuberaceae
+Tuber	NCBI	GCA_900010015.1	Tuber aestivum	59557	genome	9297		Genoscope CEA|2017-10-04|Scaffold|
+Tuber	NCBI	GCA_003070745.1	Tuber borchii	42251	genome	12345		DOE Joint Genome Institute|2018-04-24|Contig|
+Tuber	NCBI	GCA_014065205.1	Tuber brumale	60458	genome	12380		INRAE|2021-01-05|Scaffold|
+Tuber	NCBI	GCA_014065215.1	Tuber indicum	55307	genome	11870		INRAE|2020-12-09|Scaffold|
+Tuber	NCBI	GCA_003182015.1	Tuber magnatum	42249	genome	9431		INRA|2018-05-31|Scaffold|
+Tuber	NCBI	GCF_000151645.1	Tuber melanosporum	39416	genome	7420		The French-Italian Tuber Genome Consortium|2022-12-20|Scaffold|
+Fusarium	UniProt	UP000009096	Gibberella moniliformis (strain M3125 / FGSC 7600) (Maize ear and stalk rot fungus) (Fusarium verticillioides)	334819	genome	15968	C:98.7%[S:73.4%,D:25.3%],F:1.0%,M:0.3%,n:4494	GCA_000149555.1|full|Nectriaceae, Fusarium, Fusarium fujikuroi species complex
+Fusarium	UniProt	UP000016800	Gibberella fujikuroi (strain CBS 195.34 / IMI 58289 / NRRL A-6831) (Bakanae and foot rot disease fungus) (Fusarium fujikuroi)	1279085	genome	14792	C:99.7%[S:99.6%,D:0.2%],F:0.2%,M:0.1%,n:4494	GCA_900079805.1|full|Nectriaceae, Fusarium, Fusarium fujikuroi species complex
+Fusarium	UniProt	UP000016929	Fusarium oxysporum f. sp. cubense (strain race 4) (Panama disease fungus)	2502994	genome	14157	C:81.4%[S:78.6%,D:2.8%],F:1.1%,M:17.5%,n:4494	GCA_000350365.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000030663	Fusarium oxysporum f. sp. raphani 54005	1089458	genome	19288	C:99.6%[S:68.1%,D:31.6%],F:0.1%,M:0.3%,n:4494	GCA_000260235.2|full|Fusarium, Fusarium oxysporum species complex, Fusarium oxysporum
+Fusarium	UniProt	UP000037904	Fusarium langsethiae	179993	genome	11939	C:98.1%[S:97.9%,D:0.2%],F:0.4%,M:1.5%,n:4494	GCA_001292635.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000070720	Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1) (Wheat head blight fungus) (Fusarium graminearum)	229533	genome	14147	C:99.6%[S:99.5%,D:0.1%],F:0.2%,M:0.2%,n:4494	GCA_900044135.1|full|Nectriaceae, Fusarium, Fusarium sambucinum species complex
+Fusarium	UniProt	UP000091967	Fusarium poae	36050	genome	14048	C:99.0%[S:98.8%,D:0.2%],F:0.1%,M:0.9%,n:4494	GCA_001675295.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000183971	Fusarium proliferatum (strain ET1) (Orchid endophyte fungus)	1227346	genome	16122	C:99.9%[S:99.6%,D:0.2%],F:0.1%,M:0.0%,n:4494	GCA_900067095.1|full|Nectriaceae, Fusarium, Fusarium fujikuroi species complex
+Fusarium	UniProt	UP000184255	Fusarium mangiferae (Mango malformation disease fungus)	192010	genome	15798	C:99.7%[S:99.4%,D:0.3%],F:0.2%,M:0.2%,n:4494	GCA_900044065.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000236664	Gibberella nygamai (Bean root rot disease fungus) (Fusarium nygamai)	42673	genome	16018	C:98.6%[S:98.1%,D:0.5%],F:1.0%,M:0.4%,n:4494	GCA_002894225.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000241587	Fusarium culmorum	5516	genome	12360	C:94.5%[S:94.4%,D:0.1%],F:0.6%,M:4.9%,n:4494	GCA_003033665.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000245910	Fusarium venenatum	56646	genome	13940	C:99.5%[S:99.4%,D:0.1%],F:0.1%,M:0.4%,n:4494	GCA_900007375.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000253153	Fusarium coffeatum	231269	genome	11778	C:97.0%[S:96.9%,D:0.1%],F:0.3%,M:2.7%,n:4494	GCA_003316985.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000265631	Fusarium flagelliforme	2675880	genome	13039	C:98.1%[S:97.7%,D:0.4%],F:0.9%,M:1.0%,n:4494	GCA_003012295.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000266152	Fusarium sporotrichioides	5514	genome	11960	C:98.5%[S:98.3%,D:0.1%],F:0.6%,M:0.9%,n:4494	GCA_003012315.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000266234	Fusarium longipes	694270	genome	11420	C:97.6%[S:97.6%,D:0.1%],F:1.1%,M:1.3%,n:4494	GCA_003012285.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000277212	Fusarium kuroshium	2010991	genome	16484	C:94.4%[S:93.9%,D:0.5%],F:0.7%,M:4.9%,n:4494	GCA_003698175.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000287124	Fusarium euwallaceae	1147111	genome	17627	C:98.2%[S:97.5%,D:0.7%],F:1.0%,M:0.9%,n:4494	GCA_003957675.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000287144	Fusarium oligoseptatum	2604345	genome	17739	C:91.3%[S:90.9%,D:0.4%],F:5.9%,M:2.7%,n:4494	GCA_003946995.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000287972	Fusarium floridanum	1325733	genome	16761	C:95.4%[S:94.8%,D:0.6%],F:1.1%,M:3.5%,n:4494	GCA_003947005.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000288168	Fusarium duplospermum	1325734	genome	16262	C:98.4%[S:97.9%,D:0.5%],F:0.8%,M:0.8%,n:4494	GCA_003946985.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000288429	Fusarium ambrosium	131363	genome	17261	C:98.0%[S:97.4%,D:0.6%],F:1.1%,M:0.9%,n:4494	GCA_003947045.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000522262	Fusarium mexicanum	751941	genome	14382	C:98.0%[S:97.8%,D:0.2%],F:0.5%,M:1.5%,n:4494	GCA_013396015.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000530670	Fusarium tjaetaba	1567544	genome	14180	C:97.7%[S:97.5%,D:0.2%],F:0.7%,M:1.6%,n:4494	GCA_013396195.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000532311	Fusarium globosum	78864	genome	14587	C:96.2%[S:96.0%,D:0.2%],F:1.0%,M:2.8%,n:4494	GCA_013396165.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000536711	Fusarium acutatum	78861	genome	14072	C:98.0%[S:97.7%,D:0.3%],F:0.4%,M:1.6%,n:4494	GCA_012932015.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000537989	Fusarium austroamericanum	282268	genome	11983	C:97.9%[S:97.7%,D:0.2%],F:0.6%,M:1.5%,n:4494	GCA_013364965.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000544095	Fusarium pseudoanthophilum	48495	genome	14083	C:97.4%[S:97.1%,D:0.3%],F:0.8%,M:1.8%,n:4494	GCA_013395995.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000544331	Fusarium mundagurra	1567541	genome	15662	C:97.8%[S:97.2%,D:0.6%],F:0.6%,M:1.6%,n:4494	GCA_013396205.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000546213	Fusarium pseudocircinatum	56676	genome	14261	C:97.4%[S:97.1%,D:0.3%],F:0.7%,M:1.9%,n:4494	GCA_013396035.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000547976	Gibberella subglutinans (Fusarium subglutinans)	42677	genome	14039	C:98.6%[S:98.4%,D:0.2%],F:0.3%,M:1.1%,n:4494	GCA_013396075.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000554235	Fusarium albosuccineum	1237068	genome	17167	C:95.9%[S:95.3%,D:0.6%],F:1.5%,M:2.6%,n:4494	GCA_012931995.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000562682	Fusarium denticulatum	48507	genome	14090	C:97.6%[S:97.3%,D:0.3%],F:0.6%,M:1.8%,n:4494	GCA_013396175.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000567885	Fusarium heterosporum	42747	genome	11330	C:97.3%[S:97.2%,D:0.1%],F:0.9%,M:1.8%,n:4494	GCA_013396295.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000572754	Fusarium circinatum (Pitch canker fungus) (Gibberella circinata)	48490	genome	13897	C:98.2%[S:98.0%,D:0.2%],F:0.4%,M:1.4%,n:4494	GCA_013396185.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000573603	Fusarium anthophilum	48485	genome	14795	C:97.7%[S:97.3%,D:0.4%],F:0.4%,M:1.9%,n:4494	GCA_013364935.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000574317	Fusarium napiforme	42672	genome	13892	C:96.7%[S:96.5%,D:0.2%],F:1.1%,M:2.2%,n:4494	GCA_013396005.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000582016	Fusarium phyllophilum	47803	genome	14159	C:97.1%[S:96.9%,D:0.1%],F:0.8%,M:2.1%,n:4494	GCA_013396025.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000604273	Fusarium gaditjirri	282569	genome	13451	C:98.0%[S:97.9%,D:0.1%],F:0.5%,M:1.5%,n:4494	GCA_013266175.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000605986	Fusarium austroafricanum	2364996	genome	14500	C:97.4%[S:97.3%,D:0.2%],F:0.6%,M:2.0%,n:4494	GCA_012932025.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000622797	Fusarium sarcochroum	1208366	genome	14826	C:97.1%[S:96.8%,D:0.4%],F:0.8%,M:2.0%,n:4494	GCA_013266185.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000635477	Fusarium zealandicum	1053134	genome	10733	C:95.5%[S:95.3%,D:0.2%],F:1.4%,M:3.1%,n:4494	GCA_013266195.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000720189	Fusarium redolens	48865	genome	17005	C:97.5%[S:96.9%,D:0.6%],F:0.4%,M:2.1%,n:4494	GCA_020744475.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000730481	Fusarium beomiforme	44412	genome	14518	C:97.5%[S:97.1%,D:0.4%],F:0.8%,M:1.7%,n:4494	GCA_002980475.2|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000736672	Fusarium solani (Filamentous fungus)	169388	genome	17641	C:98.3%[S:97.2%,D:1.1%],F:0.3%,M:1.4%,n:4494	GCA_020744495.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000737391	Fusarium agapanthi	1803897	genome	13309	C:97.0%[S:96.7%,D:0.2%],F:1.0%,M:2.0%,n:4494	GCA_001654555.2|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000750502	Fusarium xylarioides	221167	genome	14591	C:98.9%[S:97.9%,D:1.1%],F:0.3%,M:0.7%,n:4494	GCA_018296285.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000782241	Fusarium avenaceum	40199	genome	11232	C:96.5%[S:96.3%,D:0.2%],F:0.3%,M:3.2%,n:4494	GCA_018282135.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000813427	Fusarium tricinctum	61284	genome	14098	C:98.2%[S:98.0%,D:0.2%],F:0.3%,M:1.5%,n:4494	GCA_020744515.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000827133	Fusarium musae	1042133	genome	13672	C:96.7%[S:96.5%,D:0.2%],F:1.5%,M:1.8%,n:4494	GCA_019915245.1|full|Hypocreomycetidae, Hypocreales, Nectriaceae
+Fusarium	UniProt	UP000830768	Fusarium solani subsp. cucurbitae (Neocosmosporum cucurbitae)	2747967	genome	15320	C:99.5%[S:98.8%,D:0.6%],F:0.2%,M:0.3%,n:4494	GCA_023101225.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001065298	Fusarium keratoplasticum	1328300	genome	14424	C:97.0%[S:96.4%,D:0.7%],F:0.2%,M:2.8%,n:4494	GCA_025433545.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001140502	Fusarium piperis	1435070	genome	12529	C:97.8%[S:97.5%,D:0.3%],F:1.0%,M:1.2%,n:4494	GCA_027946385.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001148629	Fusarium decemcellulare	57161	genome	17201	C:53.9%[S:51.8%,D:2.0%],F:12.0%,M:34.1%,n:4494	GCA_027627305.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001152024	Fusarium equiseti (Fusarium scirpi)	61235	genome	11882	C:98.0%[S:97.9%,D:0.1%],F:0.6%,M:1.4%,n:4494	GCA_027945365.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001152049	Fusarium torreyae	1237075	genome	14532	C:98.8%[S:98.6%,D:0.2%],F:0.6%,M:0.6%,n:4494	GCA_027945595.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001152087	Fusarium falciforme	195108	genome	14678	C:97.7%[S:94.3%,D:3.4%],F:1.2%,M:1.1%,n:4494	GCA_027945505.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001152130	Fusarium irregulare	2494466	genome	12531	C:97.9%[S:97.8%,D:0.1%],F:1.1%,M:1.0%,n:4494	GCA_027945245.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001187734	Fusarium torulosum	33205	genome	13950	C:99.2%[S:98.9%,D:0.3%],F:0.4%,M:0.4%,n:4494	GCA_900312805.1|full|Hypocreomycetidae, Hypocreales, Nectriaceae
+Fusarium	UniProt	UP001489902	Fusarium acuminatum	5515	genome	11335	C:94.1%[S:93.7%,D:0.4%],F:1.3%,M:4.6%,n:4494	GCA_038181435.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001670338	Gibberella pulicaris	5128	genome	12890	C:99.7%[S:99.6%,D:0.1%],F:0.1%,M:0.2%,n:4494	GCA_041870755.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP001712045	Fusarium chlamydosporum	86545	genome	11054	C:95.4%[S:95.3%,D:0.1%],F:1.8%,M:2.8%,n:4494	GCA_047716405.1|full|Hypocreales, Nectriaceae, Fusarium
+Fusarium	UniProt	UP000005206	Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 / FGSC 9596 / NRRL 45880 / 77-13-4) (Fusarium solani subsp. pisi)	660122	genome	15679	C:97.1%[S:96.2%,D:0.9%],F:0.6%,M:2.3%,n:4494	GCA_000151355.1|full|Nectriaceae, Fusarium, Fusarium solani species complex
+Fusarium	UniProt	UP000007978	Fusarium pseudograminearum (strain CS3096) (Wheat and barley crown-rot fungus)	1028729	genome	12448	C:99.0%[S:98.9%,D:0.1%],F:0.3%,M:0.7%,n:4494	GCA_000303195.2|full|Nectriaceae, Fusarium, Fusarium sambucinum species complex
+Fusarium	NCBI	GCA_038181435.1	Fusarium acuminatum	5515	genome	11342		Beijing Forestry University|2024-04-15|Complete Genome|
+Fusarium	NCBI	GCA_012932015.1	Fusarium acutatum	78861	genome	14081		US Department of Agriculture, Agriculture Research Service|2022-11-17|Scaffold|
+Fusarium	NCBI	GCA_001654555.2	Fusarium agapanthi	1803897	genome	13310		US Department of Agriculture, Agriculture Research Service|2020-04-29|Scaffold|
+Fusarium	NCBI	GCA_057674905.1	Fusarium akasia	2698982	genome	15245		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_012931995.1	Fusarium albosuccineum	1237068	genome	17169		US Department of Agriculture, Agriculture Research Service|2020-04-29|Scaffold|
+Fusarium	NCBI	GCA_003947045.1	Fusarium ambrosium	131363	genome	17262		University of California, Riverside|2018-12-14|Scaffold|
+Fusarium	NCBI	GCA_022627115.1	Fusarium annulatum	48484	genome	12880		Royal Botanic Gardens, Kew|2022-03-18|Scaffold|
+Fusarium	NCBI	GCA_013364935.1	Fusarium anthophilum	48485	genome	14797		US Department of Agriculture, Agriculture Research Service|2020-06-19|Scaffold|
+Fusarium	NCBI	GCA_012932025.1	Fusarium austroafricanum	2364996	genome	14502		US Department of Agriculture, Agriculture Research Service|2020-04-29|Scaffold|
+Fusarium	NCBI	GCA_013364965.1	Fusarium austroamericanum	282268	genome	11984		US Department of Agriculture, Agriculture Research Service|2020-06-19|Scaffold|
+Fusarium	NCBI	GCA_012959155.1	Fusarium avenaceum	40199	genome	15886		University of Massachusetts Amherst|2022-08-25|Scaffold|
+Fusarium	NCBI	GCA_057674825.1	Fusarium awan	2698983	genome	10048		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_002980475.2	Fusarium beomiforme	44412	genome	14521		US Department of Agriculture, Agriculture Research Service|2020-04-27|Scaffold|
+Fusarium	NCBI	GCA_013758895.1	Fusarium bulbicola	79018	genome	14231		US Department of Agriculture, Agriculture Research Service|2020-07-27|Scaffold|
+Fusarium	NCBI	GCA_057675865.1	Fusarium cf. solani	1715230	genome	15264		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_047716405.1	Fusarium chlamydosporum	86545	genome	11055		UNAM|2025-02-12|Contig|
+Fusarium	NCBI	GCA_022627105.1	Fusarium chuoi	2885761	genome	14313		Royal Botanic Gardens, Kew|2022-03-18|Scaffold|
+Fusarium	NCBI	GCA_013396185.1	Fusarium circinatum	48490	genome	13905		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCF_003316985.1	Fusarium coffeatum	231269	genome	11779		CSIRO|2019-10-22|Contig|
+Fusarium	NCBI	GCA_013781345.1	Fusarium coicis	1567539	genome	13908		US Department of Agriculture, Agriculture Research Service|2020-07-27|Scaffold|
+Fusarium	NCBI	GCA_052058685.1	Fusarium commune	249398	genome	15244		dsm-firmenich|2025-08-15|Contig|
+Fusarium	NCBI	GCA_003033665.1	Fusarium culmorum	5516	genome	12378		NIOO-KNAW|2018-04-04|Contig|
+Fusarium	NCBI	GCA_013266205.1	Fusarium decemcellulare	57161	genome	18126		US Department of Agriculture, Agriculture Research Service|2020-06-03|Scaffold|
+Fusarium	NCBI	GCA_013396175.1	Fusarium denticulatum	48507	genome	14097		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_057676085.1	Fusarium drepaniforme	2951361	genome	15095		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_003946985.1	Fusarium duplospermum	1325734	genome	16263		University of California, Riverside|2018-12-14|Scaffold|
+Fusarium	NCBI	GCA_910393935.1	Fusarium equiseti	61235	genome	12311		University of Nairobi|2021-07-07|Scaffold|
+Fusarium	NCBI	GCA_003957675.1	Fusarium euwallaceae	1147111	genome	17630		University of California, Riverside|2018-12-20|Contig|
+Fusarium	NCBI	GCF_026873545.1	Fusarium falciforme	195108	genome	14574		Academia Sinica|2023-01-30|Complete Genome|
+Fusarium	NCBI	GCF_020744385.1	Fusarium flagelliforme	2675880	genome	13580		DOE Joint Genome Institute|2022-01-28|Contig|
+Fusarium	NCBI	GCA_003947005.1	Fusarium floridanum	1325733	genome	16762		University of California, Riverside|2018-12-14|Scaffold|
+Fusarium	NCBI	GCA_900096705.1	Fusarium fujikuroi	5127	genome	16088		Technische Universitat Munchen - WZW|2017-10-06|Scaffold|
+Fusarium	NCBI	GCF_900079805.1	Fusarium fujikuroi IMI 58289	1279085	genome	14810		HMGU-IBIS|2018-02-08|Chromosome|
+Fusarium	NCBI	GCA_013266175.1	Fusarium gaditjirri	282569	genome	13454		US Department of Agriculture, Agriculture Research Service|2020-06-03|Scaffold|
+Fusarium	NCBI	GCA_013396165.1	Fusarium globosum	78864	genome	14590		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_061311525.1	Fusarium graminearum	5518	genome	14894		Rothamsted Research|2026-09-16|Complete Genome|
+Fusarium	NCBI	GCF_000240135.3	Fusarium graminearum PH-1	229533	genome	13312		International Gibberella zeae Genomics Consortium|2024-01-02|Chromosome|
+Fusarium	NCBI	GCA_013266165.1	Fusarium graminum	86546	genome	11163		US Department of Agriculture, Agriculture Research Service|2020-12-31|Scaffold|
+Fusarium	NCBI	GCA_013396295.1	Fusarium heterosporum	42747	genome	11332		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_027945245.1	Fusarium irregulare	2494466	genome	12532		University of California, Riverside|2023-01-24|Scaffold|
+Fusarium	NCBI	GCF_025433545.1	Fusarium keratoplasticum	1328300	genome	14423		Academia Sinica|2023-01-27|Chromosome|
+Fusarium	NCBI	GCA_003698175.1	Fusarium kuroshium	2010991	genome	16485		University of California, Riverside|2018-10-30|Scaffold|
+Fusarium	NCBI	GCA_022180325.1	Fusarium langsethiae	179993	genome	12513		Graduate School of Bioagricultural Sciences, Nagoya University|2022-04-06|Scaffold|
+Fusarium	NCBI	GCA_052570155.1	Fusarium lateritium	5523	genome	13405		University of Oxford|2025-09-12|Scaffold|
+Fusarium	NCBI	GCA_003012285.1	Fusarium longipes	694270	genome	11421		Robert Proctor's shared submissions|2018-09-04|Scaffold|
+Fusarium	NCBI	GCF_900044065.1	Fusarium mangiferae	192010	genome	15796		Institute of Bioinformatics and Systems Biology|2023-12-29|Scaffold|
+Fusarium	NCBI	GCA_057675485.1	Fusarium mekan	2951228	genome	15388		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_013396015.1	Fusarium mexicanum	751941	genome	14387		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_013396205.1	Fusarium mundagurra	1567541	genome	15666		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCF_019915245.1	Fusarium musae	1042133	genome	13672		universita degli studi di milano|2021-11-23|Chromosome|
+Fusarium	NCBI	GCA_013396005.1	Fusarium napiforme	42672	genome	13896		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_054098485.1	Fusarium nematophilum	1053271	genome	17093		Nanjing Agricultural University|2025-12-19|Scaffold|
+Fusarium	NCBI	GCA_002894225.1	Fusarium nygamai	42673	genome	16019		CSIRO|2018-01-22|Scaffold|
+Fusarium	NCBI	GCA_057674705.1	Fusarium obliquiseptatum	1325738	genome	14297		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_052550365.1	Fusarium odoratissimum	2502994	genome	14663		UNIVERSIDAD NACIONAL TORIBIO RODRIGUEZ DE MENDOZA DE AMAZONAS|2025-09-11|Scaffold|
+Fusarium	NCBI	GCF_000260195.1	Fusarium odoratissimum NRRL 54006	1089451	genome	16634		Broad Institute|2020-08-07|Scaffold|
+Fusarium	NCBI	GCA_003946995.1	Fusarium oligoseptatum	2604345	genome	17740		University of California, Riverside|2018-12-14|Scaffold|
+Fusarium	NCBI	GCA_025331925.1	Fusarium oxysporum	5507	genome	21391		Xi'an Jiaotong University|2022-10-03|Chromosome|
+Fusarium	NCBI	GCF_013085055.1	Fusarium oxysporum Fo47	660027	genome	16197	0.9779706	Xi'an Jiaotong University|2026-04-09|Complete Genome|hypocreales_odb10
+Fusarium	NCBI	GCA_031834405.1	Fusarium oxysporum II5	660034	genome	16011		UMass|2023-09-25|Chromosome|
+Fusarium	NCBI	GCF_000271745.1	Fusarium oxysporum NRRL 32931	660029	genome	17280		Broad Institute|2022-04-18|Scaffold|
+Fusarium	NCBI	GCA_026229875.1	Fusarium oxysporum f. sp. albedinis	72712	genome	31923		University of Neuchatel|2022-11-17|Scaffold|
+Fusarium	NCBI	GCA_003615085.1	Fusarium oxysporum f. sp. cepae	396571	genome	18827		Harrison Lab NIAB-EMR|2018-10-05|Chromosome|
+Fusarium	NCBI	GCA_018894095.1	Fusarium oxysporum f. sp. conglutinans	100902	genome	21781		RIKEN|2021-06-16|Scaffold|
+Fusarium	NCBI	GCA_000222805.1	Fusarium oxysporum f. sp. conglutinans Fo5176	660025	genome	17817		CSIRO|2011-08-05|Contig|
+Fusarium	NCBI	GCA_000260215.2	Fusarium oxysporum f. sp. conglutinans race 2 54008	1089457	genome	19854		Broad Institute|2015-03-23|Scaffold|
+Fusarium	NCBI	GCA_007994515.1	Fusarium oxysporum f. sp. cubense	61366	genome	17022		University of Exeter|2019-08-13|Contig|
+Fusarium	NCBI	GCA_000350345.1	Fusarium oxysporum f. sp. cubense race 1	1229664	genome	15438		BGI|2015-03-21|Scaffold|
+Fusarium	NCBI	GCA_061232755.1	Fusarium oxysporum f. sp. lycopersici	59765	genome	16740		Tokyo University of Agriculture and Technology|2026-07-16|Contig|
+Fusarium	NCBI	GCF_000149955.1	Fusarium oxysporum f. sp. lycopersici 4287	426428	genome	20924		Broad Institute|2023-09-15|Chromosome|
+Fusarium	NCBI	GCA_000259975.2	Fusarium oxysporum f. sp. lycopersici MN25	1080343	genome	17931		Broad Institute|2015-03-23|Scaffold|
+Fusarium	NCBI	GCA_020796175.1	Fusarium oxysporum f. sp. matthiolae	96317	genome	20319		Harrison Lab NIAB-EMR|2021-11-08|Contig|
+Fusarium	NCBI	GCA_000260495.2	Fusarium oxysporum f. sp. melonis 26406	1089452	genome	19661		Broad Institute|2015-03-23|Scaffold|
+Fusarium	NCBI	GCA_051622595.1	Fusarium oxysporum f. sp. mori	1940294	genome	15059		University of Arkansas|2026-06-03|Scaffold|
+Fusarium	NCBI	GCA_004141715.1	Fusarium oxysporum f. sp. narcissi	451672	genome	20460		Harrison Lab NIAB-EMR|2019-02-06|Scaffold|
+Fusarium	NCBI	GCA_054130785.1	Fusarium oxysporum f. sp. phaseoli	251360	genome	21151		University of Bologna|2025-12-23|Chromosome|
+Fusarium	NCBI	GCA_000260075.2	Fusarium oxysporum f. sp. pisi HDV247	1080344	genome	19623		Broad Institute|2015-03-23|Scaffold|
+Fusarium	NCBI	GCA_001702695.2	Fusarium oxysporum f. sp. radicis-cucumerinum	327505	genome	16795		University of Amsterdam|2017-09-25|Chromosome|
+Fusarium	NCBI	GCA_000260155.3	Fusarium oxysporum f. sp. radicis-lycopersici 26381	1089448	genome	18238		Broad Institute|2015-03-23|Scaffold|
+Fusarium	NCBI	GCA_057814765.1	Fusarium oxysporum f. sp. rapae	485398	genome	19046		National Chung Hsing University|2026-06-01|Scaffold|
+Fusarium	NCBI	GCA_019157275.1	Fusarium oxysporum f. sp. raphani	96318	genome	18973		RIKEN|2021-07-07|Contig|
+Fusarium	NCBI	GCA_000260235.2	Fusarium oxysporum f. sp. raphani 54005	1089458	genome	19306		Broad Institute|2015-03-23|Scaffold|
+Fusarium	NCBI	GCA_038050555.1	Fusarium oxysporum f. sp. vasinfectum	61374	genome	19616		Huazhong Agricultural University|2024-04-10|Scaffold|
+Fusarium	NCBI	GCA_000260175.2	Fusarium oxysporum f. sp. vasinfectum 25433	1089449	genome	18905		Broad Institute|2015-03-23|Scaffold|
+Fusarium	NCBI	GCA_051624415.1	Fusarium oxysporum f. sp. zingiberi	654400	genome	15540		The University of Queensland|2025-07-30|Contig|
+Fusarium	NCBI	GCA_057676105.1	Fusarium papillatum	2951362	genome	14861		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCF_050370095.1	Fusarium phalaenopsidis	3417454	genome	14637	0.9806408	National Chung Hsing University|2026-05-14|Contig|hypocreales_odb10
+Fusarium	NCBI	GCA_013396025.1	Fusarium phyllophilum	47803	genome	14160		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_027946385.1	Fusarium piperis	1435070	genome	12530		Royal Botanic Gardens, Kew|2023-01-24|Contig|
+Fusarium	NCBI	GCF_019609905.1	Fusarium poae	36050	genome	13851		Agriculture and Agri-Food Canada|2021-11-23|Chromosome|
+Fusarium	NCBI	GCA_003615215.1	Fusarium proliferatum	948311	genome	15409		Harrison Lab NIAB-EMR|2018-10-05|Scaffold|
+Fusarium	NCBI	GCF_900067095.1	Fusarium proliferatum ET1	1227346	genome	16129		Institute of Bioinformatics and Systems Biology|2023-12-28|Scaffold|
+Fusarium	NCBI	GCA_057674445.1	Fusarium pseudensiforme	986114	genome	9073		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_013395995.1	Fusarium pseudoanthophilum	48495	genome	14088		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_013396035.1	Fusarium pseudocircinatum	56676	genome	14263		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_024752415.1	Fusarium pseudograminearum	101028	genome	14475		Northwest A&F University|2022-11-17|Chromosome|
+Fusarium	NCBI	GCF_000303195.2	Fusarium pseudograminearum CS3096	1028729	genome	12445		CSIRO|2024-01-17|Chromosome|
+Fusarium	NCBI	GCF_020744475.1	Fusarium redolens	48865	genome	17049		DOE Joint Genome Institute|2022-01-28|Contig|
+Fusarium	NCBI	GCA_057675605.1	Fusarium rekanum	2698985	genome	15148		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCF_050947815.1	Fusarium sambucinum	5128	genome	13017	0.9955496	Oregon State University|2026-05-14|Complete Genome|hypocreales_odb10
+Fusarium	NCBI	GCA_013266185.1	Fusarium sarcochroum	1208366	genome	14827		US Department of Agriculture, Agriculture Research Service|2020-06-03|Scaffold|
+Fusarium	NCBI	GCF_023522795.1	Fusarium solani	169388	genome	18900		North Dakota State University|2024-06-10|Contig|
+Fusarium	NCBI	GCA_023101225.1	Fusarium solani-melongenae	2747967	genome	15320		Guangdong Academy of Agricultural Sciences|2022-04-25|Complete Genome|
+Fusarium	NCBI	GCA_003947015.1	Fusarium sp. AF-6	1325737	genome	15274		University of California, Riverside|2018-12-14|Contig|
+Fusarium	NCBI	GCA_014764975.2	Fusarium sp. DS 682	2773459	genome	15049		Pacific Northwest National Laboratory|2020-12-08|Contig|
+Fusarium	NCBI	GCA_022627095.1	Fusarium sp. FIESC RH6	2874508	genome	11533		Royal Botanic Gardens, Kew|2022-03-18|Scaffold|
+Fusarium	NCBI	GCA_056098845.1	Fusarium sp. IMII-1	3387622	genome	12719		UNIVERSIDAD NACIONAL TORIBIO RODRIGUEZ DE MENDOZA DE AMAZONAS|2026-03-16|Scaffold|
+Fusarium	NCBI	GCA_025433615.1	Fusarium sp. LHS14.1	2898545	genome	15522		Academia Sinica|2022-10-03|Chromosome|
+Fusarium	NCBI	GCA_020744335.1	Fusarium sp. MPI-SDFR-AT-0072	2826082	genome	15730		DOE Joint Genome Institute|2021-11-05|Contig|
+Fusarium	NCBI	GCA_013396255.1	Fusarium sp. NRRL 25303	122381	genome	14388		US Department of Agriculture, Agriculture Research Service|2020-07-10|Scaffold|
+Fusarium	NCBI	GCA_013396095.1	Fusarium sp. NRRL 52700	1101274	genome	13548		US Department of Agriculture, Agriculture Research Service|2020-07-10|Contig|
+Fusarium	NCBI	GCA_013266265.1	Fusarium sp. NRRL 66182	2692428	genome	16534		US Department of Agriculture, Agriculture Research Service|2020-06-03|Scaffold|
+Fusarium	NCBI	GCA_025433565.1	Fusarium sp. Ph1	2898544	genome	15084		Academia Sinica|2022-10-03|Chromosome|
+Fusarium	NCBI	GCA_954870535.1	Fusarium sp. VM40	3049762	genome	13545		groningen institute for evolutionary life sciences, university of groningen|2023-06-22|Contig|
+Fusarium	NCBI	GCA_003012315.1	Fusarium sporotrichioides	5514	genome	11961		Robert Proctor's shared submissions|2018-09-04|Scaffold|
+Fusarium	NCBI	GCF_013396075.1	Fusarium subglutinans	42677	genome	14039		US Department of Agriculture, Agriculture Research Service|2023-12-29|Contig|
+Fusarium	NCBI	GCF_013396195.1	Fusarium tjaetaba	1567544	genome	14181		US Department of Agriculture, Agriculture Research Service|2020-11-09|Scaffold|
+Fusarium	NCBI	GCA_027945595.1	Fusarium torreyae	1237075	genome	14533		University of California, Riverside|2023-01-24|Scaffold|
+Fusarium	NCBI	GCA_900312805.1	Fusarium torulosum	33205	genome	13980		Technische Universitat Munchen - WZW|2023-10-11|Scaffold|
+Fusarium	NCBI	GCA_020744515.1	Fusarium tricinctum	61284	genome	14106		DOE Joint Genome Institute|2021-11-05|Contig|
+Fusarium	NCBI	GCA_057675105.1	Fusarium tuaranense	1325736	genome	14768		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCF_000151355.1	Fusarium vanettenii 77-13-4	660122	genome	15708		DOE Joint Genome Institute|2020-08-07|Scaffold|
+Fusarium	NCBI	GCA_057675385.1	Fusarium variasi	2698986	genome	13623		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCF_900007375.1	Fusarium venenatum	56646	genome	13931		ROTHAMSTED RESEARCH|2018-07-12|Chromosome|
+Fusarium	NCBI	GCA_964030585.1	Fusarium verticillioides	117187	genome	14365		Degradi|2026-03-29|Contig|
+Fusarium	NCBI	GCF_000149555.1	Fusarium verticillioides 7600	334819	genome	15890		Syngenta Biotechnology, Inc.|2023-04-03|Chromosome|
+Fusarium	NCBI	GCA_057675365.1	Fusarium warna	2698987	genome	15235		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_018296265.1	Fusarium xylarioides	221167	genome	14702		Imperial College London|2021-05-06|Contig|
+Fusarium	NCBI	GCA_013266195.1	Fusarium zealandicum	1053134	genome	10733		US Department of Agriculture, Agriculture Research Service|2020-06-03|Scaffold|
+Fusarium	NCBI	GCA_043643485.1	[Neocosmospora] mangrovei	2954835	genome	15000		University of Warwick|2024-10-23|Contig|
+Fusarium	NCBI	GCA_057674335.1	[Neocosmospora] sp. B6999-1	3469074	genome	15610		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_057674085.1	[Neocosmospora] sp. B6999-2	3469075	genome	12489		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_057674105.1	[Neocosmospora] sp. B6999-3	3469076	genome	14279		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_057673865.1	[Neocosmospora] sp. B6999-4	3469077	genome	16415		NVWA|2026-05-21|Scaffold|
+Fusarium	NCBI	GCA_057673785.1	[Neocosmospora] sp. B6999-5	3469078	genome	15908		NVWA|2026-05-21|Scaffold|
+Fusarium	EukProt	EP00133	Fusarium graminearum PH-1	5518	genome	13313	98.40%	ASM24013v3|
+Auricularia	UniProt	UP000006514	Auricularia subglabra (strain TFB-10046 / SS5) (White-rot fungus) (Auricularia delicata (strain TFB10046))	717982	genome	5290	C:7.6%[S:7.2%,D:0.4%],F:1.0%,M:91.3%,n:2898	GCA_000265015.1|full|Auriculariales, Auriculariaceae, Auricularia
+Auricularia	NCBI	GCF_000265015.1	Auricularia subglabra TFB-10046 SS5	717982	genome	23555		NCBI RefSeq|2014-03-26|Scaffold|
+Serendipita	UniProt	UP000007148	Serendipita indica (strain DSM 11827) (Root endophyte fungus) (Piriformospora indica)	1109443	genome	11780	C:88.9%[S:88.5%,D:0.4%],F:2.9%,M:8.2%,n:2898	GCA_000313545.1|full|Sebacinales, Serendipitaceae, Serendipita
+Serendipita	UniProt	UP000054097	Serendipita vermifera MAFF 305830	933852	genome	15010	C:90.0%[S:86.1%,D:3.9%],F:2.8%,M:7.2%,n:2898	GCA_000827415.1|full|Sebacinales, Serendipitaceae, Serendipita
+Serendipita	NCBI	GCA_000313545.1	Serendipita indica DSM 11827	1109443	genome	11791		Institute of Bioinformatics and Systems Biology, Helmholtz Zentrum München, Neuherberg, Germany|2017-02-03|Scaffold|
+Serendipita	NCBI	GCA_019616975.1	Serendipita sp. 396	2600209	genome	8285		DOE Joint Genome Institute|2021-08-16|Scaffold|
+Serendipita	NCBI	GCA_019623665.1	Serendipita sp. 397	2600210	genome	12081		DOE Joint Genome Institute|2021-08-16|Scaffold|
+Serendipita	NCBI	GCA_019623675.1	Serendipita sp. 398	2600211	genome	11452		DOE Joint Genome Institute|2021-08-16|Scaffold|
+Serendipita	NCBI	GCA_019627685.1	Serendipita sp. 399	2600212	genome	11262		DOE Joint Genome Institute|2021-08-16|Scaffold|
+Serendipita	NCBI	GCA_019627735.1	Serendipita sp. 400	2600213	genome	12384		DOE Joint Genome Institute|2021-08-16|Scaffold|
+Serendipita	NCBI	GCA_019627725.1	Serendipita sp. 401	2600214	genome	11941		DOE Joint Genome Institute|2021-08-16|Scaffold|
+Serendipita	NCBI	GCA_019627745.1	Serendipita sp. 405	2600215	genome	12042		DOE Joint Genome Institute|2021-08-16|Scaffold|
+Serendipita	NCBI	GCA_019627755.1	Serendipita sp. 411	2600216	genome	12019		DOE Joint Genome Institute|2021-08-16|Scaffold|
+Serendipita	NCBI	GCA_003073295.1	Serendipita vermifera	109899	genome	14199		DOE Joint Genome Institute|2018-04-30|Scaffold|
+Serendipita	NCBI	GCA_000827415.1	Serendipita vermifera MAFF 305830	933852	genome	15235		DOE Joint Genome Institute|2015-01-30|Scaffold|
+Trametes	UniProt	UP000029665	Pycnoporus cinnabarinus (Cinnabar-red polypore) (Trametes cinnabarina)	5643	genome	10180	C:88.7%[S:88.4%,D:0.2%],F:5.7%,M:5.6%,n:4464	GCA_000765035.1|full|Agaricomycetes incertae sedis, Polyporales, Polyporaceae
+Trametes	UniProt	UP000184267	Trametes pubescens (White-rot fungus)	154538	genome	14147	C:90.2%[S:89.9%,D:0.3%],F:6.4%,M:3.4%,n:4464	GCA_001895945.1|full|Agaricomycetes incertae sedis, Polyporales, Polyporaceae
+Trametes	UniProt	UP000193067	Trametes coccinea (strain BRFM310) (Pycnoporus coccineus)	1353009	genome	12647	C:99.6%[S:99.2%,D:0.3%],F:0.3%,M:0.1%,n:4464	GCA_002092935.1|full|Polyporales, Polyporaceae, Trametes
+Trametes	UniProt	UP001144978	Trametes sanguinea	158606	genome	14760	C:41.7%[S:38.1%,D:3.6%],F:17.2%,M:41.2%,n:4464	GCA_027596045.1|full|Agaricomycetes incertae sedis, Polyporales, Polyporaceae
+Trametes	UniProt	UP001215151	Trametes cubensis	1111947	genome	13518	C:91.6%[S:81.7%,D:9.8%],F:3.0%,M:5.5%,n:4464	GCA_029747595.1|full|Agaricomycetes incertae sedis, Polyporales, Polyporaceae
+Trametes	UniProt	UP000054317	Trametes versicolor (strain FP-101664) (White-rot fungus) (Coriolus versicolor)	717944	genome	1022	C:21.1%[S:21.0%,D:0.1%],F:0.2%,M:78.7%,n:4464	GCA_000271585.1|full|Polyporales, Polyporaceae, Trametes
+Trametes	NCBI	GCA_022385765.1	Trametes cingulata	575983	genome	14108		DOE Joint Genome Institute|2022-03-09|Scaffold|
+Trametes	NCBI	GCA_000765035.1	Trametes cinnabarina	5643	genome	10233		INRA_UMR1163_BCF|2014-09-29|Scaffold|
+Trametes	NCBI	GCA_002092935.1	Trametes coccinea BRFM310	1353009	genome	12692		DOE Joint Genome Institute|2017-04-24|Scaffold|
+Trametes	NCBI	GCA_029747595.1	Trametes cubensis	1111947	genome	13588		TU Dresden - IHI Zittau|2023-04-14|Scaffold|
+Trametes	NCBI	GCA_022606155.1	Trametes elegans	526244	genome	11943		DOE Joint Genome Institute|2022-03-16|Contig|
+Trametes	NCBI	GCA_022606055.1	Trametes gibbosa	160864	genome	12036		DOE Joint Genome Institute|2022-03-16|Contig|
+Trametes	NCBI	GCA_022606215.1	Trametes maxima	259368	genome	12467		DOE Joint Genome Institute|2022-03-15|Contig|
+Trametes	NCBI	GCA_022606255.1	Trametes meyenii	526243	genome	12439		DOE Joint Genome Institute|2022-03-15|Contig|
+Trametes	NCBI	GCA_022606195.1	Trametes polyzona	239206	genome	12346		DOE Joint Genome Institute|2022-03-15|Contig|
+Trametes	NCBI	GCA_001895945.1	Trametes pubescens	154538	genome	14438		CBS-KNAW Fungal Biodiversity Centre Institute of the Royal Netherlands Academy of Arts and Science|2016-12-09|Scaffold|
+Trametes	NCBI	GCA_025528855.1	Trametes punicea	571087	genome	10053		DOE Joint Genome Institute|2022-10-03|Contig|
+Trametes	NCBI	GCA_027596045.1	Trametes sanguinea	158606	genome	14760		TU Dresden - IHI Zittau|2023-01-09|Scaffold|
+Trametes	NCBI	GCA_041956555.1	Trametes versicolor	5325	genome	15601		DOE Joint Genome Institute|2024-09-25|Scaffold|
+Trametes	NCBI	GCF_000271585.1	Trametes versicolor FP-101664 SS1	717944	genome	14292		JGI|2022-04-18|Scaffold|
+Catenaria	UniProt	UP000193411	Catenaria anguillulae PL171	765915	genome	12590	C:74.1%[S:70.2%,D:4.0%],F:5.9%,M:19.9%,n:758	GCA_002102555.1|full|Blastocladiales, Catenariaceae, Catenaria
+Catenaria	NCBI	GCA_002102555.1	Catenaria anguillulae PL171	765915	genome	12754		DOE Joint Genome Institute|2017-04-20|Contig|
+Blastocladiella	NCBI	GCA_025349905.2	Blastocladiella britannica	64508	genome	9427		DOE Joint Genome Institute|2022-10-07|Scaffold|
+Blastocladiella	NCBI	GCA_025594325.1	Blastocladiella emersonii ATCC 22665	1313167	genome	10031		Natural History Museum, London|2022-10-05|Contig|
+Mortierella	UniProt	UP000654370	Mortierella isabellina (Filamentous fungus) (Umbelopsis isabellina)	91625	genome	9021	C:94.7%[S:94.1%,D:0.6%],F:1.6%,M:3.7%,n:1614	GCA_016758905.1|full|Umbelopsidomycetes, Umbelopsidales, Umbelopsidaceae
+Mortierella	UniProt	UP000723463	Mortierella hygrophila	979708	genome	12181	C:97.1%[S:94.9%,D:2.2%],F:1.0%,M:1.9%,n:1614	GCA_015680625.1|full|Mortierellomycetes, Mortierellales, Mortierellaceae
+Mortierella	UniProt	UP000726737	Mortierella polycephala	41804	genome	10180	C:92.8%[S:90.6%,D:2.2%],F:1.6%,M:5.6%,n:1614	GCA_016098165.1|full|Mortierellomycetes, Mortierellales, Mortierellaceae
+Mortierella	UniProt	UP000738359	Mortierella alpina (Oleaginous fungus) (Mortierella renispora)	64518	genome	10605	C:87.5%[S:85.6%,D:1.9%],F:3.1%,M:9.4%,n:1614	GCA_015849305.1|full|Mortierellomycetes, Mortierellales, Mortierellaceae
+Mortierella	NCBI	GCA_977091265.1	Mortierella alpina	64518	genome	11371		ELIXIR Norway|2025-12-05|Contig|
+Mortierella	NCBI	GCA_015679405.1	Mortierella antarctica	979670	genome	11804		DOE Joint Genome Institute|2020-11-24|Scaffold|
+Mortierella	NCBI	GCA_022750515.1	Mortierella claussenii	1343614	genome	10414		DOE Joint Genome Institute|2022-03-29|Scaffold|
+Mortierella	NCBI	GCA_015680625.1	Mortierella hygrophila	979708	genome	12256		DOE Joint Genome Institute|2020-11-24|Scaffold|
+Mortierella	NCBI	GCA_016098165.1	Mortierella polycephala	41804	genome	10186		DOE Joint Genome Institute|2020-12-16|Scaffold|
+Mortierella	NCBI	GCA_015502465.1	Mortierella sp. 14UC	1896178	genome	11889		DOE Joint Genome Institute|2020-11-16|Scaffold|
+Mortierella	NCBI	GCA_015502575.1	Mortierella sp. AD010	1896179	genome	11645		DOE Joint Genome Institute|2020-11-16|Scaffold|
+Mortierella	NCBI	GCA_015679695.1	Mortierella sp. AD011	1896180	genome	11587		DOE Joint Genome Institute|2020-11-24|Scaffold|
+Mortierella	NCBI	GCA_015502475.1	Mortierella sp. AD031	1896182	genome	12719		DOE Joint Genome Institute|2020-11-16|Scaffold|
+Mortierella	NCBI	GCA_016098025.1	Mortierella sp. AD032	1896183	genome	12750		DOE Joint Genome Institute|2020-12-16|Scaffold|
+Mortierella	NCBI	GCA_015679545.1	Mortierella sp. AD094	1896185	genome	12995		DOE Joint Genome Institute|2020-11-24|Scaffold|
+Mortierella	NCBI	GCA_015502455.1	Mortierella sp. AM989	1896186	genome	11516		DOE Joint Genome Institute|2020-11-16|Scaffold|
+Mortierella	NCBI	GCA_016098035.1	Mortierella sp. GBA30	1896187	genome	10471		DOE Joint Genome Institute|2020-12-16|Scaffold|
+Mortierella	NCBI	GCA_015502445.1	Mortierella sp. GBA35	1896188	genome	12283		DOE Joint Genome Institute|2020-11-16|Scaffold|
+Mortierella	NCBI	GCA_015502485.1	Mortierella sp. GBA39	1896189	genome	15194		DOE Joint Genome Institute|2020-11-16|Scaffold|
+Mortierella	NCBI	GCA_016098045.1	Mortierella sp. GBA43	1896190	genome	11601		DOE Joint Genome Institute|2020-12-16|Scaffold|
+Mortierella	NCBI	GCA_025330735.1	Mortierella sp. GBAus27b	1954212	genome	13923		DOE Joint Genome Institute|2022-09-20|Contig|
+Mortierella	NCBI	GCA_016098085.1	Mortierella sp. NVP41	1896192	genome	12544		DOE Joint Genome Institute|2020-12-16|Scaffold|
+Mortierella	NCBI	GCA_015679515.1	Mortierella sp. NVP85	1896193	genome	12136		DOE Joint Genome Institute|2020-11-24|Scaffold|
+Neolecta	UniProt	UP000186594	Neolecta irregularis (strain DAH-3)	1198029	genome	5530	C:71.5%[S:70.8%,D:0.8%],F:7.3%,M:21.2%,n:1706	GCA_001929475.1|full|Neolectales, Neolectaceae, Neolecta
+Neolecta	NCBI	GCA_001929475.1	Neolecta irregularis DAH-3	1198029	genome	5531		University of California, Riverside|2017-01-04|Scaffold|
+Neolecta	EukProt	EP00855		48691	genome	5579	82.00%	NeoIirr1.0|
+Taphrina	UniProt	UP000013776	Taphrina deformans (strain PYCC 5710 / ATCC 11124 / CBS 356.35 / IMI 108563 / JCM 9778 / NBRC 8474) (Peach leaf curl fungus) (Lalaria deformans)	1097556	genome	4650	C:66.1%[S:66.0%,D:0.1%],F:2.7%,M:31.2%,n:1706	GCA_000312925.2|full|Taphrinales, Taphrinaceae, Taphrina
+Taphrina	NCBI	GCA_000312925.2	Taphrina deformans PYCC 5710	1097556	genome	4650		Faculdade de Ciências e Tecnologia, Universidade Nova de Lisboa|2013-03-28|Scaffold|
+Taphrina	EukProt	EP00856			genome	4663	75.70%	ASM31292v2|

@@ -1,0 +1,93 @@
+query	db	acc	species	taxid	data_type	n_prot	busco	extra
+Phaeophyceae	UniProt	UP000002630	Ectocarpus siliculosus (Brown alga) (Conferva siliculosa)	2880	genome	16372	C:97.0%[S:97.0%,D:0.0%],F:3.0%,M:0.0%,n:100	GCA_000310025.1|full|Phaeophyceae, Ectocarpales, Ectocarpaceae
+Phaeophyceae	NCBI	GCA_964200345.2	Ascophyllum nodosum	52969	genome	24354		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200645.2	Chordaria linearis	64904	genome	17391		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200185.2	Choristocarpus tenellus	116065	genome	13818		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200505.2	Desmarestia dudresnayi	99931	genome	29050		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200475.2	Desmarestia herbacea	1205903	genome	17060		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200555.2	Dictyota dichotoma	2876	genome	20595		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200235.2	Discosporangium mesarthrocarpum	376270	genome	26842		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200395.2	Ectocarpus crouaniorum	690460	genome	18426		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200205.2	Ectocarpus fasciculatus	43935	genome	23034		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200615.2	Ectocarpus siliculosus	2880	genome	18153		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200255.2	Ectocarpus sp. 1 AP-2014	1535357	genome	19325		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200275.2	Ectocarpus sp. 12 AP-2014	1535356	genome	48758		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200085.2	Ectocarpus sp. 13 AM-2016	1904779	genome	21843		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200095.2	Ectocarpus sp. 2 AP-2014	1535358	genome	16965		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200405.2	Ectocarpus sp. 3 AP-2014	1535359	genome	18804		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200485.2	Ectocarpus sp. 4 AP-2014	1535360	genome	19646		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200435.2	Ectocarpus sp. 5 AP-2014	1535361	genome	20122		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200375.2	Ectocarpus sp. 6 AP-2014	1535362	genome	19544		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200495.2	Ectocarpus sp. 8 AP-2014	1535364	genome	32295		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200305.2	Ectocarpus sp. 9 AP-2014	1535365	genome	18317		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_902602495.3	Ectocarpus sp. CCAP 1310/34	867726	genome	25594		STATION BIOLOGIQUE DE ROSCOFF|2020-03-23|Scaffold|
+Phaeophyceae	NCBI	GCA_964200535.2	Feldmannia mitchelliae	1964287	genome	18022		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200245.2	Fucus distichus	3012	genome	19509		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200575.2	Fucus serratus	87148	genome	21654		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200445.2	Halopteris paniculata	588760	genome	17718		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200335.2	Hapterophycus canaliculatus	2567908	genome	25136		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200625.2	Heribaudiella fluviatilis	246117	genome	41725		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200325.2	Himanthalia elongata	74478	genome	17488		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200635.2	Laminaria digitata	80365	genome	42435		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200145.2	Laminarionema elsbetiae	64929	genome	19248		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200385.2	Macrocystis pyrifera	35122	genome	23174		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200515.2	Myriotrichia clavaeformis	64930	genome	25871		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200415.2	Pelvetia canaliculata	74467	genome	24448		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200135.2	Pleurocladia lacustris	246121	genome	16306		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200465.2	Porterinema fluviatile	246123	genome	16597		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200295.2	Pylaiella littoralis	2885	genome	22938		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200175.2	Saccharina latissima	309358	genome	18831		Genoscope|2025-03-19|Contig|
+Phaeophyceae	NCBI	GCA_964200355.2	Saccorhiza dermatodea	66620	genome	18171		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200525.2	Saccorhiza polyschides	45365	genome	20808		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200315.2	Scytosiphon promiscuus	1403536	genome	30302		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200075.2	Sphacelaria rigidula	117516	genome	14490		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	NCBI	GCA_964200155.2	Sphaerotrichia firma	2841634	genome	28310		Genoscope|2025-03-19|Scaffold|
+Phaeophyceae	EukProt	EP00609	Ectocarpus siliculosus Ec 32	2880	genome	16269	83.60%	ASM31002v1|
+Phaeophyceae	EukProt	EP00610	Laminaria digitata	80365	transcriptome	2482	0.00%	Ldigitata_control,Ldigitata_grazed|
+Phaeophyceae	EukProt	EP00752	Nemacystus decipiens Onna-1	2185085	genome	19680	90.60%	Version 1|
+Phaeophyceae	EukProt	EP00903		309737	genome	22921	89.40%	okinawa_mozuku_S_ver2|
+Phaeophyceae	EukProt	EP00904		74381	genome	14300	77.70%	Undpi1|
+Schizocladiophyceae	NCBI	GCA_964200225.2	Schizocladia ischiensis	196139	genome	21272		Genoscope|2025-03-19|Contig|
+Phaeothamniophyceae	NCBI	GCA_964200195.2	Phaeothamnion confervicola	77034	genome	26923		Genoscope|2025-03-19|Scaffold|
+Chrysoparadoxa	NCBI	GCA_964200425.2	Chrysoparadoxa australica	2498842	genome	18677		Genoscope|2025-03-19|Scaffold|
+Xanthophyceae	UniProt	UP000664859	Tribonema minus	303371	genome	18071	C:93.0%[S:90.0%,D:3.0%],F:2.0%,M:5.0%,n:100	GCA_017506865.1|full|Xanthophyceae, Tribonematales, Tribonemataceae
+Xanthophyceae	NCBI	GCA_017506865.1	Tribonema minus	303371	genome	18284		Sandia National Lab|2021-03-22|Contig|
+Xanthophyceae	EukProt	EP00611	Tribonema gayanum 20 CALU	1488528	transcriptome	32932	58.50%	Transcriptomic data of uninfected Tribonema gayanum culture with bacteria|
+Xanthophyceae	EukProt	EP00612	Vaucheria litorea CCMP2940	109269	transcriptome	8794	58.40%	MMETSP0945,MMETSP0946|MMETSP – be very careful
+Xanthophyceae	EukProt	EP00953			genome	42503	21.90%	Dataset_S4-cds-aa|
+Tribonema	UniProt	UP000664859	Tribonema minus	303371	genome	18071	C:93.0%[S:90.0%,D:3.0%],F:2.0%,M:5.0%,n:100	GCA_017506865.1|full|Xanthophyceae, Tribonematales, Tribonemataceae
+Tribonema	NCBI	GCA_017506865.1	Tribonema minus	303371	genome	18284		Sandia National Lab|2021-03-22|Contig|
+Tribonema	EukProt	EP00611	Tribonema gayanum 20 CALU	1488528	transcriptome	32932	58.50%	Transcriptomic data of uninfected Tribonema gayanum culture with bacteria|
+Vaucheria	EukProt	EP00612	Vaucheria litorea CCMP2940	109269	transcriptome	8794	58.40%	MMETSP0945,MMETSP0946|MMETSP – be very careful
+Pelagophyceae	UniProt	UP000002729	Aureococcus anophagefferens (Harmful bloom alga)	44056	genome	11501	C:85.0%[S:82.0%,D:3.0%],F:10.0%,M:5.0%,n:100	GCA_000186865.1|full|Pelagophyceae, Pelagomonadales, Pelagomonadaceae
+Pelagophyceae	UniProt	UP000789595	Pelagomonas calceolata	35677	genome	16441	C:88.0%[S:83.0%,D:5.0%],F:2.0%,M:10.0%,n:100	GCA_918797485.1|full|Pelagophyceae, Pelagomonadales, Pelagomonadaceae
+Pelagophyceae	UniProt	UP001230188	Chrysophaeum taylorii	2483200	genome	10575	C:88.0%[S:85.0%,D:3.0%],F:0.0%,M:12.0%,n:100	GCA_029834535.1|full|Pelagophyceae, Pelagomonadales, Pelagomonadaceae
+Pelagophyceae	UniProt	UP001363151	Aureococcus anophagefferens (Harmful bloom alga)	44056	genome	12378	C:78.0%[S:76.0%,D:2.0%],F:5.0%,M:17.0%,n:100	GCA_037953725.1|full|Pelagophyceae, Pelagomonadales, Pelagomonadaceae
+Pelagophyceae	NCBI	GCF_000186865.1	Aureococcus anophagefferens	44056	genome	11520		NCBI RefSeq|2014-09-04|Scaffold|
+Pelagophyceae	NCBI	GCA_029834535.1	Chrysophaeum taylorii	2483200	genome	10674		NIDDK, NIH|2023-04-19|Contig|
+Pelagophyceae	NCBI	GCA_918797485.2	Pelagomonas calceolata	35677	genome	17639		Genoscope CEA|2026-03-13|Complete Genome|
+Pelagophyceae	NCBI	GCA_026770575.1	Pelagophyceae sp. CCMP2097	483370	genome	19379		DOE Joint Genome Institute|2022-12-15|Scaffold|
+Pelagophyceae	EukProt	EP00625	Aureococcus anophagefferens CCMP1984	44056	genome	11520	52.90%	v1.0|
+Pelagophyceae	EukProt	EP00628	Pelagophyceae sp. CCMP2097 CCMP2097	483370	transcriptome	41945	71.70%	MMETSP0974,MMETSP0975,MMETSP0976,MMETSP0977|MMETSP – be very careful
+Pelagophyceae	EukProt	EP00629	Pelagomonadales sp. RCC1024 RCC1024		transcriptome	19368	45.50%	MMETSP1329|MMETSP – be very careful
+Pelagophyceae	EukProt	EP00630	Chrysocystis fragilis CCMP3189	1411660	transcriptome	12869	39.60%	MMETSP1165|MMETSP – be very careful
+Pelagophyceae	EukProt	EP00631	Chrysoreinhardia giraudii CCMP770	1104432	transcriptome	9260	16.10%	MMETSP1170|MMETSP – be very careful
+Pelagophyceae	EukProt	EP00632	Arachnochrysis sp. CCMP2950 CCMP2950	1411690	transcriptome	17157	43.10%	MMETSP1164|MMETSP – be very careful
+Pelagophyceae	EukProt	EP00633	Aureoumbra lagunensis CCMP1510	44058	transcriptome	14507	53.30%	MMETSP0890,MMETSP0891,MMETSP0892,MMETSP0893|MMETSP – be very careful
+Pelagophyceae	EukProt	EP00634	Sargassococcus sp. CCMP2135 CCMP2135		transcriptome	17072	45.10%	MMETSP1467|MMETSP – be very careful
+Pelagophyceae	EukProt	EP00635	Sarcinochrysidales sp. CCMP3193 CCMP3193		transcriptome	15881	51.00%	MMETSP1166|MMETSP – be very careful
+Pelagophyceae	EukProt	EP00982		35679	genome	17817	25.50%	Dataset_S4-cds-aa|
+Pelagophyceae	EukProt	EP00983		35677	genome	135460	2.00%	Dataset_S4-cds-aa|
+Eustigmatophyceae	UniProt	UP000355283	Nannochloropsis salina CCMP1776	1027361	genome	8809	C:92.0%[S:90.0%,D:2.0%],F:4.0%,M:4.0%,n:100	GCA_004565275.1|full|Eustigmatales, Monodopsidaceae, Microchloropsis
+Eustigmatophyceae	UniProt	UP000019335	Nannochloropsis gaditana	72520	genome	10493	C:85.0%[S:82.0%,D:3.0%],F:10.0%,M:5.0%,n:100	GCA_000569095.1|full|Eustigmatophyceae, Eustigmatales, Monodopsidaceae
+Eustigmatophyceae	NCBI	GCF_000240725.1	Microchloropsis gaditana	72520	genome	3461		NCBI RefSeq|2015-04-07|Scaffold|
+Eustigmatophyceae	NCBI	GCA_037830525.2	Nannochloropsis oceanica	145522	genome	10819		Los Alamos National Laboratory|2025-11-19|Scaffold|
+Eustigmatophyceae	NCBI	GCA_004565275.1	Nannochloropsis salina CCMP1776	1027361	genome	8817		Los Alamos National Lab|2019-04-02|Scaffold|
+Eustigmatophyceae	EukProt	EP00623	Microchloropsis gaditana CCMP526	1093141	genome	3554	14.50%	ASM24072v1|
+Eustigmatophyceae	EukProt	EP00624	Nannochloropsis granulata CCMP529	43926	genome	8073	24.70%	529-whole-protein|
+Eustigmatophyceae	EukProt	EP00905		2511165	genome	8919	72.20%	ASM456527v1|
+Eustigmatophyceae	EukProt	EP00952			genome	14720	0.00%	Dataset_S4-cds-aa|
+Raphidophyceae	NCBI	GCA_964200215.2	Heterosigma akashiwo	2829	genome	15452		Genoscope|2025-03-19|Scaffold|
+Raphidophyceae	EukProt	EP00638	Chattonella subsalsa CCMP2191	44440	transcriptome	23160	71.40%	MMETSP0947,MMETSP0948,MMETSP0949,MMETSP0950|MMETSP – be very careful
+Raphidophyceae	EukProt	EP00639	Heterosigma akashiwo CCMP2393	2829	transcriptome	38238	58.40%	MMETSP0292,MMETSP0294,MMETSP0295,MMETSP0296|MMETSP – be very careful
+Raphidophyceae	EukProt	EP00640	Fibrocapsa japonica CCMP1661	94617	transcriptome	10139	33.70%	MMETSP1339|MMETSP – be very careful

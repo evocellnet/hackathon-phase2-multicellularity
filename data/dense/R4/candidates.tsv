@@ -1,0 +1,48 @@
+query	db	acc	species	taxid	data_type	n_prot	busco	extra
+Chlamydomonadales	UniProt	UP000001058	Volvox carteri f. nagariensis	3068	genome	14333	C:96.6%[S:95.8%,D:0.9%],F:1.0%,M:2.4%,n:1519	GCA_000143455.1|full|Chlamydomonadales, Volvocaceae, Volvox
+Chlamydomonadales	UniProt	UP000006906	Chlamydomonas reinhardtii (Chlamydomonas smithii)	3055	genome	17625	C:98.9%[S:92.9%,D:6.1%],F:0.3%,M:0.7%,n:1519	GCA_000002595.3|full|CS clade, Chlamydomonadales, Chlamydomonadaceae
+Chlamydomonadales	UniProt	UP000075714	Gonium pectorale (Green alga)	33097	genome	16291	C:92.2%[S:91.4%,D:0.7%],F:4.5%,M:3.3%,n:1519	GCA_001584585.1|full|CS clade, Chlamydomonadales, Volvocaceae
+Chlamydomonadales	UniProt	UP000232323	Chlamydomonas eustigma	1157962	genome	14046	C:97.2%[S:91.8%,D:5.4%],F:0.7%,M:2.1%,n:1519	GCA_002335675.1|full|CS clade, Chlamydomonadales, Chlamydomonadaceae
+Chlamydomonadales	UniProt	UP000236333	Tetrabaena socialis	47790	genome	14193	C:61.8%[S:60.0%,D:1.8%],F:18.2%,M:19.9%,n:1519	GCA_002891735.1|full|CS clade, Chlamydomonadales, Tetrabaenaceae
+Chlamydomonadales	UniProt	UP000612055	Edaphochlamys debaryana	47281	genome	19103	C:96.8%[S:91.2%,D:5.7%],F:1.4%,M:1.7%,n:1519	GCA_016858145.1|full|CS clade, Chlamydomonadales, Chlamydomonadales incertae sedis
+Chlamydomonadales	UniProt	UP000613740	Chlamydomonas schloesseri	2026947	genome	15419	C:97.8%[S:94.5%,D:3.2%],F:0.9%,M:1.4%,n:1519	GCA_016834595.1|full|CS clade, Chlamydomonadales, Chlamydomonadaceae
+Chlamydomonadales	UniProt	UP000650467	Chlamydomonas incerta	51695	genome	16257	C:95.9%[S:93.0%,D:2.9%],F:2.0%,M:2.1%,n:1519	GCA_016834605.1|full|CS clade, Chlamydomonadales, Chlamydomonadaceae
+Chlamydomonadales	UniProt	UP000747110	Volvox reticuliferus	1737510	genome	11396	C:79.4%[S:67.7%,D:11.7%],F:0.8%,M:19.8%,n:1519	GCA_019650235.1|full|CS clade, Chlamydomonadales, Volvocaceae
+Chlamydomonadales	UniProt	UP000747399	Volvox africanus	51714	genome	9959	C:71.7%[S:60.5%,D:11.2%],F:0.4%,M:27.9%,n:1519	GCA_019650175.1|full|CS clade, Chlamydomonadales, Volvocaceae
+Chlamydomonadales	UniProt	UP000815325	Dunaliella salina (Green alga) (Protococcus salinus)	3046	genome	16573	C:81.7%[S:75.3%,D:6.4%],F:7.1%,M:11.2%,n:1519	GCA_002284615.2|full|CS clade, Chlamydomonadales, Dunaliellaceae
+Chlamydomonadales	UniProt	UP001054857	Astrephomene gubernaculifera	47775	genome	13701	C:83.7%[S:82.2%,D:1.5%],F:2.8%,M:13.5%,n:1519	GCA_021605115.1|full|CS clade, Chlamydomonadales, Astrephomenaceae
+Chlamydomonadales	UniProt	UP001165080	Pleodorina starrii	330485	genome	15441	C:96.0%[S:94.9%,D:1.1%],F:0.4%,M:3.6%,n:1519	GCA_030267565.1|full|CS clade, Chlamydomonadales, Volvocaceae
+Chlamydomonadales	UniProt	UP001165090	Volvox africanus	51714	genome	13265	C:90.3%[S:88.5%,D:1.8%],F:0.4%,M:9.3%,n:1519	GCA_030268105.1|full|CS clade, Chlamydomonadales, Volvocaceae
+Chlamydomonadales	UniProt	UP000485058	Haematococcus lacustris (Green alga) (Haematococcus pluvialis)	44745	genome	28121	C:41.1%[S:33.2%,D:7.8%],F:15.1%,M:43.8%,n:1519	GCA_011766145.1|full|CS clade, Chlamydomonadales, Haematococcaceae
+Chlamydomonadales	NCBI	GCA_021605115.1	Astrephomene gubernaculifera	47775	genome	13724		Department of Biological Sciences, Graduate School of Science, The University of Tokyo|2021-11-25|Contig|
+Chlamydomonadales	NCBI	GCA_002335675.1	Chlamydomonas eustigma	1157962	genome	14068		Department of Cell Genetics, National Institute of Genetics|2017-08-31|Scaffold|
+Chlamydomonadales	NCBI	GCA_016834605.1	Chlamydomonas incerta	51695	genome	16350		University of Edinburgh|2021-02-08|Contig|
+Chlamydomonadales	NCBI	GCA_016618255.1	Chlamydomonas priscui	1653778	genome	16018		Western University|2021-01-12|Scaffold|
+Chlamydomonadales	NCBI	GCF_000002595.2	Chlamydomonas reinhardtii	3055	genome	17742		DOE Joint Genome Institute|2021-08-17|Chromosome|
+Chlamydomonadales	NCBI	GCA_016834595.1	Chlamydomonas schloesseri	2026947	genome	15571		University of Edinburgh|2021-02-08|Contig|
+Chlamydomonadales	NCBI	GCA_002284615.2	Dunaliella salina	3046	genome	16527		JGI|2020-07-15|Scaffold|
+Chlamydomonadales	NCBI	GCA_016858145.1	Edaphochlamys debaryana	47281	genome	19227		University of Edinburgh|2021-02-09|Contig|
+Chlamydomonadales	NCBI	GCA_001584585.1	Gonium pectorale	33097	genome	16290		Kansas State University|2016-03-09|Scaffold|
+Chlamydomonadales	NCBI	GCA_030144725.1	Haematococcus lacustris	44745	genome	30548		BGI-SZ|2023-06-01|Scaffold|
+Chlamydomonadales	NCBI	GCA_030267565.1	Pleodorina starrii	330485	genome	15644		Higashiyama Developmental-Cell-Biology Lab, Graduate School of Science, Department of Biological Sciences, The University of Tokyo|2023-06-15|Contig|
+Chlamydomonadales	NCBI	GCA_040746525.1	Sanguina aurantia	2578422	genome	11614		Simon Fraser University|2024-07-17|Scaffold|
+Chlamydomonadales	NCBI	GCA_002891735.1	Tetrabaena socialis	47790	genome	14296		Volvocales Genome Consortium|2018-01-18|Scaffold|
+Chlamydomonadales	NCBI	GCA_030268105.1	Volvox africanus	51714	genome	13455		Department of Chemical and Biological Sciences, Faculty of Science, Japan Women's University|2023-09-06|Contig|
+Chlamydomonadales	NCBI	GCF_000143455.1	Volvox carteri f. nagariensis	3068	genome	14331		US DOE Joint Genome Institute (JGI-PGF)|2024-01-09|Scaffold|
+Chlamydomonadales	NCBI	GCA_019650255.1	Volvox reticuliferus	1737510	genome	13399		Laboratory of Origin of Eukaryote Biodiversity, Department of Biological Sciences, Graduate School of Science, University of Tokyo|2026-10-11|Contig|
+Chlamydomonadales	EukProt	EP00195	Chlamydomonas chlamydogama SAG 11-48b	225041	transcriptome	17926	68.60%	MMETSP1392|MMETSP – be very careful
+Chlamydomonadales	EukProt	EP00197	Chlamydomonas leiostraca SAG 11-49	1034604	transcriptome	16288	63.10%	MMETSP1391|MMETSP – be very careful
+Chlamydomonadales	EukProt	EP00198	Chlamydomonas reinhardtii CC-503 cw92 mt+	3055	genome	14488	75.70%	v3.0|
+Chlamydomonadales	EukProt	EP00199	Chlamydomonas sp. CCMP681 CCMP681	413974	transcriptome	8557	59.20%	MMETSP1180|MMETSP – be very careful
+Chlamydomonadales	EukProt	EP00200	Dunaliella tertiolecta CCMP1320	3047	transcriptome	20062	82.80%	MMETSP1126,MMETSP1127,MMETSP1128|MMETSP – be very careful
+Chlamydomonadales	EukProt	EP00201	Polytomella parva SAG 63-3	51329	transcriptome	24645	63.20%	MMETSP0052|MMETSP – be very careful
+Chlamydomonadales	EukProt	EP00202	Volvox carteri f. nagariensis M.O.P.Iyengar	3067	genome	14436	79.60%	v1.0|
+Chlamydomonadales	EukProt	EP00798			genome	32871	62.40%	PRJNA636631|
+Chlamydomonadales	EukProt	EP00799		1157962	genome	14161	90.60%	C.eustigma genome v1.0|
+Chlamydomonadales	EukProt	EP00851		51695	genome	16957	85.40%	ASM1683460v1|
+Chlamydomonadales	EukProt	EP00852		2026947	genome	16268	91.40%	ASM1683459v1|
+Chlamydomonadales	EukProt	EP00853		47281	genome	20450	87.80%	ASM1685814v1|
+Chlamydomonadales	EukProt	EP00874		3046	genome	18740	58.10%	Dunsal1 v. 2|
+Chlamydomonadales	EukProt	EP00875		33097	genome	16290	71.40%	ASM158458v1|
+Chlamydomonadales	EukProt	EP00876		47790	genome	14296	31.00%	TetSoc1|
+Chlamydomonadales	EukProt	EP00955		1486919	genome	119216	2.70%	Dataset_S4-cds-aa|
