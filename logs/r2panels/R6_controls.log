@@ -1,0 +1,5 @@
+[2026-10-29 18:39:31] 10,000 families
+[2026-10-29 18:39:34] 20,000 families
+[2026-10-29 18:39:41] parsed 521,323 genes, 321,906 HOGs in 13s
+[2026-10-29 18:39:44] classes annotated (35,732 Pfam hits; 0 species without Pfam file)
+[2026-10-29 18:39:48] wrote /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R6/positive_controls.tsv: C09:yes

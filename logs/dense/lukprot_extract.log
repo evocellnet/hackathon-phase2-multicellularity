@@ -1,0 +1,23 @@
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,48 CPUs x64)
+
+Scanning the drive for archives:
+1 file, 5594930417 bytes (5336 MiB)
+
+Extracting archive: LukProt_v1.5.1_single_species_FASTA.7z
+--
+Path = LukProt_v1.5.1_single_species_FASTA.7z
+Type = 7z
+Physical Size = 5594930417
+Headers Size = 33544
+Method = LZMA2:24
+Solid = +
+Blocks = 5
+
+Everything is Ok
+
+Folders: 143
+Files: 1281
+Size:       18948569718
+Compressed: 5594930417

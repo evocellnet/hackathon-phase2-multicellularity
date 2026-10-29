@@ -1,0 +1,6 @@
+loaded 143 HMMs in 0s
+{"species": "Chlaeus", "fasta_md5": "f6f51f381a5aae0462b17071ad60266a", "n_domain_hits": 1382, "seconds": 3.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Chlapri", "fasta_md5": "e2778caff32004fa15cd65f6c0806a7e", "n_domain_hits": 1288, "seconds": 4.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Sangaur", "fasta_md5": "2fa4dee75b4e927cecdca80ffbfe630b", "n_domain_hits": 756, "seconds": 3.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Volvret", "fasta_md5": "d8055a49d2047380f10b6ea518b398c9", "n_domain_hits": 1426, "seconds": 3.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+[2026-10-29 18:00:02] prereg Pfam: 4 new species annotated in /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R4_curated/work/pfam_prereg

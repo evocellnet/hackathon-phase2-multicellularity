@@ -1,0 +1,5 @@
+loaded 143 HMMs in 0s
+{"species": "Cylibre", "fasta_md5": "944c91775ed1fef6eeb0e8660963f1bf", "n_domain_hits": 2030, "seconds": 3.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Ginkbil", "fasta_md5": "d581bf97ee3de0aebdfc1a0f275a7198", "n_domain_hits": 9169, "seconds": 7.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Orysat", "fasta_md5": "1a8ad2a5d78c6041e54422c18173175d", "n_domain_hits": 9449, "seconds": 7.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+[2026-10-29 17:03:50] prereg Pfam: 3 new species annotated in /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R3/work/pfam_prereg

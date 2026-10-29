@@ -1,0 +1,4 @@
+[18:23:25] pruned tree 29 species: (Thectra,((Fontalb,Spizpun)Holomycota,(((((Acanspe,Didycos)Acanthoecida,(Codohol,Monobre,Mylnflu,Choafle,Salpros)Salpingoecidae)Choanoflagellata,(((Drosmel,(Branbel,Homosap)Chordata)Bilateria,(Nemavec,Hydrvul)Cnidaria,(Hoilhon,Tricadh)Uniplacotomia)ParaHoxozoa,(Sycocil,Amphque)Porifera,Mnemlei)Metazoa)Choanozoa,(Capsowc,Minivib,Pigochi)Filasterea)Filozoa,((Chroper,(Amoepar,Creofra,Sphaarc)Ichthyophonida)Ichthyosporea,(Coralim,Syssmul)Pluriformea)Teretosporea)Holozoa)Opisthokonta)Eukaryota;
+[18:23:42]   200,000 top-level groups, 66,524 kept
+[18:23:46] eukaryoma filter: {'species_kept': 29, 'genes_kept': 602887, 'genes_renamed': 0, 'groups_in': 301388, 'groups_out': 100132, 'species_missing': []}
+[18:24:05] eukaryoma: parsed 602,887 genes; violations 0

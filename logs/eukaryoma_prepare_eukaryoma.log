@@ -1,0 +1,10 @@
+[15:51:14]   200,000 top-level groups, 38,462 kept
+[15:51:38]   400,000 top-level groups, 76,213 kept
+[15:52:05]   600,000 top-level groups, 115,085 kept
+[15:52:28]   800,000 top-level groups, 153,231 kept
+[15:52:52]   1,000,000 top-level groups, 191,934 kept
+[15:53:17]   1,200,000 top-level groups, 230,228 kept
+[15:53:42]   1,400,000 top-level groups, 269,081 kept
+[15:54:03] eukaryoma filter: {'species_kept': 125, 'genes_kept': 2307226, 'genes_renamed': 0, 'groups_in': 1567736, 'groups_out': 301388, 'species_missing': []}
+[15:54:35] eukaryoma: 200,000 families
+[15:55:15] eukaryoma: parsed 2,307,226 genes, 1,522,078 families, 1,146,974 ancestral genes; conservation violations 0; stats {'n_families': 1522078, 'n_singleton_genes': 1220690, 'n_groups': 1939651, 'n_level_hint_unknown': 0, 'n_level_hint_inconsistent': 0, 'n_collapsed_inconsistent': 152549, 'n_single_species_orthologgroups': 1183676, 'n_empty_groups': 0, 'n_genes': 2307226, 'n_species': 125, 'n_internal_nodes': 104, 'n_hogs_internal': 1146974, 'n_event_rows': 2740706, 'conservation_violations': 0, 'source': '/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/eukaryoma_xval/eukaryoma.orthoxml.gz'}

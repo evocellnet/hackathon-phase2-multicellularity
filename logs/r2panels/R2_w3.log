@@ -1,0 +1,4 @@
+[2026-10-29 17:14:52] parsed 401,122 genes, 109,950 families in 10s
+[2026-10-29 17:14:53] 39,728 units (21,917 novel, 17,811 dup); 66,501 representative proteins
+[2026-10-29 17:25:30] pyhmmer Pfam-A on 21,665 new-species proteins in 636s
+[2026-10-29 17:25:33] wrote /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R2/w3_families.tsv.gz (39,728 units; 19,272 with Pfam) and 7,384 event units

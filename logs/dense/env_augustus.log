@@ -1,0 +1,284 @@
+Using Cached Shard Index for conda-forge/linux-64                                                   ✔ Done
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.1 sec)
+Using Cached Shard Index for bioconda/linux-64                                                      ✔ Done
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+Using Cached Shard Index for conda-forge/linux-64                                                   ✔ Done
+Using Cached Shard Index for conda-forge/noarch                                                     ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.2 sec)
+Using Cached Shard Index for bioconda/linux-64                                                      ✔ Done
+Using Cached Shard Index for bioconda/noarch                                                        ✔ Done
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (0.0 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.4 sec)
+
+Transaction
+
+  Prefix: /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/augustus
+
+  Updating specs:
+
+   - augustus>=3.5
+   - libboost-devel=1.85
+
+
+  Package                             Version  Build                 Channel           Size
+─────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex                         4.5  20_gnu                conda-forge     Cached
+  + _x86_64-microarch-level                 3  3_x86_64_v3           conda-forge     Cached
+  + augustus                            3.5.0  pl5321h5653ebf_10     bioconda        Cached
+  + bamtools                            2.5.3  he132191_0            bioconda        Cached
+  + biopython                            1.88  py314h89acca1_1       conda-forge     Cached
+  + boost-cpp                          1.85.0  h3c6214e_4            conda-forge       18kB
+  + bzip2                               1.0.8  hda65f42_10           conda-forge     Cached
+  + c-ares                             1.34.9  hebe6cf0_0            conda-forge     Cached
+  + ca-certificates                2026.10.23  hbd8a1cb_0            conda-forge     Cached
+  + cdbtools                             0.99  h077b44d_12           bioconda        Cached
+  + diamond                             2.2.8  he361c42_0            bioconda        Cached
+  + gmp                                 6.3.0  hfd2156b_3            conda-forge     Cached
+  + gsl                                   2.8  h3cd6761_2            conda-forge     Cached
+  + htslib                               1.24  ha79157c_0            bioconda        Cached
+  + icu                                  75.1  he02047a_0            conda-forge       12MB
+  + jsoncpp                             1.9.6  hf42df4d_1            conda-forge     Cached
+  + keyutils                            1.6.3  h7cc23a3_1            conda-forge     Cached
+  + krb5                               1.22.2  hbc21106_2            conda-forge     Cached
+  + ld_impl_linux-64                   2.46.1  default_hbd61a6d_103  conda-forge     Cached
+  + libamd                              3.3.3  haaf9dc3_7100102      conda-forge     Cached
+  + libblas                            3.11.0  11_h4a7cf45_openblas  conda-forge     Cached
+  + libboost                           1.85.0  h0ccab89_4            conda-forge        3MB
+  + libboost-devel                     1.85.0  h00ab1b0_4            conda-forge       41kB
+  + libboost-headers                   1.85.0  ha770c72_4            conda-forge       14MB
+  + libbtf                              2.3.2  h32481e8_7100102      conda-forge     Cached
+  + libcamd                             3.3.3  h32481e8_7100102      conda-forge     Cached
+  + libcblas                           3.11.0  11_h0358290_openblas  conda-forge     Cached
+  + libccolamd                          3.3.4  h32481e8_7100102      conda-forge     Cached
+  + libcholmod                          5.3.1  h59ddab4_7100102      conda-forge     Cached
+  + libcolamd                           3.3.4  h32481e8_7100102      conda-forge     Cached
+  + libcurl                            8.21.0  hcf29cc6_1            conda-forge     Cached
+  + libcxsparse                         4.4.1  h32481e8_7100102      conda-forge     Cached
+  + libdeflate                           1.26  h351257e_0            conda-forge     Cached
+  + libedit                      3.1.20260512  pl5321h373387f_0      conda-forge     Cached
+  + libev                                4.33  h280c20c_3            conda-forge     Cached
+  + libexpat                            2.9.0  hd2095e1_0            conda-forge     Cached
+  + libffi                              3.7.0  h81df57d_1            conda-forge     Cached
+  + libgcc                             16.2.0  ha9f2e26_7            conda-forge     Cached
+  + libgcc-ng                          16.2.0  h69a702a_7            conda-forge     Cached
+  + libgfortran                        16.2.0  h69a702a_7            conda-forge     Cached
+  + libgfortran5                       16.2.0  h6b99dfc_7            conda-forge     Cached
+  + libgomp                            16.2.0  he0feb66_7            conda-forge     Cached
+  + libiconv                             1.18  h0cb94f2_3            conda-forge     Cached
+  + libklu                              2.3.5  hf24d653_7100102      conda-forge     Cached
+  + liblapack                          3.11.0  11_h47877c9_openblas  conda-forge     Cached
+  + libldl                              3.3.2  h32481e8_7100102      conda-forge     Cached
+  + liblzma                             5.8.3  hb03c661_1            conda-forge     Cached
+  + liblzma-devel                       5.8.3  hb03c661_1            conda-forge     Cached
+  + libmpdec                            4.0.0  hb03c661_2            conda-forge     Cached
+  + libnghttp2                         1.70.0  hc5e5977_0            conda-forge     Cached
+  + libopenblas                        0.3.34  pthreads_hf13c14d_2   conda-forge     Cached
+  + libopenssl-static                   3.6.5  h7cc23a3_0            conda-forge     Cached
+  + libparu                             1.0.0  h17147ab_7100102      conda-forge     Cached
+  + libpng                             1.6.59  h922cc85_0            conda-forge     Cached
+  + libpython                          3.14.8  hdc7f604_101_cp314    conda-forge     Cached
+  + librbio                             4.3.4  h32481e8_7100102      conda-forge     Cached
+  + libspex                             3.2.3  had10066_7100102      conda-forge     Cached
+  + libspqr                             4.3.4  h852d39f_7100102      conda-forge     Cached
+  + libsqlite                          3.53.4  h0737f62_102          conda-forge     Cached
+  + libssh2                            1.11.1  h6154650_1            conda-forge     Cached
+  + libstdcxx                          16.2.0  h934c35e_7            conda-forge     Cached
+  + libstdcxx-ng                       16.2.0  hdf11a46_7            conda-forge     Cached
+  + libsuitesparseconfig               7.10.1  h92d6892_7100102      conda-forge     Cached
+  + libumfpack                          6.3.5  heb53515_7100102      conda-forge     Cached
+  + libuuid                            2.42.4  hcfc3c73_0            conda-forge     Cached
+  + libxcrypt                          4.4.38  h280c20c_0            conda-forge     Cached
+  + libzlib                             1.3.2  h25fd6f3_3            conda-forge     Cached
+  + lp_solve                         5.5.2.11  hd590300_0            conda-forge     Cached
+  + metis                               5.1.0  h86e3903_1008         conda-forge     Cached
+  + mpfr                                4.2.2  ha2cb11d_1            conda-forge     Cached
+  + mysql-connector-c                  6.1.11  h659d440_1008         conda-forge     Cached
+  + ncurses                               6.6  hdb14827_1            conda-forge     Cached
+  + numpy                               2.5.4  py314hd3a7d6b_0       conda-forge     Cached
+  + openssl                             3.6.5  h781a0a9_0            conda-forge     Cached
+  + perl                               5.32.1  10_h7cc23a3_perl5     conda-forge     Cached
+  + perl-app-cpanminus                 1.7048  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-carp                            1.50  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-class-method-modifiers          2.13  pl5321ha770c72_0      conda-forge     Cached
+  + perl-constant                        1.33  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-dbi                            1.651  pl5321hb03c661_0      conda-forge     Cached
+  + perl-exporter                        5.74  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-extutils-makemaker              7.70  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-file-path                       2.18  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-file-temp                     0.2304  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-file-which                      1.24  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-inc-latest                     0.500  pl5321ha770c72_0      conda-forge     Cached
+  + perl-module-build                  0.4234  pl5321h707e725_2      conda-forge     Cached
+  + perl-moo                         2.005004  pl5321ha770c72_0      conda-forge     Cached
+  + perl-parallel-forkmanager            2.04  pl5321hdfd78af_0      bioconda        Cached
+  + perl-parent                         0.243  pl5321hd8ed1ab_0      conda-forge     Cached
+  + perl-role-tiny                   2.002004  pl5321ha770c72_0      conda-forge     Cached
+  + perl-scalar-list-utils               1.70  pl5321hb03c661_0      conda-forge     Cached
+  + perl-storable                        3.15  pl5321hb9d3cd8_2      conda-forge     Cached
+  + perl-sub-quote                   2.006006  pl5321ha770c72_0      conda-forge     Cached
+  + perl-test-fatal                     0.016  pl5321ha770c72_0      conda-forge     Cached
+  + perl-try-tiny                        0.31  pl5321ha770c72_0      conda-forge     Cached
+  + perl-yaml                            1.30  pl5321hdfd78af_0      bioconda        Cached
+  + python                             3.14.8  hcd007b5_101_cp314    conda-forge     Cached
+  + python_abi                           3.14  9_cp314               conda-forge     Cached
+  + readline                              8.3  hd6e31c0_1            conda-forge     Cached
+  + samtools                             1.24  h9dcdb79_1            bioconda        Cached
+  + sqlite                             3.53.4  h6e79ffa_102          conda-forge     Cached
+  + suitesparse                        7.10.1  ha0f6916_7100102      conda-forge     Cached
+  + tar                                  1.35  h3b78370_0            conda-forge     Cached
+  + tk                                 8.6.13  noxft_h1df4ec4_4      conda-forge     Cached
+  + tzdata                              2026e  h5d301ff_0            conda-forge     Cached
+  + ucsc-fatotwobit                       482  hdc0a859_0            bioconda        Cached
+  + ucsc-twobitinfo                       482  hdc0a859_0            bioconda        Cached
+  + xz                                  5.8.3  ha02ee65_1            conda-forge     Cached
+  + xz-gpl-tools                        5.8.3  ha02ee65_1            conda-forge     Cached
+  + xz-tools                            5.8.3  hb03c661_1            conda-forge     Cached
+  + zstd                                1.5.7  hb78ec9c_7            conda-forge     Cached
+
+  Summary:
+
+  Install: 112 packages
+
+  Total download: 29MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking libboost-headers-1.85.0-ha770c72_4
+Linking libzlib-1.3.2-h25fd6f3_3
+Linking libgomp-16.2.0-he0feb66_7
+Linking zstd-1.5.7-hb78ec9c_7
+Linking _openmp_mutex-4.5-20_gnu
+Linking ld_impl_linux-64-2.46.1-default_hbd61a6d_103
+Linking libgcc-16.2.0-ha9f2e26_7
+Linking libexpat-2.9.0-hd2095e1_0
+Linking libffi-3.7.0-h81df57d_1
+Linking libmpdec-4.0.0-hb03c661_2
+Linking tk-8.6.13-noxft_h1df4ec4_4
+Linking libev-4.33-h280c20c_3
+Linking keyutils-1.6.3-h7cc23a3_1
+Linking c-ares-1.34.9-hebe6cf0_0
+Linking ncurses-6.6-hdb14827_1
+Linking libgfortran5-16.2.0-h6b99dfc_7
+Linking libiconv-1.18-h0cb94f2_3
+Linking libpng-1.6.59-h922cc85_0
+Linking libuuid-2.42.4-hcfc3c73_0
+Linking libsqlite-3.53.4-h0737f62_102
+Linking libxcrypt-4.4.38-h280c20c_0
+Linking bzip2-1.0.8-hda65f42_10
+Linking libdeflate-1.26-h351257e_0
+Linking liblzma-5.8.3-hb03c661_1
+Linking libstdcxx-16.2.0-h934c35e_7
+Linking libgcc-ng-16.2.0-h69a702a_7
+Linking libedit-3.1.20260512-pl5321h373387f_0
+Linking readline-8.3-hd6e31c0_1
+Linking libgfortran-16.2.0-h69a702a_7
+Linking tar-1.35-h3b78370_0
+Linking perl-5.32.1-10_h7cc23a3_perl5
+Linking xz-tools-5.8.3-hb03c661_1
+Linking xz-gpl-tools-5.8.3-ha02ee65_1
+Linking liblzma-devel-5.8.3-hb03c661_1
+Linking libpython-3.14.8-hdc7f604_101_cp314
+Linking gmp-6.3.0-hfd2156b_3
+Linking metis-5.1.0-h86e3903_1008
+Linking jsoncpp-1.9.6-hf42df4d_1
+Linking libstdcxx-ng-16.2.0-hdf11a46_7
+Linking lp_solve-5.5.2.11-hd590300_0
+Linking sqlite-3.53.4-h6e79ffa_102
+Linking libopenblas-0.3.34-pthreads_hf13c14d_2
+Linking perl-try-tiny-0.31-pl5321ha770c72_0
+Linking perl-role-tiny-2.002004-pl5321ha770c72_0
+Linking perl-storable-3.15-pl5321hb9d3cd8_2
+Linking perl-inc-latest-0.500-pl5321ha770c72_0
+Linking perl-scalar-list-utils-1.70-pl5321hb03c661_0
+Linking perl-dbi-1.651-pl5321hb03c661_0
+Linking xz-5.8.3-ha02ee65_1
+Linking mpfr-4.2.2-ha2cb11d_1
+Linking icu-75.1-he02047a_0
+Linking libblas-3.11.0-11_h4a7cf45_openblas
+Linking perl-test-fatal-0.016-pl5321ha770c72_0
+Linking libboost-1.85.0-h0ccab89_4
+Linking liblapack-3.11.0-11_h47877c9_openblas
+Linking libcblas-3.11.0-11_h0358290_openblas
+Linking perl-class-method-modifiers-2.13-pl5321ha770c72_0
+Linking perl-sub-quote-2.006006-pl5321ha770c72_0
+Linking libboost-devel-1.85.0-h00ab1b0_4
+Linking gsl-2.8-h3cd6761_2
+Linking perl-moo-2.005004-pl5321ha770c72_0
+Linking boost-cpp-1.85.0-h3c6214e_4
+Linking _x86_64-microarch-level-3-3_x86_64_v3
+Linking ca-certificates-2026.10.23-hbd8a1cb_0
+Linking python_abi-3.14-9_cp314
+Linking tzdata-2026e-h5d301ff_0
+Linking perl-extutils-makemaker-7.70-pl5321hd8ed1ab_0
+Linking perl-parent-0.243-pl5321hd8ed1ab_0
+Linking perl-constant-1.33-pl5321hd8ed1ab_0
+Linking perl-exporter-5.74-pl5321hd8ed1ab_0
+Linking perl-file-which-1.24-pl5321hd8ed1ab_0
+Linking perl-app-cpanminus-1.7048-pl5321hd8ed1ab_0
+Linking perl-module-build-0.4234-pl5321h707e725_2
+Linking perl-carp-1.50-pl5321hd8ed1ab_0
+Linking perl-file-path-2.18-pl5321hd8ed1ab_0
+Linking perl-file-temp-0.2304-pl5321hd8ed1ab_0
+Linking cdbtools-0.99-h077b44d_12
+Linking diamond-2.2.8-he361c42_0
+Linking bamtools-2.5.3-he132191_0
+Linking perl-yaml-1.30-pl5321hdfd78af_0
+Linking perl-parallel-forkmanager-2.04-pl5321hdfd78af_0
+Linking libsuitesparseconfig-7.10.1-h92d6892_7100102
+Linking openssl-3.6.5-h781a0a9_0
+Linking libbtf-2.3.2-h32481e8_7100102
+Linking libldl-3.3.2-h32481e8_7100102
+Linking libamd-3.3.3-haaf9dc3_7100102
+Linking libcamd-3.3.3-h32481e8_7100102
+Linking libccolamd-3.3.4-h32481e8_7100102
+Linking libcolamd-3.3.4-h32481e8_7100102
+Linking librbio-4.3.4-h32481e8_7100102
+Linking libcxsparse-4.4.1-h32481e8_7100102
+Linking python-3.14.8-hcd007b5_101_cp314
+Linking libssh2-1.11.1-h6154650_1
+Linking krb5-1.22.2-hbc21106_2
+Linking libnghttp2-1.70.0-hc5e5977_0
+Linking libopenssl-static-3.6.5-h7cc23a3_0
+Linking mysql-connector-c-6.1.11-h659d440_1008
+Linking libspex-3.2.3-had10066_7100102
+Linking libcholmod-5.3.1-h59ddab4_7100102
+Linking numpy-2.5.4-py314hd3a7d6b_0
+Linking libcurl-8.21.0-hcf29cc6_1
+Linking libklu-2.3.5-hf24d653_7100102
+Linking libspqr-4.3.4-h852d39f_7100102
+Linking libumfpack-6.3.5-heb53515_7100102
+Linking biopython-1.88-py314h89acca1_1
+Linking libparu-1.0.0-h17147ab_7100102
+Linking suitesparse-7.10.1-ha0f6916_7100102
+Linking ucsc-fatotwobit-482-hdc0a859_0
+Linking ucsc-twobitinfo-482-hdc0a859_0
+Linking htslib-1.24-ha79157c_0
+Linking samtools-1.24-h9dcdb79_1
+Linking augustus-3.5.0-pl5321h5653ebf_10
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    mamba activate augustus
+
+Or to execute a single command in this environment, use:
+
+    mamba run -n augustus mycommand
+

@@ -1,0 +1,32 @@
+[2026-10-29T18:26:43+01:00] waiting for 3Di: 11 R1 species missing
+[2026-10-29T18:28:43+01:00] waiting for 3Di: 10 R1 species missing
+[2026-10-29T18:30:43+01:00] waiting for 3Di: 10 R1 species missing
+[2026-10-29T18:32:43+01:00] waiting for 3Di: 9 R1 species missing
+[2026-10-29T18:34:43+01:00] waiting for 3Di: 9 R1 species missing
+[2026-10-29T18:36:43+01:00] waiting for 3Di: 8 R1 species missing
+[2026-10-29T18:38:43+01:00] waiting for 3Di: 8 R1 species missing
+[2026-10-29T18:40:43+01:00] waiting for 3Di: 7 R1 species missing
+[2026-10-29T18:42:43+01:00] waiting for 3Di: 7 R1 species missing
+[2026-10-29T18:44:43+01:00] waiting for 3Di: 7 R1 species missing
+[2026-10-29T18:46:43+01:00] waiting for 3Di: 6 R1 species missing
+[2026-10-29T18:48:43+01:00] waiting for 3Di: 6 R1 species missing
+[2026-10-29T18:50:43+01:00] waiting for 3Di: 5 R1 species missing
+[2026-10-29T18:52:43+01:00] waiting for 3Di: 5 R1 species missing
+[2026-10-29T18:54:43+01:00] waiting for 3Di: 4 R1 species missing
+[2026-10-29T18:56:43+01:00] waiting for 3Di: 4 R1 species missing
+[2026-10-29T18:58:43+01:00] waiting for 3Di: 4 R1 species missing
+[2026-10-29T19:00:43+01:00] waiting for 3Di: 3 R1 species missing
+[2026-10-29T19:02:43+01:00] waiting for 3Di: 2 R1 species missing
+[2026-10-29T19:04:43+01:00] waiting for 3Di: 1 R1 species missing
+[2026-10-29T19:06:43+01:00] waiting for 3Di: 1 R1 species missing
+{"n": 628756, "with_3di": 628648, "missing": 108, "length_mismatch": 0, "duplicates": 0, "bad_alphabet": 0, "extra_ids": 0} coverage 0.999828
+[2026-10-29T19:08:52+01:00] start 3di: --family-rescue 3di --structure-3di /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/r2/R1_3di_input/R1.3di.fa
+[2026-10-29T19:08:52+01:00] start ancestra(fastleiden wrapper) preset=fast threads=12 prot=data/dense/R1/proteomes tree=data/dense/R1/guide_tree.nwk maxgb=150 wrapper_opts=--workers 8 --progress-log runs/r2/R1_3di/fastleiden_progress.log
+[2026-10-29T19:15:23+01:00] ancestra(fastleiden wrapper) exit 0 peak_rss_kb=4138720
+{"status":"done","preset":"fast","threads":12,"peak_rss_kb":4138720,"verify_rc":0,"patched":"fastleiden","finished":"2026-10-29T19:16:18+01:00"}
+[2026-10-29T19:16:18+01:00] end 3di rc=0
+[2026-10-29T19:16:20+01:00] start 3di_guard: --family-rescue 3di --structure-3di /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/r2/R1_3di_input/R1.3di.fa --family-rescue-guard
+[2026-10-29T19:16:20+01:00] start ancestra(fastleiden wrapper) preset=fast threads=12 prot=data/dense/R1/proteomes tree=data/dense/R1/guide_tree.nwk maxgb=150 wrapper_opts=--workers 8 --progress-log runs/r2/R1_3di_guard/fastleiden_progress.log
+[2026-10-29T19:20:20+01:00] ancestra(fastleiden wrapper) exit 0 peak_rss_kb=3706556
+{"status":"done","preset":"fast","threads":12,"peak_rss_kb":3706556,"verify_rc":0,"patched":"fastleiden","finished":"2026-10-29T19:21:13+01:00"}
+[2026-10-29T19:21:13+01:00] end 3di_guard rc=0

@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights: 100%|██████████| 195/195 [00:00<00:00, 23613.17it/s]
+2389/20066 seqs 2963020 res 253s 9.4 seq/s
+2437/20066 seqs 3002579 res 255s 9.6 seq/s
+DONE 20066 seqs 9094818 residues in 430s (46.6 seq/s); skipped 108 > 3000 aa

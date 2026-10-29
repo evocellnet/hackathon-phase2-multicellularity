@@ -1,0 +1,31 @@
+control   confidence recovered      test_class                                      what_is_tested
+    C01         high       yes event_placement                                        gain on stem
+    C02         high       yes event_placement                                        gain on stem
+    C03         high        no event_placement                            gain on stem (deep node)
+    C04         high       yes event_placement                       origin at/above P (deep node)
+    C05         high       yes    hog_presence                      presence at P + species counts
+    C06         high        no event_placement origin pre-Opisthokonta + 2 stem losses (deep node)
+    C07         high        no event_placement presence + stem loss + stem duplication (deep node)
+    C08     moderate        no    hog_presence                                       presence at P
+    C09         high       yes    hog_presence                                       presence at P
+    C10         high       yes event_placement                                        gain on stem
+    C11         high       yes event_placement                 origin at/above P (no gain on stem)
+    C12     moderate        no  species_counts                                  per-species counts
+    C13     moderate       yes event_placement                                     origin at crown
+    C14     moderate       yes  species_counts                                  per-species counts
+    C15         high       yes event_placement             null: no expansion of stem duplications
+    C16 low-moderate       yes  species_counts                                  per-species counts
+
+recovered / total by class:
+                 sum  count
+test_class                 
+event_placement    7     10
+hog_presence       2      3
+species_counts     2      3
+
+uses Ancestra at all: 9/13
+event placement: 7/10; excluding the null control C15: 6/9
+high-confidence event placement (excl. C15): 5/8
+deep-node HOG placement C03/C06/C07: 0/3
+reviewer's list: [{'control': 'C05', 'recovered': 'yes', 'test_class': 'hog_presence'}, {'control': 'C09', 'recovered': 'yes', 'test_class': 'hog_presence'}, {'control': 'C12', 'recovered': 'no', 'test_class': 'species_counts'}, {'control': 'C14', 'recovered': 'yes', 'test_class': 'species_counts'}, {'control': 'C16', 'recovered': 'yes', 'test_class': 'species_counts'}]
+not using Ancestra: 2/3

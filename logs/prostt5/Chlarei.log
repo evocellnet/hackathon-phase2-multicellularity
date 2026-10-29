@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights: 100%|██████████| 195/195 [00:00<00:00, 23072.93it/s]
+913/17611 proteins 2480000 res 60s 41005 res/s
+1834/17611 proteins 4960000 res 121s 41131 res/s
+2753/17611 proteins 7440000 res 181s 41187 res/s
+3671/17611 proteins 9920000 res 241s 41214 res/s
+4694/17611 proteins 11390180 res 301s 37781 res/s
+6303/17611 proteins 12653706 res 362s 34981 res/s
+9748/17611 proteins 14591286 res 422s 34577 res/s
+DONE 17611 proteins 16457529 residues in 467s (35250 res/s); skipped 0 > 100000 aa

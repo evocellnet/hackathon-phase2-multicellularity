@@ -1,0 +1,302 @@
+[2026-10-29T19:34:24+01:00] R1: start
+[2026-10-29 19:34:28] R1: 628,756 proteins, 628,648 with 3Di
+[2026-10-29 19:34:35] R1: sample {'novel': 3979, 'old': 1464, 'shuffled': 1464} families; 16,289 query sequences
+[2026-10-29 19:36:43] R1 Acanthoecida: 706 queries vs 581,519 targets (35 species) -> 133,815 hits in 125s
+[2026-10-29 19:37:09] R1 Barrmon: 320 queries vs 617,814 targets (36 species) -> 11,815 hits in 24s
+[2026-10-29 19:39:18] R1 Bilateria: 380 queries vs 570,760 targets (34 species) -> 86,077 hits in 128s
+[2026-10-29 19:40:10] R1 Calcarea_Homoscleromorpha: 206 queries vs 578,375 targets (35 species) -> 45,700 hits in 51s
+[2026-10-29 19:41:03] R1 Capsowc: 294 queries vs 619,915 targets (36 species) -> 38,908 hits in 52s
+[2026-10-29 19:42:27] R1 Choanoeca: 676 queries vs 600,850 targets (35 species) -> 82,962 hits in 82s
+[2026-10-29 19:44:34] R1 Choanoflagellata: 901 queries vs 453,527 targets (27 species) -> 155,838 hits in 126s
+[2026-10-29 19:45:24] R1 Choanozoa: 921 queries vs 163,347 targets (12 species) -> 139,649 hits in 50s
+[2026-10-29 19:46:13] R1 Chordata: 292 queries vs 584,435 targets (35 species) -> 48,954 hits in 48s
+[2026-10-29 19:48:07] R1 Cnidaria: 626 queries vs 559,863 targets (34 species) -> 97,310 hits in 112s
+[2026-10-29 19:48:27] R1 Codohol: 322 queries vs 596,714 targets (36 species) -> 19,721 hits in 19s
+[2026-10-29 19:50:15] R1 Filasterea: 376 queries vs 579,906 targets (34 species) -> 84,167 hits in 107s
+[2026-10-29 19:50:45] R1 Filozoa: 854 queries vs 114,605 targets (9 species) -> 73,795 hits in 30s
+[2026-10-29 19:51:53] R1 Heteroscleromorpha: 295 queries vs 591,469 targets (35 species) -> 64,276 hits in 67s
+[2026-10-29 19:52:54] R1 Holomycota: 255 queries vs 613,814 targets (35 species) -> 41,844 hits in 60s
+[2026-10-29 19:53:14] R1 Holozoa: 914 queries vs 25,365 targets (3 species) -> 47,277 hits in 19s
+[2026-10-29 19:55:39] R1 Hydroidolina: 723 queries vs 584,262 targets (35 species) -> 165,010 hits in 144s
+[2026-10-29 19:57:14] R1 Ichthyophonida: 749 queries vs 571,712 targets (34 species) -> 106,062 hits in 94s
+[2026-10-29 19:58:51] R1 Ichthyosporea: 448 queries vs 559,343 targets (33 species) -> 93,174 hits in 96s
+[2026-10-29 20:00:23] R1 Metazoa: 932 queries vs 338,468 targets (22 species) -> 133,417 hits in 91s
+[2026-10-29 20:00:36] R1 Opisthokonta: 666 queries vs 10,531 targets (1 species) -> 23,921 hits in 13s
+[2026-10-29 20:02:21] R1 ParaHoxozoa: 909 queries vs 478,727 targets (29 species) -> 168,204 hits in 104s
+[2026-10-29 20:02:41] R1 Pluriformea: 123 queries vs 608,713 targets (35 species) -> 22,961 hits in 18s
+[2026-10-29 20:04:06] R1 Porifera: 521 queries vs 521,850 targets (32 species) -> 122,874 hits in 84s
+[2026-10-29 20:04:18] R1 Salpingoeca: 20 queries vs 598,817 targets (35 species) -> 2,782 hits in 12s
+[2026-10-29 20:06:11] R1 Salpingoecidae: 802 queries vs 500,656 targets (29 species) -> 137,669 hits in 111s
+[2026-10-29 20:08:24] R1 Silicea: 233 queries vs 572,123 targets (34 species) -> 45,971 hits in 132s
+[2026-10-29 20:11:16] R1 Tentaculata: 684 queries vs 595,187 targets (35 species) -> 169,981 hits in 171s
+[2026-10-29 20:12:11] R1 Teretosporea: 438 queries vs 539,408 targets (31 species) -> 84,207 hits in 54s
+[2026-10-29 20:13:35] R1 Uniplacotomia: 703 queries vs 605,400 targets (35 species) -> 155,650 hits in 83s
+   panel               branch_child      kind    n  n_struct_old  frac_struct_new
+0     R1               Acanthoecida     novel  200           169           0.1550
+1     R1               Acanthoecida       old   60            59           0.0167
+2     R1               Acanthoecida  shuffled   60             0           1.0000
+3     R1                    Barrmon     novel  200            14           0.9300
+4     R1                    Barrmon       old   60            37           0.3833
+5     R1                    Barrmon  shuffled   60             0           1.0000
+6     R1                  Bilateria     novel   60            39           0.3500
+7     R1                  Bilateria       old   39            39           0.0000
+8     R1                  Bilateria  shuffled   39             0           1.0000
+9     R1  Calcarea_Homoscleromorpha     novel   22            21           0.0455
+10    R1  Calcarea_Homoscleromorpha       old   29            29           0.0000
+11    R1  Calcarea_Homoscleromorpha  shuffled   29             0           1.0000
+12    R1                    Capsowc     novel  200            73           0.6350
+13    R1                    Capsowc       old   39            37           0.0513
+14    R1                    Capsowc  shuffled   39             0           1.0000
+15    R1                  Choanoeca     novel  200           122           0.3900
+16    R1                  Choanoeca       old   60            53           0.1167
+17    R1                  Choanoeca  shuffled   60             0           1.0000
+18    R1           Choanoflagellata     novel  200           147           0.2650
+19    R1           Choanoflagellata       old   60            57           0.0500
+20    R1           Choanoflagellata  shuffled   60             0           1.0000
+21    R1                  Choanozoa     novel  200           159           0.2050
+22    R1                  Choanozoa       old   60            60           0.0000
+23    R1                  Choanozoa  shuffled   60             0           1.0000
+24    R1                   Chordata     novel   70            51           0.2714
+25    R1                   Chordata       old   25            24           0.0400
+26    R1                   Chordata  shuffled   25             0           1.0000
+27    R1                   Cnidaria     novel  111            80           0.2793
+28    R1                   Cnidaria       old   60            58           0.0333
+29    R1                   Cnidaria  shuffled   60             0           1.0000
+30    R1                    Codohol     novel  200            18           0.9100
+31    R1                    Codohol       old   60            43           0.2833
+32    R1                    Codohol  shuffled   60             0           1.0000
+33    R1                 Filasterea     novel   33            21           0.3636
+34    R1                 Filasterea       old   60            59           0.0167
+35    R1                 Filasterea  shuffled   60             0           1.0000
+36    R1                    Filozoa     novel  200            98           0.5100
+37    R1                    Filozoa       old   60            57           0.0500
+38    R1                    Filozoa  shuffled   60             0           1.0000
+39    R1         Heteroscleromorpha     novel   97            75           0.2268
+40    R1         Heteroscleromorpha       old   12            12           0.0000
+41    R1         Heteroscleromorpha  shuffled   12             0           1.0000
+42    R1                 Holomycota     novel   11             9           0.1818
+43    R1                 Holomycota       old   51            51           0.0000
+44    R1                 Holomycota  shuffled   51             0           1.0000
+45    R1                    Holozoa     novel  200           126           0.3700
+46    R1                    Holozoa       old   60            60           0.0000
+47    R1                    Holozoa  shuffled   60             0           1.0000
+48    R1               Hydroidolina     novel  200           122           0.3900
+49    R1               Hydroidolina       old   60            59           0.0167
+50    R1               Hydroidolina  shuffled   60             0           1.0000
+51    R1             Ichthyophonida     novel  200            99           0.5050
+52    R1             Ichthyophonida       old   60            56           0.0667
+53    R1             Ichthyophonida  shuffled   60             0           1.0000
+54    R1              Ichthyosporea     novel   40            31           0.2250
+55    R1              Ichthyosporea       old   60            57           0.0500
+56    R1              Ichthyosporea  shuffled   60             0           1.0000
+57    R1                    Metazoa     novel  200           137           0.3150
+58    R1                    Metazoa       old   60            60           0.0000
+59    R1                    Metazoa  shuffled   60             0           1.0000
+60    R1               Opisthokonta     novel  191           134           0.2984
+61    R1               Opisthokonta       old   19            19           0.0000
+62    R1               Opisthokonta  shuffled   19             0           1.0000
+63    R1                ParaHoxozoa     novel  200           138           0.3100
+64    R1                ParaHoxozoa       old   60            60           0.0000
+65    R1                ParaHoxozoa  shuffled   60             0           1.0000
+66    R1                Pluriformea     novel    8             6           0.2500
+67    R1                Pluriformea       old   22            20           0.0909
+68    R1                Pluriformea  shuffled   22             0           1.0000
+69    R1                   Porifera     novel   65            54           0.1692
+70    R1                   Porifera       old   60            59           0.0167
+71    R1                   Porifera  shuffled   60             0           1.0000
+72    R1                Salpingoeca     novel    2             1           0.5000
+73    R1                Salpingoeca       old    3             3           0.0000
+74    R1                Salpingoeca  shuffled    3             0           1.0000
+75    R1             Salpingoecidae     novel  200           123           0.3850
+76    R1             Salpingoecidae       old   60            57           0.0500
+77    R1             Salpingoecidae  shuffled   60             0           1.0000
+78    R1                    Silicea     novel   33            25           0.2424
+79    R1                    Silicea       old   25            24           0.0400
+80    R1                    Silicea  shuffled   25             0           1.0000
+81    R1                Tentaculata     novel  200           132           0.3400
+82    R1                Tentaculata       old   60            59           0.0167
+83    R1                Tentaculata  shuffled   60             0           1.0000
+84    R1               Teretosporea     novel   36            24           0.3333
+85    R1               Teretosporea       old   60            58           0.0333
+86    R1               Teretosporea  shuffled   60             0           1.0000
+87    R1              Uniplacotomia     novel  200            99           0.5050
+88    R1              Uniplacotomia       old   60            58           0.0333
+89    R1              Uniplacotomia  shuffled   60             0           1.0000
+[2026-10-29T20:14:11+01:00] R1: end
+[2026-10-29T20:49:12+01:00] R2: start
+[2026-10-29 20:49:15] R2: 401,122 proteins, 401,122 with 3Di
+[2026-10-29 20:49:18] R2: sample {'novel': 5077, 'old': 812, 'shuffled': 812} families; 13,821 query sequences
+[2026-10-29 20:49:46] R2 Agaricales: 226 queries vs 372,841 targets (38 species) -> 46,868 hits in 25s
+[2026-10-29 20:50:53] R2 Agaricomycetes: 725 queries vs 325,162 targets (35 species) -> 107,760 hits in 67s
+[2026-10-29 20:51:31] R2 Agaricomycetes_Dacrymycetes: 437 queries vs 314,934 targets (34 species) -> 44,239 hits in 37s
+[2026-10-29 20:51:54] R2 Agaricomycotina: 188 queries vs 299,917 targets (32 species) -> 12,026 hits in 22s
+[2026-10-29 20:52:11] R2 Amastigomycota: 478 queries vs 95,332 targets (9 species) -> 28,034 hits in 16s
+[2026-10-29 20:52:19] R2 Aphelida_Eumycota: 328 queries vs 37,962 targets (4 species) -> 20,908 hits in 8s
+[2026-10-29 20:52:53] R2 Ascomycota: 479 queries vs 270,916 targets (25 species) -> 32,978 hits in 33s
+[2026-10-29 20:53:30] R2 Basidiomycota: 379 queries vs 279,728 targets (29 species) -> 30,652 hits in 36s
+[2026-10-29 20:53:43] R2 Blastocladiomycota_Amastigomycota: 309 queries vs 76,722 targets (8 species) -> 33,323 hits in 12s
+[2026-10-29 20:54:11] R2 Chytridiomycetes: 225 queries vs 383,575 targets (38 species) -> 20,535 hits in 27s
+[2026-10-29 20:54:32] R2 Crypneo: 232 queries vs 394,164 targets (39 species) -> 9,659 hits in 20s
+[2026-10-29 20:54:59] R2 Dikarya: 636 queries vs 149,522 targets (14 species) -> 59,058 hits in 27s
+[2026-10-29 20:55:15] R2 Endosp: 246 queries vs 391,967 targets (39 species) -> 8,844 hits in 15s
+[2026-10-29 20:55:28] R2 Eumycota: 656 queries vs 45,380 targets (5 species) -> 23,448 hits in 12s
+[2026-10-29 20:56:09] R2 Fontalb: 272 queries vs 395,228 targets (39 species) -> 30,282 hits in 40s
+[2026-10-29 20:56:15] R2 Fungi: 265 queries vs 31,629 targets (3 species) -> 18,897 hits in 6s
+[2026-10-29 20:56:42] R2 Gonapro: 368 queries vs 387,327 targets (39 species) -> 46,209 hits in 26s
+[2026-10-29 20:56:52] R2 Holomycota: 530 queries vs 8,733 targets (1 species) -> 15,905 hits in 10s
+[2026-10-29 20:57:10] R2 Mucoromycota: 119 queries vs 368,988 targets (37 species) -> 13,467 hits in 17s
+[2026-10-29 20:57:22] R2 Mucoromycota_Dikarya: 285 queries vs 117,388 targets (11 species) -> 22,498 hits in 12s
+[2026-10-29 20:57:32] R2 Mucoromycotina: 23 queries vs 381,169 targets (38 species) -> 3,148 hits in 8s
+[2026-10-29 20:57:48] R2 Neolirr: 224 queries vs 395,607 targets (39 species) -> 12,037 hits in 15s
+[2026-10-29 20:58:16] R2 Pezizales: 215 queries vs 381,730 targets (38 species) -> 10,035 hits in 27s
+[2026-10-29 20:59:27] R2 Pezizomycotina: 730 queries vs 313,752 targets (32 species) -> 61,441 hits in 70s
+[2026-10-29 21:00:28] R2 Polyporales_Agaricales: 695 queries vs 360,203 targets (37 species) -> 60,537 hits in 60s
+[2026-10-29 21:00:54] R2 Rhodtor: 230 queries vs 392,965 targets (39 species) -> 25,803 hits in 25s
+[2026-10-29 21:01:32] R2 Rotosphaerida: 341 queries vs 378,226 targets (38 species) -> 51,395 hits in 37s
+[2026-10-29 21:01:45] R2 Saccharomycotina: 94 queries vs 380,635 targets (37 species) -> 10,951 hits in 12s
+[2026-10-29 21:02:00] R2 Saitcom: 228 queries vs 394,004 targets (39 species) -> 4,309 hits in 14s
+[2026-10-29 21:02:17] R2 Schipom: 216 queries vs 396,054 targets (39 species) -> 6,650 hits in 16s
+[2026-10-29 21:02:42] R2 Sereind: 292 queries vs 389,575 targets (39 species) -> 35,815 hits in 24s
+[2026-10-29 21:03:06] R2 Sordariomycetes: 244 queries vs 377,301 targets (38 species) -> 8,351 hits in 24s
+[2026-10-29 21:03:20] R2 Taphrinomycotina: 89 queries vs 378,773 targets (36 species) -> 11,257 hits in 13s
+[2026-10-29 21:04:04] R2 Tremellales: 425 queries vs 386,105 targets (38 species) -> 10,398 hits in 43s
+[2026-10-29 21:04:24] R2 Tremmes: 260 queries vs 393,063 targets (39 species) -> 5,569 hits in 19s
+[2026-10-29 21:04:44] R2 Ustilaginomycotina_Agaricomycotina: 155 queries vs 287,885 targets (30 species) -> 19,124 hits in 20s
+[2026-10-29 21:04:56] R2 Wallemiomycotina_Agaricomycotina: 106 queries vs 294,660 targets (31 species) -> 8,364 hits in 11s
+[2026-10-29 21:05:08] R2 Yarrowia_Saccharomyces: 26 queries vs 388,770 targets (38 species) -> 3,719 hits in 11s
+[2026-10-29 21:05:17] R2 Zoopagomycota: 43 queries vs 379,066 targets (38 species) -> 4,627 hits in 8s
+[2026-10-29 21:05:43] R2 chytridiomyceta: 271 queries vs 369,780 targets (37 species) -> 34,440 hits in 25s
+[2026-10-29 21:06:47] R2 leotiomyceta: 754 queries vs 344,621 targets (35 species) -> 55,072 hits in 64s
+[2026-10-29 21:07:10] R2 saccharomyceta: 261 queries vs 293,265 targets (29 species) -> 28,997 hits in 22s
+[2026-10-29 21:08:03] R2 sordariomyceta: 516 queries vs 365,573 targets (37 species) -> 27,662 hits in 52s
+    panel                        branch_child      kind    n  n_struct_old  frac_struct_new
+0      R2                          Agaricales     novel   62            35           0.4355
+1      R2                          Agaricales       old   16            15           0.0625
+2      R2                          Agaricales  shuffled   16             0           1.0000
+3      R2                      Agaricomycetes     novel  200           140           0.3000
+4      R2                      Agaricomycetes       old   31            31           0.0000
+5      R2                      Agaricomycetes  shuffled   31             0           1.0000
+6      R2         Agaricomycetes_Dacrymycetes     novel  139            81           0.4173
+7      R2         Agaricomycetes_Dacrymycetes       old    7             6           0.1429
+8      R2         Agaricomycetes_Dacrymycetes  shuffled    7             0           1.0000
+9      R2                     Agaricomycotina     novel   59            32           0.4576
+10     R2                     Agaricomycotina       old    2             2           0.0000
+11     R2                     Agaricomycotina  shuffled    2             0           1.0000
+12     R2                      Amastigomycota     novel  134            73           0.4552
+13     R2                      Amastigomycota       old   16            16           0.0000
+14     R2                      Amastigomycota  shuffled   16             0           1.0000
+15     R2                   Aphelida_Eumycota     novel   60            43           0.2833
+16     R2                   Aphelida_Eumycota       old   26            26           0.0000
+17     R2                   Aphelida_Eumycota  shuffled   26             0           1.0000
+18     R2                          Ascomycota     novel  131            81           0.3817
+19     R2                          Ascomycota       old   16            15           0.0625
+20     R2                          Ascomycota  shuffled   16             0           1.0000
+21     R2                       Basidiomycota     novel  116            85           0.2672
+22     R2                       Basidiomycota       old    8             7           0.1250
+23     R2                       Basidiomycota  shuffled    8             0           1.0000
+24     R2   Blastocladiomycota_Amastigomycota     novel   36            31           0.1389
+25     R2   Blastocladiomycota_Amastigomycota       old   35            35           0.0000
+26     R2   Blastocladiomycota_Amastigomycota  shuffled   35             0           1.0000
+27     R2                    Chytridiomycetes     novel   92            53           0.4239
+28     R2                    Chytridiomycetes       old    8             7           0.1250
+29     R2                    Chytridiomycetes  shuffled    8             0           1.0000
+30     R2                             Crypneo     novel  200            44           0.7800
+31     R2                             Crypneo       old   16            10           0.3750
+32     R2                             Crypneo  shuffled   16             0           1.0000
+33     R2                             Dikarya     novel  200           140           0.3000
+34     R2                             Dikarya       old   11            11           0.0000
+35     R2                             Dikarya  shuffled   11             0           1.0000
+36     R2                              Endosp     novel  200            35           0.8250
+37     R2                              Endosp       old   23            11           0.5217
+38     R2                              Endosp  shuffled   23             0           1.0000
+39     R2                            Eumycota     novel  193           121           0.3731
+40     R2                            Eumycota       old   17            16           0.0588
+41     R2                            Eumycota  shuffled   17             0           1.0000
+42     R2                             Fontalb     novel  200            72           0.6400
+43     R2                             Fontalb       old   36            34           0.0556
+44     R2                             Fontalb  shuffled   36             0           1.0000
+45     R2                               Fungi     novel   50            38           0.2400
+46     R2                               Fungi       old   22            22           0.0000
+47     R2                               Fungi  shuffled   22             0           1.0000
+48     R2                             Gonapro     novel  200            57           0.7150
+49     R2                             Gonapro       old   60            57           0.0500
+50     R2                             Gonapro  shuffled   60             0           1.0000
+51     R2                          Holomycota     novel   89            70           0.2135
+52     R2                          Holomycota       old   46            46           0.0000
+53     R2                          Holomycota  shuffled   46             0           1.0000
+54     R2                        Mucoromycota     novel   30            21           0.3000
+55     R2                        Mucoromycota       old    8             8           0.0000
+56     R2                        Mucoromycota  shuffled    8             0           1.0000
+57     R2                Mucoromycota_Dikarya     novel   79            48           0.3924
+58     R2                Mucoromycota_Dikarya       old   10            10           0.0000
+59     R2                Mucoromycota_Dikarya  shuffled   10             0           1.0000
+60     R2                      Mucoromycotina     novel    6             4           0.3333
+61     R2                      Mucoromycotina       old    2             2           0.0000
+62     R2                      Mucoromycotina  shuffled    2             0           1.0000
+63     R2                             Neolirr     novel  200            57           0.7150
+64     R2                             Neolirr       old   12             8           0.3333
+65     R2                             Neolirr  shuffled   12             0           1.0000
+66     R2                           Pezizales     novel   91            54           0.4066
+67     R2                           Pezizales       old    7             7           0.0000
+68     R2                           Pezizales  shuffled    7             0           1.0000
+69     R2                      Pezizomycotina     novel  200           128           0.3600
+70     R2                      Pezizomycotina       old   29            29           0.0000
+71     R2                      Pezizomycotina  shuffled   29             0           1.0000
+72     R2              Polyporales_Agaricales     novel  200           107           0.4650
+73     R2              Polyporales_Agaricales       old   27            26           0.0370
+74     R2              Polyporales_Agaricales  shuffled   27             0           1.0000
+75     R2                             Rhodtor     novel  200            80           0.6000
+76     R2                             Rhodtor       old   14            14           0.0000
+77     R2                             Rhodtor  shuffled   14             0           1.0000
+78     R2                       Rotosphaerida     novel   23            18           0.2174
+79     R2                       Rotosphaerida       old   60            59           0.0167
+80     R2                       Rotosphaerida  shuffled   60             0           1.0000
+81     R2                    Saccharomycotina     novel   32            21           0.3438
+82     R2                    Saccharomycotina       old    3             2           0.3333
+83     R2                    Saccharomycotina  shuffled    3             0           1.0000
+84     R2                             Saitcom     novel  200            25           0.8750
+85     R2                             Saitcom       old   14            12           0.1429
+86     R2                             Saitcom  shuffled   14             0           1.0000
+87     R2                             Schipom     novel  200            53           0.7350
+88     R2                             Schipom       old    8             7           0.1250
+89     R2                             Schipom  shuffled    8             0           1.0000
+90     R2                             Sereind     novel  200            72           0.6400
+91     R2                             Sereind       old   40            35           0.1250
+92     R2                             Sereind  shuffled   40             0           1.0000
+93     R2                     Sordariomycetes     novel   99            50           0.4949
+94     R2                     Sordariomycetes       old    9             8           0.1111
+95     R2                     Sordariomycetes  shuffled    9             0           1.0000
+96     R2                    Taphrinomycotina     novel   25            14           0.4400
+97     R2                    Taphrinomycotina       old    7             6           0.1429
+98     R2                    Taphrinomycotina  shuffled    7             0           1.0000
+99     R2                         Tremellales     novel  200            89           0.5550
+100    R2                         Tremellales       old    5             3           0.4000
+101    R2                         Tremellales  shuffled    5             0           1.0000
+102    R2                             Tremmes     novel  200            25           0.8750
+103    R2                             Tremmes       old   28            20           0.2857
+104    R2                             Tremmes  shuffled   28             0           1.0000
+105    R2  Ustilaginomycotina_Agaricomycotina     novel   38            26           0.3158
+106    R2  Ustilaginomycotina_Agaricomycotina       old   10             9           0.1000
+107    R2  Ustilaginomycotina_Agaricomycotina  shuffled   10             0           1.0000
+108    R2    Wallemiomycotina_Agaricomycotina     novel   32            19           0.4062
+109    R2    Wallemiomycotina_Agaricomycotina       old    3             3           0.0000
+110    R2    Wallemiomycotina_Agaricomycotina  shuffled    3             0           1.0000
+111    R2              Yarrowia_Saccharomyces     novel   11             8           0.2727
+112    R2              Yarrowia_Saccharomyces       old    1             1           0.0000
+113    R2              Yarrowia_Saccharomyces  shuffled    1             0           1.0000
+114    R2                       Zoopagomycota     novel    6             4           0.3333
+115    R2                       Zoopagomycota       old    5             5           0.0000
+116    R2                       Zoopagomycota  shuffled    5             0           1.0000
+117    R2                     chytridiomyceta     novel   36            26           0.2778
+118    R2                     chytridiomyceta       old   32            30           0.0625
+119    R2                     chytridiomyceta  shuffled   32             0           1.0000
+120    R2                        leotiomyceta     novel  200           131           0.3450
+121    R2                        leotiomyceta       old   42            41           0.0238
+122    R2                        leotiomyceta  shuffled   42             0           1.0000
+123    R2                      saccharomyceta     novel   62            43           0.3065
+124    R2                      saccharomyceta       old   15            14           0.0667
+125    R2                      saccharomyceta  shuffled   15             0           1.0000
+126    R2                      sordariomyceta     novel  146            94           0.3562
+127    R2                      sordariomyceta       old   25            24           0.0400
+128    R2                      sordariomyceta  shuffled   25             0           1.0000
+[2026-10-29T21:08:19+01:00] R2: end

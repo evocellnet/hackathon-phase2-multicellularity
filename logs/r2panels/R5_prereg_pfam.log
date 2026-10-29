@@ -1,0 +1,7 @@
+loaded 143 HMMs in 0s
+{"species": "Bangsp", "fasta_md5": "d68711230b362d806656db62198de13a", "n_domain_hits": 755, "seconds": 1.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Compcae", "fasta_md5": "80f2b84fc1062d1e778ab1adb1ed532d", "n_domain_hits": 495, "seconds": 1.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Delipul", "fasta_md5": "d2d88abb8aa17365085af3f9cee91eb0", "n_domain_hits": 778, "seconds": 1.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Galdyel", "fasta_md5": "afd6118f75092850907cfd833bf21899", "n_domain_hits": 378, "seconds": 1.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Pyrovie", "fasta_md5": "06e68fa8c4e5771f8d8cd5c2e4a1b742", "n_domain_hits": 702, "seconds": 1.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+[2026-10-29 17:01:43] prereg Pfam: 5 new species annotated in /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R5/work/pfam_prereg

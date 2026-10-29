@@ -1,0 +1,30 @@
+       method        set           transition_id  status                                          pruned_stem  bottom_is_leaf       y    yhat       s  k_controls         u  round1_seqnovel_y  round1_s  round1_u
+0    ancestra    primary               T_metazoa   exact                                    Choanozoa>Metazoa           False   804.0  575.19  0.3347          17  0.750000                594  0.877475  0.833333
+1    ancestra    primary          T_fungi_hyphae  approx                                     Eumycota>Dikarya           False   113.0  341.25 -1.1023          16  0.382353                120 -0.750454  0.500000
+2    ancestra    primary          T_dictyostelia   exact                             Eumycetozoa>Dictyostelia           False   442.0  225.26  0.6730          17  0.805556                507  0.233349  0.690476
+3    ancestra    primary          T_streptophyta   exact  Streptophyta>Klebsormidiophyceae_Phragmoplastophyta           False   247.0  214.41  0.1412          16  0.735294                189  0.061039  0.642857
+4    ancestra    primary            T_rhodophyta   exact                          Rhodophytina>Eurhodophytina           False    87.0  128.45 -0.3878          16  0.617647                 62 -0.365277  0.547619
+5    ancestra    primary          T_px_filaments   exact                                  Ochrophyta>PX_clade           False    80.0  150.89 -0.6316          16  0.676471                403  0.511564  0.833333
+6    ancestra    primary         T_volvocine_tgv  approx                            Chlamydomonas_TGV>Volvcar            True     0.0   23.67 -3.8785          16       NaN                 88  1.804810  0.928571
+7    ancestra  secondary  T_fungi_pezizomycotina  approx                               saccharomyceta>Neurcra            True     0.0   70.16 -4.9511          16       NaN                200  0.623995  0.833333
+8    ancestra  secondary  T_fungi_agaricomycetes  approx                          Agaricomycotina>Agaricineae           False   785.0   95.33  2.1037          16  0.970588                179  1.182280  0.928571
+9    ancestra  secondary           T_embryophyta  approx           Coleochaetophyceae_Anydrophyta>Embryophyta           False   308.0  127.26  0.8815          16  0.735294                217  1.037800  0.928571
+10  eukaryoma    primary               T_metazoa   exact                                    Choanozoa>Metazoa           False  2502.0  974.89  0.9422          17  0.861111                594  0.877475  0.833333
+11  eukaryoma    primary          T_fungi_hyphae  approx                                     Eumycota>Dikarya           False   344.0  860.23 -0.9157          16  0.264706                120 -0.750454  0.500000
+12  eukaryoma    primary          T_dictyostelia   exact                             Eumycetozoa>Dictyostelia           False  1904.0  823.27  0.8381          17  0.805556                507  0.233349  0.690476
+13  eukaryoma    primary          T_streptophyta   exact  Streptophyta>Klebsormidiophyceae_Phragmoplastophyta           False   923.0  454.33  0.7083          16  0.735294                189  0.061039  0.642857
+14  eukaryoma    primary            T_rhodophyta   exact                          Rhodophytina>Eurhodophytina           False   117.0  301.42 -0.9437          16  0.382353                 62 -0.365277  0.547619
+15  eukaryoma    primary          T_px_filaments   exact                                  Ochrophyta>PX_clade           False    62.0  152.80 -0.8972          16  0.382353                403  0.511564  0.833333
+16  eukaryoma    primary         T_volvocine_tgv  approx                            Chlamydomonas_TGV>Volvcar            True     0.0   66.56 -4.8987          16       NaN                 88  1.804810  0.928571
+17  eukaryoma  secondary  T_fungi_pezizomycotina  approx                               saccharomyceta>Neurcra            True     0.0  247.20 -6.2054          16       NaN                200  0.623995  0.833333
+18  eukaryoma  secondary  T_fungi_agaricomycetes  approx                          Agaricomycotina>Agaricineae           False  1877.0  335.80  1.7197          16  0.911765                179  1.182280  0.928571
+19  eukaryoma  secondary           T_embryophyta  approx           Coleochaetophyceae_Anydrophyta>Embryophyta           False  1693.0  348.76  1.5787          16  0.911765                217  1.037800  0.928571
+      method        set                             stems  n  T_mean_u  round1_T_same_stems                                                                         transitions
+0   ancestra    primary                       exact stems  5     0.717                0.710                 T_metazoa,T_dictyostelia,T_streptophyta,T_rhodophyta,T_px_filaments
+1   ancestra    primary  exact + approx (internal bottom)  6     0.661                0.675  T_metazoa,T_fungi_hyphae,T_dictyostelia,T_streptophyta,T_rhodophyta,T_px_filaments
+2   ancestra  secondary                       exact stems  0       NaN                  NaN                                                                                    
+3   ancestra  secondary  exact + approx (internal bottom)  2     0.853                0.929                                                T_fungi_agaricomycetes,T_embryophyta
+4  eukaryoma    primary                       exact stems  5     0.633                0.710                 T_metazoa,T_dictyostelia,T_streptophyta,T_rhodophyta,T_px_filaments
+5  eukaryoma    primary  exact + approx (internal bottom)  6     0.572                0.675  T_metazoa,T_fungi_hyphae,T_dictyostelia,T_streptophyta,T_rhodophyta,T_px_filaments
+6  eukaryoma  secondary                       exact stems  0       NaN                  NaN                                                                                    
+7  eukaryoma  secondary  exact + approx (internal bottom)  2     0.912                0.929                                                T_fungi_agaricomycetes,T_embryophyta

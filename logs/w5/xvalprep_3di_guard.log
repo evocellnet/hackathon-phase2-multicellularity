@@ -1,0 +1,2 @@
+[19:22:00] 3di_guard filter: {'species_kept': 29, 'genes_kept': 498605, 'genes_renamed': 0, 'groups_in': 24991, 'groups_out': 24679, 'species_missing': []}
+[19:22:13] 3di_guard: parsed 498,605 genes; violations 0

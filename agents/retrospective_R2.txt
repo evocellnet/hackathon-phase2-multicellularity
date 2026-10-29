@@ -1,0 +1,17 @@
+RETROSPECTIVE R2 (fresh reviewer; process only; evidence as of 2026-10-29 ~22:00, round-2 t~7 h)
+
+(1) WHAT SHOULD WE STOP DOING?
+- Writing exploratory add-ons AFTER seeing the confirmatory outcome. D-P10 (21:08, written after final_8panels), D-P6/D-P8 (18:42, 19:03) show the tip artefact and size effect were discovered by peeking at interim pooled output; D-P9 is a good declaration, but 11 panel deviations in 5.5 h (results/r2/panels/DEVIATIONS.txt) means the pre-registration (tag prereg-r2) was under-specified. Stop: pilot the pooled statistic on controls-only data before freezing.
+- Freezing designs with known structural problems: P1 had 3 confirmatory events, stated power 18-41% (DESIGN_ROUND2 §6), two events were tips outside control covariate range (D-P1). Result n.s. (p=0.072, commit 4395cd0). Stop launching confirmatory tests whose power is stated as "an estimate, not a decision"; label them estimation from the outset.
+- Late discovery of tooling failures that eat deviations: glmmTMB ABI failure forced a different model (D-W4-1, 15:56); premature wait-loop triggered a W3 run on 4 of 8 panels, then deleted (D-P7 19:03); filter bug D-P11 (22:02). Stop: smoke-test every analysis script/env on a fixture before the first real run; no wait-loops that auto-launch analyses.
+- Letting interim summaries lag. R2-M1 was written at 18:18 (t=3.2 h) while the main P1 result landed at 21:08-22:02; tree line for W5 still "[~]" and W6 "[ ]" with no go/no-go record, though DESIGN §6 set a t=8 h panel go/no-go and t=14 h R1 3Di rule. Stop: update the tree at each result commit, not on a timer; record the decision rules as they trigger.
+- Untracked artefacts piling up: git status shows ~20 untracked logs and scripts/r2/w5/*.py plus results/r2/w5 uncommitted while 4395cd0 was pushed. Stop: commit scripts with the run that uses them (scripts uncommitted = results not reproducible).
+- Redundant pipeline variants: three Pfam scans / sensitivities (symmetric rule, all 22 families, random sets, proportion-of-proteome) on P3 after p=0.0047 (w4/DEVIATIONS; tree). Valuable once, but caveats (p=0.025 without 10 largest proteomes; p=0.14 proportion) show the headline depends on the size covariate; stop adding sensitivities and pre-specify the size handling.
+
+(2) WHAT WORKED WELL?
+- Frozen lists plus timestamped "Seen:" lines in every deviation (panels/DEVIATIONS.txt 16:32-22:02; commit 752c923 froze P1 event list at 16:02 before Ancestra output): honest, auditable post-hoc status.
+- Pre-registering before data and reviewing design three times (89fec81 15:48 after 3 reviews; prereg-r2 tag) cut the confirmatory family 5->3 and exposed Holm numbers cleanly (P3 0.014, P1 0.144).
+- Independent verification and cross-method checks: b5f0e7c (16:34) PASS with size caveat found the fragility of P3; W1 EukaryOMA (5b8b802) showed only 29% of stem gains agree; round-1 errata (5acb0f1) corrected SMD 1.77->2.06 openly.
+- Reporting nulls plainly: P1 n.s., P2 null, W7 null (2585692) committed as [-] with power context rather than being spun.
+- Early GPU pilot with own device check (LESSONS 13; ProstT5 48 prot/s, 97.1% agreement; validation vs AFDB 0.655, 6a3b418) and the output guards/DONE.json md5 convention.
+- Start external review at t=0 (department-head review, commit 3754aae) and use it to steer scope (unseen events only for P1).

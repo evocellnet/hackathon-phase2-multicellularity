@@ -1,0 +1,26 @@
+setting      transition_id                                   stem  stem_value  control_mean      smd
+      A     T_dictyostelia                           Dictyostelia    6.000000      4.550000 0.801275
+      A     T_fungi_hyphae                         Amastigomycota   11.000000      5.050000 3.287989
+      A          T_metazoa                                Metazoa    9.000000      4.950000 2.238043
+      A     T_px_filaments                               PX_clade    8.000000      5.350000 1.464399
+      A       T_rhodophyta                         Eurhodophytina    7.000000      5.050000 1.077576
+      A     T_streptophyta Klebsormidiophyceae_Phragmoplastophyta    7.000000      4.900000 1.160467
+      A    T_volvocine_tgv                     Gonium_Volvocaceae   13.000000      5.050000 4.393196
+      A                ALL                                           8.714286      4.985714 2.060421
+      D ALL_unmatched_vs_U                                           8.714286      4.633333 2.255147
+      B     T_dictyostelia                           Dictyostelia    6.000000      5.050000 0.524973
+      B     T_fungi_hyphae                         Amastigomycota   11.000000      5.450000 3.066948
+      B          T_metazoa                                Metazoa    9.000000      4.950000 2.238043
+      B     T_px_filaments                               PX_clade    8.000000      5.400000 1.436768
+      B       T_rhodophyta                         Eurhodophytina    7.000000      5.300000 0.939425
+      B     T_streptophyta Klebsormidiophyceae_Phragmoplastophyta    7.000000      5.050000 1.077576
+      B    T_volvocine_tgv                     Gonium_Volvocaceae   13.000000      5.500000 4.144524
+      B                ALL                                           8.714286      5.242857 1.918323
+      C     T_dictyostelia                           Dictyostelia    6.000000      5.050000 0.524973
+      C     T_fungi_hyphae      Blastocladiomycota_Amastigomycota   10.000000      5.300000 2.597235
+      C          T_metazoa                                Metazoa    9.000000      4.950000 2.238043
+      C     T_px_filaments                               PX_clade    8.000000      5.400000 1.436768
+      C       T_rhodophyta                         Eurhodophytina    7.000000      5.300000 0.939425
+      C     T_streptophyta Klebsormidiophyceae_Phragmoplastophyta    7.000000      5.050000 1.077576
+      C    T_volvocine_tgv                              TGV_clade   12.000000      5.500000 3.591921
+      C                ALL                                           8.428571      5.221429 1.772277

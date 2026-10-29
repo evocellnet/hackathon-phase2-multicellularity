@@ -1,0 +1,128 @@
+{
+ "rr_min": 0.9360915632298678,
+ "rr_median": 1.0593083001828163,
+ "rr_max": 1.1987439207033415,
+ "rr_ci_low_min": 0.8186992524872846,
+ "rr_ci_high_max": 1.3706303875730406,
+ "frac_ci_inside_0_67_1_5": 1.0,
+ "frac_ci_excludes_1": 0.07421875,
+ "shared_ci_low_min": 0.8408969410739575,
+ "shared_ci_high_max": 1.3344489863530125,
+ "frac_shared_ci_inside_0_67_1_5": 1.0,
+ "seed11": {
+  "orientation_index": 839.0,
+  "pooled_diff": 0.09616637482287008,
+  "ci_low": -0.037830119713334914,
+  "ci_high": 0.23016286935907507,
+  "shared_rr": 1.100942217823944,
+  "shared_rr_ci_low": 0.9381716622217589,
+  "shared_rr_ci_high": 1.2919530783062627,
+  "rate_ratio": 1.100942217823944,
+  "rr_ci_low": 0.9628765007339775,
+  "rr_ci_high": 1.2588050140004146
+ },
+ "orientation_free_rr": 1.0593082982038287,
+ "note": "orientation-averaged control mean is exactly 0, so the orientation-free pooled difference is the mean stem r (equal weights: every stem has the same control set and variance)"
+}
+   orientation_seed  orientation_index  T_obs_exact  T_obs_relabel_test   p_exact  p_mc_now  p_mc_round1
+0                11                839     0.655844            0.655844  0.269848  0.269373      0.26937
+1                23                694     0.629870            0.629870  0.363842  0.358364      0.35836
+2                37                563     0.577922            0.577922  0.600884  0.606139      0.60614
+3                41                 26     0.681818            0.681818  0.193233  0.194381      0.19438
+4                53                275     0.590909            0.590909  0.536199  0.543846      0.54385
+                              0               1                         2                     3                                    4                                    5
+analysis                primary  S2_genome_only  S3_unicellular_tips_only  without_Dictyostelia  Dictyostelia_Physpol_only_as_sister  Dictyostelia_Cerafru_only_as_sister
+n_stems                       7               6                         7                     6                                    7                                    7
+k_controls                   10               7                         9                    10                                   10                                   10
+n_orientations             1024             128                       512                  1024                                 1024                                 1024
+n_relabellings            19448            1716                     11440                  8008                                19448                                19448
+p_min                  0.055327        0.034965                  0.022902              0.117882                             0.055327                             0.055327
+p_q05                  0.108803        0.101399                  0.071154               0.21978                             0.108803                             0.108803
+p_q25                  0.269848        0.365967                  0.252273              0.492258                             0.269848                             0.269848
+p_median               0.474702        0.628205                  0.469755              0.712787                             0.474702                             0.474702
+p_q75                  0.739613        0.835664                  0.757692              0.874875                             0.739613                             0.739613
+p_q95                  0.962258             1.0                       1.0                   1.0                             0.962258                             0.962258
+p_max                       1.0             1.0                       1.0                   1.0                                  1.0                                  1.0
+p_mean                 0.505602        0.583288                  0.492537              0.663141                             0.505602                             0.505602
+p_2xmean_valid_bound        1.0             1.0                  0.985074                   1.0                                  1.0                                  1.0
+frac_orient_p_le_0_05       0.0        0.007812                  0.023438                   0.0                                  0.0                                  0.0
+frac_orient_p_le_0_10   0.03125        0.039062                  0.083984                   0.0                              0.03125                              0.03125
+T_obs_min              0.448052        0.229167                  0.407143              0.378788                             0.448052                             0.448052
+T_obs_max               0.75974          0.8125                  0.807143              0.727273                              0.75974                              0.75974
+T_bar_obs              0.603896        0.520833                  0.607143               0.55303                             0.603896                             0.603896
+p_T_bar_exact          0.307538        0.857226                  0.275262              0.599401                             0.307538                             0.307538
+                 unit          kind         r  r_round1  r_genome_only  n_genes  r_unicellular_tips_only  n_mc_tips_child1  n_mc_tips_child2     ci_lo     ci_hi
+0      T_dictyostelia          stem  0.309599  0.309600            NaN      225                      NaN               NaN               NaN       NaN       NaN
+1      T_fungi_hyphae          stem  0.127064  0.127060       0.127064      248                      NaN               NaN               NaN       NaN       NaN
+2           T_metazoa          stem -0.122537 -0.122540      -0.139082      250                      NaN               NaN               NaN       NaN       NaN
+3      T_px_filaments          stem -0.209491 -0.209490      -0.255112      221                      NaN               NaN               NaN       NaN       NaN
+4        T_rhodophyta          stem  0.148102  0.148100       0.148102      145                      NaN               NaN               NaN       NaN       NaN
+5      T_streptophyta          stem -0.012396 -0.012396       0.001078      239                      NaN               NaN               NaN       NaN       NaN
+6     T_volvocine_tgv          stem  0.162972  0.162970       0.162972      177                      NaN               NaN               NaN       NaN       NaN
+7           Alveolata       control  0.050494  0.050494       0.101250       85                 0.050494               0.0               0.0       NaN       NaN
+8           Amoebozoa       control  0.025664  0.025664            NaN      242                -0.035772               6.0               1.0       NaN       NaN
+9            Amorphea       control -0.134286 -0.134290      -0.258773      246                -0.147188               7.0              37.0       NaN       NaN
+10     Archaeplastida       control  0.140517  0.140520            NaN      202                 0.123995               5.0              16.0       NaN       NaN
+11        Chlorophyta       control -0.074343 -0.074343      -0.074343      183                -0.030656               0.0               7.0       NaN       NaN
+12     Diaphoretickes       control -0.121458 -0.121460      -0.141228      247                -0.112519              21.0               9.0       NaN       NaN
+13             Evosea       control  0.065135  0.065135            NaN      227                      NaN               6.0               0.0       NaN       NaN
+14         Holomycota       control  0.006701  0.006701      -0.220304      167                 0.399652              21.0               1.0       NaN       NaN
+15      Stramenopiles       control  0.257580  0.257580       0.274720      159                 0.243165               0.0               8.0       NaN       NaN
+16          UTC_clade       control -0.360405 -0.360400      -0.360405      208                -0.256202               6.0               1.0       NaN       NaN
+17  T_dicty_S_Physpol  stem_variant  0.347959       NaN            NaN      191                      NaN               NaN               NaN  0.267561  0.469120
+18  T_dicty_S_Cerafru  stem_variant  0.285477       NaN            NaN      181                      NaN               NaN               NaN  0.223960  0.327232
+{
+ "controls_sorted": [
+  "Alveolata",
+  "Amoebozoa",
+  "Amorphea",
+  "Archaeplastida",
+  "Chlorophyta",
+  "Diaphoretickes",
+  "Evosea",
+  "Holomycota",
+  "Stramenopiles",
+  "UTC_clade"
+ ],
+ "stems": [
+  "T_dictyostelia",
+  "T_fungi_hyphae",
+  "T_metazoa",
+  "T_px_filaments",
+  "T_rhodophyta",
+  "T_streptophyta",
+  "T_volvocine_tgv"
+ ],
+ "n_controls": 10,
+ "n_controls_with_mc_species_in_a_child_clade": 9,
+ "controls_without_mc_species": [
+  "Alveolata"
+ ],
+ "max_abs_diff_r_vs_round1": 4.825658383611486e-06,
+ "pooled_effect_over_orientations": {
+  "rr_min": 0.9360915632298678,
+  "rr_median": 1.0593083001828163,
+  "rr_max": 1.1987439207033415,
+  "rr_ci_low_min": 0.8186992524872846,
+  "rr_ci_high_max": 1.3706303875730406,
+  "frac_ci_inside_0_67_1_5": 1.0,
+  "frac_ci_excludes_1": 0.07421875,
+  "shared_ci_low_min": 0.8408969410739575,
+  "shared_ci_high_max": 1.3344489863530125,
+  "frac_shared_ci_inside_0_67_1_5": 1.0,
+  "seed11": {
+   "orientation_index": 839.0,
+   "pooled_diff": 0.09616637482287008,
+   "ci_low": -0.037830119713334914,
+   "ci_high": 0.23016286935907507,
+   "shared_rr": 1.100942217823944,
+   "shared_rr_ci_low": 0.9381716622217589,
+   "shared_rr_ci_high": 1.2919530783062627,
+   "rate_ratio": 1.100942217823944,
+   "rr_ci_low": 0.9628765007339775,
+   "rr_ci_high": 1.2588050140004146
+  },
+  "orientation_free_rr": 1.0593082982038287,
+  "note": "orientation-averaged control mean is exactly 0, so the orientation-free pooled difference is the mean stem r (equal weights: every stem has the same control set and variance)"
+ }
+}

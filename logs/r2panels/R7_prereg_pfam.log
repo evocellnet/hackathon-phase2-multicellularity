@@ -1,0 +1,6 @@
+loaded 143 HMMs in 0s
+{"species": "Dictfir", "fasta_md5": "6c9b051426fd8b1d2faef1b4203b05d5", "n_domain_hits": 937, "seconds": 15.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Entahis", "fasta_md5": "182e036424fdf6b1bd11fe109c04a1e3", "n_domain_hits": 900, "seconds": 2.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Pelosch", "fasta_md5": "bdf49a126fddd35ad31ab2d64342c4df", "n_domain_hits": 2848, "seconds": 5.7, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+{"species": "Polyvio", "fasta_md5": "b8b9913206895718f813748bc654981f", "n_domain_hits": 913, "seconds": 5.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
+[2026-10-29 18:06:46] prereg Pfam: 4 new species annotated in /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R7/work/pfam_prereg

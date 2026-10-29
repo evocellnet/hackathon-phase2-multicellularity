@@ -1,0 +1,26 @@
+                                   method control recovered               components
+0   ancestra round 1 (187 spp, full tree)     C01       yes            a=True;b=True
+1   ancestra round 1 (187 spp, full tree)     C02       yes            a=True;b=True
+2   ancestra round 1 (187 spp, full tree)     C03        no           a=False;b=True
+3   ancestra round 1 (187 spp, full tree)     C04       yes                      NaN
+4   ancestra round 1 (187 spp, full tree)     C06        no  a=False;b=False;c=False
+5   ancestra round 1 (187 spp, full tree)     C07        no    a=True;b=True;c=False
+6        eukaryoma (125 spp, pruned tree)     C01       yes            a=True;b=True
+7        eukaryoma (125 spp, pruned tree)     C02       yes            a=True;b=True
+8        eukaryoma (125 spp, pruned tree)     C03        no           a=False;b=True
+9        eukaryoma (125 spp, pruned tree)     C04       yes                         
+10       eukaryoma (125 spp, pruned tree)     C06        no  a=False;b=False;c=False
+11       eukaryoma (125 spp, pruned tree)     C07        no  a=False;b=False;c=False
+12        ancestra (125 spp, pruned tree)     C01       yes            a=True;b=True
+13        ancestra (125 spp, pruned tree)     C02       yes            a=True;b=True
+14        ancestra (125 spp, pruned tree)     C03        no           a=False;b=True
+15        ancestra (125 spp, pruned tree)     C04       yes                         
+16        ancestra (125 spp, pruned tree)     C06        no  a=False;b=False;c=False
+17        ancestra (125 spp, pruned tree)     C07       yes     a=True;b=True;c=True
+      method     pfam  n_pf_hogs  n_families                                                      pf_hog_origin_levels                                                     family_gain_branches                                                                                                                                                   dup_branches  dups_on_Metazoa  dups_on_Choanozoa
+0  eukaryoma  PF01049          1           1                                                               Choanozoa:1                                                              Choanozoa:1                                                            Heteroscleromorpha:2; Calcarea_Homoscleromorpha:1; Ephymue:1; Homosap:1; Oscapea:1; Uniplacotomia:1                0                  0
+1  eukaryoma  PF00907         24          11  Metazoa:18; Uniplacotomia:2; Chordata:2; ParaHoxozoa:1; Ichthyophonida:1  Metazoa:5; Uniplacotomia:2; Chordata:2; ParaHoxozoa:1; Ichthyophonida:1                                                                         Branbel:6; Oscapea:3; Mnemlei:2; Tricadh:2; Capitel:1; Hoilhon:1; Homosap:1; Hydrvul:1                0                  0
+2  eukaryoma  PF00362         32           3                                        Eukaryota:29; Podiata:2; Metazoa:1                                        Eukaryota:1; Metazoa:1; Podiata:1                                          Haptista:34; Tetramitia:21; Ephymue:19; Sycocil:12; Neovdam:9; Homosap:7; Amphque:7; Rigiram:6; Pigochi:5; Rhodemar:4                0                  0
+3   ancestra  PF01049         16           3                                                    Eukaryota:13; Obazoa:3                                                    Eukaryota:2; Obazoa:1  Stropur:358; Heteroscleromorpha:216; Branbel:144; Oscapea:111; Ephymue:94; Calcarea_Homoscleromorpha:69; Amphque:68; Metazoa:63; Nemavec:62; Deuterostomia:61               63                 44
+4   ancestra  PF00907         91           1                                                           Opisthokonta:91                                                           Opisthokonta:1                  Protostomia:17; Nemavec:11; Metazoa:9; Homosap:8; Bilateria:6; Ichthyophonida:5; Calcarea_Homoscleromorpha:4; Filozoa:4; Hydrvul:3; Oscapea:3                9                  0
+5   ancestra  PF00362         60           2                                                   Eukaryota:55; Podiata:5                                                   Podiata:1; Eukaryota:1                                Capitel:98; Ephymue:62; Stropur:47; Filozoa:46; Amphque:30; Filasterea:27; Branbel:26; ParaHoxozoa:23; Amoebozoa:22; Nemavec:19               12                 16
