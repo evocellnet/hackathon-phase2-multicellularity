@@ -1,0 +1,1 @@
+{"species": "Amphque", "fasta_md5": "744f983ebfe8e358696ebf9131ae8093", "n_domain_hits": 6131, "seconds": 14.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Monobre", "fasta_md5": "09c8f8b6b4f48f41021f51e2ade88bb3", "n_domain_hits": 1867, "seconds": 23.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Chlovul", "fasta_md5": "70ba3833a81c4b3ae07a81fbbca9175d", "n_domain_hits": 825, "seconds": 12.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

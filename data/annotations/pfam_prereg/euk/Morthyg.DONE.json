@@ -1,0 +1,1 @@
+{"species": "Morthyg", "fasta_md5": "134c4fcd7438422ff15f4c6c0dfbd65d", "n_domain_hits": 1039, "seconds": 11.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

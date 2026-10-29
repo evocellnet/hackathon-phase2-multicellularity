@@ -1,0 +1,1 @@
+{"species": "Basimer", "fasta_md5": "2960e495de63709e25787b6d0e83f97a", "n_domain_hits": 1816, "seconds": 6.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

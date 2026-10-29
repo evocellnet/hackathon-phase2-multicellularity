@@ -1,0 +1,79 @@
+[2026-10-28T14:26:27] euk step1 jobs=2
+[euk] 187 species, 250 markers kept; aligning with 2 jobs
+  25/250 aligned (22 s)
+  50/250 aligned (22 s)
+  75/250 aligned (22 s)
+  100/250 aligned (22 s)
+  125/250 aligned (22 s)
+  150/250 aligned (23 s)
+  175/250 aligned (23 s)
+  200/250 aligned (23 s)
+  225/250 aligned (23 s)
+  250/250 aligned (447 s)
+{
+ "step": "build_markers",
+ "set": "euk",
+ "n_species": 187,
+ "n_markers": 250,
+ "n_empty_after_trim": 0,
+ "min_frac": 0.5,
+ "kinds": {
+  "euk": 250
+ },
+ "total_trim_len": 64727,
+ "seconds": 447.2,
+ "finished": "2026-10-28T14:33:54",
+ "versions": {
+  "mafft": "v7.526 (2024/Apr/26)",
+  "trimal": "trimAl v1.5.rev1 build[2025-11-25]"
+ }
+}
+[2026-10-28T14:33:54] euk step2 threads=2
+iqtree3 -s /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/phylo/euk/concat/supermatrix.fa -te /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/phylo/euk/concat/guide_topology.nwk -m LG+G4 -T 2 -seed 11 --prefix /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/phylo/euk/concat/concat -redo -quiet
+{
+ "step": "species_tree_bl",
+ "set": "euk",
+ "n_taxa": 187,
+ "n_markers": 250,
+ "n_sites": 64727,
+ "model": "LG+G4",
+ "fixed_topology": true,
+ "total_tree_length": 78.04,
+ "logL": -10883916.8787,
+ "output": "data/species_tree_bl_euk.nwk",
+ "threads": "2",
+ "seed": 11,
+ "seconds": 549.9,
+ "finished": "2026-10-28T14:43:05"
+}
+[2026-10-28T14:43:05] euk step3 jobs=2
+  25/250 genes (35 s)
+  50/250 genes (65 s)
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/concurrent/futures/process.py", line 261, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/phylo/gene_trees.py", line 67, in fit_one
+    lengths = transfer_branch_lengths(pruned, read_tree(prefix + ".treefile"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/mcell/phylo.py", line 100, in transfer_branch_lengths
+    raise ValueError(f"guide edge into {n.name} not found in the fitted tree (topology changed?)")
+ValueError: guide edge into Chlamydomonas not found in the fitted tree (topology changed?)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/phylo/gene_trees.py", line 133, in <module>
+    main()
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/scripts/phylo/gene_trees.py", line 107, in main
+    res.append(f.result())
+               ^^^^^^^^^^
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: guide edge into Chlamydomonas not found in the fitted tree (topology changed?)

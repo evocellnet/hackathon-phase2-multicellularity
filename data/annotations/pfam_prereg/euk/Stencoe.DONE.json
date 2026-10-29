@@ -1,0 +1,1 @@
+{"species": "Stencoe", "fasta_md5": "6b19d2d0b5603c03f6579e12f6cfdc39", "n_domain_hits": 5178, "seconds": 16.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

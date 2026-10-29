@@ -1,0 +1,1 @@
+{"species": "Coracor", "fasta_md5": "6e4c2593820a2d6cec5cef29143eb378", "n_domain_hits": 339, "seconds": 2.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

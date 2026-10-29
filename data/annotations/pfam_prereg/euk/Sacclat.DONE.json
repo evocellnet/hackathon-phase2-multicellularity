@@ -1,0 +1,1 @@
+{"species": "Sacclat", "fasta_md5": "57104b4984c17e6bb6acecc829aff300", "n_domain_hits": 1132, "seconds": 17.7, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

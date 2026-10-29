@@ -1,0 +1,1 @@
+{"species": "Lothglo", "fasta_md5": "c43a91de4518d1819f2a6cec9557e51a", "n_domain_hits": 1365, "seconds": 10.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

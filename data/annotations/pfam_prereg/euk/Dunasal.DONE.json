@@ -1,0 +1,1 @@
+{"species": "Dunasal", "fasta_md5": "fe035e706ef3f2c693d967503f49315d", "n_domain_hits": 836, "seconds": 27.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

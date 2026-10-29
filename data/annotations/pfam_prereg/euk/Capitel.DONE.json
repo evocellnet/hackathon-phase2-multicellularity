@@ -1,0 +1,1 @@
+{"species": "Capitel", "fasta_md5": "56a22ab27e0f64ae665b665fbdf223c5", "n_domain_hits": 10179, "seconds": 20.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

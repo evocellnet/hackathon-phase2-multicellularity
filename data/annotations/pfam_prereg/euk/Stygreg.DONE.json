@@ -1,0 +1,1 @@
+{"species": "Stygreg", "fasta_md5": "cacdf361132b99f32dae1d97c8c9a8fb", "n_domain_hits": 2713, "seconds": 14.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

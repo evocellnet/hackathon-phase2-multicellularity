@@ -1,0 +1,1 @@
+{"species": "Raphhet", "fasta_md5": "55c5a23f7545083c2c619138719e5e98", "n_domain_hits": 1871, "seconds": 21.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

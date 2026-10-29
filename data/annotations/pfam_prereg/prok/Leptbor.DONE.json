@@ -1,0 +1,1 @@
+{"species": "Leptbor", "fasta_md5": "6da9db6d2b39220a581a24c9ae05d70e", "n_domain_hits": 162, "seconds": 2.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

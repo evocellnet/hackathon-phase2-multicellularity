@@ -1,0 +1,1 @@
+{"species": "Kitaset", "fasta_md5": "2250e8a12f6c9884a22dde95f9371c0c", "n_domain_hits": 204, "seconds": 5.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

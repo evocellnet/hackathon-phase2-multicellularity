@@ -1,0 +1,1 @@
+{"species": "Marcpol", "fasta_md5": "238b4f396f34a0d3da1aa10c8eed93a0", "n_domain_hits": 3102, "seconds": 22.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

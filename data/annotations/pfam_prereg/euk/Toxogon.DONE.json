@@ -1,0 +1,1 @@
+{"species": "Toxogon", "fasta_md5": "21702f7c211a66775b778c3abc92441a", "n_domain_hits": 590, "seconds": 6.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

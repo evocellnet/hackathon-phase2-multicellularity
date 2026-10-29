@@ -1,0 +1,1 @@
+{"species": "Prascol", "fasta_md5": "e817539c4bf51fa2a8fdf54e52597d33", "n_domain_hits": 599, "seconds": 10.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Coryglu", "fasta_md5": "334cca5aa483b54e0beb03a6829ca40f", "n_domain_hits": 19, "seconds": 1.7, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

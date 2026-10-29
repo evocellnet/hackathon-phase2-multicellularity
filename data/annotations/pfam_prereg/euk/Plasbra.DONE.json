@@ -1,0 +1,1 @@
+{"species": "Plasbra", "fasta_md5": "2d956c251f606635b073cad252875834", "n_domain_hits": 1204, "seconds": 8.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

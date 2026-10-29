@@ -1,0 +1,1 @@
+{"species": "Nitrvul", "fasta_md5": "bd66f33b11cca9dec614b02e6cf585ba", "n_domain_hits": 6, "seconds": 0.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

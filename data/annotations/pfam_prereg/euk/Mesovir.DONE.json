@@ -1,0 +1,1 @@
+{"species": "Mesovir", "fasta_md5": "2ed772f9381c8ff7ba483897e4cad6a4", "n_domain_hits": 1276, "seconds": 15.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Stropur", "fasta_md5": "7cfc90dede3548f15946fd1cee6b6dd9", "n_domain_hits": 18301, "seconds": 36.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

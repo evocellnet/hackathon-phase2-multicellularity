@@ -1,0 +1,1 @@
+{"species": "Schiisc", "fasta_md5": "314b61a59ef8c1c28f7a65890242d6e3", "n_domain_hits": 981, "seconds": 20.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

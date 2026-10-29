@@ -1,0 +1,1 @@
+{"species": "Nostsp103690", "fasta_md5": "a97f48926c1bf1015f256ba7319538c3", "n_domain_hits": 194, "seconds": 1.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

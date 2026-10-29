@@ -1,0 +1,1 @@
+{"species": "Myxoxan", "fasta_md5": "ec0c64c438e545247855ec9be3964af6", "n_domain_hits": 336, "seconds": 3.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

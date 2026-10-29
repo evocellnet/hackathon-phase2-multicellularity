@@ -1,0 +1,1 @@
+{"species": "Methsoe", "fasta_md5": "af2ab615b311528d20ff06ea22a90ce8", "n_domain_hits": 41, "seconds": 3.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

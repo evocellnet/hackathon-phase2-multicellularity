@@ -1,0 +1,1 @@
+{"species": "Micrech", "fasta_md5": "cabea026c2b27a3e4aa99e4c2ba9019c", "n_domain_hits": 210, "seconds": 2.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

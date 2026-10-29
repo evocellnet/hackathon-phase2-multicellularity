@@ -1,0 +1,1 @@
+{"species": "Pyroyez", "fasta_md5": "0180716d534e315419383c7cbce3580c", "n_domain_hits": 640, "seconds": 7.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

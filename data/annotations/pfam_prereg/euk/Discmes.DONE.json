@@ -1,0 +1,1 @@
+{"species": "Discmes", "fasta_md5": "e17d8f3a34e63e5d5a098ed68ca74760", "n_domain_hits": 1116, "seconds": 16.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

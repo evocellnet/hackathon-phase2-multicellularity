@@ -1,0 +1,1 @@
+{"species": "Anaedeh", "fasta_md5": "c1f5b339879dea9d282fc393a67d2526", "n_domain_hits": 56, "seconds": 2.7, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

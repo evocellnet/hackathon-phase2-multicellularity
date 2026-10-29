@@ -1,0 +1,1 @@
+{"species": "Branbel", "fasta_md5": "6a9792abb50696f130d74c6ef0a54694", "n_domain_hits": 21728, "seconds": 32.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

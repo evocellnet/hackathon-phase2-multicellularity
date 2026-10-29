@@ -1,0 +1,1 @@
+{"species": "Thectra", "fasta_md5": "bfd217d54a888f957e376118dd72f3dd", "n_domain_hits": 1540, "seconds": 6.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

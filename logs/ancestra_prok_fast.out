@@ -1,0 +1,3 @@
+[2026-10-28T13:20:42+01:00] start ancestra preset=fast threads=4 prot=data/proteomes/prok tree=data/guide_tree_prok.nwk
+[2026-10-28T14:46:32+01:00] ancestra exit 0 peak_rss_kb=7409876
+{"status":"done","preset":"fast","threads":4,"peak_rss_kb":7409876,"verify_rc":0,"finished":"2026-10-28T14:47:11+01:00"}

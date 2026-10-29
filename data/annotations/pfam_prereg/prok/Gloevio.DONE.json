@@ -1,0 +1,1 @@
+{"species": "Gloevio", "fasta_md5": "5a25c4e028c088a22dbccb53cba464e7", "n_domain_hits": 151, "seconds": 2.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

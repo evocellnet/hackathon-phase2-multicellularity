@@ -1,0 +1,1 @@
+{"species": "Tricadh", "fasta_md5": "65d8aa77aa21761be72eb31e27be5577", "n_domain_hits": 3829, "seconds": 28.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

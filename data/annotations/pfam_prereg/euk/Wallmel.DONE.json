@@ -1,0 +1,1 @@
+{"species": "Wallmel", "fasta_md5": "b03454b718f92baff265014c6d3b3183", "n_domain_hits": 398, "seconds": 2.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

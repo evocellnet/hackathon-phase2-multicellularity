@@ -1,0 +1,45 @@
+                                     set  n_genes  LR_charge  ci_lo_charge  ci_hi_charge  LR_charge_oriented  LR_polarity  ci_lo_polarity  ci_hi_polarity  fracR_M_charge  fracR_S_charge   h9_r
+unit                                                                                                                                                                                            
+T_metazoa                        primary      250     -0.128        -0.161        -0.095              -0.128       -0.125          -0.145          -0.106           0.301           0.329 -0.123
+T_fungi_hyphae                   primary      248      0.032         0.004         0.060               0.032        0.042           0.022           0.062           0.294           0.287  0.127
+T_dictyostelia                   primary      225     -0.181        -0.237        -0.125              -0.181       -0.136          -0.176          -0.096           0.259           0.295  0.310
+T_streptophyta                   primary      239     -0.079        -0.125        -0.033              -0.079       -0.112          -0.142          -0.081           0.270           0.286 -0.012
+T_rhodophyta                     primary      145     -0.039        -0.082         0.006              -0.039        0.067           0.025           0.108           0.315           0.323  0.148
+T_px_filaments                   primary      221     -0.098        -0.137        -0.062              -0.098       -0.088          -0.116          -0.060           0.300           0.321 -0.209
+T_volvocine_tgv                  primary      177      0.149         0.025         0.278               0.149       -0.112          -0.190          -0.027           0.204           0.181  0.163
+T_fungi_pezizomycotina  secondary_nested      246     -0.136        -0.178        -0.099              -0.136        0.000          -0.027           0.029           0.287           0.315 -0.290
+T_fungi_agaricomycetes  secondary_nested      228     -0.023        -0.064         0.016              -0.023        0.009          -0.024           0.041           0.265           0.270 -0.213
+T_embryophyta           secondary_nested      238     -0.115        -0.165        -0.065              -0.115       -0.186          -0.223          -0.146           0.258           0.281 -0.047
+Diaphoretickes                h9_control      247     -0.130        -0.147        -0.113              -0.130        0.024           0.011           0.036           0.300           0.328 -0.121
+Archaeplastida                h9_control      202      0.201         0.175         0.226              -0.201        0.068           0.046           0.090           0.330           0.287 -0.141
+Chlorophyta                   h9_control      183      0.124         0.069         0.170               0.124        0.070           0.039           0.103           0.306           0.280 -0.074
+UTC_clade                     h9_control      208     -0.351        -0.407        -0.298               0.351        0.132           0.096           0.169           0.248           0.318  0.360
+Alveolata                     h9_control       85     -0.046        -0.105         0.020               0.046       -0.031          -0.078           0.018           0.322           0.332 -0.050
+Stramenopiles                 h9_control      159      0.147         0.120         0.172              -0.147        0.045           0.021           0.071           0.341           0.308 -0.258
+Amorphea                      h9_control      246     -0.014        -0.031         0.004              -0.014       -0.049          -0.060          -0.038           0.303           0.306 -0.134
+Amoebozoa                     h9_control      242     -0.208        -0.236        -0.178               0.208       -0.028          -0.050          -0.005           0.286           0.330 -0.026
+Evosea                        h9_control      227     -0.111        -0.147        -0.072              -0.111       -0.031          -0.060          -0.000           0.272           0.294  0.065
+Holomycota                    h9_control      167     -0.138        -0.178        -0.098               0.138       -0.116          -0.152          -0.080           0.296           0.325 -0.007
+                                     set  n_genes  LR_charge  ci_lo_charge  ci_hi_charge  n_changes_M_charge  n_changes_S_charge
+unit                                                                                                                            
+T_metazoa                        primary      250     -0.040        -0.115         0.031                6303                7195
+T_fungi_hyphae                   primary      248     -0.002        -0.090         0.088                5606                5362
+T_dictyostelia                   primary      225     -0.040        -0.108         0.023                8736                7395
+T_streptophyta                   primary      239     -0.013        -0.109         0.081                4435                5545
+T_rhodophyta                     primary      145     -0.009        -0.105         0.097                3576                3789
+T_px_filaments                   primary      221     -0.009        -0.066         0.045                7652               55778
+T_volvocine_tgv                  primary      177     -0.035        -0.252         0.140                1528                2182
+T_fungi_pezizomycotina  secondary_nested      246     -0.015        -0.088         0.062                6118                7768
+T_fungi_agaricomycetes  secondary_nested      228     -0.062        -0.139         0.011                5164                8579
+T_embryophyta           secondary_nested      238     -0.091        -0.182        -0.002                4250                6394
+Diaphoretickes                h9_control      247     -0.153        -0.220        -0.087                7244                6877
+Archaeplastida                h9_control      202      0.070        -0.002         0.141                6361                6035
+Chlorophyta                   h9_control      183     -0.022        -0.109         0.069                6472                4696
+UTC_clade                     h9_control      208     -0.080        -0.160         0.008                5255                6727
+Alveolata                     h9_control       85     -0.032        -0.136         0.074                3434                3727
+Stramenopiles                 h9_control      159     -0.009        -0.123         0.091                4905                3230
+Amorphea                      h9_control      246      0.029        -0.049         0.111                5579                5062
+Amoebozoa                     h9_control      242     -0.168        -0.245        -0.095                6447                8335
+Evosea                        h9_control      227      0.039        -0.028         0.108                6301                8519
+Holomycota                    h9_control      167     -0.230        -0.320        -0.144                3564                8462
+{'charge': {'T_obs': 0.42207792207792216, 'p': 0.5988401159884011, 'p_mcse': 0.004901332792939074, 'n': 7, 'k': 10, 'k_min': 10, 'alternative': 'two-sided', 'n_draws': 10000, 'seed': 11, 'scheme': 'permute', 'min_attainable_p': 9.999000099990002e-05, 'p_floor_mc': 9.999000099990002e-05, 'p_floor_exact': 1.0202215980483814e-08, 'acceptance_rate': 1.0}, 'polarity': {'T_obs': 0.3051948051948052, 'p': 0.1643835616438356, 'p_mcse': 0.0037062326735530634, 'n': 7, 'k': 10, 'k_min': 10, 'alternative': 'two-sided', 'n_draws': 10000, 'seed': 11, 'scheme': 'permute', 'min_attainable_p': 9.999000099990002e-05, 'p_floor_mc': 9.999000099990002e-05, 'p_floor_exact': 1.0202215980483814e-08, 'acceptance_rate': 1.0}}

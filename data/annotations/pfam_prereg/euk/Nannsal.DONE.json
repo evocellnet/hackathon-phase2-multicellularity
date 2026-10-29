@@ -1,0 +1,1 @@
+{"species": "Nannsal", "fasta_md5": "77f10c81f465b885428b1316743b1882", "n_domain_hits": 576, "seconds": 11.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

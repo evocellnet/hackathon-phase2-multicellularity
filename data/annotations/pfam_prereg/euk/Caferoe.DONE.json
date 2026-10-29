@@ -1,0 +1,1 @@
+{"species": "Caferoe", "fasta_md5": "9bfa15200a800b5ca3d1988fbd3e3b9a", "n_domain_hits": 913, "seconds": 11.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

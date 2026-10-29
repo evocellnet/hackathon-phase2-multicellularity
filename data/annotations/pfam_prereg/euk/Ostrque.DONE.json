@@ -1,0 +1,1 @@
+{"species": "Ostrque", "fasta_md5": "5eb2348257f9d5d50fee07c51074ee61", "n_domain_hits": 1379, "seconds": 12.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

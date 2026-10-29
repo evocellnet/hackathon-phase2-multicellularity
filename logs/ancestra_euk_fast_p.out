@@ -1,0 +1,1 @@
+[2026-10-28T18:09:43+01:00] start ancestra(fastleiden wrapper) preset=fast threads=12 prot=data/proteomes/euk tree=data/guide_tree_euk.nwk maxgb=100 wrapper_opts=--s0-cache runs/euk_fast_p_s0cache --workers 12 --progress-log logs/fastleiden_progress.log

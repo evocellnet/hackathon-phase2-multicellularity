@@ -1,0 +1,1 @@
+{"species": "Planfun", "fasta_md5": "eb8af18928bb573259018e15e7ce8984", "n_domain_hits": 4075, "seconds": 40.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

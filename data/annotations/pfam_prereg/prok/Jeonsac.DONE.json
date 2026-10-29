@@ -1,0 +1,1 @@
+{"species": "Jeonsac", "fasta_md5": "521ebdb78c48436842df39d2993b7489", "n_domain_hits": 9, "seconds": 2.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

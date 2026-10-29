@@ -1,0 +1,1 @@
+{"species": "Chroper", "fasta_md5": "1402edebddd290cd789e52572c8e428f", "n_domain_hits": 1340, "seconds": 26.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

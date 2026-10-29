@@ -1,0 +1,1 @@
+{"species": "Mycotub", "fasta_md5": "4a2acdc9b5561e2a053a2bf5767a17d5", "n_domain_hits": 72, "seconds": 2.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

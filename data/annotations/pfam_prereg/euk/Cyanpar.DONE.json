@@ -1,0 +1,1 @@
+{"species": "Cyanpar", "fasta_md5": "3d14bab97a42256e014d5ef0fc6686bb", "n_domain_hits": 1505, "seconds": 11.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

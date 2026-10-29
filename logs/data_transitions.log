@@ -1,0 +1,89 @@
+                   transition_id    analysis_tier                                        M                             P  n_mc_species  n_sister_species              prior_state_ref_node  n_prior_state_ref
+0                      T_metazoa          primary                                  Metazoa                     Choanozoa            15                 8                         Choanozoa                  4
+1              T_choano_colonies      exploratory          Salpros,Barrmon,Choafle,Codohol              Choanoflagellata             4                 4                  Choanoflagellata                  4
+2       T_capsaspora_aggregation      exploratory                                  Capsowc                    Filasterea             1                 2                        Filasterea                  2
+3     T_ichthyosporea_coenocytic         excluded                             Teretosporea                       Holozoa             6                26                           Holozoa                  6
+4                 T_fungi_hyphae          primary        Blastocladiomycota_Amastigomycota                      Eumycota            20                 4                          Eumycota                  3
+5       T_fungi_hyphae_gonapodya        secondary                                  Gonapro               chytridiomyceta             1                 3                   chytridiomyceta                  3
+6         T_fungi_pezizomycotina          primary                           Pezizomycotina                saccharomyceta             5                 3                        Ascomycota                  1
+7         T_fungi_agaricomycetes          primary              Agaricomycetes_Dacrymycetes               Agaricomycotina             4                 2  Wallemiomycotina_Agaricomycotina                  1
+8               T_fungi_tremella      exploratory                                  Tremmes                   Tremellales             1                 1  Wallemiomycotina_Agaricomycotina                  1
+9               T_fungi_neolecta        secondary                                  Neolirr              Taphrinomycotina             1                 3                  Taphrinomycotina                  1
+10        T_rev_saccharomycotina         reversal                         Saccharomycotina                saccharomyceta             3                 5                    saccharomyceta                  5
+11     T_rev_schizosaccharomyces         reversal                                  Schipom              Taphrinomycotina             1                 3                  Taphrinomycotina                  2
+12               T_rev_saitoella         reversal                                  Saitcom              Taphrinomycotina             1                 3                  Taphrinomycotina                  2
+13            T_rev_cryptococcus         reversal                                  Crypneo                   Tremellales             1                 1                       Tremellales                  1
+14             T_rev_rhodotorula         reversal                                  Rhodtor                 Basidiomycota             1                 8                     Basidiomycota                  7
+15        T_rev_zygnematophyceae         reversal                         Zygnematophyceae                   Anydrophyta             3                 6                       Anydrophyta                  6
+16                T_dictyostelia          primary                             Dictyostelia                   Eumycetozoa             6                 2                       Eumycetozoa                  1
+17      T_myxogastria_plasmodium      exploratory                                  Physpol       Myxogastria_Ceratiomyxa             1                 1           Myxogastria_Ceratiomyxa                  1
+18                   T_fonticula        secondary                                  Fontalb                 Rotosphaerida             1                 1                     Rotosphaerida                  1
+19                     T_acrasis        secondary                                  Acrakon                    Tetramitia             1                 3                        Tetramitia                  3
+20                   T_copromyxa        secondary                                  Coprpro                       Elardia             1                 2                           Elardia                  2
+21               T_guttulinopsis         excluded                                  Guttvul                      Cercozoa             1                 4                          Cercozoa                  4
+22       T_volvocales_tetrabaena          primary                                  Tetrsoc                     TGV_clade             1                 5                 Chlamydomonas_TGV                  3
+23               T_volvocales_gv          primary                       Gonium_Volvocaceae                     TGV_clade             5                 1                 Chlamydomonas_TGV                  3
+24                T_streptophyta          primary   Klebsormidiophyceae_Phragmoplastophyta                  Streptophyta             9                 2                      Streptophyta                  1
+25                 T_embryophyta          primary                              Embryophyta                   Anydrophyta             6                 3    Coleochaetophyceae_Anydrophyta                  1
+26                       T_chara        secondary                                  Charbra                Streptophytina             1                10                    Streptophytina                  1
+27                  T_rhodophyta          primary                           Eurhodophytina                  Rhodophytina             5                 2                      Rhodophytina                  2
+28             T_florideophyceae          primary                       Rhodymeniophycidae                Eurhodophytina             3                 2                    Eurhodophytina                  2
+29                T_px_filaments        secondary                                 PX_clade                    Ochrophyta             9                 6                        Ochrophyta                  6
+30                T_phaeophyceae          primary                             Phaeophyceae     Phaeophyceae_Schizocladia             5                 1         Phaeophyceae_Schizocladia                  1
+31     T_xanthophyceae_filaments      exploratory                            Xanthophyceae                      PX_clade             2                 7                        Ochrophyta                  6
+32                 T_ulvophyceae        secondary                                  Ulvamut                   Ulvophyceae             1                 3                         UTC_clade                  8
+33        T_siphonous_coenocytic      exploratory                             Bryopsidales                   Ulvophyceae             3                 1                         UTC_clade                  8
+34             T_oomycete_hyphae      exploratory                                 Oomycota                       Gyrista             3                15                           Gyrista                  6
+35  T_plasmodiophorid_plasmodium      exploratory                                  Plasbra                      Rhizaria             1                 5                          Rhizaria                  4
+36           T_labyrinthula_nets      exploratory                              LabyspSRHaC           Labyrinthulomycetes             1                 2               Labyrinthulomycetes                  2
+37                    T_sorogena  dropped_no_data                                       NA                            NA             0                 0                                NA                  0
+38              T_sorodiplophrys  dropped_no_data                                       NA                            NA             0                 0                                NA                  0
+39              T_cyano_filament        secondary            Cyanophyceae_excl_Gloeobacter                  Cyanophyceae            16                 1                      Cyanophyceae                  1
+40            T_cyano_heterocyst          primary                               Nostocales  Nostocales_Chroococcidiopsis            10                 1     Cyanophyceae_excl_Gloeobacter                  6
+41             T_cyano_branching      exploratory                          Fiscthe,Chlofri                    Nostocales             2                 8                        Nostocales                  8
+42                T_myxobacteria          primary                              Myxococcota                Pseudomonadati             8                15                    Pseudomonadati                 10
+43                T_streptomyces          primary                        Streptomycetaceae                 Actinomycetes             3                11                     Actinomycetes                  6
+44       T_actino_mycelium_other      exploratory  Franaln,Micrech,Therfus,Nocafar,Saccery                 Actinomycetes             5                 9                     Actinomycetes                  6
+45           T_magnetotactic_mmp        secondary                        Desulfobacterales       Thermodesulfobacteriota             2                 6           Thermodesulfobacteriota                  4
+46              T_cable_bacteria          primary                           Cable_bacteria              Desulfobulbaceae             2                 1                  Desulfobulbaceae                  1
+47                  T_jeongeupia        secondary                                  Jeonsac                    Jeongeupia             1                 2                        Jeongeupia                  2
+48              T_methanosarcina          primary                           Methanosarcina            Methanosarcinaceae             3                 3                Methanosarcinaceae                  3
+49            T_haloferax_tissue      exploratory                                  Halovol               Halobacteriales             1                 2                   Halobacteriales                  2
+50            T_archaea_filament      exploratory                          Methsoe,Methhun               Methanomicrobia             2                 6                   Methanomicrobia                  3
+T_metazoa | transcriptome_taxa=6
+T_choano_colonies | transcriptome_taxa=5
+T_capsaspora_aggregation | P_polytomy(3);transcriptome_taxa=1
+T_ichthyosporea_coenocytic | sister_contains_multicellular(Amphque,Branbel,Caenele,Capitel,Drosmel,Ephymue,Hoilhon,Homosap,Hydrvul,Mnemlei,Nemavec,Oscapea,Stropur,Sycocil,Tricadh);transcriptome_taxa=9
+T_fungi_hyphae | M_contains_unicellular(Crypneo,Liposta,Rhodtor,Sacccer,Saitcom,Schipom,Yarrlip);sister_contains_multicellular(Gonapro)
+T_fungi_hyphae_gonapodya | P_polytomy(3)
+T_fungi_neolecta | P_polytomy(4)
+T_rev_schizosaccharomyces | P_polytomy(4)
+T_rev_saitoella | P_polytomy(4)
+T_dictyostelia | transcriptome_taxa=2
+T_myxogastria_plasmodium | transcriptome_taxa=2
+T_fonticula | transcriptome_taxa=1
+T_acrasis | P_polytomy(3)
+T_copromyxa | P_polytomy(3);transcriptome_taxa=3
+T_guttulinopsis | P_polytomy(4);transcriptome_taxa=3
+T_volvocales_tetrabaena | sister_contains_multicellular(Astrgub,Gonipec,Pleosta,Volvafr,Volvcar)
+T_volvocales_gv | sister_contains_multicellular(Tetrsoc)
+T_streptophyta | M_contains_unicellular(ClosspNIES67,Mesoend,Spirmus);transcriptome_taxa=1
+T_chara | transcriptome_taxa=1
+T_px_filaments | P_polytomy(6);transcriptome_taxa=1
+T_xanthophyceae_filaments | P_polytomy(3);sister_contains_multicellular(Dictdic,Discmes,Ectosil,Fucuser,Phaecon,Sacclat,Schiisc);transcriptome_taxa=1
+T_siphonous_coenocytic | sister_contains_multicellular(Ulvamut)
+T_oomycete_hyphae | sister_contains_multicellular(Dictdic,Discmes,Ectosil,Fucuser,Phaecon,Sacclat,Schiisc,Tribmin);transcriptome_taxa=1
+T_plasmodiophorid_plasmodium | sister_contains_multicellular(Guttvul);transcriptome_taxa=3
+T_labyrinthula_nets | transcriptome_taxa=1
+T_sorogena | no_data
+T_sorodiplophrys | no_data
+T_cyano_filament | M_contains_unicellular(Acarmar,Chrothe,Crocsub,Gloecit,Gloelit,Micraer,Stancya,Syneelo,Synesp1111708,Therves)
+T_cyano_branching | P_polytomy(7)
+T_myxobacteria | P_polytomy(4);M_contains_unicellular(Anaedeh,Vulginc);sister_contains_multicellular(Elecsca,ElecspV4,Jeonsac,Magnmul,MagnspHK1)
+T_streptomyces | P_polytomy(9);sister_contains_multicellular(Franaln,Micrech,Nocafar,Saccery,Therfus)
+T_actino_mycelium_other | P_polytomy(9);sister_contains_multicellular(Kitaset,Strecoe,Streven)
+T_magnetotactic_mmp | P_polytomy(4);M_contains_unicellular(Desuaut,Desumag);sister_contains_multicellular(Elecsca,ElecspV4)
+T_jeongeupia | P_polytomy(3)
+T_methanosarcina | P_polytomy(4)
+T_haloferax_tissue | P_polytomy(3)
+T_archaea_filament | P_polytomy(3);sister_contains_multicellular(Methace,Methbar,Methmaz)

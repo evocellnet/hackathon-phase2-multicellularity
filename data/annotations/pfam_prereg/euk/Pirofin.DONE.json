@@ -1,0 +1,1 @@
+{"species": "Pirofin", "fasta_md5": "c45cf7d38723c1dcfa52a6308ff3e66a", "n_domain_hits": 2157, "seconds": 35.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

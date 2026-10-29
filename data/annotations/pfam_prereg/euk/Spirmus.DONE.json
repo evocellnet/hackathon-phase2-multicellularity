@@ -1,0 +1,1 @@
+{"species": "Spirmus", "fasta_md5": "ebcb0fba55d3b0c8f75a096bc6499079", "n_domain_hits": 2601, "seconds": 29.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

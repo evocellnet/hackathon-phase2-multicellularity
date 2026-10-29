@@ -1,0 +1,1 @@
+{"species": "Scythof", "fasta_md5": "080339d419ef01a129da4a3c504c7e86", "n_domain_hits": 320, "seconds": 5.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

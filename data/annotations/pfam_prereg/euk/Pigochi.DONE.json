@@ -1,0 +1,1 @@
+{"species": "Pigochi", "fasta_md5": "d6261010f04b96fcaefaf6ebd7d18a9a", "n_domain_hits": 1722, "seconds": 18.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

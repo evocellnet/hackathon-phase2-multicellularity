@@ -1,0 +1,36 @@
+[2026-10-28T18:18:55] +       0s leaves=0 genes_done=0/2,164,648 remaining_genes=2,164,648 start component nodes=473,356 edges=15,131,142 gmax=7500 workers=12
+[2026-10-28T18:19:33] +      39s leaves=122 genes_done=9,293/2,164,648 remaining_genes=2,155,355 root split done in 39s: 1 subtasks, 122 leaves
+[2026-10-28T18:20:03] +      69s leaves=122 genes_done=9,293/2,164,648 remaining_genes=2,155,355 tasks_done=0 tasks_pending=1 largest_pending_nodes=469,456 worker_busy_s=0
+[2026-10-28T18:20:42] +     107s leaves=200 genes_done=15,485/2,164,648 remaining_genes=2,149,163 tasks_done=1 tasks_pending=1 largest_pending_nodes=467,133 worker_busy_s=38
+[2026-10-28T18:21:21] +     147s leaves=241 genes_done=18,661/2,164,648 remaining_genes=2,145,987 tasks_done=2 tasks_pending=1 largest_pending_nodes=465,701 worker_busy_s=77
+[2026-10-28T18:22:07] +     192s leaves=257 genes_done=19,799/2,164,648 remaining_genes=2,144,849 tasks_done=3 tasks_pending=1 largest_pending_nodes=465,208 worker_busy_s=121
+[2026-10-28T18:22:46] +     232s leaves=277 genes_done=21,566/2,164,648 remaining_genes=2,143,082 tasks_done=4 tasks_pending=1 largest_pending_nodes=464,431 worker_busy_s=160
+[2026-10-28T18:23:25] +     270s leaves=288 genes_done=22,618/2,164,648 remaining_genes=2,142,030 tasks_done=5 tasks_pending=1 largest_pending_nodes=463,900 worker_busy_s=198
+[2026-10-28T18:24:03] +     308s leaves=300 genes_done=24,248/2,164,648 remaining_genes=2,140,400 tasks_done=6 tasks_pending=1 largest_pending_nodes=463,274 worker_busy_s=235
+[2026-10-28T18:24:43] +     348s leaves=310 genes_done=25,368/2,164,648 remaining_genes=2,139,280 tasks_done=7 tasks_pending=1 largest_pending_nodes=462,754 worker_busy_s=275
+[2026-10-28T18:25:21] +     387s leaves=314 genes_done=25,921/2,164,648 remaining_genes=2,138,727 tasks_done=8 tasks_pending=1 largest_pending_nodes=462,517 worker_busy_s=312
+[2026-10-28T18:26:00] +     425s leaves=318 genes_done=26,610/2,164,648 remaining_genes=2,138,038 tasks_done=9 tasks_pending=1 largest_pending_nodes=462,209 worker_busy_s=350
+[2026-10-28T18:26:37] +     463s leaves=325 genes_done=31,504/2,164,648 remaining_genes=2,133,144 tasks_done=10 tasks_pending=1 largest_pending_nodes=460,384 worker_busy_s=387
+[2026-10-28T18:27:07] +     493s leaves=325 genes_done=31,504/2,164,648 remaining_genes=2,133,144 tasks_done=10 tasks_pending=1 largest_pending_nodes=460,384 worker_busy_s=387
+[2026-10-28T18:27:45] +     531s leaves=485 genes_done=41,262/2,164,648 remaining_genes=2,123,386 tasks_done=11 tasks_pending=1 largest_pending_nodes=456,890 worker_busy_s=454
+[2026-10-28T18:28:23] +     569s leaves=489 genes_done=41,879/2,164,648 remaining_genes=2,122,769 tasks_done=12 tasks_pending=1 largest_pending_nodes=456,627 worker_busy_s=492
+[2026-10-28T18:29:02] +     607s leaves=492 genes_done=42,209/2,164,648 remaining_genes=2,122,439 tasks_done=13 tasks_pending=1 largest_pending_nodes=456,499 worker_busy_s=529
+[2026-10-28T18:29:41] +     646s leaves=493 genes_done=42,732/2,164,648 remaining_genes=2,121,916 tasks_done=14 tasks_pending=1 largest_pending_nodes=456,443 worker_busy_s=568
+[2026-10-28T18:30:20] +     686s leaves=496 genes_done=43,186/2,164,648 remaining_genes=2,121,462 tasks_done=15 tasks_pending=1 largest_pending_nodes=456,205 worker_busy_s=606
+[2026-10-28T18:30:59] +     724s leaves=497 genes_done=43,318/2,164,648 remaining_genes=2,121,330 tasks_done=16 tasks_pending=1 largest_pending_nodes=456,163 worker_busy_s=644
+[2026-10-28T18:31:38] +     764s leaves=498 genes_done=43,609/2,164,648 remaining_genes=2,121,039 tasks_done=17 tasks_pending=1 largest_pending_nodes=456,027 worker_busy_s=683
+[2026-10-28T18:32:15] +     801s leaves=501 genes_done=44,224/2,164,648 remaining_genes=2,120,424 tasks_done=18 tasks_pending=1 largest_pending_nodes=455,760 worker_busy_s=720
+[2026-10-28T18:32:45] +     831s leaves=501 genes_done=44,224/2,164,648 remaining_genes=2,120,424 tasks_done=18 tasks_pending=1 largest_pending_nodes=455,760 worker_busy_s=720
+[2026-10-28T18:33:24] +     869s leaves=576 genes_done=48,253/2,164,648 remaining_genes=2,116,395 tasks_done=19 tasks_pending=1 largest_pending_nodes=454,365 worker_busy_s=787
+[2026-10-28T18:34:03] +     908s leaves=577 genes_done=48,450/2,164,648 remaining_genes=2,116,198 tasks_done=20 tasks_pending=1 largest_pending_nodes=454,279 worker_busy_s=826
+[2026-10-28T18:34:41] +     946s leaves=578 genes_done=48,643/2,164,648 remaining_genes=2,116,005 tasks_done=21 tasks_pending=1 largest_pending_nodes=454,190 worker_busy_s=863
+[2026-10-28T18:35:19] +     985s leaves=581 genes_done=49,333/2,164,648 remaining_genes=2,115,315 tasks_done=22 tasks_pending=1 largest_pending_nodes=454,001 worker_busy_s=901
+[2026-10-28T18:35:57] +    1023s leaves=582 genes_done=49,466/2,164,648 remaining_genes=2,115,182 tasks_done=23 tasks_pending=1 largest_pending_nodes=453,927 worker_busy_s=938
+[2026-10-28T18:36:27] +    1053s leaves=582 genes_done=49,466/2,164,648 remaining_genes=2,115,182 tasks_done=23 tasks_pending=1 largest_pending_nodes=453,927 worker_busy_s=938
+[2026-10-28T18:37:08] +    1093s leaves=619 genes_done=51,946/2,164,648 remaining_genes=2,112,702 tasks_done=24 tasks_pending=1 largest_pending_nodes=453,210 worker_busy_s=1008
+[2026-10-28T18:37:46] +    1131s leaves=620 genes_done=52,199/2,164,648 remaining_genes=2,112,449 tasks_done=25 tasks_pending=1 largest_pending_nodes=453,124 worker_busy_s=1045
+[2026-10-28T18:38:16] +    1161s leaves=620 genes_done=52,199/2,164,648 remaining_genes=2,112,449 tasks_done=25 tasks_pending=1 largest_pending_nodes=453,124 worker_busy_s=1045
+[2026-10-28T18:38:56] +    1202s leaves=659 genes_done=60,211/2,164,648 remaining_genes=2,104,437 tasks_done=26 tasks_pending=1 largest_pending_nodes=449,844 worker_busy_s=1115
+[2026-10-28T18:39:35] +    1240s leaves=660 genes_done=60,377/2,164,648 remaining_genes=2,104,271 tasks_done=27 tasks_pending=1 largest_pending_nodes=449,752 worker_busy_s=1152
+[2026-10-28T18:40:05] +    1270s leaves=660 genes_done=60,377/2,164,648 remaining_genes=2,104,271 tasks_done=27 tasks_pending=1 largest_pending_nodes=449,752 worker_busy_s=1152
+[2026-10-28T18:40:44] +    1309s leaves=681 genes_done=62,332/2,164,648 remaining_genes=2,102,316 tasks_done=28 tasks_pending=1 largest_pending_nodes=448,992 worker_busy_s=1220

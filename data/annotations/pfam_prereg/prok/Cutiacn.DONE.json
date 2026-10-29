@@ -1,0 +1,1 @@
+{"species": "Cutiacn", "fasta_md5": "4bd7c9b00e3da1588cfee6ea6a3a1bd2", "n_domain_hits": 12, "seconds": 3.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

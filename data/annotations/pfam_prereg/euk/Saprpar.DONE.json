@@ -1,0 +1,1 @@
+{"species": "Saprpar", "fasta_md5": "89fec2c4dfb966c68fe243bfe9b56c70", "n_domain_hits": 2249, "seconds": 20.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

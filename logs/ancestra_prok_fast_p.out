@@ -1,0 +1,2 @@
+[2026-10-28T17:53:50+01:00] start ancestra(fastleiden wrapper) preset=fast threads=4 prot=data/proteomes/prok tree=data/guide_tree_prok.nwk maxgb=60 wrapper_opts=--workers 8 --progress-log logs/fastleiden_progress_prok.log --stop-after families
+[2026-10-28T18:09:23+01:00] ancestra(fastleiden wrapper) exit 0 peak_rss_kb=2126076

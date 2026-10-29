@@ -1,0 +1,9 @@
+[primary_tests     0.0s] PREREG hashes verified
+[primary_tests    31.2s] primary stems: {'T_dictyostelia': 'Dictyostelia', 'T_fungi_hyphae': 'Amastigomycota', 'T_metazoa': 'Metazoa', 'T_px_filaments': 'PX_clade', 'T_rhodophyta': 'Eurhodophytina', 'T_streptophyta': 'Klebsormidiophyceae_Phragmoplastophyta', 'T_volvocine_tgv': 'Gonium_Volvocaceae'}; secondary: {'T_embryophyta': 'Embryophyta', 'T_fungi_agaricomycetes': 'Agaricomycetes_Dacrymycetes', 'T_fungi_pezizomycotina': 'Pezizomycotina'}; |U| = 30
+[primary_tests    31.6s] H1/H2 primary: relabelling
+[primary_tests    31.8s] H1/H2 primary: parametric bootstrap (9999 replicates)
+[primary_tests  2136.3s] H1/H2 secondary: relabelling
+[primary_tests  2136.4s] H1/H2 secondary: parametric bootstrap (1999 replicates)
+[primary_tests  2579.3s] Holm deferred: missing ['H4', 'H5', 'H12'] (run scripts/analysis/holm_primary.py later)
+[primary_tests  2579.4s] wrote /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/primary/euk
+Holm not computed: missing primary tests ['H4', 'H5', 'H12']

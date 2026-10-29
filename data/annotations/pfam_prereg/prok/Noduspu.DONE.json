@@ -1,0 +1,1 @@
+{"species": "Noduspu", "fasta_md5": "4798a807016232ec119084328a43a59a", "n_domain_hits": 152, "seconds": 1.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

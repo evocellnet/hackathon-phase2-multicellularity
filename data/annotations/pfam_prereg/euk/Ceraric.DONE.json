@@ -1,0 +1,1 @@
+{"species": "Ceraric", "fasta_md5": "d7ccc461390a3ec527aa2c4176ff5c6e", "n_domain_hits": 6227, "seconds": 20.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

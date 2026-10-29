@@ -1,0 +1,1 @@
+{"species": "Selamoe", "fasta_md5": "790e7748bd1051c87b0d4ee1a8f5a142", "n_domain_hits": 6388, "seconds": 41.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

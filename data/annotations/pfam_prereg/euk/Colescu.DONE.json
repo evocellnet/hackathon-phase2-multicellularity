@@ -1,0 +1,1 @@
+{"species": "Colescu", "fasta_md5": "f5d75f53befb4b0437ea651b64f51683", "n_domain_hits": 1439, "seconds": 5.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

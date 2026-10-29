@@ -1,0 +1,1 @@
+{"species": "Charbra", "fasta_md5": "5c32e063029f8dc957d3e7ab5de44bb4", "n_domain_hits": 1880, "seconds": 35.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

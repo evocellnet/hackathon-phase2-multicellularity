@@ -1,0 +1,1 @@
+{"species": "Hetepal", "fasta_md5": "07d9c372112352e1b5796ed97aff42f9", "n_domain_hits": 984, "seconds": 30.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

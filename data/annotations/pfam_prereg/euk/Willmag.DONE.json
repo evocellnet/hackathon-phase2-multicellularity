@@ -1,0 +1,1 @@
+{"species": "Willmag", "fasta_md5": "7b5d069ae93531597123c94bf4b74729", "n_domain_hits": 1141, "seconds": 11.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

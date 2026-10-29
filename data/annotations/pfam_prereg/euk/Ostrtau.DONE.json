@@ -1,0 +1,1 @@
+{"species": "Ostrtau", "fasta_md5": "28e386d6bf27bae634627d437c04cd69", "n_domain_hits": 425, "seconds": 12.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

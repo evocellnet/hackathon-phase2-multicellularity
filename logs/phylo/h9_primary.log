@@ -1,0 +1,62 @@
+                 set           transition_id                        P                                       M                                                                        S  n_genes         r     ci_lo     ci_hi  rate_ratio  frac_genes_pos  u_percentile  diff_vs_controls  ctrl_pi_low  ctrl_pi_high  r_genome_only  ci_lo_genome_only  ci_hi_genome_only  n_genes_genome_only
+0            primary          T_dictyostelia              Eumycetozoa                            Dictyostelia                                                  Myxogastria_Ceratiomyxa      225  0.309599  0.246551  0.379827    1.362878        0.800000      0.863636          0.348149    -0.166351      0.266083            NaN                NaN                NaN                  0.0
+1            primary          T_fungi_hyphae                 Eumycota                          Amastigomycota                                                          chytridiomyceta      248  0.127064  0.093464  0.164252    1.135490        0.745968      0.863636          0.165615    -0.166351      0.266083       0.127064           0.093464           0.164252                248.0
+2            primary               T_metazoa                Choanozoa                                 Metazoa                                                         Choanoflagellata      250 -0.122537 -0.178697 -0.066121    0.884673        0.352000      0.318182         -0.083987    -0.166351      0.266083      -0.139082          -0.182688          -0.091256                242.0
+3            primary          T_px_filaments               Ochrophyta                                PX_clade                          Aureano;Heteaka;Nannsal;Potemal;Bacillariophyta      221 -0.209491 -0.257379 -0.146070    0.810997        0.244344      0.136364         -0.170941    -0.166351      0.266083      -0.255112          -0.290736          -0.211091                213.0
+4            primary            T_rhodophyta             Rhodophytina                          Eurhodophytina                                                       Proteorhodophytina      145  0.148102  0.085125  0.188203    1.159631        0.717241      0.863636          0.186652    -0.166351      0.266083       0.148102           0.085125           0.188203                145.0
+5            primary          T_streptophyta             Streptophyta  Klebsormidiophyceae_Phragmoplastophyta                                    Mesostigmatophyceae_Chlorokybophyceae      239 -0.012396 -0.041038  0.034437    0.987680        0.481172      0.681818          0.026154    -0.166351      0.266083       0.001078          -0.037868           0.037630                239.0
+6            primary         T_volvocine_tgv        Chlamydomonas_TGV                      Gonium_Volvocaceae                                                            Chlamydomonas      177  0.162972  0.083937  0.233017    1.177004        0.621469      0.863636          0.201522    -0.166351      0.266083       0.162972           0.083937           0.233017                177.0
+7   secondary_nested  T_fungi_pezizomycotina           saccharomyceta                          Pezizomycotina                                                         Saccharomycotina      246 -0.289694 -0.319312 -0.221453    0.748492        0.227642      0.045455         -0.251144          NaN           NaN            NaN                NaN                NaN                  NaN
+8   secondary_nested  T_fungi_agaricomycetes          Agaricomycotina             Agaricomycetes_Dacrymycetes                                                              Tremellales      228 -0.212551 -0.246978 -0.118131    0.808519        0.315789      0.136364         -0.174000          NaN           NaN            NaN                NaN                NaN                  NaN
+9   secondary_nested           T_embryophyta              Anydrophyta                             Embryophyta                                                         Zygnematophyceae      238 -0.047003 -0.091487  0.004198    0.954085        0.445378      0.590909         -0.008453          NaN           NaN            NaN                NaN                NaN                  NaN
+10  prok_descriptive          T_myxobacteria           Pseudomonadati                             Myxococcota                           Bdelbac;Pseudomonadota;Thermodesulfobacteriota      121 -0.014954 -0.069411  0.051122    0.985157        0.462810           NaN               NaN          NaN           NaN            NaN                NaN                NaN                  NaN
+11  prok_descriptive          T_streptomyces            Actinomycetes                       Streptomycetaceae  Bifilon;Cutiacn;Franaln;Micrech;Micrlut;Saccery;Therfus;Mycobacteriales      118 -0.326433 -0.407807 -0.275979    0.721492        0.118644           NaN               NaN          NaN           NaN            NaN                NaN                NaN                  NaN
+12  prok_descriptive     T_magnetotactic_mmp  Thermodesulfobacteriota                       Desulfobacterales                                          Geobsul;Nitrvul;Desulfobulbales      110  0.079584  0.033052  0.107167    1.082836        0.654545           NaN               NaN          NaN           NaN            NaN                NaN                NaN                  NaN
+13  prok_descriptive        T_methanosarcina       Methanosarcinaceae                          Methanosarcina                                                  Methbur;Methmah;Methtin      188  0.382962  0.321683  0.433542    1.466623        0.898936           NaN               NaN          NaN           NaN            NaN                NaN                NaN                  NaN
+                                analysis        label   scheme  n   k     T_obs         p    p_mcse  min_attainable_p  pooled_diff  pooled_ci_low  pooled_ci_high  pooled_tau2
+0                                primary      primary  permute  7  10  0.655844  0.269373  0.004436            0.0001     0.096166      -0.037830        0.230163     0.002538
+1            S1 literal v3 'spec' scheme  sensitivity     spec  7  10  0.655844  0.000100  0.000100            0.0001     0.096166      -0.037830        0.230163     0.002538
+2                    S2 genome-only taxa  sensitivity  permute  6   7  0.583333  0.629637  0.004829            0.0001     0.046019      -0.159455        0.251492     0.000000
+3  S3 control r on unicellular tips only  sensitivity  permute  7   9  0.707143  0.145785  0.003529            0.0001     0.148249       0.006121        0.290377     0.000000
+                                 child1         child2  n_tips1  n_tips2  n_mc_tips1  n_mc_tips2  n_genes         r     ci_lo     ci_hi  orientation_sign  r_oriented  r_unicellular_tips_only  n_genes_unicellular_tips_only  r_genome_only
+control                                                                                                                                                                                                                                     
+Diaphoretickes           Archaeplastida           TSAR       46       37          21           9      247 -0.121458 -0.146363 -0.083692               1.0   -0.121458                -0.112519                            247      -0.141228
+Archaeplastida  Rhodophyta_Rhodelphidia  Viridiplantae       10       35           5          16      202  0.140517  0.101878  0.174356              -1.0   -0.140517                 0.123995                            200            NaN
+Chlorophyta                 Mamiellales      UTC_clade        2       18           0           7      183 -0.074343 -0.117147 -0.028576               1.0   -0.074343                -0.030656                            183      -0.074343
+UTC_clade                      CS_clade    Ulvophyceae       12        4           6           1      208 -0.360405 -0.439048 -0.303221              -1.0    0.360405                -0.256202                            205      -0.360405
+Alveolata                    Ciliophora        Myzozoa        4        4           0           0       85  0.050494 -0.009129  0.185903              -1.0   -0.050494                 0.050494                             85       0.101250
+Stramenopiles                    Bigyra        Gyrista        4       18           0           8      159  0.257580  0.220961  0.303190              -1.0   -0.257580                 0.243165                            159       0.274720
+Amorphea                      Amoebozoa         Obazoa       18       69           7          37      246 -0.134286 -0.180066 -0.101828               1.0   -0.134286                -0.147188                            245      -0.258773
+Amoebozoa                        Evosea      Tubulinea       12        4           6           1      242  0.025664 -0.014492  0.052708              -1.0   -0.025664                -0.035772                            240            NaN
+Evosea                      Eumycetozoa       Variosea        8        3           6           0      227  0.065135  0.035936  0.112464               1.0    0.065135                      NaN                              0            NaN
+Holomycota                        Fungi  Rotosphaerida       33        2          21           1      167  0.006701 -0.067136  0.073889              -1.0   -0.006701                 0.399652                            120      -0.220304
+{
+ "finished": "2026-10-28T15:19:33",
+ "pool": [
+  "Diaphoretickes",
+  "Archaeplastida",
+  "Chlorophyta",
+  "UTC_clade",
+  "Alveolata",
+  "Stramenopiles",
+  "Amorphea",
+  "Amoebozoa",
+  "Evosea",
+  "Holomycota"
+ ],
+ "n_pool": 10,
+ "n_pool_without_mc_tips": 1,
+ "U_size": 30,
+ "k": 10,
+ "n_genes_total": 250,
+ "n_genes_genome_only": 250,
+ "seed": 11,
+ "n_draws": 10000,
+ "n_boot": 2000,
+ "primary": {
+  "T_obs": 0.6558441558441558,
+  "p": 0.2693730626937306,
+  "p_mcse": 0.004436341012464327,
+  "min_attainable_p": 9.999000099990002e-05
+ }
+}

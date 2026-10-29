@@ -1,0 +1,1 @@
+{"species": "Neolirr", "fasta_md5": "389c05f0b7bd43b1156ffb62f70d6a0d", "n_domain_hits": 326, "seconds": 3.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "MagnspHK1", "fasta_md5": "a2acb4d860fb38def7082b7626cf00c9", "n_domain_hits": 519, "seconds": 11.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

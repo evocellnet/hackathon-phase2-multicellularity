@@ -1,0 +1,1 @@
+{"species": "Mylnflu", "fasta_md5": "c45b16c4cd653be49b1e819d147c7a3c", "n_domain_hits": 2687, "seconds": 24.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

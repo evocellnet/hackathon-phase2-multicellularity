@@ -1,0 +1,1 @@
+{"species": "Arabtha", "fasta_md5": "d9bead392603226c9bc5a1ae00332261", "n_domain_hits": 6781, "seconds": 13.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

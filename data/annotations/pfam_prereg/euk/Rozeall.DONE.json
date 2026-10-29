@@ -1,0 +1,1 @@
+{"species": "Rozeall", "fasta_md5": "1d40bff988a00ed22a0fa36c640a2bfd", "n_domain_hits": 519, "seconds": 7.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Gloecit", "fasta_md5": "4aa9aeab1d68a2f2653d75a671f790be", "n_domain_hits": 152, "seconds": 2.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

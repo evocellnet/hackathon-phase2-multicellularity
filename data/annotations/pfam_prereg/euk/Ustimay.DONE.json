@@ -1,0 +1,1 @@
+{"species": "Ustimay", "fasta_md5": "2d6fda84c004f721f63f302e14833238", "n_domain_hits": 497, "seconds": 7.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

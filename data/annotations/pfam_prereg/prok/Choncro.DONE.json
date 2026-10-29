@@ -1,0 +1,1 @@
+{"species": "Choncro", "fasta_md5": "8805482b0d294f98bf986f5007859b50", "n_domain_hits": 725, "seconds": 5.7, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

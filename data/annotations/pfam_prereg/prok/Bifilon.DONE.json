@@ -1,0 +1,1 @@
+{"species": "Bifilon", "fasta_md5": "d0ce705b0f5bae0f48f481bc6ffcd333", "n_domain_hits": 22, "seconds": 0.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Aureano", "fasta_md5": "5102d5e3afff28d9c3147a4c734859ca", "n_domain_hits": 1121, "seconds": 4.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

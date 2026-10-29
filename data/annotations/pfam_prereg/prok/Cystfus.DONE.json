@@ -1,0 +1,1 @@
+{"species": "Cystfus", "fasta_md5": "0e774e3dca757567c0653fcc1136cd24", "n_domain_hits": 517, "seconds": 4.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

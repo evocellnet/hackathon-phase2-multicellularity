@@ -1,0 +1,1 @@
+{"species": "Caenele", "fasta_md5": "3978e8870128f1b4fb6fab0fb19bb068", "n_domain_hits": 4397, "seconds": 15.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

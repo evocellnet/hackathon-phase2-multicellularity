@@ -1,0 +1,1 @@
+{"species": "Oscapea", "fasta_md5": "43776da77692c5a74e3ddb049e5afdde", "n_domain_hits": 6764, "seconds": 17.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

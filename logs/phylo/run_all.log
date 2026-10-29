@@ -1,0 +1,103 @@
+[2026-10-28T14:53:50] euk step3 jobs=2
+  25/250 genes (30 s)
+  50/250 genes (59 s)
+  75/250 genes (94 s)
+  100/250 genes (127 s)
+  125/250 genes (152 s)
+  150/250 genes (204 s)
+  175/250 genes (268 s)
+  200/250 genes (308 s)
+  225/250 genes (343 s)
+  250/250 genes (382 s)
+{
+ "step": "gene_trees",
+ "set": "euk",
+ "n_markers": 250,
+ "n_ok": 250,
+ "n_failed": 0,
+ "min_cov": 0.5,
+ "model": "LG+G4",
+ "jobs": 2,
+ "seed": 11,
+ "cpu_seconds": 763.0,
+ "seconds": 382.3,
+ "finished": "2026-10-28T15:00:14"
+}
+[2026-10-28T15:00:14] euk done
+[2026-10-28T15:00:14] prok step1 jobs=2
+[prok] 82 species, 269 markers kept; aligning with 2 jobs
+  25/269 aligned (61 s)
+  50/269 aligned (81 s)
+  75/269 aligned (99 s)
+  100/269 aligned (142 s)
+  125/269 aligned (176 s)
+  150/269 aligned (214 s)
+  175/269 aligned (240 s)
+  200/269 aligned (261 s)
+  225/269 aligned (317 s)
+  250/269 aligned (378 s)
+{
+ "step": "build_markers",
+ "set": "prok",
+ "n_species": 82,
+ "n_markers": 269,
+ "n_empty_after_trim": 0,
+ "min_frac": 0.5,
+ "kinds": {
+  "universal": 47,
+  "bacteria": 77,
+  "archaea": 145
+ },
+ "total_trim_len": 68374,
+ "seconds": 561.6,
+ "finished": "2026-10-28T15:09:35",
+ "versions": {
+  "mafft": "v7.526 (2024/Apr/26)",
+  "trimal": "trimAl v1.5.rev1 build[2025-11-25]"
+ }
+}
+[2026-10-28T15:09:36] prok step2 threads=2
+iqtree3 -s /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/phylo/prok/concat/supermatrix.fa -te /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/phylo/prok/concat/guide_topology.nwk -m LG+G4 -T 2 -seed 11 -keep-ident --prefix /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/runs/phylo/prok/concat/concat -redo -quiet
+{
+ "step": "species_tree_bl",
+ "set": "prok",
+ "n_taxa": 82,
+ "n_markers": 269,
+ "n_sites": 68374,
+ "model": "LG+G4",
+ "fixed_topology": true,
+ "total_tree_length": 30.8205,
+ "logL": -2568319.626,
+ "output": "data/species_tree_bl_prok.nwk",
+ "threads": "2",
+ "seed": 11,
+ "seconds": 144.2,
+ "finished": "2026-10-28T15:12:00"
+}
+[2026-10-28T15:12:00] prok step3 jobs=2
+  25/269 genes (5 s)
+  50/269 genes (9 s)
+  75/269 genes (12 s)
+  100/269 genes (20 s)
+  125/269 genes (26 s)
+  150/269 genes (32 s)
+  175/269 genes (36 s)
+  200/269 genes (39 s)
+  225/269 genes (46 s)
+  250/269 genes (56 s)
+{
+ "step": "gene_trees",
+ "set": "prok",
+ "n_markers": 269,
+ "n_ok": 269,
+ "n_failed": 0,
+ "min_cov": 0.5,
+ "model": "LG+G4",
+ "jobs": 2,
+ "seed": 11,
+ "cpu_seconds": 148.3,
+ "seconds": 75.3,
+ "finished": "2026-10-28T15:13:16"
+}
+[2026-10-28T15:13:16] prok done
+[2026-10-28T15:13:18] ALL DONE

@@ -1,0 +1,1 @@
+{"species": "Guttvul", "fasta_md5": "e6d62ac4c811d82effab5b54f0d6b37b", "n_domain_hits": 81, "seconds": 2.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

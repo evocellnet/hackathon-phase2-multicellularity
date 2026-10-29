@@ -1,0 +1,1 @@
+{"species": "Nannexe", "fasta_md5": "faad7bba982daf090f07d1719c38a49a", "n_domain_hits": 582, "seconds": 2.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

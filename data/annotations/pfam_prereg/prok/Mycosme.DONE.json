@@ -1,0 +1,1 @@
+{"species": "Mycosme", "fasta_md5": "a888c54c6c006d9884260de1420a601e", "n_domain_hits": 53, "seconds": 8.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

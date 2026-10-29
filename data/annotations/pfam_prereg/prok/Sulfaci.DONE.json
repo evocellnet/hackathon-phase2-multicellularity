@@ -1,0 +1,1 @@
+{"species": "Sulfaci", "fasta_md5": "e7b25798b061e1a986270a8de54209bb", "n_domain_hits": 23, "seconds": 0.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Streven", "fasta_md5": "07a472004a0fac6cd4a0944cb19e257f", "n_domain_hits": 159, "seconds": 2.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

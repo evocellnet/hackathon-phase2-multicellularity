@@ -1,0 +1,2 @@
+[cooption    11.1s] versions: ['pfam_expanded', 'toolkit_expanded', 'toolkit_present', 'hog_toolkit']; {'pfam': 'full Pfam, 187/187 species annotated', 'hog': 'split repair from gain ladder'}
+[cooption    22.2s] done -> results/exploratory/euk/cooption

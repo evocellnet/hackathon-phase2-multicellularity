@@ -1,0 +1,4 @@
+[2026-10-28T18:08:32] +       0s leaves=0 genes_done=0/220,144 remaining_genes=220,144 start component nodes=33,286 edges=516,315 gmax=7500 workers=8
+[2026-10-28T18:08:34] +       2s leaves=21 genes_done=13,124/220,144 remaining_genes=207,020 root split done in 2s: 2 subtasks, 21 leaves
+[2026-10-28T18:08:50] +      17s leaves=398 genes_done=220,144/220,144 remaining_genes=0 tasks_done=29 tasks_pending=0 largest_pending_nodes=0 worker_busy_s=19
+[2026-10-28T18:08:50] +      18s leaves=398 genes_done=220,144/220,144 remaining_genes=0 done: 398 parts

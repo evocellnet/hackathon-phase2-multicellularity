@@ -1,0 +1,1 @@
+{"species": "Volvafr", "fasta_md5": "83bc973e6f375fcc6eac7eb697898667", "n_domain_hits": 1542, "seconds": 11.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

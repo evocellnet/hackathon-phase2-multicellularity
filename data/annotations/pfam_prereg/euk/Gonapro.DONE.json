@@ -1,0 +1,1 @@
+{"species": "Gonapro", "fasta_md5": "ff0d381bc94acbe3fe73cd2c13d7ab26", "n_domain_hits": 1085, "seconds": 15.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

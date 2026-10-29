@@ -1,0 +1,1 @@
+{"species": "Hondfer", "fasta_md5": "8c92654739a9411173b78db935831cda", "n_domain_hits": 1394, "seconds": 14.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

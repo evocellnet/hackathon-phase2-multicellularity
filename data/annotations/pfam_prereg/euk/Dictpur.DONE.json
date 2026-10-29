@@ -1,0 +1,1 @@
+{"species": "Dictpur", "fasta_md5": "f6204e299d0d00dfb634498b22817a2d", "n_domain_hits": 1126, "seconds": 10.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Diphrot", "fasta_md5": "a11e94a62d6c2e01836c84e98f9ac332", "n_domain_hits": 3490, "seconds": 22.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

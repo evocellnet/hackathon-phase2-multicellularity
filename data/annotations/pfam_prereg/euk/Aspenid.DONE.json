@@ -1,0 +1,1 @@
+{"species": "Aspenid", "fasta_md5": "c41495a26c469531c447f2c2c856419a", "n_domain_hits": 833, "seconds": 4.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

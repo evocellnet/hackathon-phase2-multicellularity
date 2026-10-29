@@ -1,0 +1,1 @@
+{"species": "Rhodemar", "fasta_md5": "ee1d1a9962ec847510de12e9aa254977", "n_domain_hits": 2611, "seconds": 15.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

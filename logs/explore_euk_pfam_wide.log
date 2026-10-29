@@ -1,0 +1,18 @@
+[pfam_wide    18.6s] pfam tables: 25/187 species
+[pfam_wide    27.1s] pfam tables: 50/187 species
+[pfam_wide    34.9s] pfam tables: 75/187 species
+[pfam_wide    44.4s] pfam tables: 100/187 species
+[pfam_wide    52.4s] pfam tables: 125/187 species
+[pfam_wide    59.1s] pfam tables: 150/187 species
+[pfam_wide    69.6s] pfam tables: 175/187 species
+[pfam_wide    74.2s] Pfam: 187 annotated species, 0 missing
+[pfam_wide    81.2s] evaluable contrasts: 7/7 transitions, 30/30 controls
+[pfam_wide    99.2s] domain contrasts: 7 transitions, 30 controls
+[pfam_wide   105.7s] convergence exp_or_gain: {'scheme': 'permute', 'draw': 'distinct', 'n_transitions': 7, 'n_controls': 30, 'n_perm': 10000, 'seed': 11, 'matched': 'matched'}
+[pfam_wide   109.7s] convergence gained: {'scheme': 'permute', 'draw': 'distinct', 'n_transitions': 7, 'n_controls': 30, 'n_perm': 10000, 'seed': 11, 'matched': 'matched'}
+[pfam_wide   113.8s] convergence lost: {'scheme': 'permute', 'draw': 'distinct', 'n_transitions': 7, 'n_controls': 30, 'n_perm': 10000, 'seed': 11, 'matched': 'matched'}
+[pfam_wide   128.8s] HOG view 10/30
+[pfam_wide   134.3s] HOG view 20/30
+[pfam_wide   139.7s] HOG view 30/30
+[pfam_wide   142.5s] HOG view done
+[pfam_wide   142.7s] done -> results/exploratory/euk/pfam_wide

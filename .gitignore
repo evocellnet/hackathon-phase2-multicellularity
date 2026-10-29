@@ -11,3 +11,6 @@ __pycache__/
 .ipynb_checkpoints/
 data/busco_runs/
 busco_*.log
+data/annotations/pfam/
+data/annotations/disorder/
+data/structure/

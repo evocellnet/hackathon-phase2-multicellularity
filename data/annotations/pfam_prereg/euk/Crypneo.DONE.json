@@ -1,0 +1,1 @@
+{"species": "Crypneo", "fasta_md5": "ba58f14edbadb57cc2c960234dfbca99", "n_domain_hits": 474, "seconds": 3.7, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

@@ -1,0 +1,1 @@
+{"species": "Ulvamut", "fasta_md5": "5dfb2fd56ea127454ad4d54ee374ad53", "n_domain_hits": 1086, "seconds": 26.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

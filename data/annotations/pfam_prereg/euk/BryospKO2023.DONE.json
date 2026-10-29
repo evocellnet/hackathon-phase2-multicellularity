@@ -1,0 +1,1 @@
+{"species": "BryospKO2023", "fasta_md5": "aca673549ad55ef820eb45baa651fbb5", "n_domain_hits": 1345, "seconds": 7.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

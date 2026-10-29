@@ -1,0 +1,1 @@
+{"species": "Ambotri", "fasta_md5": "4b0d5432fa50cea29f650c51283050df", "n_domain_hits": 4484, "seconds": 7.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

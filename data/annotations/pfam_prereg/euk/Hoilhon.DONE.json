@@ -1,0 +1,1 @@
+{"species": "Hoilhon", "fasta_md5": "afbe56733d947584f6429e3b80d3dcfe", "n_domain_hits": 6423, "seconds": 19.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

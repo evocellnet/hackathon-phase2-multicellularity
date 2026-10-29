@@ -1,0 +1,1 @@
+{"species": "Fontalb", "fasta_md5": "7aba99686e777a145a1fe18dd3c47dbe", "n_domain_hits": 620, "seconds": 11.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

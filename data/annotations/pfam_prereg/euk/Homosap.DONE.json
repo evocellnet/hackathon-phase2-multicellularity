@@ -1,0 +1,1 @@
+{"species": "Homosap", "fasta_md5": "354cb6cf7555bf70513840d9c0717274", "n_domain_hits": 16476, "seconds": 30.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

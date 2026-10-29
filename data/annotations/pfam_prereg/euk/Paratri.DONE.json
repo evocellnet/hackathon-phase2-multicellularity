@@ -1,0 +1,1 @@
+{"species": "Paratri", "fasta_md5": "f8cc467a19d9f62d6cab29718e911fea", "n_domain_hits": 740, "seconds": 4.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

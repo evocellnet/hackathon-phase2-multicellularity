@@ -1,0 +1,4 @@
+-m ancestra.speciestree ncbi --proteomes <tmp> --taxdump /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/taxdump --leaf-naming qfo --out <tmp>/raw.nwk -> {"n_leaves": 187, "n_internal": 107}
+euk: leaves=187 internal=151 multifurcations=25 edits=62 -> /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/guide_tree_euk.nwk
+-m ancestra.speciestree ncbi --proteomes <tmp> --taxdump /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/taxdump --leaf-naming qfo --out <tmp>/raw.nwk -> {"n_leaves": 82, "n_internal": 41}
+prok: leaves=82 internal=44 multifurcations=18 edits=3 -> /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/guide_tree_prok.nwk

@@ -1,0 +1,1 @@
+{"species": "Pharkir", "fasta_md5": "a54f1ba3dd9ac6e0d82a8a20905499f4", "n_domain_hits": 969, "seconds": 12.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

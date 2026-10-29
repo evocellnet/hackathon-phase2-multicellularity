@@ -1,0 +1,1 @@
+{"species": "Physpol", "fasta_md5": "f402de0e2a073544dd550f3d12873b22", "n_domain_hits": 2047, "seconds": 40.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

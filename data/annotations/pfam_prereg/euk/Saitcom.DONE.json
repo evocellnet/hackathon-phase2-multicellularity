@@ -1,0 +1,1 @@
+{"species": "Saitcom", "fasta_md5": "b645e1c68f20036092d2a0fde95963d4", "n_domain_hits": 468, "seconds": 10.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

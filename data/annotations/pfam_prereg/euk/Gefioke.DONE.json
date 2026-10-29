@@ -1,0 +1,1 @@
+{"species": "Gefioke", "fasta_md5": "85732cf879ca01e7f7c668b952552f1b", "n_domain_hits": 1534, "seconds": 30.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

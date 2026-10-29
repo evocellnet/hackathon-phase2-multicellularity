@@ -1,0 +1,38 @@
+databases Alphafold/Swiss-Prot runs/structure/afdb_sp/sp runs/structure/afdb_sp_tmp --threads 2 
+
+MMseqs Version:              	10.941cd33
+Tsv                          	false
+Force restart with latest tmp	false
+Remove temporary files       	false
+Compressed                   	0
+Threads                      	2
+Verbosity                    	3
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 1485M    0  314k    0     0   335k      0  1:15:36 --:--:--  1:15:36  335k  2 1485M    2 31.6M    0     0  16.1M      0  0:01:31  0:00:01  0:01:30 16.1M  4 1485M    4 70.5M    0     0  24.0M      0  0:01:01  0:00:02  0:00:59 24.0M  7 1485M    7  107M    0     0  27.3M      0  0:00:54  0:00:03  0:00:51 27.3M  9 1485M    9  147M    0     0  29.9M      0  0:00:49  0:00:04  0:00:45 29.9M 12 1485M   12  186M    0     0  31.4M      0  0:00:47  0:00:05  0:00:42 37.3M 15 1485M   15  223M    0     0  32.2M      0  0:00:46  0:00:06  0:00:40 38.5M 17 1485M   17  264M    0     0  33.3M      0  0:00:44  0:00:07  0:00:37 38.8M 20 1485M   20  306M    0     0  34.3M      0  0:00:43  0:00:08  0:00:35 39.8M 23 1485M   23  343M    0     0  34.5M      0  0:00:43  0:00:09  0:00:34 38.9M 25 1485M   25  382M    0     0  35.0M      0  0:00:42  0:00:10  0:00:32 39.1M 28 1485M   28  422M    0     0  35.4M      0  0:00:41  0:00:11  0:00:30 39.8M 30 1485M   30  456M    0     0  35.2M      0  0:00:42  0:00:12  0:00:30 38.1M 33 1485M   33  496M    0     0  35.5M      0  0:00:41  0:00:13  0:00:28 37.8M 36 1485M   36  535M    0     0  35.8M      0  0:00:41  0:00:14  0:00:27 38.6M 38 1485M   38  575M    0     0  36.1M      0  0:00:41  0:00:15  0:00:26 38.6M 41 1485M   41  617M    0     0  36.5M      0  0:00:40  0:00:16  0:00:24 39.1M 44 1485M   44  658M    0     0  36.7M      0  0:00:40  0:00:17  0:00:23 40.8M 47 1485M   47  700M    0     0  37.0M      0  0:00:40  0:00:18  0:00:22 40.9M 49 1485M   49  735M    0     0  36.8M      0  0:00:40  0:00:19  0:00:21 39.8M 51 1485M   51  768M    0     0  36.6M      0  0:00:40  0:00:20  0:00:20 38.3M 53 1485M   53  800M    0     0  36.4M      0  0:00:40  0:00:21  0:00:19 36.3M 56 1485M   56  839M    0     0  36.6M      0  0:00:40  0:00:22  0:00:18 36.1M 59 1485M   59  877M    0     0  36.6M      0  0:00:40  0:00:23  0:00:17 35.5M 61 1485M   61  909M    0     0  36.4M      0  0:00:40  0:00:24  0:00:16 34.9M 64 1485M   64  951M    0     0  36.7M      0  0:00:40  0:00:25  0:00:15 36.8M 66 1485M   66  985M    0     0  36.6M      0  0:00:40  0:00:26  0:00:14 37.1M 69 1485M   69 1027M    0     0  36.8M      0  0:00:40  0:00:27  0:00:13 37.6M 71 1485M   71 1066M    0     0  36.8M      0  0:00:40  0:00:28  0:00:12 37.6M 74 1485M   74 1103M    0     0  36.8M      0  0:00:40  0:00:29  0:00:11 38.7M 76 1485M   76 1140M    0     0  36.8M      0  0:00:40  0:00:30  0:00:10 37.7M 79 1485M   79 1176M    0     0  36.8M      0  0:00:40  0:00:31  0:00:09 38.2M 81 1485M   81 1216M    0     0  36.9M      0  0:00:40  0:00:32  0:00:08 37.4M 84 1485M   84 1255M    0     0  37.0M      0  0:00:40  0:00:33  0:00:07 37.8M 87 1485M   87 1293M    0     0  37.0M      0  0:00:40  0:00:34  0:00:06 38.1M 89 1485M   89 1331M    0     0  37.0M      0  0:00:40  0:00:35  0:00:05 38.2M 92 1485M   92 1367M    0     0  37.0M      0  0:00:40  0:00:36  0:00:04 37.9M 94 1485M   94 1400M    0     0  36.9M      0  0:00:40  0:00:37  0:00:03 37.0M 96 1485M   96 1438M    0     0  36.9M      0  0:00:40  0:00:38  0:00:02 36.6M 99 1485M   99 1477M    0     0  37.0M      0  0:00:40  0:00:39  0:00:01 36.8M100 1485M  100 1485M    0     0  37.0M      0  0:00:40  0:00:40 --:--:-- 36.7M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    11  100    11    0     0     19      0 --:--:-- --:--:-- --:--:--    19
+afdb_swissprot
+afdb_swissprot_ca
+afdb_swissprot_ca.dbtype
+afdb_swissprot_ca.index
+afdb_swissprot.dbtype
+afdb_swissprot_h
+afdb_swissprot_h.dbtype
+afdb_swissprot_h.index
+afdb_swissprot.index
+afdb_swissprot.lookup
+afdb_swissprot_mapping
+afdb_swissprot_ss
+afdb_swissprot_ss.dbtype
+afdb_swissprot_ss.index
+afdb_swissprot_taxonomy
+mv: cannot move 'runs/structure/afdb_sp_tmp/3594879203165869754/afdb_swissprot_mapping' to 'runs/structure/afdb_sp/sp_mapping': No such file or directory
+mv: cannot move 'runs/structure/afdb_sp_tmp/3594879203165869754/afdb_swissprot_taxonomy' to 'runs/structure/afdb_sp/sp_taxonomy': No such file or directory
+mv: cannot move 'runs/structure/afdb_sp_tmp/3594879203165869754/afdb_swissprot.lookup' to 'runs/structure/afdb_sp/sp.lookup': No such file or directory
+runs/structure/afdb_sp: No such file or directory
+mvdb runs/structure/afdb_sp_tmp/3594879203165869754/afdb_swissprot runs/structure/afdb_sp/sp -v 3 
+
+Error: mv died

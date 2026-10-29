@@ -1,0 +1,1 @@
+{"species": "Ephymue", "fasta_md5": "657862baec9d7855aa6a56fb396a468c", "n_domain_hits": 7210, "seconds": 44.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

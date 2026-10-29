@@ -1,0 +1,1 @@
+{"species": "Methbar", "fasta_md5": "cabc1c88c322b335511e98549ab50fca", "n_domain_hits": 30, "seconds": 1.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

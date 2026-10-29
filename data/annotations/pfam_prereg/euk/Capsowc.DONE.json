@@ -1,0 +1,1 @@
+{"species": "Capsowc", "fasta_md5": "c9e86b848f423026dcbbc78aa713ac25", "n_domain_hits": 2350, "seconds": 13.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

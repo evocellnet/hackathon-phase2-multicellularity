@@ -1,0 +1,1 @@
+{"species": "Halovol", "fasta_md5": "759c1663f8efab5dc112ec9747a92c31", "n_domain_hits": 9, "seconds": 2.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

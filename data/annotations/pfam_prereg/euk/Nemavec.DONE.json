@@ -1,0 +1,1 @@
+{"species": "Nemavec", "fasta_md5": "6d80d06bb9130388305952617fbfafc6", "n_domain_hits": 8616, "seconds": 31.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

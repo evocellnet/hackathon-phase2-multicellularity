@@ -1,0 +1,1 @@
+{"species": "Chlainc", "fasta_md5": "76fe5cce8ad4d785834670753876b44a", "n_domain_hits": 2404, "seconds": 19.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

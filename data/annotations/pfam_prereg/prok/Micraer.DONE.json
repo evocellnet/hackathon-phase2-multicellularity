@@ -1,0 +1,1 @@
+{"species": "Micraer", "fasta_md5": "99a09ccf8e7ed3900fcc3e403a295b91", "n_domain_hits": 100, "seconds": 1.8, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

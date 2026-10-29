@@ -1,0 +1,1 @@
+{"species": "Laccbic", "fasta_md5": "c6d7d3922e92b0692db19e726f7dac8b", "n_domain_hits": 760, "seconds": 11.3, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

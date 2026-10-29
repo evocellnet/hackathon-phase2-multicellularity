@@ -1,0 +1,1 @@
+{"species": "Soracel", "fasta_md5": "d9ada4cd017f8d9c763f8cf91e8370e1", "n_domain_hits": 797, "seconds": 5.7, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

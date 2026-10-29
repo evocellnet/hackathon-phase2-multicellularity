@@ -1,0 +1,1 @@
+{"species": "Sphaarc", "fasta_md5": "d405c9011324ee50a4a6872086d76fdb", "n_domain_hits": 1339, "seconds": 28.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

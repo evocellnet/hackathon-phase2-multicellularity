@@ -1,0 +1,1 @@
+{"species": "Desupsy", "fasta_md5": "c6a3eb309e4c9a1670cc116ae6c7dc2b", "n_domain_hits": 20, "seconds": 1.7, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

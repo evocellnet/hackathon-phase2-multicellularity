@@ -1,0 +1,1 @@
+{"species": "Desumag", "fasta_md5": "358c3387761f83e35769b09e287d0247", "n_domain_hits": 50, "seconds": 1.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

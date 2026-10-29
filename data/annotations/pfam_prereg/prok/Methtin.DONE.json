@@ -1,0 +1,1 @@
+{"species": "Methtin", "fasta_md5": "2b0c81b57d4d6a692bb04ce22bb20c31", "n_domain_hits": 15, "seconds": 3.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

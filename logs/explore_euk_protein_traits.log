@@ -1,0 +1,29 @@
+[protein_traits    53.8s] lengths for 187 species; disorder for 187/187
+[protein_traits    61.5s] T_metazoa done
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+[protein_traits    62.6s] T_fungi_hyphae done
+[protein_traits    64.2s] T_dictyostelia done
+[protein_traits    65.4s] T_streptophyta done
+[protein_traits    66.8s] T_rhodophyta done
+[protein_traits    68.0s] T_px_filaments done
+[protein_traits    72.4s] T_volvocine_tgv done
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/conda_envs/ancestra/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py:531: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  res = hypotest_fun_out(*samples, **kwds)
+[protein_traits   110.2s] done -> results/exploratory/euk/protein_traits

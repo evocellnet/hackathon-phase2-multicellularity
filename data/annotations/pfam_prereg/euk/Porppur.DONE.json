@@ -1,0 +1,1 @@
+{"species": "Porppur", "fasta_md5": "17ea3a9208e973a36ce6fba1c5214c4f", "n_domain_hits": 794, "seconds": 6.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

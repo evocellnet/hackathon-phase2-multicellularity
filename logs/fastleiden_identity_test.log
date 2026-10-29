@@ -1,0 +1,23 @@
+case  0 n=    30 edges=    199 gmax=    20 parts=   27 identical=True (set-identical=True) t_orig=   0.40s t_serial=  0.01s t_pool=  0.75s
+case  0 n=    30 edges=    199 gmax=    10 parts=   30 identical=True (set-identical=True) t_orig=   0.01s t_serial=  0.01s t_pool=  0.66s
+case  1 n=    30 edges=    100 gmax=    20 parts=   28 identical=True (set-identical=True) t_orig=   0.01s t_serial=  0.01s t_pool=  0.73s
+case  1 n=    30 edges=    100 gmax=    10 parts=   29 identical=True (set-identical=True) t_orig=   0.01s t_serial=  0.01s t_pool=  0.82s
+case  2 n=   200 edges=    853 gmax=    41 parts=   82 identical=True (set-identical=True) t_orig=   0.07s t_serial=  0.07s t_pool=  0.71s
+case  2 n=   200 edges=    853 gmax=    10 parts=  192 identical=True (set-identical=True) t_orig=   0.10s t_serial=  0.10s t_pool=  0.72s
+case  3 n=   200 edges=   1356 gmax=    41 parts=   88 identical=True (set-identical=True) t_orig=   0.05s t_serial=  0.05s t_pool=  0.95s
+case  3 n=   200 edges=   1356 gmax=    10 parts=  194 identical=True (set-identical=True) t_orig=   0.08s t_serial=  0.08s t_pool=  0.75s
+case  4 n=  1000 edges=   3974 gmax=   212 parts=   87 identical=True (set-identical=True) t_orig=   0.09s t_serial=  0.09s t_pool=  0.93s
+case  4 n=  1000 edges=   3974 gmax=    26 parts=  864 identical=True (set-identical=True) t_orig=   0.33s t_serial=  0.34s t_pool=  1.10s
+case  5 n=  1000 edges=   3854 gmax=   208 parts=   88 identical=True (set-identical=True) t_orig=   0.15s t_serial=  0.15s t_pool=  0.82s
+case  5 n=  1000 edges=   3854 gmax=    26 parts=  689 identical=True (set-identical=True) t_orig=   0.44s t_serial=  0.41s t_pool=  0.95s
+case  6 n=  5000 edges=  31770 gmax=  1041 parts=   88 identical=True (set-identical=True) t_orig=   0.37s t_serial=  0.32s t_pool=  1.32s
+case  6 n=  5000 edges=  31770 gmax=   130 parts=  724 identical=True (set-identical=True) t_orig=   1.06s t_serial=  0.77s t_pool=  1.52s
+case  7 n=  5000 edges=  27664 gmax=  1048 parts=  163 identical=True (set-identical=True) t_orig=   0.25s t_serial=  0.22s t_pool=  1.04s
+case  7 n=  5000 edges=  27664 gmax=   131 parts=  866 identical=True (set-identical=True) t_orig=   0.96s t_serial=  0.62s t_pool=  1.03s
+case  8 n= 20000 edges= 167746 gmax=  4207 parts=  282 identical=True (set-identical=True) t_orig=   1.74s t_serial=  1.12s t_pool=  1.95s
+case  8 n= 20000 edges= 167746 gmax=   525 parts=  796 identical=True (set-identical=True) t_orig=   5.39s t_serial=  1.29s t_pool=  1.82s
+case  9 n= 20000 edges= 214141 gmax=  4189 parts=  346 identical=True (set-identical=True) t_orig=   1.74s t_serial=  1.02s t_pool=  1.81s
+case  9 n= 20000 edges= 214141 gmax=   523 parts= 1221 identical=True (set-identical=True) t_orig=  12.67s t_serial=  1.93s t_pool=  2.08s
+subset case parts=216 identical=True
+ALL 21 CASES IDENTICAL
+n=80000 edges=697737 parts=1280 identical=True t_orig=22.1s t_fast_serial=6.6s t_fast_pool8=6.9s

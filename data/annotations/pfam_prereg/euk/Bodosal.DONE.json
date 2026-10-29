@@ -1,0 +1,1 @@
+{"species": "Bodosal", "fasta_md5": "cabe6c40a03334500cc4ba70ace52c41", "n_domain_hits": 2051, "seconds": 11.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

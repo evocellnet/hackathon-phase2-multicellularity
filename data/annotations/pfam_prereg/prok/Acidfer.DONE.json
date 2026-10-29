@@ -1,0 +1,1 @@
+{"species": "Acidfer", "fasta_md5": "95a4e2e120492b4ec464f7ab90541b62", "n_domain_hits": 15, "seconds": 2.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

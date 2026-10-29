@@ -1,0 +1,1 @@
+{"species": "Bigenat", "fasta_md5": "8e1d3f8bee70b6cbdcbc3a2b7f5a8b16", "n_domain_hits": 1939, "seconds": 10.1, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

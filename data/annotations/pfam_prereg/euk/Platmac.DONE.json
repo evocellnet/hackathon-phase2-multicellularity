@@ -1,0 +1,1 @@
+{"species": "Platmac", "fasta_md5": "b594b9bd6103612ac80191baa44a5c4b", "n_domain_hits": 1791, "seconds": 26.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

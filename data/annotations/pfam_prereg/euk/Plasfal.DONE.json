@@ -1,0 +1,1 @@
+{"species": "Plasfal", "fasta_md5": "13f4f70815b56cffcdacbbb0779e91f8", "n_domain_hits": 269, "seconds": 39.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

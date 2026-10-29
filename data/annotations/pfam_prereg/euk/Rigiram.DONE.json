@@ -1,0 +1,1 @@
+{"species": "Rigiram", "fasta_md5": "01bf6d54b91d8e1c8cec2a0dab6721bf", "n_domain_hits": 2352, "seconds": 17.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

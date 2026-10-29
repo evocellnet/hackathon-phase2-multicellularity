@@ -1,0 +1,1 @@
+{"species": "Methace", "fasta_md5": "3f66f568c8acd535fdd07612b7bf9c47", "n_domain_hits": 23, "seconds": 1.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

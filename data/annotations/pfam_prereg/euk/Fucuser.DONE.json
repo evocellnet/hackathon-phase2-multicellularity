@@ -1,0 +1,1 @@
+{"species": "Fucuser", "fasta_md5": "6613ea99cac7533a30378153f198b511", "n_domain_hits": 1438, "seconds": 14.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

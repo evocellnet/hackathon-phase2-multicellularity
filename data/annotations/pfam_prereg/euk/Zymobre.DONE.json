@@ -1,0 +1,1 @@
+{"species": "Zymobre", "fasta_md5": "250d03174a0e270b79fa63d05183b00a", "n_domain_hits": 617, "seconds": 6.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

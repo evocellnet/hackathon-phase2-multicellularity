@@ -1,0 +1,1 @@
+{"species": "Cavoapo", "fasta_md5": "aa0d994ffad0ea8449dbe625bd85576e", "n_domain_hits": 1846, "seconds": 16.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

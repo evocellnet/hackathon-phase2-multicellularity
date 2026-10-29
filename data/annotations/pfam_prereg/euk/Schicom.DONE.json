@@ -1,0 +1,1 @@
+{"species": "Schicom", "fasta_md5": "712142f78a9e138cd1f686b3e64bc765", "n_domain_hits": 704, "seconds": 14.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

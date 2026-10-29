@@ -1,0 +1,1 @@
+{"species": "Therves", "fasta_md5": "d1e157780be927ada0bca23f8ba768d0", "n_domain_hits": 29, "seconds": 1.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

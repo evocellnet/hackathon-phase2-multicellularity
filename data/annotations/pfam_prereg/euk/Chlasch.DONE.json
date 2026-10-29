@@ -1,0 +1,1 @@
+{"species": "Chlasch", "fasta_md5": "dbb7db03b97389019053955288d2b087", "n_domain_hits": 2099, "seconds": 22.5, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

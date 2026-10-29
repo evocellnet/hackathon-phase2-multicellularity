@@ -1,0 +1,44 @@
+moved unselected Tetrstr.fa to data/proteomes/_dropped/
+moved unselected Ephymue.fa to data/proteomes/_dropped/
+moved unselected Caenele.fa to data/proteomes/_dropped/
+moved unselected Tricvag.fa to data/proteomes/_dropped/
+moved unselected Emilhux.fa to data/proteomes/_dropped/
+moved unselected Stygreg.fa to data/proteomes/_dropped/
+moved unselected Retifil.fa to data/proteomes/_dropped/
+Choafle	raw=20477	genes=13759	short=0	ident=0	cdhit=6	final=13753
+Mylnflu	raw=25158	genes=18457	short=17	ident=0	cdhit=0	final=18440
+Oscapea	raw=29220	genes=17694	short=31	ident=0	cdhit=1	final=17662
+Codohol	raw=61053	genes=32002	short=64	ident=0	cdhit=4	final=31934
+Acanspe	raw=40467	genes=24606	short=51	ident=0	cdhit=0	final=24555
+Syssmul	raw=19135	genes=19135	short=0	ident=4367	cdhit=2478	final=12290
+Didycos	raw=33705	genes=22593	short=19	ident=0	cdhit=0	final=22574
+Amoepar	raw=23007	genes=18170	short=0	ident=3	cdhit=77	final=18090
+Parvatl	raw=22303	genes=18104	short=0	ident=209	cdhit=893	final=17002
+Pigochi	raw=37783	genes=37783	short=0	ident=3296	cdhit=6771	final=27716
+Cerafru	raw=24383	genes=15267	short=0	ident=991	cdhit=674	final=13602
+Physpol	raw=24731	genes=24731	short=0	ident=8	cdhit=263	final=24460
+Protnoc	raw=21069	genes=13736	short=0	ident=121	cdhit=91	final=13524
+Coprpro	raw=24820	genes=15554	short=0	ident=51	cdhit=59	final=15444
+Vermver	raw=14884	genes=13349	short=0	ident=30	cdhit=17	final=13302
+Rhizsax	raw=19362	genes=12978	short=0	ident=66	cdhit=49	final=12863
+Cavoapo	raw=24947	genes=18460	short=0	ident=53	cdhit=77	final=18330
+Vauclit	raw=8794	genes=8794	short=81	ident=0	cdhit=32	final=8681
+Colescu	raw=18831	genes=16708	short=0	ident=0	cdhit=5	final=16703
+Guttvul	raw=10899	genes=10899	short=1748	ident=13	cdhit=153	final=8985
+Auralim	raw=14860	genes=14860	short=332	ident=0	cdhit=70	final=14458
+Rhodemar	raw=14585	genes=14585	short=0	ident=0	cdhit=23	final=14562
+Arceint	raw=37366	genes=27321	short=0	ident=73	cdhit=74	final=27174
+Brevmot	raw=10046	genes=8959	short=0	ident=8	cdhit=5	final=8946
+Pharkir	raw=15010	genes=15010	short=0	ident=2	cdhit=197	final=14811
+Platmac	raw=35773	genes=35773	short=548	ident=705	cdhit=7447	final=27073
+Lothglo	raw=19385	genes=19385	short=417	ident=0	cdhit=57	final=18911
+Pygsbif	raw=9511	genes=9511	short=0	ident=0	cdhit=5	final=9506
+Gefioke	raw=26350	genes=16266	short=0	ident=267	cdhit=112	final=15887
+Rigiram	raw=28882	genes=15392	short=0	ident=82	cdhit=92	final=15218
+Euglgra	raw=36526	genes=36526	short=0	ident=1	cdhit=1149	final=35376
+Mantpla	raw=33889	genes=22628	short=0	ident=17	cdhit=38	final=22573
+Paratri	raw=10439	genes=5168	short=0	ident=0	cdhit=382	final=4786
+Diphrot	raw=41305	genes=15243	short=0	ident=204	cdhit=347	final=14692
+Palpbil	raw=26331	genes=26331	short=607	ident=1585	cdhit=8548	final=15591
+Raphhet	raw=28138	genes=20553	short=0	ident=2	cdhit=37	final=20514
+Telosub	raw=58668	genes=37557	short=0	ident=356	cdhit=597	final=36604

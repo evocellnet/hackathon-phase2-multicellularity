@@ -1,0 +1,1 @@
+{"species": "Graccho", "fasta_md5": "fd7640f5c5b8b6020bcba4d8b93fb7bf", "n_domain_hits": 717, "seconds": 3.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

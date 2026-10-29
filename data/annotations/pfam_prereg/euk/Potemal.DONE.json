@@ -1,0 +1,1 @@
+{"species": "Potemal", "fasta_md5": "2077567f8b081ee3c97b676811b918f2", "n_domain_hits": 1729, "seconds": 39.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

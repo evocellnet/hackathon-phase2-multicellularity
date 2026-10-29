@@ -1,0 +1,1 @@
+{"species": "Micrvag", "fasta_md5": "343227e89d0d46ab4961dc8e057b59e5", "n_domain_hits": 250, "seconds": 3.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

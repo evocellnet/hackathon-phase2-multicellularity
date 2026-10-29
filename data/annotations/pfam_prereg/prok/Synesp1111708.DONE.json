@@ -1,0 +1,1 @@
+{"species": "Synesp1111708", "fasta_md5": "cfcb038209636990f6fab1dd5a658cfd", "n_domain_hits": 55, "seconds": 1.0, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

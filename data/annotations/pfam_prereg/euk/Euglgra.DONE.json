@@ -1,0 +1,1 @@
+{"species": "Euglgra", "fasta_md5": "e60c96f2d4ce9fe3f9fce0b284abeaf8", "n_domain_hits": 1776, "seconds": 40.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

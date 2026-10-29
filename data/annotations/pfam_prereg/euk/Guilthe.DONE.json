@@ -1,0 +1,1 @@
+{"species": "Guilthe", "fasta_md5": "14ec10cd4c4d361d6482730ebb9a926d", "n_domain_hits": 2681, "seconds": 14.2, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

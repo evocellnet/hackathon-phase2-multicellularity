@@ -1,0 +1,1 @@
+{"species": "Sacccer", "fasta_md5": "2e54e9562417be0ff535fa4dea623339", "n_domain_hits": 506, "seconds": 7.4, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

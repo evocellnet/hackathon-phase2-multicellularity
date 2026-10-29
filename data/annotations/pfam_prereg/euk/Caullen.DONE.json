@@ -1,0 +1,1 @@
+{"species": "Caullen", "fasta_md5": "fd51b59f8ab581698095b4872fce604a", "n_domain_hits": 1119, "seconds": 5.6, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}

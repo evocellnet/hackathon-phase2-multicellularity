@@ -1,0 +1,1 @@
+{"species": "Crocsub", "fasta_md5": "72f2cb721e43bb24122bf397db234c5c", "n_domain_hits": 82, "seconds": 3.9, "pyhmmer": "0.12.3", "hmm": "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/data/raw/pfam/Pfam-A.prereg_subset.hmm", "cutoff": "gathering"}
