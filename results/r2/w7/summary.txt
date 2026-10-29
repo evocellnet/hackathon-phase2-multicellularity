@@ -1,0 +1,71 @@
+W7 (EXPLORATORY): DO STEM DUPLICATIONS TOUCH ANCIENT LECA COMPLEXES? (Cox et al. CF-MS map x round-1 Ancestra HOGs)
+=======================================================================================================
+Scripts: scripts/r2/w7/w7_map.py, w7_enrich.py, w7_coretention.py (seed 11, nice). Tables in this folder.
+
+CAVEATS (read first)
+* Per-stem HOG duplication counts are method-dependent (EukaryOMA agreement <8%); a "duplication" here is an Ancestra call.
+* The map contains only LECA-conserved complexes. It says nothing about animal-specific or plant-specific complexes.
+* No CF-MS data exist for unicellular sisters of animals (or fungi, red algae, etc.). Nothing here is measured interaction
+  data for the stems; we only ask whether duplicated genes belong to ancient complexes defined in other species.
+* Complex clusters are walktrap clusters of predicted interactions, not curated complexes. Many are mixed; the labels are the
+  commonest CORUM/ComplexPortal/GO name among members and are often wrong or "unnamed/mixed". Treat complex names loosely.
+* Events are not independent (many duplications within one large family); Fisher p-values are optimistic.
+* Mapping goes through UniProt accessions in only 13 of our species (Homo, Drosophila, C. elegans, Nematostella, Dictyostelium,
+  yeast, Arabidopsis, Selaginella, Chlamydomonas, Phaeodactylum, Tetrahymena, Trypanosoma, P. falciparum). Strongylocentrotus,
+  Ceratopteris and Euglena accessions do not match our IDs (0-0.5% mapped). Hence stem events can be tested only if the parent
+  node is an ancestor of a mapped species. Rhodophyta: no mapped species, so strict test impossible (family-level only).
+
+1. MAPPING RATES
+* All 10,091 LECA OGs: 74.2% have an accession in our shared species; 72.6% map to >=1 of our proteins; 72.1% to >=1 protein in an
+  Ancestra HOG. All 3,193 OGs of the complex map map (100%). Per-species: 90-100% of accessions map for 13 species
+  (mapping_rates_by_species.tsv); 85-99% of mapped proteins sit in a non-singleton Ancestra HOG.
+* An OG is linked to the HOG chain of each mapped protein (all ancestral genes up the tree). A duplication event (ancestral gene at
+  the parent node splitting into >=2 copies on the branch) "involves a complex" if that ancestral gene is in the chain of a subunit.
+* Complexes: cut_2014 (1,982 clusters; 1,979 of <=40 OGs kept; 125 with >=3 mapped subunits). Sensitivity: cut_1202 (122 complexes).
+  Denominator = "testable" duplications (ancestral gene contains a gene of one of the 13 mapped species).
+
+2. DUPLICATIONS ON STEMS VS CONTROLS (dup_fraction_by_group.tsv, dup_fraction_stem_vs_control_fisher.tsv)
+Fraction of testable duplication events involving a LECA-complex subunit (stem; controls = 30 round-1 U branches: 63.6%; broad 50
+internal controls: 61.3%):
+  Metazoa 66.6% (821/1232)   Fisher vs U OR 1.14 p=0.034; vs broad OR 1.26 p=2e-4
+  Fungal hyphae 72.1% (422/585)  OR 1.48 p<1e-4 (vs broad 1.64)
+  Dictyostelia 61.2%  OR 0.90 p=0.23     Streptophyta 62.3%  OR 0.94 p=0.43
+  PX clade 59.0%  OR 0.82 p=0.012        Volvocine 57.9%  OR 0.79 p=0.001
+  Rhodophyta: not testable strictly (0 mapped species below parent node); family-level involvement 58% of all events.
+Reading: animal and fungal stems are modestly enriched for duplications in ancient-complex genes; the PX and volvocine stems are
+depleted; Dictyostelia and Streptophyta are at control level. No consistent multicellular signal. The effect on animals is small
+(66.6% vs 63.6%) and not corrected for family age/size, so it may reflect that old, widely conserved families duplicate more.
+Retained duplicates (both child copies present in >=2 species): the same pattern (Metazoa 68.1%, fungi 73.0%, controls 67.3%).
+
+Per-complex enrichment (Fisher, BH; complex_enrichment_*.tsv):
+* Pooled stems (excluding Rhodophyta) vs controls: 0 complexes at q<0.05 (cut_2014 and cut_1202).
+* Metazoa stem vs controls: cut_2014 one complex at q<0.05, the "DNA replication factor C" cluster (16 events vs 0.33% control rate,
+  OR 3.9, q=0.003; 14 of the 16 events trace to one subunit OG with no human gene name, so likely one expanded family, not RFC
+  itself). cut_1202: "(ER)-localized multiprotein complex" cluster (GANAB/UGGT2/HYOU1 etc., 13 events, OR 4.9, q=0.002), mostly via
+  one family. Nominal (uncorrected) hints: mitochondrial ATP synthase cluster (OR 4.5), nuclear pore cluster (OR 2.7), TREX, NuA4.
+  Depleted on Metazoa stem: mitochondrial 55S ribosome. These are single-family, uncorrected-for-multiplicity leads, not findings.
+* Animal-relevant complexes with duplicated subunits on the Metazoa stem (metazoa_stem_duplicated_complexes_*.tsv lists all with
+  >=3 mapped subunits): Vacuolar ATPase (6 events, FER1L5/TCIRG1/ATP6V0C/ATP6V0D1), Nuclear pore (3), SNARE/syntaxin cluster
+  (STX7, STX11, RAB2A; 4), Myosin V-related (MYO1G, CLTCL1), TIM22/23 carrier clusters (SLC25 carriers), mitochondrial RNase P/
+  MMXD-type clusters. Counts are small; none is significant after BH.
+
+3. CO-RETENTION ACROSS 187 SPECIES (coretention_by_complex_cut_2014.tsv, coretention_summary_cut_2014.txt)
+Presence = species has >=1 gene in the OG's Ancestra family; subunits sharing identical families merged; 125 complexes with >=3
+distinct subunits. Mean pairwise Jaccard J. Null: 1,000 permutations replacing each subunit with a random LECA OG of similar
+prevalence (20 prevalence bins, seed 11).
+* All species: median J 0.834 vs null 0.828 (median z 0.74); 30/125 complexes with p<0.05 (6 expected). Co-retention is only
+  slightly above prevalence-matched random OGs, because LECA genes are nearly everywhere (high prevalence leaves little room).
+* Multicellular (75 species): median J 0.854 (null 0.845), z 0.48, 13/125 p<0.05. Unicellular (90): J 0.796 (null 0.791), z 0.79,
+  30/125 p<0.05. Paired difference in z (mc - uni): median -0.28, p=0.008 (53/125 complexes higher in multicellular).
+  So against the null, complexes are if anything slightly LESS co-retained in multicellular lineages; raw J is higher in
+  multicellular lineages (also when unicellular is subsampled to 75 species) but that reflects higher gene presence in sampled
+  multicellular species, which the null absorbs. Weakest co-retention in multicellular: MCM, mito ribosome, ESCRT-II, complex I,
+  nuclear pore (large dz, but loss of whole subunits in a few lineages, e.g. highly reduced fungi/algae, drives this); stronger:
+  SF3A/spliceosome, E2F-RB, Pol III.
+* Not phylogenetically corrected (species are not independent; groups differ in clade composition, quality, transcriptomes).
+
+BOTTOM LINE
+No strong or consistent preference of multicellular-stem duplications for ancient LECA-complex subunits. Animal and fungal stems
+show small enrichment (OR 1.1-1.6), PX and volvocine stems depletion, others null; no complex survives pooled correction, and the one
+Metazoa-stem hit is a single-family signal. Complexes remain co-retained about equally (slightly less above null) in multicellular
+and unicellular lineages. Exploratory; subject to the method-dependence and coverage caveats above.

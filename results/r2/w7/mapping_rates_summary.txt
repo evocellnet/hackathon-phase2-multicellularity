@@ -1,0 +1,2 @@
+all LECA OGs (TableS1): n=10091; with accession in our 16 shared species=7490 (74.2%); mapped to >=1 of our proteins=7323 (72.6%); >=1 protein in an Ancestra HOG=7272 (72.1%)
+OGs in the CF-MS complex map: n=3193; with accession in our 16 shared species=3193 (100.0%); mapped to >=1 of our proteins=3193 (100.0%); >=1 protein in an Ancestra HOG=3193 (100.0%)

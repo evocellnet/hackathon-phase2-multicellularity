@@ -1,0 +1,8 @@
+complexes with >=3 distinct mapped subunit families: 125; species=187 (multicellular 75, unicellular 90)
+all: median J=0.834, median null=0.828, median z=0.74, perm p<0.05 for 30/125 (expect 6.2); z>2: 21
+multicellular: median J=0.854, median null=0.845, median z=0.48, perm p<0.05 for 13/125 (expect 6.2); z>2: 8
+unicellular: median J=0.796, median null=0.791, median z=0.79, perm p<0.05 for 30/125 (expect 6.2); z>2: 23
+paired Wilcoxon z_mc vs z_uni: p=0.00839; median dz=-0.28; complexes with dz>0: 53/125
+J multicellular vs unicellular subsampled to 75 species: median J_mc=0.854 vs 0.794; paired Wilcoxon p=1.69e-17
+most MC-lower co-retention: MCM complex [MCM2,MCM4,MCM6,MCM7] (dz=-7.8); 55S ribosome, mitochondrial [MRPS11,MRPL2,MRP (dz=-6.7); ESCRT-II complex [VPS36,SNF8,VPS25] (dz=-5.3); Mitochondrial respiratory chain complex I [IS (dz=-5.0); Nuclear pore complex [NUP98,RANGAP1,SEH1L,NUP (dz=-3.6)
+most MC-higher co-retention: C complex spliceosome [WDR83,PPIL1,ESS2,BUD31 (dz=2.3); DNA-directed RNA polymerase complex [POLR3B,P (dz=2.4); E2F5 [MSH6,MSH2,RB1] (dz=3.4); Spliceosome [SRSF1,SRSF4,SRSF3,U2AF2,LUC7L3,M (dz=4.2); SF3A complex [SF3A1,DDX42,SF3B3,SF3A3] (dz=5.5)

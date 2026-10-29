@@ -46,7 +46,7 @@ W4 specific families incl. ELM motif-binding domains, cell death, cell-type TFs,
 - [!] W1 EukaryOMA cross-validation (results/eukaryoma_xval): 125 shared species, 87% proteins mapped; methods agree poorly on WHERE stem families arise: 29% of Ancestra stem gains confirmed (controls 11%; depth-adjusted expectation 22%), reverse 9%; duplications <8% either way; disagreements ~8 nodes apart; Metazoa stem dups Ancestra 6,617 vs EukaryOMA 196 → per-stem HOG counts are method-dependent; descriptive H1/H2 T 0.63 (EukaryOMA) vs 0.72 (Ancestra), direction agrees 4/5. C07 passes in Ancestra on the shared tree (round-1 failure was level labelling); C03/C06 fail in both.
 - [x] W0 errata (results/round1_errata/ERRATA.txt): SMD 2.06 confirmed (1.77 stale); power table unchanged with real branch lengths (≤0.025); Ancestra-event controls 7/10 (deep-node 0/3); H9 exact over 1,024 orientations p=0.31, ratio 1.06, no ≥1.5-fold shift in any orientation
 - [~] W1 EukaryOMA cross-validation · [~] W2 dense panel data
-- [~] W2 runs (R2 done 18 min; R3, R6, R1, R5, R8 running) · [~] W2/W3 analysis · [ ] W4 · [ ] W5 · [ ] W6 · [ ] W7 · [ ] verification · [ ] report update
+- [~] W2 runs (R2 done 18 min; R3, R6, R1, R5, R8 running) · [~] W2/W3 analysis · [ ] W4 · [ ] W5 · [ ] W6 · [-] W7 complexes (results/r2/w7): stem duplications show no consistent preference for LECA-complex subunits (OR 0.79–1.48, no complex significant after BH); co-retention slightly lower in multicellular species relative to null (paired p=0.008; exploratory, weak) · [ ] verification · [ ] report update
 
 ## ROUND 1 (frozen at tag phase1-final)
 
