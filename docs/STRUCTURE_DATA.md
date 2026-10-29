@@ -79,3 +79,6 @@ Throughput: 164 queries x 968 targets exhaustive = 4 s on 2 threads.
   limiter is now shared across processes via a flock-ed state file (runs/structure/.afdb_rate_state), so query runs and the reference download together stay under the EBI limit.
 - Test (T_metazoa, human queries): actin P60709 -> S. pombe actin (TM 1.00), calmodulin -> Plasmodium CaM (0.98), globin -> Physcomitrium (0.84), Q8N3Y1 -> S. pombe (0.55): all old;
   p53 (metazoan-specific-like) -> weak yeast hit TM 0.27: not old; 9/9 pLDDT-pass shuffled models: 0 hits.
+
+
+**Stopped 2026-10-29 01:30 by the PI** (t = 13.1 h): the per-species AFDB download was stopped after ~9 h because the exploratory structure analysis was complete (Swiss-Prot reference for all 7 transitions; per-species reference databases built for 4 of 7). Coverage at stop is as recorded above.
