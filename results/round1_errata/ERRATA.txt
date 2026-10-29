@@ -1,0 +1,202 @@
+ERRATA TO THE ROUND-1 REPORT (report/REPORT.md)
+================================================
+Written 2026-10-29 by the round-2 statistician, in response to the department-head review
+(reviews/round2_department_head_review.txt, items 2-4). The round-1 result files are frozen and were
+not modified; every number below comes from new scripts in scripts/errata/ (re-run all:
+scripts/errata/run_all.sh, ~3 min) with outputs in results/round1_errata/.
+
+Summary. Three statements in the report are wrong as written: the depth-imbalance number (1.77
+should be 2.06), the claim that power was simulated on the real tree's branch lengths, and the
+description of the 16 positive controls as a test of Ancestra. A fourth item, the rate-test p-value
+that depended on a random seed, is now replaced by an exact test over all 1,024 possible
+orientations. The headline conclusions of round 1 hold. One wording changes: the positive controls
+validate Ancestra's recent HOG placement, not its placement at deep nodes.
+
+
+1. HOW MUCH DEEPER THE STEMS ARE THAN THEIR CONTROLS (report §4.3 and §5; PREREG Dev-1; DESIGN v3.1)
+----------------------------------------------------------------------------------------------
+Claim in report. "Stems are deeper than controls by 1.77 control standard deviations."
+
+What the files show. results/primary/euk/smd.tsv, ALL row for depth, gives 2.06. This is the
+standardised mean difference (SMD): the mean depth of the 7 primary stems (8.71 edges from the root)
+minus the mean depth of their matched controls (4.99; 7 x 20 controls, counted with multiplicity),
+divided by the SD of depth over the 30-branch control pool (1.81). The row is the same for the H1/H2,
+H4 and H5 tests. The 1.77 is a stale number. It was computed at t = 1.6 h (decision D6), when two
+things were still different: (i) the fungal and volvocine stems were single edges
+(Blastocladiomycota_Amastigomycota, depth 10; TGV_clade, depth 12), before decision D7 made them
+path stems ending at Amastigomycota (11) and Gonium_Volvocaceae (13); and (ii) branch lengths were
+a placeholder 1.0, so matching ignored branch length. smd_provenance.py reproduces 1.772 exactly
+under those settings (setting C). With path stems and placeholder lengths it is 1.92 (setting B);
+with the analysed setting it is 2.06 (setting A, which matches smd.tsv). The number was copied
+forward into DESIGN, PREREG Dev-1, RESEARCH_TREE D6 and the report, and never recomputed.
+
+Corrected statement. "After matching, the stems are on average 2.06 control-pool standard
+deviations deeper than their matched controls (mean depth 8.7 vs 5.0 edges). Per stem the
+difference ranges from 0.80 SD (Dictyostelia) to 4.39 SD (volvocine path stem; fungal hyphae 3.29,
+animals 2.24). Without matching the difference is 2.26 SD. For the 6 stems of the flagellum test it
+is 2.24 SD." (results/round1_errata/smd_depth_provenance.tsv; results/primary/euk/smd.tsv.)
+
+Does a conclusion change? No. The imbalance is larger than reported, which makes the report's
+warning stronger. Dev-1 replaced the permutation null for H1/H2 by a parametric bootstrap because
+permutation is anti-conservative when stems lie outside the controls' range: 8.3% false
+positives at a 1-SD shift and 28.3% at 2.5 SD. A 2.06-SD shift makes that switch more necessary,
+not less. The H1/H2 p-values still rest on the regression model holding at depths the controls do
+not cover (see the reviewer's volvocine extrapolation point).
+
+
+2. THE POWER TABLE USED PLACEHOLDER BRANCH LENGTHS (report §4.3 "effects planted on the real tree"; PREREG power section)
+--------------------------------------------------------------------------------------------------------------------
+Claim in report. Power came from "effects planted on the real tree".
+
+What the files show. The reviewer is right. results/prereg/power_table.tsv has
+branch_lengths = "placeholder_1.0" on every row. scripts/prereg_power_table.py reads
+data/species_tree_bl_euk.nwk only if the file exists. It was committed at 15:21 on 2026-10-28, about
+an hour after the freeze (14:20), so every branch got length 1.0. PREREG.md does say so ("placeholder
+branch lengths"); the report dropped the caveat. "Real tree" was true only for the topology, the
+control pool and the matched sets. In the power simulation, branch length matters only through
+matching and the regression covariate, because the simulated counts have the same mean (20) on
+every branch. Neither version of the table therefore models the depth or branch-length confounding
+seen in the real data.
+
+Recomputation. power_table_real_bl.py re-runs the frozen script unchanged except for the
+branch-length source: same specs, effect grid, 200 simulations per point, 1,000 permutation draws,
+and the frozen seed scheme (SEED = 11; per-replicate seed 11*1,000,003 + spec*100,003 +
+int(1000*effect)*1009 + r). As a check, the placeholder setting run with the current code
+reproduces the frozen power_curves.tsv exactly (51/51 rows identical).
+
+Old (placeholder) vs new (real branch lengths), power at alpha = 0.05
+(results/round1_errata/power_old_vs_new.tsv, power_mde_old_vs_new.tsv):
+  test, assumption            power at 1.5x old -> new   80%-power MDE old -> new   size at no effect old -> new
+  H1/H2 novel genes, NB a=0.3      0.350 -> 0.335          2.42 -> 2.47 fold          0.085 -> 0.070
+  H1/H2 novel genes, NB a=1.0      0.130 -> 0.115          5.89 -> 6.00 fold          0.085 -> 0.065
+  H4 TF duplication                0.280 -> 0.285          OR 2.77 -> 2.80            0.050 -> 0.055
+  H5 adhesion/signalling           0.345 -> 0.370          OR 2.20 -> 2.17            0.050 -> 0.055
+  H9 rate, sd 0.15                 1.000 -> 1.000          1.26 -> 1.26 (identical)   0.070 -> 0.070
+  H9 rate, sd 0.30                 0.655 -> 0.655          1.69 -> 1.69 (identical)   0.055 -> 0.055
+  H12 flagellum                    80% never reached in either (max 0.325 -> 0.320 at 40-fold)
+Every difference at every effect size is 0.025 or less, within Monte-Carlo error (SE about 0.034
+at power 0.35 with 200 simulations). H9 is identical because its 10 controls are the whole pool
+(k = 10), so branch lengths never enter.
+
+Corrected statement. "Power was simulated on the real guide-tree topology, control pool and
+matching. The pre-registered table used placeholder branch lengths of 1.0 because the
+branch-length tree did not yet exist; re-running it with the real branch lengths changes no power
+value by more than 0.025 (1.5-fold power: 0.34/0.12 for H1/H2, 0.29 for H4, 0.37 for H5, 0.66-1.00 for
+H9). The simulation does not model the stems' greater depth."
+
+Does a conclusion change? No. The report's power numbers and the "absence of evidence" reading
+stand, and so does H9 being the only well-powered test.
+
+
+3. WHAT THE 16 POSITIVE CONTROLS VALIDATE (report Abstract, §4.7, §6.1, Figure 5)
+--------------------------------------------------------------------------------
+Claim in report. "Ancestra recovered 11 of 16 expected events."
+
+What the files show. 11/16 is the correct count (results/positive_controls/euk/controls.tsv). The
+statement is wrong because not all 16 controls test Ancestra. Each pass rule
+(data/positive_controls.tsv) and its scoring code (mcell/controls.py) were read and the controls
+sorted into three classes (positive_controls_classify.py → positive_controls_classified.tsv):
+  - Event placement: Ancestra must put a HOG origin, loss or duplication on a particular branch.
+    10 controls, 7 recovered: C01, C02, C04, C10, C11, C13 and C15 pass; C03, C06, C07 fail. C15
+    is a null control ("no expansion of stem duplications"), which a method that misses
+    duplications would also pass. Without it, 6 of 9 pass (5 of 8 high-confidence).
+  - HOG presence only: some Ancestra HOG with the domain is present at an ancestral node, with
+    members on both sides; no event is placed. 3 controls, 2 recovered: C05 and C09 pass, C08 fails.
+  - Per-species domain counts: Ancestra is not used at all. 3 controls, 2 recovered: C14 and C16
+    pass, C12 fails.
+Reviewer's points checked. (a) "All three deep-node HOG-placement controls C03/C06/C07 failed":
+correct, 0 of 3. (b) "Five passes (C05, C09, C12, C14, C16) never use Ancestra's events": partly
+correct. C12 is a failure, not a pass. C05(b) and C09 use Ancestra's HOGs, but only their presence
+at a node, not the timing of any event. So 4 passes (C05, C09, C14, C16) do not test event
+placement, and 2 of them (C14, C16) do not use Ancestra at all. The deep-node control C04 passes,
+but it only requires a HOG to be at least as old as Choanozoa, the lenient direction.
+
+Corrected statement. "11 of 16 positive controls were recovered, the pre-registered threshold. They
+test different things. Of the 10 that require Ancestra to place an event on a branch, 7 passed (6 of
+9 if the null control C15 is excluded), including all recent-stem gains (Wnt, TGF-beta, GRAS, Hex1).
+All three high-confidence controls of event placement at deep animal/opisthokont nodes failed
+(C03, C06, C07). Two of the passes (C14, C16) do not use Ancestra, and two (C05, C09) need only
+ancestral HOG presence."
+
+Does a conclusion change? The pass criterion is still met as frozen. The report should no longer
+treat the 11/16 as general validation of Ancestra. Event placement is validated on recent stems
+and fails at deep nodes. This strengthens the report's own caution about deep-node origins and
+duplication timing (§6.1, failure_diagnosis.md). It also weakens the support for the deep-stem
+gene-content tests (H1/H2, H4, H5 on the animal stem). Those tests were already non-significant,
+so no test result changes.
+
+
+4. THE RATE TEST (H9) DEPENDED ON A RANDOM ORIENTATION OF THE CONTROLS (report §4.5, §6.3)
+--------------------------------------------------------------------------------------------------
+What "orientation" means. For a transition, r = median over 250 marker genes of
+log(mean path length P→multicellular tips / P→sister tips), so r > 0 means the multicellular side
+evolved faster. A control node has no multicellular side. Its r is computed for its two child
+clades in a fixed alphabetical order (mcell/rates.control_triples) and then multiplied by a random
+sign (mcell/branchstats.h9_values, seed 11). With 10 controls there are 2^10 = 1,024 possible sign
+patterns ("orientations"). Round 1 used one of them. Across the five pre-registered seeds p ranged
+from 0.19 to 0.61 (results/h9/h9_seed_stability.tsv).
+
+Method (h9_all_orientations.py). Each of the 7 stems is ranked against all 10 controls, giving a
+percentile u = (#controls below + 0.5)/11. T is the mean percentile, and the test is two-sided on
+|T - 0.5|. The null permutes the 17 values over stem and control positions. Every stem is compared
+with the same 10 controls, so T depends only on which 7 values sit in stem positions. The null
+therefore has exactly C(17,7) = 19,448 equally likely relabellings. These were enumerated for
+every one of the 1,024 orientations, with no Monte-Carlo error. Checks: the 17 r values (7 stems, 10 controls) recomputed
+from the gene trees agree with the round-1 tables (max difference 5e-6). The exact p at the five
+pre-registered seeds agrees with round 1's Monte-Carlo p (seed 11: exact 0.270 vs 0.269; seed 41:
+0.193 vs 0.194; seed 37: 0.601 vs 0.606).
+
+Results (results/round1_errata/h9/summary.tsv, per_orientation.tsv):
+  - Distribution of p over the 1,024 orientations: min 0.055, 5th percentile 0.109, quartiles 0.270
+    / 0.475 / 0.740, max 1.0, mean 0.506. No orientation gives p <= 0.05; 3.1% give p <= 0.10. T
+    ranges from 0.45 to 0.76.
+  - Orientation-free tests: (a) mean p = 0.51 (twice the mean p, a valid p-value under any
+    dependence, is 1.0). (b) The test statistic averaged over all orientations is T_bar = 0.604. Its
+    exact permutation null applies the same averaging to each of the 19,448 relabellings, giving
+    p = 0.31.
+  - Pooled effect. The orientation-averaged control mean is exactly 0, so the orientation-free
+    pooled rate ratio is exp(mean stem r) = 1.06. Over the 1,024 orientations the pooled ratio
+    spans 0.94-1.20 (seed 11: 1.10). The 95% CI lies inside 0.67-1.5 in all 1,024 orientations,
+    both for the REML CI (overall range 0.82-1.37) and for the shared-control CI used in the report
+    (overall range 0.84-1.33; seed 11: 0.94-1.29). The CI excludes 1 in only 7.4% of orientations.
+  - Sensitivities over all orientations, giving the median p and the p of the orientation-averaged
+    statistic: genome-only taxa (6 stems, 7 controls) 0.63 and 0.86; control r from unicellular
+    tips only (9 controls) 0.47 and 0.28; without Dictyostelia 0.71 and 0.60.
+  - Controls containing multicellular species: in 9 of the 10 controls at least one child clade
+    contains multicellular species. Only Alveolata (Ciliophora vs Myzozoa) has none, so a test on
+    purely unicellular controls cannot be run (results/h9/h9_controls.tsv; run.json).
+  - Dictyostelid sister. The sister lineage is Myxogastria_Ceratiomyxa: Physarum polycephalum
+    (Physpol) and Ceratiomyxa fruticulosa. Both are EukProt transcriptomes in our data. A
+    Physarum genome assembly exists but is not in the data, and adding it would need new
+    BUSCO searches and gene trees, so it was not done here. The cheap check is to use each
+    sister alone: Physarum-only r = 0.348 (rate ratio 1.42, 95% CI 1.31-1.60, 191 genes);
+    Ceratiomyxa-only r = 0.285 (1.33, 1.25-1.39, 181 genes); both together r = 0.310 (1.36). The
+    dictyostelid stem keeps the same rank among the controls in every case: it is below only the
+    UTC_clade control (|r| = 0.36), and only when that control is oriented positive. So every p
+    above is unchanged. Physarum is itself a plasmodial (syncytial) organism, coded multicellular
+    for another transition, so it is not a clean unicellular sister either way.
+
+Corrected statement. "Averaged over all 1,024 possible orientations of the control pairs, the rate
+test is not significant: the orientation-averaged statistic has an exact permutation p = 0.31, and
+p falls between 0.055 and 1 depending on orientation, never at or below 0.05. The pooled rate ratio
+is 1.06 without orientation, between 0.94 and 1.20 across orientations, and its 95% CI stays inside
+0.67-1.5 for every orientation. In 9 of 10 controls one side contains multicellular species. The
+dictyostelid value (1.36) rests on two transcriptome sisters. It is 1.42 with Physarum alone and
+1.33 with Ceratiomyxa alone, so the test does not change. A genome-based sister was not tested."
+
+Does a conclusion change? No. H9 stays non-significant (Holm-adjusted p is still non-significant
+whichever p is used). The conclusion "no >= 1.5-fold average rate shift" holds in all 1,024
+orientations. The seed problem is solved by reporting the orientation-averaged test (p = 0.31) as
+the orientation-free result. The pre-registered seed-11 value (0.27) stays as the frozen primary
+number. The best point estimate of the pooled rate ratio is 1.06 rather than 1.10. Unchanged
+limitation: 9 of 10 controls are not purely unicellular comparisons.
+
+
+FILES
+  scripts/errata/smd_provenance.py            -> results/round1_errata/smd_depth_provenance.tsv
+  scripts/errata/power_table_real_bl.py       -> results/round1_errata/power_{placeholder,real}/
+  scripts/errata/compare_power.py             -> results/round1_errata/power_old_vs_new.tsv, power_mde_old_vs_new.tsv
+  scripts/errata/positive_controls_classify.py-> results/round1_errata/positive_controls_classified.tsv
+  scripts/errata/h9_all_orientations.py       -> results/round1_errata/h9/{summary,per_orientation,seed_check,
+                                                 r_values,pooled_effect_per_orientation}.tsv, run.json
+  scripts/errata/run_all.sh                   (re-runs all of the above; logs in logs/errata/)

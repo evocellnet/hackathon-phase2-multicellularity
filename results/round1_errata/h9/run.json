@@ -1,0 +1,55 @@
+{
+ "controls_sorted": [
+  "Alveolata",
+  "Amoebozoa",
+  "Amorphea",
+  "Archaeplastida",
+  "Chlorophyta",
+  "Diaphoretickes",
+  "Evosea",
+  "Holomycota",
+  "Stramenopiles",
+  "UTC_clade"
+ ],
+ "stems": [
+  "T_dictyostelia",
+  "T_fungi_hyphae",
+  "T_metazoa",
+  "T_px_filaments",
+  "T_rhodophyta",
+  "T_streptophyta",
+  "T_volvocine_tgv"
+ ],
+ "n_controls": 10,
+ "n_controls_with_mc_species_in_a_child_clade": 9,
+ "controls_without_mc_species": [
+  "Alveolata"
+ ],
+ "max_abs_diff_r_vs_round1": 4.825658383611486e-06,
+ "pooled_effect_over_orientations": {
+  "rr_min": 0.9360915632298678,
+  "rr_median": 1.0593083001828163,
+  "rr_max": 1.1987439207033415,
+  "rr_ci_low_min": 0.8186992524872846,
+  "rr_ci_high_max": 1.3706303875730406,
+  "frac_ci_inside_0_67_1_5": 1.0,
+  "frac_ci_excludes_1": 0.07421875,
+  "shared_ci_low_min": 0.8408969410739575,
+  "shared_ci_high_max": 1.3344489863530125,
+  "frac_shared_ci_inside_0_67_1_5": 1.0,
+  "seed11": {
+   "orientation_index": 839.0,
+   "pooled_diff": 0.09616637482287008,
+   "ci_low": -0.037830119713334914,
+   "ci_high": 0.23016286935907507,
+   "shared_rr": 1.100942217823944,
+   "shared_rr_ci_low": 0.9381716622217589,
+   "shared_rr_ci_high": 1.2919530783062627,
+   "rate_ratio": 1.100942217823944,
+   "rr_ci_low": 0.9628765007339775,
+   "rr_ci_high": 1.2588050140004146
+  },
+  "orientation_free_rr": 1.0593082982038287,
+  "note": "orientation-averaged control mean is exactly 0, so the orientation-free pooled difference is the mean stem r (equal weights: every stem has the same control set and variance)"
+ }
+}

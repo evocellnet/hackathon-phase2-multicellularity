@@ -26,8 +26,10 @@ W4 specific families incl. ELM motif-binding domains, cell death, cell-type TFs,
 - [x] R2-2 Scouting: EukaryOMA (docs/EUKARYOMA_SCOUTING.txt), Cox et al. CF-MS (docs/MARCOTTE_SCOUTING.txt), ELM interaction domains (200 Pfam)
 - [x] R2-3 GPU ProstT5 pilot (Foldseek GPU fell back to CPU: 15 prot/s; HF autoregressive: too slow; encoder+CNN: 48 prot/s, 97.1% agreement)
 - [~] R2-4 ProstT5 3Di for all proteomes (data/structure3di/all/)
-- [~] R2-5 Design round 2 + review (3 reviewers)
-- [~] W0 errata · [~] W1 EukaryOMA cross-validation · [~] W2 dense panel data
+- [x] R2-5 Design round 2 v1 after 3 reviews; pre-registered (tag prereg-r2)
+- [~] W4 family sets: P2 motif-binding, P3 cell death (confirmatory), P4 TFs + scans (exploratory)
+- [x] W0 errata (results/round1_errata/ERRATA.txt): SMD 2.06 confirmed (1.77 stale); power table unchanged with real branch lengths (≤0.025); Ancestra-event controls 7/10 (deep-node 0/3); H9 exact over 1,024 orientations p=0.31, ratio 1.06, no ≥1.5-fold shift in any orientation
+- [~] W1 EukaryOMA cross-validation · [~] W2 dense panel data
 - [ ] W2 runs · [ ] W3 · [ ] W4 · [ ] W5 · [ ] W6 · [ ] W7 · [ ] verification · [ ] report update
 
 ## ROUND 1 (frozen at tag phase1-final)
@@ -153,3 +155,4 @@ adds cost without informing the transitions (all prokaryotic transitions are com
 - D8 outcome (t=6.3h): the ORIGINAL frozen run finished the family stage first (18,944 s; peak 33.6 GB; 553,686 families incl. 468,618 singletons; max family 7,565; Σn² = 7.1e9). The patched run (verified byte-identical on prokaryotes) was stopped unused at 3% progress; its code is kept in scripts/ancestra_patch/ as a documented, tested speed-up for future runs.
 - D9 (R2 t=0.5h): ProstT5 3Di computed for ALL proteomes on the otherwise idle GPU (~17-20 h), multicellular species first, rather than only targeted sets: it enables Ancestra 3Di rescue on any panel and complete structural novelty checks; cost is GPU time only.
 - D10 (R2 t=0.9h): ProstT5 windowing (1,000 aa windows, 250 overlap) adopted: 34k vs 21k residues/s; identical for ≤1,000 aa (93% of proteins), 90.3% per-residue agreement with full-length prediction for 1,000–3,000 aa. GPU queue reordered by panel (Holozoa first, prokaryotes last) because the full set (~1.43 G residues) cannot finish in time with certainty.
+- D11 (R2 t=0.7h, 15:48): Round-2 pre-registration frozen (tag prereg-r2): DESIGN_ROUND2 v1 + frozen sets (ELM motif-binding 115+4, cell death 22, cell-type TFs 26, transposon mask 223), sha256 in data/r2_prereg/PREREG_R2_HASHES.tsv. Correction: the v1 header says "16:15"; the actual freeze time is 15:48 (header written ahead of time; file left unedited because it is hashed). No round-2 test output existed at freeze. Review changes adopted: confirmatory family = P1–P3 (Holm over 3); P1 only unseen simple→complex events; panels use `fast` (comparability) with patched Leiden, caps and go/no-go at t=8 h; W4 launched on the 187 round-1 species (annotations complete).

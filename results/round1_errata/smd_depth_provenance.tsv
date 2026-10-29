@@ -1,0 +1,26 @@
+transition_id	stem	covariate	stem_value	control_mean	smd	flag	setting	description	matching_covariates
+T_dictyostelia	Dictyostelia	depth	6	4.55	0.8013	True	A	round-1 analysis: path stems (D7), real branch lengths [= results/primary/euk/smd.tsv]	depth,log_bl,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_fungi_hyphae	Amastigomycota	depth	11	5.05	3.288	True	A	round-1 analysis: path stems (D7), real branch lengths [= results/primary/euk/smd.tsv]	depth,log_bl,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_metazoa	Metazoa	depth	9	4.95	2.238	True	A	round-1 analysis: path stems (D7), real branch lengths [= results/primary/euk/smd.tsv]	depth,log_bl,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_px_filaments	PX_clade	depth	8	5.35	1.464	True	A	round-1 analysis: path stems (D7), real branch lengths [= results/primary/euk/smd.tsv]	depth,log_bl,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_rhodophyta	Eurhodophytina	depth	7	5.05	1.078	True	A	round-1 analysis: path stems (D7), real branch lengths [= results/primary/euk/smd.tsv]	depth,log_bl,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	depth	7	4.9	1.16	True	A	round-1 analysis: path stems (D7), real branch lengths [= results/primary/euk/smd.tsv]	depth,log_bl,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_volvocine_tgv	Gonium_Volvocaceae	depth	13	5.05	4.393	True	A	round-1 analysis: path stems (D7), real branch lengths [= results/primary/euk/smd.tsv]	depth,log_bl,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+ALL		depth	8.714	4.986	2.06	True	A	round-1 analysis: path stems (D7), real branch lengths [= results/primary/euk/smd.tsv]	depth,log_bl,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+ALL_unmatched_vs_U		depth	8.714	4.633	2.255		D	no matching: 7 stems vs all 30 pool branches (SD_U)	none
+T_dictyostelia	Dictyostelia	depth	6	5.05	0.525	True	B	path stems, placeholder branch lengths 1.0 (frozen power-table setting)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_fungi_hyphae	Amastigomycota	depth	11	5.45	3.067	True	B	path stems, placeholder branch lengths 1.0 (frozen power-table setting)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_metazoa	Metazoa	depth	9	4.95	2.238	True	B	path stems, placeholder branch lengths 1.0 (frozen power-table setting)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_px_filaments	PX_clade	depth	8	5.4	1.437	True	B	path stems, placeholder branch lengths 1.0 (frozen power-table setting)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_rhodophyta	Eurhodophytina	depth	7	5.3	0.9394	True	B	path stems, placeholder branch lengths 1.0 (frozen power-table setting)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	depth	7	5.05	1.078	True	B	path stems, placeholder branch lengths 1.0 (frozen power-table setting)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_volvocine_tgv	Gonium_Volvocaceae	depth	13	5.5	4.145	True	B	path stems, placeholder branch lengths 1.0 (frozen power-table setting)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+ALL		depth	8.714	5.243	1.918	True	B	path stems, placeholder branch lengths 1.0 (frozen power-table setting)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_dictyostelia	Dictyostelia	depth	6	5.05	0.525	True	C	pre-D7 stems (git 8b77079), placeholder branch lengths (decision D6, t=1.6 h)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_fungi_hyphae	Blastocladiomycota_Amastigomycota	depth	10	5.3	2.597	True	C	pre-D7 stems (git 8b77079), placeholder branch lengths (decision D6, t=1.6 h)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_metazoa	Metazoa	depth	9	4.95	2.238	True	C	pre-D7 stems (git 8b77079), placeholder branch lengths (decision D6, t=1.6 h)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_px_filaments	PX_clade	depth	8	5.4	1.437	True	C	pre-D7 stems (git 8b77079), placeholder branch lengths (decision D6, t=1.6 h)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_rhodophyta	Eurhodophytina	depth	7	5.3	0.9394	True	C	pre-D7 stems (git 8b77079), placeholder branch lengths (decision D6, t=1.6 h)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_streptophyta	Klebsormidiophyceae_Phragmoplastophyta	depth	7	5.05	1.078	True	C	pre-D7 stems (git 8b77079), placeholder branch lengths (decision D6, t=1.6 h)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+T_volvocine_tgv	TGV_clade	depth	12	5.5	3.592	True	C	pre-D7 stems (git 8b77079), placeholder branch lengths (decision D6, t=1.6 h)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister
+ALL		depth	8.429	5.221	1.772	True	C	pre-D7 stems (git 8b77079), placeholder branch lengths (decision D6, t=1.6 h)	depth,log_n_desc,log_n_sister,frac_tx_desc,frac_tx_sister

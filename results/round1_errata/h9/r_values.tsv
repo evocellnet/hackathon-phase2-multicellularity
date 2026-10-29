@@ -1,0 +1,20 @@
+unit	kind	r	r_round1	r_genome_only	n_genes	r_unicellular_tips_only	n_mc_tips_child1	n_mc_tips_child2	ci_lo	ci_hi
+T_dictyostelia	stem	0.309599	0.3096		225					
+T_fungi_hyphae	stem	0.127064	0.12706	0.127064	248					
+T_metazoa	stem	-0.122537	-0.12254	-0.139082	250					
+T_px_filaments	stem	-0.209491	-0.20949	-0.255112	221					
+T_rhodophyta	stem	0.148102	0.1481	0.148102	145					
+T_streptophyta	stem	-0.0123965	-0.012396	0.00107849	239					
+T_volvocine_tgv	stem	0.162972	0.16297	0.162972	177					
+Alveolata	control	0.0504937	0.050494	0.10125	85	0.0504937	0	0		
+Amoebozoa	control	0.025664	0.025664		242	-0.0357722	6	1		
+Amorphea	control	-0.134286	-0.13429	-0.258773	246	-0.147188	7	37		
+Archaeplastida	control	0.140517	0.14052		202	0.123995	5	16		
+Chlorophyta	control	-0.0743427	-0.074343	-0.0743427	183	-0.0306564	0	7		
+Diaphoretickes	control	-0.121458	-0.12146	-0.141228	247	-0.112519	21	9		
+Evosea	control	0.0651347	0.065135		227		6	0		
+Holomycota	control	0.00670083	0.0067008	-0.220304	167	0.399652	21	1		
+Stramenopiles	control	0.25758	0.25758	0.27472	159	0.243165	0	8		
+UTC_clade	control	-0.360405	-0.3604	-0.360405	208	-0.256202	6	1		
+T_dicty_S_Physpol	stem_variant	0.347959			191				0.267561	0.46912
+T_dicty_S_Cerafru	stem_variant	0.285477			181				0.22396	0.327232
