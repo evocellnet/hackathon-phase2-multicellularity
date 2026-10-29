@@ -3,7 +3,7 @@ import sys, json, numpy as np, pandas as pd
 import statsmodels.api as sm
 from scipy import stats, optimize
 P = '/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity'
-OUT = P + '/results/r2/verification/panels'
+OUT = P + '/results/r2/verification/panels' + ('/clip1e-4' if len(sys.argv) > 1 else '')
 panels = ['R1','R2','R3','R4','R5','R6','R7','R8']
 B = []; E = []
 for R in panels:
@@ -13,7 +13,8 @@ B = pd.concat(B, ignore_index=True); E = pd.concat(E, ignore_index=True)
 def tf(x): return x.astype(str) == 'True'
 B['control'] = tf(B['control'])
 covs = ['log_bl','log_n','frac_tx','mean_busco','log_dout']
-B['log_bl'] = np.log(B['bl']); B['log_n'] = np.log(B['n_desc']); B['log_dout'] = np.log(B['dist_outgroup'])
+CLIP = float(sys.argv[1]) if len(sys.argv) > 1 else 0.0
+B['log_bl'] = np.log(B['bl'].clip(lower=CLIP) if CLIP > 0 else B['bl']); B['log_n'] = np.log(B['n_desc']); B['log_dout'] = np.log(B['dist_outgroup'])
 C = B[B.control].copy().reset_index(drop=True)
 print('controls by panel', C.groupby('panel').size().to_dict(), 'total', len(C))
 mu_c = C[covs].mean(); sd_c = C[covs].std(ddof=0)
@@ -102,3 +103,34 @@ res = dict(alpha=alpha, n_controls=len(C), p1=S[['rr','lo','hi','p_perm','n_matc
            stouffer_Z=Z, stouffer_p=pst, p1_meta=meta, internal_simple_complex=dict(meta_int, events=list(sc.event_id)))
 json.dump(res, open(OUT+'/verify_stats.json','w'), indent=1, default=float)
 print(json.dumps(res, indent=1, default=float))
+
+# ---- Task 4: tip comparability ----
+B['tip_control'] = tf(B['tip_control']) & B['seq_novel'].notna()
+T = B[B.tip_control].copy()
+xT = design(T).values.astype(float)
+T['rr_primary'] = (T.seq_novel + 0.5) / (np.exp(xT @ beta) + 0.5)
+print('non-event uni tip controls under primary internal-control model: n', len(T),
+      'geomean RR', np.exp(np.log(T.rr_primary).mean()), 'median', T.rr_primary.median())
+print(T.groupby('panel').rr_primary.apply(lambda v: np.exp(np.log(v).mean())).to_dict())
+# tip-control model (METHODS item 9): panels R4,R6, covs log_bl, mean_busco, log_dout (+frac_tx if varying)
+tcovs = [c for c in ['log_bl','frac_tx','mean_busco','log_dout'] if T[c].std() > 0]
+tm, ts = T[tcovs].mean(), T[tcovs].std(ddof=1)
+def tdesign(df):
+    X = pd.DataFrame({'const': 1.0}, index=df.index); X['panel_R6'] = (df.panel == 'R6').astype(float)
+    for c in tcovs: X[c] = (df[c].astype(float) - tm[c]) / ts[c]
+    return X
+def tfit(df):
+    X = tdesign(df).values.astype(float); y = df.seq_novel.astype(float).values
+    p0 = sm.GLM(y, X, family=sm.families.Poisson()).fit().params
+    r = optimize.minimize(nb_nll, np.r_[p0, np.log(0.3)], args=(X, y), method='BFGS', options={'gtol':1e-8})
+    return r.x[:-1], float(np.exp(r.x[-1]))
+T = T.reset_index(drop=True); tb, ta = tfit(T); print('tip alpha', ta, 'covs', tcovs)
+T['s'] = [np.log((T.seq_novel[i]+0.5)/(np.exp(tdesign(T.iloc[[i]]).values[0].astype(float) @ tfit(T.drop(i))[0])+0.5)) for i in range(len(T))]
+tp = {}
+for eid in ['R4_astrephomene','R4_volvox_carteri','R4_pleodorina']:
+    M = E.set_index('event_id').loc[eid, 'M']; br = B[(B.panel=='R4')&(B.branch_child==M)]
+    s = float(np.log((br.seq_novel.iloc[0]+0.5)/(np.exp(tdesign(br).values[0].astype(float) @ tb)+0.5)))
+    sc_ = T[T.panel=='R4'].s; tp[eid] = dict(rr=np.exp(s), p=(1+(sc_>=s).sum())/(len(sc_)+1), n=len(sc_))
+print('tip-control comparisons', tp)
+ps = [tp['R4_astrephomene']['p'], tp['R4_volvox_carteri']['p'], res['p1']['R4_volvox_africanus']['p_perm'], res['p1']['R6_fucophycidae']['p_perm']]
+Zt = stats.norm.ppf(1-np.array(ps)).sum()/2; print('tip-sensitivity Stouffer p', 1-stats.norm.cdf(Zt), ps)

@@ -57,3 +57,10 @@ D-P10 (addition, post hoc, descriptive). scripts/r2/panels/event_classes.py pool
 D-P11 (fix). The secondary-set panel filter in pooled.py compared panel names literally, so R4_curated events were left out
   of the secondary estimates in the first sens_R4curated run (P1 unaffected). Filter changed to the base panel name;
   that directory was deleted and regenerated. final_8panels is unaffected (plain panel names).
+
+[2026-10-29T22:16:08+01:00] D-PI-1 (PI, after independent verification; results/r2/verification/panels/VERIFICATION.txt)
+The confirmatory P1 implementation (scripts/r2/panels/pooled.py) floors branch length at 1e-4 before log(); this was not in
+METHODS_DEFINITIONS.txt or the pre-registration. It changes one control branch (R7 Cavosteliaceae, length 2.8e-5). Seen: both values.
+The specification as written (no floor) gives Stouffer one-sided p = 0.0504 (V. africanus p 0.429; pooled RR 4.90); the implemented
+value is p = 0.072. Decision: the spec-literal value (0.0504) is reported as the confirmatory P1 result, the floored value as the
+implemented variant. Holm conclusion is unchanged (second step requires p < 0.025): P1 not significant.

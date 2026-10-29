@@ -1,0 +1,104 @@
+INDEPENDENT VERIFICATION: ROUND-2 DENSE PANELS, CONFIRMATORY R2-P1 (results/r2/panels/pooled/final_8panels)
+Verifier: independent agent, 2026-10-29. Own code: scripts/r2/verification/panels/verify_stats.py and spotcheck_counts.py
+(neither imports scripts/r2/panels or mcell.branchstats/gainladder; mcell.hogs is used only to parse OrthoXML, as instructed).
+The producer's pooled.py was read only after the first independent run, to explain a difference (item 1b).
+Outputs: verify_stats.json, verify_event_residuals.tsv, verify_control_loo_residuals.tsv (no floor; spec-literal),
+clip1e-4/ (same files with the producer's branch-length floor), spotcheck/ (summary.json, family_level.tsv, DIAMOND hits).
+
+OVERALL: PASS, WITH ONE FLAGGED UNDOCUMENTED CHOICE. The headline numbers reproduce exactly once the producer's
+undocumented 1e-4 branch-length floor is applied. Under the spec as written (no floor), V. africanus p and the Stouffer p
+move outside the tolerance. The conclusion (not significant) holds either way, but only just in the second case.
+
+---------------------------------------------------------------------------------------------------------------
+1. Statistics recomputed from the per-branch tables. PASS (exact) with the floor; FAIL on tolerance without it.
+---------------------------------------------------------------------------------------------------------------
+Own implementation: NB2 maximum-likelihood fit (scipy) on the 55 internal non-crown controls (R1 8, R2 7, R3 6, R4 6, R5 5,
+R6 5, R7 9, R8 9: matches). Panel intercepts plus 5 standardised covariates. Leave-one-out control residuals. Event residual
+log((y+.5)/(yhat+.5)). Variance 1/(yhat+.5)+alpha+x'Vx. Depth-class matched sets with widening. One-sided permutation p.
+Stouffer. REML tau^2 with modified Hartung-Knapp (q* = max(1,q)).
+
+1a. With the producer's floor (log(max(bl, 1e-4))):
+                          producer                 verifier
+  alpha                   0.478                    0.478
+  Astrephomene            p 0.143, RR 13.2         p 0.143, RR 13.21     PASS
+  Volvox carteri          p 0.143, RR 14.2         p 0.143, RR 14.22     PASS
+  V. africanus/retic.     p 0.571, RR 1.19         p 0.571, RR 1.190     PASS
+  Fucophycidae            p 0.167, RR 1.84         p 0.167, RR 1.841     PASS
+  n matched               6/6/6/5 (all widened)    6/6/6/5               PASS
+  Stouffer Z, p           1.461, 0.0720            1.461, 0.0720         PASS
+  Pooled RR [95% CI]      4.63 [0.58, 37.0]        4.63 [0.57, 37.3]     PASS (tau^2 1.01 vs 0.97: V(beta) from the
+                                                                          observed vs the expected information)
+  Internal-only s->c k=7  2.70 [1.29, 5.63]        2.68 [1.29, 5.58]     PASS
+  Tip-control P1 sens.    Stouffer p 0.565         0.565 (tip RR 0.56 / 0.80 / Pleodorina 1.60; p 0.85 / 0.54 / 0.31)  PASS
+
+1b. Discrepancy. pooled.py applies log(bl.clip(lower=1e-4)) and log(dist_outgroup.clip(lower=1e-4)).
+METHODS_DEFINITIONS item 5 says only "log(branch length)", round-1 code has no such floor, and DEVIATIONS does not
+mention it. The floor changes exactly one control: R7 Cavosteliaceae, bl = 2.8e-5. Through the shared slopes this changes
+the fit (log_bl slope 0.37 -> 0.42) and the ranking of R4 control residuals.
+Spec-literal result, without the floor:
+  V. africanus p = 0.429 (not 0.571; RR 1.27); other p unchanged; RRs 13.6 / 14.9 / 1.27 / 2.01 (+3 to +9 %)
+  Stouffer p = 0.0504 (not 0.072). This is outside the +/-0.01 tolerance, but still > 0.05 and n.s. after Holm.
+  Pooled RR 4.90 [0.63, 38.4] (+6 %, just outside tolerance); internal-only s->c 2.81 [1.34, 5.89] (+4 %, within tolerance).
+Plain reading: the floor is a defensible numerical guard against a near-zero branch. It is still an undocumented analysis
+choice, and it moves the confirmatory p from borderline (0.050) to 0.072. It should be recorded in DEVIATIONS, with both
+values reported. The minimum attainable per-event p (1/6, 1/7) makes the statistic jump in coarse steps, so one control's
+rank decides this.
+
+---------------------------------------------------------------------------------------------------------------
+2. Input counts spot-checked. PASS
+---------------------------------------------------------------------------------------------------------------
+Raw gains, from mcell.hogs.parse_hogs on runs/r2/<R>/hogs.orthoxml (guide tree identical to data/dense/<R>/guide_tree.nwk;
+0 conservation violations in R4 and R6):
+  R4 Volvcar (P1 event, tip)        1372 = table 1372  (losses 9089, dups 1028 also match)
+  R4 V. africanus/retic. (P1 event)  119 = table 119
+  R6 Fucophycidae (P1 event)         753 = table 753   (losses 2015, dups 5924 match)
+  R4 Chlamydomonadales (control)    2196 = table 2196
+  R6 Ochrophyta (control)           6137 = table 6137
+Sequence novelty: 50 random gained families per branch (200 in total), with my own representatives (up to 3 per family,
+longest genes spread over child clades). DIAMOND with the stated settings. Novel = no hit outside the clade.
+Clade = panel tips below the node plus placed round-1 species; Vaucheria was added for Ochrophyta, as expected.
+DB composition checked: panel species plus all round-1 eukaryotes (193 species for R4, 199 for R6).
+  branch               table novel fraction   my sample fraction   family-level agreement with producer
+  Volvcar              0.948                  0.94                 50/50
+  Chlamydomonadales    0.386                  0.38                 47/50 (2 me-novel, 1 producer-novel)
+  Fucophycidae         0.655                  0.58                 50/50
+  Ochrophyta           0.133                  0.10                 49/50
+196/200 calls agree (98 %). The 4 disagreements go both ways and are borderline families where the choice of
+representatives matters. Caveat: I searched the producer's db.dmnd (composition verified) rather than rebuilding it.
+
+---------------------------------------------------------------------------------------------------------------
+3. P1 mapping and pre-declaration. PASS (with notes)
+---------------------------------------------------------------------------------------------------------------
+- p1_events.tsv (tag prereg-r2-p1, 16:02:54) predates every round-2 OrthoXML (first: R2 at 16:21). DESIGN §6 (tag
+  prereg-r2, 15:48) fixes the statistic: depth-class-matched permutation, Stouffer, modified HK.
+- Mapping: R4 events map to tips Astrgub and Volvcar and node Volvox_africanus_reticuliferus, as named in transitions.tsv.
+  R6_fucophycidae maps to node 'Fucophycidae', which is the MRCA of the 10 sampled Desmarestiales/Ectocarpales/Fucales/
+  Laminariales taxa. I checked this against the guide tree. p1_mapping.txt mtime 16:37 < R6 hogs.orthoxml 16:45, so it
+  was written before R6 output.
+- METHODS_DEFINITIONS mtime 16:32 precedes the first novelty output (R2 ladder 17:08). D-P9 (declaring final_8panels
+  as the confirmatory run) is stamped 20:29. That is after the R4 branch table (20:28:46) and before the final_8panels
+  outputs (21:06:33). The computed statistic matches the declared one, and P1 was not re-chosen afterwards (sensitivities
+  are labelled as such).
+- Notes: (i) The in-file timestamps in DEVIATIONS/METHODS are self-reported. These files were first committed at 22:02,
+  so only file mtimes and log mtimes corroborate them, and they are consistent. (ii) interim_5panels (18:40) already
+  showed the R6_fucophycidae P1 component before the final run. This is disclosed in D-P5, and nothing confirmatory was
+  changed after it. (iii) The undocumented bl floor of item 1b is a choice the declaration does not cover.
+- Design caveat, not an error: the pre-registration lists two TIP events as confirmatory but permutes them against
+  INTERNAL controls. This was frozen before the data, so the run is faithful to it, but see item 4.
+
+---------------------------------------------------------------------------------------------------------------
+4. Tip-vs-internal comparability. Claim CORRECT
+---------------------------------------------------------------------------------------------------------------
+- Reversal tips: pooled RR 20.7 [10.7, 40.0] against internal controls (k = 9, event_class_comparators.tsv). My residuals
+  give a geometric mean RR of 20.8 with the floor and 22.1 without it. Origin tips score about 19-20 and simple->complex
+  tips about 41-44. The "~21x" statement is correct.
+- Extra check: ordinary non-event unicellular tips (the 23 tip controls in R4/R6) score about 8x under the same
+  internal-control model (R4 6.6x, R6 9.9x). So any tip is inflated against internal branches, whatever its
+  multicellular status. Against tip controls the P1 tips give RR 0.56 (Astrephomene) and 0.80 (V. carteri).
+- Conclusion: the two P1 tip events produce the large primary RRs (13-14) and drive the pooled 4.6. Both effects
+  disappear against like-for-like tip controls (sensitivity Stouffer p 0.57, reproduced). The producer's interpretation
+  ("no confirmatory evidence; tip RRs are a tip/internal artefact") is supported. The interpretable comparison is the
+  internal-only s->c RR of 2.7 [1.3, 5.6]. It reproduces, but it is exploratory, 3 of its 7 events were seen in round 1,
+  and it does not clear the 2.2x stem-inflation bar.
+
+Not verified here: positive controls 14/18 (outside the task list); W3 domain tables.
