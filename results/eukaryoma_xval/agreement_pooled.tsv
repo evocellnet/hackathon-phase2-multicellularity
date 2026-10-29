@@ -1,0 +1,25 @@
+direction	event	group	n_branches	n_events	n_mapped	same	deeper	shallower	other	unmapped	frac_same	frac_deeper	frac_shallower	median_branch_frac_same	odds_ratio_same	fisher_p	expected_frac_same	n_baseline_branches
+ancestra->eukaryoma	dup	stems_exact	8.0	5195.0	5180.0	593.0	926.0	2566.0	1095.0	15.0	0.1145	0.1788	0.4954	0.0623				
+ancestra->eukaryoma	dup	stems_approx	7.0	7500.0	7480.0	809.0	1602.0	965.0	4104.0	20.0	0.1082	0.2142	0.129	0.1076				
+ancestra->eukaryoma	dup	controls_exact	26.0	14855.0	14817.0	664.0	3826.0	9529.0	798.0	38.0	0.0448	0.2582	0.6431	0.0378				
+ancestra->eukaryoma	dup	other_internal_exact	60.0	46621.0	46383.0	2883.0	11718.0	28767.0	3015.0	238.0	0.0622	0.2526	0.6202	0.0428				
+ancestra->eukaryoma	dup	stems_vs_controls_fisher													2.7555378479253836	2.9745004662916576e-63		
+ancestra->eukaryoma	gain	stems_exact	6.0	1966.0	1859.0	540.0	345.0	974.0	0.0	107.0	0.2905	0.1856	0.5239	0.2142				
+ancestra->eukaryoma	gain	stems_approx	3.0	1206.0	1206.0	672.0	152.0	382.0	0.0	0.0	0.5572	0.126	0.3167	0.3961				
+ancestra->eukaryoma	gain	controls_exact	26.0	10760.0	10753.0	1137.0	5958.0	3658.0	0.0	7.0	0.1057	0.5541	0.3402	0.0486				
+ancestra->eukaryoma	gain	other_internal_exact	60.0	23329.0	23098.0	4634.0	7225.0	11239.0	0.0	231.0	0.2006	0.3128	0.4866	0.1392				
+ancestra->eukaryoma	gain	stems_vs_controls_fisher													3.462445564221716	1.9490034841519353e-86		
+eukaryoma->ancestra	dup	stems_exact	8.0	2790.0	2787.0	615.0	1003.0	1123.0	46.0	3.0	0.2207	0.3599	0.4029	0.0911				
+eukaryoma->ancestra	dup	stems_approx	7.0	2940.0	2938.0	867.0	665.0	1320.0	86.0	2.0	0.2951	0.2263	0.4493	0.3645				
+eukaryoma->ancestra	dup	controls_exact	26.0	12969.0	12939.0	642.0	6440.0	5284.0	573.0	30.0	0.0496	0.4977	0.4084	0.0372				
+eukaryoma->ancestra	dup	other_internal_exact	60.0	36847.0	36712.0	2815.0	12052.0	20905.0	940.0	135.0	0.0767	0.3283	0.5694	0.0704				
+eukaryoma->ancestra	dup	stems_vs_controls_fisher													5.423497444105953	4.813515724350953e-157		
+eukaryoma->ancestra	gain	stems_exact	6.0	5912.0	5750.0	542.0	5075.0	133.0	0.0	162.0	0.0943	0.8826	0.0231	0.0769				
+eukaryoma->ancestra	gain	stems_approx	3.0	3914.0	3909.0	726.0	3111.0	72.0	0.0	5.0	0.1857	0.7959	0.0184	0.0912				
+eukaryoma->ancestra	gain	controls_exact	26.0	10563.0	10463.0	1482.0	8589.0	392.0	0.0	100.0	0.1416	0.8209	0.0375	0.0539				
+eukaryoma->ancestra	gain	other_internal_exact	60.0	36284.0	35635.0	5050.0	29414.0	1171.0	0.0	649.0	0.1417	0.8254	0.0329	0.0482				
+eukaryoma->ancestra	gain	stems_vs_controls_fisher													0.6306738206143979	6.216654541314321e-19		
+ancestra->eukaryoma	dup	stems_exact_depth_adjusted	8.0								0.1145						0.0669	86.0
+ancestra->eukaryoma	gain	stems_exact_depth_adjusted	6.0								0.2905						0.2198	86.0
+eukaryoma->ancestra	dup	stems_exact_depth_adjusted	8.0								0.2207						0.0816	86.0
+eukaryoma->ancestra	gain	stems_exact_depth_adjusted	6.0								0.0943						0.1187	86.0

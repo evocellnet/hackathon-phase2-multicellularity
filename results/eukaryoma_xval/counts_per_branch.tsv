@@ -1,0 +1,316 @@
+branch_id	role	tier	status	method	n_edges	top	bottom	gains_all	gains_supported	losses	dups	dup_events	depth	n_desc	n_parent	n_child
+T_metazoa	stem	primary	exact	ancestra	1	Choanozoa	Metazoa	804	804	8991	6617	1395	9	15	28889	27404
+T_metazoa	stem	primary	exact	eukaryoma	1	Choanozoa	Metazoa	2502	2502	6027	196	90	9	15	19212	15883
+T_metazoa	stem	primary	exact	ancestra_hints	1	Choanozoa	Metazoa	768	768	9176	6637	1413	9	15	29335	27649
+T_fungi_hyphae	stem	primary	approx	ancestra	2	Eumycota	Dikarya	113	113	5162	1158	619	11	8	10856	6984
+T_fungi_hyphae	stem	primary	approx	eukaryoma	2	Eumycota	Dikarya	344	344	8237	1371	1152	11	8	12962	6440
+T_fungi_hyphae	stem	primary	approx	ancestra_hints	2	Eumycota	Dikarya	194	137	5265	1163	621	11	8	10975	7086
+T_fungi_hyphae_gonapodya	stem	secondary	exact	ancestra	1	chytridiomyceta	Gonapro	4367	0	2254	2336	1014	11	1	9268	13795
+T_fungi_hyphae_gonapodya	stem	secondary	exact	eukaryoma	1	chytridiomyceta	Gonapro	7849	0	2160	861	557	11	1	7188	13785
+T_fungi_hyphae_gonapodya	stem	secondary	exact	ancestra_hints	1	chytridiomyceta	Gonapro	4352	0	2341	2326	1009	11	1	9385	13795
+T_fungi_pezizomycotina	stem	primary	approx	ancestra	1	saccharomyceta	Neurcra	2902	0	888	1126	591	14	1	6559	9751
+T_fungi_pezizomycotina	stem	primary	approx	eukaryoma	1	saccharomyceta	Neurcra	5325	0	874	346	301	14	1	5132	10075
+T_fungi_pezizomycotina	stem	primary	approx	ancestra_hints	1	saccharomyceta	Neurcra	2804	0	920	1085	590	14	1	6739	9751
+T_fungi_agaricomycetes	stem	primary	approx	ancestra	1	Agaricomycotina	Agaricineae	785	785	686	1306	438	14	2	6744	8258
+T_fungi_agaricomycetes	stem	primary	approx	eukaryoma	1	Agaricomycotina	Agaricineae	1877	1877	548	470	250	14	2	5606	7405
+T_fungi_agaricomycetes	stem	primary	approx	ancestra_hints	1	Agaricomycotina	Agaricineae	762	762	709	1378	463	14	2	6817	8357
+T_dictyostelia	stem	primary	exact	ancestra	1	Eumycetozoa	Dictyostelia	442	442	4577	1308	588	6	4	12078	9283
+T_dictyostelia	stem	primary	exact	eukaryoma	1	Eumycetozoa	Dictyostelia	1904	1904	4173	530	245	6	4	9865	8126
+T_dictyostelia	stem	primary	exact	ancestra_hints	1	Eumycetozoa	Dictyostelia	604	527	4727	1268	631	6	4	12429	9606
+T_fonticula	stem	secondary	exact	ancestra	1	Rotosphaerida	Fontalb	1809	0	5866	371	174	8	1	9570	5894
+T_fonticula	stem	secondary	exact	eukaryoma	1	Rotosphaerida	Fontalb	3651	0	2283	133	110	8	1	4617	6122
+T_fonticula	stem	secondary	exact	ancestra_hints	1	Rotosphaerida	Fontalb	1807	0	5931	366	172	8	1	9642	5894
+T_volvocales_gv	stem	primary	approx	ancestra	1	Chlamydomonas_TGV	Volvcar	1670	0	2151	4101	1579	9	1	10496	14332
+T_volvocales_gv	stem	primary	approx	eukaryoma	1	Chlamydomonas_TGV	Volvcar	6433	0	1132	581	287	9	1	8339	14278
+T_volvocales_gv	stem	primary	approx	ancestra_hints	1	Chlamydomonas_TGV	Volvcar	1648	0	2475	4016	1559	9	1	10928	14332
+T_streptophyta	stem	primary	exact	ancestra	1	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	247	247	2428	2343	867	7	7	14372	14547
+T_streptophyta	stem	primary	exact	eukaryoma	1	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	923	923	536	1123	970	7	7	9762	11272
+T_streptophyta	stem	primary	exact	ancestra_hints	1	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	230	189	2488	2655	965	7	7	14612	15022
+T_embryophyta	stem	primary	approx	ancestra	1	Coleochaetophyceae_Anydrophyta	Embryophyta	308	308	2831	3157	951	9	5	14299	14934
+T_embryophyta	stem	primary	approx	eukaryoma	1	Coleochaetophyceae_Anydrophyta	Embryophyta	1693	1693	1249	489	257	9	5	9988	10921
+T_embryophyta	stem	primary	approx	ancestra_hints	1	Coleochaetophyceae_Anydrophyta	Embryophyta	322	307	2887	3143	951	9	5	14429	15008
+T_rhodophyta	stem	primary	exact	ancestra	1	Rhodophytina	Eurhodophytina	87	87	1906	1011	347	7	5	8959	8186
+T_rhodophyta	stem	primary	exact	eukaryoma	1	Rhodophytina	Eurhodophytina	117	117	5564	396	199	7	5	12099	7048
+T_rhodophyta	stem	primary	exact	ancestra_hints	1	Rhodophytina	Eurhodophytina	83	83	1926	1017	348	7	5	9016	8225
+T_florideophyceae	stem	primary	exact	ancestra	1	Eurhodophytina	Rhodymeniophycidae	306	306	1761	943	421	8	3	8186	7675
+T_florideophyceae	stem	primary	exact	eukaryoma	1	Eurhodophytina	Rhodymeniophycidae	404	404	2416	479	230	8	3	7048	5515
+T_florideophyceae	stem	primary	exact	ancestra_hints	1	Eurhodophytina	Rhodymeniophycidae	305	305	1783	946	424	8	3	8225	7694
+T_px_filaments	stem	secondary	exact	ancestra	1	Ochrophyta	PX_clade	80	80	7779	513	389	8	2	18422	11237
+T_px_filaments	stem	secondary	exact	eukaryoma	1	Ochrophyta	PX_clade	62	62	4552	1040	389	8	2	9793	6343
+T_px_filaments	stem	secondary	exact	ancestra_hints	1	Ochrophyta	PX_clade	339	68	7953	541	396	8	2	18697	11625
+T_phaeophyceae	stem	primary	approx	ancestra	1	PX_clade	Ectosil	2887	0	1915	3612	1743	9	1	11237	16152
+T_phaeophyceae	stem	primary	approx	eukaryoma	1	PX_clade	Ectosil	10319	0	1545	745	406	9	1	6343	15975
+T_phaeophyceae	stem	primary	approx	ancestra_hints	1	PX_clade	Ectosil	2577	0	1956	3664	1782	9	1	11625	16152
+T_volvocine_tgv	stem	primary	approx	ancestra	1	Chlamydomonas_TGV	Volvcar	1670	0	2151	4101	1579	9	1	10496	14332
+T_volvocine_tgv	stem	primary	approx	eukaryoma	1	Chlamydomonas_TGV	Volvcar	6433	0	1132	581	287	9	1	8339	14278
+T_volvocine_tgv	stem	primary	approx	ancestra_hints	1	Chlamydomonas_TGV	Volvcar	1648	0	2475	4016	1559	9	1	10928	14332
+Bikonta	other		exact	ancestra	1	Eukaryota	Bikonta	6649	6649	0	3136	917	1	63	14699	24484
+Bikonta	other		exact	eukaryoma	1	Eukaryota	Bikonta	2951	2951	0	4860	3221	1	63	22607	30418
+Bikonta	other		exact	ancestra_hints	1	Eukaryota	Bikonta	6772	6649	1414	3147	920	1	63	16497	25002
+Diaphoretickes	control		exact	ancestra	1	Bikonta	Diaphoretickes	4066	4066	2476	4393	1658	2	54	24484	31571
+Diaphoretickes	control		exact	eukaryoma	1	Bikonta	Diaphoretickes	3375	3375	7370	151	118	2	54	30418	26574
+Diaphoretickes	control		exact	ancestra_hints	1	Bikonta	Diaphoretickes	4420	4144	2668	4487	1675	2	54	25002	32345
+Archaeplastida	control		exact	ancestra	1	Diaphoretickes	Archaeplastida	393	393	15467	1141	447	3	26	31571	17706
+Archaeplastida	control		exact	eukaryoma	1	Diaphoretickes	Archaeplastida	465	465	12006	580	372	3	26	26574	15613
+Archaeplastida	control		exact	ancestra_hints	1	Diaphoretickes	Archaeplastida	390	375	15933	1098	442	3	26	32345	17968
+Rhodophyta_Rhodelphidia	control		exact	ancestra	1	Archaeplastida	Rhodophyta_Rhodelphidia	40	40	8005	447	180	4	10	17706	10190
+Rhodophyta_Rhodelphidia	control		exact	eukaryoma	1	Archaeplastida	Rhodophyta_Rhodelphidia	29	29	7418	463	271	4	10	15613	8687
+Rhodophyta_Rhodelphidia	control		exact	ancestra_hints	1	Archaeplastida	Rhodophyta_Rhodelphidia	38	38	8185	452	183	4	10	17968	10275
+Rhodophyta	other		exact	ancestra	1	Rhodophyta_Rhodelphidia	Rhodophyta	125	125	3045	1117	603	5	9	10190	8393
+Rhodophyta	other		exact	eukaryoma	1	Rhodophyta_Rhodelphidia	Rhodophyta	545	545	1818	354	212	5	9	8687	7768
+Rhodophyta	other		exact	ancestra_hints	1	Rhodophyta_Rhodelphidia	Rhodophyta	123	123	3063	1124	605	5	9	10275	8465
+Cyanidiophyceae	control		exact	ancestra	1	Rhodophyta	Cyanidiophyceae	16	16	3336	195	92	6	2	8393	5268
+Cyanidiophyceae	control		exact	eukaryoma	1	Rhodophyta	Cyanidiophyceae	91	91	4109	1808	1630	6	2	7768	5558
+Cyanidiophyceae	control		exact	ancestra_hints	1	Rhodophyta	Cyanidiophyceae	14	14	3400	194	91	6	2	8465	5273
+Rhodophytina	other		exact	ancestra	1	Rhodophyta	Rhodophytina	155	155	608	993	442	6	7	8393	8959
+Rhodophytina	other		exact	eukaryoma	1	Rhodophyta	Rhodophytina	325	325	588	4594	2233	6	7	7768	12099
+Rhodophytina	other		exact	ancestra_hints	1	Rhodophyta	Rhodophytina	152	152	616	989	443	6	7	8465	9016
+Bangiaceae	other		exact	ancestra	1	Eurhodophytina	Bangiaceae	716	716	1821	1895	820	8	2	8186	8991
+Bangiaceae	other		exact	eukaryoma	1	Eurhodophytina	Bangiaceae	403	403	4362	274	163	8	2	7048	3363
+Bangiaceae	other		exact	ancestra_hints	1	Eurhodophytina	Bangiaceae	709	709	1838	1934	826	8	2	8225	9045
+Gracilariaceae	other		exact	ancestra	1	Rhodymeniophycidae	Gracilariaceae	632	632	832	1017	463	9	2	7675	8498
+Gracilariaceae	other		exact	eukaryoma	1	Rhodymeniophycidae	Gracilariaceae	629	629	1182	132	80	9	2	5515	5094
+Gracilariaceae	other		exact	ancestra_hints	1	Rhodymeniophycidae	Gracilariaceae	629	629	838	1019	463	9	2	7694	8510
+Proteorhodophytina	other		exact	ancestra	1	Rhodophytina	Proteorhodophytina	33	33	1904	582	285	7	2	8959	7673
+Proteorhodophytina	other		exact	eukaryoma	1	Rhodophytina	Proteorhodophytina	52	52	5491	209	173	7	2	12099	6869
+Proteorhodophytina	other		exact	ancestra_hints	1	Rhodophytina	Proteorhodophytina	31	31	1941	584	285	7	2	9016	7693
+Viridiplantae	control		exact	ancestra	1	Archaeplastida	Viridiplantae	197	197	5627	1323	669	4	15	17706	13630
+Viridiplantae	control		exact	eukaryoma	1	Archaeplastida	Viridiplantae	167	167	4243	287	175	4	15	15613	11824
+Viridiplantae	control		exact	ancestra_hints	1	Archaeplastida	Viridiplantae	192	188	5744	1328	671	4	15	17968	13775
+Chlorophyta_Streptophyta	other		exact	ancestra	1	Viridiplantae	Chlorophyta_Streptophyta	213	213	620	2661	995	5	14	13630	15899
+Chlorophyta_Streptophyta	other		exact	eukaryoma	1	Viridiplantae	Chlorophyta_Streptophyta	693	693	342	1547	1517	5	14	11824	13722
+Chlorophyta_Streptophyta	other		exact	ancestra_hints	1	Viridiplantae	Chlorophyta_Streptophyta	252	224	630	2690	999	5	14	13775	16102
+Chlorophyta	control		exact	ancestra	1	Chlorophyta_Streptophyta	Chlorophyta	44	44	5168	688	440	6	6	15899	11464
+Chlorophyta	control		exact	eukaryoma	1	Chlorophyta_Streptophyta	Chlorophyta	252	252	5936	429	256	6	6	13722	8467
+Chlorophyta	control		exact	ancestra_hints	1	Chlorophyta_Streptophyta	Chlorophyta	49	45	5304	685	440	6	6	16102	11533
+Mamiellales	control		exact	ancestra	1	Chlorophyta	Mamiellales	268	268	3701	552	407	7	2	11464	8584
+Mamiellales	control		exact	eukaryoma	1	Chlorophyta	Mamiellales	587	587	3552	476	240	7	2	8467	5978
+Mamiellales	control		exact	ancestra_hints	1	Chlorophyta	Mamiellales	260	260	3737	609	433	7	2	11533	8666
+UTC_clade	control		exact	ancestra	1	Chlorophyta	UTC_clade	104	104	1902	1580	956	7	4	11464	11252
+UTC_clade	control		exact	eukaryoma	1	Chlorophyta	UTC_clade	168	168	1659	347	217	7	4	8467	7323
+UTC_clade	control		exact	ancestra_hints	1	Chlorophyta	UTC_clade	239	180	1934	1597	969	7	4	11533	11441
+CS_clade	control		approx	ancestra	1	UTC_clade	Chlamydomonas_TGV	1050	1050	2703	864	434	8	2	11252	10496
+CS_clade	control		approx	eukaryoma	1	UTC_clade	Chlamydomonas_TGV	2942	2942	2433	507	196	8	2	7323	8339
+CS_clade	control		approx	ancestra_hints	1	UTC_clade	Chlamydomonas_TGV	1080	961	2760	1134	530	8	2	11441	10928
+Trebouxiophyceae	control		approx	ancestra	1	UTC_clade	Coccsub	1733	0	4412	1181	648	8	1	11252	9768
+Trebouxiophyceae	control		approx	eukaryoma	1	UTC_clade	Coccsub	5578	0	3801	543	260	8	1	7323	9678
+Trebouxiophyceae	control		approx	ancestra_hints	1	UTC_clade	Coccsub	1695	0	4556	1184	649	8	1	11441	9768
+Streptophyta	other		exact	ancestra	1	Chlorophyta_Streptophyta	Streptophyta	111	111	3229	1532	675	6	8	15899	14372
+Streptophyta	other		exact	eukaryoma	1	Chlorophyta_Streptophyta	Streptophyta	127	127	4381	294	138	6	8	13722	9762
+Streptophyta	other		exact	ancestra_hints	1	Chlorophyta_Streptophyta	Streptophyta	178	153	3294	1567	679	6	8	16102	14612
+Setaphyta	other		exact	ancestra	1	Embryophyta	Setaphyta	108	108	4168	2767	1177	10	2	14934	13643
+Setaphyta	other		exact	eukaryoma	1	Embryophyta	Setaphyta	397	397	2326	5647	5429	10	2	10921	14639
+Setaphyta	other		exact	ancestra_hints	1	Embryophyta	Setaphyta	92	92	4182	2763	1181	10	2	15008	13683
+Tracheophyta	other		exact	ancestra	1	Embryophyta	Tracheophyta	54	54	2264	5287	1485	10	3	14934	18042
+Tracheophyta	other		exact	eukaryoma	1	Embryophyta	Tracheophyta	370	370	1386	937	312	10	3	10921	10842
+Tracheophyta	other		exact	ancestra_hints	1	Embryophyta	Tracheophyta	79	54	2316	5275	1481	10	3	15008	18077
+Haptista	control		exact	ancestra	1	Diaphoretickes	Haptista	130	130	19054	520	217	3	2	31571	13191
+Haptista	control		exact	eukaryoma	1	Diaphoretickes	Haptista	24	24	20608	1844	1112	3	2	26574	7834
+Haptista	control		exact	ancestra_hints	1	Diaphoretickes	Haptista	157	126	19751	507	215	3	2	32345	13282
+TSAR	control		exact	ancestra	1	Diaphoretickes	TSAR	1020	1020	8068	1612	818	3	25	31571	26400
+TSAR	control		exact	eukaryoma	1	Diaphoretickes	TSAR	324	324	7056	3178	1990	3	25	26574	23020
+TSAR	control		exact	ancestra_hints	1	Diaphoretickes	TSAR	1016	969	8493	1599	820	3	25	32345	26732
+Sar	other		exact	ancestra	1	TSAR	Sar	379	379	4701	2992	1062	4	24	26400	25146
+Sar	other		exact	eukaryoma	1	TSAR	Sar	971	971	4754	307	238	4	24	23020	19544
+Sar	other		exact	ancestra_hints	1	TSAR	Sar	457	392	4822	3019	1065	4	24	26732	25462
+Alveolata	control		exact	ancestra	1	Sar	Alveolata	66	66	12633	854	320	5	6	25146	13435
+Alveolata	control		exact	eukaryoma	1	Sar	Alveolata	258	258	11813	275	163	5	6	19544	8264
+Alveolata	control		exact	ancestra_hints	1	Sar	Alveolata	84	78	12878	836	318	5	6	25462	13506
+Ciliophora	control		approx	ancestra	1	Alveolata	Intramacronucleata	344	344	2818	3031	986	6	3	13435	14031
+Ciliophora	control		approx	eukaryoma	1	Alveolata	Intramacronucleata	235	235	1602	503	178	6	3	8264	7400
+Ciliophora	control		approx	ancestra_hints	1	Alveolata	Intramacronucleata	340	340	2840	3341	1075	6	3	13506	14386
+Oligohymenophorea	other		exact	ancestra	1	Intramacronucleata	Oligohymenophorea	767	767	6181	4251	943	7	2	14031	13041
+Oligohymenophorea	other		exact	eukaryoma	1	Intramacronucleata	Oligohymenophorea	1943	1943	2890	1385	430	7	2	7400	7838
+Oligohymenophorea	other		exact	ancestra_hints	1	Intramacronucleata	Oligohymenophorea	759	759	6290	4072	929	7	2	14386	13100
+Myzozoa	control		exact	ancestra	1	Alveolata	Myzozoa	140	140	6918	1170	458	6	3	13435	7855
+Myzozoa	control		exact	eukaryoma	1	Alveolata	Myzozoa	187	187	4763	965	956	6	3	8264	4653
+Myzozoa	control		exact	ancestra_hints	1	Alveolata	Myzozoa	180	135	6967	1203	477	6	3	13506	7950
+Rhizaria	other		exact	ancestra	1	Sar	Rhizaria	55	55	11682	1046	403	5	6	25146	14580
+Rhizaria	other		exact	eukaryoma	1	Sar	Rhizaria	268	268	10076	808	448	5	6	19544	10544
+Rhizaria	other		exact	ancestra_hints	1	Sar	Rhizaria	53	53	11877	1054	403	5	6	25462	14707
+Cercozoa	other		exact	ancestra	1	Rhizaria	Cercozoa	107	107	1200	4350	1635	6	5	14580	17858
+Cercozoa	other		exact	eukaryoma	1	Rhizaria	Cercozoa	86	86	1287	975	459	6	5	10544	10318
+Cercozoa	other		exact	ancestra_hints	1	Rhizaria	Cercozoa	102	102	1221	4511	1679	6	5	14707	18120
+Chlorarachniophyceae	other		exact	ancestra	1	Cercozoa	Chlorarachniophyceae	1400	1400	6310	3299	1612	7	2	17858	16271
+Chlorarachniophyceae	other		exact	eukaryoma	1	Cercozoa	Chlorarachniophyceae	980	980	2914	1084	483	7	2	10318	9468
+Chlorarachniophyceae	other		exact	ancestra_hints	1	Cercozoa	Chlorarachniophyceae	1383	1383	6443	3293	1620	7	2	18120	16377
+Stramenopiles	control		exact	ancestra	1	Sar	Stramenopiles	192	192	10410	1207	551	5	12	25146	16179
+Stramenopiles	control		exact	eukaryoma	1	Sar	Stramenopiles	298	298	7827	484	302	5	12	19544	12499
+Stramenopiles	control		exact	ancestra_hints	1	Sar	Stramenopiles	196	190	10600	1215	555	5	12	25462	16317
+Bigyra	control		exact	ancestra	1	Stramenopiles	Bigyra	16	16	8020	219	136	6	3	16179	8395
+Bigyra	control		exact	eukaryoma	1	Stramenopiles	Bigyra	5	5	7072	691	241	6	3	12499	6123
+Bigyra	control		exact	ancestra_hints	1	Stramenopiles	Bigyra	16	15	8122	213	137	6	3	16317	8425
+Gyrista	other		exact	ancestra	1	Stramenopiles	Gyrista	163	163	1605	3175	1251	6	9	16179	17938
+Gyrista	other		exact	eukaryoma	1	Stramenopiles	Gyrista	288	288	1950	2194	2152	6	9	12499	13031
+Gyrista	other		exact	ancestra_hints	1	Stramenopiles	Gyrista	184	177	1641	3239	1281	6	9	16317	18125
+Ochrophyta	other		exact	ancestra	1	Gyrista	Ochrophyta	251	251	3349	3554	1837	7	6	17938	18422
+Ochrophyta	other		exact	eukaryoma	1	Gyrista	Ochrophyta	558	558	4204	408	246	7	6	13031	9793
+Ochrophyta	other		exact	ancestra_hints	1	Gyrista	Ochrophyta	381	248	3431	3594	1875	7	6	18125	18697
+Bacillariophyta	other		exact	ancestra	1	Ochrophyta	Bacillariophyta	461	461	9861	794	455	8	2	18422	9821
+Bacillariophyta	other		exact	eukaryoma	1	Ochrophyta	Bacillariophyta	967	967	5316	235	170	8	2	9793	5679
+Bacillariophyta	other		exact	ancestra_hints	1	Ochrophyta	Bacillariophyta	456	456	10066	822	479	8	2	18697	9914
+Oomycota	other		exact	ancestra	1	Gyrista	Oomycota	755	755	7692	2333	800	7	3	17938	13387
+Oomycota	other		exact	eukaryoma	1	Gyrista	Oomycota	2080	2080	7636	775	398	7	3	13031	8250
+Oomycota	other		exact	ancestra_hints	1	Gyrista	Oomycota	729	729	7789	2571	880	7	3	18125	13689
+Peronosporomycetes	other		exact	ancestra	1	Oomycota	Peronosporomycetes	526	526	3041	2367	749	8	2	13387	13264
+Peronosporomycetes	other		exact	eukaryoma	1	Oomycota	Peronosporomycetes	100	100	1330	350	163	8	2	8250	7370
+Peronosporomycetes	other		exact	ancestra_hints	1	Oomycota	Peronosporomycetes	517	517	3150	2294	723	8	2	13689	13375
+Discoba	control		exact	ancestra	1	Bikonta	Discoba	280	280	11037	257	112	2	7	24484	13999
+Discoba	control		exact	eukaryoma	1	Bikonta	Discoba	70	70	19635	1316	394	2	7	30418	12169
+Discoba	control		exact	ancestra_hints	1	Bikonta	Discoba	276	273	11426	253	111	2	7	25002	14120
+Discicristata	other		exact	ancestra	1	Discoba	Discicristata	141	141	773	2576	824	3	6	13999	16085
+Discicristata	other		exact	eukaryoma	1	Discoba	Discicristata	84	84	975	1581	1441	3	6	12169	12859
+Discicristata	other		exact	ancestra_hints	1	Discoba	Discicristata	144	140	789	2581	826	3	6	14120	16198
+Euglenozoa	control		exact	ancestra	1	Discicristata	Euglenozoa	95	95	3903	2256	669	4	3	16085	14639
+Euglenozoa	control		exact	eukaryoma	1	Discicristata	Euglenozoa	32	32	6115	484	176	4	3	12859	7260
+Euglenozoa	control		exact	ancestra_hints	1	Discicristata	Euglenozoa	92	92	3964	2309	676	4	3	16198	14741
+Metakinetoplastina	other		exact	ancestra	1	Euglenozoa	Metakinetoplastina	324	324	7033	1006	510	5	2	14639	8958
+Metakinetoplastina	other		exact	eukaryoma	1	Euglenozoa	Metakinetoplastina	1120	1120	3175	354	89	5	2	7260	5559
+Metakinetoplastina	other		exact	ancestra_hints	1	Euglenozoa	Metakinetoplastina	323	323	7116	1003	512	5	2	14741	8973
+Heterolobosea	control		exact	ancestra	1	Discicristata	Heterolobosea	164	164	6892	1781	840	4	3	16085	11176
+Heterolobosea	control		exact	eukaryoma	1	Discicristata	Heterolobosea	155	155	5553	1468	513	4	3	12859	8929
+Heterolobosea	control		exact	ancestra_hints	1	Discicristata	Heterolobosea	185	159	6944	1787	842	4	3	16198	11264
+Tetramitia	other		exact	ancestra	1	Heterolobosea	Tetramitia	148	148	2368	1101	502	5	2	11176	10090
+Tetramitia	other		exact	eukaryoma	1	Heterolobosea	Tetramitia	133	133	2281	346	174	5	2	8929	7127
+Tetramitia	other		exact	ancestra_hints	1	Heterolobosea	Tetramitia	379	147	2409	1096	501	5	2	11264	10363
+Podiata	other		exact	ancestra	1	Eukaryota	Podiata	1724	1724	0	1356	503	1	62	14699	17779
+Podiata	other		exact	eukaryoma	1	Eukaryota	Podiata	1071	1071	0	968	175	1	62	22607	24646
+Podiata	other		exact	ancestra_hints	1	Eukaryota	Podiata	1698	1636	384	1364	509	1	62	16497	19175
+Amorphea	control		exact	ancestra	1	Podiata	Amorphea	1486	1486	1156	3684	1362	2	60	17779	22141
+Amorphea	control		exact	eukaryoma	1	Podiata	Amorphea	2343	2343	1398	358	216	2	60	24646	25949
+Amorphea	control		exact	ancestra_hints	1	Podiata	Amorphea	1721	1526	1258	3708	1370	2	60	19175	23694
+Amoebozoa	control		exact	ancestra	1	Amorphea	Amoebozoa	934	934	6181	3884	1551	3	11	22141	21020
+Amoebozoa	control		exact	eukaryoma	1	Amorphea	Amoebozoa	790	790	12590	2506	905	3	11	25949	16655
+Amoebozoa	control		exact	ancestra_hints	1	Amorphea	Amoebozoa	1058	936	7561	3890	1553	3	11	23694	21323
+Discosea	control		exact	ancestra	1	Amoebozoa	Discosea	128	128	9227	882	542	4	2	21020	12832
+Discosea	control		exact	eukaryoma	1	Amoebozoa	Discosea	20	20	8916	1256	529	4	2	16655	9015
+Discosea	control		exact	ancestra_hints	1	Amoebozoa	Discosea	116	116	9439	897	549	4	2	21323	12926
+Evosea	control		exact	ancestra	1	Amoebozoa	Evosea	147	147	7163	1173	466	4	7	21020	15225
+Evosea	control		exact	eukaryoma	1	Amoebozoa	Evosea	115	115	6169	1600	536	4	7	16655	12201
+Evosea	control		exact	ancestra_hints	1	Amoebozoa	Evosea	227	153	7352	1192	469	4	7	21323	15438
+Eumycetozoa	other		exact	ancestra	1	Evosea	Eumycetozoa	122	122	4191	890	463	5	5	15225	12078
+Eumycetozoa	other		exact	eukaryoma	1	Evosea	Eumycetozoa	95	95	3381	950	385	5	5	12201	9865
+Eumycetozoa	other		exact	ancestra_hints	1	Evosea	Eumycetozoa	136	124	4275	1098	520	5	5	15438	12429
+Dictyosteliales	other		exact	ancestra	1	Dictyostelia	Dictyosteliales	201	201	910	567	253	7	3	9283	9142
+Dictyosteliales	other		exact	eukaryoma	1	Dictyostelia	Dictyosteliales	820	820	829	313	170	7	3	8126	8430
+Dictyosteliales	other		exact	ancestra_hints	1	Dictyostelia	Dictyosteliales	125	125	954	575	234	7	3	9606	9353
+Dictyostelium	other		exact	ancestra	1	Dictyosteliales	Dictyostelium	440	440	758	1690	581	8	2	9142	10522
+Dictyostelium	other		exact	eukaryoma	1	Dictyosteliales	Dictyostelium	1295	1295	813	470	263	8	2	8430	9382
+Dictyostelium	other		exact	ancestra_hints	1	Dictyosteliales	Dictyostelium	402	402	821	1708	595	8	2	9353	10650
+Variosea	control		approx	ancestra	1	Evosea	Planfun	4648	0	7992	4390	1710	5	1	15225	16631
+Variosea	control		approx	eukaryoma	1	Evosea	Planfun	11127	0	7860	915	540	5	1	12201	16433
+Variosea	control		approx	ancestra_hints	1	Evosea	Planfun	4620	0	8160	4382	1714	5	1	15438	16631
+Tubulinea	control		exact	ancestra	1	Amoebozoa	Tubulinea	202	202	8592	1070	454	4	2	21020	13732
+Tubulinea	control		exact	eukaryoma	1	Amoebozoa	Tubulinea	187	187	9303	1862	533	4	2	16655	9401
+Tubulinea	control		exact	ancestra_hints	1	Amoebozoa	Tubulinea	255	190	8793	1083	460	4	2	21323	13900
+Obazoa	control		exact	ancestra	1	Amorphea	Obazoa	300	300	5437	1076	343	3	49	22141	18123
+Obazoa	control		exact	eukaryoma	1	Amorphea	Obazoa	208	208	3682	216	67	3	49	25949	22691
+Obazoa	control		exact	ancestra_hints	1	Amorphea	Obazoa	265	265	5611	1076	350	3	49	23694	19467
+Apusomonadida_Opisthokonta	other		exact	ancestra	1	Obazoa	Apusomonadida_Opisthokonta	191	191	1176	2643	989	4	48	18123	19831
+Apusomonadida_Opisthokonta	other		exact	eukaryoma	1	Obazoa	Apusomonadida_Opisthokonta	75	75	504	1677	1086	4	48	22691	23939
+Apusomonadida_Opisthokonta	other		exact	ancestra_hints	1	Obazoa	Apusomonadida_Opisthokonta	173	172	1198	2719	1006	4	48	19467	21211
+Opisthokonta	other		exact	ancestra	1	Apusomonadida_Opisthokonta	Opisthokonta	645	645	1048	4027	1373	5	47	19831	23535
+Opisthokonta	other		exact	eukaryoma	1	Apusomonadida_Opisthokonta	Opisthokonta	1387	1387	2041	164	96	5	47	23939	23449
+Opisthokonta	other		exact	ancestra_hints	1	Apusomonadida_Opisthokonta	Opisthokonta	574	527	1069	4147	1434	5	47	21211	24943
+Holomycota	control		exact	ancestra	1	Opisthokonta	Holomycota	60	60	12319	738	436	6	16	23535	12015
+Holomycota	control		exact	eukaryoma	1	Opisthokonta	Holomycota	82	82	13953	689	333	6	16	23449	10267
+Holomycota	control		exact	ancestra_hints	1	Opisthokonta	Holomycota	62	58	13507	642	383	6	16	24943	12141
+Fungi	control		exact	ancestra	1	Holomycota	Fungi	32	32	3576	597	339	7	14	12015	9070
+Fungi	control		exact	eukaryoma	1	Holomycota	Fungi	224	224	1373	226	107	7	14	10267	9344
+Fungi	control		exact	ancestra_hints	1	Holomycota	Fungi	37	31	3640	598	340	7	14	12141	9138
+Aphelida_Eumycota	other		exact	ancestra	1	Fungi	Aphelida_Eumycota	12	12	584	1199	594	8	13	9070	9699
+Aphelida_Eumycota	other		exact	eukaryoma	1	Fungi	Aphelida_Eumycota	82	82	275	5412	1989	8	13	9344	14563
+Aphelida_Eumycota	other		exact	ancestra_hints	1	Fungi	Aphelida_Eumycota	11	11	594	1199	594	8	13	9138	9756
+Eumycota	other		exact	ancestra	1	Aphelida_Eumycota	Eumycota	89	89	571	1634	737	9	12	9699	10856
+Eumycota	other		exact	eukaryoma	1	Aphelida_Eumycota	Eumycota	517	517	2341	223	117	9	12	14563	12962
+Eumycota	other		exact	ancestra_hints	1	Aphelida_Eumycota	Eumycota	149	104	571	1636	738	9	12	9756	10975
+Blastocladiomycota_Amastigomycota	other		exact	ancestra	1	Eumycota	Blastocladiomycota_Amastigomycota	10	10	2617	422	168	10	9	10856	8671
+Blastocladiomycota_Amastigomycota	other		exact	eukaryoma	1	Eumycota	Blastocladiomycota_Amastigomycota	60	60	3767	1035	950	10	9	12962	10290
+Blastocladiomycota_Amastigomycota	other		exact	ancestra_hints	1	Eumycota	Blastocladiomycota_Amastigomycota	20	9	2697	430	172	10	9	10975	8728
+Ascomycota	other		exact	ancestra	1	Dikarya	Ascomycota	43	43	1216	775	551	12	4	6984	6586
+Ascomycota	other		exact	eukaryoma	1	Dikarya	Ascomycota	215	215	1536	175	91	12	4	6440	5294
+Ascomycota	other		exact	ancestra_hints	1	Dikarya	Ascomycota	136	70	1293	777	552	12	4	7086	6706
+saccharomyceta	other		exact	ancestra	1	Ascomycota	saccharomyceta	57	57	386	301	200	13	3	6586	6559
+saccharomyceta	other		exact	eukaryoma	1	Ascomycota	saccharomyceta	110	110	397	125	62	13	3	5294	5132
+saccharomyceta	other		exact	ancestra_hints	1	Ascomycota	saccharomyceta	55	28	394	371	231	13	3	6706	6739
+Saccharomycotina	other		exact	ancestra	1	saccharomyceta	Saccharomycotina	28	28	1656	214	154	14	2	6559	5145
+Saccharomycotina	other		exact	eukaryoma	1	saccharomyceta	Saccharomycotina	500	500	1680	176	136	14	2	5132	4128
+Saccharomycotina	other		exact	ancestra_hints	1	saccharomyceta	Saccharomycotina	50	25	1816	214	152	14	2	6739	5187
+chytridiomyceta	other		exact	ancestra	1	Eumycota	chytridiomyceta	43	43	2377	745	353	10	3	10856	9268
+chytridiomyceta	other		exact	eukaryoma	1	Eumycota	chytridiomyceta	322	322	6634	538	307	10	3	12962	7188
+chytridiomyceta	other		exact	ancestra_hints	1	Eumycota	chytridiomyceta	63	52	2415	761	366	10	3	10975	9385
+Chytridiomycetes	other		exact	ancestra	1	chytridiomyceta	Chytridiomycetes	124	124	2168	314	189	11	2	9268	7538
+Chytridiomycetes	other		exact	eukaryoma	1	chytridiomyceta	Chytridiomycetes	525	525	1495	174	115	11	2	7188	6392
+Chytridiomycetes	other		exact	ancestra_hints	1	chytridiomyceta	Chytridiomycetes	96	96	2197	348	211	11	2	9385	7632
+Rotosphaerida	other		exact	ancestra	1	Holomycota	Rotosphaerida	25	25	3603	1131	510	7	2	12015	9570
+Rotosphaerida	other		exact	eukaryoma	1	Holomycota	Rotosphaerida	10	10	6193	533	228	7	2	10267	4617
+Rotosphaerida	other		exact	ancestra_hints	1	Holomycota	Rotosphaerida	25	25	3665	1139	515	7	2	12141	9642
+Holozoa	other		exact	ancestra	1	Opisthokonta	Holozoa	486	486	1982	4425	1340	6	31	23535	26498
+Holozoa	other		exact	eukaryoma	1	Opisthokonta	Holozoa	1587	1587	2664	264	151	6	31	23449	22636
+Holozoa	other		exact	ancestra_hints	1	Opisthokonta	Holozoa	437	436	2179	4360	1328	6	31	24943	27595
+Filozoa	other		exact	ancestra	1	Holozoa	Filozoa	666	666	2692	4393	1303	7	25	26498	28932
+Filozoa	other		exact	eukaryoma	1	Holozoa	Filozoa	635	635	3750	163	107	7	25	22636	19684
+Filozoa	other		exact	ancestra_hints	1	Holozoa	Filozoa	506	506	2872	4497	1353	7	25	27595	29793
+Choanozoa	other		exact	ancestra	1	Filozoa	Choanozoa	203	203	4585	4318	984	8	22	28932	28889
+Choanozoa	other		exact	eukaryoma	1	Filozoa	Choanozoa	997	997	1691	222	119	8	22	19684	19212
+Choanozoa	other		exact	ancestra_hints	1	Filozoa	Choanozoa	189	187	4938	4270	940	8	22	29793	29335
+Choanoflagellata	other		exact	ancestra	1	Choanozoa	Choanoflagellata	271	271	10199	4357	1423	9	7	28889	23345
+Choanoflagellata	other		exact	eukaryoma	1	Choanozoa	Choanoflagellata	745	745	6647	2483	822	9	7	19212	15793
+Choanoflagellata	other		exact	ancestra_hints	1	Choanozoa	Choanoflagellata	269	266	10457	4356	1424	9	7	29335	23530
+Acanthoecida	other		exact	ancestra	1	Choanoflagellata	Acanthoecida	296	296	9137	1829	783	10	2	23345	16374
+Acanthoecida	other		exact	eukaryoma	1	Choanoflagellata	Acanthoecida	861	861	6825	1861	614	10	2	15793	11690
+Acanthoecida	other		exact	ancestra_hints	1	Choanoflagellata	Acanthoecida	292	292	9251	1844	784	10	2	23530	16456
+Salpingoecidae	other		exact	ancestra	1	Choanoflagellata	Salpingoecidae	523	523	5067	3515	1617	10	5	23345	22363
+Salpingoecidae	other		exact	eukaryoma	1	Choanoflagellata	Salpingoecidae	1426	1426	3795	1921	723	10	5	15793	15345
+Salpingoecidae	other		exact	ancestra_hints	1	Choanoflagellata	Salpingoecidae	1022	514	5138	3518	1618	10	5	23530	22979
+ParaHoxozoa	other		exact	ancestra	1	Metazoa	ParaHoxozoa	342	342	8498	3018	913	10	10	27404	22363
+ParaHoxozoa	other		exact	eukaryoma	1	Metazoa	ParaHoxozoa	1283	1283	3875	121	87	10	10	15883	13412
+ParaHoxozoa	other		exact	ancestra_hints	1	Metazoa	ParaHoxozoa	331	331	8603	3023	906	10	10	27649	22497
+Bilateria	other		exact	ancestra	1	ParaHoxozoa	Bilateria	231	231	5455	2230	637	11	6	22363	19403
+Bilateria	other		exact	eukaryoma	1	ParaHoxozoa	Bilateria	591	591	2254	95	85	11	6	13412	11844
+Bilateria	other		exact	ancestra_hints	1	ParaHoxozoa	Bilateria	228	228	5546	2233	639	11	6	22497	19446
+Deuterostomia	other		exact	ancestra	1	Bilateria	Deuterostomia	102	102	4144	2551	791	12	3	19403	17934
+Deuterostomia	other		exact	eukaryoma	1	Bilateria	Deuterostomia	495	495	2465	239	147	12	3	11844	10113
+Deuterostomia	other		exact	ancestra_hints	1	Bilateria	Deuterostomia	101	101	4174	2548	789	12	3	19446	17943
+Chordata	other		exact	ancestra	1	Deuterostomia	Chordata	58	58	3988	2254	705	13	2	17934	16276
+Chordata	other		exact	eukaryoma	1	Deuterostomia	Chordata	397	397	1174	146	113	13	2	10113	9482
+Chordata	other		exact	ancestra_hints	1	Deuterostomia	Chordata	58	58	3992	2255	706	13	2	17943	16282
+Protostomia	other		exact	ancestra	1	Bilateria	Protostomia	63	63	5134	1517	390	12	3	19403	15856
+Protostomia	other		exact	eukaryoma	1	Bilateria	Protostomia	110	110	3185	102	87	12	3	11844	8871
+Protostomia	other		exact	ancestra_hints	1	Bilateria	Protostomia	62	62	5145	1515	389	12	3	19446	15885
+Ecdysozoa	other		exact	ancestra	1	Protostomia	Ecdysozoa	11	11	7422	741	279	13	2	15856	9186
+Ecdysozoa	other		exact	eukaryoma	1	Protostomia	Ecdysozoa	40	40	3361	48	45	13	2	8871	5598
+Ecdysozoa	other		exact	ancestra_hints	1	Protostomia	Ecdysozoa	11	11	7446	741	279	13	2	15885	9191
+Cnidaria	other		exact	ancestra	1	ParaHoxozoa	Cnidaria	72	72	8038	2432	526	11	2	22363	16845
+Cnidaria	other		exact	eukaryoma	1	ParaHoxozoa	Cnidaria	443	443	5836	394	280	11	2	13412	8413
+Cnidaria	other		exact	ancestra_hints	1	ParaHoxozoa	Cnidaria	71	71	8088	2414	526	11	2	22497	16910
+Uniplacotomia	other		exact	ancestra	1	ParaHoxozoa	Uniplacotomia	683	683	13167	1989	879	11	2	22363	11900
+Uniplacotomia	other		exact	eukaryoma	1	ParaHoxozoa	Uniplacotomia	1115	1115	7065	2145	684	11	2	13412	9607
+Uniplacotomia	other		exact	ancestra_hints	1	ParaHoxozoa	Uniplacotomia	681	681	13294	1992	880	11	2	22497	11908
+Porifera	other		exact	ancestra	1	Metazoa	Porifera	91	91	10571	3182	530	10	4	27404	20145
+Porifera	other		exact	eukaryoma	1	Metazoa	Porifera	348	348	4947	1270	495	10	4	15883	12554
+Porifera	other		exact	ancestra_hints	1	Metazoa	Porifera	91	91	10727	3125	521	10	4	27649	20177
+Calcarea_Homoscleromorpha	other		exact	ancestra	1	Porifera	Calcarea_Homoscleromorpha	36	36	7069	2796	776	11	2	20145	15922
+Calcarea_Homoscleromorpha	other		exact	eukaryoma	1	Porifera	Calcarea_Homoscleromorpha	148	148	3792	2626	2563	11	2	12554	11536
+Calcarea_Homoscleromorpha	other		exact	ancestra_hints	1	Porifera	Calcarea_Homoscleromorpha	36	36	7094	2796	776	11	2	20177	15929
+Heteroscleromorpha	other		exact	ancestra	1	Porifera	Heteroscleromorpha	221	221	5011	4498	1032	11	2	20145	19959
+Heteroscleromorpha	other		exact	eukaryoma	1	Porifera	Heteroscleromorpha	370	370	4351	298	200	11	2	12554	8871
+Heteroscleromorpha	other		exact	ancestra_hints	1	Porifera	Heteroscleromorpha	219	219	5018	4499	1033	11	2	20177	19983
+Filasterea	other		exact	ancestra	1	Filozoa	Filasterea	38	38	13497	1411	753	8	3	28932	16885
+Filasterea	other		exact	eukaryoma	1	Filozoa	Filasterea	69	69	12470	2101	677	8	3	19684	9384
+Filasterea	other		exact	ancestra_hints	1	Filozoa	Filasterea	36	36	13976	1342	715	8	3	29793	17196
+Teretosporea	other		exact	ancestra	1	Holozoa	Teretosporea	47	47	13924	1027	399	7	6	26498	13648
+Teretosporea	other		exact	eukaryoma	1	Holozoa	Teretosporea	237	237	11069	3781	1284	7	6	22636	15585
+Teretosporea	other		exact	ancestra_hints	1	Holozoa	Teretosporea	44	44	14832	1008	388	7	6	27595	13815
+Ichthyosporea	other		exact	ancestra	1	Teretosporea	Ichthyosporea	16	16	2341	1596	600	8	4	13648	12924
+Ichthyosporea	other		exact	eukaryoma	1	Teretosporea	Ichthyosporea	40	40	5782	629	295	8	4	15585	10472
+Ichthyosporea	other		exact	ancestra_hints	1	Teretosporea	Ichthyosporea	16	16	2448	1630	600	8	4	13815	13018
+Ichthyophonida	other		exact	ancestra	1	Ichthyosporea	Ichthyophonida	833	833	2162	3567	1585	9	3	12924	15200
+Ichthyophonida	other		exact	eukaryoma	1	Ichthyosporea	Ichthyophonida	1147	1147	2223	407	277	9	3	10472	9803
+Ichthyophonida	other		exact	ancestra_hints	1	Ichthyosporea	Ichthyophonida	825	825	2175	3541	1586	9	3	13018	15247
+Pluriformea	other		exact	ancestra	1	Teretosporea	Pluriformea	13	13	5228	543	313	8	2	13648	8986
+Pluriformea	other		exact	eukaryoma	1	Teretosporea	Pluriformea	46	46	5336	980	453	8	2	15585	11275
+Pluriformea	other		exact	ancestra_hints	1	Teretosporea	Pluriformea	13	13	5288	543	313	8	2	13815	9093
+CRuMs	control		exact	ancestra	1	Podiata	CRuMs	240	240	9139	1129	392	2	2	17779	10106
+CRuMs	control		exact	eukaryoma	1	Podiata	CRuMs	107	107	18095	2936	617	2	2	24646	9594
+CRuMs	control		exact	ancestra_hints	1	Podiata	CRuMs	236	236	10432	1140	389	2	2	19175	10216

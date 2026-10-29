@@ -1,0 +1,9 @@
+method	set	stems	n	T_mean_u	round1_T_same_stems	transitions
+ancestra	primary	exact stems	5	0.717	0.71	T_metazoa,T_dictyostelia,T_streptophyta,T_rhodophyta,T_px_filaments
+ancestra	primary	exact + approx (internal bottom)	6	0.661	0.675	T_metazoa,T_fungi_hyphae,T_dictyostelia,T_streptophyta,T_rhodophyta,T_px_filaments
+ancestra	secondary	exact stems	0			
+ancestra	secondary	exact + approx (internal bottom)	2	0.853	0.929	T_fungi_agaricomycetes,T_embryophyta
+eukaryoma	primary	exact stems	5	0.633	0.71	T_metazoa,T_dictyostelia,T_streptophyta,T_rhodophyta,T_px_filaments
+eukaryoma	primary	exact + approx (internal bottom)	6	0.572	0.675	T_metazoa,T_fungi_hyphae,T_dictyostelia,T_streptophyta,T_rhodophyta,T_px_filaments
+eukaryoma	secondary	exact stems	0			
+eukaryoma	secondary	exact + approx (internal bottom)	2	0.912	0.929	T_fungi_agaricomycetes,T_embryophyta

@@ -1,0 +1,126 @@
+code	species	ncbi_taxid	eukaryoma_code	eukaryoma_name	eukaryoma_taxid	match	binomial_equal	note	multicellular	transition_roles
+Amphque	Amphimedon queenslandica	400682	X2599	Amphimedon queenslandica	400682	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Sycocil	Sycon ciliatum	27933	X2633	Sycon ciliatum	27933	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Ephymue	Ephydatia muelleri	6052	X2611	Ephydatia muelleri	6052	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Oscapea	Oscarella pearsei	1940113	X2637	Oscarella pearsei	1940113	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Tricadh	Trichoplax adhaerens	10228	X2561	Trichoplax adhaerens	10228	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Hoilhon	Hoilungia hongkongensis	1964320	X2565	Hoilungia hongkongensis	1964320	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Mnemlei	Mnemiopsis leidyi	27923	X1201	Mnemiopsis leidyi	27923	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Nemavec	Nematostella vectensis	45351	X1281	Nematostella vectensis	45351	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Hydrvul	Hydra vulgaris	6087	X1333	Hydra vulgaris	6087	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Homosap	Homo sapiens	9606	X2091	Homo sapiens	9606	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Branbel	Branchiostoma belcheri	7741	X2533	Branchiostoma belcheri	7741	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Stropur	Strongylocentrotus purpuratus	7668	X2543	Strongylocentrotus purpuratus	7668	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Drosmel	Drosophila melanogaster	7227	X1447	Drosophila melanogaster	7227	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Capitel	Capitella teleta	283909	X1777	Capitella teleta	283909	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Caenele	Caenorhabditis elegans	6239	X1653	Caenorhabditis elegans	6239	taxid+name	True		1	T_metazoa:M;T_ichthyosporea_coenocytic:sister
+Salpros	Salpingoeca rosetta	946362	X1167	Salpingoeca rosetta	946362	taxid+name	True		0	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister
+Choafle	Choanoeca flexa	2572930	X1157	Choanoeca flexa	2572930	taxid+name	True		0	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister
+Codohol	Codosiga hollandica	1742608	X1171	Codosiga hollandica	1742608	taxid+name	True		0	T_metazoa:sister;T_choano_colonies:M;T_ichthyosporea_coenocytic:sister
+Monobre	Monosiga brevicollis	81824	X1175	Monosiga brevicollis	81824	taxid+name	True		0	T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister
+Mylnflu	Mylnosiga fluctuans	1928486	X1169	Mylnosiga fluctuans	1928486	taxid+name	True		0	T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister
+Acanspe	Acanthoeca spectabilis	81533	X1145	Acanthoeca spectabilis	81533	taxid+name	True		0	T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister
+Didycos	Didymoeca costata	459534	X1151	Didymoeca costata	459534	taxid+name	True		0	T_metazoa:sister;T_choano_colonies:sister;T_ichthyosporea_coenocytic:sister
+Capsowc	Capsaspora owczarzaki	595528	X1137	Capsaspora owczarzaki	192875	name	True	binomial match; taxid differs (595528 vs 192875): strain vs species taxid, accepted	0	T_capsaspora_aggregation:M;T_ichthyosporea_coenocytic:sister
+Minivib	Ministeria vibrans ATCC 50519	134558	X1139	Ministeria vibrans	134558	taxid	True	taxid match; names differ (Ministeria vibrans ATCC 50519 vs Ministeria vibrans): synonym/strain, accepted	0	T_capsaspora_aggregation:sister;T_ichthyosporea_coenocytic:sister
+Pigochi	Pigoraptor chileana	2006546	X1135	Pigoraptor chileana	2006546	taxid+name	True		0	T_capsaspora_aggregation:sister;T_ichthyosporea_coenocytic:sister
+Coralim	Corallochytrium limacisporum strain India	98351	X1113	Corallochytrium limacisporum	98351	taxid	True	taxid match; names differ (Corallochytrium limacisporum strain India vs Corallochytrium limacisporum): synonym/strain, accepted	0	T_ichthyosporea_coenocytic:M
+Syssmul	Syssomonas multiformis	2006709	X1115	Syssomonas multiformis	2006709	taxid+name	True		0	T_ichthyosporea_coenocytic:M
+Sphaarc	Sphaeroforma arctica	72019	X1123	Sphaeroforma arctica	72019	taxid+name	True		0	T_ichthyosporea_coenocytic:M
+Creofra	Creolimax fragrantissima	470921	X1119	Creolimax fragrantissima	470921	taxid+name	True		0	T_ichthyosporea_coenocytic:M
+Chroper	Chromosphaera perkinsii	1932427	X1131	Ichthyosporea sp. XGB-2017a	1932427	taxid	False	taxid match; names differ (Chromosphaera perkinsii vs Ichthyosporea sp. XGB-2017a): synonym/strain, accepted	0	T_ichthyosporea_coenocytic:M
+Amoepar	Amoebidium parasiticum	4881	X1121	Amoebidium parasiticum	4881	taxid+name	True		0	T_ichthyosporea_coenocytic:M
+Fontalb	Fonticula alba	691883	X1049	Fonticula alba	691883	taxid+name	True		1	T_fonticula:M
+Parvatl	Parvularia atlantis	1993908	X1047	Parvularia atlantis	1993908	taxid+name	True		0	T_fonticula:sister
+Rozeall	Rozella allomycis	988480	X1069	Rozella allomycis	281847	name	True	binomial match; taxid differs (988480 vs 281847): strain vs species taxid, accepted	0	
+Batrden	Batrachochytrium dendrobatidis	684364	X1063	Batrachochytrium dendrobatidis	109871	name	True	binomial match; taxid differs (684364 vs 109871): strain vs species taxid, accepted	0	T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:sister
+Spizpun	Spizellomyces punctatus	645134	X1061	Spizellomyces punctatus	109760	name	True	binomial match; taxid differs (645134 vs 109760): strain vs species taxid, accepted	0	T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:sister
+Gonapro	Gonapodya prolifera	1344416	X1065	Gonapodya prolifera	1123529	name	True	binomial match; taxid differs (1344416 vs 1123529): strain vs species taxid, accepted	1	T_fungi_hyphae:sister;T_fungi_hyphae_gonapodya:M
+Allomac	Allomyces macrogynus	578462	X1071	Allomyces macrogynus	28583	name	True	binomial match; taxid differs (578462 vs 28583): strain vs species taxid, accepted	1	T_fungi_hyphae:M
+Schipom	Schizosaccharomyces pombe	284812	X1095	Schizosaccharomyces pombe	4896	name	True	binomial match; taxid differs (284812 vs 4896): strain vs species taxid, accepted	0	T_fungi_neolecta:sister;T_rev_schizosaccharomyces:M;T_rev_saitoella:sister
+Sacccer	Saccharomyces cerevisiae	559292	X1075	Saccharomyces cerevisiae	4932	name	True	binomial match; taxid differs (559292 vs 4932): strain vs species taxid, accepted	0	T_fungi_pezizomycotina:sister;T_rev_saccharomycotina:M
+Yarrlip	Yarrowia lipolytica	284591	X1079	Yarrowia lipolytica	4952	name	True	binomial match; taxid differs (284591 vs 4952): strain vs species taxid, accepted	0	T_fungi_pezizomycotina:sister;T_rev_saccharomycotina:M
+Neurcra	Neurospora crassa	367110	X1091	Neurospora crassa	5141	name	True	binomial match; taxid differs (367110 vs 5141): strain vs species taxid, accepted	1	T_fungi_hyphae:M;T_fungi_pezizomycotina:M;T_rev_saccharomycotina:sister
+Coprcin	Coprinopsis cinerea	240176	X1103	Coprinopsis cinerea	5346	name	True	binomial match; taxid differs (240176 vs 5346): strain vs species taxid, accepted	1	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister
+Laccbic	Laccaria bicolor	486041	X1101	Laccaria bicolor	29883	name	True	binomial match; taxid differs (486041 vs 29883): strain vs species taxid, accepted	1	T_fungi_hyphae:M;T_fungi_agaricomycetes:M;T_rev_rhodotorula:sister
+Crypneo	Cryptococcus neoformans	235443	X1099	Cryptococcus neoformans	5207	name	True	binomial match; taxid differs (235443 vs 5207): strain vs species taxid, accepted	0	T_fungi_agaricomycetes:sister;T_fungi_tremella:sister;T_rev_cryptococcus:M;T_rev_rhodotorula:sister
+Ustimay	Ustilago maydis	5270	X1105	Ustilago maydis	5270	taxid+name	True		1	T_fungi_hyphae:M;T_rev_rhodotorula:sister
+Dictdis	Dictyostelium discoideum	44689	X1011	Dictyostelium discoideum	44689	taxid+name	True		1	T_dictyostelia:M
+Dictpur	Dictyostelium purpureum	5786	X1013	Dictyostelium purpureum	5786	taxid+name	True		1	T_dictyostelia:M
+Tieglac	Tieghemostelium lacteum	361077	X1009	Tieghemostelium lacteum	361077	taxid+name	True		1	T_dictyostelia:M
+Cavefas	Cavenderia fasciculata	261658	X1017	Cavenderia fasciculata	261658	taxid+name	True		1	T_dictyostelia:M
+Physpol	Physarum polycephalum	5791	X1019	Physarum polycephalum	5791	taxid+name	True		0	T_dictyostelia:sister;T_myxogastria_plasmodium:M
+Planfun	Planoprotostelium fungivorum	1890364	X1025	Planoprotostelium fungivorum	1890364	taxid+name	True		0	
+Acancas	Acanthamoeba castellanii	1257118	X1005	Acanthamoeba castellanii	5755	name	True	binomial match; taxid differs (1257118 vs 5755): strain vs species taxid, accepted	0	
+Mastbal	Mastigamoeba balamuthi	108607	X1027	Mastigamoeba balamuthi	108607	taxid+name	True		0	
+Vermver	Vermamoeba vermiformis	5778	X1039	Vermamoeba vermiformis	5778	taxid+name	True		0	
+Arceint	Arcella intermedia	1963864	X1035	Arcella intermedia	1963864	taxid+name	True		0	T_copromyxa:sister
+Stygreg	Stygamoeba regulata	1042828	X1007	Stygamoeba regulata	1042828	taxid+name	True		0	
+Volvcar	Volvox carteri f. nagariensis	3068	X0135	Volvox carteri	3067	species_manual	True	species-level: ours V. carteri f. nagariensis (3068), EukaryOMA V. carteri (3067)	1	T_volvocales_tetrabaena:sister;T_volvocales_gv:M
+Chlarei	Chlamydomonas reinhardtii	3055	X0127	Chlamydomonas reinhardtii	3055	taxid+name	True		0	
+Coccsub	Coccomyxa subellipsoidea	574566	X0111	Coccomyxa subellipsoidea	248742	name	True	binomial match; taxid differs (574566 vs 248742): strain vs species taxid, accepted	0	
+Caullen	Caulerpa lentillifera	148947	X0119	Caulerpa lentillifera	148947	taxid+name	True		0	T_ulvophyceae:sister;T_siphonous_coenocytic:M
+Ostrtau	Ostreococcus tauri	70448	X0089	Ostreococcus tauri	70448	taxid+name	True		0	
+Micrcom	Micromonas commoda	296587	X0095	Micromonas commoda	296587	taxid+name	True		0	
+Prascol	Prasinoderma coloniale	156133	X0159	Prasinoderma coloniale	156133	taxid+name	True		0	
+Mesovir	Mesostigma viride	41882	X0219	Mesostigma viride	41882	taxid+name	True		0	T_streptophyta:sister
+Klebnit	Klebsormidium nitens	105231	X0223	Klebsormidium nitens	105231	taxid+name	True		1	T_streptophyta:M
+Colescu	Coleochaete scutata	3125	X0215	Coleochaete scutata	3125	taxid+name	True		1	T_streptophyta:M;T_chara:sister
+Marcpol	Marchantia polymorpha	3197	X0205	Marchantia polymorpha	3197	taxid+name	True		1	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister
+Physpat	Physcomitrium patens	3218	X0207	Physcomitrium patens	3218	taxid+name	True		1	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister
+Selamoe	Selaginella moellendorffii	88036	X0203	Selaginella moellendorffii	88036	taxid+name	True		1	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister
+Ambotri	Amborella trichopoda	13333	X0191	Amborella trichopoda	13333	taxid+name	True		1	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister
+Arabtha	Arabidopsis thaliana	3702	X0171	Arabidopsis thaliana	3702	taxid+name	True		1	T_rev_zygnematophyceae:sister;T_streptophyta:M;T_embryophyta:M;T_chara:sister
+Choncri	Chondrus crispus	2769	X0233	Chondrus crispus	2769	taxid+name	True		1	T_rhodophyta:M;T_florideophyceae:M
+Graccho	Gracilariopsis chorda	448386	X0241	Gracilariopsis chorda	448386	taxid+name	True		1	T_rhodophyta:M;T_florideophyceae:M
+Agarchi	Agarophyton chilense	2510777	X0237	Agarophyton chilense	2510777	taxid+name	True		1	T_rhodophyta:M;T_florideophyceae:M
+Pyroyez	Pyropia yezoensis	2788	X0259	Neopyropia yezoensis	2788	taxid	False	taxid match; names differ (Pyropia yezoensis vs Neopyropia yezoensis): synonym/strain, accepted	1	T_rhodophyta:M;T_florideophyceae:sister
+Porpumb	Porphyra umbilicalis	2786	X0255	Porphyra umbilicalis	2786	taxid+name	True		1	T_rhodophyta:M;T_florideophyceae:sister
+Porppur	Porphyridium purpureum	35688	X0263	Porphyridium purpureum	35688	taxid+name	True		0	T_rhodophyta:sister
+Rhodmar	Rhodosorus marinus	101924	X0275	Rhodosorus marinus	101924	taxid+name	True		0	T_rhodophyta:sister
+Cyanmer	Cyanidioschyzon merolae	280699	X0253	Cyanidioschyzon merolae	45157	name	True	binomial match; taxid differs (280699 vs 45157): strain vs species taxid, accepted	0	
+Galdsul	Galdieria sulphuraria	130081	X0271	Galdieria sulphuraria	130081	taxid+name	True		0	
+Rhodemar	Rhodelphis marinus	2584957	X0285	Rhodelphis marinus	2584957	taxid+name	True		0	
+Cyanpar	Cyanophora paradoxa	2762	X0081	Cyanophora paradoxa	2762	taxid+name	True		0	
+Ectosil	Ectocarpus siliculosus	2880	X0849	Ectocarpus siliculosus	2880	taxid+name	True		1	T_px_filaments:M;T_phaeophyceae:M;T_xanthophyceae_filaments:sister;T_oomycete_hyphae:sister
+Vauclit	Vaucheria litorea	109269	X0845	Vaucheria litorea	109269	taxid+name	True		0	T_px_filaments:M;T_xanthophyceae_filaments:M;T_oomycete_hyphae:sister
+Heteaka	Heterosigma akashiwo	2829	X0865	Heterosigma akashiwo	2829	taxid+name	True		0	T_px_filaments:sister;T_oomycete_hyphae:sister
+Aureano	Aureococcus anophagefferens	44056	X0681	Aureococcus anophagefferens	44056	taxid+name	True		0	T_px_filaments:sister;T_oomycete_hyphae:sister
+Phaetri	Phaeodactylum tricornutum	556484	X0785	Phaeodactylum tricornutum	2850	name	True	binomial match; taxid differs (556484 vs 2850): strain vs species taxid, accepted	0	T_px_filaments:sister;T_oomycete_hyphae:sister
+Thalpse	Thalassiosira pseudonana	35128	X0737	Thalassiosira pseudonana	35128	taxid+name	True		0	T_px_filaments:sister;T_oomycete_hyphae:sister
+Phytinf	Phytophthora infestans	403677	X0883	Phytophthora infestans	4787	name	True	binomial match; taxid differs (403677 vs 4787): strain vs species taxid, accepted	0	T_oomycete_hyphae:M
+Saprpar	Saprolegnia parasitica	695850	X0897	Saprolegnia parasitica	101203	name	True	binomial match; taxid differs (695850 vs 101203): strain vs species taxid, accepted	0	T_oomycete_hyphae:M
+Pytholi	Pythium oligandrum	41045	X0875	Pythium oligandrum	41045	taxid+name	True		0	T_oomycete_hyphae:M
+Caferoe	Cafeteria roenbergensis	33653	X0903	Cafeteria roenbergensis	33653	taxid+name	True		0	
+Hondfer	Hondaea fermentalgiana	2315210	X0923	Hondaea fermentalgiana	2315210	taxid+name	True		0	T_labyrinthula_nets:sister
+Auralim	Aurantiochytrium limacinum	87102	X0925	Aurantiochytrium limacinum	87102	taxid+name	True		0	T_labyrinthula_nets:sister
+Platmac	Platyophrya macrostoma	938130	X0617	Platyophrya macrostoma	938130	taxid+name	True		0	
+Tetrthe	Tetrahymena thermophila	312017	X0597	Tetrahymena thermophila	5911	name	True	binomial match; taxid differs (312017 vs 5911): strain vs species taxid, accepted	0	
+Paratet	Paramecium tetraurelia	5888	X0607	Paramecium tetraurelia	5888	taxid+name	True		0	
+Plasfal	Plasmodium falciparum	36329	X0657	Plasmodium falciparum	5833	name	True	binomial match; taxid differs (36329 vs 5833): strain vs species taxid, accepted	0	
+Toxogon	Toxoplasma gondii	508771	X0635	Toxoplasma gondii	5811	name	True	binomial match; taxid differs (508771 vs 5811): strain vs species taxid, accepted	0	
+Perkmar	Perkinsus marinus	423536	X0673	Perkinsus marinus	31276	name	True	binomial match; taxid differs (423536 vs 31276): strain vs species taxid, accepted	0	
+Guttvul	Guttulinopsis vulgaris	1144922	X0465	Guttulinopsis vulgaris	1144922	taxid+name	True		1	T_guttulinopsis:M;T_plasmodiophorid_plasmodium:sister
+Bigenat	Bigelowiella natans	227086	X0437	Bigelowiella natans	227086	taxid+name	True		0	T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister
+Paulmic	Paulinella micropora	1928728	X0453	Paulinella micropora	1928728	taxid+name	True		0	T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister
+Lothglo	Lotharella globosa	91324	X0431	Lotharella globosa	91324	taxid+name	True		0	T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister
+Brevmot	Brevimastigomonas motovehiculus	1885055	X0461	Brevimastigomonas motovehiculus	1885055	taxid+name	True		0	T_guttulinopsis:sister;T_plasmodiophorid_plasmodium:sister
+Plasbra	Plasmodiophora brassicae	37360	X0427	Plasmodiophora brassicae	37360	taxid+name	True		0	T_plasmodiophorid_plasmodium:M
+Naeggru	Naegleria gruberi	5762	X0061	Naegleria gruberi	5762	taxid+name	True		0	T_acrasis:sister
+Neovdam	Neovahlkampfia damariscottae	166956	X0069	Neovahlkampfia damariscottae	166956	taxid+name	True		0	T_acrasis:sister
+Pharkir	Pharyngomonas kirbyi	63601	X0071	Pharyngomonas kirbyi	63601	taxid+name	True		0	
+Euglgra	Euglena gracilis	3039	X0053	Euglena gracilis	3039	taxid+name	True		0	
+Trypbru	Trypanosoma brucei brucei	185431	X0035	Trypanosoma brucei	5691	species_manual	True	species-level: ours T. brucei brucei (185431), EukaryOMA T. brucei (5691)	0	
+Bodosal	Bodo saltans	75058	X0021	Bodo saltans	75058	taxid+name	True		0	
+Andagod	Andalucia godoyi	505711	X0003	Andalucia godoyi	505711	taxid+name	True		0	
+Parapyr	Paratrimastix pyriformis	342808	X0961	Paratrimastix pyriformis	342808	taxid+name	True		0	
+Gefioke	Gefionella okellyi	2853422	X0981	Gefionella okellyi	2853422	taxid+name	True		0	
+Thectra	Thecamonas trahens ATCC 50062	461836	X2653	Thecamonas trahens	529818	species_manual	True	species-level: ours T. trahens ATCC 50062 (461836), EukaryOMA T. trahens (529818)	0	
+Pygsbif	Pygsuia biforma	1277256	X2649	Pygsuia biforma	1277256	taxid+name	True		0	
+Rigiram	Rigifila ramosa	1122280	X0985	Rigifila ramosa	1122280	taxid+name	True		0	
+Diphrot	Diphylleia rotans	190327	X0983	Diphylleia rotans	190327	taxid+name	True		0	
+Guilthe	Guillardia theta	905079	X0307	Guillardia theta	55529	name	True	binomial match; taxid differs (905079 vs 55529): strain vs species taxid, accepted	0	
+Prympar	Prymnesium parvum	97485	X0351	Prymnesium parvum	97485	taxid+name	True		0	
+Raphhet	Raphidiophrys heterophryoidea	1703429	X0323	Raphidiophrys heterophryoidea	1703429	taxid+name	True		0	
+Telosub	Telonema subtile	232287	X0375	Telonema subtile	232287	taxid+name	True		0	
+Paratri	Paraphelidium tribonemae	2548444	X1111	Paraphelidium tribonematis	2548444	taxid	False	taxid match; names differ (Paraphelidium tribonemae vs Paraphelidium tribonematis): synonym/strain, accepted	0	

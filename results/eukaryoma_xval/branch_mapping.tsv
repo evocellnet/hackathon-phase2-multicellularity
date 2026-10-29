@@ -1,0 +1,359 @@
+branch_id	role	tier	analysis_set	orig_top	orig_bottom	n_orig_edges	status	top	bottom	pruned_edges	n_pruned_edges	extra_orig_edges	missing_orig_edges	n_kept_below	reason	is_leaf
+T_metazoa	stem	primary	primary	Choanozoa	Metazoa	1	exact	Choanozoa	Metazoa	Choanozoa>Metazoa	1.0			15.0		
+T_fungi_hyphae	stem	primary	primary	Eumycota	Amastigomycota	2	approx	Eumycota	Dikarya	Eumycota>Blastocladiomycota_Amastigomycota;Blastocladiomycota_Amastigomycota>Dikarya	2.0	Amastigomycota>Mucoromycota_Dikarya;Mucoromycota_Dikarya>Dikarya		8.0		
+T_fungi_hyphae_gonapodya	stem	secondary	exploratory	chytridiomyceta	Gonapro	1	exact	chytridiomyceta	Gonapro	chytridiomyceta>Gonapro	1.0			1.0		
+T_fungi_pezizomycotina	stem	primary	secondary	saccharomyceta	Pezizomycotina	1	approx	saccharomyceta	Neurcra	saccharomyceta>Neurcra	1.0	Pezizomycotina>leotiomyceta;leotiomyceta>sordariomyceta;sordariomyceta>Neurcra		1.0		
+T_fungi_agaricomycetes	stem	primary	secondary	Agaricomycotina	Agaricomycetes_Dacrymycetes	1	approx	Agaricomycotina	Agaricineae	Agaricomycotina>Agaricineae	1.0	Agaricales>Agaricineae;Agaricomycetes_Dacrymycetes>Agaricales		2.0		
+T_fungi_neolecta	stem	secondary	exploratory	Taphrinomycotina	Neolirr	1	missing								no kept species below Neolirr	
+T_dictyostelia	stem	primary	primary	Eumycetozoa	Dictyostelia	1	exact	Eumycetozoa	Dictyostelia	Eumycetozoa>Dictyostelia	1.0			4.0		
+T_fonticula	stem	secondary	exploratory	Rotosphaerida	Fontalb	1	exact	Rotosphaerida	Fontalb	Rotosphaerida>Fontalb	1.0			1.0		
+T_acrasis	stem	secondary	exploratory	Tetramitia	Acrakon	1	missing								no kept species below Acrakon	
+T_copromyxa	stem	secondary	exploratory	Elardia	Coprpro	1	missing								no kept species below Coprpro	
+T_volvocales_tetrabaena	stem	primary	exploratory	TGV_clade	Tetrsoc	1	missing								no kept species below Tetrsoc	
+T_volvocales_gv	stem	primary	exploratory	TGV_clade	Gonium_Volvocaceae	1	approx	Chlamydomonas_TGV	Volvcar	Chlamydomonas_TGV>Volvcar	1.0	Astrephomene_Volvocaceae>Volvocaceae;Chlamydomonas_TGV>TGV_clade;Gonium_Volvocaceae>Astrephomene_Volvocaceae;Volvocaceae>Volvcar		1.0	no kept species in TGV_clade outside Gonium_Volvocaceae; parent taken as Chlamydomonas_TGV	
+T_streptophyta	stem	primary	primary	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	1	exact	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Streptophyta>Klebsormidiophyceae_Phragmoplastophyta	1.0			7.0		
+T_embryophyta	stem	primary	secondary	Anydrophyta	Embryophyta	1	approx	Coleochaetophyceae_Anydrophyta	Embryophyta	Coleochaetophyceae_Anydrophyta>Embryophyta	1.0	Coleochaetophyceae_Anydrophyta>Anydrophyta		5.0	no kept species in Anydrophyta outside Embryophyta; parent taken as Coleochaetophyceae_Anydrophyta	
+T_chara	stem	secondary	exploratory	Streptophytina	Charbra	1	missing								no kept species below Charbra	
+T_rhodophyta	stem	primary	primary	Rhodophytina	Eurhodophytina	1	exact	Rhodophytina	Eurhodophytina	Rhodophytina>Eurhodophytina	1.0			5.0		
+T_florideophyceae	stem	primary	exploratory	Eurhodophytina	Rhodymeniophycidae	1	exact	Eurhodophytina	Rhodymeniophycidae	Eurhodophytina>Rhodymeniophycidae	1.0			3.0		
+T_px_filaments	stem	secondary	primary	Ochrophyta	PX_clade	1	exact	Ochrophyta	PX_clade	Ochrophyta>PX_clade	1.0			2.0		
+T_phaeophyceae	stem	primary	exploratory	Phaeophyceae_Schizocladia	Phaeophyceae	1	approx	PX_clade	Ectosil	PX_clade>Ectosil	1.0	Dictyotophycidae_Fucophycidae>Fucophycidae;Fucophycidae>Ectosil;PX_clade>Phaeophyceae_Schizocladia;Phaeophyceae>Dictyotophycidae_Fucophycidae		1.0	no kept species in Phaeophyceae_Schizocladia outside Phaeophyceae; parent taken as PX_clade	
+T_ulvophyceae	stem	secondary	exploratory	Ulvophyceae	Ulvamut	1	missing								no kept species below Ulvamut	
+T_volvocine_tgv	stem	primary	primary	Chlamydomonas_TGV	Gonium_Volvocaceae	2	approx	Chlamydomonas_TGV	Volvcar	Chlamydomonas_TGV>Volvcar	1.0	Astrephomene_Volvocaceae>Volvocaceae;Gonium_Volvocaceae>Astrephomene_Volvocaceae;Volvocaceae>Volvcar		1.0		
+Bikonta	other			Eukaryota	Bikonta	1	exact	Eukaryota	Bikonta	Eukaryota>Bikonta	1.0			63.0		False
+Gefioke	other			Bikonta	Gefioke	1	exact	Bikonta	Gefioke	Bikonta>Gefioke	1.0			1.0		True
+Parapyr	other			Bikonta	Parapyr	1	exact	Bikonta	Parapyr	Bikonta>Parapyr	1.0			1.0		True
+Diaphoretickes	control			Bikonta	Diaphoretickes	1	exact	Bikonta	Diaphoretickes	Bikonta>Diaphoretickes	1.0			54.0		False
+Guilthe	other			Diaphoretickes	Guilthe	1	exact	Diaphoretickes	Guilthe	Diaphoretickes>Guilthe	1.0			1.0		True
+Archaeplastida	control			Diaphoretickes	Archaeplastida	1	exact	Diaphoretickes	Archaeplastida	Diaphoretickes>Archaeplastida	1.0			26.0		False
+Cyanpar	other			Archaeplastida	Cyanpar	1	exact	Archaeplastida	Cyanpar	Archaeplastida>Cyanpar	1.0			1.0		True
+Rhodophyta_Rhodelphidia	control			Archaeplastida	Rhodophyta_Rhodelphidia	1	exact	Archaeplastida	Rhodophyta_Rhodelphidia	Archaeplastida>Rhodophyta_Rhodelphidia	1.0			10.0		False
+Rhodemar	other			Rhodophyta_Rhodelphidia	Rhodemar	1	exact	Rhodophyta_Rhodelphidia	Rhodemar	Rhodophyta_Rhodelphidia>Rhodemar	1.0			1.0		True
+Rhodophyta	other			Rhodophyta_Rhodelphidia	Rhodophyta	1	exact	Rhodophyta_Rhodelphidia	Rhodophyta	Rhodophyta_Rhodelphidia>Rhodophyta	1.0			9.0		False
+Cyanidiophyceae	control			Rhodophyta	Cyanidiophyceae	1	exact	Rhodophyta	Cyanidiophyceae	Rhodophyta>Cyanidiophyceae	1.0			2.0		False
+Cyanmer	other			Cyanidiophyceae	Cyanmer	1	exact	Cyanidiophyceae	Cyanmer	Cyanidiophyceae>Cyanmer	1.0			1.0		True
+Galdsul	other			Cyanidiophyceae	Galdsul	1	exact	Cyanidiophyceae	Galdsul	Cyanidiophyceae>Galdsul	1.0			1.0		True
+Rhodophytina	other			Rhodophyta	Rhodophytina	1	exact	Rhodophyta	Rhodophytina	Rhodophyta>Rhodophytina	1.0			7.0		False
+Eurhodophytina	other			Rhodophytina	Eurhodophytina	1	exact	Rhodophytina	Eurhodophytina	Rhodophytina>Eurhodophytina	1.0			5.0		False
+Bangiaceae	other			Eurhodophytina	Bangiaceae	1	exact	Eurhodophytina	Bangiaceae	Eurhodophytina>Bangiaceae	1.0			2.0		False
+Porpumb	other			Bangiaceae	Porpumb	1	exact	Bangiaceae	Porpumb	Bangiaceae>Porpumb	1.0			1.0		True
+Pyroyez	other			Bangiaceae	Pyroyez	1	exact	Bangiaceae	Pyroyez	Bangiaceae>Pyroyez	1.0			1.0		True
+Rhodymeniophycidae	other			Eurhodophytina	Rhodymeniophycidae	1	exact	Eurhodophytina	Rhodymeniophycidae	Eurhodophytina>Rhodymeniophycidae	1.0			3.0		False
+Choncri	other			Rhodymeniophycidae	Choncri	1	exact	Rhodymeniophycidae	Choncri	Rhodymeniophycidae>Choncri	1.0			1.0		True
+Gracilariaceae	other			Rhodymeniophycidae	Gracilariaceae	1	exact	Rhodymeniophycidae	Gracilariaceae	Rhodymeniophycidae>Gracilariaceae	1.0			2.0		False
+Agarchi	other			Gracilariaceae	Agarchi	1	exact	Gracilariaceae	Agarchi	Gracilariaceae>Agarchi	1.0			1.0		True
+Graccho	other			Gracilariaceae	Graccho	1	exact	Gracilariaceae	Graccho	Gracilariaceae>Graccho	1.0			1.0		True
+Proteorhodophytina	other			Rhodophytina	Proteorhodophytina	1	exact	Rhodophytina	Proteorhodophytina	Rhodophytina>Proteorhodophytina	1.0			2.0		False
+Porppur	other			Proteorhodophytina	Porppur	1	exact	Proteorhodophytina	Porppur	Proteorhodophytina>Porppur	1.0			1.0		True
+Rhodmar	other			Proteorhodophytina	Rhodmar	1	exact	Proteorhodophytina	Rhodmar	Proteorhodophytina>Rhodmar	1.0			1.0		True
+Viridiplantae	control			Archaeplastida	Viridiplantae	1	exact	Archaeplastida	Viridiplantae	Archaeplastida>Viridiplantae	1.0			15.0		False
+Prascol	other			Viridiplantae	Prascol	1	exact	Viridiplantae	Prascol	Viridiplantae>Prascol	1.0			1.0		True
+Chlorophyta_Streptophyta	other			Viridiplantae	Chlorophyta_Streptophyta	1	exact	Viridiplantae	Chlorophyta_Streptophyta	Viridiplantae>Chlorophyta_Streptophyta	1.0			14.0		False
+Chlorophyta	control			Chlorophyta_Streptophyta	Chlorophyta	1	exact	Chlorophyta_Streptophyta	Chlorophyta	Chlorophyta_Streptophyta>Chlorophyta	1.0			6.0		False
+Mamiellales	control			Chlorophyta	Mamiellales	1	exact	Chlorophyta	Mamiellales	Chlorophyta>Mamiellales	1.0			2.0		False
+Micrcom	other			Mamiellales	Micrcom	1	exact	Mamiellales	Micrcom	Mamiellales>Micrcom	1.0			1.0		True
+Ostrtau	other			Mamiellales	Ostrtau	1	exact	Mamiellales	Ostrtau	Mamiellales>Ostrtau	1.0			1.0		True
+UTC_clade	control			Chlorophyta	UTC_clade	1	exact	Chlorophyta	UTC_clade	Chlorophyta>UTC_clade	1.0			4.0		False
+CS_clade	control			UTC_clade	CS_clade	1	approx	UTC_clade	Chlamydomonas_TGV	UTC_clade>Chlamydomonas_TGV	1.0	CS_clade>Chlamydomonadales;Chlamydomonadales>Reinhardtinia;Reinhardtinia>Chlamydomonas_TGV		2.0		False
+Raphsub	other			CS_clade	Raphsub	1	missing								no kept species below Raphsub	True
+Chlamydomonadales	other			CS_clade	Chlamydomonadales	1	approx	UTC_clade	Chlamydomonas_TGV	UTC_clade>Chlamydomonas_TGV	1.0	Chlamydomonadales>Reinhardtinia;Reinhardtinia>Chlamydomonas_TGV;UTC_clade>CS_clade		2.0	no kept species in CS_clade outside Chlamydomonadales; parent taken as UTC_clade	False
+Dunasal	other			Chlamydomonadales	Dunasal	1	missing								no kept species below Dunasal	True
+Reinhardtinia	other			Chlamydomonadales	Reinhardtinia	1	approx	UTC_clade	Chlamydomonas_TGV	UTC_clade>Chlamydomonas_TGV	1.0	CS_clade>Chlamydomonadales;Reinhardtinia>Chlamydomonas_TGV;UTC_clade>CS_clade		2.0	no kept species in Chlamydomonadales outside Reinhardtinia; parent taken as UTC_clade	False
+Edapdeb	other			Reinhardtinia	Edapdeb	1	missing								no kept species below Edapdeb	True
+Chlamydomonas_TGV	other			Reinhardtinia	Chlamydomonas_TGV	1	approx	UTC_clade	Chlamydomonas_TGV	UTC_clade>Chlamydomonas_TGV	1.0	CS_clade>Chlamydomonadales;Chlamydomonadales>Reinhardtinia;UTC_clade>CS_clade		2.0	no kept species in Reinhardtinia outside Chlamydomonas_TGV; parent taken as UTC_clade	False
+Chlamydomonas	other			Chlamydomonas_TGV	Chlamydomonas	1	approx	Chlamydomonas_TGV	Chlarei	Chlamydomonas_TGV>Chlarei	1.0	Chlamydomonas>Chlarei		1.0		False
+Chlainc	other			Chlamydomonas	Chlainc	1	missing								no kept species below Chlainc	True
+Chlarei	other			Chlamydomonas	Chlarei	1	approx	Chlamydomonas_TGV	Chlarei	Chlamydomonas_TGV>Chlarei	1.0	Chlamydomonas_TGV>Chlamydomonas		1.0	no kept species in Chlamydomonas outside Chlarei; parent taken as Chlamydomonas_TGV	True
+Chlasch	other			Chlamydomonas	Chlasch	1	missing								no kept species below Chlasch	True
+TGV_clade	other			Chlamydomonas_TGV	TGV_clade	1	approx	Chlamydomonas_TGV	Volvcar	Chlamydomonas_TGV>Volvcar	1.0	Astrephomene_Volvocaceae>Volvocaceae;Gonium_Volvocaceae>Astrephomene_Volvocaceae;TGV_clade>Gonium_Volvocaceae;Volvocaceae>Volvcar		1.0		False
+Tetrsoc	other			TGV_clade	Tetrsoc	1	missing								no kept species below Tetrsoc	True
+Gonium_Volvocaceae	other			TGV_clade	Gonium_Volvocaceae	1	approx	Chlamydomonas_TGV	Volvcar	Chlamydomonas_TGV>Volvcar	1.0	Astrephomene_Volvocaceae>Volvocaceae;Chlamydomonas_TGV>TGV_clade;Gonium_Volvocaceae>Astrephomene_Volvocaceae;Volvocaceae>Volvcar		1.0	no kept species in TGV_clade outside Gonium_Volvocaceae; parent taken as Chlamydomonas_TGV	False
+Gonipec	other			Gonium_Volvocaceae	Gonipec	1	missing								no kept species below Gonipec	True
+Astrephomene_Volvocaceae	other			Gonium_Volvocaceae	Astrephomene_Volvocaceae	1	approx	Chlamydomonas_TGV	Volvcar	Chlamydomonas_TGV>Volvcar	1.0	Astrephomene_Volvocaceae>Volvocaceae;Chlamydomonas_TGV>TGV_clade;TGV_clade>Gonium_Volvocaceae;Volvocaceae>Volvcar		1.0	no kept species in Gonium_Volvocaceae outside Astrephomene_Volvocaceae; parent taken as Chlamydomonas_TGV	False
+Astrgub	other			Astrephomene_Volvocaceae	Astrgub	1	missing								no kept species below Astrgub	True
+Volvocaceae	other			Astrephomene_Volvocaceae	Volvocaceae	1	approx	Chlamydomonas_TGV	Volvcar	Chlamydomonas_TGV>Volvcar	1.0	Chlamydomonas_TGV>TGV_clade;Gonium_Volvocaceae>Astrephomene_Volvocaceae;TGV_clade>Gonium_Volvocaceae;Volvocaceae>Volvcar		1.0	no kept species in Astrephomene_Volvocaceae outside Volvocaceae; parent taken as Chlamydomonas_TGV	False
+Pleosta	other			Volvocaceae	Pleosta	1	missing								no kept species below Pleosta	True
+Volvafr	other			Volvocaceae	Volvafr	1	missing								no kept species below Volvafr	True
+Volvcar	other			Volvocaceae	Volvcar	1	approx	Chlamydomonas_TGV	Volvcar	Chlamydomonas_TGV>Volvcar	1.0	Astrephomene_Volvocaceae>Volvocaceae;Chlamydomonas_TGV>TGV_clade;Gonium_Volvocaceae>Astrephomene_Volvocaceae;TGV_clade>Gonium_Volvocaceae		1.0	no kept species in Volvocaceae outside Volvcar; parent taken as Chlamydomonas_TGV	True
+Trebouxiophyceae	control			UTC_clade	Trebouxiophyceae	1	approx	UTC_clade	Coccsub	UTC_clade>Coccsub	1.0	Trebouxiophyceae>Coccsub		1.0		False
+Chlovul	other			Trebouxiophyceae	Chlovul	1	missing								no kept species below Chlovul	True
+Coccsub	other			Trebouxiophyceae	Coccsub	1	approx	UTC_clade	Coccsub	UTC_clade>Coccsub	1.0	UTC_clade>Trebouxiophyceae		1.0	no kept species in Trebouxiophyceae outside Coccsub; parent taken as UTC_clade	True
+Ulvophyceae	other			UTC_clade	Ulvophyceae	1	approx	UTC_clade	Caullen	UTC_clade>Caullen	1.0	Bryopsidales>Caullen;Ulvophyceae>Bryopsidales		1.0		False
+Ulvamut	other			Ulvophyceae	Ulvamut	1	missing								no kept species below Ulvamut	True
+Bryopsidales	other			Ulvophyceae	Bryopsidales	1	approx	UTC_clade	Caullen	UTC_clade>Caullen	1.0	Bryopsidales>Caullen;UTC_clade>Ulvophyceae		1.0	no kept species in Ulvophyceae outside Bryopsidales; parent taken as UTC_clade	False
+BryospKO2023	other			Bryopsidales	BryospKO2023	1	missing								no kept species below BryospKO2023	True
+Caullen	other			Bryopsidales	Caullen	1	approx	UTC_clade	Caullen	UTC_clade>Caullen	1.0	UTC_clade>Ulvophyceae;Ulvophyceae>Bryopsidales		1.0	no kept species in Bryopsidales outside Caullen; parent taken as UTC_clade	True
+Ostrque	other			Bryopsidales	Ostrque	1	missing								no kept species below Ostrque	True
+Streptophyta	other			Chlorophyta_Streptophyta	Streptophyta	1	exact	Chlorophyta_Streptophyta	Streptophyta	Chlorophyta_Streptophyta>Streptophyta	1.0			8.0		False
+Klebsormidiophyceae_Phragmoplastophyta	other			Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	1	exact	Streptophyta	Klebsormidiophyceae_Phragmoplastophyta	Streptophyta>Klebsormidiophyceae_Phragmoplastophyta	1.0			7.0		False
+Klebnit	other			Klebsormidiophyceae_Phragmoplastophyta	Klebnit	1	exact	Klebsormidiophyceae_Phragmoplastophyta	Klebnit	Klebsormidiophyceae_Phragmoplastophyta>Klebnit	1.0			1.0		True
+Streptophytina	other			Klebsormidiophyceae_Phragmoplastophyta	Streptophytina	1	approx	Klebsormidiophyceae_Phragmoplastophyta	Coleochaetophyceae_Anydrophyta	Klebsormidiophyceae_Phragmoplastophyta>Coleochaetophyceae_Anydrophyta	1.0	Streptophytina>Coleochaetophyceae_Anydrophyta		6.0		False
+Charbra	other			Streptophytina	Charbra	1	missing								no kept species below Charbra	True
+Coleochaetophyceae_Anydrophyta	other			Streptophytina	Coleochaetophyceae_Anydrophyta	1	approx	Klebsormidiophyceae_Phragmoplastophyta	Coleochaetophyceae_Anydrophyta	Klebsormidiophyceae_Phragmoplastophyta>Coleochaetophyceae_Anydrophyta	1.0	Klebsormidiophyceae_Phragmoplastophyta>Streptophytina		6.0	no kept species in Streptophytina outside Coleochaetophyceae_Anydrophyta; parent taken as Klebsormidiophyceae_Phragmoplastophyta	False
+Colescu	other			Coleochaetophyceae_Anydrophyta	Colescu	1	exact	Coleochaetophyceae_Anydrophyta	Colescu	Coleochaetophyceae_Anydrophyta>Colescu	1.0			1.0		True
+Anydrophyta	other			Coleochaetophyceae_Anydrophyta	Anydrophyta	1	approx	Coleochaetophyceae_Anydrophyta	Embryophyta	Coleochaetophyceae_Anydrophyta>Embryophyta	1.0	Anydrophyta>Embryophyta		5.0		False
+Embryophyta	other			Anydrophyta	Embryophyta	1	approx	Coleochaetophyceae_Anydrophyta	Embryophyta	Coleochaetophyceae_Anydrophyta>Embryophyta	1.0	Coleochaetophyceae_Anydrophyta>Anydrophyta		5.0	no kept species in Anydrophyta outside Embryophyta; parent taken as Coleochaetophyceae_Anydrophyta	False
+Setaphyta	other			Embryophyta	Setaphyta	1	exact	Embryophyta	Setaphyta	Embryophyta>Setaphyta	1.0			2.0		False
+Marcpol	other			Setaphyta	Marcpol	1	exact	Setaphyta	Marcpol	Setaphyta>Marcpol	1.0			1.0		True
+Physpat	other			Setaphyta	Physpat	1	exact	Setaphyta	Physpat	Setaphyta>Physpat	1.0			1.0		True
+Tracheophyta	other			Embryophyta	Tracheophyta	1	exact	Embryophyta	Tracheophyta	Embryophyta>Tracheophyta	1.0			3.0		False
+Selamoe	other			Tracheophyta	Selamoe	1	exact	Tracheophyta	Selamoe	Tracheophyta>Selamoe	1.0			1.0		True
+Euphyllophyta	other			Tracheophyta	Euphyllophyta	1	approx	Tracheophyta	Magnoliopsida	Tracheophyta>Magnoliopsida	1.0	Euphyllophyta>Magnoliopsida		2.0		False
+Ceraric	other			Euphyllophyta	Ceraric	1	missing								no kept species below Ceraric	True
+Magnoliopsida	other			Euphyllophyta	Magnoliopsida	1	approx	Tracheophyta	Magnoliopsida	Tracheophyta>Magnoliopsida	1.0	Tracheophyta>Euphyllophyta		2.0	no kept species in Euphyllophyta outside Magnoliopsida; parent taken as Tracheophyta	False
+Ambotri	other			Magnoliopsida	Ambotri	1	exact	Magnoliopsida	Ambotri	Magnoliopsida>Ambotri	1.0			1.0		True
+Arabtha	other			Magnoliopsida	Arabtha	1	exact	Magnoliopsida	Arabtha	Magnoliopsida>Arabtha	1.0			1.0		True
+Zygnematophyceae	other			Anydrophyta	Zygnematophyceae	1	missing								no kept species below Zygnematophyceae	False
+Spirmus	other			Zygnematophyceae	Spirmus	1	missing								no kept species below Spirmus	True
+Zygnematophycidae	other			Zygnematophyceae	Zygnematophycidae	1	missing								no kept species below Zygnematophycidae	False
+ClosspNIES67	other			Zygnematophycidae	ClosspNIES67	1	missing								no kept species below ClosspNIES67	True
+Mesoend	other			Zygnematophycidae	Mesoend	1	missing								no kept species below Mesoend	True
+Mesostigmatophyceae_Chlorokybophyceae	other			Streptophyta	Mesostigmatophyceae_Chlorokybophyceae	1	approx	Streptophyta	Mesovir	Streptophyta>Mesovir	1.0	Mesostigmatophyceae_Chlorokybophyceae>Mesovir		1.0		False
+Chloatm	other			Mesostigmatophyceae_Chlorokybophyceae	Chloatm	1	missing								no kept species below Chloatm	True
+Mesovir	other			Mesostigmatophyceae_Chlorokybophyceae	Mesovir	1	approx	Streptophyta	Mesovir	Streptophyta>Mesovir	1.0	Streptophyta>Mesostigmatophyceae_Chlorokybophyceae		1.0	no kept species in Mesostigmatophyceae_Chlorokybophyceae outside Mesovir; parent taken as Streptophyta	True
+Haptista	control			Diaphoretickes	Haptista	1	exact	Diaphoretickes	Haptista	Diaphoretickes>Haptista	1.0			2.0		False
+Raphhet	other			Haptista	Raphhet	1	exact	Haptista	Raphhet	Haptista>Raphhet	1.0			1.0		True
+Prymnesiales	other			Haptista	Prymnesiales	1	approx	Haptista	Prympar	Haptista>Prympar	1.0	Prymnesiales>Prympar		1.0		False
+Chrypar	other			Prymnesiales	Chrypar	1	missing								no kept species below Chrypar	True
+Prympar	other			Prymnesiales	Prympar	1	approx	Haptista	Prympar	Haptista>Prympar	1.0	Haptista>Prymnesiales		1.0	no kept species in Prymnesiales outside Prympar; parent taken as Haptista	True
+TSAR	control			Diaphoretickes	TSAR	1	exact	Diaphoretickes	TSAR	Diaphoretickes>TSAR	1.0			25.0		False
+Telosub	other			TSAR	Telosub	1	exact	TSAR	Telosub	TSAR>Telosub	1.0			1.0		True
+Sar	other			TSAR	Sar	1	exact	TSAR	Sar	TSAR>Sar	1.0			24.0		False
+Alveolata	control			Sar	Alveolata	1	exact	Sar	Alveolata	Sar>Alveolata	1.0			6.0		False
+Ciliophora	control			Alveolata	Ciliophora	1	approx	Alveolata	Intramacronucleata	Alveolata>Intramacronucleata	1.0	Ciliophora>Intramacronucleata		3.0		False
+Stencoe	other			Ciliophora	Stencoe	1	missing								no kept species below Stencoe	True
+Intramacronucleata	other			Ciliophora	Intramacronucleata	1	approx	Alveolata	Intramacronucleata	Alveolata>Intramacronucleata	1.0	Alveolata>Ciliophora		3.0	no kept species in Ciliophora outside Intramacronucleata; parent taken as Alveolata	False
+Platmac	other			Intramacronucleata	Platmac	1	exact	Intramacronucleata	Platmac	Intramacronucleata>Platmac	1.0			1.0		True
+Oligohymenophorea	other			Intramacronucleata	Oligohymenophorea	1	exact	Intramacronucleata	Oligohymenophorea	Intramacronucleata>Oligohymenophorea	1.0			2.0		False
+Paratet	other			Oligohymenophorea	Paratet	1	exact	Oligohymenophorea	Paratet	Oligohymenophorea>Paratet	1.0			1.0		True
+Tetrthe	other			Oligohymenophorea	Tetrthe	1	exact	Oligohymenophorea	Tetrthe	Oligohymenophorea>Tetrthe	1.0			1.0		True
+Myzozoa	control			Alveolata	Myzozoa	1	exact	Alveolata	Myzozoa	Alveolata>Myzozoa	1.0			3.0		False
+Perkmar	other			Myzozoa	Perkmar	1	exact	Myzozoa	Perkmar	Myzozoa>Perkmar	1.0			1.0		True
+Apicomplexa_Chrompodellida	other			Myzozoa	Apicomplexa_Chrompodellida	1	approx	Myzozoa	Apicomplexa	Myzozoa>Apicomplexa	1.0	Apicomplexa_Chrompodellida>Apicomplexa		2.0		False
+Vitrbra	other			Apicomplexa_Chrompodellida	Vitrbra	1	missing								no kept species below Vitrbra	True
+Apicomplexa	other			Apicomplexa_Chrompodellida	Apicomplexa	1	approx	Myzozoa	Apicomplexa	Myzozoa>Apicomplexa	1.0	Myzozoa>Apicomplexa_Chrompodellida		2.0	no kept species in Apicomplexa_Chrompodellida outside Apicomplexa; parent taken as Myzozoa	False
+Plasfal	other			Apicomplexa	Plasfal	1	exact	Apicomplexa	Plasfal	Apicomplexa>Plasfal	1.0			1.0		True
+Toxogon	other			Apicomplexa	Toxogon	1	exact	Apicomplexa	Toxogon	Apicomplexa>Toxogon	1.0			1.0		True
+Rhizaria	other			Sar	Rhizaria	1	exact	Sar	Rhizaria	Sar>Rhizaria	1.0			6.0		False
+Plasbra	other			Rhizaria	Plasbra	1	exact	Rhizaria	Plasbra	Rhizaria>Plasbra	1.0			1.0		True
+Cercozoa	other			Rhizaria	Cercozoa	1	exact	Rhizaria	Cercozoa	Rhizaria>Cercozoa	1.0			5.0		False
+Brevmot	other			Cercozoa	Brevmot	1	exact	Cercozoa	Brevmot	Cercozoa>Brevmot	1.0			1.0		True
+Guttvul	other			Cercozoa	Guttvul	1	exact	Cercozoa	Guttvul	Cercozoa>Guttvul	1.0			1.0		True
+Paulmic	other			Cercozoa	Paulmic	1	exact	Cercozoa	Paulmic	Cercozoa>Paulmic	1.0			1.0		True
+Chlorarachniophyceae	other			Cercozoa	Chlorarachniophyceae	1	exact	Cercozoa	Chlorarachniophyceae	Cercozoa>Chlorarachniophyceae	1.0			2.0		False
+Bigenat	other			Chlorarachniophyceae	Bigenat	1	exact	Chlorarachniophyceae	Bigenat	Chlorarachniophyceae>Bigenat	1.0			1.0		True
+Lothglo	other			Chlorarachniophyceae	Lothglo	1	exact	Chlorarachniophyceae	Lothglo	Chlorarachniophyceae>Lothglo	1.0			1.0		True
+Stramenopiles	control			Sar	Stramenopiles	1	exact	Sar	Stramenopiles	Sar>Stramenopiles	1.0			12.0		False
+Bigyra	control			Stramenopiles	Bigyra	1	exact	Stramenopiles	Bigyra	Stramenopiles>Bigyra	1.0			3.0		False
+Caferoe	other			Bigyra	Caferoe	1	exact	Bigyra	Caferoe	Bigyra>Caferoe	1.0			1.0		True
+Labyrinthulomycetes	other			Bigyra	Labyrinthulomycetes	1	approx	Bigyra	Thraustochytriidae	Bigyra>Thraustochytriidae	1.0	Labyrinthulomycetes>Thraustochytriidae		2.0		False
+LabyspSRHaC	other			Labyrinthulomycetes	LabyspSRHaC	1	missing								no kept species below LabyspSRHaC	True
+Thraustochytriidae	other			Labyrinthulomycetes	Thraustochytriidae	1	approx	Bigyra	Thraustochytriidae	Bigyra>Thraustochytriidae	1.0	Bigyra>Labyrinthulomycetes		2.0	no kept species in Labyrinthulomycetes outside Thraustochytriidae; parent taken as Bigyra	False
+Auralim	other			Thraustochytriidae	Auralim	1	exact	Thraustochytriidae	Auralim	Thraustochytriidae>Auralim	1.0			1.0		True
+Hondfer	other			Thraustochytriidae	Hondfer	1	exact	Thraustochytriidae	Hondfer	Thraustochytriidae>Hondfer	1.0			1.0		True
+Gyrista	other			Stramenopiles	Gyrista	1	exact	Stramenopiles	Gyrista	Stramenopiles>Gyrista	1.0			9.0		False
+Ochrophyta	other			Gyrista	Ochrophyta	1	exact	Gyrista	Ochrophyta	Gyrista>Ochrophyta	1.0			6.0		False
+Aureano	other			Ochrophyta	Aureano	1	exact	Ochrophyta	Aureano	Ochrophyta>Aureano	1.0			1.0		True
+Heteaka	other			Ochrophyta	Heteaka	1	exact	Ochrophyta	Heteaka	Ochrophyta>Heteaka	1.0			1.0		True
+Nannsal	other			Ochrophyta	Nannsal	1	missing								no kept species below Nannsal	True
+Potemal	other			Ochrophyta	Potemal	1	missing								no kept species below Potemal	True
+Bacillariophyta	other			Ochrophyta	Bacillariophyta	1	exact	Ochrophyta	Bacillariophyta	Ochrophyta>Bacillariophyta	1.0			2.0		False
+Phaetri	other			Bacillariophyta	Phaetri	1	exact	Bacillariophyta	Phaetri	Bacillariophyta>Phaetri	1.0			1.0		True
+Thalpse	other			Bacillariophyta	Thalpse	1	exact	Bacillariophyta	Thalpse	Bacillariophyta>Thalpse	1.0			1.0		True
+PX_clade	other			Ochrophyta	PX_clade	1	exact	Ochrophyta	PX_clade	Ochrophyta>PX_clade	1.0			2.0		False
+Phaecon	other			PX_clade	Phaecon	1	missing								no kept species below Phaecon	True
+Phaeophyceae_Schizocladia	other			PX_clade	Phaeophyceae_Schizocladia	1	approx	PX_clade	Ectosil	PX_clade>Ectosil	1.0	Dictyotophycidae_Fucophycidae>Fucophycidae;Fucophycidae>Ectosil;Phaeophyceae>Dictyotophycidae_Fucophycidae;Phaeophyceae_Schizocladia>Phaeophyceae		1.0		False
+Schiisc	other			Phaeophyceae_Schizocladia	Schiisc	1	missing								no kept species below Schiisc	True
+Phaeophyceae	other			Phaeophyceae_Schizocladia	Phaeophyceae	1	approx	PX_clade	Ectosil	PX_clade>Ectosil	1.0	Dictyotophycidae_Fucophycidae>Fucophycidae;Fucophycidae>Ectosil;PX_clade>Phaeophyceae_Schizocladia;Phaeophyceae>Dictyotophycidae_Fucophycidae		1.0	no kept species in Phaeophyceae_Schizocladia outside Phaeophyceae; parent taken as PX_clade	False
+Discmes	other			Phaeophyceae	Discmes	1	missing								no kept species below Discmes	True
+Dictyotophycidae_Fucophycidae	other			Phaeophyceae	Dictyotophycidae_Fucophycidae	1	approx	PX_clade	Ectosil	PX_clade>Ectosil	1.0	Dictyotophycidae_Fucophycidae>Fucophycidae;Fucophycidae>Ectosil;PX_clade>Phaeophyceae_Schizocladia;Phaeophyceae_Schizocladia>Phaeophyceae		1.0	no kept species in Phaeophyceae outside Dictyotophycidae_Fucophycidae; parent taken as PX_clade	False
+Dictdic	other			Dictyotophycidae_Fucophycidae	Dictdic	1	missing								no kept species below Dictdic	True
+Fucophycidae	other			Dictyotophycidae_Fucophycidae	Fucophycidae	1	approx	PX_clade	Ectosil	PX_clade>Ectosil	1.0	Fucophycidae>Ectosil;PX_clade>Phaeophyceae_Schizocladia;Phaeophyceae>Dictyotophycidae_Fucophycidae;Phaeophyceae_Schizocladia>Phaeophyceae		1.0	no kept species in Dictyotophycidae_Fucophycidae outside Fucophycidae; parent taken as PX_clade	False
+Ectosil	other			Fucophycidae	Ectosil	1	approx	PX_clade	Ectosil	PX_clade>Ectosil	1.0	Dictyotophycidae_Fucophycidae>Fucophycidae;PX_clade>Phaeophyceae_Schizocladia;Phaeophyceae>Dictyotophycidae_Fucophycidae;Phaeophyceae_Schizocladia>Phaeophyceae		1.0	no kept species in Fucophycidae outside Ectosil; parent taken as PX_clade	True
+Fucuser	other			Fucophycidae	Fucuser	1	missing								no kept species below Fucuser	True
+Sacclat	other			Fucophycidae	Sacclat	1	missing								no kept species below Sacclat	True
+Xanthophyceae	other			PX_clade	Xanthophyceae	1	approx	PX_clade	Vauclit	PX_clade>Vauclit	1.0	Xanthophyceae>Vauclit		1.0		False
+Tribmin	other			Xanthophyceae	Tribmin	1	missing								no kept species below Tribmin	True
+Vauclit	other			Xanthophyceae	Vauclit	1	approx	PX_clade	Vauclit	PX_clade>Vauclit	1.0	PX_clade>Xanthophyceae		1.0	no kept species in Xanthophyceae outside Vauclit; parent taken as PX_clade	True
+Oomycota	other			Gyrista	Oomycota	1	exact	Gyrista	Oomycota	Gyrista>Oomycota	1.0			3.0		False
+Saprpar	other			Oomycota	Saprpar	1	exact	Oomycota	Saprpar	Oomycota>Saprpar	1.0			1.0		True
+Peronosporomycetes	other			Oomycota	Peronosporomycetes	1	exact	Oomycota	Peronosporomycetes	Oomycota>Peronosporomycetes	1.0			2.0		False
+Phytinf	other			Peronosporomycetes	Phytinf	1	exact	Peronosporomycetes	Phytinf	Peronosporomycetes>Phytinf	1.0			1.0		True
+Pytholi	other			Peronosporomycetes	Pytholi	1	exact	Peronosporomycetes	Pytholi	Peronosporomycetes>Pytholi	1.0			1.0		True
+Discoba	control			Bikonta	Discoba	1	exact	Bikonta	Discoba	Bikonta>Discoba	1.0			7.0		False
+Andagod	other			Discoba	Andagod	1	exact	Discoba	Andagod	Discoba>Andagod	1.0			1.0		True
+Discicristata	other			Discoba	Discicristata	1	exact	Discoba	Discicristata	Discoba>Discicristata	1.0			6.0		False
+Euglenozoa	control			Discicristata	Euglenozoa	1	exact	Discicristata	Euglenozoa	Discicristata>Euglenozoa	1.0			3.0		False
+Euglgra	other			Euglenozoa	Euglgra	1	exact	Euglenozoa	Euglgra	Euglenozoa>Euglgra	1.0			1.0		True
+Metakinetoplastina	other			Euglenozoa	Metakinetoplastina	1	exact	Euglenozoa	Metakinetoplastina	Euglenozoa>Metakinetoplastina	1.0			2.0		False
+Bodosal	other			Metakinetoplastina	Bodosal	1	exact	Metakinetoplastina	Bodosal	Metakinetoplastina>Bodosal	1.0			1.0		True
+Trypbru	other			Metakinetoplastina	Trypbru	1	exact	Metakinetoplastina	Trypbru	Metakinetoplastina>Trypbru	1.0			1.0		True
+Heterolobosea	control			Discicristata	Heterolobosea	1	exact	Discicristata	Heterolobosea	Discicristata>Heterolobosea	1.0			3.0		False
+Pharkir	other			Heterolobosea	Pharkir	1	exact	Heterolobosea	Pharkir	Heterolobosea>Pharkir	1.0			1.0		True
+Tetramitia	other			Heterolobosea	Tetramitia	1	exact	Heterolobosea	Tetramitia	Heterolobosea>Tetramitia	1.0			2.0		False
+Acrakon	other			Tetramitia	Acrakon	1	missing								no kept species below Acrakon	True
+Neovdam	other			Tetramitia	Neovdam	1	exact	Tetramitia	Neovdam	Tetramitia>Neovdam	1.0			1.0		True
+Naegleriidae	other			Tetramitia	Naegleriidae	1	approx	Tetramitia	Naeggru	Tetramitia>Naeggru	1.0	Naegleriidae>Naeggru		1.0		False
+Naeggru	other			Naegleriidae	Naeggru	1	approx	Tetramitia	Naeggru	Tetramitia>Naeggru	1.0	Tetramitia>Naegleriidae		1.0	no kept species in Naegleriidae outside Naeggru; parent taken as Tetramitia	True
+Willmag	other			Naegleriidae	Willmag	1	missing								no kept species below Willmag	True
+Podiata	other			Eukaryota	Podiata	1	exact	Eukaryota	Podiata	Eukaryota>Podiata	1.0			62.0		False
+Amorphea	control			Podiata	Amorphea	1	exact	Podiata	Amorphea	Podiata>Amorphea	1.0			60.0		False
+Amoebozoa	control			Amorphea	Amoebozoa	1	exact	Amorphea	Amoebozoa	Amorphea>Amoebozoa	1.0			11.0		False
+Discosea	control			Amoebozoa	Discosea	1	exact	Amoebozoa	Discosea	Amoebozoa>Discosea	1.0			2.0		False
+Acancas	other			Discosea	Acancas	1	exact	Discosea	Acancas	Discosea>Acancas	1.0			1.0		True
+Stygreg	other			Discosea	Stygreg	1	exact	Discosea	Stygreg	Discosea>Stygreg	1.0			1.0		True
+Evosea	control			Amoebozoa	Evosea	1	exact	Amoebozoa	Evosea	Amoebozoa>Evosea	1.0			7.0		False
+Mastbal	other			Evosea	Mastbal	1	exact	Evosea	Mastbal	Evosea>Mastbal	1.0			1.0		True
+Eumycetozoa	other			Evosea	Eumycetozoa	1	exact	Evosea	Eumycetozoa	Evosea>Eumycetozoa	1.0			5.0		False
+Dictyostelia	other			Eumycetozoa	Dictyostelia	1	exact	Eumycetozoa	Dictyostelia	Eumycetozoa>Dictyostelia	1.0			4.0		False
+Acytosteliales	other			Dictyostelia	Acytosteliales	1	approx	Dictyostelia	Cavefas	Dictyostelia>Cavefas	1.0	Acytosteliales>Cavefas		1.0		False
+Cavefas	other			Acytosteliales	Cavefas	1	approx	Dictyostelia	Cavefas	Dictyostelia>Cavefas	1.0	Dictyostelia>Acytosteliales		1.0	no kept species in Acytosteliales outside Cavefas; parent taken as Dictyostelia	True
+Acytosteliaceae	other			Acytosteliales	Acytosteliaceae	1	missing								no kept species below Acytosteliaceae	False
+Acytsub	other			Acytosteliaceae	Acytsub	1	missing								no kept species below Acytsub	True
+Hetepal	other			Acytosteliaceae	Hetepal	1	missing								no kept species below Hetepal	True
+Dictyosteliales	other			Dictyostelia	Dictyosteliales	1	exact	Dictyostelia	Dictyosteliales	Dictyostelia>Dictyosteliales	1.0			3.0		False
+Tieglac	other			Dictyosteliales	Tieglac	1	exact	Dictyosteliales	Tieglac	Dictyosteliales>Tieglac	1.0			1.0		True
+Dictyostelium	other			Dictyosteliales	Dictyostelium	1	exact	Dictyosteliales	Dictyostelium	Dictyosteliales>Dictyostelium	1.0			2.0		False
+Dictdis	other			Dictyostelium	Dictdis	1	exact	Dictyostelium	Dictdis	Dictyostelium>Dictdis	1.0			1.0		True
+Dictpur	other			Dictyostelium	Dictpur	1	exact	Dictyostelium	Dictpur	Dictyostelium>Dictpur	1.0			1.0		True
+Myxogastria_Ceratiomyxa	other			Eumycetozoa	Myxogastria_Ceratiomyxa	1	approx	Eumycetozoa	Physpol	Eumycetozoa>Physpol	1.0	Myxogastria_Ceratiomyxa>Physpol		1.0		False
+Cerafru	other			Myxogastria_Ceratiomyxa	Cerafru	1	missing								no kept species below Cerafru	True
+Physpol	other			Myxogastria_Ceratiomyxa	Physpol	1	approx	Eumycetozoa	Physpol	Eumycetozoa>Physpol	1.0	Eumycetozoa>Myxogastria_Ceratiomyxa		1.0	no kept species in Myxogastria_Ceratiomyxa outside Physpol; parent taken as Eumycetozoa	True
+Variosea	control			Evosea	Variosea	1	approx	Evosea	Planfun	Evosea>Planfun	1.0	Cavosteliaceae>Planfun;Variosea>Cavosteliaceae		1.0		False
+Protnoc	other			Variosea	Protnoc	1	missing								no kept species below Protnoc	True
+Cavosteliaceae	other			Variosea	Cavosteliaceae	1	approx	Evosea	Planfun	Evosea>Planfun	1.0	Cavosteliaceae>Planfun;Evosea>Variosea		1.0	no kept species in Variosea outside Cavosteliaceae; parent taken as Evosea	False
+Cavoapo	other			Cavosteliaceae	Cavoapo	1	missing								no kept species below Cavoapo	True
+Planfun	other			Cavosteliaceae	Planfun	1	approx	Evosea	Planfun	Evosea>Planfun	1.0	Evosea>Variosea;Variosea>Cavosteliaceae		1.0	no kept species in Cavosteliaceae outside Planfun; parent taken as Evosea	True
+Tubulinea	control			Amoebozoa	Tubulinea	1	exact	Amoebozoa	Tubulinea	Amoebozoa>Tubulinea	1.0			2.0		False
+Vermver	other			Tubulinea	Vermver	1	exact	Tubulinea	Vermver	Tubulinea>Vermver	1.0			1.0		True
+Elardia	other			Tubulinea	Elardia	1	approx	Tubulinea	Arceint	Tubulinea>Arceint	1.0	Elardia>Arceint		1.0		False
+Arceint	other			Elardia	Arceint	1	approx	Tubulinea	Arceint	Tubulinea>Arceint	1.0	Tubulinea>Elardia		1.0	no kept species in Elardia outside Arceint; parent taken as Tubulinea	True
+Coprpro	other			Elardia	Coprpro	1	missing								no kept species below Coprpro	True
+Rhizsax	other			Elardia	Rhizsax	1	missing								no kept species below Rhizsax	True
+Obazoa	control			Amorphea	Obazoa	1	exact	Amorphea	Obazoa	Amorphea>Obazoa	1.0			49.0		False
+Pygsbif	other			Obazoa	Pygsbif	1	exact	Obazoa	Pygsbif	Obazoa>Pygsbif	1.0			1.0		True
+Apusomonadida_Opisthokonta	other			Obazoa	Apusomonadida_Opisthokonta	1	exact	Obazoa	Apusomonadida_Opisthokonta	Obazoa>Apusomonadida_Opisthokonta	1.0			48.0		False
+Thectra	other			Apusomonadida_Opisthokonta	Thectra	1	exact	Apusomonadida_Opisthokonta	Thectra	Apusomonadida_Opisthokonta>Thectra	1.0			1.0		True
+Opisthokonta	other			Apusomonadida_Opisthokonta	Opisthokonta	1	exact	Apusomonadida_Opisthokonta	Opisthokonta	Apusomonadida_Opisthokonta>Opisthokonta	1.0			47.0		False
+Holomycota	control			Opisthokonta	Holomycota	1	exact	Opisthokonta	Holomycota	Opisthokonta>Holomycota	1.0			16.0		False
+Fungi	control			Holomycota	Fungi	1	exact	Holomycota	Fungi	Holomycota>Fungi	1.0			14.0		False
+Rozeall	other			Fungi	Rozeall	1	exact	Fungi	Rozeall	Fungi>Rozeall	1.0			1.0		True
+Aphelida_Eumycota	other			Fungi	Aphelida_Eumycota	1	exact	Fungi	Aphelida_Eumycota	Fungi>Aphelida_Eumycota	1.0			13.0		False
+Paratri	other			Aphelida_Eumycota	Paratri	1	exact	Aphelida_Eumycota	Paratri	Aphelida_Eumycota>Paratri	1.0			1.0		True
+Eumycota	other			Aphelida_Eumycota	Eumycota	1	exact	Aphelida_Eumycota	Eumycota	Aphelida_Eumycota>Eumycota	1.0			12.0		False
+Blastocladiomycota_Amastigomycota	other			Eumycota	Blastocladiomycota_Amastigomycota	1	exact	Eumycota	Blastocladiomycota_Amastigomycota	Eumycota>Blastocladiomycota_Amastigomycota	1.0			9.0		False
+Allomac	other			Blastocladiomycota_Amastigomycota	Allomac	1	exact	Blastocladiomycota_Amastigomycota	Allomac	Blastocladiomycota_Amastigomycota>Allomac	1.0			1.0		True
+Amastigomycota	other			Blastocladiomycota_Amastigomycota	Amastigomycota	1	approx	Blastocladiomycota_Amastigomycota	Dikarya	Blastocladiomycota_Amastigomycota>Dikarya	1.0	Amastigomycota>Mucoromycota_Dikarya;Mucoromycota_Dikarya>Dikarya		8.0		False
+Mucoromycota_Dikarya	other			Amastigomycota	Mucoromycota_Dikarya	1	approx	Blastocladiomycota_Amastigomycota	Dikarya	Blastocladiomycota_Amastigomycota>Dikarya	1.0	Blastocladiomycota_Amastigomycota>Amastigomycota;Mucoromycota_Dikarya>Dikarya		8.0	no kept species in Amastigomycota outside Mucoromycota_Dikarya; parent taken as Blastocladiomycota_Amastigomycota	False
+Dikarya	other			Mucoromycota_Dikarya	Dikarya	1	approx	Blastocladiomycota_Amastigomycota	Dikarya	Blastocladiomycota_Amastigomycota>Dikarya	1.0	Amastigomycota>Mucoromycota_Dikarya;Blastocladiomycota_Amastigomycota>Amastigomycota		8.0	no kept species in Mucoromycota_Dikarya outside Dikarya; parent taken as Blastocladiomycota_Amastigomycota	False
+Ascomycota	other			Dikarya	Ascomycota	1	exact	Dikarya	Ascomycota	Dikarya>Ascomycota	1.0			4.0		False
+Taphrinomycotina	other			Ascomycota	Taphrinomycotina	1	approx	Ascomycota	Schipom	Ascomycota>Schipom	1.0	Taphrinomycotina>Schipom		1.0		False
+Neolirr	other			Taphrinomycotina	Neolirr	1	missing								no kept species below Neolirr	True
+Saitcom	other			Taphrinomycotina	Saitcom	1	missing								no kept species below Saitcom	True
+Schipom	other			Taphrinomycotina	Schipom	1	approx	Ascomycota	Schipom	Ascomycota>Schipom	1.0	Ascomycota>Taphrinomycotina		1.0	no kept species in Taphrinomycotina outside Schipom; parent taken as Ascomycota	True
+Taphdef	other			Taphrinomycotina	Taphdef	1	missing								no kept species below Taphdef	True
+saccharomyceta	other			Ascomycota	saccharomyceta	1	exact	Ascomycota	saccharomyceta	Ascomycota>saccharomyceta	1.0			3.0		False
+Pezizomycotina	other			saccharomyceta	Pezizomycotina	1	approx	saccharomyceta	Neurcra	saccharomyceta>Neurcra	1.0	Pezizomycotina>leotiomyceta;leotiomyceta>sordariomyceta;sordariomyceta>Neurcra		1.0		False
+Pyroomp	other			Pezizomycotina	Pyroomp	1	missing								no kept species below Pyroomp	True
+leotiomyceta	other			Pezizomycotina	leotiomyceta	1	approx	saccharomyceta	Neurcra	saccharomyceta>Neurcra	1.0	leotiomyceta>sordariomyceta;saccharomyceta>Pezizomycotina;sordariomyceta>Neurcra		1.0	no kept species in Pezizomycotina outside leotiomyceta; parent taken as saccharomyceta	False
+Aspenid	other			leotiomyceta	Aspenid	1	missing								no kept species below Aspenid	True
+Zymobre	other			leotiomyceta	Zymobre	1	missing								no kept species below Zymobre	True
+sordariomyceta	other			leotiomyceta	sordariomyceta	1	approx	saccharomyceta	Neurcra	saccharomyceta>Neurcra	1.0	Pezizomycotina>leotiomyceta;saccharomyceta>Pezizomycotina;sordariomyceta>Neurcra		1.0	no kept species in leotiomyceta outside sordariomyceta; parent taken as saccharomyceta	False
+Botrcin	other			sordariomyceta	Botrcin	1	missing								no kept species below Botrcin	True
+Neurcra	other			sordariomyceta	Neurcra	1	approx	saccharomyceta	Neurcra	saccharomyceta>Neurcra	1.0	Pezizomycotina>leotiomyceta;leotiomyceta>sordariomyceta;saccharomyceta>Pezizomycotina		1.0	no kept species in sordariomyceta outside Neurcra; parent taken as saccharomyceta	True
+Saccharomycotina	other			saccharomyceta	Saccharomycotina	1	exact	saccharomyceta	Saccharomycotina	saccharomyceta>Saccharomycotina	1.0			2.0		False
+Liposta	other			Saccharomycotina	Liposta	1	missing								no kept species below Liposta	True
+Sacccer	other			Saccharomycotina	Sacccer	1	exact	Saccharomycotina	Sacccer	Saccharomycotina>Sacccer	1.0			1.0		True
+Yarrlip	other			Saccharomycotina	Yarrlip	1	exact	Saccharomycotina	Yarrlip	Saccharomycotina>Yarrlip	1.0			1.0		True
+Basidiomycota	other			Dikarya	Basidiomycota	1	approx	Dikarya	Ustilaginomycotina_Agaricomycotina	Dikarya>Ustilaginomycotina_Agaricomycotina	1.0	Basidiomycota>Ustilaginomycotina_Agaricomycotina		4.0		False
+Rhodtor	other			Basidiomycota	Rhodtor	1	missing								no kept species below Rhodtor	True
+Ustilaginomycotina_Agaricomycotina	other			Basidiomycota	Ustilaginomycotina_Agaricomycotina	1	approx	Dikarya	Ustilaginomycotina_Agaricomycotina	Dikarya>Ustilaginomycotina_Agaricomycotina	1.0	Dikarya>Basidiomycota		4.0	no kept species in Basidiomycota outside Ustilaginomycotina_Agaricomycotina; parent taken as Dikarya	False
+Ustimay	other			Ustilaginomycotina_Agaricomycotina	Ustimay	1	exact	Ustilaginomycotina_Agaricomycotina	Ustimay	Ustilaginomycotina_Agaricomycotina>Ustimay	1.0			1.0		True
+Wallemiomycotina_Agaricomycotina	other			Ustilaginomycotina_Agaricomycotina	Wallemiomycotina_Agaricomycotina	1	approx	Ustilaginomycotina_Agaricomycotina	Agaricomycotina	Ustilaginomycotina_Agaricomycotina>Agaricomycotina	1.0	Wallemiomycotina_Agaricomycotina>Agaricomycotina		3.0		False
+Wallmel	other			Wallemiomycotina_Agaricomycotina	Wallmel	1	missing								no kept species below Wallmel	True
+Agaricomycotina	other			Wallemiomycotina_Agaricomycotina	Agaricomycotina	1	approx	Ustilaginomycotina_Agaricomycotina	Agaricomycotina	Ustilaginomycotina_Agaricomycotina>Agaricomycotina	1.0	Ustilaginomycotina_Agaricomycotina>Wallemiomycotina_Agaricomycotina		3.0	no kept species in Wallemiomycotina_Agaricomycotina outside Agaricomycotina; parent taken as Ustilaginomycotina_Agaricomycotina	False
+Agaricomycetes_Dacrymycetes	other			Agaricomycotina	Agaricomycetes_Dacrymycetes	1	approx	Agaricomycotina	Agaricineae	Agaricomycotina>Agaricineae	1.0	Agaricales>Agaricineae;Agaricomycetes_Dacrymycetes>Agaricales		2.0		False
+Dacrpri	other			Agaricomycetes_Dacrymycetes	Dacrpri	1	missing								no kept species below Dacrpri	True
+Agaricales	other			Agaricomycetes_Dacrymycetes	Agaricales	1	approx	Agaricomycotina	Agaricineae	Agaricomycotina>Agaricineae	1.0	Agaricales>Agaricineae;Agaricomycotina>Agaricomycetes_Dacrymycetes		2.0	no kept species in Agaricomycetes_Dacrymycetes outside Agaricales; parent taken as Agaricomycotina	False
+Schicom	other			Agaricales	Schicom	1	missing								no kept species below Schicom	True
+Agaricineae	other			Agaricales	Agaricineae	1	approx	Agaricomycotina	Agaricineae	Agaricomycotina>Agaricineae	1.0	Agaricomycetes_Dacrymycetes>Agaricales;Agaricomycotina>Agaricomycetes_Dacrymycetes		2.0	no kept species in Agaricales outside Agaricineae; parent taken as Agaricomycotina	False
+Coprcin	other			Agaricineae	Coprcin	1	exact	Agaricineae	Coprcin	Agaricineae>Coprcin	1.0			1.0		True
+Laccbic	other			Agaricineae	Laccbic	1	exact	Agaricineae	Laccbic	Agaricineae>Laccbic	1.0			1.0		True
+Tremellales	other			Agaricomycotina	Tremellales	1	approx	Agaricomycotina	Crypneo	Agaricomycotina>Crypneo	1.0	Tremellales>Crypneo		1.0		False
+Crypneo	other			Tremellales	Crypneo	1	approx	Agaricomycotina	Crypneo	Agaricomycotina>Crypneo	1.0	Agaricomycotina>Tremellales		1.0	no kept species in Tremellales outside Crypneo; parent taken as Agaricomycotina	True
+Tremmes	other			Tremellales	Tremmes	1	missing								no kept species below Tremmes	True
+Mucoromycota	other			Mucoromycota_Dikarya	Mucoromycota	1	missing								no kept species below Mucoromycota	False
+Morthyg	other			Mucoromycota	Morthyg	1	missing								no kept species below Morthyg	True
+Mucorineae	other			Mucoromycota	Mucorineae	1	missing								no kept species below Mucorineae	False
+Mucolus	other			Mucorineae	Mucolus	1	missing								no kept species below Mucolus	True
+Rhizmic	other			Mucorineae	Rhizmic	1	missing								no kept species below Rhizmic	True
+Zoopagomycota	other			Amastigomycota	Zoopagomycota	1	missing								no kept species below Zoopagomycota	False
+Basimer	other			Zoopagomycota	Basimer	1	missing								no kept species below Basimer	True
+Coemumb	other			Zoopagomycota	Coemumb	1	missing								no kept species below Coemumb	True
+chytridiomyceta	other			Eumycota	chytridiomyceta	1	exact	Eumycota	chytridiomyceta	Eumycota>chytridiomyceta	1.0			3.0		False
+Gonapro	other			chytridiomyceta	Gonapro	1	exact	chytridiomyceta	Gonapro	chytridiomyceta>Gonapro	1.0			1.0		True
+Pirofin	other			chytridiomyceta	Pirofin	1	missing								no kept species below Pirofin	True
+Chytridiomycetes	other			chytridiomyceta	Chytridiomycetes	1	exact	chytridiomyceta	Chytridiomycetes	chytridiomyceta>Chytridiomycetes	1.0			2.0		False
+Batrden	other			Chytridiomycetes	Batrden	1	exact	Chytridiomycetes	Batrden	Chytridiomycetes>Batrden	1.0			1.0		True
+Spizpun	other			Chytridiomycetes	Spizpun	1	exact	Chytridiomycetes	Spizpun	Chytridiomycetes>Spizpun	1.0			1.0		True
+Rotosphaerida	other			Holomycota	Rotosphaerida	1	exact	Holomycota	Rotosphaerida	Holomycota>Rotosphaerida	1.0			2.0		False
+Fontalb	other			Rotosphaerida	Fontalb	1	exact	Rotosphaerida	Fontalb	Rotosphaerida>Fontalb	1.0			1.0		True
+Parvatl	other			Rotosphaerida	Parvatl	1	exact	Rotosphaerida	Parvatl	Rotosphaerida>Parvatl	1.0			1.0		True
+Holozoa	other			Opisthokonta	Holozoa	1	exact	Opisthokonta	Holozoa	Opisthokonta>Holozoa	1.0			31.0		False
+Filozoa	other			Holozoa	Filozoa	1	exact	Holozoa	Filozoa	Holozoa>Filozoa	1.0			25.0		False
+Choanozoa	other			Filozoa	Choanozoa	1	exact	Filozoa	Choanozoa	Filozoa>Choanozoa	1.0			22.0		False
+Choanoflagellata	other			Choanozoa	Choanoflagellata	1	exact	Choanozoa	Choanoflagellata	Choanozoa>Choanoflagellata	1.0			7.0		False
+Acanthoecida	other			Choanoflagellata	Acanthoecida	1	exact	Choanoflagellata	Acanthoecida	Choanoflagellata>Acanthoecida	1.0			2.0		False
+Acanspe	other			Acanthoecida	Acanspe	1	exact	Acanthoecida	Acanspe	Acanthoecida>Acanspe	1.0			1.0		True
+Didycos	other			Acanthoecida	Didycos	1	exact	Acanthoecida	Didycos	Acanthoecida>Didycos	1.0			1.0		True
+Salpingoecidae	other			Choanoflagellata	Salpingoecidae	1	exact	Choanoflagellata	Salpingoecidae	Choanoflagellata>Salpingoecidae	1.0			5.0		False
+Barrmon	other			Salpingoecidae	Barrmon	1	missing								no kept species below Barrmon	True
+Choafle	other			Salpingoecidae	Choafle	1	exact	Salpingoecidae	Choafle	Salpingoecidae>Choafle	1.0			1.0		True
+Codohol	other			Salpingoecidae	Codohol	1	exact	Salpingoecidae	Codohol	Salpingoecidae>Codohol	1.0			1.0		True
+Monobre	other			Salpingoecidae	Monobre	1	exact	Salpingoecidae	Monobre	Salpingoecidae>Monobre	1.0			1.0		True
+Mylnflu	other			Salpingoecidae	Mylnflu	1	exact	Salpingoecidae	Mylnflu	Salpingoecidae>Mylnflu	1.0			1.0		True
+Salpros	other			Salpingoecidae	Salpros	1	exact	Salpingoecidae	Salpros	Salpingoecidae>Salpros	1.0			1.0		True
+Metazoa	other			Choanozoa	Metazoa	1	exact	Choanozoa	Metazoa	Choanozoa>Metazoa	1.0			15.0		False
+Mnemlei	other			Metazoa	Mnemlei	1	exact	Metazoa	Mnemlei	Metazoa>Mnemlei	1.0			1.0		True
+ParaHoxozoa	other			Metazoa	ParaHoxozoa	1	exact	Metazoa	ParaHoxozoa	Metazoa>ParaHoxozoa	1.0			10.0		False
+Bilateria	other			ParaHoxozoa	Bilateria	1	exact	ParaHoxozoa	Bilateria	ParaHoxozoa>Bilateria	1.0			6.0		False
+Deuterostomia	other			Bilateria	Deuterostomia	1	exact	Bilateria	Deuterostomia	Bilateria>Deuterostomia	1.0			3.0		False
+Stropur	other			Deuterostomia	Stropur	1	exact	Deuterostomia	Stropur	Deuterostomia>Stropur	1.0			1.0		True
+Chordata	other			Deuterostomia	Chordata	1	exact	Deuterostomia	Chordata	Deuterostomia>Chordata	1.0			2.0		False
+Branbel	other			Chordata	Branbel	1	exact	Chordata	Branbel	Chordata>Branbel	1.0			1.0		True
+Homosap	other			Chordata	Homosap	1	exact	Chordata	Homosap	Chordata>Homosap	1.0			1.0		True
+Protostomia	other			Bilateria	Protostomia	1	exact	Bilateria	Protostomia	Bilateria>Protostomia	1.0			3.0		False
+Capitel	other			Protostomia	Capitel	1	exact	Protostomia	Capitel	Protostomia>Capitel	1.0			1.0		True
+Ecdysozoa	other			Protostomia	Ecdysozoa	1	exact	Protostomia	Ecdysozoa	Protostomia>Ecdysozoa	1.0			2.0		False
+Caenele	other			Ecdysozoa	Caenele	1	exact	Ecdysozoa	Caenele	Ecdysozoa>Caenele	1.0			1.0		True
+Drosmel	other			Ecdysozoa	Drosmel	1	exact	Ecdysozoa	Drosmel	Ecdysozoa>Drosmel	1.0			1.0		True
+Cnidaria	other			ParaHoxozoa	Cnidaria	1	exact	ParaHoxozoa	Cnidaria	ParaHoxozoa>Cnidaria	1.0			2.0		False
+Hydrvul	other			Cnidaria	Hydrvul	1	exact	Cnidaria	Hydrvul	Cnidaria>Hydrvul	1.0			1.0		True
+Nemavec	other			Cnidaria	Nemavec	1	exact	Cnidaria	Nemavec	Cnidaria>Nemavec	1.0			1.0		True
+Uniplacotomia	other			ParaHoxozoa	Uniplacotomia	1	exact	ParaHoxozoa	Uniplacotomia	ParaHoxozoa>Uniplacotomia	1.0			2.0		False
+Hoilhon	other			Uniplacotomia	Hoilhon	1	exact	Uniplacotomia	Hoilhon	Uniplacotomia>Hoilhon	1.0			1.0		True
+Tricadh	other			Uniplacotomia	Tricadh	1	exact	Uniplacotomia	Tricadh	Uniplacotomia>Tricadh	1.0			1.0		True
+Porifera	other			Metazoa	Porifera	1	exact	Metazoa	Porifera	Metazoa>Porifera	1.0			4.0		False
+Calcarea_Homoscleromorpha	other			Porifera	Calcarea_Homoscleromorpha	1	exact	Porifera	Calcarea_Homoscleromorpha	Porifera>Calcarea_Homoscleromorpha	1.0			2.0		False
+Oscapea	other			Calcarea_Homoscleromorpha	Oscapea	1	exact	Calcarea_Homoscleromorpha	Oscapea	Calcarea_Homoscleromorpha>Oscapea	1.0			1.0		True
+Sycocil	other			Calcarea_Homoscleromorpha	Sycocil	1	exact	Calcarea_Homoscleromorpha	Sycocil	Calcarea_Homoscleromorpha>Sycocil	1.0			1.0		True
+Heteroscleromorpha	other			Porifera	Heteroscleromorpha	1	exact	Porifera	Heteroscleromorpha	Porifera>Heteroscleromorpha	1.0			2.0		False
+Amphque	other			Heteroscleromorpha	Amphque	1	exact	Heteroscleromorpha	Amphque	Heteroscleromorpha>Amphque	1.0			1.0		True
+Ephymue	other			Heteroscleromorpha	Ephymue	1	exact	Heteroscleromorpha	Ephymue	Heteroscleromorpha>Ephymue	1.0			1.0		True
+Filasterea	other			Filozoa	Filasterea	1	exact	Filozoa	Filasterea	Filozoa>Filasterea	1.0			3.0		False
+Capsowc	other			Filasterea	Capsowc	1	exact	Filasterea	Capsowc	Filasterea>Capsowc	1.0			1.0		True
+Minivib	other			Filasterea	Minivib	1	exact	Filasterea	Minivib	Filasterea>Minivib	1.0			1.0		True
+Pigochi	other			Filasterea	Pigochi	1	exact	Filasterea	Pigochi	Filasterea>Pigochi	1.0			1.0		True
+Teretosporea	other			Holozoa	Teretosporea	1	exact	Holozoa	Teretosporea	Holozoa>Teretosporea	1.0			6.0		False
+Ichthyosporea	other			Teretosporea	Ichthyosporea	1	exact	Teretosporea	Ichthyosporea	Teretosporea>Ichthyosporea	1.0			4.0		False
+Chroper	other			Ichthyosporea	Chroper	1	exact	Ichthyosporea	Chroper	Ichthyosporea>Chroper	1.0			1.0		True
+Ichthyophonida	other			Ichthyosporea	Ichthyophonida	1	exact	Ichthyosporea	Ichthyophonida	Ichthyosporea>Ichthyophonida	1.0			3.0		False
+Amoepar	other			Ichthyophonida	Amoepar	1	exact	Ichthyophonida	Amoepar	Ichthyophonida>Amoepar	1.0			1.0		True
+Creofra	other			Ichthyophonida	Creofra	1	exact	Ichthyophonida	Creofra	Ichthyophonida>Creofra	1.0			1.0		True
+Sphaarc	other			Ichthyophonida	Sphaarc	1	exact	Ichthyophonida	Sphaarc	Ichthyophonida>Sphaarc	1.0			1.0		True
+Pluriformea	other			Teretosporea	Pluriformea	1	exact	Teretosporea	Pluriformea	Teretosporea>Pluriformea	1.0			2.0		False
+Coralim	other			Pluriformea	Coralim	1	exact	Pluriformea	Coralim	Pluriformea>Coralim	1.0			1.0		True
+Syssmul	other			Pluriformea	Syssmul	1	exact	Pluriformea	Syssmul	Pluriformea>Syssmul	1.0			1.0		True
+CRuMs	control			Podiata	CRuMs	1	exact	Podiata	CRuMs	Podiata>CRuMs	1.0			2.0		False
+Diphrot	other			CRuMs	Diphrot	1	exact	CRuMs	Diphrot	CRuMs>Diphrot	1.0			1.0		True
+Rigiram	other			CRuMs	Rigiram	1	exact	CRuMs	Rigiram	CRuMs>Rigiram	1.0			1.0		True

@@ -1,0 +1,176 @@
+EUKARYOMA CROSS-VALIDATION OF ROUND-1 ANCESTRA STEM EVENTS
+==========================================================
+Generated 2026-10-29 by scripts/eukaryoma/* (order: build_species_map, fetch_eukaryoma_md5, map_proteins,
+fetch_unmapped_seqs, rbh_map, prepare_inputs --step tree|ancestra|ancestra_hints|eukaryoma, branch_mapping,
+xval_analysis, positive_controls, h1h2_descriptive, summarize). Tests: tests/test_eukaryoma_xval.py (4 known-answer
+tests: tree pruning, branch mapping, OrthoXML filtering and parsing, gain and duplication classifiers).
+Inputs: EukaryOMA release All.Oct2026 (FastOMA 0.5.1 OrthoXML, md5 296586b7...); round-1 Ancestra run runs/euk_fast.
+
+MAIN POINT
+----------
+The two methods agree on the origin of only a minority of stem gene families and duplications. That is also
+true on control branches, so agreement is not worse on stems; for Ancestra's stem gains it is better than on
+controls. The two methods split events differently: on the animal stem, Ancestra reports 6,617 duplications
+and 804 new families, while EukaryOMA reports 196 duplications and 2,502 new families. A stem "gain" or
+"duplication" count from either method therefore says how that method splits families, not only what happened
+biologically. The round-1 H1/H2 direction is reproduced (Ancestra-on-the-same-tree T = 0.72; EukaryOMA T = 0.63;
+0.5 = no effect). One round-1 positive-control failure (C07, T-box duplications) turns out to come from Ancestra's
+level annotations rather than from its gene families: with the purely topological placement used here, Ancestra
+passes C07. EukaryOMA passes none of C03/C06/C07.
+
+1. SPECIES AND PROTEIN MAPPING
+------------------------------
+* 125 of our 187 species have a EukaryOMA genome (species_map.tsv). 93 match by taxid and name. 24 match by
+  binomial name only, because our strain-level taxid differs from their species-level one. 5 match by taxid only
+  (synonyms: Pyropia/Neopyropia yezoensis, Chromosphaera perkinsii = "Ichthyosporea sp. XGB-2017a",
+  Paraphelidium tribonemae/-matis, Corallochytrium and Ministeria strain names). 3 were added by hand at species
+  level (Volvox carteri f. nagariensis -> V. carteri; Trypanosoma brucei brucei -> T. brucei; Thecamonas trahens
+  ATCC 50062 -> T. trahens). All were checked by name; the protein mapping below confirms most of them.
+* The EukaryOMA OrthoXML carries only internal OMA ids (protId X2599xxxxx) and no UniProt/EukProt accessions.
+  Proteins were therefore mapped by identical sequence: the MD5 of our sequence against the sequence_md5 that the
+  REST API reports for all 2.31 M proteins of the 125 genomes. This mapped 1,609,173 of 2,016,931 of our
+  proteins (79.8 %; median species 99.3 %).
+* Second pass for the 28 species with < 90 % MD5 mapping, which come from different assemblies or gene-model
+  versions: 0.50 M EukaryOMA sequences were fetched (bulk_retrieve API), and reciprocal best DIAMOND hits were
+  accepted at >= 95 % identity and >= 50 % coverage of both proteins. This added 148,232 proteins, for a total of
+  1,757,405 / 2,016,931 = 87.1 % of our proteins mapped (protein_mapping_stats*.tsv). 15 species stay < 50 %
+  mapped, including the metazoans Ephydatia, Mnemiopsis, Nematostella and Hydra (34-42 %), Mesostigma (4 %,
+  EukaryOMA has 6.3 k proteins vs our 20.8 k) and Pythium oligandrum (3 %). Unmapped genes still count in each
+  method's own event counts. They only limit the family-level matching.
+
+2. PROJECTION ONTO A COMMON TREE (both methods scored the same way)
+--------------------------------------------------------------------
+* Tree: our guide tree pruned to the 125 species (runs/eukaryoma_xval/tree_pruned.nwk; 104 internal nodes). A
+  node is kept if >= 2 of its children contain kept species, and it keeps its original name.
+* Both OrthoXMLs were restricted to these species, and empty groups were dropped. Every level annotation was
+  stripped (TaxRange and taxonId), and both were parsed with the unchanged round-1 parser (mcell.hogs).
+  Placement is therefore purely topological and identical for the two methods: an orthologGroup sits at the MRCA
+  of its members, a paralogGroup on the branch above that MRCA, and a family is "present at X" when its gene tree
+  crosses X. This is the "spans the two child clades" definition. EukaryOMA's own TaxRange levels were not used,
+  because they refer to a different species tree. Conservation law: 0 violations in both parses.
+* Sensitivity: keeping Ancestra's TaxRange annotations (variant ancestra_hints) changes stem counts by < 15 %.
+  For example, Metazoa duplications are 6,637 vs 6,617.
+* Branch mapping (branch_mapping.tsv): a stem is "exact" when the pruned branch or path covers exactly the
+  original edges.
+  - Exact: 8 of 21 primary/secondary stems. These are Metazoa, Dictyostelia, Streptophyta (Klebsormidiophyceae
+    + Phragmoplastophyta), Eurhodophytina, Rhodymeniophycidae (Florideophyceae), PX clade, and the tip stems
+    Gonapodya and Fonticula.
+  - Approx: 7, flagged and not pooled. Fungal hyphae maps to Eumycota>Dikarya because no Mucoromycota or
+    Zoopagomycota are sampled. The volvocine, Phaeophyceae and Pezizomycotina stems collapse onto single-species
+    tips (Volvox carteri, Ectocarpus, Neurospora), so "supported" gains are undefined there.
+  - Missing: 6 (Neolecta, Acrasis, Copromyxa, Tetrabaena, Chara, Ulva).
+  - Of the 7 round-1 primary stems, 5 are exact.
+  - Controls: 26 of the 30 round-1 control branches are exact. A further 60 exact internal branches serve as a
+    second baseline.
+
+3a. EVENT COUNTS (counts_per_branch.tsv, per_transition_summary.tsv). Supported gains = gain events of families
+    with >= 2 species. Duplications are counted inside existing lineages only (k-1 per event).
+------------------------------------------------------------------------------------------------------------------
+  stem (exact unless noted)       gains A / E      losses A / E      dups A / E
+  Metazoa                          804 / 2502      8991 / 6027      6617 /  196
+  Dictyostelia                     442 / 1904      4577 / 4173      1308 /  530
+  Streptophyta (Kleb+Phragmo)      247 /  923      2428 /  536      2343 / 1123
+  Eurhodophytina                    87 /  117      1906 / 5564      1011 /  396
+  Rhodymeniophycidae               306 /  404      1761 / 2416       943 /  479
+  PX clade                          80 /   62      7779 / 4552       513 / 1040
+  Eumycota>Dikarya (approx)        113 /  344      5162 / 8237      1158 / 1371
+  Embryophyta (approx)             308 / 1693      2831 / 1249      3157 /  489
+  Agaricineae (approx)             785 / 1877       686 /  548      1306 /  470
+  Sum over the 26 exact controls   10760 / 10563   195407 / 212214  34428 / 26895
+On controls the totals are similar. On stems the two methods diverge. EukaryOMA reports 1.3-4.3x more new
+families than Ancestra on 6 of the 7 exact or internal-approx stems (PX clade: 0.8x). It reports 2-34x fewer
+duplications on 5 of the 7 (PX clade and Dikarya: more). This
+fits FastOMA keeping paralog groups as separate root HOGs where Ancestra links them into one family. Within the
+125 shared species, 53 % of EukaryOMA genes are in no multi-gene group, against 27 % for Ancestra.
+
+3b. FAMILY-LEVEL AGREEMENT (agreement_events.tsv.gz, agreement_per_branch.tsv, agreement_pooled.tsv,
+    agreement_stems_depth_adjusted.tsv)
+-----------------------------------------------------------------------------------------------------
+Method: each event is matched in the other method through its member proteins, and the other method's ancestral
+gene is taken at the gain node by majority vote.
+* Gains are classified as same (the other method also places the origin on the stem path), deeper (it places the
+  origin at or above the stem's parent: an older family, so an Ancestra gain classed "deeper" is a split of an
+  older family, i.e. a spurious gain), shallower (no mapped member has an ancestral gene at the node in the other
+  method), or unmapped.
+* Duplications are classified as same (>= 2 copies map to distinct genes at the node that share one ancestor at
+  the stem's parent), deeper (the copies were already separate before the stem), shallower (a single gene at the
+  node, i.e. no duplication on the stem), or other.
+
+Pooled over the 6 exact internal stems (tip stems excluded), compared with the 26 exact controls:
+  Ancestra gains -> EukaryOMA: same 29.0 % (540/1859 mapped), deeper 18.6 %, shallower 52.4 %. Controls: same
+    10.6 %, deeper 55.4 %. The depth- and size-adjusted expectation for these stems is 22.0 % (binomial GLM on
+    log tips and depth over 86 non-stem branches).
+  EukaryOMA gains -> Ancestra: same 9.4 % (542/5750), deeper 88 %. Controls: same 14.2 %; adjusted
+    expectation 11.9 %.
+  Ancestra dups -> EukaryOMA: same 3.8 % (153/3992). Controls: 4.5 %. Most Ancestra duplications are
+    "shallower" (one EukaryOMA gene at the node) or "other".
+  EukaryOMA dups -> Ancestra: same 7.8 % (166/2120). Controls: 5.0 %.
+* Most disagreements are large. When one method calls a stem gain and the other places the family deeper, the
+  median offset is 8 nodes, close to the eukaryotic root. This points to deep over-merging or stray members, not
+  to a one-node shift. About 78 % of Ancestra stem gains classed "shallower" have mapped members that EukaryOMA
+  places in no multi-species group among the 125 species. Of these members, 34 % (Metazoa check) are in no
+  EukaryOMA HOG at all. The rest are in HOGs restricted to species outside our set.
+* Per transition:
+  - Highest gain agreement (Ancestra -> EukaryOMA): Dictyostelia (53 % same; 99th percentile of baseline
+    residuals) and the approx Agaricineae (68 %).
+  - Lowest: PX clade (4 %; 5th percentile) and Eurhodophytina (10 %).
+  - Metazoa: 22 % of Ancestra's 804 stem gains are confirmed (expected 21 %), 7 % of EukaryOMA's 2,502, and only
+    5 of Ancestra's 1,380 Metazoa-stem duplication events (0.4 %). 930 of them are a single gene at Metazoa in
+    EukaryOMA.
+* Is agreement worse on stems? No. Ancestra stem gains agree with EukaryOMA more often than control gains
+  (29 % vs 11 % raw; 29 % vs 22 % after the depth/size adjustment). EukaryOMA stem gains agree slightly less
+  (9 % vs 12 % adjusted). Duplication agreement is uniformly low (4-8 %) on stems and controls alike. The raw
+  stems-vs-controls Fisher tests (agreement_pooled.tsv) are strongly "significant", but they are confounded by
+  depth: controls are deeper branches where both methods disagree more. Read them descriptively only.
+
+4. POSITIVE CONTROLS C03 / C06 / C07 (positive_controls.tsv, positive_controls_diagnostics.tsv)
+------------------------------------------------------------------------------------------------
+The round-1 rules were applied unchanged, with the pre-registered Pfam subset (the PF-HOG 50 % rule uses
+mapped EukaryOMA members only), on the 125-species tree:
+                        round 1 Ancestra   Ancestra (pruned, topological)   EukaryOMA (pruned)
+  C03 cadherin cyto     no (a fails)       no (a fails)                     no (a fails)
+  C06 integrin beta     no                 no                               no
+  C07 T-box             no (c fails)       YES (9 dups on Metazoa stem)     no (a, b, c fail)
+  (C01, C02, C04 pass in all three)
+* C03: in both methods the PF01049 lineage originates before Metazoa. In EukaryOMA it is one Choanozoa-level
+  PF-HOG that includes choanoflagellate cadherins. This is the "domain gained inside an older lineage" limitation
+  of any HOG-level rule. It is not specific to Ancestra.
+* C06: in both methods integrin-beta PF-HOGs root at Eukaryota/Podiata in over-merged EGF-rich families. The
+  loss sub-rules fail as in round 1 (Fonticula and Didymoeca, see failure_diagnosis.md).
+* C07: in EukaryOMA the T-box genes form 11 separate families, most originating at Metazoa. No lineage spans
+  Ichthyosporea and Metazoa, so the co-option component (a) fails. With level annotations stripped, Ancestra
+  places 9 T-box duplications on the Metazoa stem. The round-1 failure (duplications on the Choanozoa stem) was
+  therefore caused by Ancestra's paralogGroup taxonId placement, not by its gene families. In the pruned topological
+  parse Ancestra still has 4,318 duplications on Filozoa>Choanozoa (EukaryOMA: 222), so the "too-deep"
+  duplication excess is only partly a level-annotation effect.
+
+5. ROUND-1 H1/H2 RECOMPUTED DESCRIPTIVELY (h1h2_descriptive.tsv, h1h2_descriptive_T.tsv)
+------------------------------------------------------------------------------------------
+Same machinery as round 1 (NB-GLM residual on control pool, u = rank among the round-1 matched controls, T =
+mean u), but y = supported HOG gains on the pruned tree, the covariates are recomputed on the pruned tree, and
+the pool is the 26 exact controls. No p-values are computed.
+  T over the 5 exact primary stems: Ancestra-pruned 0.717, EukaryOMA 0.633; round-1 (sequence-novel gains, 187
+  spp) on the same 5 stems 0.710 (all 7: 0.711). Adding the approximate fungal stem gives 0.661 / 0.572 / 0.675.
+  Per-stem residual signs, EukaryOMA vs round 1:
+    agree (4 of 5 exact stems): Metazoa (+0.94 vs +0.88), Dictyostelia (+0.84 vs +0.23), Streptophyta
+      (+0.71 vs +0.06), Eurhodophytina (-0.94 vs -0.37)
+    disagree: PX clade (-0.90 vs +0.51). Ancestra on the pruned tree also gives -0.63 here, so the sign change
+      comes from the 125-species sampling (only 2 PX species retained), not from the method.
+    Fungal hyphae (approx): negative in all three.
+  The direction agrees and the size is similar to slightly smaller (T 0.63 vs 0.71). This is consistent with the
+  round-1 conclusion of no clear excess of new families on multicellular stems. The EukaryOMA T is closer to 0.5.
+
+CAVEATS
+-------
+* EukaryOMA is not ground truth. FastOMA and Ancestra fail differently: FastOMA leaves 53 % of genes outside
+  multi-gene groups here and splits paralogs into separate root HOGs; Ancestra over-merges and over-calls
+  duplications. "Agreement" is a consistency measure, not accuracy.
+* Different input proteomes. 13 % of our proteins are unmapped, concentrated in 15 species (incl. 4 metazoans),
+  and EukaryOMA proteomes for some species are larger (e.g. Ephydatia 56 k vs 37 k).
+* Only 125/187 species. Sparse sampling inside clades merges branches (approx stems) and moves some events onto
+  neighbouring branches. The numbers here are not the round-1 numbers. The pruned-tree Ancestra parse is the
+  like-for-like comparison.
+* The topological placement ignores both methods' own level calls. For Ancestra this removes the paralogGroup
+  taxonId placement that caused C07's round-1 failure. For EukaryOMA it ignores a species tree that differs from ours.
+* Stems vs controls differ in depth and size. The GLM adjustment is simple (2 covariates, 86 baseline branches).
+  The per-stem percentiles rest on single branches.

@@ -1,0 +1,405 @@
+branch_id	role	tier	status	direction	event	same	deeper	shallower	other	unmapped	n	n_mapped	frac_same	frac_deeper	frac_shallower
+Acanthoecida	other		exact	ancestra->eukaryoma	dup	91	149	471	72	0	783	783	0.1162	0.1903	0.6015
+Acanthoecida	other		exact	ancestra->eukaryoma	gain	81	46	169	0	0	296	296	0.2736	0.1554	0.5709
+Acanthoecida	other		exact	eukaryoma->ancestra	dup	83	334	173	11	13	614	601	0.1381	0.5557	0.2879
+Acanthoecida	other		exact	eukaryoma->ancestra	gain	82	690	46	0	43	861	818	0.1002	0.8435	0.0562
+Alveolata	control		exact	ancestra->eukaryoma	dup	3	60	244	13	0	320	320	0.0094	0.1875	0.7625
+Alveolata	control		exact	ancestra->eukaryoma	gain	9	38	19	0	0	66	66	0.1364	0.5758	0.2879
+Alveolata	control		exact	eukaryoma->ancestra	dup	3	98	58	4	0	163	163	0.0184	0.6012	0.3558
+Alveolata	control		exact	eukaryoma->ancestra	gain	8	229	21	0	0	258	258	0.031	0.8876	0.0814
+Amoebozoa	control		exact	ancestra->eukaryoma	dup	90	474	858	129	0	1551	1551	0.058	0.3056	0.5532
+Amoebozoa	control		exact	ancestra->eukaryoma	gain	104	502	328	0	0	934	934	0.1113	0.5375	0.3512
+Amoebozoa	control		exact	eukaryoma->ancestra	dup	103	528	172	102	0	905	905	0.1138	0.5834	0.1901
+Amoebozoa	control		exact	eukaryoma->ancestra	gain	106	673	11	0	0	790	790	0.1342	0.8519	0.0139
+Amorphea	control		exact	ancestra->eukaryoma	dup	7	423	762	169	1	1362	1361	0.0051	0.3108	0.5599
+Amorphea	control		exact	ancestra->eukaryoma	gain	182	886	418	0	0	1486	1486	0.1225	0.5962	0.2813
+Amorphea	control		exact	eukaryoma->ancestra	dup	8	81	97	30	0	216	216	0.037	0.375	0.4491
+Amorphea	control		exact	eukaryoma->ancestra	gain	284	1934	114	0	11	2343	2332	0.1218	0.8293	0.0489
+Aphelida_Eumycota	other		exact	ancestra->eukaryoma	dup	129	231	223	11	0	594	594	0.2172	0.3889	0.3754
+Aphelida_Eumycota	other		exact	ancestra->eukaryoma	gain	2	6	4	0	0	12	12	0.1667	0.5	0.3333
+Aphelida_Eumycota	other		exact	eukaryoma->ancestra	dup	121	522	1344	2	0	1989	1989	0.0608	0.2624	0.6757
+Aphelida_Eumycota	other		exact	eukaryoma->ancestra	gain	2	80	0	0	0	82	82	0.0244	0.9756	0.0
+Apusomonadida_Opisthokonta	other		exact	ancestra->eukaryoma	dup	42	469	466	12	0	989	989	0.0425	0.4742	0.4712
+Apusomonadida_Opisthokonta	other		exact	ancestra->eukaryoma	gain	2	123	66	0	0	191	191	0.0105	0.644	0.3455
+Apusomonadida_Opisthokonta	other		exact	eukaryoma->ancestra	dup	76	378	611	21	0	1086	1086	0.07	0.3481	0.5626
+Apusomonadida_Opisthokonta	other		exact	eukaryoma->ancestra	gain	5	68	2	0	0	75	75	0.0667	0.9067	0.0267
+Archaeplastida	control		exact	ancestra->eukaryoma	dup	10	122	306	8	1	447	446	0.0224	0.2735	0.6861
+Archaeplastida	control		exact	ancestra->eukaryoma	gain	19	244	129	0	1	393	392	0.0485	0.6224	0.3291
+Archaeplastida	control		exact	eukaryoma->ancestra	dup	4	228	125	14	1	372	371	0.0108	0.6146	0.3369
+Archaeplastida	control		exact	eukaryoma->ancestra	gain	19	424	8	0	14	465	451	0.0421	0.9401	0.0177
+Ascomycota	other		exact	ancestra->eukaryoma	dup	19	181	323	28	0	551	551	0.0345	0.3285	0.5862
+Ascomycota	other		exact	ancestra->eukaryoma	gain	6	10	27	0	0	43	43	0.1395	0.2326	0.6279
+Ascomycota	other		exact	eukaryoma->ancestra	dup	19	26	46	0	0	91	91	0.2088	0.2857	0.5055
+Ascomycota	other		exact	eukaryoma->ancestra	gain	6	208	1	0	0	215	215	0.0279	0.9674	0.0047
+Bacillariophyta	other		exact	ancestra->eukaryoma	dup	23	66	312	54	0	455	455	0.0505	0.1451	0.6857
+Bacillariophyta	other		exact	ancestra->eukaryoma	gain	191	21	247	0	2	461	459	0.4161	0.0458	0.5381
+Bacillariophyta	other		exact	eukaryoma->ancestra	dup	24	119	27	0	0	170	170	0.1412	0.7	0.1588
+Bacillariophyta	other		exact	eukaryoma->ancestra	gain	184	761	22	0	0	967	967	0.1903	0.787	0.0228
+Bangiaceae	other		exact	ancestra->eukaryoma	dup	39	41	702	38	0	820	820	0.0476	0.05	0.8561
+Bangiaceae	other		exact	ancestra->eukaryoma	gain	90	39	587	0	0	716	716	0.1257	0.0545	0.8198
+Bangiaceae	other		exact	eukaryoma->ancestra	dup	40	47	72	4	0	163	163	0.2454	0.2883	0.4417
+Bangiaceae	other		exact	eukaryoma->ancestra	gain	89	288	26	0	0	403	403	0.2208	0.7146	0.0645
+Bigyra	control		exact	ancestra->eukaryoma	dup	9	38	89	0	0	136	136	0.0662	0.2794	0.6544
+Bigyra	control		exact	ancestra->eukaryoma	gain	0	11	5	0	0	16	16	0.0	0.6875	0.3125
+Bigyra	control		exact	eukaryoma->ancestra	dup	9	181	50	1	0	241	241	0.0373	0.751	0.2075
+Bigyra	control		exact	eukaryoma->ancestra	gain	0	5	0	0	0	5	5	0.0	1.0	0.0
+Bikonta	other		exact	ancestra->eukaryoma	dup	112	239	496	70	0	917	917	0.1221	0.2606	0.5409
+Bikonta	other		exact	ancestra->eukaryoma	gain	922	3302	2420	0	5	6649	6644	0.1388	0.497	0.3642
+Bikonta	other		exact	eukaryoma->ancestra	dup	125	481	1976	621	18	3221	3203	0.039	0.1502	0.6169
+Bikonta	other		exact	eukaryoma->ancestra	gain	1241	1512	180	0	18	2951	2933	0.4231	0.5155	0.0614
+Bilateria	other		exact	ancestra->eukaryoma	dup	3	125	472	37	0	637	637	0.0047	0.1962	0.741
+Bilateria	other		exact	ancestra->eukaryoma	gain	41	57	133	0	0	231	231	0.1775	0.2468	0.5758
+Bilateria	other		exact	eukaryoma->ancestra	dup	0	60	25	0	0	85	85	0.0	0.7059	0.2941
+Bilateria	other		exact	eukaryoma->ancestra	gain	40	544	7	0	0	591	591	0.0677	0.9205	0.0118
+Blastocladiomycota_Amastigomycota	other		exact	ancestra->eukaryoma	dup	4	73	88	3	0	168	168	0.0238	0.4345	0.5238
+Blastocladiomycota_Amastigomycota	other		exact	ancestra->eukaryoma	gain	1	3	6	0	0	10	10	0.1	0.3	0.6
+Blastocladiomycota_Amastigomycota	other		exact	eukaryoma->ancestra	dup	5	219	726	0	0	950	950	0.0053	0.2305	0.7642
+Blastocladiomycota_Amastigomycota	other		exact	eukaryoma->ancestra	gain	1	58	1	0	0	60	60	0.0167	0.9667	0.0167
+CRuMs	control		exact	ancestra->eukaryoma	dup	73	86	224	9	0	392	392	0.1862	0.2194	0.5714
+CRuMs	control		exact	ancestra->eukaryoma	gain	12	149	79	0	0	240	240	0.05	0.6208	0.3292
+CRuMs	control		exact	eukaryoma->ancestra	dup	70	339	149	56	3	617	614	0.114	0.5521	0.2427
+CRuMs	control		exact	eukaryoma->ancestra	gain	12	82	4	0	9	107	98	0.1224	0.8367	0.0408
+CS_clade	control		approx	ancestra->eukaryoma	dup	25	44	227	138	0	434	434	0.0576	0.1014	0.523
+CS_clade	control		approx	ancestra->eukaryoma	gain	613	72	365	0	0	1050	1050	0.5838	0.0686	0.3476
+CS_clade	control		approx	eukaryoma->ancestra	dup	27	111	49	9	0	196	196	0.1378	0.5663	0.25
+CS_clade	control		approx	eukaryoma->ancestra	gain	621	2241	80	0	0	2942	2942	0.2111	0.7617	0.0272
+Calcarea_Homoscleromorpha	other		exact	ancestra->eukaryoma	dup	100	187	464	25	0	776	776	0.1289	0.241	0.5979
+Calcarea_Homoscleromorpha	other		exact	ancestra->eukaryoma	gain	3	11	22	0	0	36	36	0.0833	0.3056	0.6111
+Calcarea_Homoscleromorpha	other		exact	eukaryoma->ancestra	dup	76	497	1984	2	4	2563	2559	0.0297	0.1942	0.7753
+Calcarea_Homoscleromorpha	other		exact	eukaryoma->ancestra	gain	3	139	0	0	6	148	142	0.0211	0.9789	0.0
+Cercozoa	other		exact	ancestra->eukaryoma	dup	65	590	964	16	0	1635	1635	0.0398	0.3609	0.5896
+Cercozoa	other		exact	ancestra->eukaryoma	gain	6	38	63	0	0	107	107	0.0561	0.3551	0.5888
+Cercozoa	other		exact	eukaryoma->ancestra	dup	70	280	105	4	0	459	459	0.1525	0.61	0.2288
+Cercozoa	other		exact	eukaryoma->ancestra	gain	6	79	1	0	0	86	86	0.0698	0.9186	0.0116
+Chlorarachniophyceae	other		exact	ancestra->eukaryoma	dup	137	350	1017	108	0	1612	1612	0.085	0.2171	0.6309
+Chlorarachniophyceae	other		exact	ancestra->eukaryoma	gain	352	173	875	0	0	1400	1400	0.2514	0.1236	0.625
+Chlorarachniophyceae	other		exact	eukaryoma->ancestra	dup	125	281	56	21	0	483	483	0.2588	0.5818	0.1159
+Chlorarachniophyceae	other		exact	eukaryoma->ancestra	gain	353	612	15	0	0	980	980	0.3602	0.6245	0.0153
+Chlorophyta	control		exact	ancestra->eukaryoma	dup	11	115	294	20	0	440	440	0.025	0.2614	0.6682
+Chlorophyta	control		exact	ancestra->eukaryoma	gain	2	9	33	0	0	44	44	0.0455	0.2045	0.75
+Chlorophyta	control		exact	eukaryoma->ancestra	dup	9	186	61	0	0	256	256	0.0352	0.7266	0.2383
+Chlorophyta	control		exact	eukaryoma->ancestra	gain	2	246	4	0	0	252	252	0.0079	0.9762	0.0159
+Chlorophyta_Streptophyta	other		exact	ancestra->eukaryoma	dup	69	368	495	63	0	995	995	0.0693	0.3698	0.4975
+Chlorophyta_Streptophyta	other		exact	ancestra->eukaryoma	gain	21	58	133	0	1	213	212	0.0991	0.2736	0.6274
+Chlorophyta_Streptophyta	other		exact	eukaryoma->ancestra	dup	42	435	1028	11	1	1517	1516	0.0277	0.2869	0.6781
+Chlorophyta_Streptophyta	other		exact	eukaryoma->ancestra	gain	20	660	13	0	0	693	693	0.0289	0.9524	0.0188
+Choanoflagellata	other		exact	ancestra->eukaryoma	dup	86	396	832	109	0	1423	1423	0.0604	0.2783	0.5847
+Choanoflagellata	other		exact	ancestra->eukaryoma	gain	39	78	154	0	0	271	271	0.1439	0.2878	0.5683
+Choanoflagellata	other		exact	eukaryoma->ancestra	dup	85	542	183	12	0	822	822	0.1034	0.6594	0.2226
+Choanoflagellata	other		exact	eukaryoma->ancestra	gain	39	663	17	0	26	745	719	0.0542	0.9221	0.0236
+Choanozoa	other		exact	ancestra->eukaryoma	dup	8	322	573	81	0	984	984	0.0081	0.3272	0.5823
+Choanozoa	other		exact	ancestra->eukaryoma	gain	20	74	109	0	0	203	203	0.0985	0.3645	0.5369
+Choanozoa	other		exact	eukaryoma->ancestra	dup	2	79	33	4	1	119	118	0.0169	0.6695	0.2797
+Choanozoa	other		exact	eukaryoma->ancestra	gain	18	909	36	0	34	997	963	0.0187	0.9439	0.0374
+Chordata	other		exact	ancestra->eukaryoma	dup	7	153	503	42	0	705	705	0.0099	0.217	0.7135
+Chordata	other		exact	ancestra->eukaryoma	gain	12	19	27	0	0	58	58	0.2069	0.3276	0.4655
+Chordata	other		exact	eukaryoma->ancestra	dup	8	55	50	0	0	113	113	0.0708	0.4867	0.4425
+Chordata	other		exact	eukaryoma->ancestra	gain	10	385	1	0	1	397	396	0.0253	0.9722	0.0025
+Chytridiomycetes	other		exact	ancestra->eukaryoma	dup	20	49	90	30	0	189	189	0.1058	0.2593	0.4762
+Chytridiomycetes	other		exact	ancestra->eukaryoma	gain	61	2	61	0	0	124	124	0.4919	0.0161	0.4919
+Chytridiomycetes	other		exact	eukaryoma->ancestra	dup	19	61	35	0	0	115	115	0.1652	0.5304	0.3043
+Chytridiomycetes	other		exact	eukaryoma->ancestra	gain	61	443	21	0	0	525	525	0.1162	0.8438	0.04
+Ciliophora	control		approx	ancestra->eukaryoma	dup	36	207	708	35	0	986	986	0.0365	0.2099	0.7181
+Ciliophora	control		approx	ancestra->eukaryoma	gain	47	44	253	0	0	344	344	0.1366	0.1279	0.7355
+Ciliophora	control		approx	eukaryoma->ancestra	dup	28	99	49	2	0	178	178	0.1573	0.5562	0.2753
+Ciliophora	control		approx	eukaryoma->ancestra	gain	43	190	2	0	0	235	235	0.183	0.8085	0.0085
+Cnidaria	other		exact	ancestra->eukaryoma	dup	10	21	375	23	97	526	429	0.0233	0.049	0.8741
+Cnidaria	other		exact	ancestra->eukaryoma	gain	9	5	43	0	15	72	57	0.1579	0.0877	0.7544
+Cnidaria	other		exact	eukaryoma->ancestra	dup	10	146	102	0	22	280	258	0.0388	0.5659	0.3953
+Cnidaria	other		exact	eukaryoma->ancestra	gain	9	308	16	0	110	443	333	0.027	0.9249	0.048
+Cyanidiophyceae	control		exact	ancestra->eukaryoma	dup	17	15	57	3	0	92	92	0.1848	0.163	0.6196
+Cyanidiophyceae	control		exact	ancestra->eukaryoma	gain	5	1	10	0	0	16	16	0.3125	0.0625	0.625
+Cyanidiophyceae	control		exact	eukaryoma->ancestra	dup	17	262	1350	1	0	1630	1630	0.0104	0.1607	0.8282
+Cyanidiophyceae	control		exact	eukaryoma->ancestra	gain	5	84	2	0	0	91	91	0.0549	0.9231	0.022
+Deuterostomia	other		exact	ancestra->eukaryoma	dup	6	182	555	48	0	791	791	0.0076	0.2301	0.7016
+Deuterostomia	other		exact	ancestra->eukaryoma	gain	15	24	63	0	0	102	102	0.1471	0.2353	0.6176
+Deuterostomia	other		exact	eukaryoma->ancestra	dup	6	90	50	1	0	147	147	0.0408	0.6122	0.3401
+Deuterostomia	other		exact	eukaryoma->ancestra	gain	14	469	12	0	0	495	495	0.0283	0.9475	0.0242
+Diaphoretickes	control		exact	ancestra->eukaryoma	dup	7	379	1096	176	0	1658	1658	0.0042	0.2286	0.661
+Diaphoretickes	control		exact	ancestra->eukaryoma	gain	548	2283	1230	0	5	4066	4061	0.1349	0.5622	0.3029
+Diaphoretickes	control		exact	eukaryoma->ancestra	dup	8	45	46	18	1	118	117	0.0684	0.3846	0.3932
+Diaphoretickes	control		exact	eukaryoma->ancestra	gain	780	2376	167	0	52	3375	3323	0.2347	0.715	0.0503
+Dictyosteliales	other		exact	ancestra->eukaryoma	dup	17	61	127	48	0	253	253	0.0672	0.2411	0.502
+Dictyosteliales	other		exact	ancestra->eukaryoma	gain	84	57	60	0	0	201	201	0.4179	0.2836	0.2985
+Dictyosteliales	other		exact	eukaryoma->ancestra	dup	19	65	80	6	0	170	170	0.1118	0.3824	0.4706
+Dictyosteliales	other		exact	eukaryoma->ancestra	gain	81	705	34	0	0	820	820	0.0988	0.8598	0.0415
+Dictyostelium	other		exact	ancestra->eukaryoma	dup	118	132	201	130	0	581	581	0.2031	0.2272	0.346
+Dictyostelium	other		exact	ancestra->eukaryoma	gain	286	78	75	0	1	440	439	0.6515	0.1777	0.1708
+Dictyostelium	other		exact	eukaryoma->ancestra	dup	122	48	88	5	0	263	263	0.4639	0.1825	0.3346
+Dictyostelium	other		exact	eukaryoma->ancestra	gain	296	930	69	0	0	1295	1295	0.2286	0.7181	0.0533
+Discicristata	other		exact	ancestra->eukaryoma	dup	66	357	387	14	0	824	824	0.0801	0.4333	0.4697
+Discicristata	other		exact	ancestra->eukaryoma	gain	3	113	25	0	0	141	141	0.0213	0.8014	0.1773
+Discicristata	other		exact	eukaryoma->ancestra	dup	59	485	864	33	0	1441	1441	0.0409	0.3366	0.5996
+Discicristata	other		exact	eukaryoma->ancestra	gain	5	78	1	0	0	84	84	0.0595	0.9286	0.0119
+Discoba	control		exact	ancestra->eukaryoma	dup	6	32	69	5	0	112	112	0.0536	0.2857	0.6161
+Discoba	control		exact	ancestra->eukaryoma	gain	4	227	49	0	0	280	280	0.0143	0.8107	0.175
+Discoba	control		exact	eukaryoma->ancestra	dup	5	259	93	37	0	394	394	0.0127	0.6574	0.236
+Discoba	control		exact	eukaryoma->ancestra	gain	6	64	0	0	0	70	70	0.0857	0.9143	0.0
+Discosea	control		exact	ancestra->eukaryoma	dup	27	132	381	2	0	542	542	0.0498	0.2435	0.703
+Discosea	control		exact	ancestra->eukaryoma	gain	1	66	61	0	0	128	128	0.0078	0.5156	0.4766
+Discosea	control		exact	eukaryoma->ancestra	dup	28	340	143	18	0	529	529	0.0529	0.6427	0.2703
+Discosea	control		exact	eukaryoma->ancestra	gain	1	19	0	0	0	20	20	0.05	0.95	0.0
+Ecdysozoa	other		exact	ancestra->eukaryoma	dup	1	42	236	0	0	279	279	0.0036	0.1505	0.8459
+Ecdysozoa	other		exact	ancestra->eukaryoma	gain	1	2	8	0	0	11	11	0.0909	0.1818	0.7273
+Ecdysozoa	other		exact	eukaryoma->ancestra	dup	1	32	12	0	0	45	45	0.0222	0.7111	0.2667
+Ecdysozoa	other		exact	eukaryoma->ancestra	gain	1	37	2	0	0	40	40	0.025	0.925	0.05
+Euglenozoa	control		exact	ancestra->eukaryoma	dup	29	199	421	20	0	669	669	0.0433	0.2975	0.6293
+Euglenozoa	control		exact	ancestra->eukaryoma	gain	4	52	39	0	0	95	95	0.0421	0.5474	0.4105
+Euglenozoa	control		exact	eukaryoma->ancestra	dup	28	92	50	6	0	176	176	0.1591	0.5227	0.2841
+Euglenozoa	control		exact	eukaryoma->ancestra	gain	1	30	1	0	0	32	32	0.0312	0.9375	0.0312
+Eumycetozoa	other		exact	ancestra->eukaryoma	dup	30	138	284	11	0	463	463	0.0648	0.2981	0.6134
+Eumycetozoa	other		exact	ancestra->eukaryoma	gain	1	52	69	0	0	122	122	0.0082	0.4262	0.5656
+Eumycetozoa	other		exact	eukaryoma->ancestra	dup	34	236	101	14	0	385	385	0.0883	0.613	0.2623
+Eumycetozoa	other		exact	eukaryoma->ancestra	gain	2	92	1	0	0	95	95	0.0211	0.9684	0.0105
+Eumycota	other		exact	ancestra->eukaryoma	dup	8	393	274	62	0	737	737	0.0109	0.5332	0.3718
+Eumycota	other		exact	ancestra->eukaryoma	gain	15	23	51	0	0	89	89	0.1685	0.2584	0.573
+Eumycota	other		exact	eukaryoma->ancestra	dup	7	50	58	2	0	117	117	0.0598	0.4274	0.4957
+Eumycota	other		exact	eukaryoma->ancestra	gain	14	489	14	0	0	517	517	0.0271	0.9458	0.0271
+Evosea	control		exact	ancestra->eukaryoma	dup	15	138	304	9	0	466	466	0.0322	0.2961	0.6524
+Evosea	control		exact	ancestra->eukaryoma	gain	3	89	55	0	0	147	147	0.0204	0.6054	0.3741
+Evosea	control		exact	eukaryoma->ancestra	dup	12	405	101	18	0	536	536	0.0224	0.7556	0.1884
+Evosea	control		exact	eukaryoma->ancestra	gain	4	111	0	0	0	115	115	0.0348	0.9652	0.0
+Filasterea	other		exact	ancestra->eukaryoma	dup	50	109	542	8	44	753	709	0.0705	0.1537	0.7645
+Filasterea	other		exact	ancestra->eukaryoma	gain	1	12	23	0	2	38	36	0.0278	0.3333	0.6389
+Filasterea	other		exact	eukaryoma->ancestra	dup	45	505	120	6	1	677	676	0.0666	0.747	0.1775
+Filasterea	other		exact	eukaryoma->ancestra	gain	1	65	2	0	1	69	68	0.0147	0.9559	0.0294
+Filozoa	other		exact	ancestra->eukaryoma	dup	7	316	897	77	6	1303	1297	0.0054	0.2436	0.6916
+Filozoa	other		exact	ancestra->eukaryoma	gain	14	99	523	0	30	666	636	0.022	0.1557	0.8223
+Filozoa	other		exact	eukaryoma->ancestra	dup	8	57	40	1	1	107	106	0.0755	0.5377	0.3774
+Filozoa	other		exact	eukaryoma->ancestra	gain	16	580	13	0	26	635	609	0.0263	0.9524	0.0213
+Fungi	control		exact	ancestra->eukaryoma	dup	7	97	205	30	0	339	339	0.0206	0.2861	0.6047
+Fungi	control		exact	ancestra->eukaryoma	gain	6	12	14	0	0	32	32	0.1875	0.375	0.4375
+Fungi	control		exact	eukaryoma->ancestra	dup	10	65	31	1	0	107	107	0.0935	0.6075	0.2897
+Fungi	control		exact	eukaryoma->ancestra	gain	4	217	3	0	0	224	224	0.0179	0.9688	0.0134
+Gracilariaceae	other		exact	ancestra->eukaryoma	dup	12	68	348	35	0	463	463	0.0259	0.1469	0.7516
+Gracilariaceae	other		exact	ancestra->eukaryoma	gain	157	40	435	0	0	632	632	0.2484	0.0633	0.6883
+Gracilariaceae	other		exact	eukaryoma->ancestra	dup	13	48	14	5	0	80	80	0.1625	0.6	0.175
+Gracilariaceae	other		exact	eukaryoma->ancestra	gain	154	456	19	0	0	629	629	0.2448	0.725	0.0302
+Gyrista	other		exact	ancestra->eukaryoma	dup	157	343	716	35	0	1251	1251	0.1255	0.2742	0.5723
+Gyrista	other		exact	ancestra->eukaryoma	gain	11	51	101	0	0	163	163	0.0675	0.3129	0.6196
+Gyrista	other		exact	eukaryoma->ancestra	dup	146	575	1415	7	9	2152	2143	0.0681	0.2683	0.6603
+Gyrista	other		exact	eukaryoma->ancestra	gain	12	268	2	0	6	288	282	0.0426	0.9504	0.0071
+Haptista	control		exact	ancestra->eukaryoma	dup	13	40	160	4	0	217	217	0.0599	0.1843	0.7373
+Haptista	control		exact	ancestra->eukaryoma	gain	2	69	59	0	0	130	130	0.0154	0.5308	0.4538
+Haptista	control		exact	eukaryoma->ancestra	dup	14	454	612	19	13	1112	1099	0.0127	0.4131	0.5569
+Haptista	control		exact	eukaryoma->ancestra	gain	2	22	0	0	0	24	24	0.0833	0.9167	0.0
+Heterolobosea	control		exact	ancestra->eukaryoma	dup	68	268	482	22	0	840	840	0.081	0.319	0.5738
+Heterolobosea	control		exact	ancestra->eukaryoma	gain	8	59	97	0	0	164	164	0.0488	0.3598	0.5915
+Heterolobosea	control		exact	eukaryoma->ancestra	dup	74	305	120	14	0	513	513	0.1442	0.5945	0.2339
+Heterolobosea	control		exact	eukaryoma->ancestra	gain	8	144	3	0	0	155	155	0.0516	0.929	0.0194
+Heteroscleromorpha	other		exact	ancestra->eukaryoma	dup	13	163	776	33	47	1032	985	0.0132	0.1655	0.7878
+Heteroscleromorpha	other		exact	ancestra->eukaryoma	gain	16	36	135	0	34	221	187	0.0856	0.1925	0.7219
+Heteroscleromorpha	other		exact	eukaryoma->ancestra	dup	13	71	92	1	23	200	177	0.0734	0.4011	0.5198
+Heteroscleromorpha	other		exact	eukaryoma->ancestra	gain	17	228	11	0	114	370	256	0.0664	0.8906	0.043
+Holomycota	control		exact	ancestra->eukaryoma	dup	4	71	321	4	36	436	400	0.01	0.1775	0.8025
+Holomycota	control		exact	ancestra->eukaryoma	gain	0	33	27	0	0	60	60	0.0	0.55	0.45
+Holomycota	control		exact	eukaryoma->ancestra	dup	3	222	102	6	0	333	333	0.009	0.6667	0.3063
+Holomycota	control		exact	eukaryoma->ancestra	gain	0	76	3	0	3	82	79	0.0	0.962	0.038
+Holozoa	other		exact	ancestra->eukaryoma	dup	8	408	822	97	5	1340	1335	0.006	0.3056	0.6157
+Holozoa	other		exact	ancestra->eukaryoma	gain	56	139	282	0	9	486	477	0.1174	0.2914	0.5912
+Holozoa	other		exact	eukaryoma->ancestra	dup	9	84	57	0	1	151	150	0.06	0.56	0.38
+Holozoa	other		exact	eukaryoma->ancestra	gain	71	1361	57	0	98	1587	1489	0.0477	0.914	0.0383
+Ichthyophonida	other		exact	ancestra->eukaryoma	dup	82	415	966	122	0	1585	1585	0.0517	0.2618	0.6095
+Ichthyophonida	other		exact	ancestra->eukaryoma	gain	329	44	460	0	0	833	833	0.395	0.0528	0.5522
+Ichthyophonida	other		exact	eukaryoma->ancestra	dup	93	116	67	1	0	277	277	0.3357	0.4188	0.2419
+Ichthyophonida	other		exact	eukaryoma->ancestra	gain	330	809	7	0	1	1147	1146	0.288	0.7059	0.0061
+Ichthyosporea	other		exact	ancestra->eukaryoma	dup	15	241	336	8	0	600	600	0.025	0.4017	0.56
+Ichthyosporea	other		exact	ancestra->eukaryoma	gain	1	7	8	0	0	16	16	0.0625	0.4375	0.5
+Ichthyosporea	other		exact	eukaryoma->ancestra	dup	20	168	106	1	0	295	295	0.0678	0.5695	0.3593
+Ichthyosporea	other		exact	eukaryoma->ancestra	gain	1	39	0	0	0	40	40	0.025	0.975	0.0
+Mamiellales	control		exact	ancestra->eukaryoma	dup	50	79	235	43	0	407	407	0.1229	0.1941	0.5774
+Mamiellales	control		exact	ancestra->eukaryoma	gain	85	14	169	0	0	268	268	0.3172	0.0522	0.6306
+Mamiellales	control		exact	eukaryoma->ancestra	dup	48	161	28	3	0	240	240	0.2	0.6708	0.1167
+Mamiellales	control		exact	eukaryoma->ancestra	gain	85	490	12	0	0	587	587	0.1448	0.8348	0.0204
+Metakinetoplastina	other		exact	ancestra->eukaryoma	dup	20	84	307	99	0	510	510	0.0392	0.1647	0.602
+Metakinetoplastina	other		exact	ancestra->eukaryoma	gain	93	22	209	0	0	324	324	0.287	0.0679	0.6451
+Metakinetoplastina	other		exact	eukaryoma->ancestra	dup	20	52	15	2	0	89	89	0.2247	0.5843	0.1685
+Metakinetoplastina	other		exact	eukaryoma->ancestra	gain	90	1014	16	0	0	1120	1120	0.0804	0.9054	0.0143
+Myzozoa	control		exact	ancestra->eukaryoma	dup	50	91	306	11	0	458	458	0.1092	0.1987	0.6681
+Myzozoa	control		exact	ancestra->eukaryoma	gain	44	14	82	0	0	140	140	0.3143	0.1	0.5857
+Myzozoa	control		exact	eukaryoma->ancestra	dup	46	248	658	4	0	956	956	0.0481	0.2594	0.6883
+Myzozoa	control		exact	eukaryoma->ancestra	gain	44	137	6	0	0	187	187	0.2353	0.7326	0.0321
+Obazoa	control		exact	ancestra->eukaryoma	dup	0	82	253	8	0	343	343	0.0	0.2391	0.7376
+Obazoa	control		exact	ancestra->eukaryoma	gain	3	224	73	0	0	300	300	0.01	0.7467	0.2433
+Obazoa	control		exact	eukaryoma->ancestra	dup	0	29	30	4	4	67	63	0.0	0.4603	0.4762
+Obazoa	control		exact	eukaryoma->ancestra	gain	11	190	7	0	0	208	208	0.0529	0.9135	0.0337
+Ochrophyta	other		exact	ancestra->eukaryoma	dup	33	384	1287	128	5	1837	1832	0.018	0.2096	0.7025
+Ochrophyta	other		exact	ancestra->eukaryoma	gain	27	49	175	0	0	251	251	0.1076	0.1952	0.6972
+Ochrophyta	other		exact	eukaryoma->ancestra	dup	27	143	75	1	0	246	246	0.1098	0.5813	0.3049
+Ochrophyta	other		exact	eukaryoma->ancestra	gain	21	527	10	0	0	558	558	0.0376	0.9444	0.0179
+Oligohymenophorea	other		exact	ancestra->eukaryoma	dup	127	97	536	183	0	943	943	0.1347	0.1029	0.5684
+Oligohymenophorea	other		exact	ancestra->eukaryoma	gain	336	96	335	0	0	767	767	0.4381	0.1252	0.4368
+Oligohymenophorea	other		exact	eukaryoma->ancestra	dup	121	180	110	19	0	430	430	0.2814	0.4186	0.2558
+Oligohymenophorea	other		exact	eukaryoma->ancestra	gain	316	1523	104	0	0	1943	1943	0.1626	0.7838	0.0535
+Oomycota	other		exact	ancestra->eukaryoma	dup	85	60	501	154	0	800	800	0.1062	0.075	0.6262
+Oomycota	other		exact	ancestra->eukaryoma	gain	346	32	377	0	0	755	755	0.4583	0.0424	0.4993
+Oomycota	other		exact	eukaryoma->ancestra	dup	82	245	67	3	1	398	397	0.2065	0.6171	0.1688
+Oomycota	other		exact	eukaryoma->ancestra	gain	348	1691	41	0	0	2080	2080	0.1673	0.813	0.0197
+Opisthokonta	other		exact	ancestra->eukaryoma	dup	5	510	746	103	9	1373	1364	0.0037	0.3739	0.5469
+Opisthokonta	other		exact	ancestra->eukaryoma	gain	53	162	309	0	121	645	524	0.1011	0.3092	0.5897
+Opisthokonta	other		exact	eukaryoma->ancestra	dup	6	36	53	1	0	96	96	0.0625	0.375	0.5521
+Opisthokonta	other		exact	eukaryoma->ancestra	gain	59	1231	59	0	38	1387	1349	0.0437	0.9125	0.0437
+ParaHoxozoa	other		exact	ancestra->eukaryoma	dup	4	177	635	96	1	913	912	0.0044	0.1941	0.6963
+ParaHoxozoa	other		exact	ancestra->eukaryoma	gain	86	62	193	0	1	342	341	0.2522	0.1818	0.566
+ParaHoxozoa	other		exact	eukaryoma->ancestra	dup	1	60	25	0	1	87	86	0.0116	0.6977	0.2907
+ParaHoxozoa	other		exact	eukaryoma->ancestra	gain	73	1177	31	0	2	1283	1281	0.057	0.9188	0.0242
+Peronosporomycetes	other		exact	ancestra->eukaryoma	dup	35	95	607	11	1	749	748	0.0468	0.127	0.8115
+Peronosporomycetes	other		exact	ancestra->eukaryoma	gain	20	47	458	0	1	526	525	0.0381	0.0895	0.8724
+Peronosporomycetes	other		exact	eukaryoma->ancestra	dup	37	56	68	0	2	163	161	0.2298	0.3478	0.4224
+Peronosporomycetes	other		exact	eukaryoma->ancestra	gain	21	76	3	0	0	100	100	0.21	0.76	0.03
+Pluriformea	other		exact	ancestra->eukaryoma	dup	22	100	186	2	3	313	310	0.071	0.3226	0.6
+Pluriformea	other		exact	ancestra->eukaryoma	gain	1	3	9	0	0	13	13	0.0769	0.2308	0.6923
+Pluriformea	other		exact	eukaryoma->ancestra	dup	21	116	310	0	6	453	447	0.047	0.2595	0.6935
+Pluriformea	other		exact	eukaryoma->ancestra	gain	1	42	3	0	0	46	46	0.0217	0.913	0.0652
+Podiata	other		exact	ancestra->eukaryoma	dup	3	143	329	28	0	503	503	0.006	0.2843	0.6541
+Podiata	other		exact	ancestra->eukaryoma	gain	104	1247	373	0	0	1724	1724	0.0603	0.7233	0.2164
+Podiata	other		exact	eukaryoma->ancestra	dup	3	64	70	36	2	175	173	0.0173	0.3699	0.4046
+Podiata	other		exact	eukaryoma->ancestra	gain	219	727	77	0	48	1071	1023	0.2141	0.7107	0.0753
+Porifera	other		exact	ancestra->eukaryoma	dup	13	105	389	23	0	530	530	0.0245	0.1981	0.734
+Porifera	other		exact	ancestra->eukaryoma	gain	6	23	62	0	0	91	91	0.0659	0.2527	0.6813
+Porifera	other		exact	eukaryoma->ancestra	dup	12	314	165	2	2	495	493	0.0243	0.6369	0.3347
+Porifera	other		exact	eukaryoma->ancestra	gain	6	310	6	0	26	348	322	0.0186	0.9627	0.0186
+Proteorhodophytina	other		exact	ancestra->eukaryoma	dup	2	57	221	5	0	285	285	0.007	0.2	0.7754
+Proteorhodophytina	other		exact	ancestra->eukaryoma	gain	1	4	28	0	0	33	33	0.0303	0.1212	0.8485
+Proteorhodophytina	other		exact	eukaryoma->ancestra	dup	2	9	157	1	4	173	169	0.0118	0.0533	0.929
+Proteorhodophytina	other		exact	eukaryoma->ancestra	gain	1	51	0	0	0	52	52	0.0192	0.9808	0.0
+Protostomia	other		exact	ancestra->eukaryoma	dup	4	89	292	5	0	390	390	0.0103	0.2282	0.7487
+Protostomia	other		exact	ancestra->eukaryoma	gain	10	13	40	0	0	63	63	0.1587	0.2063	0.6349
+Protostomia	other		exact	eukaryoma->ancestra	dup	2	55	30	0	0	87	87	0.023	0.6322	0.3448
+Protostomia	other		exact	eukaryoma->ancestra	gain	11	96	3	0	0	110	110	0.1	0.8727	0.0273
+Rhizaria	other		exact	ancestra->eukaryoma	dup	13	102	264	24	0	403	403	0.0323	0.2531	0.6551
+Rhizaria	other		exact	ancestra->eukaryoma	gain	9	29	17	0	0	55	55	0.1636	0.5273	0.3091
+Rhizaria	other		exact	eukaryoma->ancestra	dup	12	312	117	7	0	448	448	0.0268	0.6964	0.2612
+Rhizaria	other		exact	eukaryoma->ancestra	gain	9	245	14	0	0	268	268	0.0336	0.9142	0.0522
+Rhodophyta	other		exact	ancestra->eukaryoma	dup	31	200	283	89	0	603	603	0.0514	0.3317	0.4693
+Rhodophyta	other		exact	ancestra->eukaryoma	gain	33	19	73	0	0	125	125	0.264	0.152	0.584
+Rhodophyta	other		exact	eukaryoma->ancestra	dup	36	99	73	3	1	212	211	0.1706	0.4692	0.346
+Rhodophyta	other		exact	eukaryoma->ancestra	gain	33	505	7	0	0	545	545	0.0606	0.9266	0.0128
+Rhodophyta_Rhodelphidia	control		exact	ancestra->eukaryoma	dup	3	52	118	7	0	180	180	0.0167	0.2889	0.6556
+Rhodophyta_Rhodelphidia	control		exact	ancestra->eukaryoma	gain	1	32	7	0	0	40	40	0.025	0.8	0.175
+Rhodophyta_Rhodelphidia	control		exact	eukaryoma->ancestra	dup	3	169	93	4	2	271	269	0.0112	0.6283	0.3457
+Rhodophyta_Rhodelphidia	control		exact	eukaryoma->ancestra	gain	1	28	0	0	0	29	29	0.0345	0.9655	0.0
+Rhodophytina	other		exact	ancestra->eukaryoma	dup	75	123	218	26	0	442	442	0.1697	0.2783	0.4932
+Rhodophytina	other		exact	ancestra->eukaryoma	gain	24	26	99	0	6	155	149	0.1611	0.1745	0.6644
+Rhodophytina	other		exact	eukaryoma->ancestra	dup	94	459	1672	3	5	2233	2228	0.0422	0.206	0.7504
+Rhodophytina	other		exact	eukaryoma->ancestra	gain	27	288	6	0	4	325	321	0.0841	0.8972	0.0187
+Rotosphaerida	other		exact	ancestra->eukaryoma	dup	22	69	418	1	0	510	510	0.0431	0.1353	0.8196
+Rotosphaerida	other		exact	ancestra->eukaryoma	gain	0	7	18	0	0	25	25	0.0	0.28	0.72
+Rotosphaerida	other		exact	eukaryoma->ancestra	dup	21	136	69	2	0	228	228	0.0921	0.5965	0.3026
+Rotosphaerida	other		exact	eukaryoma->ancestra	gain	0	10	0	0	0	10	10	0.0	1.0	0.0
+Saccharomycotina	other		exact	ancestra->eukaryoma	dup	15	31	92	16	0	154	154	0.0974	0.2013	0.5974
+Saccharomycotina	other		exact	ancestra->eukaryoma	gain	17	2	9	0	0	28	28	0.6071	0.0714	0.3214
+Saccharomycotina	other		exact	eukaryoma->ancestra	dup	22	60	54	0	0	136	136	0.1618	0.4412	0.3971
+Saccharomycotina	other		exact	eukaryoma->ancestra	gain	17	464	19	0	0	500	500	0.034	0.928	0.038
+Salpingoecidae	other		exact	ancestra->eukaryoma	dup	55	385	1045	132	0	1617	1617	0.034	0.2381	0.6463
+Salpingoecidae	other		exact	ancestra->eukaryoma	gain	118	108	297	0	0	523	523	0.2256	0.2065	0.5679
+Salpingoecidae	other		exact	eukaryoma->ancestra	dup	63	443	188	23	6	723	717	0.0879	0.6179	0.2622
+Salpingoecidae	other		exact	eukaryoma->ancestra	gain	118	1243	47	0	18	1426	1408	0.0838	0.8828	0.0334
+Sar	other		exact	ancestra->eukaryoma	dup	5	324	658	75	0	1062	1062	0.0047	0.3051	0.6196
+Sar	other		exact	ancestra->eukaryoma	gain	37	211	131	0	0	379	379	0.0976	0.5567	0.3456
+Sar	other		exact	eukaryoma->ancestra	dup	6	139	85	8	0	238	238	0.0252	0.584	0.3571
+Sar	other		exact	eukaryoma->ancestra	gain	47	899	22	0	3	971	968	0.0486	0.9287	0.0227
+Setaphyta	other		exact	ancestra->eukaryoma	dup	322	244	543	64	4	1177	1173	0.2745	0.208	0.4629
+Setaphyta	other		exact	ancestra->eukaryoma	gain	20	25	63	0	0	108	108	0.1852	0.2315	0.5833
+Setaphyta	other		exact	eukaryoma->ancestra	dup	272	377	4772	6	2	5429	5427	0.0501	0.0695	0.8793
+Setaphyta	other		exact	eukaryoma->ancestra	gain	20	367	9	0	1	397	396	0.0505	0.9268	0.0227
+Stramenopiles	control		exact	ancestra->eukaryoma	dup	9	118	396	28	0	551	551	0.0163	0.2142	0.7187
+Stramenopiles	control		exact	ancestra->eukaryoma	gain	21	82	89	0	0	192	192	0.1094	0.4271	0.4635
+Stramenopiles	control		exact	eukaryoma->ancestra	dup	10	196	88	7	1	302	301	0.0332	0.6512	0.2924
+Stramenopiles	control		exact	eukaryoma->ancestra	gain	24	266	8	0	0	298	298	0.0805	0.8926	0.0268
+Streptophyta	other		exact	ancestra->eukaryoma	dup	5	113	550	4	3	675	672	0.0074	0.1682	0.8185
+Streptophyta	other		exact	ancestra->eukaryoma	gain	2	28	81	0	0	111	111	0.018	0.2523	0.7297
+Streptophyta	other		exact	eukaryoma->ancestra	dup	3	85	47	1	2	138	136	0.0221	0.625	0.3456
+Streptophyta	other		exact	eukaryoma->ancestra	gain	3	115	3	0	6	127	121	0.0248	0.9504	0.0248
+TSAR	control		exact	ancestra->eukaryoma	dup	86	193	524	15	0	818	818	0.1051	0.2359	0.6406
+TSAR	control		exact	ancestra->eukaryoma	gain	27	701	292	0	0	1020	1020	0.0265	0.6873	0.2863
+TSAR	control		exact	eukaryoma->ancestra	dup	63	911	833	179	4	1990	1986	0.0317	0.4587	0.4194
+TSAR	control		exact	eukaryoma->ancestra	gain	38	261	14	0	11	324	313	0.1214	0.8339	0.0447
+T_dictyostelia	stem	primary	exact	ancestra->eukaryoma	dup	37	125	289	137	0	588	588	0.0629	0.2126	0.4915
+T_dictyostelia	stem	primary	exact	ancestra->eukaryoma	gain	236	72	134	0	0	442	442	0.5339	0.1629	0.3032
+T_dictyostelia	stem	primary	exact	eukaryoma->ancestra	dup	42	87	103	13	0	245	245	0.1714	0.3551	0.4204
+T_dictyostelia	stem	primary	exact	eukaryoma->ancestra	gain	234	1626	44	0	0	1904	1904	0.1229	0.854	0.0231
+T_embryophyta	stem	primary	approx	ancestra->eukaryoma	dup	26	246	503	170	6	951	945	0.0275	0.2603	0.5323
+T_embryophyta	stem	primary	approx	ancestra->eukaryoma	gain	122	62	124	0	0	308	308	0.3961	0.2013	0.4026
+T_embryophyta	stem	primary	approx	eukaryoma->ancestra	dup	32	62	159	4	0	257	257	0.1245	0.2412	0.6187
+T_embryophyta	stem	primary	approx	eukaryoma->ancestra	gain	154	1498	36	0	5	1693	1688	0.0912	0.8874	0.0213
+T_florideophyceae	stem	primary	exact	ancestra->eukaryoma	dup	22	89	281	29	0	421	421	0.0523	0.2114	0.6675
+T_florideophyceae	stem	primary	exact	ancestra->eukaryoma	gain	88	34	184	0	0	306	306	0.2876	0.1111	0.6013
+T_florideophyceae	stem	primary	exact	eukaryoma->ancestra	dup	27	154	46	2	1	230	229	0.1179	0.6725	0.2009
+T_florideophyceae	stem	primary	exact	eukaryoma->ancestra	gain	87	313	4	0	0	404	404	0.2153	0.7748	0.0099
+T_fonticula	stem	secondary	exact	ancestra->eukaryoma	dup	23	27	1	123	0	174	174	0.1322	0.1552	0.0057
+T_fonticula	stem	secondary	exact	eukaryoma->ancestra	dup	23	24	53	10	0	110	110	0.2091	0.2182	0.4818
+T_fungi_agaricomycetes	stem	primary	approx	ancestra->eukaryoma	dup	40	121	128	149	0	438	438	0.0913	0.2763	0.2922
+T_fungi_agaricomycetes	stem	primary	approx	ancestra->eukaryoma	gain	535	71	179	0	0	785	785	0.6815	0.0904	0.228
+T_fungi_agaricomycetes	stem	primary	approx	eukaryoma->ancestra	dup	43	26	172	9	0	250	250	0.172	0.104	0.688
+T_fungi_agaricomycetes	stem	primary	approx	eukaryoma->ancestra	gain	557	1285	35	0	0	1877	1877	0.2968	0.6846	0.0186
+T_fungi_hyphae	stem	primary	approx	ancestra->eukaryoma	dup	22	264	286	47	0	619	619	0.0355	0.4265	0.462
+T_fungi_hyphae	stem	primary	approx	ancestra->eukaryoma	gain	15	19	79	0	0	113	113	0.1327	0.1681	0.6991
+T_fungi_hyphae	stem	primary	approx	eukaryoma->ancestra	dup	28	287	837	0	0	1152	1152	0.0243	0.2491	0.7266
+T_fungi_hyphae	stem	primary	approx	eukaryoma->ancestra	gain	15	328	1	0	0	344	344	0.0436	0.9535	0.0029
+T_fungi_hyphae_gonapodya	stem	secondary	exact	ancestra->eukaryoma	dup	417	110	1	486	0	1014	1014	0.4112	0.1085	0.001
+T_fungi_hyphae_gonapodya	stem	secondary	exact	eukaryoma->ancestra	dup	426	116	1	14	0	557	557	0.7648	0.2083	0.0018
+T_fungi_pezizomycotina	stem	primary	approx	ancestra->eukaryoma	dup	105	110	6	370	0	591	591	0.1777	0.1861	0.0102
+T_fungi_pezizomycotina	stem	primary	approx	eukaryoma->ancestra	dup	109	34	148	8	2	301	299	0.3645	0.1137	0.495
+T_metazoa	stem	primary	exact	ancestra->eukaryoma	dup	5	216	930	229	15	1395	1380	0.0036	0.1565	0.6739
+T_metazoa	stem	primary	exact	ancestra->eukaryoma	gain	152	151	395	0	106	804	698	0.2178	0.2163	0.5659
+T_metazoa	stem	primary	exact	eukaryoma->ancestra	dup	5	42	41	1	1	90	89	0.0562	0.4719	0.4607
+T_metazoa	stem	primary	exact	eukaryoma->ancestra	gain	153	2115	76	0	158	2502	2344	0.0653	0.9023	0.0324
+T_phaeophyceae	stem	primary	approx	ancestra->eukaryoma	dup	186	137	24	1382	14	1743	1729	0.1076	0.0792	0.0139
+T_phaeophyceae	stem	primary	approx	eukaryoma->ancestra	dup	181	184	4	37	0	406	406	0.4458	0.4532	0.0099
+T_px_filaments	stem	secondary	exact	ancestra->eukaryoma	dup	24	66	295	4	0	389	389	0.0617	0.1697	0.7584
+T_px_filaments	stem	secondary	exact	ancestra->eukaryoma	gain	3	18	59	0	0	80	80	0.0375	0.225	0.7375
+T_px_filaments	stem	secondary	exact	eukaryoma->ancestra	dup	25	298	63	3	0	389	389	0.0643	0.7661	0.162
+T_px_filaments	stem	secondary	exact	eukaryoma->ancestra	gain	3	59	0	0	0	62	62	0.0484	0.9516	0.0
+T_rhodophyta	stem	primary	exact	ancestra->eukaryoma	dup	5	98	233	11	0	347	347	0.0144	0.2824	0.6715
+T_rhodophyta	stem	primary	exact	ancestra->eukaryoma	gain	9	17	60	0	1	87	86	0.1047	0.1977	0.6977
+T_rhodophyta	stem	primary	exact	eukaryoma->ancestra	dup	7	55	135	1	1	199	198	0.0354	0.2778	0.6818
+T_rhodophyta	stem	primary	exact	eukaryoma->ancestra	gain	10	103	0	0	4	117	113	0.0885	0.9115	0.0
+T_streptophyta	stem	primary	exact	ancestra->eukaryoma	dup	60	195	536	76	0	867	867	0.0692	0.2249	0.6182
+T_streptophyta	stem	primary	exact	ancestra->eukaryoma	gain	52	53	142	0	0	247	247	0.2105	0.2146	0.5749
+T_streptophyta	stem	primary	exact	eukaryoma->ancestra	dup	60	227	681	2	0	970	970	0.0619	0.234	0.7021
+T_streptophyta	stem	primary	exact	eukaryoma->ancestra	gain	55	859	9	0	0	923	923	0.0596	0.9307	0.0098
+T_volvocales_gv	stem	primary	approx	ancestra->eukaryoma	dup	215	362	9	993	0	1579	1579	0.1362	0.2293	0.0057
+T_volvocales_gv	stem	primary	approx	eukaryoma->ancestra	dup	237	36	0	14	0	287	287	0.8258	0.1254	0.0
+T_volvocine_tgv	stem	primary	approx	ancestra->eukaryoma	dup	215	362	9	993	0	1579	1579	0.1362	0.2293	0.0057
+T_volvocine_tgv	stem	primary	approx	eukaryoma->ancestra	dup	237	36	0	14	0	287	287	0.8258	0.1254	0.0
+Teretosporea	other		exact	ancestra->eukaryoma	dup	30	109	248	12	0	399	399	0.0752	0.2732	0.6216
+Teretosporea	other		exact	ancestra->eukaryoma	gain	4	16	27	0	0	47	47	0.0851	0.3404	0.5745
+Teretosporea	other		exact	eukaryoma->ancestra	dup	40	665	568	8	3	1284	1281	0.0312	0.5191	0.4434
+Teretosporea	other		exact	eukaryoma->ancestra	gain	4	225	3	0	5	237	232	0.0172	0.9698	0.0129
+Tetramitia	other		exact	ancestra->eukaryoma	dup	19	169	303	11	0	502	502	0.0378	0.3367	0.6036
+Tetramitia	other		exact	ancestra->eukaryoma	gain	14	35	99	0	0	148	148	0.0946	0.2365	0.6689
+Tetramitia	other		exact	eukaryoma->ancestra	dup	21	96	53	4	0	174	174	0.1207	0.5517	0.3046
+Tetramitia	other		exact	eukaryoma->ancestra	gain	11	121	1	0	0	133	133	0.0827	0.9098	0.0075
+Tracheophyta	other		exact	ancestra->eukaryoma	dup	64	326	1018	64	13	1485	1472	0.0435	0.2215	0.6916
+Tracheophyta	other		exact	ancestra->eukaryoma	gain	10	21	20	0	3	54	51	0.1961	0.4118	0.3922
+Tracheophyta	other		exact	eukaryoma->ancestra	dup	65	74	168	1	4	312	308	0.211	0.2403	0.5455
+Tracheophyta	other		exact	eukaryoma->ancestra	gain	8	337	11	0	14	370	356	0.0225	0.9466	0.0309
+Trebouxiophyceae	control		approx	ancestra->eukaryoma	dup	138	59	5	445	1	648	647	0.2133	0.0912	0.0077
+Trebouxiophyceae	control		approx	eukaryoma->ancestra	dup	127	122	0	11	0	260	260	0.4885	0.4692	0.0
+Tubulinea	control		exact	ancestra->eukaryoma	dup	36	83	325	10	0	454	454	0.0793	0.1828	0.7159
+Tubulinea	control		exact	ancestra->eukaryoma	gain	19	70	113	0	0	202	202	0.0941	0.3465	0.5594
+Tubulinea	control		exact	eukaryoma->ancestra	dup	34	370	107	21	1	533	532	0.0639	0.6955	0.2011
+Tubulinea	control		exact	eukaryoma->ancestra	gain	19	165	3	0	0	187	187	0.1016	0.8824	0.016
+UTC_clade	control		exact	ancestra->eukaryoma	dup	27	258	646	25	0	956	956	0.0282	0.2699	0.6757
+UTC_clade	control		exact	ancestra->eukaryoma	gain	5	17	81	0	1	104	103	0.0485	0.165	0.7864
+UTC_clade	control		exact	eukaryoma->ancestra	dup	26	155	35	1	0	217	217	0.1198	0.7143	0.1613
+UTC_clade	control		exact	eukaryoma->ancestra	gain	4	164	0	0	0	168	168	0.0238	0.9762	0.0
+Uniplacotomia	other		exact	ancestra->eukaryoma	dup	280	106	417	76	0	879	879	0.3185	0.1206	0.4744
+Uniplacotomia	other		exact	ancestra->eukaryoma	gain	405	74	204	0	0	683	683	0.593	0.1083	0.2987
+Uniplacotomia	other		exact	eukaryoma->ancestra	dup	258	390	24	12	0	684	684	0.3772	0.5702	0.0351
+Uniplacotomia	other		exact	eukaryoma->ancestra	gain	395	711	9	0	0	1115	1115	0.3543	0.6377	0.0081
+Variosea	control		approx	ancestra->eukaryoma	dup	317	150	76	1167	0	1710	1710	0.1854	0.0877	0.0444
+Variosea	control		approx	eukaryoma->ancestra	dup	308	193	0	39	0	540	540	0.5704	0.3574	0.0
+Viridiplantae	control		exact	ancestra->eukaryoma	dup	7	181	453	28	0	669	669	0.0105	0.2706	0.6771
+Viridiplantae	control		exact	ancestra->eukaryoma	gain	23	74	100	0	0	197	197	0.1168	0.3756	0.5076
+Viridiplantae	control		exact	eukaryoma->ancestra	dup	7	111	52	5	0	175	175	0.04	0.6343	0.2971
+Viridiplantae	control		exact	eukaryoma->ancestra	gain	14	152	1	0	0	167	167	0.0838	0.9102	0.006
+chytridiomyceta	other		exact	ancestra->eukaryoma	dup	36	89	201	27	0	353	353	0.102	0.2521	0.5694
+chytridiomyceta	other		exact	ancestra->eukaryoma	gain	7	5	31	0	0	43	43	0.1628	0.1163	0.7209
+chytridiomyceta	other		exact	eukaryoma->ancestra	dup	38	170	98	1	0	307	307	0.1238	0.5537	0.3192
+chytridiomyceta	other		exact	eukaryoma->ancestra	gain	6	299	17	0	0	322	322	0.0186	0.9286	0.0528
+saccharomyceta	other		exact	ancestra->eukaryoma	dup	4	49	140	7	0	200	200	0.02	0.245	0.7
+saccharomyceta	other		exact	ancestra->eukaryoma	gain	2	17	38	0	0	57	57	0.0351	0.2982	0.6667
+saccharomyceta	other		exact	eukaryoma->ancestra	dup	5	25	32	0	0	62	62	0.0806	0.4032	0.5161
+saccharomyceta	other		exact	eukaryoma->ancestra	gain	2	107	1	0	0	110	110	0.0182	0.9727	0.0091
