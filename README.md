@@ -37,7 +37,8 @@ proteins) and 82 prokaryotic (0.41 M) proteomes and compared the branches on whi
   share of pre-existing (co-opted) domain families in animals and streptophytes than in comparable unicellular clades (Pfam-based only);
   an apparent excess of convergent domain loss disappeared under post-hoc checks.
 
-**Read first:** [`report/REPORT.md`](report/REPORT.md) (the full report, with figures in `figures/`).
+**Read first:** [`report/REPORT.md`](report/REPORT.md) (the full report, with figures in `figures/`); a self-contained HTML rendering is
+`report/report.html` (built by `scripts/report/build_html.py`).
 
 ## How the project was run
 A PI agent planned, delegated to subagents, reviewed and decided; the process record is part of the result:
