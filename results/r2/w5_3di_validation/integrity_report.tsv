@@ -1,0 +1,25 @@
+code	n_proteome	n_3di_records	n_skipped	n_missing	n_dup_ids	n_extra_ids	n_length_mismatch	n_bad_alphabet	bad_chars	skipped_but_present	dup_ids_in_proteome	status
+Acanspe	24555	24555	0	0	0	0	0	0		0	0	PASS
+Amoepar	18090	18090	0	0	0	0	0	0		0	0	PASS
+Amphque	20174	20066	108	0	0	0	0	0		0	0	PASS
+Aphrvas	19346	19346	0	0	0	0	0	0		0	0	PASS
+Barrmon	10834	10834	0	0	0	0	0	0		0	0	PASS
+Branbel	23849	23849	0	0	0	0	0	0		0	0	PASS
+Caenele	19534	19534	0	0	0	0	0	0		0	0	PASS
+Capitel	31841	31841	0	0	0	0	0	0		0	0	PASS
+Capsowc	8733	8733	0	0	0	0	0	0		0	0	PASS
+Choafle	13753	13753	0	0	0	0	0	0		0	0	PASS
+Choaper	14045	14045	0	0	0	0	0	0		0	0	PASS
+Chroper	12369	12369	0	0	0	0	0	0		0	0	PASS
+Drosmel	13675	13675	0	0	0	0	0	0		0	0	PASS
+Ephymue	37127	37127	0	0	0	0	0	0		0	0	PASS
+Hoilhon	11735	11735	0	0	0	0	0	0		0	0	PASS
+Homosap	20364	20364	0	0	0	0	0	0		0	0	PASS
+Hydrvul	22459	22459	0	0	0	0	0	0		0	0	PASS
+Mnemlei	19288	19288	0	0	0	0	0	0		0	0	PASS
+Nemavec	24399	24399	0	0	0	0	0	0		0	0	PASS
+Oscapea	17662	17662	0	0	0	0	0	0		0	0	PASS
+Salpros	11614	11614	0	0	0	0	0	0		0	0	PASS
+Stropur	26457	26457	0	0	0	0	0	0		0	0	PASS
+Sycocil	35777	35777	137	0	0	0	0	0		137	0	PASS
+Tricadh	11513	11513	0	0	0	0	0	0		0	0	PASS

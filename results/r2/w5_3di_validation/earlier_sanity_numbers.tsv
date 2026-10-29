@@ -1,0 +1,4 @@
+comparison	n_proteins	per_residue_identity	note
+ProstT5 GPU (own script) vs Foldseek-CPU ProstT5	4996	0.9706	earlier sanity check (value supplied by project lead)
+windowed (1000/250) vs full-length, <=1000 aa	NA	1.0000	identical (no windowing applies)
+windowed vs full-length, 1000-3000 aa	364	0.9032	earlier sanity check

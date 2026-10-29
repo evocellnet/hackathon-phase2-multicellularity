@@ -1,0 +1,9 @@
+completed_species	24
+candidates_sampled	5000
+with_afdb_ss	5000
+seq_or_len_mismatch_skipped	19
+no_3di_record	0
+evaluated	4981
+independent_baseline_identity	0.1671
+most_common_state_frequency	0.3136
+species	Acanspe,Amoepar,Amphque,Aphrvas,Barrmon,Branbel,Caenele,Capitel,Capsowc,Choafle,Choaper,Chroper,Drosmel,Ephymue,Hoilhon,Homosap,Hydrvul,Mnemlei,Nemavec,Oscapea,Salpros,Stropur,Sycocil,Tricadh

@@ -1,0 +1,26 @@
+W5 3Di VALIDATION (ProstT5 3Di, own GPU script, windowing 1,000 aa / 250 overlap)
+Scripts: scripts/r2/w5/{check_3di.py, accuracy_3di.py, fetch_plddt.py}. Frozen species list: species_frozen.txt (24 species with .done at analysis time).
+
+1. INTEGRITY (integrity_report.tsv)
+All 24 completed species PASS: 469,193 proteome proteins; 469,085 have exactly one 3Di record, the remaining 108 are listed in .skipped (all in Amphque, proteins >3,000 aa; Amphque was run with a 3,000 aa cap). 0 duplicate IDs, 0 extra IDs, 0 length mismatches (3Di length = sequence length), 0 characters outside ACDEFGHIKLMNPQRSTVWY.
+Note: Sycocil.3di.fa.skipped lists 137 proteins that DO have records (stale list from an earlier run with a lower cap; the final run had cap 100,000 aa) - harmless, the checker counts them as present.
+
+2. ACCURACY vs AFDB-DERIVED 3Di (accuracy_by_stratum.tsv, per_protein_accuracy.tsv)
+Pool: 38,746 proteins in the 24 species having an AFDB model (28,367 via the Foldseek AFDB-Swiss-Prot DB sp_ss, 10,379 via downloaded PDB models, mostly Salpros); seed-11 random sample of 5,000; 19 skipped because the AFDB sequence differs from ours (version/isoform differences; length or sequence mismatch); 4,981 evaluated, 2.55 M residues.
+Per-residue identity ProstT5 vs Foldseek 3Di from the model (X positions ignored):
+ overall 0.655 pooled (0.655 mean per protein, median 0.661). Chance expected from letter frequencies: 0.167; always predicting the commonest state: 0.314.
+ length <=1000 aa (unwindowed): 0.657 (n=4,462); 1000-3000 aa (windowed): 0.649 (n=519); >3000 aa: no evaluable proteins (our >3000 aa proteins have no AFDB-DB model, and AFDB-Swiss-Prot has none; Amphque's were skipped).
+ mean pLDDT: <50 0.644 pooled (0.587 per-protein mean, n=346); 50-70 0.656 (n=1,478); 70-90 0.654 (n=2,461); >=90 0.665 (n=696).
+ disorder fraction: <0.1 0.638; 0.1-0.4 0.649; >=0.4 0.675 (n=1,491/1,980/1,510).
+ source: PDB-based models (mainly Salpros, a protist) 0.626 (n=1,363); Swiss-Prot (mostly animals, Homosap/Drosmel/Caenele) 0.665 (n=3,618).
+Published reference: Heinzinger et al. 2024 (NAR Genom Bioinform 6:lqae150, doi 10.1093/nargab/lqae150, PMID 39633723) report 3Di classification (Q20) accuracy of only 41-65% for predicted 3Di, yet good remote homology performance since errors mostly confuse similar states. Our 0.65 is at the top of that range; no sign of degradation from the own implementation or windowing.
+
+3. EARLIER SANITY NUMBERS (earlier_sanity_numbers.tsv; supplied by project lead, not recomputed here)
+ProstT5 GPU vs Foldseek-CPU ProstT5: 0.9706 per-residue identity on 4,996 proteins. Windowed vs full-length: identical for <=1,000 aa; 0.9032 for 1,000-3,000 aa (364 proteins).
+
+CAVEATS
+- The species sample is whatever was complete (mostly animals + a few protists); not representative of all 288 species. Swiss-Prot proteins are well-studied, conserved, and likely in the ProstT5 training set (AFDB-derived), so accuracy on them is optimistic; the PDB-based (non-Swiss-Prot protist) subset gives 0.626.
+- pLDDT for Swiss-Prot proteins is the AFDB API mean (current model version) while the 3Di is from the AFDB-Swiss-Prot DB version; sequences were required to be identical.
+- Disorder bins use fraction disordered from data/annotations/disorder; per-protein means within disorder/pLDDT bins differ from pooled values because short proteins weigh more.
+- Reference 3Di are themselves predicted structures (AFDB), not experimental ones; agreement is per-residue identity of letters, not a structural-similarity measure. Windowing costs ~0.8 points (0.649 vs 0.657) in our sample, but the 0.90 windowed/full-length identity suggests longer proteins are less stable under windowing.
+- Re-run later with more species would change the sample (sampling depends on the completed set); use --species species_frozen.txt to reproduce.
