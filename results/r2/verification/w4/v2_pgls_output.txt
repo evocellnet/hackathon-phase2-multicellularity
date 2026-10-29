@@ -1,0 +1,100 @@
+Primary species set n = 148 
+Cell-death families in file: 22; present in >=1 of 187: 22; present in >=1 of S: 22 
+    pfam                                  name n_mc_origins n_sister_origins
+ PF00656               Peptidase_C14 (caspase)            7                7
+ PF31181           metacaspase (Pfam 38 split)            7                7
+ PF01650          Peptidase_C13 (VPE/legumain)            6                6
+ PF00452                                 Bcl-2            1                0
+ PF02180                                   BH4            1                0
+ PF00653                                   BIR            2                3
+ PF00619                                  CARD            1                0
+ PF00531                                 Death            1                0
+ PF01335                                   DED            1                0
+ PF00931                                NB-ARC            6                6
+ PF05729                                 NACHT            6                5
+ PF06985                                   HET            4                4
+ PF14479                                  HeLo            1                0
+ PF04598                             Gasdermin            1                0
+ PF26164 Gasdermin (bacterial/fungal, Pfam 38)            2                0
+ PF01823                                 MACPF            6                6
+ PF01582                                   TIR            6                5
+ PF13676                                 TIR_2            6                6
+ PF01027                                Bax1-I            7                7
+ PF06943                               zf-LSD1            3                3
+ PF14721                                 AIF_C            5                5
+ PF02452                     PemK_toxin (MazF)            1                0
+ prev_S total_S rule_primary
+  0.851     811         TRUE
+  0.757     432         TRUE
+  0.926     277         TRUE
+  0.095      95        FALSE
+  0.014       4        FALSE
+  0.419     148        FALSE
+  0.088     435        FALSE
+  0.095    1238        FALSE
+  0.068     114        FALSE
+  0.507    1125         TRUE
+  0.541    1200         TRUE
+  0.162     275         TRUE
+  0.047      25        FALSE
+  0.041      13        FALSE
+  0.020       6        FALSE
+  0.365     382         TRUE
+  0.412     897         TRUE
+  0.507    1345         TRUE
+  0.946     475         TRUE
+  0.270      69         TRUE
+  0.419      65         TRUE
+  0.007       3        FALSE 
+Widespread (rule) families: 12: PF00656,PF31181,PF01650,PF00931,PF05729,PF06985,PF01823,PF01582,PF13676,PF01027,PF06943,PF14721 
+P3 primary (rule families)                              n=148 b=+0.1673 SE=0.0636 95%CI(t)=[0.042,0.293] p1=0.00473 lambda=0.910 
+                Estimate     StdErr   t.value      p.value
+(Intercept)   -5.0860097 0.64257297 -7.915069 6.025304e-13
+multicellular  0.1672976 0.06360058  2.630442 9.454996e-03
+log_size       0.5453265 0.06662161  8.185429 1.313731e-13
+disorder      -0.7880076 0.34929307 -2.256007 2.557682e-02 
+P2 primary families: 115; present in S: 115 
+P2 primary (all present primary families)               n=148 b=-0.0284 SE=0.0482 95%CI(t)=[-0.124,0.067] p1=0.72152 lambda=1.000 
+                 Estimate     StdErr    t.value      p.value
+(Intercept)   -4.45774997 0.48469848 -9.1969547 3.834957e-16
+multicellular -0.02836987 0.04818667 -0.5887494 5.569518e-01
+log_size       0.48622303 0.05012854  9.6995246 1.982088e-17
+disorder      -0.56777420 0.26149548 -2.1712581 3.154971e-02 
+P2 sensitivity: rule families (94)                      n=148 b=-0.0471 SE=0.0493 95%CI(t)=[-0.145,0.050] p1=0.82930 lambda=0.877 
+Symmetric rule families: 13: PF00653 added 
+P3 (a) symmetric rule (13 fams)                         n=148 b=+0.1516 SE=0.0607 95%CI(t)=[0.032,0.272] p1=0.00683 lambda=0.934 
+P3 (b) all families present in S (22 fams)              n=148 b=+0.1378 SE=0.0563 95%CI(t)=[0.026,0.249] p1=0.00781 lambda=1.000 
+Per-family PGLS (same covariates), diagnostic: 
+              b     p1 in_rule in_sym
+PF00656  0.3148 0.0216       1      1
+PF31181  0.1571 0.1761       1      1
+PF01650 -0.1052 0.7522       1      1
+PF00452  0.1882 0.0307       0      0
+PF02180  0.2023 0.1270       0      0
+PF00653  0.0379 0.3705       0      1
+PF00619  0.1597 0.0952       0      0
+PF00531  0.2018 0.0224       0      0
+PF01335  0.1507 0.1799       0      0
+PF00931  0.6048 0.0002       1      1
+PF05729  0.1721 0.1381       1      1
+PF06985  0.2175 0.0903       1      1
+PF14479  0.2289 0.0730       0      0
+PF04598  0.1838 0.1811       0      0
+PF26164  0.2586 0.0746       0      0
+PF01823  0.1473 0.2027       1      1
+PF01582  0.1057 0.2778       1      1
+PF13676  0.0406 0.3973       1      1
+PF01027  0.0596 0.3520       1      1
+PF06943  0.0268 0.4115       1      1
+PF14721  0.2119 0.0756       1      1
+PF02452  0.1409 0.2027       0      0 
+Permutation (200 prevalence-matched random 22-family sets, seed 11): rule-selected n_sel median 13 (range 11-16) 
+  rule+PGLS: frac p1<0.05 = 0.025 (5/200), binomial p vs 5% = 0.974; mean b = -0.0069; frac b>0 = 0.430; frac b >= observed 0.167 = 0.000 
+  no-selection (all present) PGLS: frac p1<0.05 = 0.040; mean b = +0.0209; frac b_all >= observed = 0.000 
+P3 covariates: log_size b=+0.5453 (p2=1.31e-13); disorder b=-0.7880 (p2=0.0256) 
+P3 without covariates (y ~ multicellular)               n=148 b=+0.2532 SE=0.0762 95%CI(t)=[0.103,0.404] p1=0.00056 lambda=0.975 
+P3 log_size only                                        n=148 b=+0.1780 SE=0.0642 95%CI(t)=[0.051,0.305] p1=0.00315 lambda=0.888 
+10 largest proteomes: Paratet(39162,mc=0), Ephymue(37127,mc=1), Sycocil(35777,mc=1), Ceraric(35325,mc=1), Charbra(34608,mc=1), Selamoe(33113,mc=1), Paulmic(31982,mc=0), Capitel(31841,mc=1), Stencoe(30969,mc=0), Sphaarc(30243,mc=0) 
+P3 excl. 10 largest, standardisation kept (full S)      n=138 b=+0.1208 SE=0.0613 95%CI(t)=[-0.000,0.242] p1=0.02535 lambda=0.966 
+P3 excl. 10 largest, re-standardised                    n=138 b=+0.1241 SE=0.0637 95%CI(t)=[-0.002,0.250] p1=0.02684 lambda=0.969 
+P3 using proportion log(count/size) instead (diagnostic) n=148 b=+0.0825 SE=0.0755 95%CI(t)=[-0.067,0.232] p1=0.13816 lambda=0.845 

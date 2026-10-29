@@ -1,0 +1,51 @@
+Independent verification of round-2 W4 confirmatory tests R2-P3 (cell death) and R2-P2 (motif-binding)
+Verifier: independent agent, 2026-10-29. Producer code (scripts/r2/w4/) was NOT read or reused.
+Verifier code: scripts/r2/verification/w4/v1_build.py (count matrix from pyhmmer GA hit tables, proteome sizes from FASTA,
+residue-weighted disorder fraction = sum(len*frac_disordered)/sum(len)) and v2_pgls.R (rule, response, phylolm lambda PGLS).
+Full numeric output: v2_pgls_output.txt; permutation table: perm_random_sets.tsv; inputs built: count_matrix.tsv.gz, species_cov.tsv.
+Spec followed: DESIGN_ROUND2.md §6 and results/r2/w4/P3_rule.txt. Count = proteins with >=1 GA hit of the family; y = mean over
+families of per-family z(log(count+0.5)) across the 148 species; phylolm(y ~ multicellular + log_size + disorder, model="lambda")
+on the pruned round-1 tree; one-sided p = P(T > t), df = n - 4; CI = b +/- t(0.975, df) * SE.
+
+ITEM 1. Reproduction of the claimed numbers ............................................. PASS
+  Species: euk, genome, BUSCO >= 50  -> 148 (matches). Count matrix 187 x 18,661 families (matches producer's stated shape).
+  Rule (P3_rule.txt item 1) on the 22 cell-death families -> the same 12 families:
+    PF00656 caspase, PF31181 metacaspase, PF01650 VPE, PF00931 NB-ARC, PF05729 NACHT, PF06985 HET, PF01823 MACPF,
+    PF01582 TIR, PF13676 TIR_2, PF01027 Bax1-I, PF06943 zf-LSD1, PF14721 AIF_C.
+  P3: b = +0.1673 SD (SE 0.0636), 95% CI 0.042-0.293, one-sided p = 0.00473, lambda = 0.910.
+      Claimed +0.167 (0.042-0.293), p = 0.0047, lambda 0.91 -> coefficient and p agree within 1e-3.
+  P2 (all 115 primary ELM families, all present): b = -0.0284 (SE 0.0482), one-sided p = 0.7215, lambda = 1.000 (at bound).
+      Claimed -0.028, p = 0.72 -> agree within 1e-3. (Rule-restricted P2, 94 families: b = -0.047, p = 0.83.)
+
+ITEM 2. Bias of the inclusion rule ...................................................... PASS (no bias found)
+  (a) Symmetric rule (>=3 origins' multicellular clades OR >=3 origins' sister clades OR >=50% of species): adds only BIR
+      (PF00653; present in 3 sister clades, 2 multicellular clades) -> 13 families: b = +0.152, CI 0.032-0.272, p = 0.0068.
+  (b) All 22 families (all present in the 148 species): b = +0.138, CI 0.026-0.249, p = 0.0078 (lambda at bound 1).
+      The 10 excluded lineage-restricted families are mostly animal-specific (Bcl-2, BH4, CARD, Death, DED, gasdermin, HeLo,
+      MazF ...); their individual PGLS coefficients are all positive, so the rule removed families that point the same way,
+      it did not cherry-pick. The single strongest family is NB-ARC (per-family b = +0.60, p = 0.0002); caspase also p = 0.02.
+  (c) Pipeline null: 200 random 22-family sets of non-cell-death Pfam families, each member matched to one cell-death family on
+      prevalence in the 148 species (+/-0.025, widened if < 20 candidates), seed 11, run through the same rule + PGLS:
+      rule kept median 13 families (11-16); p < 0.05 in 5/200 = 2.5% (not above 5%; binomial p = 0.97); mean b = -0.007,
+      b > 0 in 43%. Without the rule (all members): p < 0.05 in 4.0%, mean b = +0.021. No random set reached b >= 0.167
+      (empirical p < 1/200 for both). The selection + test pipeline is not biased toward multicellular species.
+
+ITEM 3. Proteome size / annotation ....................................................... PASS, with a caveat
+  Covariates in the primary P3 model: log proteome size b = +0.545 (two-sided p = 1e-13); disorder b = -0.788 (p = 0.026).
+  Multicellular coefficient: no covariates +0.253 (p = 0.0006); size only +0.178 (p = 0.0032); full model +0.167 (p = 0.0047).
+  Excluding the 10 largest proteomes (Paratet, Ephymue, Sycocil, Ceraric, Charbra, Selamoe, Paulmic, Capitel, Stencoe,
+  Sphaarc; 6 of 10 multicellular): b = +0.121, p = 0.025 (standardisation kept) / b = +0.124, p = 0.027 (re-standardised);
+  95% CI lower bound ~0.00. Sign holds and p < 0.05, but the effect shrinks by ~28% and would not pass Holm's 0.0167.
+  Caveat (diagnostic, not pre-registered): proteome size is the dominant predictor. If counts are instead expressed as a
+  proportion of proteome size (log(count/size), i.e. size slope forced to 1), b = +0.083, p = 0.14. The pre-registered model
+  estimates the size slope (0.55) and that is the correct confirmatory test, but the result means "more cell-death proteins
+  than expected for a proteome of that size under a sub-proportional scaling", not "a larger share of the proteome".
+
+PLAIN LANGUAGE
+  The claimed P3 and P2 numbers are exactly reproducible from the raw annotation files with independently written code.
+  The family-selection rule does not create the P3 signal: adding the families it excluded, using a symmetric rule, or running
+  the same pipeline on prevalence-matched random families gives either the same positive result (cell death) or nothing
+  (random sets, false-positive rate 2.5%). The P3 effect is partly entangled with proteome size: it weakens (p = 0.025) when
+  the 10 largest proteomes are dropped and disappears (p = 0.14) if abundance is measured as a fraction of the proteome.
+  It is also heavily carried by NB-ARC (plant/fungal immune-receptor family); the producer already reports that dropping
+  Streptophyta raises p to 0.078.
