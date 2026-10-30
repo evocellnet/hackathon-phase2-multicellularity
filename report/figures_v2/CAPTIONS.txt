@@ -118,3 +118,35 @@ Pfam-annotated families on the panel's control branches. q < 0.1: one-sided Fish
 Pleodorina (doubtful ARM-repeat proteins with weak cell-death domain matches) and two tip branches exceed
 expectation. Sources: results/r2/w4_celldeath/ (fig4b_matrix_families.tsv, fig4b_matrix_stand.tsv,
 panels_event_celldeath.tsv); scripts/r2/w4_celldeath/04_figure.py.
+
+-----------------------------------------------------------------------------------------------------------
+Figure 6. Structure predicted from sequence is accurate enough to search with, but it did not improve Ancestra
+and gave no robust evolutionary signal. (a) Share of residues at which the 3Di structural letter predicted from
+sequence by our GPU implementation of ProstT5 equals the letter computed by Foldseek from the AlphaFold
+database model, by protein length (4,981 proteins, 2.55 million residues; overall 0.655). Blue: Swiss-Prot
+proteins, mostly from animals (0.65–0.68 per length bin); orange: other proteins, mostly from the protist
+Salpingoeca (0.62–0.63). Proteins of 1,000–3,000 residues were predicted in overlapping windows. Dotted line:
+agreement expected by chance from letter frequencies (0.17); dashed line: always predicting the commonest
+letter (0.31); grey band: 41–65%, the range reported for an equivalent sequence-based predictor (Heinzinger et
+al. 2024). (b) Ancestra's optional structure mode on the animals-and-relatives panel (37 proteomes). Bars:
+share of Ancestra's new families on the animal stem, on the stem of animals plus choanoflagellates
+("choanoflag."), on both stems pooled, and on all other internal branches that EukaryOMA places on the same
+branch (95% Wilson intervals). Grey: default, sequence only; light blue: structure mode; dark blue: structure
+mode with its guard. The deep-node positive controls (text, top) were recovered 1 of 3 in every run. The pre-
+registered rule required better deep-node controls and no loss of agreement; neither was met, so the default
+was kept. (c) Odds that a sequence-novel family has no structural match outside its clade, on event branches
+versus control branches (19 event and 55 control branches in eight panels; 8,967 families), from the
+independent verifier's mixed models with random effects for panel and branch: unadjusted (grey circles);
+adjusted for protein length, disorder, low complexity, family size, branch depth and search-space size (blue
+squares); adjusted, with an exhaustive search that finds homologues the default search misses (orange
+diamonds); adjusted, with branches rather than families as the units (pink triangles; not available for
+origins). Lines: 95% CI. The general effect (top) disappears after adjustment; a lead remains at the seven
+simple-to-complex events in family-level models but not with branches as units. (d) Structural change per unit
+of sequence change on branches inside multicellular clades minus unicellular branches (log scale; median over
+about 300 genes per panel, 95% bootstrap CI). Blue: real predicted letters; orange: negative control with
+letters shuffled among species within each alignment column; grey: control comparing two random halves of the
+sequence alignment. The shuffled control gives an effect comparable to or larger than the real data, so the
+small positive values cannot be distinguished from prediction noise combined with tree shape. Sources:
+results/r2/w5_3di_validation/per_protein_accuracy.tsv; results/r2/w5/r1/{xval_agreement_summary,controls_<run>}.tsv;
+results/r2/verification/w5/work/glmm_results{,_exh}.txt; results/r2/w6/panel_tests.tsv; script
+scripts/r2/figures/fig6_structure.py.

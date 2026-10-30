@@ -1,0 +1,580 @@
+# From many origins to single events: a two-round, agent-run study of the genomic transitions to multicellularity
+
+(Human-written text starts)
+This is an exercise in assessing the bioinformatics capabilities of agentic AI. It is part of a hackathon run by the Beltrao lab at ETH Zurich, where we used Claude to run bioinformatics projects (LINK). All results in this project were generated entirely by AI with minimal human intervention. This is not intended to be viewed as a traditional publication.
+
+
+[Project-specific text] The goal of this specific project was to investigate multicellularity across the tree of life. It was executed by Claude Opus 5.5 with delegation to Opus 5.5/Sonnet 5.5 subagents, and finished within 24 hours on a computational cluster with 24 cpus, 150GB RAM. if needed, the user will be able to switch the node to a node with a A100 GPU in the future, but at the moment do not rely on it.
+
+
+Currently none of the results have been verified by a human. We plan to verify the agent’s methodology and benchmarking, and we will update this section accordingly.
+
+
+The rest of this repository is entirely AI generated. It includes code for implementation of the predictive model and a AI-written report in the style of a journal article, detailing the final method, the path followed to reach it, and benchmarking against other methods.
+(Human-written text ends)
+
+---
+
+AI-written note on this version. The paragraph above describes the first round of the project. After that round, an independent senior reviewer (an AI agent acting as a department head) assessed the report and research record, and a second round of analysis was run on a larger allocation: 48 CPUs, 500 GB of memory and one NVIDIA A100 GPU (40 GB). The second round started at 15:07 CET on 29 October 2026; when this report was finalised (08:07 CET on 30 October 2026) it had run for about 17 hours (soft deadline about 30 hours). Round 1 had taken about 13.6 hours, so the two rounds together took about 31 hours of active wall time. This report replaces the round-1 report (report/REPORT.md), which is kept unchanged for the record; corrections to it are listed in Section 2.3.
+
+---
+
+## Abstract
+
+Multicellularity evolved many times independently. We asked what changed in gene content at these origins, using Ancestra, a new AI-developed method for reconstructing ancestral gene content. A first round compared seven eukaryotic origins at once (187 species) and found no shared signature, but an independent review showed that it had only 13–35% power for plausible effects. A second round studied single, densely sampled events, including the step from simple to complex multicellularity, in eight focused reconstructions (18–40 proteomes, 15–60 minutes each), with three pre-registered tests.
+
+One test was positive: multicellular genomes carry more cell-death proteins than expected for their proteome size (1.21-fold, 95% CI 1.04–1.42; Holm-adjusted p = 0.014; 148 genomes), almost entirely in complex lineages. Domain architectures show that the excess is mostly lineage-specific immune and self/non-self receptor machinery (NB-ARC and NACHT receptors with different repeat types in plants, red algae and fungi; death-domain adaptors in animals), not a shared cell-death program. Two tests were null: motif-binding domains are not expanded (0.98-fold), and four new simple-to-complex events did not carry significantly more sequence-novel gene families (combined p = 0.050; not significant after correction). Their large per-event ratios were an artefact of comparing single-species branches with internal branches. On the same proteins, Ancestra and the independent orthology database EukaryOMA place only 29% of new families on the same branch, so counts of gains and duplications on a branch depend on the method. Protein structure predicted from sequence on a GPU matched AlphaFold-derived structure letters at 65.5% of residues but did not improve Ancestra. Apparent structural signals (more structurally novel families at events; faster structural change inside multicellular clades) did not survive adjustment for protein length and disorder or a negative control. Independent verification overturned two of our own claims during the round; we report the AI team's process candidly.
+
+---
+
+## 1. Introduction
+
+**Main point: multicellularity arose many times, in very different ways, and this project asks whether the genomes of the lineages that made the step changed in recognisable, repeated ways. A first round asked this across all origins at once; a second round, after an independent review, asked it event by event and for the step from simple to complex multicellularity.**
+
+### 1.1 Kinds of multicellularity
+
+"Multicellular" covers several separable properties. In *clonal* multicellularity, daughter cells stay attached after division, so all cells share one genotype (animals, land plants, *Volvox*). In *aggregative* multicellularity, free-living cells come together, as in the fruiting bodies of the social amoeba *Dictyostelium* (Grosberg & Strathmann 2007). In animals, clonal multicellularity arose from a unicellular ancestor shared with choanoflagellates (Brunet & King 2017). Multicellularity can be *facultative* (formed only under some conditions) or *obligate*. *Simple* multicellularity covers filaments, colonies and sheets with little cell differentiation; *complex* multicellularity, following Knoll (2011), has three-dimensional tissues, cell-to-cell connections and differentiated cell types. Knoll restricts complex multicellularity to about six groups (animals, land plants, florideophyte red algae, laminarialean brown algae and two groups of fungi), whereas Nagy, Kovács & Krizsán (2018) count 8–11 complex origins within fungi alone. Many organisms sit in grey zones: cells joined by cytoplasmic bridges (Chaigne & Brunet 2022), coenocytes (one cell with many nuclei), and facultative colonies such as choanoflagellate rosettes. Lamża (2023) counts 45 independent multicellular lineages in eukaryotes.
+
+In round 2 we coded complexity on two axes per species, each with a literature reference: D (a germ–soma split or at least three cell types) and T (a three-dimensional tissue with cell–cell connections). A species is "complex" if it has D or T. *Volvox* and heterocyst-forming cyanobacteria are D-only; parenchymatous brown algae, florideophyte red algae, land plants and fungal fruiting bodies are T.
+
+### 1.2 The question and the competing ideas
+
+Each independent origin is a natural experiment. If the same genomic changes recur at independent origins, they point to what multicellular life requires. Four ideas from the literature frame the analysis. *Co-option*: most genes later used in multicellular life already existed in unicellular ancestors and were re-used (King et al. 2008; Sebé-Pedrós et al. 2010; Prochnik et al. 2010; Hanschen et al. 2016; Kiss et al. 2019). *A burst of novelty*: many new gene families appear at the origin (Paps & Holland 2018 for animals; Bowles et al. 2020 for plants; Denoeud et al. 2024 for brown algae). *Toolkit expansion*: particular families (transcription factors, adhesion, signalling) expand repeatedly (de Mendoza et al. 2013; Cock et al. 2010; Pereira Lobo et al. 2025). *Relaxed selection*: multicellular lineages have smaller effective population sizes, so genetic drift is stronger and selection is weaker (Lynch & Conery 2003; Bingham & Ratcliff 2024); whether this shows in protein evolution is an open question that we test in Section 8.
+
+### 1.3 Ancestra and ancestral gene content
+
+The central tool is Ancestra (github.com/evocellnet/ancestra-mvp-ai), a recently developed, AI-built method for *orthology inference*: deciding which genes in different species descend from one ancestral gene. Given the predicted proteins of many species (their *proteomes*) and a fixed species tree, Ancestra groups proteins into families by sequence similarity and then walks the tree from the tips to the root, merging the genes of sister lineages into ancestral genes. Each inferred ancestral gene, with all its descendants, is a *hierarchical orthologous group* (HOG), an idea developed in earlier methods such as OMA and FastOMA (Altenhoff et al. 2013; Majidian et al. 2025). Reading HOGs branch by branch gives *gains* (a family first appears), *losses* (an ancestral gene disappears) and *duplications* (one ancestral gene becomes two).
+
+### 1.4 Why two rounds
+
+Round 1 (about 13.5 hours on 24 CPUs) compared seven eukaryotic origins at once and found no shared signature. An independent reviewer then judged that the question had been one the design could not answer, and that several statements in the report overstated the evidence. The human lead added new scientific points: use the precomputed orthology database EukaryOMA, consider protein structure predicted on a GPU, study complex multicellularity arising from simple multicellularity, run focused reconstructions per event, test specific protein families (motif-binding domains, cell death, cell-type transcription factors) and use published protein-complex data. Round 2 follows these points under the same rules as round 1: pre-registration, independent verification and reporting of null results.
+
+---
+
+## 2. Round 1 in brief, and what the review found wrong
+
+**Main point: round 1 found no genomic feature shared by seven origins, but most of its tests could only have detected very large effects. Its most useful product was a map of where Ancestra's reconstruction cannot be trusted. An independent review found three overstated statements, which are corrected here; none changes a round-1 conclusion.**
+
+### 2.1 What was done
+
+AI agents assembled 187 eukaryotic and 82 prokaryotic proteomes from UniProt, EukProt, LukProt and NCBI (2.97 million eukaryotic proteins; 36 proteomes derived from transcriptomes, i.e. from sequenced messenger RNA, which miss unexpressed genes). They placed them on a literature-curated species tree and coded 52 candidate transitions. Seven independent eukaryotic origins met a pre-registered eligibility rule: animals, fungal hyphae, dictyostelid slime moulds, streptophyte algae (the lineage that includes land plants), red algae, the brown-algal lineage and volvocine green algae. The branch on which each transition must have happened (from the last sampled ancestor in the old state to the common ancestor of the species in the new state) is the *transition stem*.
+
+Each stem was compared with control branches inside unicellular lineages, matched for depth, branch length and clade size. Five primary tests were pre-registered and corrected together for multiple testing by the Holm method (Holm 1979; the smallest p-value is multiplied by the number of tests, the next by one fewer, and so on): more new gene families on stems, a larger share of transcription-factor duplications, a larger share of adhesion and signalling duplications, flagellar loss where expected, and a shift in the genome-wide rate of protein evolution.
+
+Two calibrations, made before any eukaryotic result, shaped the analysis. First, on simulated genomes Ancestra inflated gene gains 2.1–2.6-fold, because it sometimes splits one old family into several HOGs at deep nodes, which makes old genes look new. Gains were therefore filtered on a *gain-evidence ladder*: a gain counts as *sequence-novel* only if none of up to three representative proteins has a DIAMOND hit (E ≤ 10⁻⁵, ≥30% query coverage) to any protein outside the clade. Second, the planned null distribution (relabelling controls as stems) called 13.8% of no-effect datasets significant at a nominal 5% and was replaced. A rule fixed before the results stated that a "burst of novelty" would be claimed only if a pooled excess exceeded 2.2-fold, the stem-specific inflation seen in one simulation on the real tree.
+
+### 2.2 What was found
+
+No primary test was significant after Holm correction (smallest adjusted p = 0.10, for flagellar loss in fungi and dictyostelids, where loss was expected). The only well-powered test, the rate test, found no average shift of 1.5-fold or more in the rate of protein evolution. Positive controls (events the literature firmly expects, such as Wnt-family gains on the animal stem) were recovered in 11 of 16 cases. The failures were informative: a domain gained inside an older gene lineage (the cadherin cytoplasmic domain) is invisible to HOG gains; large multi-domain families (integrins with EGF-domain proteins) are over-merged; and duplications are placed one branch too deep when the sister lineage lacks the family (T-box transcription factors). Two exploratory signals were flagged for follow-up: more sequence-novel families at three nested simple-to-complex transitions (fruiting bodies of Pezizomycotina and Agaricomycetes fungi, and land plants; p = 0.016, 1.9–3.3-fold, outside the Holm family and below the 2.2-fold bias threshold), and 1,131 new multi-domain architectures on the animal stem against a control median of 34.
+
+### 2.3 What the independent review found, and the corrections
+
+The reviewer judged round 1 honest and methodologically valuable but aimed at a question it could not answer. Averaging over seven very different events (facultative, aggregative dictyostelids beside obligate clonal lineages) gives a nearly uninformative mean, and with seven stems the gene-content tests had 13–35% power at a 1.5-fold effect. The specific errors were checked by a separate agent with new scripts (results/round1_errata/ERRATA.txt):
+
+1. *Depth imbalance was understated.* The report said stems were 1.77 control standard deviations deeper than their matched controls; the analysed value is 2.06 (mean depth 8.7 vs 5.0 edges from the root). The 1.77 was computed earlier, under a different stem definition and with placeholder branch lengths, and never recomputed. The larger value strengthens the report's own warning.
+2. *The power table used placeholder branch lengths.* The report said effects were "planted on the real tree"; the frozen script had used branch length 1.0 everywhere because the branch-length tree did not exist yet. Re-running it with real branch lengths changed no power value by more than 0.025.
+3. *The positive controls were overstated as a validation of Ancestra.* Of the 16 controls, only 10 require Ancestra to place an event on a specific branch; 7 of these passed, including all recent-stem gains, but all three deep-node placement controls failed. Two of the passes did not use Ancestra at all. The correct reading is that Ancestra's event placement is validated on recent stems and fails at deep nodes.
+4. *The rate test depended on a random seed.* Each control needed a random orientation (which child clade is treated as the "multicellular side"), and p ranged from 0.19 to 0.61 across seeds. An exact test over all 1,024 possible orientations gives p = 0.31 for the orientation-averaged statistic; no orientation gives p ≤ 0.05, and the orientation-free pooled rate ratio is 1.06 (1.10 was reported). Nine of the ten rate-test controls contain multicellular species on one side, a limitation that remains.
+
+The reviewer also noted that 36 proteomes were transcriptomes, five proteomes below 50% BUSCO completeness were kept, and three complex transitions (florideophyte red algae, complex brown algae, heterocystous cyanobacteria) had been excluded for lack of sister species. Finally, the round-1 record declared "Eukaryoma" not found; the database exists (eukaryoma.unil.ch: 1,328 genomes, 33.8 million proteins), and the request had been misread.
+
+---
+
+## 3. How the review changed the plan
+
+**Main point: round 2 replaced one question about all origins with many questions about single, densely sampled events, and narrowed the confirmatory claims to three pre-registered tests whose power was stated in advance.**
+
+The review and the human lead's points led to five changes.
+
+1. **Single events instead of one average.** Instead of one reconstruction of 187 species, round 2 ran eight focused reconstructions (*panels*), each containing one or a few origins with as many related genomes as were available and a few outgroups. Small runs avoid the giant similarity network that, in round 1, joined 73% of all eukaryotic proteins into one connected group, and they put more species near each event. They sharpen each event; they do not add independent origins.
+2. **Simple to complex.** Complex multicellularity usually arises inside lineages that are already simply multicellular. Round 2 coded these *nested* events (for example, *Volvox* germ–soma differentiation inside colonial volvocines, or parenchymatous brown algae inside filamentous ones) and added the three complex transitions round 1 had excluded.
+3. **Specific families instead of class aggregates.** Round 1 tested broad classes and a Pfam-wide scan whose top hits were transposon domains. Round 2 fixed specific family lists before looking at data: 115 Pfam families that bind short linear motifs (from the ELM resource; Kumar et al. 2024), 22 cell-death families including non-animal forms, 26 cell-type transcription-factor families, and a mask of 223 transposon-related families.
+4. **An independent orthology resource.** EukaryOMA was used to check Ancestra's round-1 events.
+5. **Three confirmatory tests, with power stated.** The pre-registration (frozen in the repository 48 minutes into round 2, before any round-2 Ancestra output existed) defined a confirmatory family of three one-sided tests with Holm correction: (i) simple-to-complex events carry more sequence-novel families than matched control branches; (ii) motif-binding domains are more abundant in multicellular than unicellular species; (iii) cell-death machinery is more abundant in multicellular species. For (i), only events without any round-1 novelty value were eligible, because three nested events had already been seen. The four events were frozen before their panel reconstructions existed: *Astrephomene* (independent germ–soma), *Volvox carteri*, *Volvox africanus/reticuliferus* (germ–soma; *Volvox* is polyphyletic, Herron & Michod 2008) and the stem of parenchymatous Fucophycidae brown algae. The design stated that power with 3–4 events was 18% at a 2-fold effect and 41% at a 3-fold effect: "we expect an estimate, not a decision." Everything else is exploratory.
+
+A design review by three agent reviewers (statistics, evolutionary biology, compute and AI failure modes) cut the confirmatory family from five tests to three: cell-type transcription factors were moved to exploratory (their expansion in animals and plants is known, and round 1 had used them), as was a structure-based test of changed constraint. In retrospect, the simple-to-complex test should also have been labelled estimation (Section 11).
+
+---
+
+## 4. Dense per-event datasets
+
+**Main point: eight focused panels of 18–40 proteomes each were built in about two and a half hours and reconstructed in 15–60 minutes each, compared with about 9–10 hours for the single round-1 reconstruction. They cover 59 coded events, but most panels have few control branches.**
+
+### 4.1 Panels
+
+Each panel is a set of proteomes, a fixed rooted species tree edited to current phylogenomic consensus, and a table of coded events (Table 1). An *event* is a state change on a branch: unicellular to simple (an *origin*), unicellular to complex (animals, where no simple intermediate is sampled), simple to complex (*nested*), or back to unicellular (a *reversal*). Alternative codings (for example, a single colonial origin in volvocines instead of two; Lindsey et al. 2021) are kept as sensitivity analyses. Figure 1 shows the panels, their species and their events.
+
+![Figure 1. Eight focused reconstructions around single origins](figures_v2/fig1_overview.png)
+
+**Figure 1. Eight focused reconstructions, each built around one or a few origins of multicellularity.** (a) Species (proteomes) per panel by multicellular state; numbers inside bars are species counts, numbers at the right are panel totals (227 proteomes in all). (b) Coded events per panel by kind (54 events; the five alternative codings used only as sensitivity analyses are not shown, giving 59 coded events in total). Hatched: the origin of animals, a direct change from unicellular to complex because no simple intermediate is sampled. "Other" is the exploratory true-branching event inside heterocystous cyanobacteria. (c) Species tree of each panel drawn as a cladogram (tips aligned; branch lengths not to scale). Dots give the state of each species; coloured branches are event branches, coloured by the state they lead to (grey unicellular, green simple, blue complex, orange reversal). Thick pink branches are the four confirmatory simple-to-complex events: *Astrephomene* and *Volvox carteri* (single-species branches), *V. africanus/reticuliferus* (Volvocales) and the Fucophycidae stem (Stramenopiles). Most of each tree lies inside multicellular clades, which leaves 5–9 control branches per panel. Sources: data/dense/<panel>/species.tsv, transitions.tsv, guide_tree.nwk; results/r2/panels/<panel>/event_table.tsv.
+
+Table 1. The eight dense panels (sources: data/dense/STATUS.txt and each panel's transitions.tsv).
+
+| clade | proteomes | proteins | species uni / simple / complex | coded events | non-genome proteomes |
+|---|---|---|---|---|---|
+| Holozoa (animals and unicellular relatives) | 37 | 628,756 | 9 / 13 / 15 | 7 (6 origins incl. colonial choanoflagellates, 1 origin of complex animals) | 10 transcriptomes |
+| Fungi and relatives | 40 | 401,122 | 11 / 13 / 16 | 14 (3 origins, 5 nested fruiting bodies, 6 yeast reversals) | 1 |
+| Streptophyta | 21 | 471,379 | 10 / 2 / 9 | 4 (1 origin, 2 nested incl. land plants, 1 reversal) | 2 |
+| Volvocales | 21 | 302,934 | 12 / 4 / 5 | 7 (2 origins, 4 nested germ–soma, 1 alternative coding) | 0 (2 de novo annotated) |
+| Rhodophyta | 18 | 189,824 | 9 / 5 / 4 | 5 (3 origins, 1 nested Florideophyceae, 1 alternative) | 3 |
+| Stramenopiles / brown algae | 29 | 521,323 | 10 / 11 / 8 | 8 (1 origin, 2 nested, 4 reversals, 1 alternative) | 0 |
+| Amoebozoa | 25 | 355,932 | 13 / 12 / 0 | 4 (3 origins, 1 alternative) | 9 |
+| Cyanobacteria | 36 | 187,809 | 14 / 12 / 10 | 10 (7 origins, 1 nested heterocyst, 1 branching, 1 alternative) | 0 |
+| total | 227 | 3,059,079 | | 59 | |
+
+Fifty-three proteomes were new relative to round 1. Sources were the round-1 sources plus additional genomes from UniProt, NCBI, EukProt and LukProt; EukaryOMA could not serve as a sequence source because its interface returns one protein per request. Known gaps remain: no annotated genomes were available for *Physarum*, *Zygnema*, *Penium*, hornworts, *Coleochaete* or *Nuclearia*, and the Holozoa and Amoebozoa panels still contain 10 and 9 transcriptomes.
+
+**A de novo annotation caveat.** Two volvocine genomes, *Yamagishiella unicocca* and *Eudorina* sp., had assemblies but no published protein annotation. The data agent predicted their genes *de novo* with AUGUSTUS (Stanke et al. 2006), without RNA or protein evidence, using the *Chlamydomonas* gene model. Their completeness (BUSCO 71% and 69%) is similar to the annotated *Gonium* (71%), but de novo gene models differ systematically from curated ones. A sensitivity panel without these two genomes was agreed before either reconstruction was run (Section 6).
+
+### 4.2 Reconstruction
+
+All panels used Ancestra's fast preset, the setting on which round 1's inflation calibration was done, so that the round-1 bias rule still applies. A patched, output-identical version of Ancestra's community-detection step (verified byte-identical on test data) let large components be split in parallel. Panels finished in 15–60 minutes each, with peak memory of 2.6–16.9 GB, and every panel passed the format validator and the parser's conservation check (on every branch, genes at the parent plus gains minus losses plus duplications equal genes at the child). Because panels were this cheap, all eight ran, and the planned go/no-go cut-off at 8 hours never applied.
+
+Sequence-novel gains were then called as in round 1, searching each panel's proteomes plus all round-1 proteomes outside the panel. Across panels, 41–80% of Ancestra's HOG gains were sequence-novel (lowest in Amoebozoa, where transcriptomes are common; highest in Fungi).
+
+### 4.3 What a panel can and cannot do
+
+The panels improved one known failure: the deep-node T-box control, which failed in round 1, was recovered in the Holozoa panel (Section 6.5). But each panel has only 5–9 *control branches*: internal branches that are not events and do not lie inside a multicellular clade (a *crown*). Most of each panel is, by design, inside multicellular crowns. This limits every per-event test.
+
+---
+
+## 5. Do two orthology methods agree on when gene families arose?
+
+**Main point: no. Ancestra and EukaryOMA place the origin of only a minority of the same gene families on the same branch, and duplications almost never agree. Stems do not agree better than control branches once branch depth is taken into account. A count of "new families" or "duplications" on a stem therefore says as much about the method as about the biology.**
+
+### 5.1 Why and how
+
+EukaryOMA (eukaryoma.unil.ch, release All.Oct2026) is a precomputed orthology database for 1,328 eukaryotic genomes built with the OMA and FastOMA methods (Altenhoff et al. 2024; Majidian et al. 2025). It shares many input genomes with our data, so the comparison is a cross-method check on largely the same proteins, not independent data.
+
+125 of our 187 species have a EukaryOMA genome. EukaryOMA's downloadable family file contains only internal identifiers, so proteins were matched by identical sequence (checksums) and, for species with different assemblies, by reciprocal best hits at ≥95% identity; 87.1% of our proteins were mapped. Both sets of HOGs were restricted to the 125 shared species, stripped of their own labels for the branch on which each family arose, and placed on the same pruned tree by the same parser: a family's origin is the common ancestor of its members. Each round-1 stem gain was then matched to the other method through its member proteins.
+
+### 5.2 Results
+
+Pooled over the six internal stems that map exactly onto the pruned tree, 29% of Ancestra's stem gains were placed on the same stem by EukaryOMA (540 of 1,859 mapped). In the other direction, only 9% of EukaryOMA's stem gains were confirmed by Ancestra. Duplications agreed in 4–8% of cases on these six stems and on controls alike (11% and 22% on the two single-species stems, which carry few events). When the methods disagreed, the median offset was 8 nodes, close to the root of the eukaryotes, which points to over-merged or stray family members rather than a one-branch shift (Figure 2).
+
+![Figure 2. Agreement between Ancestra and EukaryOMA](figures_v2/fig2_orthology_agreement.png)
+
+**Figure 2. Two orthology methods, Ancestra and EukaryOMA, often disagree on when gene families arose and almost never on duplications.** Both sets of hierarchical orthologous groups were restricted to the 125 shared species and placed on the same pruned tree by the same parser. (a) New gene families and (b) duplications on the six transition stems that map exactly onto the pruned tree (log scale). On the animal stem Ancestra reports 804 new families and about 6,600 duplications, EukaryOMA 2,502 and 196 (3.1-fold and 34-fold differences in opposite directions; duplication counts are approximate, see text). (c) Share of events that the other method places on the same branch. Dark bars: the six stems pooled; grey bars: 26 control branches inside unicellular lineages; hatched bars: the share expected for branches of the stems' depth and size (binomial model fitted on 86 non-stem branches). Points are single branches. Ancestra's stem gains are confirmed in 29% of cases (540 of 1,859 mapped) against 11% on controls and 22% expected; EukaryOMA's stem gains in 9% (542 of 5,750). Duplications agree in 4–8% of cases on stems and controls alike. Agreement is consistency between methods, not accuracy. Sources: results/eukaryoma_xval/counts_per_branch.tsv, agreement_per_branch.tsv, agreement_stems_depth_adjusted.tsv.
+
+The two methods split gene families differently. On the animal stem, Ancestra reports about 6,600 duplications and 804 new families; EukaryOMA reports 196 duplications and 2,502 new families. EukaryOMA keeps 53% of genes outside any multi-gene group (Ancestra 27%) and treats paralogues as separate families where Ancestra links them. Neither method is ground truth; "agreement" is consistency, not accuracy.
+
+*Stems do not agree better than controls.* The raw contrast looks striking: 29% agreement on stems against 11% on 26 control branches. But stems lie deeper in the tree than controls (mean 7.5 against 4.3 nodes from the root) and have fewer descendant species, and agreement rises with depth on ordinary branches. An independent verifier estimated that depth and clade size alone predict 24.7% for the stems and 13.1% for the controls, so about 62% of the gap is expected without any stem effect. The small remainder rests mostly on one stem: dictyostelid slime moulds agree at 53%, and without them the other five stems agree at 21.3%, below their expected 24.7%. Controls of the same depth as the stems agree at 21.5%. We therefore make no claim that the methods agree better at transitions.
+
+*Independent verification.* A separate agent re-implemented the comparison without using the producer's code. It confirmed the protein mapping (150 of 150 checksum matches identical; 50 of 50 reciprocal-best-hit matches from the correct genome at ≥95.5% identity; 87.13% mapped) and reproduced all 20 per-branch agreement values and all pooled values within 2 percentage points. Gains matched exactly and losses within 3.4%. Three of 30 duplication counts differed by 12–15% (for example, Ancestra's streptophyte stem, 2,651 against 2,343), because the original filtering step kept groups left with a single child after other species were removed, which made the parser merge some genuine duplications away. Duplication counts in this section are therefore approximate (about ±15%); no conclusion depends on them. Agreement also barely changed when restricted to events whose members were at least 80% mapped (stem gains 28.9% to 32.5%), so the disagreement lies in the methods' family structures, not in unmapped proteins.
+
+Two results are reassuring. The round-1 direction for new gene families was reproduced: averaged over five primary stems, the stems' percentile among controls was 0.63 with EukaryOMA and 0.72 with Ancestra on the same pruned tree (0.5 = typical), and the sign agreed on four of five stems. And one round-1 control failure was explained: with branch labels stripped, Ancestra places 9 T-box duplications on the animal stem, as expected, so the round-1 failure came from Ancestra's labelling of where families arose, not its families. The cadherin and integrin controls fail in both methods, which shows that dating a domain gained inside an older family is a limitation of family-based dating in general, not of Ancestra alone.
+
+---
+
+## 6. Are complex multicellular lineages marked by new genes?
+
+**Main point: the confirmatory test was not significant (combined one-sided p = 0.050, Holm-adjusted 0.10). Its large per-event ratios came from an artefact: two of the four events are single species, and any single species looks rich in new genes when compared with internal branches. Restricted to internal branches, simple-to-complex events carry about 2.7 times more sequence-novel families than expected, an exploratory estimate whose lower bound does not clear round 1's 2.2-fold bias threshold.**
+
+### 6.1 The statistic
+
+For every branch, a *negative-binomial regression* (a regression for over-dispersed counts) was fitted on the 55 control branches of all eight panels together, with a separate intercept per panel and shared effects of branch length, number of descendant species, fraction of transcriptome-derived descendants, mean BUSCO completeness, and distance to the nearest outgroup (a proxy for how hard it is to detect homologues; Weisman et al. 2020). For an event, the *rate ratio* (RR) is observed sequence-novel gains divided by the model's prediction. Each confirmatory event received a one-sided permutation p-value against its depth-matched controls, and the four p-values were combined with Stouffer's method (summing their normal scores). Effect sizes were pooled with a random-effects meta-analysis and a modified Hartung–Knapp confidence interval (Röver et al. 2015).
+
+### 6.2 The confirmatory result
+
+Per event, against six or five controls each (values computed exactly as specified; see the note below):
+
+- *Astrephomene* (a single species, i.e. a *tip* branch): p = 0.143, RR 13.6.
+- *Volvox carteri* (tip): p = 0.143, RR 14.9.
+- *Volvox africanus/reticuliferus* (internal node): p = 0.429, RR 1.27.
+- Fucophycidae stem (internal): p = 0.167, RR 2.0.
+
+Combined, p = 0.0504; pooled RR 4.90 (95% CI 0.63–38.4). Holm's procedure requires p < 0.025 at this step, so the test is not significant (Figure 3a).
+
+![Figure 3. Novel gene families at events, and the tip artefact](figures_v2/fig3_novelty_events.png)
+
+**Figure 3. Simple-to-complex events do not carry significantly more sequence-novel gene families; their large per-event ratios come from comparing single-species branches with internal branches.** The rate ratio (RR) is the observed number of sequence-novel families on a branch divided by the number predicted by a negative-binomial regression fitted on 55 internal control branches of all eight panels (panel intercepts; shared effects of branch length, number of descendant species, transcriptome fraction, BUSCO completeness and distance to the nearest outgroup). Bars are 95% confidence intervals (CI); diamonds are random-effects pooled estimates (95% CI); open circles are tip (single-species) branches; the dashed line marks RR = 1. (a) The pre-registered confirmatory test, computed exactly as specified (without the undocumented branch-length floor described in the text): RR 13.6, 14.9, 1.27 and 2.01 for *Astrephomene*, *V. carteri*, *V. africanus/reticuliferus* and Fucophycidae, with one-sided permutation p against the 6, 6, 6 and 5 controls of their panels. Combined (Stouffer) p = 0.0504, pooled RR 4.90 (95% CI 0.63–38.4); not significant after Holm correction (p < 0.025 required). The implemented variant with a branch-length floor gives combined p = 0.072, pooled RR 4.63. (b) Every tip scores high against internal controls, whatever its biology: 23 unicellular tips that are not events (geometric mean RR 8.1), 15 origin tips (pooled 19.0), 8 simple-to-complex tips (40.8; pink: the two confirmatory tips) and 9 reversal tips (20.7, 95% CI 10.7–40.0). (c) Against the 23 unicellular tips of the volvocine and brown-algal panels (tip controls), *Astrephomene* scores RR 0.56 (p = 0.85) and *V. carteri* 0.80 (p = 0.54). The confirmatory test recomputed with tip controls for its two tip events gives pooled RR 0.81 (0.32–2.03), combined p = 0.49. Simple-to-complex tips (n = 4) pool to 0.99 and reversal tips (n = 4) to 1.16. (d) Internal branches only (exploratory, not pre-registered): the seven internal simple-to-complex events pool to RR 2.70 (95% CI 1.29–5.63), against 0.83 (0.41–1.71) for 12 internal origins of simple multicellularity and 0.63 for 2 internal reversals (CI 0.00–634). Three of the seven events were seen in round 1, and the lower bound does not clear the 2.2-fold stem inflation measured in round-1 simulations (dashed line). Values in (b)–(d) use the implemented model (the floor changes one amoebozoan control only); computed exactly as specified, the internal simple-to-complex estimate is 2.81 (1.34–5.89) and the internal origins 0.82 (0.38–1.77). Sources: results/r2/verification/panels/verify_stats.json; results/r2/panels/pooled/final_8panels/{event_residuals,branch_residuals,event_class_comparators}.tsv.
+
+A note on two numbers. The analysis code applied a small numerical floor to branch lengths before taking logarithms, which was not in the written specification. It changes one control branch (an amoebozoan branch of length 2.8 × 10⁻⁵) and, through the shared regression, moves the *Volvox africanus* p from 0.429 to 0.571 and the combined p from 0.0504 to 0.072. An independent verifier found the discrepancy. We report the value computed exactly as specified (0.0504) as the confirmatory result and the implemented value (0.072) as a variant; the conclusion is the same. That one control's rank decides the second decimal shows how coarse the test is: with five or six controls, no single event can reach p below 1/6 or 1/7.
+
+Depth matching was impossible. The confirmatory events lie 7–10 edges below the panel root, every control in the volvocine and brown-algal panels lies 2–6 edges below, and every matched set had to be widened to all controls of the panel.
+
+### 6.3 The tip artefact, step by step
+
+The two volvocine tip events (*Astrephomene* and *V. carteri*) have ratios of about 14–15. They should not be read as evidence, for the following reasons.
+
+1. A gain on an internal branch is a family shared by at least two descendant species and absent elsewhere. A gain on a tip branch is any gene of that one species with no detectable relative outside it, including genuine orphan genes, mis-predicted gene models and fast-evolving genes whose relatives are beyond detection.
+2. The regression was fitted on internal control branches. A tip has one descendant, outside the range the model has seen, so its prediction is an extrapolation.
+3. If tips are inflated by this difference, every tip should score high, whatever its biology. They do. Reversal tips (species that returned to unicellularity) score about 21-fold against internal controls (RR 20.7, 95% CI 10.7–40.0, nine events). Ordinary unicellular tips that are not events at all score about 8-fold. Tip origins score about 19–20-fold.
+4. The fair comparison is therefore tip against tip. Against 23 unicellular tips of the volvocine and brown-algal panels, *Astrephomene* scores RR 0.56 (p = 0.85) and *V. carteri* 0.80 (p = 0.54); the confirmatory test recomputed this way gives combined p = 0.49 and pooled RR 0.81 (0.32–2.03) (Figure 3b, c). (With the implemented branch-length floor, the same comparison gives p = 0.57 and RR 0.80.)
+
+So the tip events show no excess once compared like with like. The design froze tip events against internal controls before the data were seen; the problem was found by the analysis agent itself, while inspecting interim output from five panels, and was handled by an added, dated and labelled sensitivity analysis. The lesson (Section 11) is to check covariate ranges before freezing a test.
+
+### 6.4 The internal-only estimate and other secondary results
+
+Restricted to internal branches, the seven simple-to-complex events (Pezizomycotina 3.9, Agaricomycetes 2.1, land plants 1.9, *V. africanus* 1.2, Florideophyceae 3.4, Fucophycidae 1.8, heterocystous Nostocales 6.9) pool to RR 2.70 (95% CI 1.29–5.63), with no detectable heterogeneity; computed exactly as specified, 2.81 (1.34–5.89) (Figure 3d). Twelve internal origins from unicellular ancestors pool to 0.83 (0.41–1.71; computed exactly as specified, 0.82, 0.38–1.77), and two internal reversals to 0.63. Tip simple-to-complex events against tip controls give 0.99 (0.47–2.1).
+
+This is the one gene-content lead that survives round 2, but it is weak evidence. Three of the seven events were already seen in round 1; the analysis was not pre-registered; events lie deeper than controls in every panel (standardised mean difference of depth 1.15); and the lower confidence bound (1.3) does not clear the 2.2-fold stem inflation that round 1 measured in simulation. It is consistent with convergent gene-family expansion in complex fungi (Merényi et al. 2020) and with the land-plant burst of Bowles et al. (2020), but it does not establish a burst of novelty at complex multicellularity.
+
+Other sensitivity analyses point the same way. Removing the two de novo annotated volvocine genomes lowered the combined p to 0.033 (pooled RR 4.84), because removing close relatives raises the apparent novelty of *Volvox africanus*; with tip controls it was 0.32. The pre-registered primary result remains the eight-panel run.
+
+### 6.5 Positive controls on panels
+
+Fourteen of 18 control scorings were recovered on the panels. The T-box control (gain at Holozoa, loss on the choanoflagellate stem, duplication on the animal stem), which failed in round 1, passed in the dense Holozoa panel. The cadherin and integrin controls still failed, as did a Notch-related control and the pherophorin threshold control. The GRAS transcription-factor gain on the stem of land plants plus Zygnematophyceae, which passed in round 1, failed on the streptophyte panel: no gain is placed on that stem. Dense sampling therefore fixes some deep-node placements and breaks at least one recent one.
+
+---
+
+## 7. Specific protein families
+
+**Main point: among three pre-defined family sets, only cell-death machinery is more abundant in multicellular genomes, after correcting for shared ancestry and proteome size. The effect survives every leave-one-origin-out test and an independent re-derivation, but it is modest, concentrated in complex lineages, partly entangled with proteome size, and consists mostly of lineage-specific immune and self/non-self receptors rather than a shared cell-death program. Motif-binding domains and cell-type transcription factors show nothing. At individual simple-to-complex events, the families gained and duplicated match known biology, but recurrence across events is no more than expected from family size.**
+
+### 7.1 The test
+
+For each species and family, the copy number is the number of proteins carrying at least one domain of that Pfam family (Pfam 38.2, gathering thresholds). The response for a family set is the equal-weight mean, over families, of the standardised log copy number, so that very large families (such as SH3) do not dominate. Species are not independent, because related species share ancestry, so the test is a *phylogenetic generalised least squares* (PGLS) regression: a regression whose residuals are allowed to be correlated according to the species tree, with the strength of that correlation estimated as Pagel's λ (Pagel 1999), fitted with phylolm (Ho & Ané 2014). Covariates were log proteome size and the fraction of the proteome predicted to be disordered. The primary data set was the 148 genome-based proteomes with BUSCO completeness ≥ 50% among the round-1 eukaryotes (68 multicellular, 80 unicellular or grey-zone). A rule fixed before testing kept families present in the multicellular clades of at least three of the seven primary origins, or in at least half of all species, so that animal-only families (Bcl-2, caspase-recruitment domains) do not decide a test about all origins.
+
+### 7.2 Cell death: supported, with caveats
+
+The 22 cell-death families include caspases, metacaspases, vacuolar processing enzymes, NB-ARC and NACHT domains (central to plant and animal immune receptors), fungal HET and HeLo domains, gasdermins, Bcl-2 family members and others (data/r2_sets/cell_death.tsv). The pre-set rule kept 12 widely distributed families.
+
+Multicellular species carry more cell-death proteins than unicellular species, for a given proteome size: +0.167 standard deviations (95% CI 0.042–0.293), one-sided p = 0.0047, λ = 0.91, equivalent to a geometric-mean 1.21-fold excess (1.04–1.42). Holm-adjusted across the three tests, p = 0.014 (Figure 4a).
+
+![Figure 4. Cell-death and other family sets](figures_v2/fig4_family_sets.png)
+
+**Figure 4. Among three pre-defined family sets, only cell-death families are more abundant in multicellular genomes, mostly in complex ones, and the effect depends partly on proteome size.** Estimates are coefficients from phylogenetic generalised least squares (PGLS; Pagel's λ) on 148 genome-based proteomes (68 multicellular, 80 unicellular or grey-zone), with log proteome size and proteome disorder fraction as covariates. The response is the equal-weight mean over families of the standardised log copy number, so the unit is one standard deviation (SD) of a family's log copy number; +0.167 SD for cell death corresponds to a geometric-mean 1.21-fold excess (95% CI 1.04–1.42). Bars: 95% CI; p: one-sided t-test. (a) Multicellular vs unicellular (black) and, in a three-state model, simple vs unicellular (green) and complex vs unicellular (blue), for 12 widespread cell-death families (confirmatory; Holm-adjusted p = 0.014), 115 motif-binding domain families (confirmatory; p = 0.72) and 11 widespread cell-type transcription-factor families (exploratory; p = 0.30). (b) Leave one of the seven primary origins out: the cell-death estimate stays positive in all seven (one-sided p 0.0002–0.078; weakest without streptophytes); motif-binding estimates are negative in six of seven. (c) Cell death under proteome-size sensitivities (independent re-derivation): removing the ten largest proteomes (six of them multicellular) lowers the estimate by about 28% (p = 0.025, n = 138), and modelling copy number as a share of the proteome gives +0.083 (p = 0.14). Sources: results/r2/w4/pgls/pgls_results.tsv; results/r2/verification/w4/v2_pgls_output.txt.
+
+Support:
+- Leaving out any one of the seven origins keeps the sign positive (p from 0.0002 to 0.078; the weakest case is dropping streptophytes).
+- Leaving out any single family keeps it positive (largest p = 0.020); without the NB-ARC and NACHT immune-receptor pair, p = 0.018.
+- An independent agent, without reading the producer's code, rebuilt the count matrix from raw annotation files and reproduced the coefficient and p-value within 0.001. A symmetric inclusion rule gave p = 0.0068; all 22 families, p = 0.0078. 200 random sets of non-cell-death families matched for prevalence, run through the same pipeline, gave p < 0.05 in 2.5% of cases and none reached the observed effect.
+- 21 of 22 families have positive individual estimates. Within the lineages where they occur, the lineage-restricted families also point upward: Bcl-2, Death, CARD, DED, BIR and gasdermin are expanded in animals relative to choanoflagellates; HeLo, HET and NACHT in Pezizomycotina fungi; NB-ARC in red algae; NB-ARC, TIR and MACPF in land plants. Of 20 significant within-origin changes, 19 are expansions; the exception is metacaspase, which is reduced in animals, where caspases take its role.
+- The excess is concentrated in complex multicellularity: complex vs unicellular +0.249 (p = 0.0005), simple vs unicellular +0.111 (p = 0.073).
+
+Caveats:
+- *Proteome size.* Proteome size is by far the strongest predictor. Without the ten largest proteomes (six of them multicellular), the effect shrinks by about 28% and p rises to 0.025, which would not pass Holm. Measured as a fraction of the proteome (forcing copy number to scale in proportion to proteome size), the effect is +0.083, p = 0.14. The correct reading is "more cell-death proteins than expected for a proteome of that size", not "a larger share of the proteome".
+- *Few origins.* With seven origins, a phylogenetic regression can be carried by one lineage (Uyeda et al. 2018). Sister-clade contrasts were positive in five of six origins; volvocines were negative.
+- *Function.* NB-ARC, NACHT and TIR proteins are immune receptors as well as triggers of cell death, so the set mixes immunity and programmed cell death. Section 7.3 shows which proteins carry the excess.
+- *Annotation bias.* Pfam models are built mostly from animal, plant and fungal sequences, which may favour detection in better-studied multicellular lineages.
+
+### 7.3 What the extra cell-death proteins are: mostly immune and self/non-self receptors
+
+The confirmatory test says that multicellular genomes carry more cell-death proteins; it does not say which. A follow-up analysis, descriptive and fixed after the test, took all 9,031 proteins carrying any of the 22 cell-death domains in the 187 round-1 eukaryotes, recorded their domain order (*architecture*), and compared each multicellular clade with its sister clade (Figure 4b).
+
+The excess is almost entirely a feature of complex multicellularity: complex species carry on average 138 cell-death proteins (66 per 10,000 proteins), simple multicellular species 18 (14 per 10,000) and unicellular species 22 (15 per 10,000). Which proteins carry it differs by lineage:
+
+- *Land plants and streptophytes*: NB-ARC proteins and TIR domains. Land plants carry on average 84 more NB-ARC proteins per species than their sister group, the Zygnematophyceae (which have none), mostly plant NLRs: NB-ARC with C-terminal leucine-rich repeats (LRR), with or without an N-terminal TIR or coiled-coil domain. NLRs (nucleotide-binding, leucine-rich-repeat receptors) are the intracellular immune receptors that detect pathogen effectors and trigger a localised cell death at the infection site (Jones & Dangl 2006).
+- *Red algae*: NB-ARC proteins again (+29 per species), but with WD40 repeats instead of LRR (NB-ARC–WD40, found in all five multicellular species).
+- *Brown algae*: a small excess of NB-ARC–TPR proteins.
+- *Filamentous fungi*: HET domains (+37 per species in Pezizomycotina against budding yeasts) and NACHT proteins with WD40 or ankyrin repeats. In fungi, NLR-like proteins of this kind and HET domains mediate non-self recognition and the programmed death of fused cells between genetically different individuals (heterokaryon incompatibility; Dyrka et al. 2014).
+- *Animals*: death-fold adaptors (Death, CARD and DED domains, absent from all eight choanoflagellate sisters), NACHT proteins, caspases, Bcl-2 and BIR proteins. Counts are very uneven: a sponge, a lancelet and a sea urchin carry hundreds of Death or NACHT proteins, the fly and nematode only a handful.
+- *Dictyostelids and volvocines*: no excess in any family.
+
+So the excess is not one shared cell-death program. It is mostly lineage-specific receptor machinery for immunity and self/non-self recognition (NB-ARC and NACHT receptors with different repeat types in different lineages, TIR proteins, HET), plus an animal-specific expansion of apoptosis adaptors. These receptors do trigger cell death, but they are best known for killing infected or incompatible cells, not for developmental cell death. Larger, longer-lived organisms that fuse with or are invaded by others may need more of both, and with domain counts alone the two readings cannot be separated. Without NB-ARC and NACHT the confirmatory test stays positive (p = 0.018), carried mainly by animal death-fold families and TIR, which are themselves partly immune. In the dense panels, cell-death families rarely arise new at simple-to-complex events; where they change, they are duplicated, notably NB-ARC–WD40 families at the origin of florideophyte red algae (8 duplicated families against 1.6 expected) and many apoptosis and immune families on the animal stem. NLR families also evolve fast and are hard to annotate (fragments, split gene models), so lineage means are driven by a few genomes.
+
+![Figure 4b. Cell-death domain architectures by lineage](figures_v2/fig4b_celldeath_architectures.png)
+
+**Figure 4b. The extra cell-death proteins of multicellular lineages are mostly immune-type receptors, and the receptor type differs between lineages.** (a) Mean number of proteins per species carrying each cell-death domain, in the multicellular clade (MC) of each lineage and in its closest unicellular or simpler sister clade (sis.); Pfam 38.2 gathering-threshold hits; dots = none. "Caspase" excludes proteins that also carry the metacaspase domain (outside animals most hits to the caspase Pfam family are metacaspases). Left labels group domains by function. Land plants, streptophytes and red algae gain mostly NB-ARC and TIR proteins; filamentous fungi gain HET (heterokaryon incompatibility) and NACHT proteins; animals gain death-fold adaptors (Death, CARD, DED), NACHT, caspases, Bcl-2 and BIR proteins; dictyostelids and volvocines show no excess. Several sister clades are transcriptomes (animals, dictyostelids) or secondarily unicellular (yeasts for Pezizomycotina, Zygnematophyceae for land plants). (b) NB-ARC and NACHT proteins (the STAND family of signalling ATPases) by architecture: C-terminal LRR, WD40, TPR or ankyrin repeats (NLR-like immune / non-self receptors), an N-terminal effector domain without repeats (e.g. TIR, coiled coil, CARD, HET), or neither (often fragments). The expansions use different repeat types: LRR in land plants (plant NLRs), WD40 in red algae, TPR in brown algae, WD40/ankyrin with NACHT in fungi; animals are mixed. (c) Gene families carrying a cell-death domain that arose (hatched, upper bar) or were duplicated (plain, lower bar) on simple-to-complex branches of the eight focused reconstructions (and the unicellular-to-complex origin of animals); dark = NB-ARC/NACHT families. Ticks: number expected from the share of cell-death families among Pfam-annotated families on the panel's control branches. q < 0.1: one-sided Fisher test, Benjamini–Hochberg over 32 branch × kind rows (exploratory). * single-species branch (tip). Only the animal origin, Florideophyceae and *Pleodorina* (doubtful repeat proteins with weak cell-death domain matches) and two tip branches exceed expectation. Sources: results/r2/w4_celldeath/ (fig4b_matrix_families.tsv, fig4b_matrix_stand.tsv, panels_event_celldeath.tsv).
+
+### 7.4 Motif-binding domains: null
+
+Many signalling proteins recognise short linear motifs, stretches of a few amino acids in disordered regions. The domains that bind them (SH2, SH3, PDZ, WW, 14-3-3 and others) have been proposed to expand with regulatory complexity. Across 115 such families, multicellular species show no excess: −0.028 SD (95% CI −0.124 to 0.067), one-sided p = 0.72, a geometric-mean ratio of 0.98 (0.92–1.05). Six of seven leave-one-origin-out estimates are negative (Figure 4b); the only positive one, without volvocines, is +0.005, and without animals the estimate is −0.063. A Bayesian phylogenetic count model (a sensitivity analysis) gave a small positive estimate (posterior probability of no excess 0.03); we consider that model anti-conservative for many-family sets, because it treats lineage-specific expansions of each family as independent evidence, and read the result as a null with an unresolved model dependence. Animal expansion is visible within the animal origin (29 families up, 7 down), and hyphal fungi show contraction (0 up, 12 down), so the pattern is lineage-specific rather than shared.
+
+### 7.5 Cell-type transcription factors: null (exploratory)
+
+Eleven widely distributed families from a list of 26 (homeodomain, TALE, bHLH, forkhead, MADS, Myb and others) show no excess (+0.032 SD, 95% CI −0.088 to 0.152, p = 0.30). Within origins, known expansions reappear: T-box and Runt in animals, TEA in hyphal fungi, LOB in streptophytes and SBP in land plants. Transcription-factor expansion is therefore lineage-specific in these data, not a shared feature of multicellular genomes, consistent with the observation that much of the toolkit predates multicellular lineages (de Mendoza et al. 2013).
+
+### 7.6 Recurrent expansions and contractions across origins
+
+For each of the seven round-1 origins and three nested events, every Pfam family (after masking transposon domains) was tested for a difference in copy number between the multicellular clade and its sister clade (4,226–9,523 families per event, false-discovery rate q < 0.1 within event). Animals had the most significant families (1,661 expanded, 694 contracted); volvocines had almost none (0 expanded, 10 contracted).
+
+Are the same families expanded at several origins more often than chance? The pre-registered null (permuting species labels within events) was too permissive: mixing multicellular and sister clades destroys the divergence that makes many families significant in any clade comparison, so every observed count appeared significant. A conditional null that keeps each origin's number of significant families but shuffles which families they are shows that *expansions do not recur beyond chance* (42 families expanded at two or more origins against 54 expected, p = 0.98). *Contractions do* (157 at two or more origins against 90 expected, p = 0.001; 20 at three or more against 3.1). The most recurrent expansions were Cu/Zn superoxide dismutase, CAP (PR-1-like secreted proteins) and a ZBED1 RNase-like domain (each in three origins); the most recurrent contractions were cAMP phosphodiesterases and Hint/intein-like domains (four origins each). Several strongly "contracted" families are bacterial-like glycoside hydrolases, which probably reflect bacterial prey or contaminant sequences in the transcriptomes of unicellular sisters rather than loss in the multicellular clade.
+
+### 7.7 What is gained and duplicated at simple-to-complex events
+
+For the seven internal simple-to-complex events in the panels, the Pfam domains of families gained or duplicated on the event branch were compared with those of control branches. Domains appear at two or more events more often than expected (1,556 vs 1,057), but this is entirely a size effect: events carry more duplicated families than controls, and after rarefying each branch to at most 50 annotated families the excess disappears (p = 0.77). The top "recurrent" domains are large generic families (peptidyl-prolyl isomerases, subtilases, P450s, ABC transporters), not a multicellularity toolkit. The only domain found in sequence-novel families at five of seven events is the protein kinase domain: one new kinase-domain family at each of those five events (p = 0.023, q = 0.06), which is suggestive only.
+
+Event by event, the families make biological sense:
+
+- *Volvocine germ–soma events.* All four (both *Volvox* events, *Astrephomene*, *Pleodorina*) duplicate pherophorin-like DUF3707 families, extracellular-matrix glycoproteins known to be expanded in *Volvox* (Prochnik et al. 2010). Both *Volvox* events also duplicate volvocine matrix metalloprotease families (Peptidase_M11), and three of the four duplicate guanylate-cyclase families. In all four events these are duplications of existing families, not new families.
+- *Heterocystous cyanobacteria (Nostocales).* Two-component signalling systems (response regulators, histidine kinases, GAF domains) and pentapeptide-repeat proteins, which fit the intercellular signalling that regulates heterocyst differentiation (Herrero et al. 2016).
+- *Land plants.* Leucine-rich-repeat receptor kinases and F-box families (the receptor-like kinase family of plants is described by Shiu & Bleecker 2001).
+- *Florideophyceae.* C2H2 zinc-finger and bZIP transcription factors.
+- *Fucophycidae.* Kinases, WD40, ankyrin and TPR families, and the largest duplication count of any event (5,924).
+- *Complex fungi (Pezizomycotina, Agaricomycetes).* Transporters, Zn2Cys6 transcription factors, short-chain dehydrogenases and cellulose-binding domains, i.e. saprotrophic and secondary-metabolism families.
+
+Most sequence-novel families carry no Pfam domain at all (in *V. carteri*, 18 of 1,300; in Fucophycidae, 63 of 493), so these statements describe a small, annotatable minority (Figure 5 summarises the families and their annotation rate).
+
+![Figure 5. What is gained and duplicated at simple-to-complex events](figures_v2/fig5_complex_families.png)
+
+**Figure 5. The families gained or duplicated at simple-to-complex events fit known biology, but only a small annotatable minority can be described.** (a) Number of gene families gained (sequence-novel) or duplicated on each event branch that carry the given Pfam domain (transposon-domain families excluded; square-root colour scale; dots = 0). Columns: four volvocine germ–soma events (three single-species branches) and six internal simple-to-complex events; pink labels mark confirmatory events. Volvocine events carry duplicated families of pherophorin-like extracellular-matrix glycoproteins (DUF3707), volvocine matrix metalloproteases (Peptidase_M11) and guanylate cyclases; in all four events these are duplications, not new families. Heterocystous Nostocales carry two-component signalling families (response regulators, histidine kinases, GAF) and pentapeptide repeats; land plants leucine-rich-repeat and F-box families; Florideophyceae C2H2 and bZIP transcription factors; complex fungi (Pezizomycotina, Agaricomycetes) Zn2Cys6 transcription factors, transporters, short-chain dehydrogenases and cellulose-binding domains. (b) Families with a protein-kinase domain at the seven internal events: one sequence-novel kinase family at each of 5 of 7 events (darker bars; recurrence permutation p = 0.023, Benjamini–Hochberg q = 0.06), against 7–41 duplicated kinase families per event (lighter bars). (c) Percentage of sequence-novel families with any Pfam domain (e.g. 18 of 1,300 in *V. carteri*, 63 of 493 in Fucophycidae). Sources: results/r2/panels/<panel>/w3_event_families.tsv; results/r2/panels/pooled/final_8panels/w3/{w3_event_summary,w3_recurrent_domains}.tsv.
+
+---
+
+## 8. Protein structure from sequence on a GPU
+
+**Main point: protein structure, encoded as a sequence of structural letters, can now be predicted directly from amino-acid sequence fast enough to cover whole proteomes on one GPU. Our own GPU implementation ran at 48 proteins per second and matched structure-derived letters at 65.5% of residues, at the top of the published range. But structure did not help Ancestra at deep nodes, and the two evolutionary signals it seemed to reveal (more structurally novel families at transitions, faster structural change inside multicellular clades) did not survive verification and controls. Its clearest use is descriptive: about half of "sequence-novel" families have a structural match outside their clade.**
+
+### 8.1 Why structure
+
+Protein folds change more slowly than sequences. Two proteins whose sequences have diverged beyond recognition by DIAMOND may still share a fold, so some "sequence-novel" families are probably old genes that have diverged (Weisman et al. 2020). In round 1, only about a fifth of sampled novel gains had a usable AlphaFold model, and of those, roughly a tenth to a quarter had a known fold outside the clade. Structure could also help Ancestra at deep nodes, where sequence similarity fades.
+
+The reviewer warned that Ancestra's structure-assisted family "rescue" had lowered precision in its own benchmark and that its structure-based scoring backend was not implemented, and advised against running whole reconstructions in structure mode. Round 2 therefore planned two targeted uses: a structure-rescued reconstruction of the Holozoa panel, accepted only if it improved the deep-node positive controls without lowering agreement with EukaryOMA (a rule fixed before any structure-rescued output existed), and a structural search for old folds among sequence-novel families on event branches.
+
+### 8.2 3Di letters and ProstT5
+
+Foldseek (van Kempen et al. 2024) describes each residue of a protein structure by one of 20 *3Di* letters, which encode the local geometry of the residue's contact with its nearest neighbour in space. A structure thus becomes a string that can be searched like a sequence. ProstT5 (Heinzinger et al. 2024) is a protein language model that predicts 3Di letters directly from the amino-acid sequence, without building a 3D model. Predicting a full 3D structure with AlphaFold 3 for three million proteins was not feasible in the time available; predicting 3Di letters was.
+
+### 8.3 Making it run on the GPU
+
+A pilot at the start of round 2 tested three ways of running ProstT5 on the A100:
+
+- Foldseek's own GPU build silently ran the model on the CPU, at about 15 proteins per second. The job looked successful; only a direct check of device usage revealed the fallback.
+- The language-model library's standard text-generation mode was far too slow, because it predicts letters one at a time.
+- An own implementation that runs only ProstT5's encoder followed by its small convolutional prediction head ran at 48 proteins per second and agreed with Foldseek's ProstT5 output at 97.1% of residues (5,000 proteins).
+
+Long proteins were cut into windows of 1,000 residues overlapping by 250, which raised throughput from about 21,000 to 34,000 residues per second. Windowing is exact for proteins up to 1,000 residues (93% of all proteins) and agrees at 90.3% of residues with full-length prediction for proteins of 1,000–3,000 residues. Because the full set (about 1.43 billion residues in 322 proteomes) might not finish in time, the queue was ordered by panel, animals and their relatives first. By the end of the round, 263 of 322 proteomes were complete; each structural analysis below used the proteomes complete when it started, which is why the divergence analysis (Section 8.7) covers only three panels.
+
+### 8.4 Validation against AlphaFold
+
+For 24 completed species, every protein had exactly one 3Di record of the right length, with no invalid characters (108 proteins over 3,000 residues in one sponge were skipped by a length cap). For 4,981 proteins with an AlphaFold database model, our predicted 3Di letters matched the letters computed by Foldseek from the model at 65.5% of residues (2.55 million residues). Chance agreement from letter frequencies is 16.7%, and always predicting the most common letter gives 31.4%. Heinzinger et al. (2024) report 41–65% for the same encoder-plus-convolutional predictor, so our implementation and windowing show no loss of accuracy. Accuracy was similar across model confidence and disorder classes, slightly lower for windowed long proteins (64.9%) and for proteins from a protist without Swiss-Prot entries (62.6%, versus 66.5% for mostly animal Swiss-Prot proteins, which are probably in ProstT5's training data). Accuracy barely depends on protein length (Figure 6a). The reference letters themselves come from predicted structures, not experiments.
+
+![Figure 6. Protein structure predicted from sequence](figures_v2/fig6_structure.png)
+
+**Figure 6. Structure predicted from sequence is accurate enough to search with, but it did not improve Ancestra and gave no robust evolutionary signal.** (a) Share of residues at which the 3Di structural letter predicted from sequence by our GPU implementation of ProstT5 equals the letter computed by Foldseek from the AlphaFold database model, by protein length (4,981 proteins, 2.55 million residues; overall 0.655). Blue: Swiss-Prot proteins, mostly from animals (0.65–0.68 per length bin); orange: other proteins, mostly from the protist *Salpingoeca* (0.62–0.63). Proteins of 1,000–3,000 residues were predicted in overlapping windows. Dotted line: agreement expected by chance from letter frequencies (0.17); dashed line: always predicting the commonest letter (0.31); grey band: 41–65%, the range reported for an equivalent sequence-based predictor (Heinzinger et al. 2024). (b) Ancestra's optional structure mode on the animals-and-relatives panel (37 proteomes). Bars: share of Ancestra's new families on the animal stem, on the stem of animals plus choanoflagellates ("choanoflag."), on both stems pooled, and on all other internal branches that EukaryOMA places on the same branch (95% Wilson intervals). Grey: default, sequence only; light blue: structure mode; dark blue: structure mode with its guard. The deep-node positive controls (text, top) were recovered 1 of 3 in every run. The pre-registered rule required better deep-node controls and no loss of agreement; neither was met, so the default was kept. (c) Odds that a sequence-novel family has no structural match outside its clade, on event branches versus control branches (19 event and 55 control branches in eight panels; 8,967 families), from the independent verifier's mixed models with random effects for panel and branch: unadjusted (grey circles); adjusted for protein length, disorder, low complexity, family size, branch depth and search-space size (blue squares); adjusted, with an exhaustive search that finds homologues the default search misses (orange diamonds); adjusted, with branches rather than families as the units (pink triangles; not available for origins). Lines: 95% CI. The general effect (top) disappears after adjustment; a lead remains at the seven simple-to-complex events in family-level models but not with branches as units. (d) Structural change per unit of sequence change on branches inside multicellular clades minus unicellular branches (log scale; median over about 300 genes per panel, 95% bootstrap CI). Blue: real predicted letters; orange: negative control with letters shuffled among species within each alignment column; grey: control comparing two random halves of the sequence alignment. The shuffled control gives an effect comparable to or larger than the real data, so the small positive values cannot be distinguished from prediction noise combined with tree shape. Sources: results/r2/w5_3di_validation/per_protein_accuracy.tsv; results/r2/w5/r1/{xval_agreement_summary,controls_<run>}.tsv; results/r2/verification/w5/work/glmm_results{,_exh}.txt; results/r2/w6/panel_tests.tsv; script scripts/r2/figures/fig6_structure.py.
+
+### 8.5 Does structure help Ancestra? No
+
+**Point: structure mode did not improve the deep-node placements it was meant to fix and slightly lowered agreement with EukaryOMA, so it failed the pre-registered rule and the default reconstruction was kept.**
+
+Ancestra has an optional mode in which small families are searched by structure (Foldseek, using both 3Di and amino-acid letters) against representatives of large families and attached to them if they match: a *family rescue* for remote homologues that sequence search misses. An optional *guard* re-checks each attachment. The rule, fixed before any structure-mode output existed, was: replace the default only if the deep-node positive controls improve and agreement with EukaryOMA does not fall. The test used the Holozoa panel (37 proteomes, 628,756 proteins; 99.98% had predicted 3Di letters), the panel where the deep-node controls live.
+
+The rescue attached 25,035 small families (41,914 genes) to 2,400 large families; the guard confirmed only 17% of these attachments. The outcome (Figure 6b):
+
+- *Deep-node controls*: 1 of 3 recovered in all three runs (default, structure mode, structure mode with guard). The T-box control passed in all three; the cadherin and integrin controls failed in all three, for the same reasons as before (a domain gained inside an older family; an integrin that is truly present in one choanoflagellate).
+- *Agreement with EukaryOMA* on new families at the animal and animal-plus-choanoflagellate stems: 23.3% (default) against 20.7% (structure mode; difference −2.6 percentage points, 95% CI −5.6 to +0.4) and 21.5% (with guard; −1.8, −4.8 to +1.2). No difference is individually significant, but every comparison points down, including the reverse direction and other internal branches.
+- *Side effects*: merging remote homologues into large families removed some gains and singletons but added losses (+7% on internal branches) and duplications (+24% on the animal-plus-choanoflagellate stem without the guard), the same loss of precision that Ancestra's own benchmark had shown.
+
+Structure mode costs about 10–14% more CPU time on top of several GPU hours for the 3Di letters. It was not used for any other panel, as the design specified. The negative result rests on one panel and one preset.
+
+### 8.6 Are "sequence-novel" families structurally old? About half are; the event-specific signal did not survive
+
+**Point: about half of sequence-novel families have a structural match outside their clade, so sequence-based novelty substantially overstates true novelty. An apparent excess of structurally unmatched families at transition branches was overturned by independent verification: it is explained by shorter, more disordered proteins and by a search that misses more homologues for those proteins. Only a weak, non-robust lead remains at simple-to-complex events.**
+
+*Method.* For every event and control branch, up to 200 sequence-novel families (seed 11) were searched, through the same up to three representative proteins used for the sequence search, against all proteins of the panel's species outside the clade, with Foldseek in combined 3Di and amino-acid mode (E < 10⁻³; a hit counts only if it covers at least 50% of the query). A family with no such hit is *structurally unmatched*. Two controls behaved as intended: families that are not sequence-novel were found again in 77–96% of cases depending on the panel, and the same queries with letters shuffled gave no hits at all (0 of 9,747 families). One limitation matters for interpretation: the structural search covers only the 18–40 proteomes of each panel, whereas sequence novelty was defined against the panel plus all 187 round-1 proteomes.
+
+*About half are structurally old.* Depending on the panel, 32–65% of sequence-novel families have a structural homologue outside the clade (median about 49%). This extends the round-1 hint (a tenth to a quarter of modelled families) now that predicted letters cover every protein, and it fits the view that many lineage-specific genes are old genes whose sequence similarity has faded (Weisman et al. 2020).
+
+*The event signal, and why it did not hold.* The first analysis found more structurally unmatched families on the 19 internal event branches than on the 55 controls (43.7% against 33.3%; Mantel–Haenszel odds ratio 1.44; branch permutation p = 0.004), concentrated at simple-to-complex events (odds ratio 1.87) rather than origins (1.15). The reported adjustment covered only the size of the search space. An adversarial verifier, writing its own code, reproduced every number and then tested confounders:
+
+- *"Structurally unmatched" mostly means "no detectable fold", not "new fold".* Unmatched families are much shorter (median 211 against 519 amino acids) and more disordered (49% of them are at least half disordered, against 32% of matched families); 92% of families under 100 amino acids are unmatched. Event branches carry more such families (8.1% under 100 amino acids against 4.2% on controls) and lie deeper in the tree.
+- *Adjustment removes the general effect.* In a mixed model with protein length, disorder, low complexity, family size, branch depth and search space, the event odds ratio falls from 1.50 (95% CI 1.13–2.00) to 1.18 (0.93–1.49) (Figure 6c).
+- *A stricter search finds missed homologues, more often for event families.* An exhaustive Foldseek search (without the fast pre-filter) found outside homologues for 21% of the "unmatched" families, 23.0% on events against 19.5% on controls. With this definition the raw excess shrinks (odds ratio 1.23; branch permutation p = 0.07).
+- *What remains.* At the seven simple-to-complex events the excess persists in most family-level models (adjusted odds ratio 1.73, 1.20–2.51; with exhaustive search 1.79; among longer, mostly ordered proteins 2.25), but not when branches are the units of analysis with all covariates (1.23, 0.95–1.58), and the panels disagree (in red algae the effect goes the other way). Origins of simple multicellularity show nothing (adjusted 1.04).
+
+We therefore drop the general claim. A possible excess of structurally unmatched families at simple-to-complex events is an exploratory lead, sensitive to search settings and confounded with protein length and disorder; none of these families has been shown to have a new fold.
+
+### 8.7 Does structure change faster per sequence change in multicellular lineages? Inconclusive
+
+**Point: a modest apparent excess of structural change inside multicellular clades cannot be told apart from noise in the predicted letters, because a negative control with shuffled letters gives an equal or larger effect.**
+
+The relaxed-selection idea (Section 1.2) predicts that multicellular lineages tolerate more change in protein structure for a given amount of sequence change. For 290–300 conserved single-copy genes in each of three panels with complete 3Di letters (animals and relatives, fungi, and the volvocines without the two de novo annotated genomes), branch lengths were estimated on the fixed species tree from amino-acid and from 3Di alignments of the Pfam domain regions, and their ratio was compared between branches inside multicellular clades (*crowns*) and unicellular branches, correcting for the amount of sequence change. Because no standard substitution model for 3Di letters could be fitted with IQ-TREE, a panel-specific 3Di exchange matrix was estimated from pairs of closely related sequences (a documented deviation).
+
+Inside crowns, 3Di branch lengths per amino-acid change were 7–12% higher in all three panels when genes are the units (log ratios 0.110, 0.076 and 0.074). With branches as the units, which is the honest test because all genes share one tree, only fungi reached p < 0.05 (p = 0.020), and not in a ratio-of-sums version. The 21 event stems were not shifted (12 of 21 positive; sign test p = 0.33). The decisive problem is the negative control: shuffling 3Di letters among species within each alignment column, which destroys any real structural signal, produced a crown "effect" comparable to or larger than the real data (0.222 against 0.110 in animals and relatives, 0.058 against 0.076 in fungi, 0.049 against 0.074 in volvocines; Figure 6d). Noisy letters (ProstT5 agrees with AlphaFold at only 65.5% of residues) combined with where crown branches sit in the tree can produce the pattern on their own. The result is therefore inconclusive. It agrees with round 1's rate test, which also found no 1.5-fold or larger change in the rate of protein evolution at the transitions. ProstT5 letters are themselves predicted from the sequence, so this ratio partly measures the model, and conserved single-copy genes may be the wrong place to look for relaxed constraint.
+
+---
+
+## 9. Protein complexes
+
+**Main point: published protein-complex data add nothing detectable. Duplications on multicellular stems are not consistently enriched in subunits of ancient protein complexes, and complexes are not more often kept intact in multicellular lineages.**
+
+Cox et al. (2026) used co-fractionation mass spectrometry (separating native protein extracts into many fractions and finding proteins that consistently travel together) from 31 species to reconstruct a map of protein complexes of the last eukaryotic common ancestor (LECA). Because the map contains only complexes conserved across eukaryotes and no unicellular sister of animals was fractionated, it cannot reveal lineage-specific complexes. We asked only whether genes duplicated on round-1 stems belong to these ancient complexes.
+
+Proteins could be mapped through UniProt accessions for 13 of our species. Among testable duplications, 66.6% on the animal stem and 72.1% on the fungal-hyphae stem involved a complex subunit, against 63.6% on control branches (odds ratios 1.14 and 1.48); the brown-algal lineage (0.82) and volvocine (0.79) stems were depleted, and dictyostelids and streptophytes were at control level. No complex was enriched across stems after correction for multiple testing; the one complex enriched on the animal stem traced to a single expanded family. Across 125 complexes, co-retention of subunits (keeping all or none) relative to a prevalence-matched null was, if anything, slightly lower in multicellular species (paired p = 0.008, without phylogenetic correction). With duplication counts that are method-dependent (Section 5), we treat this whole analysis as a null.
+
+---
+
+## 10. Discussion
+
+**Main point: across two rounds, the genomes of multicellular lineages do not show a large, shared change in gene content. The one confirmatory positive is a modest, size-dependent excess of cell-death machinery in complex lineages, and on inspection it is mostly lineage-specific immune and self/non-self receptor machinery. Gene-content changes at the transitions are real but lineage-specific, and our ability to measure them is limited more by the reconstruction method than by the number of genomes. Predicted protein structure did not change any of these conclusions.**
+
+### 10.1 What was shown, and what is believed
+
+> **WHAT WAS SHOWN** (with the stated caveats)
+>
+> - No shared signature across seven origins was detected in round 1, and the only well-powered quantity, the genome-wide rate of protein evolution, did not shift 1.5-fold on average.
+> - Multicellular genomes carry about 1.2-fold more cell-death proteins than expected for their proteome size (confirmatory, Holm-adjusted p = 0.014), robust to leaving out any origin or family, weaker without the largest proteomes, and almost entirely in complex lineages.
+> - That excess consists mostly of lineage-specific receptor architectures: NB-ARC–LRR in land plants, NB-ARC–WD40 in red algae, HET and NACHT proteins in filamentous fungi, death-fold adaptors and NACHT in animals; none in dictyostelids or volvocines.
+> - Motif-binding domains are not expanded (0.98-fold); cell-type transcription-factor families are not expanded across origins (exploratory).
+> - Four unseen simple-to-complex events did not show significantly more sequence-novel families; their large per-event ratios are a tip-versus-internal-branch artefact.
+> - Two orthology methods place only 29% of stem gene-family origins on the same branch, almost never agree on duplications, and do not agree better on stems than on controls of similar depth.
+> - About half of sequence-novel families have a structural match outside their clade among the panel species.
+> - Ancestra's structure mode did not improve deep-node controls and slightly lowered cross-method agreement.
+>
+> **WHAT IS BELIEVED, BUT NOT ESTABLISHED**
+>
+> - Simple-to-complex steps may add more new gene families than origins of simple multicellularity do (internal branches only: 2.7-fold against 0.83-fold). Exploratory, partly seen before, within the range of method bias.
+> - Families gained at simple-to-complex events may lack structural matches more often than those on control branches (adjusted odds ratio about 1.7 at family level). Not significant with branches as units; confounded with protein length and disorder.
+> - Protein kinases may be repeatedly recruited into new families at complex events (one new kinase family at each of five of seven events, q = 0.06).
+> - Larger multicellular bodies may need more immune and self/non-self surveillance; our counts are compatible with this but cannot separate it from developmental cell death or from the general growth of large families in large genomes.
+>
+> **NOT SUPPORTED, AFTER INITIALLY LOOKING POSITIVE**
+>
+> - A general excess of structurally new families at transitions (overturned by verification).
+> - Better cross-method agreement at transition stems (mostly branch depth plus one stem).
+> - Faster structural change per sequence change inside multicellular clades (fails a shuffled-letter negative control).
+
+### 10.2 Comparison with the literature
+
+*Programmed cell death and immunity.* A link between programmed cell death and multicellularity is an old idea: cell death in microbes can benefit relatives and may have contributed to the origin of multicellularity (Durand et al. 2016), and one model ties the joint origin of both to arms races with viruses (Iranzo et al. 2014). Our result is compatible with this, with two qualifications. First, the core apoptosis machinery was already present in the last eukaryotic common ancestor (Klim et al. 2018), so cell death is not an invention of multicellular lineages; what we see is a larger repertoire, built by duplication of existing families rather than by new ones. Second, the families that grew are mostly receptors: plant NLRs that trigger a localised cell death when they detect a pathogen (Jones & Dangl 2006), and fungal NLR-like and HET proteins involved in non-self recognition and the death of incompatible fused cells (Dyrka et al. 2014). Each lineage built its excess from a different receptor architecture (LRR, WD40, TPR or ankyrin repeats), which reads as convergence on a function rather than inheritance of a toolkit. The proteome-size dependence means part of the pattern could also reflect the general growth of large, fast-evolving families in large genomes.
+
+*Co-option and the Volvox case.* The volvocine algae show the clearest case of little gene-content change: the volvocine stem had no significantly expanded Pfam family and only 10 contracted, and the germ–soma events' annotatable changes are duplications of lineage-specific extracellular-matrix families (pherophorins, matrix metalloproteases). This matches Prochnik et al. (2010), who found *Volvox* and *Chlamydomonas* similar in coding potential and concluded that complexity can come from "modifications of lineage-specific proteins rather than large-scale invention", and Hanschen et al. (2016), who showed that colony formation in *Gonium* co-opted the retinoblastoma cell-cycle pathway. Our recurrence results fit the co-option view more broadly: expansions do not recur across origins beyond chance, whereas contractions do.
+
+*Complex fungi and signalling.* The families gained at fruiting-body events (transporters, Zn2Cys6 transcription factors, metabolic enzymes) and the absence of kinase or adhesion expansion at fungal hyphae fit Kiss et al. (2019) and Merényi et al. (2020). One new kinase family at each of five of seven complex events and receptor kinases in land plants fit reports of receptor kinase families in brown algae and plants (Cock et al. 2010; Shiu & Bleecker 2001) and the broader pattern of convergent expansions in complex lineages described by Pereira Lobo et al. (2025). The two-component signalling families at the heterocyst event fit the intercellular signalling that regulates heterocyst differentiation (Herrero et al. 2016).
+
+*Bursts of novelty.* Claims of novelty bursts at the origins of animals, plants and brown algae (Paps & Holland 2018; Bowles et al. 2020; Denoeud et al. 2024) depend on how families are split. On the animal stem, two state-of-the-art methods differ three-fold in new families and more than 30-fold in duplications on the same proteins. Richter et al. (2018) showed that denser sampling of choanoflagellates moved hundreds of supposedly animal-specific families earlier; our cross-method comparison shows a second, independent source of uncertainty in the inference itself, and the structural search a third: about half of the families that look new by sequence have a structural relative outside their clade (cf. Weisman et al. 2020).
+
+*Relaxed selection.* Neither the round-1 rate test nor the structure-per-sequence comparison found a clear signature of weaker selection on proteins at the transitions. The smaller effective population sizes of multicellular lineages (Lynch & Conery 2003; Bingham & Ratcliff 2024) may act mainly on genome architecture, or on genes other than the conserved single-copy genes we could measure.
+
+### 10.3 What we learned about the method
+
+- *Gains, not losses, are the weak point.* Inflated gains (2.1–2.6-fold in simulation), the tip artefact, the cross-method disagreement and the structural matches among "novel" families all affect the "new gene" counts that most hypotheses rely on.
+- *Dense, small reconstructions are cheap and help some deep-node placements* (the T-box control), but they leave each event with few controls, so per-event statistics are coarse.
+- *Branch type matters.* Tip and internal branches measure different things and must never be pooled in one comparison.
+- *Domain-level dating needs domain-level methods.* Animal innovations such as classical cadherins are new domain combinations inside old families, invisible to any method that dates whole families, with or without structure.
+- *Predicted structure is a good search tool and a weak measuring tool.* ProstT5 letters are accurate enough to find remote homologues, but at 65% per-residue accuracy their noise is large enough to create apparent rate differences, and "no structural match" is dominated by short and disordered proteins.
+
+### 10.4 Limitations
+
+- Few independent origins (seven primary eukaryotic origins; four confirmatory and seven internal simple-to-complex events), so most nulls are absence of evidence.
+- Events are deeper than controls in every comparison (standardised depth difference 2.06 in round 1, 1.15 overall in the panels, 0.93 for the structural analysis), and depth is entangled with several measured quantities.
+- Gene-family gains and duplications on a branch are method-dependent (Section 5); duplication counts in the cross-method comparison are approximate (about ±15%).
+- Transcriptome-derived proteomes remain in two panels and among the sisters of animals and dictyostelids; two volvocine proteomes are de novo gene predictions.
+- Pfam annotation favours well-studied lineages; most novel families have no annotation; NLR-type receptors are often fragmented in gene models.
+- The cell-death result depends partly on proteome size and cannot distinguish developmental cell death from immunity.
+- Structural letters are predicted from sequence (65.5% agreement with AlphaFold-derived letters), the structural search covered only the panel species, and no 3D models were examined; "structurally unmatched" never means "new fold".
+- The structure-mode test of Ancestra used one panel and one preset; the divergence test used three panels and conserved single-copy genes only.
+- The species trees are fixed; alternative topologies and roots were not run.
+- Multicellular states come from the literature, which also supplied the positive controls and family lists, so some agreement with the literature is built in.
+- Only protein-coding content was studied; regulatory change, which much of the literature emphasises (Sebé-Pedrós et al. 2016), is invisible here.
+- Nothing here has been checked by a human expert.
+
+---
+
+## 11. Agentic science: what the AI team did well and badly
+
+**Main point: the safeguards that matter most worked. Pre-registration, adversarial verification by agents that did not produce a result, and plain reporting of nulls caught or contained every serious problem we know of, including two of our own positive claims overturned in this round. The weaknesses were in specifying tests, in finding design problems only after seeing results, in bookkeeping and in tool handling.**
+
+The project was run by a principal-investigator agent (Claude Opus 5.5) that planned, delegated to subagents (Opus 5.5 or Sonnet 5.5), reviewed their output and kept a dated research record. Separate agents wrote the literature review, built data, ran analyses, reviewed designs, verified results, audited citations and drew figures.
+
+What worked:
+- *External review steered the science.* The department-head review was the most consequential input of round 2: it redirected the project from one under-powered question to single events and the simple-to-complex step, restricted the confirmatory novelty test to unseen events, and found the overstated statements of round 1.
+- *Adversarial verification changed conclusions, not just decimals.* In this round it overturned two claims that had already been written into summaries. (i) The excess of structurally new families at transitions (odds ratio 1.44, p = 0.004) disappeared once the verifier adjusted for protein length, disorder and depth (1.18, 0.93–1.49) and re-ran the search without its fast pre-filter. (ii) The statement that the two orthology methods agree better on transition stems than on controls (29% against 11%) turned out to be mostly an effect of branch depth plus a single stem. Verification also found the cell-death result's proteome-size dependence and an undocumented branch-length floor in the confirmatory novelty test (below), and it confirmed the protein mapping and agreement values of the cross-method comparison while showing that some duplication counts were off by up to 15%. Producers did not find these problems in their own work.
+- *Pre-registration with "what had been seen" notes.* Every post-freeze change to the panel analysis is a dated deviation stating which results were visible at the time (11 such entries in about 5.5 hours). This kept the frozen confirmatory test separate from later sensitivity analyses. The rule for Ancestra's structure mode was fixed before any structure-mode output existed, and it was applied as written even though the result was negative.
+- *Analysis agents caught some of their own design problems.* The tip-versus-internal artefact was noticed by the analysis agent while inspecting interim output from five panels, and handled as a labelled sensitivity analysis rather than by changing the frozen test.
+- *Negative controls were built in.* The shuffled-letter control in the structural divergence analysis is what showed that result to be uninterpretable; without it, a 7–12% "effect" with gene-level p-values below 10⁻¹⁰ would have looked convincing.
+- *Cross-checking with a second method* (EukaryOMA) gave the most sobering and most useful result of round 2.
+- *Early piloting of new hardware* caught the silent CPU fallback of Foldseek's GPU build within the first hour.
+- *Null results were reported as nulls*, with power, rather than reframed.
+
+What did not work:
+- *Confirmatory tests with known low power.* The simple-to-complex test had 18–41% power by the design's own estimate and two events outside the range of its controls. It should have been framed as estimation from the start.
+- *Design problems found after seeing data.* The tip artefact, the size effect in domain recurrence, an over-permissive recurrence null, and the length and disorder confounding of "structural novelty" were all discovered from interim or final outputs. They were handled honestly, but piloting each statistic on control-only data, and checking covariate balance, before freezing it would have found them earlier.
+- *Undocumented analysis choices.* The confirmatory novelty analysis applied a numerical floor to branch lengths that was not in the written specification. It was a defensible guard against taking the logarithm of a near-zero length, but it changed the confirmatory p from 0.050 to 0.072; only the independent verifier noticed. Similarly, the structural-novelty producer described a search-space-only adjustment as "adjusted", which a reader would take to mean confounders had been handled.
+- *Stale numbers.* Round 1's depth imbalance (1.77 instead of 2.06) and the "real tree" power claim were copied forward from early drafts and never recomputed.
+- *Tool handling.* Twice, a pattern-based kill command (one that terminates every process whose command line matches a text pattern) matched the shell that issued it and killed its own caller; once, in round 2, this also left a GPU job running without supervision. A waiting loop launched an analysis on four of eight panels prematurely; a name-matching bug briefly dropped one panel from a sensitivity analysis; a broken R package build forced a different sensitivity model; and IQ-TREE could not estimate a substitution model for structural letters, which required a documented workaround.
+- *Lagging records.* The research tree trailed the results by hours at two milestones, and scripts and logs were left uncommitted for a while after the runs that used them.
+
+The project's process rules (LESSONS.md, 14 rules) condense these: pilot before long runs; calibrate statistics before freezing them, including covariate ranges and tip/internal comparability; label under-powered tests as estimation; have someone other than the author verify, adversarially; log every deviation with what had been seen; kill processes only by explicit process ID; never let wait loops launch analyses.
+
+---
+
+## Methods
+
+**Data.** Round-1 data: 187 eukaryotic and 82 prokaryotic proteomes (UniProt reference proteomes 2026_03; EukProt v3, Richter et al. 2022; LukProt v1.5.1, Sobala 2024; NCBI annotations), one protein per gene, proteins ≥ 50 amino acids, transcriptomes reduced to the longest ORF and clustered at 95% identity with cd-hit (Fu et al. 2012). Panel data: data/dense/<panel>/ (proteomes, species.tsv, guide_tree.nwk, tree_edits.md, transitions.tsv); two de novo proteomes in the volvocine panel predicted with AUGUSTUS 3.5.0 ab initio, *Chlamydomonas* model, no hints (Stanke et al. 2006; data/dense/R4/ANNOTATION_NOTES.txt). Completeness: BUSCO 6.1.0, odb10 sets (Manni et al. 2021). EukaryOMA release All.Oct2026, HOG OrthoXML md5 296586b7eaae71fb1ce5676c5cc3736e. Cox et al. LECA complex map: Zenodo 10.5281/zenodo.17716736. Sources, versions, checksums and licences: DATA.md.
+
+**Orthology.** Ancestra (github.com/evocellnet/ancestra-mvp-ai, commit ffb0bbe, tag freeze-v1), preset `fast`, with the output-identical parallel Leiden wrapper (Traag et al. 2019; scripts/ancestra_patch/); DIAMOND 2.2.8 (Buchfink et al. 2021) inside Ancestra. Events parsed with mcell.hogs (conservation law checked on every branch).
+
+**Branch lengths.** Panel markers: root HOGs single-copy in ≥ 80% of species (≤ 150 markers), MAFFT --auto (Katoh & Standley 2013), trimAl -automated1 (Capella-Gutiérrez et al. 2009), IQ-TREE 3 (Wong et al. 2026) LG+G4 on the fixed topology.
+
+**Sequence novelty.** DIAMOND blastp --very-sensitive -k 0 -e 1e-5 --query-cover 30 --max-hsps 1, two passes, ≤ 3 representatives per family; target database = panel proteomes plus round-1 proteomes outside the panel (eukaryotic, or prokaryotic for cyanobacteria).
+
+**Panel statistics.** Pooled negative-binomial GLM on 55 internal non-crown controls (panel intercepts; shared slopes for log branch length, log descendants, transcriptome fraction, mean BUSCO, log distance to nearest outgroup); leave-one-out control residuals; depth classes (≤ 3, 4–6, ≥ 7 edges) with widening to ≥ 5 controls; one-sided permutation p; Stouffer combination; REML random effects with modified Hartung–Knapp CI (q* = max(1, q)). Specification: results/r2/panels/METHODS_DEFINITIONS.txt; deviations: results/r2/panels/DEVIATIONS.txt.
+
+**Family tests.** Pfam-A 38.2 (Paysan-Lafosse et al. 2025) with pyhmmer (Larralde & Zeller 2023; gathering thresholds); disorder with metapredict 3.1 (Emenecker et al. 2021). Motif-binding domain list from ELM (Kumar et al. 2024). PGLS with phylolm (Ho & Ané 2014; Pagel's λ, Pagel 1999) on the round-1 IQ-TREE species tree, one-sided t-test, parametric bootstrap CI (1,000 replicates). Sensitivity: phylogenetic Poisson-lognormal GLMM (MCMCglmm, Hadfield 2010; two chains). Scans: per-family negative-binomial GLM with log proteome-size offset, likelihood-ratio test, BH q < 0.1 within event, fold-changes shrunk with ashr (Stephens 2017); recurrence nulls by label permutation and by conditional family shuffling (B = 1,000). Pfam-to-GO: pfam2go mapping of 2026-07-06 (Mitchell et al. 2015; Ashburner et al. 2000; Gene Ontology Consortium 2026). Rules fixed before testing: results/r2/w4/P3_rule.txt.
+
+**Cross-method comparison.** Sequence-checksum and reciprocal-best-hit protein mapping (≥ 95% identity, ≥ 50% coverage), topological placement of both HOG sets on the 125-species pruned tree, event matching by member proteins (results/eukaryoma_xval/summary.txt; tests in tests/test_eukaryoma_xval.py). Independent re-implementation: results/r2/verification/eukaryoma/VERIFICATION.txt.
+
+**Structure.** ProstT5 (Heinzinger et al. 2024) encoder plus CNN head, own implementation (PyTorch 2.6.0+cu124, transformers 5.22.0, sentencepiece 0.2.2) on one A100-40GB; windows of 1,000 residues with 250 overlap; validation against Foldseek 3Di (Foldseek 10.941cd33; van Kempen et al. 2024) of AlphaFold DB models (Varadi et al. 2024), 5,000 randomly sampled proteins from 24 completed species (seed 11; results/r2/w5_3di_validation/).
+
+**Structure mode of Ancestra.** Holozoa panel, preset fast, --family-rescue 3di with and without --family-rescue-guard; family and scoring stages reused from the default run (identical input checksums), rescue, merge and output recomputed. Decision rule fixed before any output (results/r2/w5/decision_operationalisation.txt): deep-node positive controls must improve and stem-gain agreement with EukaryOMA (same code as the cross-method comparison, 29 shared species) must not fall. Verdict: results/r2/w5/r1/verdict.txt.
+
+**Structural novelty.** Up to 200 sequence-novel families per event or control branch (seed 11), ≤ 3 representatives each; Foldseek databases built from our amino-acid and ProstT5 3Di files; search against panel proteins of species outside the clade, --alignment-type 2 (3Di+AA), E < 10⁻³, ≥ 50% query coverage, max-seqs 1,000. Positive control: sequence-old gains; negative control: shuffled queries. Statistics: Mantel–Haenszel, within-panel branch permutation, logistic regression with branch-clustered errors (results/r2/w5/). Independent verification (results/r2/verification/w5/): own re-search of 104 families, metapredict disorder and low complexity, logistic mixed models (lme4) with random intercepts for panel and branch, branch-level quasibinomial regression, covariate-adjusted permutation, and an exhaustive re-search (--exhaustive-search 1) of all 3,280 unmatched event and control families with a shuffled negative control.
+
+**Structure versus sequence divergence.** Three panels (Holozoa; Fungi; Volvocales without the two de novo proteomes); root-level families single-copy in ≥ 80% of species, 300 drawn per panel; Pfam envelopes masked per taxon; MAFFT --auto alignments with 3Di projected onto the same columns; IQ-TREE 3.1.4 branch lengths on the fixed topology (amino acids LG+G4; 3Di with a panel-specific exchange matrix estimated by pair counting, because GTR20 estimation failed; Poisson sensitivity). Statistic: log ratio of 3Di to amino-acid branch length, residual against amino-acid-length deciles of unicellular reference branches; crown versus unicellular contrasts with genes and with branches as units; controls: constant-ratio simulation (AliSim), column-shuffled 3Di, amino-acid split halves (results/r2/w6/).
+
+**Pre-registration, seeds and verification.** Round 1: tag prereg-v1. Round 2: tag prereg-r2 (design and frozen family lists, sha256 in data/r2_prereg/PREREG_R2_HASHES.tsv) and tag prereg-r2-p1 (confirmatory events, data/r2_prereg/p1_events.tsv). Seeds 11 (default), 23, 37, 41, 53. Every confirmatory number was re-derived by an agent that did not produce it (results/r2/verification/). Software environments: envs/ (Python 3.11.18; numpy, scipy and other versions in the pip-freeze and lock files).
+
+## Data and code availability
+
+All scripts (scripts/), result tables (results/), research record (RESEARCH_TREE.md, LESSONS.md, agents/), reviews (reviews/) and this report are in the project's git repository; restricted data are not committed. The department-head review is public at https://claude.ai/artifact/NfrexbqRBFmS3A97VvTqcR. Each numeric claim in this report is listed with its source file in report/REPORT_v2_claims.tsv. Repository map (internal names used in file paths only): errata = W0; EukaryOMA comparison = W1; focused panels = W2 and W3, panels R1–R8 in the order of Table 1 (R4_curated = volvocine panel without de novo proteomes); family sets = W4 (cell-death follow-up: w4_celldeath); structure = W5 (structure mode, structural novelty, 3Di validation) and W6 (divergence); complexes = W7. Confirmatory tests: simple-to-complex novelty = R2-P1, motif-binding = R2-P2, cell death = R2-P3; the branch-length floor deviation = D-PI-1. Figures: report/figures_v2/ (scripts/r2/figures/make_all.sh).
+
+## References
+
+All entries were checked against Crossref or PubMed; claims attributed to them were checked at abstract level (full text for the ProstT5 accuracy range).
+
+- Altenhoff AM, Gil M, Gonnet GH et al. 2013. Inferring hierarchical orthologous groups from orthologous gene pairs. PLoS One 8:e53786. doi:10.1371/journal.pone.0053786
+- Altenhoff AM, Warwick Vesztrocy A, Bernard C et al. 2024. OMA orthology in 2024: improved prokaryote coverage, ancestral and extant GO enrichment, a revamped synteny viewer and more in the OMA Ecosystem. Nucleic Acids Res 52:D513-D521. doi:10.1093/nar/gkad1020
+- Ashburner M, Ball CA, Blake JA et al. 2000. Gene Ontology: tool for the unification of biology. Nat Genet 25:25-29. doi:10.1038/75556
+- Bingham EP, Ratcliff WC 2024. A nonadaptive explanation for macroevolutionary patterns in the evolution of complex multicellularity. PNAS 121:e2319840121. doi:10.1073/pnas.2319840121
+- Bowles AMC, Bechtold U, Paps J 2020. The origin of land plants is rooted in two bursts of genomic novelty. Curr Biol 30:530-536.e2. doi:10.1016/j.cub.2019.11.090
+- Brunet T, King N 2017. The origin of animal multicellularity and cell differentiation. Dev Cell 43:124-140. doi:10.1016/j.devcel.2017.09.016
+- Buchfink B, Reuter K, Drost H-G 2021. Sensitive protein alignments at tree-of-life scale using DIAMOND. Nat Methods 18:366-368. doi:10.1038/s41592-021-01101-x
+- Capella-Gutiérrez S, Silla-Martínez JM, Gabaldón T 2009. trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses. Bioinformatics 25:1972-1973. doi:10.1093/bioinformatics/btp348
+- Chaigne A, Brunet T 2022. Incomplete abscission and cytoplasmic bridges in the evolution of eukaryotic multicellularity. Curr Biol 32:R385-R397. doi:10.1016/j.cub.2022.03.021
+- Cock JM, Sterck L, Rouzé P et al. 2010. The Ectocarpus genome and the independent evolution of multicellularity in brown algae. Nature 465:617-21. doi:10.1038/nature09016
+- Cox RM, Papoulas O, Shril S et al. 2026. A protein interactome for the last eukaryotic common ancestor illuminates the biochemical basis of modern genetic diseases. Cell Genomics 6:101254. doi:10.1016/j.xgen.2026.101254 (preprint: Cox RM et al. 2024. Ancient eukaryotic protein interactions illuminate modern genetic traits and disorders. bioRxiv. doi:10.1101/2024.05.26.595818)
+- de Mendoza A, Sebé-Pedrós A, Šestak MS et al. 2013. Transcription factor evolution in eukaryotes and the assembly of the regulatory toolkit in multicellular lineages. PNAS 110:E4858-66. doi:10.1073/pnas.1311818110
+- Denoeud F, Godfroy O, Cruaud C et al. 2024. Evolutionary genomics of the emergence of brown algae as key components of coastal ecosystems. Cell 187:6943-6965.e39. doi:10.1016/j.cell.2024.10.049
+- Durand PM, Sym S, Michod RE 2016. Programmed cell death and complexity in microbial systems. Curr Biol 26:R587-R593. doi:10.1016/j.cub.2016.05.057
+- Dyrka W, Lamacchia M, Durrens P et al. 2014. Diversity and variability of NOD-like receptors in fungi. Genome Biol Evol 6:3137-3158. doi:10.1093/gbe/evu251
+- Emenecker RJ, Griffith D, Holehouse AS 2021. Metapredict: a fast, accurate, and easy-to-use predictor of consensus disorder and structure. Biophys J 120:4312-4319. doi:10.1016/j.bpj.2021.08.039
+- Fu L, Niu B, Zhu Z, Wu S, Li W 2012. CD-HIT. Bioinformatics 28:3150-2. doi:10.1093/bioinformatics/bts565
+- Gene Ontology Consortium 2026. The Gene Ontology knowledgebase in 2026. Nucleic Acids Res 54:D1779-D1792. doi:10.1093/nar/gkaf1292
+- Grosberg RK, Strathmann RR 2007. The evolution of multicellularity: a minor major transition? Annu Rev Ecol Evol Syst 38:621-654. doi:10.1146/annurev.ecolsys.36.102403.114735
+- Hadfield JD 2010. MCMC methods for multi-response generalized linear mixed models: the MCMCglmm R package. J Stat Softw 33(2):1-22. doi:10.18637/jss.v033.i02
+- Hanschen ER, Marriage TN, Ferris PJ et al. 2016. The Gonium pectorale genome demonstrates co-option of cell cycle regulation during the evolution of multicellularity. Nat Commun 7:11370. doi:10.1038/ncomms11370
+- Heinzinger M, Weissenow K, Sanchez JG et al. 2024. Bilingual language model for protein sequence and structure. NAR Genom Bioinform 6:lqae150. doi:10.1093/nargab/lqae150
+- Herrero A, Stavans J, Flores E 2016. The multicellular nature of filamentous heterocyst-forming cyanobacteria. FEMS Microbiol Rev 40:831-854. doi:10.1093/femsre/fuw029
+- Herron MD, Michod RE 2008. Evolution of complexity in the volvocine algae: transitions in individuality through Darwin's eye. Evolution 62:436-51. doi:10.1111/j.1558-5646.2007.00304.x
+- Ho LST, Ané C 2014. A linear-time algorithm for Gaussian and non-Gaussian trait evolution models. Syst Biol 63:397-408. doi:10.1093/sysbio/syu005
+- Holm S 1979. A simple sequentially rejective multiple test procedure. Scand J Stat 6:65-70.
+- Iranzo J, Lobkovsky AE, Wolf YI et al. 2014. Virus-host arms race at the joint origin of multicellularity and programmed cell death. Cell Cycle 13:3083-8. doi:10.4161/15384101.2014.949496
+- Jones JDG, Dangl JL 2006. The plant immune system. Nature 444:323-329. doi:10.1038/nature05286
+- Katoh K, Standley DM 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol 30:772-780. doi:10.1093/molbev/mst010
+- King N, Westbrook MJ, Young SL et al. 2008. The genome of the choanoflagellate Monosiga brevicollis and the origin of metazoans. Nature 451:783-8. doi:10.1038/nature06617
+- Kiss E, Hegedüs B, Virágh M et al. 2019. Comparative genomics reveals the origin of fungal hyphae and multicellularity. Nat Commun 10:4080. doi:10.1038/s41467-019-12085-w
+- Klim J, Gładki A, Kucharczyk R et al. 2018. Ancestral state reconstruction of the apoptosis machinery in the common ancestor of eukaryotes. G3 8:2121-2134. doi:10.1534/g3.118.200295
+- Knoll AH 2011. The multiple origins of complex multicellularity. Annu Rev Earth Planet Sci 39:217-239. doi:10.1146/annurev.earth.031208.100209
+- Kumar M, Michael S, Alvarado-Valverde J et al. 2024. ELM - the Eukaryotic Linear Motif resource - 2024 update. Nucleic Acids Res 52:D442-D455. doi:10.1093/nar/gkad1058
+- Lamża Ł 2023. Diversity of 'simple' multicellular eukaryotes: 45 independent cases and six types of multicellularity. Biol Rev 98:2188-2209. doi:10.1111/brv.13001
+- Larralde M, Zeller G 2023. PyHMMER: a Python library binding to HMMER for efficient sequence analysis. Bioinformatics 39:btad214. doi:10.1093/bioinformatics/btad214
+- Lindsey CR, Rosenzweig F, Herron MD 2021. Phylotranscriptomics points to multiple independent origins of multicellularity and cellular differentiation in the volvocine algae. BMC Biol 19:182. doi:10.1186/s12915-021-01087-0
+- Lynch M, Conery JS 2003. The origins of genome complexity. Science 302:1401-4. doi:10.1126/science.1089370
+- Majidian S, Nevers Y, Yazdizadeh Kharrazi A et al. 2025. Orthology inference at scale with FastOMA. Nat Methods 22:269-272. doi:10.1038/s41592-024-02552-8
+- Manni M, Berkeley MR, Seppey M et al. 2021. BUSCO update. Mol Biol Evol 38:4647-4654. doi:10.1093/molbev/msab199
+- Merényi Z, Prasanna AN, Wang Z et al. 2020. Unmatched level of molecular convergence among deeply divergent complex multicellular fungi. Mol Biol Evol 37:2228-2240. doi:10.1093/molbev/msaa077
+- Mitchell A, Chang H-Y, Daugherty L et al. 2015. The InterPro protein families database: the classification resource after 15 years. Nucleic Acids Res 43:D213-D221. doi:10.1093/nar/gku1243
+- Nagy LG, Kovács GM, Krizsán K 2018. Complex multicellularity in fungi: evolutionary convergence, single origin, or both? Biol Rev 93:1778-1794. doi:10.1111/brv.12418
+- Pagel M 1999. Inferring the historical patterns of biological evolution. Nature 401:877-884. doi:10.1038/44766
+- Paps J, Holland PWH 2018. Reconstruction of the ancestral metazoan genome reveals an increase in genomic novelty. Nat Commun 9:1730. doi:10.1038/s41467-018-04136-5
+- Paysan-Lafosse T, Andreeva A, Blum M et al. 2025. The Pfam protein families database: embracing AI/ML. Nucleic Acids Res 53:D523-D534. doi:10.1093/nar/gkae997
+- Pereira Lobo F, Benjamim DM, da Silva TTM et al. 2025. Molecular and functional convergences associated with complex multicellularity in Eukarya. Mol Biol Evol 42. doi:10.1093/molbev/msaf013
+- Prochnik SE, Umen J, Nedelcu AM et al. 2010. Genomic analysis of organismal complexity in the multicellular green alga Volvox carteri. Science 329:223-6. doi:10.1126/science.1188800
+- Richter DJ, Berney C, Strassert JFH et al. 2022. EukProt. Peer Community Journal 2:e56. doi:10.24072/pcjournal.173
+- Richter DJ, Fozouni P, Eisen MB et al. 2018. Gene family innovation, conservation and loss on the animal stem lineage. eLife 7:e34226. doi:10.7554/eLife.34226
+- Röver C, Knapp G, Friede T 2015. Hartung-Knapp-Sidik-Jonkman approach and its modification for random-effects meta-analysis with few studies. BMC Med Res Methodol 15:99. doi:10.1186/s12874-015-0091-1
+- Sebé-Pedrós A, Ballaré C, Parra-Acero H et al. 2016. The dynamic regulatory genome of Capsaspora and the origin of animal multicellularity. Cell 165:1224-1237. doi:10.1016/j.cell.2016.03.034
+- Sebé-Pedrós A, Roger AJ, Lang FB et al. 2010. Ancient origin of the integrin-mediated adhesion and signaling machinery. PNAS 107:10142-7. doi:10.1073/pnas.1002257107
+- Shiu SH, Bleecker AB 2001. Receptor-like kinases from Arabidopsis form a monophyletic gene family related to animal receptor kinases. PNAS 98:10763-8. doi:10.1073/pnas.181141598
+- Sobala ŁF 2024. LukProt. Genome Biol Evol 16. doi:10.1093/gbe/evae231
+- Stanke M, Keller O, Gunduz I et al. 2006. AUGUSTUS: ab initio prediction of alternative transcripts. Nucleic Acids Res 34:W435-W439. doi:10.1093/nar/gkl200
+- Stephens M 2017. False discovery rates: a new deal. Biostatistics 18:275-294. doi:10.1093/biostatistics/kxw041
+- Traag VA, Waltman L, van Eck NJ 2019. From Louvain to Leiden: guaranteeing well-connected communities. Sci Rep 9:5233. doi:10.1038/s41598-019-41695-z
+- Uyeda JC, Zenil-Ferguson R, Pennell MW 2018. Rethinking phylogenetic comparative methods. Syst Biol 67:1091-1109. doi:10.1093/sysbio/syy031
+- van Kempen M, Kim SS, Tumescheit C et al. 2024. Fast and accurate protein structure search with Foldseek. Nat Biotechnol 42:243-246. doi:10.1038/s41587-023-01773-0
+- Varadi M, Bertoni D, Magana P et al. 2024. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. Nucleic Acids Res 52:D368-D375. doi:10.1093/nar/gkad1011
+- Weisman CM, Murray AW, Eddy SR 2020. Many, but not all, lineage-specific genes can be explained by homology detection failure. PLoS Biol 18:e3000862. doi:10.1371/journal.pbio.3000862
+- Wong T, Ly-Trong N, Ren H et al. 2026. IQ-TREE 3: phylogenomic inference software using complex evolutionary models. Mol Biol Evol 43:msag117. doi:10.1093/molbev/msag117
