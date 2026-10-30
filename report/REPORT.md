@@ -350,6 +350,24 @@ The project's process rules (LESSONS.md, 14 rules) condense these: pilot before 
 
 ---
 
+## 12. Addendum: counting independent events instead of averaging them
+
+*Added on 30 October 2026, after publication, at the project lead's request. It is exploratory and post hoc; no pre-registered result changes.*
+
+**Main point: counting in how many independent origins a result is significant does not rescue any of the null hypotheses, because each origin is null on its own.** The lead asked whether demanding one signature shared by all origins asked too much, and whether findings significant in at least two, three or more independent events should be reported. Everything needed was already computed, so we built a "recurrence ladder": for every hypothesis, and for every protein family in the domain scans, we counted the independent origins with a significant result in the same direction and compared each tier (at least 1, 2, 3 … origins) with its chance expectation. The counting rules were fixed before the counts were made.
+
+This view cannot raise the power of any single event: the data for each origin are unchanged. What it can do is avoid diluting a signal present in a subset of origins, as an average over all seven would. That makes it informative only when each tier is compared with chance and corrected for the number of hypotheses and families tested.
+
+**Hypotheses.** The core round-1 tests (new gene families, transcription-factor duplications, adhesion and signalling gains, flagellar loss, co-option) are significant in none of the seven origins, so averaging hid nothing. The best rows before correction are new multi-domain architectures in 2 of 7 origins (animals and volvocines; chance P = 0.04, Holm 0.65). The volvocine hit reflects a low model expectation, not a high count. In the focused panels, 3 of 6 internal simple-to-complex steps rank above all their controls for new gene families (Pezizomycotina, land plants, parenchymatous brown algae; P = 0.04, Holm 0.17). Many per-event tests cannot reach p < 0.05 at all, because the smallest attainable p is one over the number of controls plus one.
+
+**Protein families (Figure 8).** Families expanded in two or more origins are no more frequent than chance (42 observed vs 54 expected). Contracted families do recur (157 vs 90 at ≥2 origins; 20 vs 3 at ≥3), but most of the recurrence involves dictyostelids and animals, whose sister clades are largely transcriptomes. The list is rich in bacterial-type enzymes and inteins, which suggests contamination rather than loss. With genome-based sisters only, the excess shrinks to 29 vs 18. Two families pass correction across all 12,813 tested (q = 0.07), both contracted in four origins: cyclic-nucleotide phosphodiesterase (PDEase_I) and the intein-like Vint domain.
+
+Within the cell-death set, the immune-receptor domain NB-ARC is expanded in animals and red algae, and also at the land-plant step nested within the streptophyte origin. TIR and NACHT are expanded in two origins each. Counting only the seven primary origins, this recurrence is not beyond chance (P = 0.09; independent verification). It is consistent with, but does not add evidence for, the receptor reading of the cell-death result in section 7.
+
+![Figure 8. Results by number of independent origins](figures_v2/fig8_recurrence_ladder.png)
+
+*Figure 8. Counting independent origins rather than averaging them. (a) For each hypothesis, the number of origins with a significant per-event result (dots) against the number expected by chance (grey). (b) Observed and expected numbers of protein families significantly expanded or contracted in at least k origins, k = 1–7. Expansions follow chance; contractions exceed it, largely in origins whose sister clades are transcriptome-based. Sources: results/r2/recurrence_ladder/, verification in results/r2/verification/recurrence_ladder/.*
+
 ## Methods
 
 Full methods, with software versions and file paths, are in Supplement S9; the main choices are summarised here.

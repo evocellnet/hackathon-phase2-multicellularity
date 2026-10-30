@@ -1,0 +1,16 @@
+VERIFICATION of results/r2/recurrence_ladder/summary.txt (independent recomputation; ladder scripts not used)
+Inputs: results/r2/w4/scan/event_T_*.tsv (transposon-masked, q_bh<0.1, sign of lfc), per_transition_*.tsv, cell_death.tsv.
+
+(1) Cell-death family claim
+ PASS  NB-ARC (PF00931) expanded in 3 origins after nested collapse: animals (q 0.019), red algae (q 0.015), land plants (q ~0, nested T_embryophyta).
+ PASS  TIR (PF01582: animals, land plants) and NACHT (PF05729: animals, fungal hyphae via Pezizomycotina) in 2 each.
+ PASS  Chance expectation of cell-death families in >=2 origins, family-shuffle null (seed 11, B=2000): 0.17 (claim ~0.19); P(>=3 families) ~0.001. Holm ~0.01 not recomputed (depends on the 12-test count); consistent.
+ CAVEAT (confirmed, the summary does state it): the streptophyte-origin row itself is NOT significant for NB-ARC (q 0.98). The third origin comes only from the nested land-plant event. Primary-origin rows only: NB-ARC in 2 origins (animals, red algae), TIR and NACHT in 1; null mean 0.10, P(>=1 family) 0.09 (matches the summary's 0.09). So the "3 independent origins" claim holds only under nested collapse and the primary-only result is not significant. Also, the nested event is not independent of the streptophyte origin.
+
+(2) Family tiers (7 primary origins)
+ PASS  Contractions >=2/>=3/>=4: 157 / 20 / 2 (exact). Uniform-null expectations 89.6 / 3.1 / 0.056 (summary 89.9 / 3.16 / 0.058; the "~81 / 3.2" in the task are the size-matched/other values, not rechecked).
+ PASS  Expansions >=2: 42 vs 53.8 (claim 54.0); >=3: 3 vs 0.86.
+ PASS  Contracted in 4 origins: PDEase_I (PF00233: fungal hyphae, streptophytes, PX, volvocines) and Vint (PF14623: animals, fungal hyphae, dictyostelids, PX).
+
+(3) Hypothesis level (one-sided p = 1-u+0.5/21 <= 0.05, 20 controls)
+ PASS  H1/H2: 0/7 (min p 0.095, volvocines). H4: 0/7 (min 0.143). H5: 0/7 (min 0.33). H12: 0/6 (min 0.071, dictyostelids).
