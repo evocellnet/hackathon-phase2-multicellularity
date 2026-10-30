@@ -1,0 +1,130 @@
+INDEPENDENT VERIFICATION - W5b STRUCTURAL NOVELTY OF GAINED FAMILIES (events vs controls, 8 panels)
+=====================================================================================================
+Written 2026-10-30 ~08:20 CET by an adversarial verifier that did not produce the result.
+Claim checked (results/r2/w5/summary.txt section B; results/r2/w5/novelty_summary/): among sequence-novel gained
+families, internal event branches keep more structurally new families than internal controls: 43.7 % vs 33.3 %,
+MH OR 1.44 [1.31, 1.58], branch permutation p = 0.004, search-space-adjusted OR 1.45 [1.08, 1.93];
+concentrated at simple->complex events (OR 1.87) vs origins (OR 1.15).
+
+Own code only (producer scripts read only afterwards, to diagnose): results/r2/verification/w5/
+  v1_assemble.py (hit tables -> per-family calls, clade filter, covariates), v2_spotcheck_*.{py,sh} (own Foldseek
+  re-search, 104 families), v3_disorder_lc.py (metapredict 3.1.01 + low-complexity), v4_sampling.py, v5_stats.py
+  (MH, permutation, per panel, leave-one-panel-out), v6_exhaustive_*.{sh,py} (exhaustive Foldseek re-search of all
+  3,280 "new" event/control families + shuffled negative control), v7*_glmm.R (lme4 GLMMs, branch-level
+  regressions), v8_adjperm.py (covariate-adjusted branch permutation), v9_exh_stats.py. Outputs in work/.
+
+OVERALL VERDICT
+  Arithmetic reproduces exactly. The headline "events keep more structurally new families" is NOT robust:
+  it disappears after adjusting for family length/disorder plus branch depth (OR 1.18 [0.93, 1.49]), and it
+  weakens to OR 1.23 / permutation p = 0.07 when the Foldseek search is made more sensitive (exhaustive),
+  because the default k-mer prefilter misses more true homologs for event families than for control families.
+  The simple->complex (nested) excess survives most variants (OR 1.5-2.3, p 0.001-0.03) but not branch-level
+  regression with all covariates (OR 1.15-1.23, n.s.), and with 7 events it is fragile. Recommended wording:
+  "exploratory; a possible excess of structurally unmatched families at simple->complex events, sensitive to
+  search sensitivity and confounded with protein length/disorder; no general event effect".
+
+ITEM 0 - Spot check of the producer's Foldseek hit tables (prerequisite)                         PASS (with caveat)
+  * My per-family calls from hits.tsv.gz (E < 1e-3, query cover >= 50 %, any representative) agree with the
+    producer's families.tsv for 100 % of 61,891 families. No target in any hit table lies inside the query's
+    clade (0 violations). R4: 334 sampled families (all from Eudorina, which has no 3Di, plus a few Volvocaceae)
+    were silently dropped; none is on an event or control branch, but Eudorina proteins are also absent as
+    TARGETS for R4 branches outside it (affects the R4 event Gonium_Volvocaceae only marginally).
+  * Re-search of 104 random sequence-novel families (13 per panel; event/control branches) with my own Foldseek
+    DBs (same ProstT5 3Di input; base:createdb AA+3Di, lookup order checked; search against the whole panel DB with
+    --max-seqs 10000, then my own outside-clade filter): 98/104 = 94 % same call (28 new/new, 70 old/old,
+    4 old-by-me/new-by-producer, 2 the reverse). Discordant cases are near the E threshold or prefilter misses.
+  * Diagnosed: one discordant family (R4 HOG0000995, Gonium_Volvocaceae) has an outside hit at E = 9e-6 that
+    the default k-mer prefilter does not return against the outside-only DB; it is found with
+    --exhaustive-search. This motivated the full exhaustive re-search below (item 6).
+  * Note: the structural search space is panel proteomes only, whereas sequence novelty used the panel plus
+    187 round-1 proteomes. "Structurally new" therefore means "no structural match among panel species outside
+    the clade", a smaller search space than the sequence definition.
+
+ITEM 1 - Recompute fractions, pooled MH OR and branch permutation                                 PASS
+  Events (19 internal origin/origin_complex/nested branches) 1226/2805 = 43.71 %, controls (55) 2054/6162 =
+  33.33 %; MH OR 1.439 [1.310, 1.582] (Robins-Breslow-Greenland CI); identical to the producer.
+  Per-panel ORs identical (R1 1.18, R2 1.09, R3 1.77, R4 2.95, R5 0.61, R6 2.60, R7 1.52, R8 1.22).
+  Branch-label permutation within panel (20,000x): the producer's statistic (equal-weight branch mean difference,
+  averaged over panels) gives one-sided p = 0.0037 (reproduces 0.004). With a family-weighted statistic (MH log
+  OR as the permutation statistic) p = 0.015. Nested events: p = 0.005; origins: p = 0.29.
+  Caveat: family-level CIs (MH, Fisher) treat families as independent and are far too narrow; families are
+  clustered in 74 branches (GLMM unadjusted OR 1.50 [1.13, 2.00] has a 3x wider log-CI than MH).
+
+ITEM 2 - Confounders                                                                              FAIL (effect not robust)
+  Strong family-level predictors of "structurally new" (full GLMM, standardised): log mean length
+  beta = -1.78 (z = -41), disorder fraction +0.81 (z = 21), low-complexity +0.13, family size -0.09, log outside
+  target proteins -0.13 (p = 0.03); depth +0.09 (p = 0.11); transcriptome fraction n.s.
+  Events differ from controls on exactly these: deeper (SMD 0.93), more disordered (SMD 0.49), shorter
+  (SMD -0.27), larger families (0.36), more low-complexity (0.24) (branch-level means).
+  Event effect (logistic GLMM, random intercepts panel + branch, n = 8,967 families, 74 branches):
+    unadjusted                                  OR 1.50 [1.13, 2.00] p = 0.005
+    + log outside proteins (producer's model)   OR 1.51 [1.13, 2.02]  (reproduces the producer's 1.45)
+    + branch covariates (depth, search space, transcriptome fraction)   OR 1.22 [0.89, 1.67] p = 0.21
+    + family covariates (length, disorder, LC, size)                    OR 1.27 [1.02, 1.58] p = 0.03
+    full (all covariates)                       OR 1.18 [0.93, 1.49] p = 0.16
+    full, by kind: nested OR 1.73 [1.20, 2.51] p = 0.003; origin OR 1.04 [0.82, 1.33]
+  Branch-level quasibinomial regression (74 branches, panel fixed effects): unadjusted OR 1.45 [1.13, 1.85];
+    adjusted OR 0.98 [0.84, 1.15]; nested 1.23 [0.95, 1.58], origin 0.94.
+  Covariate-adjusted branch permutation (residuals from a no-event logit with all covariates): all events
+    p = 0.34; nested p = 0.07; origins p = 0.81. With family covariates only: all p = 0.07, nested p = 0.006.
+  Interpretation: the search-space adjustment the producer reported does not touch the main confounders.
+  Depth is partly collinear with "nested" (nested events sit deep by construction), so adjusting for depth
+  may over-adjust for nested events; length/disorder are not collinear and they alone remove most of the
+  overall effect.
+
+ITEM 3 - Sampling cap (<= 200 families per branch, seed 11)                                       PASS
+  For all 82 sampled event/control branches the available counts match the ladder (classified.parquet,
+  seq_novel); every sampled family is a ladder seq-novel family. 33 branches were capped (12 event, 21 control).
+  On capped branches, the mean ID-rank of sampled families is 0.498 (range 0.47-0.53; 0.5 expected for a random
+  draw), i.e. not the first 200 by ID; sampled vs unsampled family sizes are equal (8.8 vs 8.8 genes). The cap
+  does not favour events or controls. (It does make family-level pooling weight capped branches equally.)
+
+ITEM 4 - Heterogeneity, per panel, leave-one-panel-out                                            PASS (as descriptive) / heterogeneity is large
+  Per-panel ORs 0.61-2.95; R5 goes the other way (0.61 [0.45, 0.81]). Leave-one-panel-out MH OR stays
+  1.29-1.61 (lowest without R6, highest without R5), so no single panel drives the pooled family-level OR.
+  But per panel there are only 2-4 event branches; no single-panel branch permutation is < 0.05 (producer:
+  0.07-0.76). The family-level LOO is therefore stable only in the same over-precise sense as the MH CI.
+
+ITEM 5 - Is "structurally new" mostly "no fold" (short / disordered / low-complexity)?            FAIL (largely yes)
+  metapredict 3.1.01 for all 81,572 query representatives (correlation with the project's precomputed disorder
+  files where both exist: r = 0.9997). Among event+control families:
+    median mean length: new 211 aa vs old 519 aa; families < 100 aa are 92 % "new" (13.7 % of all new
+    vs 0.7 % of old); median disorder fraction new 0.49 vs old 0.33; 48.6 % of new families are >= 50 %
+    disordered vs 32 % of old. Low-complexity differs little (0.125 vs 0.118 median).
+  Events carry more of these hard-to-match families (short < 100 aa: 8.1 % vs 4.2 %; >= 50 % disordered:
+  41 % vs 37 %). A large part of "structurally new" is "too short or too disordered to give a significant,
+  >= 50 %-coverage 3Di+AA hit", not a demonstrated new fold.
+  In a "foldable" subset (mean length >= 150 aa and disorder < 0.5; n = 4,698): event 25.7 % vs control 20.4 %
+  new; GLMM unadjusted OR 1.49 [1.09, 2.03], full OR 1.33 [0.99, 1.78] p = 0.055; nested 2.25 [1.41, 3.61],
+  origin 1.13. So a residual nested-event signal remains among foldable families.
+
+ITEM 6 (added) - Search sensitivity: exhaustive re-search of all 3,280 producer-"new" families        FAIL (differential)
+  All "new" families on event/control branches (8,287 queries) re-searched with foldseek --exhaustive-search 1
+  (no k-mer prefilter), 3Di+AA, E < 1e-3, against the whole panel DB, outside-clade filter and >= 50 % query
+  cover applied by me. Negative control: R5 queries with AA+3Di shuffled by one shared permutation, exhaustive
+  mode: 0 of 908 queries with any passing hit, so the extra hits are not composition artefacts.
+  Exhaustive search finds an outside structural homolog for 21 % of the producer's "new" families, and more
+  often on events (23.0 %) than controls (19.5 %): R1 32 vs 20 %, R2 39 vs 23 %, R4 36 vs 24 %, R5 36 vs 16 %
+  (R3, R7 equal; R6 23 vs 31 %; R8 ~0).
+  With the exhaustive definition: events 944/2805 = 33.7 % vs controls 1653/6162 = 26.8 %; MH OR 1.23
+  [1.11, 1.36]; branch permutation one-sided p = 0.073; nested MH OR 1.48 [1.29, 1.70], permutation p = 0.030;
+  origins 1.06, p = 0.46. GLMM: unadjusted OR 1.32 [0.97, 1.81]; full 1.21 [0.92, 1.60]; nested full
+  1.79 [1.15, 2.78] p = 0.009; foldable subset nested 2.30 [1.40, 3.79]; branch-level adjusted nested 1.15 (n.s.).
+  About a third of the overall effect is therefore an artefact of prefilter sensitivity.
+
+WHAT THE RESULT CAN AND CANNOT MEAN
+  Can: the numbers are computed correctly from the hit tables; about half of sequence-novel families have a
+  structural match outside the clade among panel proteomes (more with exhaustive search); the default search
+  slightly favours calling event families "new".
+  Can (weakly, exploratory): sequence-novel families gained at the 7 simple->complex stems lack an outside
+  structural match somewhat more often than control-branch families, even among longer, mostly ordered proteins
+  and with exhaustive search (OR about 1.5-2.3 at family level; p 0.001-0.03 depending on the model), but not
+  in branch-level regression with all covariates. With 7 events in 6 panels and heavy heterogeneity this is a
+  lead, not a finding.
+  Cannot: claim that event branches in general (or origins of simple multicellularity) gain more structurally
+  new families - this does not survive adjustment (OR 1.18 [0.93, 1.49]) or a more sensitive search (p = 0.07).
+  Cannot: call these "new folds". ProstT5 3Di is a sequence-predicted proxy, short and disordered proteins
+  dominate the "new" class, the structural search space is only the panel (not the 187 round-1 proteomes
+  used for sequence novelty), and no predicted structures or pLDDT were examined.
+  The reported search-space-adjusted OR 1.45 [1.08, 1.93] should not be presented as "adjusted": it adjusts
+  for the one covariate that barely matters.
