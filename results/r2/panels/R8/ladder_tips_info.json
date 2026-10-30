@@ -1,0 +1,23 @@
+{
+ "n_branches": 30,
+ "n_gains": 16693,
+ "n_seq_novel": 12671,
+ "n_split_repaired": 148,
+ "passes": [
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/ladder_tips/queries_pass1.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/ladder_tips/hits_pass1.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 28.7,
+   "n_queries": 16693
+  },
+  {
+   "cmd": "nice -n 10 diamond blastp -q /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/ladder_tips/queries_pass2.faa -d /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/ladder/db.dmnd -o /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R8/work/ladder_tips/hits_pass2.tsv.gz.part --very-sensitive -k 0 -e 1e-05 --query-cover 30 --threads 12 -f 6 qseqid sseqid pident length evalue bitscore qcovhsp --max-hsps 1 -b 4 -c 1 --compress 1",
+   "wall_s": 8.0,
+   "n_queries": 7
+  }
+ ],
+ "sensitivity": "very-sensitive",
+ "n_rep": 3,
+ "db_proteins": 451401,
+ "db_species": 91,
+ "round1_placed": {}
+}
