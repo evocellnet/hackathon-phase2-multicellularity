@@ -330,3 +330,621 @@
 [2026-10-29 23:08:57] R4 Trebouxiophyceae: 379 queries vs 264,341 targets (19 species) -> 46,016 hits in 31s
 [2026-10-29 23:09:10] R4 Volvafr: 252 queries vs 271,477 targets (20 species) -> 851 hits in 12s
 [2026-10-29 23:09:22] R4 Volvcar: 280 queries vs 270,410 targets (20 species) -> 4,850 hits in 12s
+[2026-10-29 23:10:19] R4 Volvocaceae: 563 queries vs 211,752 targets (15 species) -> 26,387 hits in 56s
+[2026-10-29 23:10:48] R4 Volvox_africanus_reticuliferus: 276 queries vs 257,755 targets (19 species) -> 4,280 hits in 29s
+[2026-10-29 23:11:04] R4 Volvret: 314 queries vs 271,020 targets (20 species) -> 3,184 hits in 14s
+[2026-10-29 23:11:15] R4 Yamauni: 288 queries vs 268,500 targets (20 species) -> 12,832 hits in 11s
+[2026-10-29 23:11:28] R4 core_chlorophytes: 845 queries vs 7,723 targets (1 species) -> 14,418 hits in 12s
+   panel                    branch_child      kind    n  n_struct_old  frac_struct_new
+0     R4        Astrephomene_Volvocaceae     novel   48            31           0.3542
+1     R4        Astrephomene_Volvocaceae       old   16            14           0.1250
+2     R4        Astrephomene_Volvocaceae  shuffled   16             0           1.0000
+3     R4                         Astrgub     novel  200            47           0.7650
+4     R4                         Astrgub       old   36            25           0.3056
+5     R4                         Astrgub  shuffled   36             0           1.0000
+6     R4                        CS_clade     novel  200           150           0.2500
+7     R4                        CS_clade       old   60            60           0.0000
+8     R4                        CS_clade  shuffled   60             0           1.0000
+9     R4                         Chlaeus     novel  200            58           0.7100
+10    R4                         Chlaeus       old   60            45           0.2500
+11    R4                         Chlaeus  shuffled   60             0           1.0000
+12    R4                         Chlainc     novel  200            65           0.6750
+13    R4                         Chlainc       old   60            44           0.2667
+14    R4                         Chlainc  shuffled   60             0           1.0000
+15    R4               Chlamydomonadales     novel  200           150           0.2500
+16    R4               Chlamydomonadales       old   60            60           0.0000
+17    R4               Chlamydomonadales  shuffled   60             0           1.0000
+18    R4                   Chlamydomonas     novel  200           129           0.3550
+19    R4                   Chlamydomonas       old   60            59           0.0167
+20    R4                   Chlamydomonas  shuffled   60             0           1.0000
+21    R4               Chlamydomonas_TGV     novel  145            77           0.4690
+22    R4               Chlamydomonas_TGV       old   60            58           0.0333
+23    R4               Chlamydomonas_TGV  shuffled   60             0           1.0000
+24    R4                         Chlapri     novel  200            91           0.5450
+25    R4                         Chlapri       old   60            54           0.1000
+26    R4                         Chlapri  shuffled   60             0           1.0000
+27    R4                         Chlarei     novel  200            18           0.9100
+28    R4                         Chlarei       old   60            26           0.5667
+29    R4                         Chlarei  shuffled   60             0           1.0000
+30    R4                         Chlasch     novel  200            66           0.6700
+31    R4                         Chlasch       old   60            46           0.2333
+32    R4                         Chlasch  shuffled   60             0           1.0000
+33    R4                         Chlovul     novel  200            69           0.6550
+34    R4                         Chlovul       old   60            54           0.1000
+35    R4                         Chlovul  shuffled   60             0           1.0000
+36    R4                         Coccsub     novel  200            50           0.7500
+37    R4                         Coccsub       old   60            54           0.1000
+38    R4                         Coccsub  shuffled   60             0           1.0000
+39    R4                         Dunasal     novel  200            47           0.7650
+40    R4                         Dunasal       old   60            37           0.3833
+41    R4                         Dunasal  shuffled   60             0           1.0000
+42    R4                         Edapdeb     novel  200            79           0.6050
+43    R4                         Edapdeb       old   60            60           0.0000
+44    R4                         Edapdeb  shuffled   60             0           1.0000
+45    R4                         Gonipec     novel  200            46           0.7700
+46    R4                         Gonipec       old   60            49           0.1833
+47    R4                         Gonipec  shuffled   60             0           1.0000
+48    R4              Gonium_Volvocaceae     novel   76            45           0.4079
+49    R4              Gonium_Volvocaceae       old   35            30           0.1429
+50    R4              Gonium_Volvocaceae  shuffled   35             0           1.0000
+51    R4                         Ostrtau     novel  200            83           0.5850
+52    R4                         Ostrtau       old   45            36           0.2000
+53    R4                         Ostrtau  shuffled   45             0           1.0000
+54    R4                         Pleosta     novel  200            39           0.8050
+55    R4                         Pleosta       old   39            27           0.3077
+56    R4                         Pleosta  shuffled   39             0           1.0000
+57    R4                         Raphsub     novel  200            95           0.5250
+58    R4                         Raphsub       old   60            56           0.0667
+59    R4                         Raphsub  shuffled   60             0           1.0000
+60    R4                   Reinhardtinia     novel  200           155           0.2250
+61    R4                   Reinhardtinia       old   60            59           0.0167
+62    R4                   Reinhardtinia  shuffled   60             0           1.0000
+63    R4                         Sangaur     novel  200            63           0.6850
+64    R4                         Sangaur       old   60            47           0.2167
+65    R4                         Sangaur  shuffled   60             0           1.0000
+66    R4                       TGV_clade     novel   34            13           0.6176
+67    R4                       TGV_clade       old   54            53           0.0185
+68    R4                       TGV_clade  shuffled   54             0           1.0000
+69    R4                         Tetrsoc     novel  200            42           0.7900
+70    R4                         Tetrsoc       old   60            49           0.1833
+71    R4                         Tetrsoc  shuffled   60             0           1.0000
+72    R4                Trebouxiophyceae     novel   44            34           0.2273
+73    R4                Trebouxiophyceae       old   60            59           0.0167
+74    R4                Trebouxiophyceae  shuffled   60             0           1.0000
+75    R4                         Volvafr     novel  200            21           0.8950
+76    R4                         Volvafr       old   26             6           0.7692
+77    R4                         Volvafr  shuffled   26             0           1.0000
+78    R4                         Volvcar     novel  200            30           0.8500
+79    R4                         Volvcar       old   37            22           0.4054
+80    R4                         Volvcar  shuffled   37             0           1.0000
+81    R4                     Volvocaceae     novel  199           106           0.4673
+82    R4                     Volvocaceae       old   34            29           0.1471
+83    R4                     Volvocaceae  shuffled   34             0           1.0000
+84    R4  Volvox_africanus_reticuliferus     novel  104            35           0.6635
+85    R4  Volvox_africanus_reticuliferus       old   11             6           0.4545
+86    R4  Volvox_africanus_reticuliferus  shuffled   11             0           1.0000
+87    R4                         Volvret     novel  200             5           0.9750
+88    R4                         Volvret       old   57            18           0.6842
+89    R4                         Volvret  shuffled   57             0           1.0000
+90    R4                         Yamauni     novel  200            11           0.9450
+91    R4                         Yamauni       old   42            23           0.4524
+92    R4                         Yamauni  shuffled   42             0           1.0000
+93    R4               core_chlorophytes     novel  200           119           0.4050
+94    R4               core_chlorophytes       old   44            43           0.0227
+95    R4               core_chlorophytes  shuffled   44             0           1.0000
+[2026-10-29T23:11:40+01:00] R4: end
+[2026-10-30T00:16:42+01:00] R3: start
+[2026-10-30 00:16:45] R3: 471,379 proteins, 471,379 with 3Di
+[2026-10-30 00:16:49] R3: sample {'novel': 2203, 'old': 1031, 'shuffled': 1031} families; 11,209 query sequences
+[2026-10-30 00:17:21] R3 Anydrophyta: 608 queries vs 140,602 targets (9 species) -> 46,315 hits in 28s
+[2026-10-30 00:17:58] R3 Charbra: 322 queries vs 436,771 targets (20 species) -> 32,470 hits in 36s
+[2026-10-30 00:18:50] R3 Chlorophyta: 443 queries vs 435,412 targets (18 species) -> 65,302 hits in 51s
+[2026-10-30 00:19:04] R3 Chlorophyta_Streptophyta: 948 queries vs 7,111 targets (1 species) -> 13,981 hits in 14s
+[2026-10-30 00:19:23] R3 Coleochaetophyceae_Anydrophyta: 562 queries vs 123,899 targets (8 species) -> 31,369 hits in 18s
+[2026-10-30 00:20:08] R3 Embryophyta: 857 queries vs 221,284 targets (13 species) -> 68,987 hits in 44s
+[2026-10-30 00:20:39] R3 Euphyllophyta: 596 queries vs 303,800 targets (16 species) -> 55,162 hits in 30s
+[2026-10-30 00:21:11] R3 Klebsormidiophyceae_Phragmoplastophyta: 913 queries vs 73,142 targets (6 species) -> 52,381 hits in 31s
+[2026-10-30 00:21:48] R3 Magnoliopsida: 698 queries vs 379,532 targets (18 species) -> 80,197 hits in 36s
+[2026-10-30 00:22:07] R3 Mesangiospermae: 269 queries vs 406,897 targets (19 species) -> 31,669 hits in 18s
+[2026-10-30 00:23:16] R3 Mesostigmatophyceae_Chlorokybophyceae: 403 queries vs 441,315 targets (19 species) -> 59,993 hits in 68s
+[2026-10-30 00:23:36] R3 Mesotaeniaceae: 95 queries vs 441,347 targets (19 species) -> 17,986 hits in 19s
+[2026-10-30 00:23:59] R3 Setaphyta: 272 queries vs 421,976 targets (19 species) -> 22,358 hits in 22s
+[2026-10-30 00:24:32] R3 Spermatophyta: 681 queries vs 339,125 targets (17 species) -> 70,335 hits in 32s
+[2026-10-30 00:24:57] R3 Streptophyta: 933 queries vs 43,078 targets (4 species) -> 37,119 hits in 24s
+[2026-10-30 00:25:31] R3 Streptophytina: 762 queries vs 89,291 targets (7 species) -> 47,801 hits in 33s
+[2026-10-30 00:25:58] R3 Tracheophyta: 525 queries vs 270,687 targets (15 species) -> 94,012 hits in 26s
+[2026-10-30 00:26:24] R3 Zygnematophyceae: 278 queries vs 390,697 targets (17 species) -> 48,534 hits in 25s
+[2026-10-30 00:27:21] R3 Zygnematophycidae: 393 queries vs 417,427 targets (18 species) -> 113,491 hits in 56s
+[2026-10-30 00:29:15] R3 core_chlorophytes: 651 queries vs 443,135 targets (19 species) -> 104,007 hits in 113s
+   panel                            branch_child      kind    n  n_struct_old  frac_struct_new
+0     R3                             Anydrophyta     novel   96            45           0.5312
+1     R3                             Anydrophyta       old   60            52           0.1333
+2     R3                             Anydrophyta  shuffled   60             0           1.0000
+3     R3                                 Charbra     novel  200            61           0.6950
+4     R3                                 Charbra       old   60            58           0.0333
+5     R3                                 Charbra  shuffled   60             0           1.0000
+6     R3                             Chlorophyta     novel   38            18           0.5263
+7     R3                             Chlorophyta       old   60            59           0.0167
+8     R3                             Chlorophyta  shuffled   60             0           1.0000
+9     R3                Chlorophyta_Streptophyta     novel  200           109           0.4550
+10    R3                Chlorophyta_Streptophyta       old   60            60           0.0000
+11    R3                Chlorophyta_Streptophyta  shuffled   60             0           1.0000
+12    R3          Coleochaetophyceae_Anydrophyta     novel   83            40           0.5181
+13    R3          Coleochaetophyceae_Anydrophyta       old   60            55           0.0833
+14    R3          Coleochaetophyceae_Anydrophyta  shuffled   60             0           1.0000
+15    R3                             Embryophyta     novel  200            93           0.5350
+16    R3                             Embryophyta       old   46            41           0.1087
+17    R3                             Embryophyta  shuffled   46             0           1.0000
+18    R3                           Euphyllophyta     novel   92            35           0.6196
+19    R3                           Euphyllophyta       old   60            51           0.1500
+20    R3                           Euphyllophyta  shuffled   60             0           1.0000
+21    R3  Klebsormidiophyceae_Phragmoplastophyta     novel  200           139           0.3050
+22    R3  Klebsormidiophyceae_Phragmoplastophyta       old   60            60           0.0000
+23    R3  Klebsormidiophyceae_Phragmoplastophyta  shuffled   60             0           1.0000
+24    R3                           Magnoliopsida     novel  138            35           0.7464
+25    R3                           Magnoliopsida       old   60            50           0.1667
+26    R3                           Magnoliopsida  shuffled   60             0           1.0000
+27    R3                         Mesangiospermae     novel   43            18           0.5814
+28    R3                         Mesangiospermae       old   30            24           0.2000
+29    R3                         Mesangiospermae  shuffled   30             0           1.0000
+30    R3   Mesostigmatophyceae_Chlorokybophyceae     novel   54            44           0.1852
+31    R3   Mesostigmatophyceae_Chlorokybophyceae       old   60            59           0.0167
+32    R3   Mesostigmatophyceae_Chlorokybophyceae  shuffled   60             0           1.0000
+33    R3                          Mesotaeniaceae     novel   17            12           0.2941
+34    R3                          Mesotaeniaceae       old   13            13           0.0000
+35    R3                          Mesotaeniaceae  shuffled   13             0           1.0000
+36    R3                               Setaphyta     novel   51            17           0.6667
+37    R3                               Setaphyta       old   26            24           0.0769
+38    R3                               Setaphyta  shuffled   26             0           1.0000
+39    R3                           Spermatophyta     novel  156            51           0.6731
+40    R3                           Spermatophyta       old   48            39           0.1875
+41    R3                           Spermatophyta  shuffled   48             0           1.0000
+42    R3                            Streptophyta     novel  200           134           0.3300
+43    R3                            Streptophyta       old   60            60           0.0000
+44    R3                            Streptophyta  shuffled   60             0           1.0000
+45    R3                          Streptophytina     novel  155           115           0.2581
+46    R3                          Streptophytina       old   60            59           0.0167
+47    R3                          Streptophytina  shuffled   60             0           1.0000
+48    R3                            Tracheophyta     novel   64            35           0.4531
+49    R3                            Tracheophyta       old   60            54           0.1000
+50    R3                            Tracheophyta  shuffled   60             0           1.0000
+51    R3                        Zygnematophyceae     novel   32            16           0.5000
+52    R3                        Zygnematophyceae       old   33            33           0.0000
+53    R3                        Zygnematophyceae  shuffled   33             0           1.0000
+54    R3                       Zygnematophycidae     novel   38            31           0.1842
+55    R3                       Zygnematophycidae       old   55            54           0.0182
+56    R3                       Zygnematophycidae  shuffled   55             0           1.0000
+57    R3                       core_chlorophytes     novel  146           111           0.2397
+58    R3                       core_chlorophytes       old   60            59           0.0167
+59    R3                       core_chlorophytes  shuffled   60             0           1.0000
+[2026-10-30T00:29:30+01:00] R3: end
+[2026-10-30T02:19:32+01:00] R6: start
+[2026-10-30 02:19:37] R6: 521,323 proteins, 521,323 with 3Di
+[2026-10-30 02:19:41] R6: sample {'novel': 8531, 'old': 2487, 'shuffled': 2487} families; 20,944 query sequences
+[2026-10-30 02:19:56] R6 Ascnod: 320 queries vs 498,829 targets (28 species) -> 8,231 hits in 12s
+[2026-10-30 02:20:39] R6 Aureano: 335 queries vs 509,838 targets (28 species) -> 49,267 hits in 42s
+[2026-10-30 02:21:57] R6 Bacillariophycidae: 691 queries vs 492,848 targets (27 species) -> 52,604 hits in 77s
+[2026-10-30 02:23:54] R6 Bacillariophyta: 885 queries vs 481,159 targets (26 species) -> 74,319 hits in 115s
+[2026-10-30 02:25:16] R6 Caferoe: 320 queries vs 512,899 targets (28 species) -> 53,654 hits in 81s
+[2026-10-30 02:25:31] R6 Chorlin: 320 queries vs 504,353 targets (28 species) -> 13,344 hits in 14s
+[2026-10-30 02:25:49] R6 Chorten: 344 queries vs 508,033 targets (28 species) -> 11,147 hits in 17s
+[2026-10-30 02:26:11] R6 Chryaus: 322 queries vs 502,843 targets (28 species) -> 15,361 hits in 21s
+[2026-10-30 02:26:26] R6 Desmher: 280 queries vs 504,583 targets (28 species) -> 8,009 hits in 14s
+[2026-10-30 02:26:45] R6 Dictdic: 336 queries vs 501,489 targets (28 species) -> 19,833 hits in 18s
+[2026-10-30 02:27:06] R6 Dictyotophycidae: 171 queries vs 484,475 targets (27 species) -> 27,079 hits in 20s
+[2026-10-30 02:28:11] R6 Dictyotophycidae_Fucophycidae: 917 queries vs 286,025 targets (17 species) -> 75,978 hits in 64s
+[2026-10-30 02:28:28] R6 Discmes: 332 queries vs 495,681 targets (28 species) -> 7,401 hits in 16s
+[2026-10-30 02:28:54] R6 Discosporangiales: 272 queries vs 482,391 targets (27 species) -> 37,729 hits in 25s
+[2026-10-30 02:29:51] R6 Ectocarpales: 803 queries vs 439,000 targets (25 species) -> 74,951 hits in 55s
+[2026-10-30 02:30:13] R6 Ectosil: 313 queries vs 505,171 targets (28 species) -> 24,337 hits in 21s
+[2026-10-30 02:30:47] R6 Fragcyl: 334 queries vs 503,280 targets (28 species) -> 21,177 hits in 33s
+[2026-10-30 02:31:28] R6 Fucaceae: 771 queries vs 454,593 targets (26 species) -> 58,582 hits in 40s
+[2026-10-30 02:32:17] R6 Fucophycidae: 884 queries vs 322,873 targets (19 species) -> 58,247 hits in 49s
+[2026-10-30 02:32:30] R6 Fucuser: 320 queries vs 501,074 targets (28 species) -> 6,272 hits in 12s
+[2026-10-30 02:32:54] R6 Gyrista: 865 queries vs 8,424 targets (1 species) -> 26,623 hits in 22s
+[2026-10-30 02:33:13] R6 Halopan: 330 queries vs 504,309 targets (28 species) -> 12,959 hits in 18s
+[2026-10-30 02:33:46] R6 Heteaka: 332 queries vs 508,176 targets (28 species) -> 50,519 hits in 31s
+[2026-10-30 02:34:23] R6 Laminariales: 209 queries vs 488,666 targets (27 species) -> 16,258 hits in 36s
+[2026-10-30 02:35:08] R6 Nannsal: 324 queries vs 512,518 targets (28 species) -> 31,193 hits in 44s
+[2026-10-30 02:35:30] R6 Ochrophyta: 920 queries vs 45,991 targets (3 species) -> 61,840 hits in 22s
+[2026-10-30 02:37:07] R6 Oomycota: 747 queries vs 483,756 targets (27 species) -> 121,861 hits in 95s
+[2026-10-30 02:37:47] R6 PX_clade: 865 queries vs 162,909 targets (11 species) -> 78,460 hits in 39s
+[2026-10-30 02:38:19] R6 Pelacal: 340 queries vs 504,915 targets (28 species) -> 29,101 hits in 31s
+[2026-10-30 02:40:14] R6 Pelagomonadaceae: 693 queries vs 493,430 targets (27 species) -> 130,555 hits in 114s
+[2026-10-30 02:40:29] R6 Pelvcan: 320 queries vs 497,336 targets (28 species) -> 11,356 hits in 14s
+[2026-10-30 02:40:50] R6 Phaecon: 328 queries vs 494,850 targets (28 species) -> 16,868 hits in 20s
+[2026-10-30 02:41:45] R6 Phaeophyceae: 926 queries vs 247,093 targets (15 species) -> 65,708 hits in 54s
+[2026-10-30 02:42:29] R6 Phaeophyceae_Schizocladia: 883 queries vs 225,930 targets (14 species) -> 63,328 hits in 44s
+[2026-10-30 02:43:08] R6 Phaetri: 327 queries vs 510,891 targets (28 species) -> 25,459 hits in 38s
+[2026-10-30 02:43:28] R6 Phytinf: 276 queries vs 503,796 targets (28 species) -> 5,752 hits in 19s
+[2026-10-30 02:43:57] R6 Potemal: 340 queries vs 494,414 targets (28 species) -> 32,178 hits in 28s
+[2026-10-30 02:44:13] R6 Pylalit: 340 queries vs 500,261 targets (28 species) -> 6,742 hits in 14s
+[2026-10-30 02:44:27] R6 Sacclat: 332 queries vs 502,850 targets (28 species) -> 14,043 hits in 13s
+[2026-10-30 02:44:58] R6 Saprpar: 350 queries vs 501,283 targets (28 species) -> 55,478 hits in 30s
+[2026-10-30 02:45:14] R6 Schiisc: 332 queries vs 500,160 targets (28 species) -> 7,451 hits in 15s
+[2026-10-30 02:45:31] R6 Scytpro: 330 queries vs 493,184 targets (28 species) -> 21,276 hits in 16s
+[2026-10-30 02:46:19] R6 Thalpse: 346 queries vs 509,634 targets (28 species) -> 20,756 hits in 47s
+[2026-10-30 02:46:56] R6 Tribmin: 333 queries vs 503,255 targets (28 species) -> 33,160 hits in 36s
+[2026-10-30 02:47:26] R6 Undapin: 286 queries vs 507,139 targets (28 species) -> 9,880 hits in 29s
+    panel                   branch_child      kind    n  n_struct_old  frac_struct_new
+0      R6                         Ascnod     novel  200             4           0.9800
+1      R6                         Ascnod       old   60            27           0.5500
+2      R6                         Ascnod  shuffled   60             0           1.0000
+3      R6                        Aureano     novel  200            75           0.6250
+4      R6                        Aureano       old   60            57           0.0500
+5      R6                        Aureano  shuffled   60             0           1.0000
+6      R6             Bacillariophycidae     novel  200           126           0.3700
+7      R6             Bacillariophycidae       old   60            59           0.0167
+8      R6             Bacillariophycidae  shuffled   60             0           1.0000
+9      R6                Bacillariophyta     novel  200           144           0.2800
+10     R6                Bacillariophyta       old   60            60           0.0000
+11     R6                Bacillariophyta  shuffled   60             0           1.0000
+12     R6                        Caferoe     novel  200           119           0.4050
+13     R6                        Caferoe       old   60            60           0.0000
+14     R6                        Caferoe  shuffled   60             0           1.0000
+15     R6                        Chorlin     novel  200             9           0.9550
+16     R6                        Chorlin       old   60            30           0.5000
+17     R6                        Chorlin  shuffled   60             0           1.0000
+18     R6                        Chorten     novel  200            12           0.9400
+19     R6                        Chorten       old   60            32           0.4667
+20     R6                        Chorten  shuffled   60             0           1.0000
+21     R6                        Chryaus     novel  200            74           0.6300
+22     R6                        Chryaus       old   60            50           0.1667
+23     R6                        Chryaus  shuffled   60             0           1.0000
+24     R6                        Desmher     novel  200             8           0.9600
+25     R6                        Desmher       old   38            17           0.5526
+26     R6                        Desmher  shuffled   38             0           1.0000
+27     R6                        Dictdic     novel  200             6           0.9700
+28     R6                        Dictdic       old   60            41           0.3167
+29     R6                        Dictdic  shuffled   60             0           1.0000
+30     R6               Dictyotophycidae     novel   17            11           0.3529
+31     R6               Dictyotophycidae       old   27            23           0.1481
+32     R6               Dictyotophycidae  shuffled   27             0           1.0000
+33     R6  Dictyotophycidae_Fucophycidae     novel  200            85           0.5750
+34     R6  Dictyotophycidae_Fucophycidae       old   60            56           0.0667
+35     R6  Dictyotophycidae_Fucophycidae  shuffled   60             0           1.0000
+36     R6                        Discmes     novel  200            23           0.8850
+37     R6                        Discmes       old   60            35           0.4167
+38     R6                        Discmes  shuffled   60             0           1.0000
+39     R6              Discosporangiales     novel   63            21           0.6667
+40     R6              Discosporangiales       old   34            28           0.1765
+41     R6              Discosporangiales  shuffled   34             0           1.0000
+42     R6                   Ectocarpales     novel  200            60           0.7000
+43     R6                   Ectocarpales       old   60            49           0.1833
+44     R6                   Ectocarpales  shuffled   60             0           1.0000
+45     R6                        Ectosil     novel  200            14           0.9300
+46     R6                        Ectosil       old   47            38           0.1915
+47     R6                        Ectosil  shuffled   47             0           1.0000
+48     R6                        Fragcyl     novel  200            78           0.6100
+49     R6                        Fragcyl       old   60            51           0.1500
+50     R6                        Fragcyl  shuffled   60             0           1.0000
+51     R6                       Fucaceae     novel  200            37           0.8150
+52     R6                       Fucaceae       old   60            43           0.2833
+53     R6                       Fucaceae  shuffled   60             0           1.0000
+54     R6                   Fucophycidae     novel  200            69           0.6550
+55     R6                   Fucophycidae       old   60            48           0.2000
+56     R6                   Fucophycidae  shuffled   60             0           1.0000
+57     R6                        Fucuser     novel  200             2           0.9900
+58     R6                        Fucuser       old   60            20           0.6667
+59     R6                        Fucuser  shuffled   60             0           1.0000
+60     R6                        Gyrista     novel  200           154           0.2300
+61     R6                        Gyrista       old   46            46           0.0000
+62     R6                        Gyrista  shuffled   46             0           1.0000
+63     R6                        Halopan     novel  200             8           0.9600
+64     R6                        Halopan       old   60            34           0.4333
+65     R6                        Halopan  shuffled   60             0           1.0000
+66     R6                        Heteaka     novel  200            68           0.6600
+67     R6                        Heteaka       old   60            56           0.0667
+68     R6                        Heteaka  shuffled   60             0           1.0000
+69     R6                   Laminariales     novel   51            17           0.6667
+70     R6                   Laminariales       old   21            18           0.1429
+71     R6                   Laminariales  shuffled   21             0           1.0000
+72     R6                        Nannsal     novel  200            74           0.6300
+73     R6                        Nannsal       old   60            50           0.1667
+74     R6                        Nannsal  shuffled   60             0           1.0000
+75     R6                     Ochrophyta     novel  200           150           0.2500
+76     R6                     Ochrophyta       old   60            60           0.0000
+77     R6                     Ochrophyta  shuffled   60             0           1.0000
+78     R6                       Oomycota     novel  200           137           0.3150
+79     R6                       Oomycota       old   60            59           0.0167
+80     R6                       Oomycota  shuffled   60             0           1.0000
+81     R6                       PX_clade     novel  200           133           0.3350
+82     R6                       PX_clade       old   60            60           0.0000
+83     R6                       PX_clade  shuffled   60             0           1.0000
+84     R6                        Pelacal     novel  200            82           0.5900
+85     R6                        Pelacal       old   60            50           0.1667
+86     R6                        Pelacal  shuffled   60             0           1.0000
+87     R6               Pelagomonadaceae     novel  200           169           0.1550
+88     R6               Pelagomonadaceae       old   60            59           0.0167
+89     R6               Pelagomonadaceae  shuffled   60             0           1.0000
+90     R6                        Pelvcan     novel  200            58           0.7100
+91     R6                        Pelvcan       old   60            19           0.6833
+92     R6                        Pelvcan  shuffled   60             0           1.0000
+93     R6                        Phaecon     novel  200            53           0.7350
+94     R6                        Phaecon       old   60            51           0.1500
+95     R6                        Phaecon  shuffled   60             0           1.0000
+96     R6                   Phaeophyceae     novel  200           106           0.4700
+97     R6                   Phaeophyceae       old   60            57           0.0500
+98     R6                   Phaeophyceae  shuffled   60             0           1.0000
+99     R6      Phaeophyceae_Schizocladia     novel  200           118           0.4100
+100    R6      Phaeophyceae_Schizocladia       old   60            55           0.0833
+101    R6      Phaeophyceae_Schizocladia  shuffled   60             0           1.0000
+102    R6                        Phaetri     novel  200            78           0.6100
+103    R6                        Phaetri       old   60            55           0.0833
+104    R6                        Phaetri  shuffled   60             0           1.0000
+105    R6                        Phytinf     novel  200            30           0.8500
+106    R6                        Phytinf       old   26            22           0.1538
+107    R6                        Phytinf  shuffled   26             0           1.0000
+108    R6                        Potemal     novel  200            84           0.5800
+109    R6                        Potemal       old   60            52           0.1333
+110    R6                        Potemal  shuffled   60             0           1.0000
+111    R6                        Pylalit     novel  200             3           0.9850
+112    R6                        Pylalit       old   60            20           0.6667
+113    R6                        Pylalit  shuffled   60             0           1.0000
+114    R6                        Sacclat     novel  200             9           0.9550
+115    R6                        Sacclat       old   60            18           0.7000
+116    R6                        Sacclat  shuffled   60             0           1.0000
+117    R6                        Saprpar     novel  200            73           0.6350
+118    R6                        Saprpar       old   60            56           0.0667
+119    R6                        Saprpar  shuffled   60             0           1.0000
+120    R6                        Schiisc     novel  200             5           0.9750
+121    R6                        Schiisc       old   60            37           0.3833
+122    R6                        Schiisc  shuffled   60             0           1.0000
+123    R6                        Scytpro     novel  200            39           0.8050
+124    R6                        Scytpro       old   60            33           0.4500
+125    R6                        Scytpro  shuffled   60             0           1.0000
+126    R6                        Thalpse     novel  200            78           0.6100
+127    R6                        Thalpse       old   60            55           0.0833
+128    R6                        Thalpse  shuffled   60             0           1.0000
+129    R6                        Tribmin     novel  200            61           0.6950
+130    R6                        Tribmin       old   60            52           0.1333
+131    R6                        Tribmin  shuffled   60             0           1.0000
+132    R6                        Undapin     novel  200            15           0.9250
+133    R6                        Undapin       old   28            19           0.3214
+134    R6                        Undapin  shuffled   28             0           1.0000
+[2026-10-30T02:47:50+01:00] R6: end
+[2026-10-30T03:02:50+01:00] R5: start
+[2026-10-30 03:02:52] R5: 189,824 proteins, 189,824 with 3Di
+[2026-10-30 03:02:54] R5: sample {'novel': 2128, 'old': 538, 'shuffled': 538} families; 7,218 query sequences
+[2026-10-30 03:03:38] R5 Bangiaceae: 737 queries vs 153,973 targets (15 species) -> 65,999 hits in 42s
+[2026-10-30 03:03:50] R5 Bangsp: 330 queries vs 181,947 targets (17 species) -> 18,477 hits in 11s
+[2026-10-30 03:03:58] R5 Chlorophyta: 77 queries vs 164,490 targets (16 species) -> 4,060 hits in 7s
+[2026-10-30 03:04:09] R5 Compcae: 294 queries vs 183,271 targets (17 species) -> 16,194 hits in 10s
+[2026-10-30 03:04:16] R5 Cyanidiophyceae: 92 queries vs 171,377 targets (15 species) -> 8,932 hits in 6s
+[2026-10-30 03:04:36] R5 Eurhodophytina: 452 queries vs 115,203 targets (11 species) -> 39,738 hits in 19s
+[2026-10-30 03:04:59] R5 Galdieria: 505 queries vs 176,359 targets (16 species) -> 32,174 hits in 22s
+[2026-10-30 03:05:25] R5 Gracilariaceae: 622 queries vs 171,506 targets (16 species) -> 27,706 hits in 25s
+[2026-10-30 03:05:43] R5 Proteorhodophytina: 342 queries vs 157,342 targets (14 species) -> 48,355 hits in 18s
+[2026-10-30 03:06:21] R5 Pyropia: 677 queries vs 167,129 targets (16 species) -> 31,015 hits in 37s
+[2026-10-30 03:06:40] R5 Rhodophyta: 615 queries vs 64,274 targets (4 species) -> 33,703 hits in 19s
+[2026-10-30 03:06:49] R5 Rhodophyta_Rhodelphidia: 207 queries vs 49,712 targets (3 species) -> 10,212 hits in 8s
+[2026-10-30 03:07:18] R5 Rhodophytina: 814 queries vs 82,721 targets (7 species) -> 66,780 hits in 28s
+[2026-10-30 03:07:59] R5 Rhodymeniophycidae: 884 queries vs 151,054 targets (14 species) -> 84,058 hits in 40s
+[2026-10-30 03:08:25] R5 Stylonemataceae: 570 queries vs 173,568 targets (16 species) -> 73,148 hits in 26s
+   panel             branch_child      kind    n  n_struct_old  frac_struct_new
+0     R5               Bangiaceae     novel  200           108           0.4600
+1     R5               Bangiaceae       old   35            34           0.0286
+2     R5               Bangiaceae  shuffled   35             0           1.0000
+3     R5                   Bangsp     novel  200            27           0.8650
+4     R5                   Bangsp       old   57            42           0.2632
+5     R5                   Bangsp  shuffled   57             0           1.0000
+6     R5              Chlorophyta     novel   22            12           0.4545
+7     R5              Chlorophyta       old    8             8           0.0000
+8     R5              Chlorophyta  shuffled    8             0           1.0000
+9     R5                  Compcae     novel  200            35           0.8250
+10    R5                  Compcae       old   44            36           0.1818
+11    R5                  Compcae  shuffled   44             0           1.0000
+12    R5          Cyanidiophyceae     novel   11             7           0.3636
+13    R5          Cyanidiophyceae       old   11            11           0.0000
+14    R5          Cyanidiophyceae  shuffled   11             0           1.0000
+15    R5           Eurhodophytina     novel   96            71           0.2604
+16    R5           Eurhodophytina       old   29            28           0.0345
+17    R5           Eurhodophytina  shuffled   29             0           1.0000
+18    R5                Galdieria     novel  200            87           0.5650
+19    R5                Galdieria       old   20            18           0.1000
+20    R5                Galdieria  shuffled   20             0           1.0000
+21    R5           Gracilariaceae     novel  200           104           0.4800
+22    R5           Gracilariaceae       old   42            31           0.2619
+23    R5           Gracilariaceae  shuffled   42             0           1.0000
+24    R5       Proteorhodophytina     novel   37            28           0.2432
+25    R5       Proteorhodophytina       old   43            42           0.0233
+26    R5       Proteorhodophytina  shuffled   43             0           1.0000
+27    R5                  Pyropia     novel  200           105           0.4750
+28    R5                  Pyropia       old   60            51           0.1500
+29    R5                  Pyropia  shuffled   60             0           1.0000
+30    R5               Rhodophyta     novel  173           109           0.3699
+31    R5               Rhodophyta       old   17            17           0.0000
+32    R5               Rhodophyta  shuffled   17             0           1.0000
+33    R5  Rhodophyta_Rhodelphidia     novel   14            12           0.1429
+34    R5  Rhodophyta_Rhodelphidia       old   28            28           0.0000
+35    R5  Rhodophyta_Rhodelphidia  shuffled   28             0           1.0000
+36    R5             Rhodophytina     novel  175           117           0.3314
+37    R5             Rhodophytina       old   50            49           0.0200
+38    R5             Rhodophytina  shuffled   50             0           1.0000
+39    R5       Rhodymeniophycidae     novel  200           127           0.3650
+40    R5       Rhodymeniophycidae       old   58            57           0.0172
+41    R5       Rhodymeniophycidae  shuffled   58             0           1.0000
+42    R5          Stylonemataceae     novel  200           111           0.4450
+43    R5          Stylonemataceae       old   36            34           0.0556
+44    R5          Stylonemataceae  shuffled   36             0           1.0000
+[2026-10-30T03:08:33+01:00] R5: end
+[2026-10-30T04:33:34+01:00] R7: start
+[2026-10-30 04:33:37] R7: 355,932 proteins, 355,932 with 3Di
+[2026-10-30 04:33:41] R7: sample {'novel': 2442, 'old': 956, 'shuffled': 956} families; 10,923 query sequences
+[2026-10-30 04:34:17] R7 Acytosteliaceae: 342 queries vs 331,156 targets (23 species) -> 86,397 hits in 34s
+[2026-10-30 04:34:59] R7 Acytosteliales: 460 queries vs 319,197 targets (22 species) -> 98,584 hits in 40s
+[2026-10-30 04:35:17] R7 Amoebozoa: 915 queries vs 26,828 targets (3 species) -> 61,642 hits in 18s
+[2026-10-30 04:36:26] R7 Archamoebae: 664 queries vs 313,457 targets (22 species) -> 138,208 hits in 68s
+[2026-10-30 04:36:52] R7 Cavosteliaceae: 250 queries vs 320,971 targets (23 species) -> 58,055 hits in 25s
+[2026-10-30 04:37:17] R7 Coprpro: 330 queries vs 340,488 targets (24 species) -> 39,161 hits in 23s
+[2026-10-30 04:38:31] R7 Dictyostelia: 945 queries vs 263,189 targets (17 species) -> 156,779 hits in 73s
+[2026-10-30 04:39:07] R7 Dictyosteliaceae: 405 queries vs 310,132 targets (21 species) -> 81,189 hits in 35s
+[2026-10-30 04:39:49] R7 Dictyosteliales: 471 queries vs 299,924 targets (20 species) -> 81,435 hits in 41s
+[2026-10-30 04:40:36] R7 Dictyostelium: 628 queries vs 320,666 targets (22 species) -> 79,765 hits in 46s
+[2026-10-30 04:41:16] R7 Discosea: 390 queries vs 317,376 targets (23 species) -> 86,975 hits in 39s
+[2026-10-30 04:42:09] R7 Elardia: 783 queries vs 300,451 targets (22 species) -> 168,520 hits in 52s
+[2026-10-30 04:43:07] R7 Eumycetozoa: 710 queries vs 225,127 targets (15 species) -> 145,368 hits in 57s
+[2026-10-30 04:43:47] R7 Evosea: 817 queries vs 134,167 targets (9 species) -> 109,775 hits in 39s
+[2026-10-30 04:44:30] R7 Holozoa: 219 queries vs 338,044 targets (23 species) -> 52,305 hits in 42s
+[2026-10-30 04:44:51] R7 Mastigamoebida: 102 queries vs 333,184 targets (23 species) -> 19,065 hits in 20s
+[2026-10-30 04:45:41] R7 Myxogastria_Ceratiomyxa: 586 queries vs 317,870 targets (23 species) -> 140,822 hits in 48s
+[2026-10-30 04:46:40] R7 Opisthokonta: 438 queries vs 329,104 targets (22 species) -> 75,181 hits in 58s
+[2026-10-30 04:47:35] R7 Tubulinea: 686 queries vs 287,149 targets (21 species) -> 148,075 hits in 54s
+[2026-10-30 04:48:48] R7 Variosea: 782 queries vs 307,447 targets (22 species) -> 156,810 hits in 72s
+   panel             branch_child      kind    n  n_struct_old  frac_struct_new
+0     R7          Acytosteliaceae     novel  103            74           0.2816
+1     R7          Acytosteliaceae       old   24            22           0.0833
+2     R7          Acytosteliaceae  shuffled   24             0           1.0000
+3     R7           Acytosteliales     novel   98            63           0.3571
+4     R7           Acytosteliales       old   38            34           0.1053
+5     R7           Acytosteliales  shuffled   38             0           1.0000
+6     R7                Amoebozoa     novel  200           148           0.2600
+7     R7                Amoebozoa       old   60            60           0.0000
+8     R7                Amoebozoa  shuffled   60             0           1.0000
+9     R7              Archamoebae     novel  129           105           0.1860
+10    R7              Archamoebae       old   60            60           0.0000
+11    R7              Archamoebae  shuffled   60             0           1.0000
+12    R7           Cavosteliaceae     novel   22            18           0.1818
+13    R7           Cavosteliaceae       old   42            41           0.0238
+14    R7           Cavosteliaceae  shuffled   42             0           1.0000
+15    R7                  Coprpro     novel  200            63           0.6850
+16    R7                  Coprpro       old   60            53           0.1167
+17    R7                  Coprpro  shuffled   60             0           1.0000
+18    R7             Dictyostelia     novel  200           117           0.4150
+19    R7             Dictyostelia       old   60            60           0.0000
+20    R7             Dictyostelia  shuffled   60             0           1.0000
+21    R7         Dictyosteliaceae     novel   97            76           0.2165
+22    R7         Dictyosteliaceae       old   26            22           0.1538
+23    R7         Dictyosteliaceae  shuffled   26             0           1.0000
+24    R7          Dictyosteliales     novel  103            59           0.4272
+25    R7          Dictyosteliales       old   32            29           0.0938
+26    R7          Dictyosteliales  shuffled   32             0           1.0000
+27    R7            Dictyostelium     novel  200            88           0.5600
+28    R7            Dictyostelium       old   32            24           0.2500
+29    R7            Dictyostelium  shuffled   32             0           1.0000
+30    R7                 Discosea     novel   45            40           0.1111
+31    R7                 Discosea       old   60            60           0.0000
+32    R7                 Discosea  shuffled   60             0           1.0000
+33    R7                  Elardia     novel  200           130           0.3500
+34    R7                  Elardia       old   60            56           0.0667
+35    R7                  Elardia  shuffled   60             0           1.0000
+36    R7              Eumycetozoa     novel  122            97           0.2049
+37    R7              Eumycetozoa       old   60            60           0.0000
+38    R7              Eumycetozoa  shuffled   60             0           1.0000
+39    R7                   Evosea     novel  167           121           0.2754
+40    R7                   Evosea       old   60            60           0.0000
+41    R7                   Evosea  shuffled   60             0           1.0000
+42    R7                  Holozoa     novel   32            30           0.0625
+43    R7                  Holozoa       old   30            30           0.0000
+44    R7                  Holozoa  shuffled   30             0           1.0000
+45    R7           Mastigamoebida     novel   14            13           0.0714
+46    R7           Mastigamoebida       old   12            12           0.0000
+47    R7           Mastigamoebida  shuffled   12             0           1.0000
+48    R7  Myxogastria_Ceratiomyxa     novel  138            95           0.3116
+49    R7  Myxogastria_Ceratiomyxa       old   60            59           0.0167
+50    R7  Myxogastria_Ceratiomyxa  shuffled   60             0           1.0000
+51    R7             Opisthokonta     novel   44            33           0.2500
+52    R7             Opisthokonta       old   60            60           0.0000
+53    R7             Opisthokonta  shuffled   60             0           1.0000
+54    R7                Tubulinea     novel  128            97           0.2422
+55    R7                Tubulinea       old   60            60           0.0000
+56    R7                Tubulinea  shuffled   60             0           1.0000
+57    R7                 Variosea     novel  200           120           0.4000
+58    R7                 Variosea       old   60            60           0.0000
+59    R7                 Variosea  shuffled   60             0           1.0000
+[2026-10-30T04:49:15+01:00] R7: end
+[2026-10-30T05:09:15+01:00] R8: start
+[2026-10-30 05:09:17] R8: 187,809 proteins, 187,809 with 3Di
+[2026-10-30 05:09:19] R8: sample {'novel': 2341, 'old': 843, 'shuffled': 843} families; 7,467 query sequences
+[2026-10-30 05:09:27] R8 Acaryochloridales: 104 queries vs 178,110 targets (34 species) -> 22,443 hits in 6s
+[2026-10-30 05:09:33] R8 Aphanothecaceae: 87 queries vs 177,387 targets (34 species) -> 8,654 hits in 6s
+[2026-10-30 05:09:38] R8 Branching_Nostocales: 19 queries vs 176,814 targets (34 species) -> 1,369 hits in 4s
+[2026-10-30 05:09:44] R8 Chroococcales: 157 queries vs 171,433 targets (33 species) -> 14,178 hits in 5s
+[2026-10-30 05:09:50] R8 Chroococcidiopsidales: 57 queries vs 177,827 targets (34 species) -> 2,786 hits in 5s
+[2026-10-30 05:10:00] R8 Colechth: 322 queries vs 180,777 targets (35 species) -> 21,959 hits in 9s
+[2026-10-30 05:10:06] R8 Cyanophyceae: 741 queries vs 8,709 targets (2 species) -> 7,656 hits in 5s
+[2026-10-30 05:10:13] R8 Cyanophyceae_excl_Gloeobacter: 904 queries vs 13,089 targets (3 species) -> 19,168 hits in 6s
+[2026-10-30 05:10:20] R8 Hydrriv: 262 queries vs 183,443 targets (35 species) -> 21,335 hits in 6s
+[2026-10-30 05:10:27] R8 Hyelpat: 320 queries vs 180,764 targets (35 species) -> 14,136 hits in 6s
+[2026-10-30 05:10:37] R8 Leptbor: 322 queries vs 181,249 targets (35 species) -> 29,676 hits in 9s
+[2026-10-30 05:10:41] R8 Melainabacteria_Cyanophyceae: 208 queries vs 6,221 targets (1 species) -> 3,235 hits in 3s
+[2026-10-30 05:10:49] R8 Microcoleaceae: 64 queries vs 168,070 targets (32 species) -> 12,355 hits in 7s
+[2026-10-30 05:10:53] R8 Nostoc: 25 queries vs 175,289 targets (34 species) -> 7 hits in 3s
+[2026-10-30 05:11:00] R8 Nostocaceae: 342 queries vs 163,993 targets (32 species) -> 11,626 hits in 7s
+[2026-10-30 05:11:15] R8 Nostocales: 833 queries vs 128,029 targets (26 species) -> 71,503 hits in 14s
+[2026-10-30 05:11:27] R8 Nostocales_Chroococcidiopsis: 559 queries vs 118,047 targets (24 species) -> 54,132 hits in 11s
+[2026-10-30 05:11:45] R8 Oscillatoriales: 704 queries vs 156,605 targets (30 species) -> 87,709 hits in 18s
+[2026-10-30 05:11:57] R8 Oscillatoriophycideae: 419 queries vs 140,229 targets (27 species) -> 38,811 hits in 12s
+[2026-10-30 05:12:11] R8 Pleurocapsales: 347 queries vs 171,729 targets (33 species) -> 56,698 hits in 12s
+[2026-10-30 05:12:21] R8 Pseubic: 322 queries vs 183,197 targets (35 species) -> 23,868 hits in 9s
+[2026-10-30 05:12:30] R8 Spirsub: 317 queries vs 183,475 targets (35 species) -> 24,339 hits in 9s
+[2026-10-30 05:12:35] R8 Synechococcales: 32 queries vs 181,701 targets (34 species) -> 2,135 hits in 3s
+   panel                   branch_child      kind    n  n_struct_old  frac_struct_new
+0     R8              Acaryochloridales     novel   10             6           0.4000
+1     R8              Acaryochloridales       old   18            17           0.0556
+2     R8              Acaryochloridales  shuffled   18             0           1.0000
+3     R8                Aphanothecaceae     novel   22             3           0.8636
+4     R8                Aphanothecaceae       old    8             7           0.1250
+5     R8                Aphanothecaceae  shuffled    8             0           1.0000
+6     R8           Branching_Nostocales     novel    9             4           0.5556
+7     R8                  Chroococcales     novel   16             6           0.6250
+8     R8                  Chroococcales       old   23            19           0.1739
+9     R8                  Chroococcales  shuffled   23             0           1.0000
+10    R8          Chroococcidiopsidales     novel    8             1           0.8750
+11    R8          Chroococcidiopsidales       old    9             8           0.1111
+12    R8          Chroococcidiopsidales  shuffled    9             0           1.0000
+13    R8                       Colechth     novel  200            25           0.8750
+14    R8                       Colechth       old   60            54           0.1000
+15    R8                       Colechth  shuffled   60             0           1.0000
+16    R8                   Cyanophyceae     novel  200            75           0.6250
+17    R8                   Cyanophyceae       old   27            26           0.0370
+18    R8                   Cyanophyceae  shuffled   27             0           1.0000
+19    R8  Cyanophyceae_excl_Gloeobacter     novel  200            88           0.5600
+20    R8  Cyanophyceae_excl_Gloeobacter       old   60            60           0.0000
+21    R8  Cyanophyceae_excl_Gloeobacter  shuffled   60             0           1.0000
+22    R8                        Hydrriv     novel  178            38           0.7865
+23    R8                        Hydrriv       old   42            38           0.0952
+24    R8                        Hydrriv  shuffled   42             0           1.0000
+25    R8                        Hyelpat     novel  200            33           0.8350
+26    R8                        Hyelpat       old   60            48           0.2000
+27    R8                        Hyelpat  shuffled   60             0           1.0000
+28    R8                        Leptbor     novel  200            63           0.6850
+29    R8                        Leptbor       old   60            54           0.1000
+30    R8                        Leptbor  shuffled   60             0           1.0000
+31    R8   Melainabacteria_Cyanophyceae     novel   28            22           0.2143
+32    R8   Melainabacteria_Cyanophyceae       old   22            22           0.0000
+33    R8   Melainabacteria_Cyanophyceae  shuffled   22             0           1.0000
+34    R8                 Microcoleaceae     novel   16            10           0.3750
+35    R8                 Microcoleaceae       old    7             7           0.0000
+36    R8                 Microcoleaceae  shuffled    7             0           1.0000
+37    R8                         Nostoc     novel    8             2           0.7500
+38    R8                         Nostoc       old    2             0           1.0000
+39    R8                         Nostoc  shuffled    2             0           1.0000
+40    R8                    Nostocaceae     novel  116            39           0.6638
+41    R8                    Nostocaceae       old   18            15           0.1667
+42    R8                    Nostocaceae  shuffled   18             0           1.0000
+43    R8                     Nostocales     novel  200            68           0.6600
+44    R8                     Nostocales       old   60            57           0.0500
+45    R8                     Nostocales  shuffled   60             0           1.0000
+46    R8   Nostocales_Chroococcidiopsis     novel   93            40           0.5699
+47    R8   Nostocales_Chroococcidiopsis       old   60            54           0.1000
+48    R8   Nostocales_Chroococcidiopsis  shuffled   60             0           1.0000
+49    R8                Oscillatoriales     novel  178            63           0.6461
+50    R8                Oscillatoriales       old   60            54           0.1000
+51    R8                Oscillatoriales  shuffled   60             0           1.0000
+52    R8          Oscillatoriophycideae     novel   35            19           0.4571
+53    R8          Oscillatoriophycideae       old   60            58           0.0333
+54    R8          Oscillatoriophycideae  shuffled   60             0           1.0000
+55    R8                 Pleurocapsales     novel   28            11           0.6071
+56    R8                 Pleurocapsales       old   60            58           0.0333
+57    R8                 Pleurocapsales  shuffled   60             0           1.0000
+58    R8                        Pseubic     novel  200            59           0.7050
+59    R8                        Pseubic       old   60            52           0.1333
+60    R8                        Pseubic  shuffled   60             0           1.0000
+61    R8                        Spirsub     novel  195            62           0.6821
+62    R8                        Spirsub       old   60            52           0.1333
+63    R8                        Spirsub  shuffled   60             0           1.0000
+64    R8                Synechococcales     novel    1             1           0.0000
+65    R8                Synechococcales       old    7             6           0.1429
+66    R8                Synechococcales  shuffled    7             0           1.0000
+[2026-10-30T05:12:43+01:00] R8: end

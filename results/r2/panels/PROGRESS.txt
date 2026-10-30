@@ -1,4 +1,4 @@
-ROUND-2 DENSE PANELS - PROGRESS (rewritten 2026-10-29 22:01 CET)
+ROUND-2 DENSE PANELS - PROGRESS (rewritten 2026-10-29 22:06 CET)
 
 R1: Ancestra done; parse done, ladder done, branch lengths done, tables done, controls done, W3 done
     ladder: 40,529 HOG gains on 30 branches; 27,456 sequence-novel

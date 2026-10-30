@@ -6,3 +6,6 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
 4045/23920 proteins 9234330 res 241s 38325 res/s
 5361/23920 proteins 10379596 res 302s 34390 res/s
 7492/23920 proteins 11880335 res 362s 32831 res/s
+11536/23920 proteins 13978703 res 422s 33086 res/s
+22345/23920 proteins 16538448 res 483s 34223 res/s
+DONE 23920 proteins 16659093 residues in 486s (34290 res/s); skipped 0 > 100000 aa
