@@ -19,3 +19,4 @@ data/structure3di/all/
 results/r2/*/work/
 results/r2/*/*/work/
 results/r2/**/*.dmnd
+node_modules/
