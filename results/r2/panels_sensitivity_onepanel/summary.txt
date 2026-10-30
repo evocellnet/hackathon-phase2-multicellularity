@@ -1,0 +1,57 @@
+ONE-EFFECT-PER-PANEL SENSITIVITY FOR CONFIRMATORY TEST R2-P1
+Script: scripts/r2/panels_sensitivity_onepanel.py
+
+The four confirmatory simple->complex events are not independent: three (Astrephomene, Volvox carteri,
+V. africanus/reticuliferus) sit in panel R4 and are compared with the same six R4 control branches.
+Here each panel contributes ONE effect:
+  * R4 effect = mean residual (log rate ratio) of its 3 events. Permutation p: enumerate all C(6,3) = 20 ways of
+    drawing 3 control branches without replacement from the same matched R4 control set; p = (1 + #{control mean >=
+    observed mean}) / (N + 1), the same "+1" convention as the per-event test.
+  * R6 effect = Fucophycidae residual and its per-event permutation p (5 matched controls).
+  * Stouffer over the 2 panels; pooled RR with one effect per panel (REML tau^2, modified Hartung-Knapp, q*=max(1,q)).
+Input: spec-literal (no branch-length floor) residuals from the independent verifier
+  results/r2/verification/panels/verify_event_residuals.tsv, verify_control_loo_residuals.tsv
+and, for comparison only, the same files under clip1e-4/ (producer's 1e-4 branch-length floor).
+This is a sensitivity analysis; the confirmatory result (spec-literal Stouffer p 0.0504) is not changed.
+
+== spec_literal_no_floor (primary) ==
+  R4_astrephomene        RR  13.57  per-event p 0.143
+  R4_volvox_carteri      RR  14.95  per-event p 0.143
+  R4_volvox_africanus    RR   1.27  per-event p 0.429
+  R4 controls (LOO residuals): {'CS_clade': -1.1351, 'Chlamydomonadales': 0.233, 'Reinhardtinia': 0.2921, 'Chlamydomonas_TGV': 0.0609, 'Chlamydomonas': 1.2324, 'Trebouxiophyceae': -3.0144}
+  R4 panel effect: mean log RR 1.850 (RR 6.36); 0 of 20 control triples have mean >= observed (max control-triple mean 0.586); p = 0.0476 (= 1/21)
+  R6 Fucophycidae: RR 2.01, p = 0.1667 [5 controls]
+  Stouffer over 2 panels: Z = 1.864, one-sided p = 0.0312; x2 (Holm second step) = 0.062
+  pooled RR, one effect per panel [mean_effect_var_perfectly_correlated]: 3.86 (95% CI 0.00-10039.8), tau2 0.00, k=2
+  pooled RR, one effect per panel [mean_effect_var_independent]: 4.76 (95% CI 0.01-2741.9), tau2 0.11, k=2
+  pooled RR, one effect per panel [iv_weighted_effect (pooled.py secondary convention)]: 4.77 (95% CI 0.01-2892.5), tau2 0.12, k=2
+
+== producer_floor_1e-4 (comparison) ==
+  R4_astrephomene        RR  13.21  per-event p 0.143
+  R4_volvox_carteri      RR  14.22  per-event p 0.143
+  R4_volvox_africanus    RR   1.19  per-event p 0.571
+  R4 controls (LOO residuals): {'CS_clade': -1.082, 'Chlamydomonadales': 0.2795, 'Reinhardtinia': 0.2918, 'Chlamydomonas_TGV': 0.0265, 'Chlamydomonas': 1.189, 'Trebouxiophyceae': -2.9033}
+  R4 panel effect: mean log RR 1.803 (RR 6.07); 0 of 20 control triples have mean >= observed (max control-triple mean 0.587); p = 0.0476 (= 1/21)
+  R6 Fucophycidae: RR 1.84, p = 0.1667 [5 controls]
+  Stouffer over 2 panels: Z = 1.864, one-sided p = 0.0312; x2 (Holm second step) = 0.062
+  pooled RR, one effect per panel [mean_effect_var_perfectly_correlated]: 3.63 (95% CI 0.00-8939.5), tau2 0.00, k=2
+  pooled RR, one effect per panel [mean_effect_var_independent]: 4.40 (95% CI 0.01-3685.2), tau2 0.16, k=2
+  pooled RR, one effect per panel [iv_weighted_effect (pooled.py secondary convention)]: 4.41 (95% CI 0.00-3953.1), tau2 0.17, k=2
+INTERPRETATION (written by the report writer, 2026-10-30)
+1. Collapsing the three R4 events into one panel effect does NOT weaken the combined test; it strengthens it.
+   The R4 mean residual (1.85, RR 6.4) exceeds the mean of every one of the 20 possible triples of R4 controls
+   (largest 0.59), so p reaches its floor of 1/21 = 0.048. Stouffer over R4 and R6: p = 0.031 (one-sided),
+   versus the confirmatory four-event p = 0.0504. After Holm (second step, x2) this is 0.062: still not significant.
+   The result is identical with or without the producer's 1e-4 branch-length floor.
+2. The reason is not biological. The R4 panel effect is carried by the two TIP events (Astrephomene, V. carteri;
+   RR 13.6 and 14.9), while the internal V. africanus/reticuliferus node scores RR 1.27. Ordinary unicellular tips in
+   R4 already score about 6.6-fold against the same internal-control model (VERIFICATION.txt item 4), i.e. about the
+   size of the R4 panel effect. Against tip controls the two tips score RR 0.56 and 0.80. The dependence-aware
+   sensitivity therefore inherits the tip-versus-internal artefact; it does not provide evidence for a burst.
+3. With only two panels, the pooled one-effect-per-panel RR (3.9-4.8 depending on how the within-R4 dependence is
+   treated) has a 95% CI spanning roughly 0.01 to >1,000: the two-panel design carries essentially no information on
+   the size of the effect.
+4. The confirmatory result is unchanged: R2-P1 was not significant (spec-literal Stouffer p = 0.0504; Holm 0.10).
+   Both panel p-values are at their floors (R4: 1/21 with 20 control triples; R6: 1/6 with 5 controls), so 0.031 is
+   the SMALLEST two-panel Stouffer p this design can produce. The design cannot reach Holm significance (0.025 at the
+   second step) whatever the data; the dependence-aware version only shows that the event ranks are at the extreme.

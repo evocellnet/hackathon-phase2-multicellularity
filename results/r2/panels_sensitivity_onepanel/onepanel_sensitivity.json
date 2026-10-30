@@ -1,0 +1,130 @@
+{
+ "spec_literal_no_floor (primary)": {
+  "R4_events": {
+   "R4_astrephomene": {
+    "log_rr": 2.6080176690731127,
+    "rr": 13.572119734763282,
+    "p_perm": 0.1428571428571428
+   },
+   "R4_volvox_carteri": {
+    "log_rr": 2.7046549843306003,
+    "rr": 14.949158106889918,
+    "p_perm": 0.1428571428571428
+   },
+   "R4_volvox_africanus": {
+    "log_rr": 0.2380857427189366,
+    "rr": 1.2688179800644337,
+    "p_perm": 0.4285714285714285
+   }
+  },
+  "R4_controls": {
+   "CS_clade": -1.1351,
+   "Chlamydomonadales": 0.233,
+   "Reinhardtinia": 0.2921,
+   "Chlamydomonas_TGV": 0.0609,
+   "Chlamydomonas": 1.2324,
+   "Trebouxiophyceae": -3.0144
+  },
+  "R4_panel_mean_log_rr": 1.8502527987075499,
+  "R4_panel_rr": 6.3614274799936075,
+  "R4_n_combinations": 20,
+  "R4_max_control_mean": 0.5858629426339682,
+  "R4_n_combinations_ge_observed": 0,
+  "R4_p_perm": 0.047619047619047616,
+  "R4_p_perm_without_plus1": 0.0,
+  "R6_log_rr": 0.6974321971038172,
+  "R6_rr": 2.008588420708897,
+  "R6_p_perm": 0.1666666666666666,
+  "R6_n_matched": 5,
+  "stouffer_2panel_Z": 1.8638010765685227,
+  "stouffer_2panel_p": 0.031174822261931436,
+  "holm_step2_adjusted": 0.06234964452386287,
+  "pooled_one_effect_per_panel": {
+   "mean_effect_var_perfectly_correlated": {
+    "k": 2,
+    "tau2": 0.0,
+    "RR": 3.863455753125262,
+    "lo": 0.0014867151656705717,
+    "hi": 10039.778096717191
+   },
+   "mean_effect_var_independent": {
+    "k": 2,
+    "tau2": 0.10941291187437084,
+    "RR": 4.7598092709063815,
+    "lo": 0.008262792966218185,
+    "hi": 2741.9039044101487
+   },
+   "iv_weighted_effect (pooled.py secondary convention)": {
+    "k": 2,
+    "tau2": 0.11603302724292648,
+    "RR": 4.766727759674863,
+    "lo": 0.007855463434868355,
+    "hi": 2892.470154465908
+   }
+  }
+ },
+ "producer_floor_1e-4 (comparison)": {
+  "R4_events": {
+   "R4_astrephomene": {
+    "log_rr": 2.5811188318140585,
+    "rr": 13.211911800754626,
+    "p_perm": 0.1428571428571428
+   },
+   "R4_volvox_carteri": {
+    "log_rr": 2.654944824471561,
+    "rr": 14.224201209860102,
+    "p_perm": 0.1428571428571428
+   },
+   "R4_volvox_africanus": {
+    "log_rr": 0.1740093921927138,
+    "rr": 1.1900667431040666,
+    "p_perm": 0.5714285714285714
+   }
+  },
+  "R4_controls": {
+   "CS_clade": -1.082,
+   "Chlamydomonadales": 0.2795,
+   "Reinhardtinia": 0.2918,
+   "Chlamydomonas_TGV": 0.0265,
+   "Chlamydomonas": 1.189,
+   "Trebouxiophyceae": -2.9033
+  },
+  "R4_panel_mean_log_rr": 1.803357682826111,
+  "R4_panel_rr": 6.069994401973636,
+  "R4_n_combinations": 20,
+  "R4_max_control_mean": 0.5867907325435006,
+  "R4_n_combinations_ge_observed": 0,
+  "R4_p_perm": 0.047619047619047616,
+  "R4_p_perm_without_plus1": 0.0,
+  "R6_log_rr": 0.6105676014833311,
+  "R6_rr": 1.8414763268968752,
+  "R6_p_perm": 0.1666666666666666,
+  "R6_n_matched": 5,
+  "stouffer_2panel_Z": 1.8638010765685227,
+  "stouffer_2panel_p": 0.031174822261931436,
+  "holm_step2_adjusted": 0.06234964452386287,
+  "pooled_one_effect_per_panel": {
+   "mean_effect_var_perfectly_correlated": {
+    "k": 2,
+    "tau2": 0.0,
+    "RR": 3.627085572148672,
+    "lo": 0.0014716414338724337,
+    "hi": 8939.507576292823
+   },
+   "mean_effect_var_independent": {
+    "k": 2,
+    "tau2": 0.1630188175236901,
+    "RR": 4.396945357956223,
+    "lo": 0.005246157202857372,
+    "hi": 3685.1980856240466
+   },
+   "iv_weighted_effect (pooled.py secondary convention)": {
+    "k": 2,
+    "tau2": 0.1724671796107353,
+    "RR": 4.406410336856046,
+    "lo": 0.004911717487950689,
+    "hi": 3953.088121290324
+   }
+  }
+ }
+}

@@ -147,9 +147,10 @@ diamonds); adjusted, with branches rather than families as the units (pink trian
 origins). Lines: 95% CI. The general effect (top) disappears after adjustment; a lead remains at the seven
 simple-to-complex events in family-level models but not with branches as units. (d) Structural change per unit
 of sequence change on branches inside multicellular clades minus unicellular branches (log scale; median over
-about 300 genes per panel, 95% bootstrap CI). Blue: real predicted letters; orange: negative control with
+300 genes per panel, 95% bootstrap CI). Blue: real predicted letters; orange: negative control with
 letters shuffled among species within each alignment column; grey: control comparing two random halves of the
-sequence alignment. The shuffled control gives an effect comparable to or larger than the real data, so the
+sequence alignment (near zero in animals and fungi, but -0.28 in volvocines, whose five crown branches cannot
+support the test). The shuffled control gives an effect comparable to or larger than the real data, so the
 small positive values cannot be distinguished from prediction noise combined with tree shape. Sources:
 results/r2/w5_3di_validation/per_protein_accuracy.tsv; results/r2/w5/r1/{xval_agreement_summary,controls_<run>}.tsv;
 results/r2/verification/w5/work/glmm_results{,_exh}.txt; results/r2/w6/panel_tests.tsv; script
