@@ -6,6 +6,19 @@ START: 2026-10-28T12:21:22+01:00 (see START.txt). Budget: 48 h allocation; targe
 
 ## ROUND 2 (started 2026-10-29 15:07; 48 CPU, 500 GB, A100; soft deadline ~30 h; START_ROUND2.txt)
 
+### R2-M3 — 2026-10-30 08:00 (round-2 t ≈ 16.9 h): analyses closed; two claims overturned by verification; report finalising
+The cell-death result stands but is reinterpreted: the extra cell-death proteins in complex multicellular genomes are mostly
+lineage-specific immune and self/non-self receptor machinery (NB-ARC–LRR in land plants, NB-ARC–WD40 in red algae, HET and
+NACHT in fungi, Death/NACHT/CARD in animals), with no excess in dictyostelids or volvocines; developmental cell death and immune
+surveillance cannot be separated with these data. Ancestra's structure mode (ProstT5 3Di rescue) failed its pre-registered decision
+rule on the Holozoa panel (deep-node controls unchanged, EukaryOMA agreement slightly lower), so the default was kept.
+
+Adversarial verification overturned two exploratory claims: (i) the excess of "structurally new" families on event branches is
+explained by shorter, more disordered proteins and deeper branches (fully adjusted OR 1.18 [0.93, 1.49]) and by missed homologs
+in Foldseek's fast mode; only a weak simple→complex lead remains; (ii) EukaryOMA's "stems agree better than controls" is mostly
+depth plus one stem. The structure-vs-sequence divergence test failed its shuffled-3Di negative control (inconclusive). The final
+report is being written from a 12-item correction list; then an external review by the department head and publication.
+
 ### R2-M2 — 2026-10-29 22:03 (round-2 t ≈ 6.9 h): confirmatory family closed; one positive, two nulls
 Holm over the three confirmatory tests: P3 (cell death) rejected (adjusted 0.014); P1 (more sequence-novel families at four unseen
 simple→complex events) not significant (Stouffer p = 0.072, adjusted 0.144); P2 (motif-binding domains) null. P1 was underpowered
