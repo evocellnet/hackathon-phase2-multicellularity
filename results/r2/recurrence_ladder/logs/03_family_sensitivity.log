@@ -1,0 +1,55 @@
+                                                analysis                                    null  direction  tier_k  n_units  observed_n_families  null_mean  null_q025  null_q975   p_perm
+                                           all 7 origins                  uniform family shuffle   expanded       2        7                   42    53.9927       41.0       67.0 0.974003
+                                           all 7 origins                  uniform family shuffle   expanded       3        7                    3     0.7899        0.0        3.0 0.045395
+                                       leave out animals                  uniform family shuffle   expanded       2        6                    9     4.5350        1.0        9.0 0.038496
+                                       leave out animals                  uniform family shuffle   expanded       3        6                    0     0.0285        0.0        1.0 1.000000
+                                 leave out fungal hyphae                  uniform family shuffle   expanded       2        6                   26    34.4171       24.0       45.0 0.958404
+                                 leave out fungal hyphae                  uniform family shuffle   expanded       3        6                    3     0.2543        0.0        2.0 0.001900
+                                 leave out dictyostelids                  uniform family shuffle   expanded       2        6                   27    29.2358       20.0       39.0 0.704230
+                                 leave out dictyostelids                  uniform family shuffle   expanded       3        6                    0     0.2028        0.0        1.0 1.000000
+                                 leave out streptophytes                  uniform family shuffle   expanded       2        6                   41    50.8083       39.0       64.0 0.950705
+                                 leave out streptophytes                  uniform family shuffle   expanded       3        6                    2     0.6675        0.0        3.0 0.146185
+                                     leave out red algae                  uniform family shuffle   expanded       2        6                   38    51.9521       40.0       65.0 0.991301
+                                     leave out red algae                  uniform family shuffle   expanded       3        6                    2     0.6985        0.0        3.0 0.157484
+                    leave out brown-algal (PX) filaments                  uniform family shuffle   expanded       2        6                   33    46.6023       35.0       59.0 0.991901
+                    leave out brown-algal (PX) filaments                  uniform family shuffle   expanded       3        6                    2     0.5316        0.0        2.0 0.100490
+                                    leave out volvocines                  uniform family shuffle   expanded       2        6                   42    53.9927       41.0       67.0 0.974003
+                                    leave out volvocines                  uniform family shuffle   expanded       3        6                    3     0.7899        0.0        3.0 0.045395
+genome-based sisters only (no animals, no dictyostelids)                  uniform family shuffle   expanded       2        5                    3     1.2002        0.0        4.0 0.116488
+                                           all 7 origins detectability-stratified (size deciles)   expanded       2        7                   42    72.2276       59.0       86.0 1.000000
+                                           all 7 origins detectability-stratified (size deciles)   expanded       3        7                    3     2.5872        0.0        6.0 0.482952
+                                           all 7 origins detectability-stratified (size deciles)   expanded       4        7                    0     0.0552        0.0        1.0 1.000000
+genome-based sisters only (no animals, no dictyostelids) detectability-stratified (size deciles)   expanded       2        5                    3     2.3169        0.0        6.0 0.411659
+genome-based sisters only (no animals, no dictyostelids) detectability-stratified (size deciles)   expanded       3        5                    0     0.0206        0.0        0.0 1.000000
+                                           all 7 origins                  uniform family shuffle contracted       2        7                  157    89.7964       74.0      107.0 0.000100
+                                           all 7 origins                  uniform family shuffle contracted       3        7                   20     3.1838        0.0        7.0 0.000100
+                                           all 7 origins                  uniform family shuffle contracted       4        7                    2     0.0579        0.0        1.0 0.002400
+                                       leave out animals                  uniform family shuffle contracted       2        6                   77    35.3897       25.0       46.0 0.000100
+                                       leave out animals                  uniform family shuffle contracted       3        6                    9     0.7257        0.0        3.0 0.000100
+                                       leave out animals                  uniform family shuffle contracted       4        6                    1     0.0068        0.0        0.0 0.006899
+                                 leave out fungal hyphae                  uniform family shuffle contracted       2        6                  110    40.8064       30.0       53.0 0.000100
+                                 leave out fungal hyphae                  uniform family shuffle contracted       3        6                   10     0.8224        0.0        3.0 0.000100
+                                 leave out dictyostelids                  uniform family shuffle contracted       2        6                   91    62.4372       49.0       77.0 0.000300
+                                 leave out dictyostelids                  uniform family shuffle contracted       3        6                    3     1.4749        0.0        4.0 0.186181
+                                 leave out dictyostelids                  uniform family shuffle contracted       4        6                    1     0.0148        0.0        0.0 0.014899
+                                 leave out streptophytes                  uniform family shuffle contracted       2        6                  142    81.2610       66.0       98.0 0.000100
+                                 leave out streptophytes                  uniform family shuffle contracted       3        6                   13     2.5383        0.0        6.0 0.000100
+                                 leave out streptophytes                  uniform family shuffle contracted       4        6                    1     0.0376        0.0        1.0 0.036596
+                                     leave out red algae                  uniform family shuffle contracted       2        6                  146    84.2144       69.0      101.0 0.000100
+                                     leave out red algae                  uniform family shuffle contracted       3        6                   19     2.7507        0.0        6.0 0.000100
+                                     leave out red algae                  uniform family shuffle contracted       4        6                    2     0.0424        0.0        1.0 0.001700
+                    leave out brown-algal (PX) filaments                  uniform family shuffle contracted       2        6                  107    63.0527       49.0       77.0 0.000100
+                    leave out brown-algal (PX) filaments                  uniform family shuffle contracted       3        6                   13     1.5422        0.0        4.0 0.000100
+                    leave out brown-algal (PX) filaments                  uniform family shuffle contracted       4        6                    0     0.0139        0.0        0.0 1.000000
+                                    leave out volvocines                  uniform family shuffle contracted       2        6                  152    88.1882       72.0      105.0 0.000100
+                                    leave out volvocines                  uniform family shuffle contracted       3        6                   19     3.0547        0.0        7.0 0.000100
+                                    leave out volvocines                  uniform family shuffle contracted       4        6                    1     0.0544        0.0        1.0 0.052395
+genome-based sisters only (no animals, no dictyostelids)                  uniform family shuffle contracted       2        5                   29    18.3841       11.0       27.0 0.009799
+genome-based sisters only (no animals, no dictyostelids)                  uniform family shuffle contracted       3        5                    1     0.1945        0.0        1.0 0.177282
+genome-based sisters only (no animals, no dictyostelids)                  uniform family shuffle contracted       4        5                    1     0.0008        0.0        0.0 0.000900
+                                           all 7 origins detectability-stratified (size deciles) contracted       2        7                  157    81.1722       66.0       97.0 0.000100
+                                           all 7 origins detectability-stratified (size deciles) contracted       3        7                   20     3.2141        0.0        7.0 0.000100
+                                           all 7 origins detectability-stratified (size deciles) contracted       4        7                    2     0.0848        0.0        1.0 0.003800
+genome-based sisters only (no animals, no dictyostelids) detectability-stratified (size deciles) contracted       2        5                   29    17.2300       10.0       25.0 0.003600
+genome-based sisters only (no animals, no dictyostelids) detectability-stratified (size deciles) contracted       3        5                    1     0.2806        0.0        2.0 0.248575
+genome-based sisters only (no animals, no dictyostelids) detectability-stratified (size deciles) contracted       4        5                    1     0.0016        0.0        0.0 0.001700

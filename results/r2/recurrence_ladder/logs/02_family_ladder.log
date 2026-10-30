@@ -1,0 +1,62 @@
+12813 families; per-event mismatches vs recurrence_observed.tsv: {'T_metazoa': 0, 'T_fungi_hyphae': 0, 'T_dictyostelia': 0, 'T_streptophyta': 0, 'T_rhodophyta': 0, 'T_px_filaments': 0, 'T_volvocine_tgv': 0, 'T_fungi_pezizomycotina': 0, 'T_fungi_agaricomycetes': 0, 'T_embryophyta': 0}
+                                ladder  direction  tier_k  n_units  observed_n_families  null_mean  null_q025  null_q975   p_perm  obs_over_expected    excess  n_families_q01
+                             7 origins   expanded       1        7                 1953  1943.2129     1930.0     1956.0 0.080792           1.005037    9.7871               0
+                             7 origins   expanded       2        7                   42    53.9927       41.0       67.0 0.974003           0.777883  -11.9927               0
+                             7 origins   expanded       3        7                    3     0.7899        0.0        3.0 0.045395           3.797949    2.2101               0
+                             7 origins   expanded       4        7                    0     0.0045        0.0        0.0 1.000000           0.000000   -0.0045               0
+                             7 origins   expanded       5        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+                             7 origins   expanded       6        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+                             7 origins   expanded       7        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+                              3 nested   expanded       1        3                  304   306.6749      304.0      308.0 0.989601           0.991278   -2.6749               0
+                              3 nested   expanded       2        3                    4     1.3238        0.0        4.0 0.041196           3.021604    2.6762               0
+                              3 nested   expanded       3        3                    0     0.0013        0.0        0.0 1.000000           0.000000   -0.0013               0
+7 origins collapsed (origin OR nested)   expanded       1        7                 2214  2197.7593     2180.0     2215.0 0.040896           1.007390   16.2407               0
+7 origins collapsed (origin OR nested)   expanded       2        7                   75   103.6996       87.0      121.0 0.999900           0.723243  -28.6996               0
+7 origins collapsed (origin OR nested)   expanded       3        7                    9     2.9175        0.0        7.0 0.002800           3.084833    6.0825               0
+7 origins collapsed (origin OR nested)   expanded       4        7                    0     0.0363        0.0        1.0 1.000000           0.000000   -0.0363               0
+7 origins collapsed (origin OR nested)   expanded       5        7                    0     0.0003        0.0        0.0 1.000000           0.000000   -0.0003               0
+7 origins collapsed (origin OR nested)   expanded       6        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+7 origins collapsed (origin OR nested)   expanded       7        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+                             7 origins contracted       1        7                 1483  1568.8482     1551.0     1586.0 1.000000           0.945279  -85.8482               2
+                             7 origins contracted       2        7                  157    89.9309       74.0      107.0 0.000100           1.745785   67.0691               2
+                             7 origins contracted       3        7                   20     3.1624        0.0        7.0 0.000100           6.324311   16.8376               2
+                             7 origins contracted       4        7                    2     0.0582        0.0        1.0 0.001600          34.364261    1.9418               2
+                             7 origins contracted       5        7                    0     0.0003        0.0        0.0 1.000000           0.000000   -0.0003               0
+                             7 origins contracted       6        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+                             7 origins contracted       7        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+                              3 nested contracted       1        3                  276   278.1371      276.0      279.0 0.989901           0.992316   -2.1371               0
+                              3 nested contracted       2        3                    3     0.8614        0.0        3.0 0.053195           3.482703    2.1386               0
+                              3 nested contracted       3        3                    0     0.0015        0.0        0.0 1.000000           0.000000   -0.0015               0
+7 origins collapsed (origin OR nested) contracted       1        7                 1678  1803.2461     1782.0     1823.0 1.000000           0.930544 -125.2461               1
+7 origins collapsed (origin OR nested) contracted       2        7                  221   127.4157      108.0      147.0 0.000100           1.734480   93.5843               1
+7 origins collapsed (origin OR nested) contracted       3        7                   34     5.9408        2.0       11.0 0.000100           5.723135   28.0592               1
+7 origins collapsed (origin OR nested) contracted       4        7                    3     0.1502        0.0        1.0 0.000600          19.973369    2.8498               1
+7 origins collapsed (origin OR nested) contracted       5        7                    0     0.0019        0.0        0.0 1.000000           0.000000   -0.0019               0
+7 origins collapsed (origin OR nested) contracted       6        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+7 origins collapsed (origin OR nested) contracted       7        7                    0     0.0000        0.0        0.0 1.000000                NaN    0.0000               0
+                        n  n_q01
+direction  n_origins            
+contracted 2          137      0
+           3           18      0
+           4            2      2
+expanded   2           39      0
+           3            3      0
+          set  n_set_families_scanned  direction    ladder  tier_k  observed  null_mean   p_perm
+motif-binding                     114   expanded 7 origins       1        36    23.3916 0.003900
+motif-binding                     114   expanded 7 origins       2         2     0.9267 0.236676
+motif-binding                     114   expanded 7 origins       3         0     0.0155 1.000000
+motif-binding                     114 contracted 7 origins       1        28    20.3315 0.038696
+motif-binding                     114 contracted 7 origins       2         3     1.5447 0.202780
+motif-binding                     114 contracted 7 origins       3         1     0.0568 0.055594
+   cell-death                      21   expanded 7 origins       1        11     3.5785 0.000100
+   cell-death                      21   expanded 7 origins       2         1     0.0947 0.091091
+   cell-death                      21   expanded 7 origins       3         0     0.0005 1.000000
+   cell-death                      21 contracted 7 origins       1         1     2.7271 0.952705
+   cell-death                      21 contracted 7 origins       2         0     0.1536 1.000000
+   cell-death                      21 contracted 7 origins       3         0     0.0058 1.000000
+ cell-type TF                      24   expanded 7 origins       1        11     2.4140 0.000100
+ cell-type TF                      24   expanded 7 origins       2         0     0.0698 1.000000
+ cell-type TF                      24   expanded 7 origins       3         0     0.0009 1.000000
+ cell-type TF                      24 contracted 7 origins       1         0     2.3013 1.000000
+ cell-type TF                      24 contracted 7 origins       2         0     0.1165 1.000000
+ cell-type TF                      24 contracted 7 origins       3         0     0.0035 1.000000

@@ -1,0 +1,61 @@
+RECURRENCE LADDER (D17, user-directed, post-publication, EXPLORATORY) -- RULES FIXED BEFORE COMPUTING
+Written 2026-10-30 12:53:40 CET (timestamp from `date`, separate call), before any ladder number was computed.
+Seen: all per-event result files had been published and read for the round-1/round-2 report (REPORT.md); their
+per-event values were therefore known in aggregate. No ladder count, tier p-value or per-family recurrence p had been
+computed when these rules were written. Nothing here changes any pre-registered result.
+
+1. UNITS OF INDEPENDENCE
+ a. Round-1 eukaryotic ladder ("7 origins"): the 7 primary origins of data/transitions.tsv (animals, fungal hyphae,
+    dictyostelids, streptophytes, red algae (Eurhodophytina), PX-clade/brown-algal filaments, volvocines (TGV)). These are
+    treated as independent of each other (separate lineages; shared tree and shared control pool are a caveat, not modelled).
+ b. Nested simple->complex events (Pezizomycotina, Agaricomycetes inside fungal hyphae; land plants inside streptophytes)
+    are NOT independent of their origin. They get their own ladder ("nested", n = 3). In addition an "origin-collapsed"
+    ladder counts each of the 7 origins once if the origin OR any of its nested events is significant in the same
+    direction; its chance probability per origin is 1 - prod(1 - pi_e) over that origin's events.
+ c. Dense panels (round 2, data/dense/*/transitions.tsv): one unit per coded event branch, excluding the alternative
+    'sensitivity' codings. Separate ladders, never merged with the round-1 ladder (same origins re-analysed on other data):
+      - panel eukaryotic origins (uni->simple/complex), internal branches;
+      - panel nested simple->complex, internal branches;
+      - panel tip events, ONLY where a tip-vs-tip-control test exists (R4/R6); tip events tested against internal controls
+        are excluded (tip artefact, REPORT section 6.3);
+      - prokaryotic (cyanobacteria R8) events, own ladder;
+      - reversals (back to unicellular/simple), own ladder, used as a negative/contrast ladder.
+    Nested panel events within one panel are not independent of each other; counted as given, caveat stated.
+ d. Round-2 family scan (W4): 7 primary origins as in (a); 3 nested as in (b); origin-collapsed as in (b).
+
+2. PER-EVENT SIGNIFICANCE (only read-outs of existing per-event statistics; no new per-event test)
+ - Direction: the one-sided direction of the original hypothesis (H1H2 novelty: excess of sequence-novel families, upper
+   tail, although round 1 tested it two-sided; H4/H5/H11 upper; H12 in the frozen per-branch orientation; H9 faster
+   evolution; cooption: higher co-option index; family scans: expansions and contractions separately).
+ - Rank/permutation statistics (u = mid-rank percentile against k matched controls; panel p_perm against n controls):
+   one-sided p = 1 - u + 0.5/(k+1) (ties count against the event); significant if p <= alpha.
+   Chance probability per event pi_e = floor(alpha*(k+1))/(k+1) (exact under exchangeability of event and controls).
+   If the minimum attainable p 1/(k+1) > alpha, the event cannot be significant: reported as 'cannot reach alpha'.
+ - Because most panel tests cannot reach 0.05, a second "top-rank ladder" is reported for every rank test:
+   an event counts if it ranks above ALL its controls (p = 1/(k+1)); pi_e = 1/(k+1).
+ - Parametric per-event p-values (Fisher, Wilcoxon, NB GLM): significant if p <= alpha (one-sided), pi_e = alpha.
+   These are nominal (not calibrated against control branches); labelled 'nominal'.
+ - Statistics with no per-event p (PGLS sister-clade contrasts, EukaryOMA agreement, RER clade means): 'no per-event test';
+   at most the sign is tabulated (sign ladder, pi_e = 0.5), labelled as direction only.
+ - alpha = 0.05 primary; alpha = 0.10 as sensitivity.
+
+3. CALIBRATION
+ - Hypothesis tiers: number of significant independent events X ~ Poisson-binomial(pi_e) under the null (binomial when
+   all pi_e equal). For each tier k: expected E[X], P(X >= k). Observed k_obs, p = P(X >= k_obs).
+   Tier-wise multiple testing: for each k, across hypotheses, p_k = P(X >= k) if k_obs >= k (else not reached, p = 1);
+   Holm and BH across all hypothesis rows of that ladder family (round-1 origins; panels) per tier.
+ - Family tiers (W4 Pfam scan, transposon-masked, BH q < 0.1 within event, expansions/contractions separately):
+   null = family shuffle within each event preserving the event's number of significant families in that direction and its
+   set of tested families (results/r2/w4/scan/recurrence_conditional_*; recomputed here with B = 10,000, seed 11).
+   For k = 1..7: observed number of families significant in >= k origins, null mean, 95% interval, p = (#null >= obs + 1)/(B+1).
+   Per-family recurrence p: exact Poisson-binomial P(R_f >= r_f), with per-event hit probability k_e/n_e (tested events only).
+   BH across all scanned families, per direction. Families at r >= 2 and r >= 3 listed with Pfam description, GO (pfam2go),
+   frozen-set membership (motif-binding, cell death, cell-type TFs), round-1 toolkit tags and origins.
+ - Frozen sets: which set families are significant in >= 2 origins; set-level count compared with its chance expectation.
+ - Existing recurrence analyses (round-1 Pfam-wide convergence, panel W3 domain recurrence, RER gene consistency) are quoted
+   as they are, not recomputed.
+
+4. STATUS
+ Exploratory and post hoc. The ladder replaces an average by a conjunction count; it does not add power per event.
+ Non-independence (shared controls, shared tree, nested events, shared annotation pipeline) is not modelled.
+ Outputs: results/r2/recurrence_ladder/ only; scripts: scripts/r2/recurrence_ladder/. Threads <= 3, nice -n 10.

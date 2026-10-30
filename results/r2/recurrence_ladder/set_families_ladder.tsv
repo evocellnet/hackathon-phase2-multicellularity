@@ -1,0 +1,37 @@
+set	n_set_families_scanned	direction	ladder	tier_k	observed	null_mean	p_perm	families
+motif-binding	114	expanded	7 origins	1	36	23.3916	0.0038996100389961006	
+motif-binding	114	expanded	7 origins	2	2	0.9267	0.23667633236676333	Arf(2: animals;dictyostelids);F5_F8_type_C(2: animals;dictyostelids)
+motif-binding	114	expanded	7 origins	3	0	0.0155	1.0	
+motif-binding	114	expanded	7 origins collapsed (origin OR nested)	1	37	26.8051	0.0184981501849815	
+motif-binding	114	expanded	7 origins collapsed (origin OR nested)	2	4	1.817	0.11208879112088792	Arf(2: animals;dictyostelids);EF-hand_1(2: animals + land plants);Motile_Sperm(2: animals + land plants);F5_F8_type_C(2: animals;dictyostelids)
+motif-binding	114	expanded	7 origins collapsed (origin OR nested)	3	0	0.0604	1.0	
+motif-binding	114	contracted	7 origins	1	28	20.3315	0.038696130386961305	
+motif-binding	114	contracted	7 origins	2	3	1.5447	0.20277972202779723	Ank(3: fungal hyphae;dictyostelids;streptophytes);Metallophos(2: animals;brown-algal (PX) filaments);ARL2_Bind_BART(2: fungal hyphae;dictyostelids)
+motif-binding	114	contracted	7 origins	3	1	0.0568	0.055594440555944404	Ank(3: fungal hyphae;dictyostelids;streptophytes)
+motif-binding	114	contracted	7 origins collapsed (origin OR nested)	1	32	23.5136	0.032296770322967704	
+motif-binding	114	contracted	7 origins collapsed (origin OR nested)	2	5	2.2272	0.07219278072192781	Ank(3: fungal hyphae;dictyostelids;streptophytes);Metallophos(3: animals;brown-algal (PX) filaments + Pezizomycotina);DEAD(2: brown-algal (PX) filaments + Agaricomycetes);PDZ(2: animals + land plants);ARL2_Bind_BART(2: fungal hyphae;dictyostelids)
+motif-binding	114	contracted	7 origins collapsed (origin OR nested)	3	2	0.1124	0.0053994600539946005	Ank(3: fungal hyphae;dictyostelids;streptophytes);Metallophos(3: animals;brown-algal (PX) filaments + Pezizomycotina)
+cell-death	21	expanded	7 origins	1	11	3.5785	9.999000099990002e-05	
+cell-death	21	expanded	7 origins	2	1	0.0947	0.09109089091090891	NB-ARC(2: animals;red algae)
+cell-death	21	expanded	7 origins	3	0	0.0005	1.0	
+cell-death	21	expanded	7 origins collapsed (origin OR nested)	1	15	4.0178	9.999000099990002e-05	
+cell-death	21	expanded	7 origins collapsed (origin OR nested)	2	3	0.1852	0.0007999200079992001	NB-ARC(3: animals;red algae + land plants);TIR(2: animals + land plants);NACHT(2: animals + Pezizomycotina)
+cell-death	21	expanded	7 origins collapsed (origin OR nested)	3	1	0.0042	0.004299570042995701	NB-ARC(3: animals;red algae + land plants)
+cell-death	21	contracted	7 origins	1	1	2.7271	0.9527047295270473	
+cell-death	21	contracted	7 origins	2	0	0.1536	1.0	
+cell-death	21	contracted	7 origins	3	0	0.0058	1.0	
+cell-death	21	contracted	7 origins collapsed (origin OR nested)	1	1	3.1266	0.9702029797020298	
+cell-death	21	contracted	7 origins collapsed (origin OR nested)	2	0	0.2253	1.0	
+cell-death	21	contracted	7 origins collapsed (origin OR nested)	3	0	0.0102	1.0	
+cell-type TF	24	expanded	7 origins	1	11	2.414	9.999000099990002e-05	
+cell-type TF	24	expanded	7 origins	2	0	0.0698	1.0	
+cell-type TF	24	expanded	7 origins	3	0	0.0009	1.0	
+cell-type TF	24	expanded	7 origins collapsed (origin OR nested)	1	13	3.0499	9.999000099990002e-05	
+cell-type TF	24	expanded	7 origins collapsed (origin OR nested)	2	0	0.1292	1.0	
+cell-type TF	24	expanded	7 origins collapsed (origin OR nested)	3	0	0.0038	1.0	
+cell-type TF	24	contracted	7 origins	1	0	2.3013	1.0	
+cell-type TF	24	contracted	7 origins	2	0	0.1165	1.0	
+cell-type TF	24	contracted	7 origins	3	0	0.0035	1.0	
+cell-type TF	24	contracted	7 origins collapsed (origin OR nested)	1	0	2.8769	1.0	
+cell-type TF	24	contracted	7 origins collapsed (origin OR nested)	2	0	0.1654	1.0	
+cell-type TF	24	contracted	7 origins collapsed (origin OR nested)	3	0	0.0079	1.0	

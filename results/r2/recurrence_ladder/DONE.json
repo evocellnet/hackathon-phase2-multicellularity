@@ -1,0 +1,23 @@
+{
+ "decision": "D17",
+ "finished": "2026-10-30T13:03:41",
+ "B": 10000,
+ "seed": 11,
+ "files": {
+  "RULES.txt": "50174df230acd928d76f1f25fd1ca310",
+  "family_ladder.tsv": "7caa0f62296d19a612a3d94050f170de",
+  "family_ladder_sensitivity.tsv": "1bbcff1997c6d6563a5c286317437fb8",
+  "family_recurrence_all.tsv.gz": "4625637348d082f973405e4d07eb5cf8",
+  "hypothesis_events.tsv": "e574af9bbb39fe5e1b8bbb4489c9baea",
+  "hypothesis_ladder.tsv": "5034550d3fc4aa10eb910e3b98bbe571",
+  "logs/02_family_ladder.log": "7e43221233567e209de6b8522b96d4ed",
+  "logs/03_family_sensitivity.log": "d3fa64e215ebfe4460f887298b6bf985",
+  "logs/04_set_stratified.log": "ce349837059d09f8cdbe043a07e1f085",
+  "recurrent_families_k2.tsv": "6e325c43c2951769cc1cb0eb871127af",
+  "set_families_ladder.tsv": "eba7da48fe341394537863ccc320a353",
+  "set_families_ladder_stratified.tsv": "221c9a6cd9eaee1f75b4af9cb0b26140",
+  "summary.txt": "a50d3cd6df284ec1c6a347d1cf7def3e",
+  "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/report/figures_v2/fig8_recurrence_ladder.png": "ecf35ff8677fe0f2250eaf23a7bd5f41",
+  "/scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/report/figures_v2/fig8_recurrence_ladder.pdf": "d26cda0e0f7b38f25b4b51e2561fdb5e"
+ }
+}

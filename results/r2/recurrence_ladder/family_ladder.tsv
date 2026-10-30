@@ -1,0 +1,55 @@
+ladder	direction	tier_k	n_units	observed_n_families	null_mean	null_q025	null_q975	p_perm	obs_over_expected	excess	n_families_q01	B	seed	source
+7 origins	expanded	1	7	1953.0	1943.2129	1930.0	1956.0	0.0807919208079192	1.0050365556959817	9.78710000000001	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	expanded	2	7	42.0	53.9927	41.0	67.0	0.974002599740026	0.7778829360265369	-11.9927	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	expanded	3	7	3.0	0.7899	0.0	3.0	0.0453954604539546	3.7979491074819594	2.2100999999999997	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	expanded	4	7	0.0	0.0045	0.0	0.0	1.0	0.0	-0.0045	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	expanded	5	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	expanded	6	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	expanded	7	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+3 nested	expanded	1	3	304.0	306.6749	304.0	308.0	0.9896010398960104	0.9912777341738761	-2.6748999999999796	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+3 nested	expanded	2	3	4.0	1.3238	0.0	4.0	0.041195880411958805	3.0216044719746185	2.6761999999999997	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+3 nested	expanded	3	3	0.0	0.0013	0.0	0.0	1.0	0.0	-0.0013	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	expanded	1	7	2214.0	2197.7593	2180.0	2215.0	0.0408959104089591	1.007389662735132	16.240699999999833	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	expanded	2	7	75.0	103.6996	87.0	121.0	0.9999000099990001	0.7232429054692593	-28.699600000000004	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	expanded	3	7	9.0	2.9175	0.0	7.0	0.0027997200279972004	3.0848329048843186	6.0825	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	expanded	4	7	0.0	0.0363	0.0	1.0	1.0	0.0	-0.0363	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	expanded	5	7	0.0	0.0003	0.0	0.0	1.0	0.0	-0.0003	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	expanded	6	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	expanded	7	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	contracted	1	7	1483.0	1568.8482	1551.0	1586.0	1.0	0.9452794731829377	-85.8481999999999	2.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	contracted	2	7	157.0	89.9309	74.0	107.0	9.999000099990002e-05	1.7457848192334338	67.0691	2.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	contracted	3	7	20.0	3.1624	0.0	7.0	9.999000099990002e-05	6.324310650139135	16.837600000000002	2.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	contracted	4	7	2.0	0.0582	0.0	1.0	0.0015998400159984002	34.36426116838488	1.9418	2.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	contracted	5	7	0.0	0.0003	0.0	0.0	1.0	0.0	-0.0003	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	contracted	6	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins	contracted	7	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+3 nested	contracted	1	3	276.0	278.1371	276.0	279.0	0.9899010098990101	0.9923163792244905	-2.1370999999999754	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+3 nested	contracted	2	3	3.0	0.8614	0.0	3.0	0.05319468053194681	3.4827025771999067	2.1386	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+3 nested	contracted	3	3	0.0	0.0015	0.0	0.0	1.0	0.0	-0.0015	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	contracted	1	7	1678.0	1803.2461	1782.0	1823.0	1.0	0.9305440893508656	-125.24610000000007	1.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	contracted	2	7	221.0	127.4157	108.0	147.0	9.999000099990002e-05	1.7344801307845108	93.5843	1.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	contracted	3	7	34.0	5.9408	2.0	11.0	9.999000099990002e-05	5.723134931322381	28.0592	1.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	contracted	4	7	3.0	0.1502	0.0	1.0	0.0005999400059994001	19.97336884154461	2.8498	1.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	contracted	5	7	0.0	0.0019	0.0	0.0	1.0	0.0	-0.0019	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	contracted	6	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+7 origins collapsed (origin OR nested)	contracted	7	7	0.0	0.0	0.0	0.0	1.0		0.0	0.0	10000.0	11.0	recomputed from results/r2/w4/scan/event_T_*.tsv
+round-1 Pfam-wide convergence (exp_or_gain; Mann-Whitney flags; branch-label permutation)	exp_or_gain	2	7	370.0	643.2107		1326.0499999999993	0.7906209379062094						results/exploratory/euk/pfam_wide/convergence_global.tsv (null_q975 column = null q95)
+round-1 Pfam-wide convergence (exp_or_gain; Mann-Whitney flags; branch-label permutation)	exp_or_gain	3	7	75.0	101.5662		247.0	0.5467453254674532						results/exploratory/euk/pfam_wide/convergence_global.tsv (null_q975 column = null q95)
+round-1 Pfam-wide convergence (gained; Mann-Whitney flags; branch-label permutation)	gained	2	7	0.0	7.532		37.0	1.0						results/exploratory/euk/pfam_wide/convergence_global.tsv (null_q975 column = null q95)
+round-1 Pfam-wide convergence (gained; Mann-Whitney flags; branch-label permutation)	gained	3	7	0.0	0.1512		0.0	1.0						results/exploratory/euk/pfam_wide/convergence_global.tsv (null_q975 column = null q95)
+round-1 Pfam-wide convergence (lost; Mann-Whitney flags; branch-label permutation)	lost	2	7	421.0	191.5838		408.0499999999993	0.0433956604339566						results/exploratory/euk/pfam_wide/convergence_global.tsv (null_q975 column = null q95)
+round-1 Pfam-wide convergence (lost; Mann-Whitney flags; branch-label permutation)	lost	3	7	30.0	12.3106		38.0	0.0890910908909109						results/exploratory/euk/pfam_wide/convergence_global.tsv (null_q975 column = null q95)
+round-1 Pfam-wide convergence (hog_expanded; Mann-Whitney flags; branch-label permutation)	hog_expanded	2	7	59.0	37.2879		123.0	0.1901809819018098						results/exploratory/euk/pfam_wide/convergence_global.tsv (null_q975 column = null q95)
+round-1 Pfam-wide convergence (hog_expanded; Mann-Whitney flags; branch-label permutation)	hog_expanded	3	7	5.0	1.3778		6.0	0.0846915308469153						results/exploratory/euk/pfam_wide/convergence_global.tsv (null_q975 column = null q95)
+panel simple->complex events, domains gained/duplicated (both; event-label null)	gained_or_duplicated	2	7	1556.0	1056.597		1492.15	0.0299700299700299						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_summary.tsv (null_q975 = q95)
+panel simple->complex events, domains gained/duplicated (both; event-label null)	gained_or_duplicated	3	7	652.0	450.778		670.0	0.0599400599400599						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_summary.tsv (null_q975 = q95)
+panel simple->complex events, domains gained/duplicated (seq_novel; event-label null)	gained	2	7	37.0	54.019		94.0	0.7592407592407593						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_summary.tsv (null_q975 = q95)
+panel simple->complex events, domains gained/duplicated (seq_novel; event-label null)	gained	3	7	12.0	16.077		31.0	0.6653346653346653						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_summary.tsv (null_q975 = q95)
+panel simple->complex events, domains gained/duplicated (dup; event-label null)	gained	2	7	1506.0	1000.249		1412.0	0.0209790209790209						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_summary.tsv (null_q975 = q95)
+panel simple->complex events, domains gained/duplicated (dup; event-label null)	gained	3	7	633.0	424.588		626.0999999999999	0.0499500499500499						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_summary.tsv (null_q975 = q95)
+panel simple->complex events, RAREFIED (both; paired null)	both	2	7	47.136	54.533			0.7742257742257742						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_rarefied.tsv
+panel simple->complex events, RAREFIED (both; paired null)	both	3	7	10.239	11.56			0.6433566433566433						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_rarefied.tsv
+panel simple->complex events, RAREFIED (seq_novel; paired null)	seq_novel	2	7	18.141	25.213			0.8641358641358642						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_rarefied.tsv
+panel simple->complex events, RAREFIED (seq_novel; paired null)	seq_novel	3	7	5.499	7.251			0.7252747252747253						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_rarefied.tsv
+panel simple->complex events, RAREFIED (dup; paired null)	dup	2	7	50.518	57.455			0.7542457542457542						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_rarefied.tsv
+panel simple->complex events, RAREFIED (dup; paired null)	dup	3	7	10.981	12.018			0.6493506493506493						results/r2/panels/pooled/final_8panels/w3/w3_recurrence_rarefied.tsv

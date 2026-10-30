@@ -1,0 +1,280 @@
+RECURRENCE LADDER: WHICH RESULTS ARE SIGNIFICANT IN 1, 2, 3 ... INDEPENDENT EVENTS (D17; EXPLORATORY, POST HOC)
+Written 2026-10-30 (D17, user-directed, after publication). Rules were fixed before computing: RULES.txt (12:53:40 CET).
+Scripts: scripts/r2/recurrence_ladder/01-05. Inputs: existing per-event outputs only; no new per-event test, no new
+reconstruction or search. Threads <= 2, nice 10. Nothing here changes any pre-registered result.
+
+THE LEAD'S QUESTION, ANSWERED IN SHORT
+"Did asking for a shared signature across all origins hide signals present in a subset of them?"
+Mostly no. Counting events (>= 1, >= 2, >= 3 ...) instead of averaging does not reveal a new hypothesis-level result.
+For no hypothesis is the number of significant independent events above chance after correcting across hypotheses.
+At the family level, the ladder confirms the one recurrence result already in the report (contractions recur, expansions
+do not), and it brings out one small, coherent addition: the cell-death receptor family NB-ARC is expanded at three
+independent origins (animals, red algae, land plants), which is unlikely by chance for a pre-specified 21-family set.
+Three things limit the exercise:
+ (1) Most per-event tests cannot reach p < 0.05. Each event is compared with 5-20 control branches, so the smallest
+     possible p is 1/(controls+1). Round-1 rank tests (20 controls) can reach 0.048; the rate test (10 controls) and every
+     focused-panel test (5-9 controls) cannot. For those we also count events that rank above ALL their controls
+     ("top rank"; chance probability 1/(controls+1)). Rows marked * in Figure 8a use this criterion.
+ (2) Seven origins give few tiers. Under the null, about 0.33 of 7 origins are expected to be significant at 0.05, so 2 of 7
+     already has p = 0.041 and 3 of 7 has p = 0.003. But with ~20 hypotheses per ladder, a single 2-of-7 does not survive
+     correction.
+ (3) The events are not fully independent. They share control branches, the species tree and the annotation pipeline, and
+     nested events sit inside their origins. None of this is modelled.
+
+DEFINITIONS (full text: RULES.txt)
+- Independent units: the 7 primary round-1 eukaryotic origins (animals, fungal hyphae, dictyostelids, streptophytes,
+  red algae, brown-algal (PX) filaments, volvocines). Nested simple->complex steps (Pezizomycotina, Agaricomycetes, land
+  plants) have their own ladder, plus an "origin-collapsed" ladder: an origin counts once if it OR a nested step inside it
+  is significant in the same direction. Focused panels (round 2) have separate ladders that are never merged with round 1,
+  because they re-analyse the same origins: origins (internal branches), nested steps (internal), single-species branches
+  (only where the controls are also single-species branches), cyanobacteria, and reversals.
+- Per-event significance: the existing one-sided per-event p-value in the original direction. For rank tests,
+  p = 1 - u + 0.5/(k+1). Nominal parametric p-values (Fisher/Wilcoxon) are labelled "nominal": they are not calibrated
+  against control branches.
+- Chance: number of significant events ~ Poisson-binomial(pi_e), with pi_e the exact per-event null probability
+  (floor(alpha(k+1))/(k+1) for rank tests; alpha for nominal tests). Holm and BH are applied per tier, across the
+  hypotheses of one ladder.
+- Family scan (W4): Pfam families, transposon-masked, BH q < 0.1 within an event, in the multicellular clade vs its
+  sister clade. Null: within each event, its significant families are reassigned among the families it tested (family
+  shuffle). B = 10,000, seed 11; this reproduces the published B = 1,000 values. Per-family recurrence p: exact
+  Poisson-binomial, BH across all 12,813 families. Post hoc sensitivities (added after seeing the first family results,
+  stated here): a size-matched null that shuffles within deciles of family copy number per event (large families have more
+  power in every event); leave-one-origin-out; and origins with genome-based sister clades only.
+
+1. HYPOTHESIS LADDER (hypothesis_ladder.tsv; per-event rows: hypothesis_events.tsv; Figure 8a)
+Round 1, seven origins, alpha = 0.05 (expected about 0.29-0.35 significant origins per hypothesis):
+  New gene families (H1/H2)                  0/7   (top rank 0/7)
+  Transcription-factor duplications (H4)     0/7
+  Adhesion/signalling gains (H5)             0/7
+  Flagellar-gene loss (H12)                  0/6
+  Co-option index (4 versions)               0/7 each
+  Faster protein evolution (H9)              cannot reach 0.05 (10 controls); top rank 0/7
+  Disorder / length of new genes (H10)       0/7 against control branches. The within-stem Wilcoxon (nominal) gives
+                                             disorder 4/7 (p = 0.0002), but control branches show shifts of the same size
+                                             (no origin ranks above 80% of its controls). Calibration, not biology.
+  New gene families, EukaryOMA or Ancestra on shared species: cannot reach 0.05 (16-17 controls); top rank 0/6
+  New multi-domain architectures (H11)       2/7 (animals, volvocines), expected 0.33, P(>=2) = 0.041, Holm 0.65 (17 hyp.)
+                                             The volvocine hit comes from a low model expectation (2-edge stem, few
+                                             descendants): its raw count (45) is BELOW the control mean (118).
+  Duplicated subunits of ancient complexes   2/6 nominal (animals, fungal hyphae), P = 0.033, Holm 0.56
+  Round-2 family sets, sister-clade sign only (no per-origin test): cell death positive in 5/6 origins
+                                             (sign-test P = 0.11), cell-type TFs 4/6, motif-binding 3/6.
+Round 1, nested simple->complex steps (n = 3): new gene families 0/3 at 0.05. At 0.10, 2/3 (land plants,
+  Agaricomycetes; P = 0.026, Holm 0.15). The origin-collapsed ladder at 0.10 gives 3/7 (fungi, streptophytes,
+  volvocines; P = 0.049, Holm 0.29).
+Round 1, reversals: genes gained at the preceding transition are preferentially lost in 4/6 reversals (nominal Fisher;
+  P < 0.001). But multicellular sister branches show the same excess (odds ratios 1.05-2.6; results/exploratory/euk/summary.md section 5), so the
+  test is not calibrated and the count is not evidence.
+Round 1, prokaryotes (4 origins, 9-13 controls): cannot reach 0.05; top rank 0-1 of 4 for every statistic.
+Focused panels (no event can reach p < 0.05; top-rank criterion):
+  Nested steps, internal (n = 6): new gene families 3/6 (Pezizomycotina, land plants, Fucophycidae), expected 0.87,
+     P = 0.043, Holm 0.17, BH 0.09. Structurally unmatched novel families (unadjusted) 3/6 (land plants,
+     V. africanus, Fucophycidae), P = 0.043, Holm 0.17; already shown to be confounded by protein length/disorder.
+     Cell-death families among duplications 1/6 (Florideophyceae, nominal).
+  Origins, internal (n = 11): new gene families 0/11 (expected 1.6); structural novelty 1/11; structure/sequence 2/6.
+  Single-species branches: structure-per-sequence change 6/12 (P = 0.0006), BUT the shuffled-letter negative control also
+     gives 4/12 (P = 0.027). Data quality of single species, not biology. New gene families vs single-species controls 0/5.
+  Cyanobacteria, internal (n = 3): new gene families 2/3 (heterocyst step, Oscillatoriales origin), P = 0.034, Holm 0.07.
+  Reversals: nothing above chance (cell-death duplications 3/11 at 0.10 in brown-algal reversals, P = 0.09).
+Verdict: after Holm or BH within a ladder and tier, no calibrated hypothesis exceeds chance at any tier. The rows that
+pass correction (H10 nominal disorder, reversal Fisher) are uncalibrated tests that the control branches show to be
+artefacts. The best calibrated rows sit at P ~ 0.03-0.04 before correction: 2/7 origins for new architectures, 3/6
+simple->complex steps topping their controls for novelty, 2/3 cyanobacterial events.
+
+2. FAMILY LADDER (family_ladder.tsv; Figure 8b, c). Families significant in >= k of the 7 origins.
+                    k=1                k=2               k=3               k=4
+ expanded   obs 1953 (exp 1943)   42 (54.0, p 0.97)  3 (0.79, p 0.045)  0 (0.005)
+ contracted obs 1483 (exp 1569)  157 (89.9, p 1e-4) 20 (3.16, p 1e-4)  2 (0.058, p 0.0016)
+ No family is significant in >= 5 origins in either direction (expected ~0).
+ Size-matched null: expansions k=3 3 vs 2.59 (p 0.48), so the expansion excess disappears. Contractions are robust:
+   k=2 157 vs 81, k=3 20 vs 3.2, k=4 2 vs 0.08 (all p <= 0.004).
+ Leave-one-origin-out: the contraction excess at k=2 survives every omission. At k=3 it survives every omission except
+   dictyostelids (3 vs 1.5, p 0.19). Using only the 5 origins whose sister clades are all genome-based (dropping animals,
+   5/8 transcriptome sisters, and dictyostelids, 2/2 transcriptome sisters): k=2 29 vs 18.4 (p 0.010), k=3 1 vs 0.19
+   (p 0.18), k=4 1 vs 0.001 (PDEase_I).
+ Nested steps (n = 3): expansions k=2 4 vs 1.3 (p 0.041): HSP20, cytochrome P450, berberine-bridge enzyme (BBE),
+   NPHP3_N. Contractions k=2 3 vs 0.86 (p 0.053). Origin-collapsed: expansions k=3 9 vs 2.9 (p 0.003, uniform null only).
+ Per-family BH across 12,813 families: only 2 families reach q < 0.1, both contracted in 4 of 7 origins:
+   Vint (Hint/intein domain; animals, fungal hyphae, dictyostelids, PX; q = 0.069) and PDEase_I (3',5'-cyclic nucleotide
+   phosphodiesterase; fungal hyphae, streptophytes, PX, volvocines, all with genome-based sisters; q = 0.069).
+ Families in >= 3 origins (recurrent_families_k2.tsv lists all 199 family-direction rows with >= 2):
+   expanded (3): ZBED1_RNase-like (animals, dictyostelids, PX); Sod_Cu Cu/Zn superoxide dismutase (animals, dictyostelids,
+     red algae); CAP cysteine-rich secretory protein (animals, dictyostelids, streptophytes). Each p ~ 2e-4, q = 0.59.
+     All three include animals AND dictyostelids, the two origins with transcriptome sisters.
+   contracted (20 at k >= 3, 2 of them at k = 4): dictyostelids are in 18 of these 20 and animals in 12. They include bacterial-type
+     glycosidases (Bac_rhamnosid6H, Glyco_hydro_43, Glyco_hydro_3_C, BNR_2), intein/Hint domains (Vint, Vwaint), ankyrin
+     repeats (Ank, Ank_3, Ank_5), Aldo_ket_red, Esterase, ABM, PQQ_2 (BamB-like, an outer-membrane protein of bacteria),
+     and signalling or ciliary-type families (PDEase_I, Guanylate_cyc, MORN, MyTH4, Ion_trans).
+     A large part of this list looks like an annotation/transcriptome artefact: sister transcriptomes (Physarum,
+     Ceratiomyxa, choanoflagellates) contain bacterial or contaminant sequences, which makes the multicellular clade look
+     "contracted". The genome-sister-only ladder keeps only a modest k=2 excess. A biological reading (loss of
+     flagellum-associated cyclic-nucleotide signalling; cf. round-1 H12 and Merenyi et al. 2023, "shedding of protist
+     genes") fits PDEase_I, Guanylate_cyc and MORN, but it is a hypothesis, not a result.
+ Frozen sets (set_families_ladder.tsv; size-matched null: set_families_ladder_stratified.tsv):
+   cell death, expanded, origin-collapsed ladder: 3 families in >= 2 origins vs 0.19 expected (uniform null p 0.0008;
+     size-matched null 0.46, p 0.008), namely NB-ARC (animals, red algae, land plants), TIR (animals, land plants) and
+     NACHT (animals, Pezizomycotina). NB-ARC in >= 3 origins: expected 0.004 (uniform) / 0.02 (size-matched),
+     p = 0.004 / 0.022. Across 12 set-level tests per tier (3 sets x 2 directions x 2 ladders), Holm gives 0.0096 for the
+     uniform null and 0.09 for the size-matched null at k >= 2. With the 7 origins only (no nested steps), cell death is
+     1 family (NB-ARC) at k=2, p = 0.09.
+   cell-type TFs: no family significant in >= 2 origins in either direction (11 expanded in >= 1 origin vs 2.4 expected:
+     TF families are often expanded somewhere, never recurrently).
+   motif-binding: 2 expanded (Arf, F5_F8_type_C; both animals + dictyostelids) and 3 contracted (Ank in 3 origins,
+     Metallophos, ARL2_Bind_BART) at k >= 2; none above chance under the size-matched null except contracted Ank and
+     Metallophos in the collapsed ladder at k >= 3 (2 vs 0.27, p 0.03, uncorrected).
+   Existing recurrence analyses, quoted unchanged in family_ladder.tsv: the round-1 Pfam-wide convergence (expanded or
+   gained in >= 2 origins: 370 vs 643 expected, p 0.79; lost in >= 2: 421 vs 192, p 0.043) and panel domain recurrence at
+   simple->complex steps (size effect; rarefied p 0.77).
+
+3. WHAT THE >= k VIEW ADDS TO THE ALL-ORIGINS AVERAGE
+ - It adds nothing at the hypothesis level. The averages were null because most origins are individually null, not
+   because a strong signal in two or three origins was diluted. For the core gene-content hypotheses (novelty, TF,
+   adhesion/signalling, flagellar loss, co-option, rate), 0 of 7 origins is significant even singly.
+ - It sharpens the cell-death result. The confirmatory PGLS excess (REPORT 7.2) is carried by lineage-specific receptors.
+   In the family scan, NB-ARC is significantly expanded at three independent origins, TIR and NACHT at two. This is the
+   "convergence on a function with different architectures" reading of REPORT 7.3, now shown to recur beyond chance for
+   a pre-specified set. It depends on counting land plants (a nested step) for the streptophyte origin, and it is
+   marginal under the size-matched null after correction (Holm 0.09).
+ - It makes clear that recurrence across origins is mostly a contraction phenomenon. A substantial part of it is
+   plausibly a sister-transcriptome artefact; a small, genome-sister-robust core remains (PDEase_I, k=2 excess p 0.01).
+ - Recurrent in >= 3 independent origins and above chance after the stricter checks: no expanded family.
+   Contracted: PDEase_I (4 origins, genome sisters, q 0.07) and Vint (4 origins, q 0.07, partly transcriptome sisters).
+   Recurrent in >= 2: NB-ARC (expanded, 2 origins + land plants), TIR, NACHT (with nested steps), and 157 contracted
+   families (list in recurrent_families_k2.tsv).
+
+4. RECOMMENDATION FOR THE REPORT
+ Worth adding as a short exploratory paragraph and Figure 8, framed as "a conjunction view does not rescue the nulls".
+ Two concrete sentences: (i) NB-ARC expanded at three independent origins (animals, red algae, land plants) and TIR/NACHT
+ at two, which supports the cell-death section; (ii) contractions recur, expansions do not, and part of the contraction
+ recurrence is explained by transcriptome-based sister clades. Do not present any tier as a confirmatory finding.
+
+CAVEATS
+ Post hoc and exploratory, requested after all results were public. Per-event tests are coarse (few controls), so the
+ ladders have little power and many rows cannot be significant by construction. Events share controls, tree and
+ annotation; nested events and single-species branches are handled by separate ladders, not modelled. Annotation and
+ transcriptome artefacts (bacterial-type glycosidases, inteins, contaminant families in sister transcriptomes) affect
+ contractions. Nominal per-event tests (Fisher, within-stem Wilcoxon) are not calibrated and are shown to be inflated
+ where control branches exist. Several hypotheses have correlated versions (3 architecture statistics, 4 co-option
+ versions), which makes Holm conservative.
+
+APPENDIX: every ladder row at alpha = 0.05 and top rank (obs = observed significant events; exp = expected;
+P(>=2), P(>=3) = chance probability of reaching that tier; Holm across hypotheses of the same ladder at the observed tier)
+R1 origins                     H1H2                                       alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H1H2                                       top rank   n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 nested                      H1H2                                       alpha=0.05 n= 3 reach= 3 obs= 0 exp= 0.14 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.007 P(>=3)= 0.0001  
+R1 nested                      H1H2                                       top rank   n= 3 reach= 3 obs= 0 exp= 0.14 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.007 P(>=3)= 0.0001  
+R1 origins                     H4                                         alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H4                                         top rank   n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 nested                      H4                                         alpha=0.05 n= 3 reach= 3 obs= 0 exp= 0.14 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.007 P(>=3)= 0.0001  
+R1 nested                      H4                                         top rank   n= 3 reach= 3 obs= 0 exp= 0.14 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.007 P(>=3)= 0.0001  
+R1 origins                     H5                                         alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H5                                         top rank   n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 nested                      H5                                         alpha=0.05 n= 3 reach= 3 obs= 0 exp= 0.14 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.007 P(>=3)= 0.0001  
+R1 nested                      H5                                         top rank   n= 3 reach= 3 obs= 0 exp= 0.14 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.007 P(>=3)= 0.0001  
+R1 origins                     H12                                        alpha=0.05 n= 6 reach= 6 obs= 0 exp= 0.29 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.030 P(>=3)= 0.0019  
+R1 origins                     H12                                        top rank   n= 6 reach= 6 obs= 0 exp= 0.29 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.030 P(>=3)= 0.0019  
+R1 origins                     H9                                         alpha=0.05 n= 7 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 origins                     H9                                         top rank   n= 7 reach= 7 obs= 0 exp= 0.64 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.128 P(>=3)= 0.0199  
+R1 nested                      H9                                         alpha=0.05 n= 3 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 nested                      H9                                         top rank   n= 3 reach= 3 obs= 0 exp= 0.27 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.023 P(>=3)= 0.0008  
+R1 origins                     H11 new_arch_multi                         alpha=0.05 n= 7 reach= 7 obs= 2 exp= 0.33 P(>=obs)= 0.0406 Holm@tier= 0.649  P(>=2)= 0.041 P(>=3)= 0.0033  T_metazoa;T_volvocine_tgv
+R1 origins                     H11 new_arch_multi                         top rank   n= 7 reach= 7 obs= 2 exp= 0.33 P(>=obs)= 0.0406 Holm@tier= 0.649  P(>=2)= 0.041 P(>=3)= 0.0033  T_metazoa;T_volvocine_tgv
+R1 origins                     H11 new_arch_recombined                    alpha=0.05 n= 7 reach= 7 obs= 2 exp= 0.33 P(>=obs)= 0.0406 Holm@tier= 0.649  P(>=2)= 0.041 P(>=3)= 0.0033  T_metazoa;T_volvocine_tgv
+R1 origins                     H11 new_arch_recombined                    top rank   n= 7 reach= 7 obs= 2 exp= 0.33 P(>=obs)= 0.0406 Holm@tier= 0.649  P(>=2)= 0.041 P(>=3)= 0.0033  T_metazoa;T_volvocine_tgv
+R1 origins                     H11 new_arch_all                           alpha=0.05 n= 7 reach= 7 obs= 2 exp= 0.33 P(>=obs)= 0.0406 Holm@tier= 0.649  P(>=2)= 0.041 P(>=3)= 0.0033  T_metazoa;T_volvocine_tgv
+R1 origins                     H11 new_arch_all                           top rank   n= 7 reach= 7 obs= 2 exp= 0.33 P(>=obs)= 0.0406 Holm@tier= 0.649  P(>=2)= 0.041 P(>=3)= 0.0033  T_metazoa;T_volvocine_tgv
+R1 origins                     H1 co-option pfam_expanded                 alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H1 co-option pfam_expanded                 top rank   n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H1 co-option toolkit_expanded              alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.35 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.044 P(>=3)= 0.0037  
+R1 origins                     H1 co-option toolkit_expanded              top rank   n= 7 reach= 7 obs= 0 exp= 0.35 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.044 P(>=3)= 0.0037  
+R1 origins                     H1 co-option toolkit_present               alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H1 co-option toolkit_present               top rank   n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H1 co-option hog_toolkit                   alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H1 co-option hog_toolkit                   top rank   n= 7 reach= 7 obs= 0 exp= 0.33 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.041 P(>=3)= 0.0033  
+R1 origins                     H10 length_sc                              alpha=0.05 n= 7 reach= 2 obs= 0 exp= 0.10 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.003 P(>=3)= 0.0000  
+R1 origins                     H10 length_sc                              top rank   n= 7 reach= 7 obs= 0 exp= 0.37 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.050 P(>=3)= 0.0045  
+R1 origins [nominal]           H10 length_sc (within-stem Wilcoxon)       alpha=0.05 n= 7 reach= 7 obs= 2 exp= 0.35 P(>=obs)= 0.0444 Holm@tier= 0.089  P(>=2)= 0.044 P(>=3)= 0.0038  T_fungi_hyphae;T_dictyostelia
+R1 origins                     H10 disorder_sc                            alpha=0.05 n= 7 reach= 2 obs= 0 exp= 0.10 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.003 P(>=3)= 0.0000  
+R1 origins                     H10 disorder_sc                            top rank   n= 7 reach= 7 obs= 0 exp= 0.37 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.050 P(>=3)= 0.0045  
+R1 origins [nominal]           H10 disorder_sc (within-stem Wilcoxon)     alpha=0.05 n= 7 reach= 7 obs= 4 exp= 0.35 P(>=obs)= 0.0002 Holm@tier= 0.000  P(>=2)= 0.044 P(>=3)= 0.0038  T_fungi_hyphae;T_dictyostelia;T_rhodophyta;T_px_filaments
+R1 origins                     H1H2 novelty (ancestra, 125 shared species alpha=0.05 n= 6 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 origins                     H1H2 novelty (ancestra, 125 shared species top rank   n= 6 reach= 6 obs= 0 exp= 0.35 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.043 P(>=3)= 0.0034  
+R1 nested                      H1H2 novelty (ancestra, 125 shared species alpha=0.05 n= 2 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)=    nan  
+R1 nested                      H1H2 novelty (ancestra, 125 shared species top rank   n= 2 reach= 2 obs= 1 exp= 0.12 P(>=obs)= 0.1142 Holm@tier= 0.685  P(>=2)= 0.003 P(>=3)=    nan  T_fungi_agaricomycetes
+R1 origins                     H1H2 novelty (eukaryoma, 125 shared specie alpha=0.05 n= 6 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 origins                     H1H2 novelty (eukaryoma, 125 shared specie top rank   n= 6 reach= 6 obs= 0 exp= 0.35 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.043 P(>=3)= 0.0034  
+R1 nested                      H1H2 novelty (eukaryoma, 125 shared specie alpha=0.05 n= 2 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)=    nan  
+R1 nested                      H1H2 novelty (eukaryoma, 125 shared specie top rank   n= 2 reach= 2 obs= 0 exp= 0.12 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.003 P(>=3)=    nan  
+R1 origins                     W7 complex subunits among stem duplication alpha=0.05 n= 6 reach= 6 obs= 2 exp= 0.30 P(>=obs)= 0.0328 Holm@tier= 0.557  P(>=2)= 0.033 P(>=3)= 0.0022  T_metazoa;T_fungi_hyphae
+R1 origins [sign]              R2-P2 motif-binding set                    sign       n= 6 reach= 6 obs= 3 exp= 3.00 P(>=obs)= 0.6562 Holm@tier= 1.000  P(>=2)= 0.891 P(>=3)= 0.6562  T_metazoa;T_streptophyta;T_px_filaments
+R1 origins [sign]              R2-P3 cell-death set                       sign       n= 6 reach= 6 obs= 5 exp= 3.00 P(>=obs)= 0.1094 Holm@tier= 0.328  P(>=2)= 0.891 P(>=3)= 0.6562  T_metazoa;T_fungi_hyphae;T_streptophyta;T_rhodophyta;T_px_filaments
+R1 origins [sign]              R2-P4 cell-type TF set                     sign       n= 6 reach= 6 obs= 4 exp= 3.00 P(>=obs)= 0.3438 Holm@tier= 1.000  P(>=2)= 0.891 P(>=3)= 0.6562  T_metazoa;T_fungi_hyphae;T_streptophyta;T_px_filaments
+R1 reversals                   H12 reversal loses transition genes        alpha=0.05 n= 6 reach= 6 obs= 4 exp= 0.30 P(>=obs)= 0.0001 Holm@tier= 0.000  P(>=2)= 0.033 P(>=3)= 0.0022  T_rev_saccharomycotina;T_rev_schizosaccharomyces;T_rev_cryptococcus;T_rev_zygnematophyceae
+R1 prokaryotes                 H11 new_arch_multi                         alpha=0.05 n= 4 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 prokaryotes                 H11 new_arch_multi                         top rank   n= 4 reach= 4 obs= 0 exp= 0.29 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.028 P(>=3)= 0.0014  
+R1 prokaryotes                 H11 new_arch_recombined                    alpha=0.05 n= 4 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 prokaryotes                 H11 new_arch_recombined                    top rank   n= 4 reach= 4 obs= 1 exp= 0.29 P(>=obs)= 0.2565 Holm@tier= 1.000  P(>=2)= 0.028 P(>=3)= 0.0014  T_magnetotactic_mmp
+R1 prokaryotes                 H11 new_arch_all                           alpha=0.05 n= 4 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 prokaryotes                 H11 new_arch_all                           top rank   n= 4 reach= 4 obs= 0 exp= 0.29 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.028 P(>=3)= 0.0014  
+R1 prokaryotes                 H1 co-option pfam_expanded                 alpha=0.05 n= 4 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 prokaryotes                 H1 co-option pfam_expanded                 top rank   n= 4 reach= 4 obs= 1 exp= 0.29 P(>=obs)= 0.2565 Holm@tier= 1.000  P(>=2)= 0.028 P(>=3)= 0.0014  T_methanosarcina
+R1 prokaryotes                 H1 co-option toolkit_expanded              alpha=0.05 n= 3 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 prokaryotes                 H1 co-option toolkit_expanded              top rank   n= 3 reach= 3 obs= 0 exp= 0.30 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.028 P(>=3)= 0.0010  
+R1 prokaryotes                 H1 co-option toolkit_present               alpha=0.05 n= 4 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 prokaryotes                 H1 co-option toolkit_present               top rank   n= 4 reach= 4 obs= 0 exp= 0.29 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.028 P(>=3)= 0.0014  
+R1 prokaryotes                 H1 co-option hog_toolkit                   alpha=0.05 n= 3 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 prokaryotes                 H1 co-option hog_toolkit                   top rank   n= 3 reach= 3 obs= 0 exp= 0.30 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.028 P(>=3)= 0.0010  
+Panels origins (internal)      Novelty (panels)                           alpha=0.05 n=11 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels origins (internal)      Novelty (panels)                           top rank   n=11 reach=11 obs= 0 exp= 1.56 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.475 P(>=3)= 0.1950  
+Panels nested (internal)       Novelty (panels)                           alpha=0.05 n= 6 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels nested (internal)       Novelty (panels)                           top rank   n= 6 reach= 6 obs= 3 exp= 0.87 P(>=obs)= 0.0429 Holm@tier= 0.172  P(>=2)= 0.211 P(>=3)= 0.0429  R2_pezizomycotina;R3_embryophyta;R6_fucophycidae
+Panels reversals               Novelty (panels)                           alpha=0.05 n= 2 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)=    nan  
+Panels reversals               Novelty (panels)                           top rank   n= 2 reach= 2 obs= 0 exp= 0.27 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.018 P(>=3)=    nan  
+Panels tips                    Novelty (panels, tip vs tip controls)      alpha=0.05 n= 5 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels tips                    Novelty (panels, tip vs tip controls)      top rank   n= 5 reach= 5 obs= 0 exp= 0.39 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.052 P(>=3)= 0.0042  
+Panels reversals               Novelty (panels, tip vs tip controls)      alpha=0.05 n= 4 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels reversals               Novelty (panels, tip vs tip controls)      top rank   n= 4 reach= 4 obs= 1 exp= 0.33 P(>=obs)= 0.2939 Holm@tier= 0.588  P(>=2)= 0.037 P(>=3)= 0.0022  R6_rev_pylaiella
+Panels prokaryotes (internal)  Novelty (panels)                           alpha=0.05 n= 3 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels prokaryotes (internal)  Novelty (panels)                           top rank   n= 3 reach= 3 obs= 2 exp= 0.33 P(>=obs)= 0.0343 Holm@tier= 0.069  P(>=2)= 0.034 P(>=3)= 0.0014  R8_heterocyst;R8_oscillatoriales
+Panels origins (internal)      Cell-death families among seq_novel famili alpha=0.05 n=11 reach=11 obs= 1 exp= 0.55 P(>=obs)= 0.4312 Holm@tier= 1.000  P(>=2)= 0.102 P(>=3)= 0.0152  R1_metazoa
+Panels tips                    Cell-death families among seq_novel famili alpha=0.05 n=17 reach=17 obs= 1 exp= 0.85 P(>=obs)= 0.5819 Holm@tier= 1.000  P(>=2)= 0.208 P(>=3)= 0.0503  R2_endogone
+Panels origins (internal)      Cell-death families among dup families     alpha=0.05 n=11 reach=11 obs= 1 exp= 0.55 P(>=obs)= 0.4312 Holm@tier= 1.000  P(>=2)= 0.102 P(>=3)= 0.0152  R1_metazoa
+Panels tips                    Cell-death families among dup families     alpha=0.05 n=17 reach=17 obs= 2 exp= 0.85 P(>=obs)= 0.2078 Holm@tier= 1.000  P(>=2)= 0.208 P(>=3)= 0.0503  R3_chara;R4_pleodorina
+Panels nested (internal)       Cell-death families among seq_novel famili alpha=0.05 n= 6 reach= 6 obs= 0 exp= 0.30 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.033 P(>=3)= 0.0022  
+Panels reversals               Cell-death families among seq_novel famili alpha=0.05 n=11 reach=11 obs= 0 exp= 0.55 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.102 P(>=3)= 0.0152  
+Panels nested (internal)       Cell-death families among dup families     alpha=0.05 n= 6 reach= 6 obs= 1 exp= 0.30 P(>=obs)= 0.2649 Holm@tier= 1.000  P(>=2)= 0.033 P(>=3)= 0.0022  R5_florideophyceae
+Panels reversals               Cell-death families among dup families     alpha=0.05 n=11 reach=11 obs= 2 exp= 0.55 P(>=obs)= 0.1019 Holm@tier= 0.408  P(>=2)= 0.102 P(>=3)= 0.0152  R6_rev_pylaiella;R6_rev_chordaria
+Panels prokaryotes (internal)  Cell-death families among seq_novel famili alpha=0.05 n= 3 reach= 3 obs= 0 exp= 0.15 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.007 P(>=3)= 0.0001  
+Panels prokaryotes (tips)      Cell-death families among seq_novel famili alpha=0.05 n= 6 reach= 6 obs= 0 exp= 0.30 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.033 P(>=3)= 0.0022  
+Panels prokaryotes (internal)  Cell-death families among dup families     alpha=0.05 n= 3 reach= 3 obs= 0 exp= 0.15 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.007 P(>=3)= 0.0001  
+Panels prokaryotes (tips)      Cell-death families among dup families     alpha=0.05 n= 6 reach= 6 obs= 0 exp= 0.30 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.033 P(>=3)= 0.0022  
+Panels origins (internal)      Structural novelty (unadjusted)            alpha=0.05 n=11 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels origins (internal)      Structural novelty (unadjusted)            top rank   n=11 reach=11 obs= 1 exp= 1.39 P(>=obs)= 0.7743 Holm@tier= 1.000  P(>=2)= 0.413 P(>=3)= 0.1525  R7_dictyostelia
+Panels nested (internal)       Structural novelty (unadjusted)            alpha=0.05 n= 6 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels nested (internal)       Structural novelty (unadjusted)            top rank   n= 6 reach= 6 obs= 3 exp= 0.87 P(>=obs)= 0.0429 Holm@tier= 0.172  P(>=2)= 0.211 P(>=3)= 0.0429  R3_embryophyta;R4_volvox_africanus;R6_fucophycidae
+Panels prokaryotes (internal)  Structural novelty (unadjusted)            alpha=0.05 n= 2 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)=    nan  
+Panels prokaryotes (internal)  Structural novelty (unadjusted)            top rank   n= 2 reach= 2 obs= 0 exp= 0.20 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.010 P(>=3)=    nan  
+Panels tips                    Structure/sequence change ratio            alpha=0.05 n=12 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels tips                    Structure/sequence change ratio            top rank   n=12 reach=12 obs= 6 exp= 1.22 P(>=obs)= 0.0006 Holm@tier= 0.001  P(>=2)= 0.350 P(>=3)= 0.1155  R1_barroeca;R2_neolecta;R2_tremella;R2_endogone;R4_tetrabaena;R4_volvox_carteri
+Panels origins (internal)      Structure/sequence change ratio            alpha=0.05 n= 6 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels origins (internal)      Structure/sequence change ratio            top rank   n= 6 reach= 6 obs= 2 exp= 0.71 P(>=obs)= 0.1527 Holm@tier= 0.611  P(>=2)= 0.153 P(>=3)= 0.0252  R1_choanoeca;R1_salpingoeca
+Panels nested (internal)       Structure/sequence change ratio            alpha=0.05 n= 3 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels nested (internal)       Structure/sequence change ratio            top rank   n= 3 reach= 3 obs= 0 exp= 0.39 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.047 P(>=3)= 0.0022  
+Panels tips                    NEG CONTROL: ratio with shuffled 3Di       alpha=0.05 n=12 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels tips                    NEG CONTROL: ratio with shuffled 3Di       top rank   n=12 reach=12 obs= 4 exp= 1.22 P(>=obs)= 0.0271 Holm@tier= 0.081  P(>=2)= 0.350 P(>=3)= 0.1155  R1_barroeca;R2_tremella;R2_endogone;R4_astrephomene
+Panels origins (internal)      NEG CONTROL: ratio with shuffled 3Di       alpha=0.05 n= 6 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels origins (internal)      NEG CONTROL: ratio with shuffled 3Di       top rank   n= 6 reach= 6 obs= 2 exp= 0.71 P(>=obs)= 0.1527 Holm@tier= 0.611  P(>=2)= 0.153 P(>=3)= 0.0252  R1_salpingoeca;R4_gonium_volvocaceae
+Panels nested (internal)       NEG CONTROL: ratio with shuffled 3Di       alpha=0.05 n= 3 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+Panels nested (internal)       NEG CONTROL: ratio with shuffled 3Di       top rank   n= 3 reach= 3 obs= 1 exp= 0.39 P(>=obs)= 0.3438 Holm@tier= 1.000  P(>=2)= 0.047 P(>=3)= 0.0022  R4_volvox_africanus
+R1 origins collapsed (origin O H1H2                                       alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.47 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.073 P(>=3)= 0.0077  
+R1 origins collapsed (origin O H1H2                                       top rank   n= 7 reach= 7 obs= 0 exp= 0.47 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.073 P(>=3)= 0.0077  
+R1 origins collapsed (origin O H1H2 novelty (ancestra, 125 shared species alpha=0.05 n= 6 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 origins collapsed (origin O H1H2 novelty (ancestra, 125 shared species top rank   n= 6 reach= 6 obs= 1 exp= 0.46 P(>=obs)= 0.3800 Holm@tier= 1.000  P(>=2)= 0.070 P(>=3)= 0.0070  T_fungi_hyphae;T_fungi_agaricomycetes
+R1 origins collapsed (origin O H1H2 novelty (eukaryoma, 125 shared specie alpha=0.05 n= 6 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 origins collapsed (origin O H1H2 novelty (eukaryoma, 125 shared specie top rank   n= 6 reach= 6 obs= 0 exp= 0.46 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.070 P(>=3)= 0.0070  
+R1 origins collapsed (origin O H4                                         alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.47 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.073 P(>=3)= 0.0077  
+R1 origins collapsed (origin O H4                                         top rank   n= 7 reach= 7 obs= 0 exp= 0.47 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.073 P(>=3)= 0.0077  
+R1 origins collapsed (origin O H5                                         alpha=0.05 n= 7 reach= 7 obs= 0 exp= 0.47 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.073 P(>=3)= 0.0077  
+R1 origins collapsed (origin O H5                                         top rank   n= 7 reach= 7 obs= 0 exp= 0.47 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.073 P(>=3)= 0.0077  
+R1 origins collapsed (origin O H9                                         alpha=0.05 n= 7 reach= 0 obs= 0 exp= 0.00 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.000 P(>=3)= 0.0000  
+R1 origins collapsed (origin O H9                                         top rank   n= 7 reach= 7 obs= 0 exp= 0.88 P(>=obs)= 1.0000 Holm@tier=   nan  P(>=2)= 0.213 P(>=3)= 0.0435  

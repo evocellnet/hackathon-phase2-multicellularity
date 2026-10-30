@@ -155,3 +155,22 @@ small positive values cannot be distinguished from prediction noise combined wit
 results/r2/w5_3di_validation/per_protein_accuracy.tsv; results/r2/w5/r1/{xval_agreement_summary,controls_<run>}.tsv;
 results/r2/verification/w5/work/glmm_results{,_exh}.txt; results/r2/w6/panel_tests.tsv; script
 scripts/r2/figures/fig7_structure.py.
+
+Figure 8. Counting origins instead of averaging them: few results recur in more independent events than chance predicts (exploratory, added after publication at the project lead's request; D17).
+(a) For each hypothesis, the number of independent events whose own one-sided test is significant (dot) against the
+number expected by chance (tick) and its 95% chance range (grey band), from a Poisson-binomial distribution of the
+per-event null probabilities. Events: the seven round-1 origins, simple-to-complex steps, origins in the focused
+datasets, single-species branches compared with single-species controls, and cyanobacterial events, each counted
+separately (the focused datasets re-analyse the same origins and are not pooled with round 1). Significance is p <= 0.05;
+rows marked * use "ranks above all control branches", because with 5-17 controls a per-event p below 0.05 is
+impossible. "Nominal" rows use per-event Fisher tests that are not calibrated against control branches. No hypothesis
+exceeds chance after correction across hypotheses. Among single-species branches, the shuffled-letter negative control
+scores almost as often as the real structural statistic.
+(b, c) Number of Pfam families significantly expanded (b) or contracted (c) in the multicellular clade relative to its
+sister clade (BH q < 0.1 within each origin, transposon families removed) at >= k of the seven origins (dots; * p < 0.05),
+against a null that reshuffles each origin's significant families among the families it tested (line: mean; grey: 95%
+range; B = 10,000), and a size-matched null that reshuffles within deciles of family copy number (dashed). Zero is drawn
+on a log-linear axis. Expansions do not recur beyond chance once family size is matched; contractions do (157 vs 81
+expected at k >= 2), but much of that excess comes from the two origins whose sister clades are mostly transcriptomes
+(dictyostelids, animals). Sources: results/r2/recurrence_ladder/{hypothesis_events,hypothesis_ladder,family_ladder,
+family_ladder_sensitivity}.tsv; scripts scripts/r2/recurrence_ladder/01-05.

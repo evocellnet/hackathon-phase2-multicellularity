@@ -1,0 +1,200 @@
+pfam	direction	n_origins	expected_origins	recurrence_p	recurrence_q_bh	exceeds_chance_q01	n_origins_tested	origins	nested_same_direction	opposite_direction_origins	name	description	frozen_sets	round1_toolkit	go_terms
+PF27041	expanded	3	0.228	0.00015930903755218193	0.5910694651340164	0	5	animals;dictyostelids;brown-algal (PX) filaments			ZBED1_RNase-like	ZBED1 RNase-like domain			
+PF00080	expanded	3	0.23	0.00018452180289831152	0.5910694651340164	0	6	animals;dictyostelids;red algae			Sod_Cu	Copper/zinc superoxide dismutase (SODC)			metal ion binding ; GO:0046872 | superoxide metabolic process ; GO:0006801
+PF00188	expanded	3	0.23	0.00018452180289831152	0.5910694651340164	0	7	animals;dictyostelids;streptophytes			CAP	Cysteine-rich secretory protein family			
+PF07983	expanded	2	0.021	5.251973866844956e-05	0.5910694651340164	0	2	fungal hyphae;streptophytes	land plants		X8	X8 domain			
+PF14510	expanded	2	0.046	0.000582624430569641	1.0	0	3	fungal hyphae;dictyostelids	land plants		ABC_trans_N	ABC-transporter N-terminal			
+PF01679	expanded	2	0.053	0.0008884432956250749	1.0	0	5	fungal hyphae;dictyostelids			Pmp3	Proteolipid membrane potential modulator			membrane ; GO:0016020
+PF05679	expanded	2	0.184	0.0016454656339924838	1.0	0	3	animals;red algae			CHGN	Chondroitin N-acetylgalactosaminyltransferase			Golgi cisterna membrane ; GO:0032580
+PF10613	expanded	2	0.187	0.0021693960210850344	1.0	0	5	animals;brown-algal (PX) filaments			Lig_chan-Glu_bd	Ligated ion channel L-glutamate- and glycine-binding site			ligand-gated monoatomic ion channel activity ; GO:0015276 | membrane ; GO:0016020
+PF06657	expanded	2	0.193	0.0031557866221041194	1.0	0	2	animals;fungal hyphae			Cep57_MT_bd	Centrosome microtubule-binding domain of Cep57			microtubule binding ; GO:0008017
+PF08938	expanded	2	0.193	0.0031557866221041194	1.0	0	2	animals;fungal hyphae			HBS1_N	HBS1 N-terminus			
+PF12423	expanded	2	0.193	0.0031557866221041194	1.0	0	2	animals;fungal hyphae			KIF1B	Kinesin protein 1B			
+PF00755	expanded	2	0.199	0.004415487063219129	1.0	0	3	animals;brown-algal (PX) filaments			Carn_acyltransf	Choline/Carnitine o-acyltransferase			
+PF14670	expanded	2	0.2	0.004425915191492888	1.0	0	2	animals;dictyostelids			FXa_inhibition	Coagulation Factor Xa inhibitory site			
+PF00931	expanded	2	0.205	0.005468557636563178	1.0	0	5	animals;red algae	land plants		NB-ARC	NB-ARC domain	cell-death	adhesion_ecm	ADP binding ; GO:0043531
+PF10192	expanded	2	0.207	0.005717694893295703	1.0	0	3	animals;dictyostelids			GPR180-TMEM145_TM	GPR180/TMEM145, transmembrane domain			G protein-coupled receptor signaling pathway ; GO:0007186 | response to pheromone ; GO:0019236
+PF08246	expanded	2	0.209	0.006284007880390788	1.0	0	5	animals;dictyostelids	land plants		Inhibitor_I29	Cathepsin propeptide inhibitor domain (I29)			
+PF19030	expanded	2	0.209	0.006284007880390788	1.0	0	5	animals;dictyostelids			TSP1_ADAMTS	Thrombospondin type 1 domain			
+PF07350	expanded	2	0.225	0.009247555294047626	1.0	0	4	fungal hyphae;brown-algal (PX) filaments		animals	Gig2-like	Gig2-like			
+PF00615	expanded	2	0.228	0.009845595069619786	1.0	0	5	animals;brown-algal (PX) filaments			RGS	Regulator of G protein signaling domain			
+PF00754	expanded	2	0.228	0.009845595069619786	1.0	0	6	animals;dictyostelids			F5_F8_type_C	F5/8 type C domain	motif-binding	adhesion_ecm	
+PF00854	expanded	2	0.228	0.009845595069619786	1.0	0	6	animals;fungal hyphae	land plants		PTR2	POT family			transmembrane transporter activity ; GO:0022857 | transmembrane transport ; GO:0055085 | membrane ; GO:0016020
+PF01822	expanded	2	0.228	0.009845595069619786	1.0	0	6	fungal hyphae;brown-algal (PX) filaments		dictyostelids	WSC	WSC domain			
+PF04253	expanded	2	0.228	0.009845595069619786	1.0	0	5	animals;fungal hyphae			TFR_dimer	Transferrin receptor-like dimerisation domain			
+PF04749	expanded	2	0.228	0.009845595069619786	1.0	0	6	animals;dictyostelids		brown-algal (PX) filaments	PLAC8	PLAC8 family			
+PF16414	expanded	2	0.228	0.009845595069619786	1.0	0	6	animals;fungal hyphae			NPC1_N	Niemann-Pick C1 N terminus			
+PF27039	expanded	2	0.228	0.009845595069619786	1.0	0	5	animals;brown-algal (PX) filaments			ZBED1_RNase-like_helical	ZBED1 RNase-like helical domain			
+PF00025	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;dictyostelids			Arf	ADP-ribosylation factor family	motif-binding		GTPase activity ; GO:0003924 | GTP binding ; GO:0005525
+PF00083	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;fungal hyphae		red algae;brown-algal (PX) filaments	Sugar_tr	Sugar (and other) transporter			transmembrane transporter activity ; GO:0022857 | transmembrane transport ; GO:0055085 | membrane ; GO:0016020
+PF00808	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;dictyostelids			CBFD_NFYB_HMF	Histone-like transcription factor (CBF/NF-Y) and archaeal histone			
+PF00860	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;dictyostelids			Xan_ur_permease	Permease family			transmembrane transporter activity ; GO:0022857 | transmembrane transport ; GO:0055085 | membrane ; GO:0016020
+PF01596	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;fungal hyphae			Methyltransf_3	O-methyltransferase			O-methyltransferase activity ; GO:0008171
+PF01756	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;dictyostelids			ACOX	Acyl-CoA oxidase			acyl-CoA oxidase activity ; GO:0003997 | fatty acid beta-oxidation ; GO:0006635 | peroxisome ; GO:0005777
+PF01762	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;brown-algal (PX) filaments		dictyostelids	Galactosyl_T	Galactosyltransferase			hexosyltransferase activity ; GO:0016758 | glycoprotein biosynthetic process ; GO:0009101 | membrane ; GO:0016020
+PF01833	expanded	2	0.23	0.010386236316841204	1.0	0	7	dictyostelids;red algae		animals	TIG	IPT/TIG domain			
+PF02178	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;fungal hyphae			AT_hook	AT hook motif			DNA binding ; GO:0003677
+PF02485	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;red algae		fungal hyphae	Branch	Core-2/I-Branching enzyme			glycosyltransferase activity ; GO:0016757 | membrane ; GO:0016020
+PF02893	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;dictyostelids		fungal hyphae	GRAM	GRAM domain			
+PF03098	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;brown-algal (PX) filaments			An_peroxidase	Animal haem peroxidase			
+PF03351	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;brown-algal (PX) filaments		fungal hyphae	DOMON	DOMON domain			
+PF07690	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;fungal hyphae		brown-algal (PX) filaments	MFS_1	Major Facilitator Superfamily			transmembrane transporter activity ; GO:0022857 | transmembrane transport ; GO:0055085
+PF12890	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;fungal hyphae			DHOase	Dihydro-orotase-like			
+PF22924	expanded	2	0.23	0.010386236316841204	1.0	0	7	animals;dictyostelids			ACOX_C_alpha1	Acyl-CoA oxidase, C-alpha1 domain			
+PF14623	contracted	4	0.209	6.334947994612471e-06	0.06912189362565783	1	5	animals;fungal hyphae;dictyostelids;brown-algal (PX) filaments			Vint	Hint-domain			
+PF00233	contracted	4	0.218	1.0789337957645802e-05	0.06912189362565783	1	6	fungal hyphae;streptophytes;brown-algal (PX) filaments;volvocines			PDEase_I	3'5'-cyclic nucleotide phosphodiesterase			3',5'-cyclic-nucleotide phosphodiesterase activity ; GO:0004114 | signal transduction ; GO:0007165
+PF13088	contracted	3	0.184	0.00025545873105606564	0.48119372873693556	0	4	animals;dictyostelids;streptophytes			BNR_2	BNR repeat-like domain			
+PF17389	contracted	3	0.207	0.00046573216576437695	0.48119372873693556	0	4	animals;dictyostelids;brown-algal (PX) filaments			Bac_rhamnosid6H	Bacterial alpha-L-rhamnosidase 6 hairpin glycosidase domain			
+PF04616	contracted	3	0.216	0.0005933457339580622	0.48119372873693556	0	5	animals;dictyostelids;brown-algal (PX) filaments			Glyco_hydro_43	Glycosyl hydrolases family 43			hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553 | carbohydrate metabolic process ; GO:0005975
+PF14624	contracted	3	0.216	0.0005933457339580622	0.48119372873693556	0	5	animals;fungal hyphae;dictyostelids			Vwaint	VWA / Hh  protein intein-like			
+PF00211	contracted	3	0.218	0.0006240812315702534	0.48119372873693556	0	6	fungal hyphae;dictyostelids;streptophytes			Guanylate_cyc	Adenylate and Guanylate cyclase catalytic domain			cyclic nucleotide biosynthetic process ; GO:0009190 | intracellular signal transduction ; GO:0035556
+PF00784	contracted	3	0.218	0.0006240812315702534	0.48119372873693556	0	6	animals;fungal hyphae;dictyostelids			MyTH4	MyTH4 domain			cytoskeleton ; GO:0005856
+PF01915	contracted	3	0.218	0.0006240812315702534	0.48119372873693556	0	6	animals;dictyostelids;brown-algal (PX) filaments			Glyco_hydro_3_C	Glycosyl hydrolase family 3 C-terminal domain			hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553 | carbohydrate metabolic process ; GO:0005975
+PF02493	contracted	3	0.218	0.0006240812315702534	0.48119372873693556	0	6	animals;fungal hyphae;dictyostelids			MORN	MORN repeat			
+PF14033	contracted	3	0.224	0.0007176783129405354	0.48119372873693556	0	6	fungal hyphae;dictyostelids;brown-algal (PX) filaments			DUF4246	Protein of unknown function (DUF4246)			
+PF00023	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	fungal hyphae;dictyostelids;streptophytes			Ank	Ankyrin repeat	motif-binding		protein binding ; GO:0005515
+PF00248	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	animals;dictyostelids;brown-algal (PX) filaments			Aldo_ket_red	Aldo/keto reductase family			
+PF00520	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	fungal hyphae;dictyostelids;streptophytes	land plants	animals	Ion_trans	Ion transport protein			monoatomic ion channel activity ; GO:0005216 | monoatomic ion transport ; GO:0006811 | transmembrane transport ; GO:0055085 | membrane ; GO:0016020
+PF00756	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	animals;fungal hyphae;dictyostelids			Esterase	Putative esterase			
+PF03992	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	animals;streptophytes;brown-algal (PX) filaments			ABM	Antibiotic biosynthesis monooxygenase			
+PF04488	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	dictyostelids;red algae;brown-algal (PX) filaments	Agaricomycetes		Gly_transf_sug	Glycosyltransferase sugar-binding region containing DXD motif   			
+PF13360	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	animals;dictyostelids;volvocines			PQQ_2	Outer membrane protein assembly factor BamB			
+PF13606	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	fungal hyphae;dictyostelids;streptophytes			Ank_3	Ankyrin repeat			protein binding ; GO:0005515
+PF13857	contracted	3	0.226	0.0007511023628142285	0.48119372873693556	0	7	fungal hyphae;dictyostelids;streptophytes			Ank_5	Ankyrin repeats (many copies)			protein binding ; GO:0005515
+PF26695	contracted	2	0.105	0.0023160779238922532	1.0	0	2	animals;brown-algal (PX) filaments			DUF8234	Domain of unknown function (DUF8234)			
+PF05167	contracted	2	0.113	0.003120822628294387	1.0	0	3	animals;brown-algal (PX) filaments			DUF711	Uncharacterised ACR (DUF711)			
+PF25474	contracted	2	0.114	0.0034420728623659846	1.0	0	4	fungal hyphae;streptophytes			TPR_TmcB	TmcB, TPR repeats			
+PF08373	contracted	2	0.116	0.003444116889508067	1.0	0	4	streptophytes;brown-algal (PX) filaments			RAP	RAP domain			
+PF25017	contracted	2	0.116	0.003444116889508067	1.0	0	4	animals;brown-algal (PX) filaments			zf-C2HC_3	C2HC zinc finger			
+PF03107	contracted	2	0.116	0.003446096477479289	1.0	0	3	animals;dictyostelids			C1_2	C1 domain			
+PF21743	contracted	2	0.124	0.004320054569489914	1.0	0	5	animals;brown-algal (PX) filaments			PTM_DIR17_Tudor	PTM/DIR17-like, Tudor domain			
+PF16980	contracted	2	0.141	0.004949804708127359	1.0	0	2	animals;fungal hyphae			CitMHS_2	Putative citrate transport			
+PF22068	contracted	2	0.143	0.005210141462840815	1.0	0	3	animals;fungal hyphae			Androglobin_II	Androglobin, domain II			
+PF04403	contracted	2	0.139	0.005762022752833537	1.0	0	3	animals;brown-algal (PX) filaments			PqiA	Paraquat-inducible protein A			
+PF09118	contracted	2	0.152	0.006420360167195886	1.0	0	4	animals;volvocines			GO-like_E_set	Galactose oxidase-like, Early set domain			
+PF15739	contracted	2	0.152	0.006420360167195886	1.0	0	4	fungal hyphae;streptophytes		animals	TSNAXIP1_N	Translin-associated factor X-interacting N-terminus			
+PF01062	contracted	2	0.148	0.006927880972663931	1.0	0	4	dictyostelids;brown-algal (PX) filaments			Bestrophin	Bestrophin, RFP-TM, chloride channel			chloride channel activity ; GO:0005254
+PF05118	contracted	2	0.149	0.007053265932212557	1.0	0	5	animals;dictyostelids			Asp_Arg_Hydrox	Aspartyl/Asparaginyl beta-hydroxylase			peptidyl-amino acid modification ; GO:0018193
+PF01365	contracted	2	0.15	0.00719491251735969	1.0	0	5	animals;brown-algal (PX) filaments			RYDR_ITPR	RIH domain			calcium channel activity ; GO:0005262 | calcium ion transmembrane transport ; GO:0070588 | membrane ; GO:0016020
+PF01429	contracted	2	0.15	0.00719491251735969	1.0	0	5	dictyostelids;brown-algal (PX) filaments		animals	MBD	Methyl-CpG binding domain			DNA binding ; GO:0003677
+PF04916	contracted	2	0.15	0.00719491251735969	1.0	0	5	animals;brown-algal (PX) filaments	land plants		Phospholip_B	Phospholipase B			glycerophospholipase activity ; GO:0004620
+PF13599	contracted	2	0.156	0.008008088654368362	1.0	0	5	animals;brown-algal (PX) filaments			Pentapeptide_4	Pentapeptide repeat region			
+PF00059	contracted	2	0.158	0.008286713834441533	1.0	0	6	streptophytes;volvocines		animals	Lectin_C	Lectin C-type domain		adhesion_ecm	
+PF02685	contracted	2	0.158	0.008286713834441533	1.0	0	6	animals;streptophytes			Glucokinase	Glucokinase			glucokinase activity ; GO:0004340 | ATP binding ; GO:0005524 | D-glucose binding ; GO:0005536 | glycolytic process ; GO:0006096 | glucose 6-phosphate metabolic process ; GO:0051156
+PF06912	contracted	2	0.173	0.009109851702231346	1.0	0	3	animals;brown-algal (PX) filaments			DUF1275	Protein of unknown function (DUF1275)			
+PF01828	contracted	2	0.175	0.009459325280493747	1.0	0	3	animals;dictyostelids			Peptidase_A4	Peptidase A4 family			proteolysis ; GO:0006508
+PF05592	contracted	2	0.175	0.009459325280493747	1.0	0	3	animals;dictyostelids			Bac_rhamnosid	Bacterial alpha-L-rhamnosidase concanavalin-like domain			
+PF07940	contracted	2	0.175	0.009459325280493747	1.0	0	3	animals;dictyostelids			Hepar_II_III_C	Heparinase II/III-like, C-terminal			lyase activity ; GO:0016829
+PF11175	contracted	2	0.175	0.009459325280493747	1.0	0	3	animals;dictyostelids			GH172_2nd	GH172 second beta-sandwich domain			
+PF16470	contracted	2	0.175	0.009459325280493747	1.0	0	3	fungal hyphae;dictyostelids		animals	S8_pro-domain	Peptidase S8 pro-domain			
+PF08530	contracted	2	0.182	0.010519816489872883	1.0	0	4	animals;streptophytes			PepX_C	X-Pro dipeptidyl-peptidase C-terminal non-catalytic domain			dipeptidyl-peptidase activity ; GO:0008239
+PF09359	contracted	2	0.184	0.010838912293773503	1.0	0	5	animals;streptophytes			VTC	VTC domain			
+PF30846	contracted	2	0.184	0.010838912293773503	1.0	0	5	fungal hyphae;streptophytes			CEP164_N	CEP164 N-terminal domain			
+PF18368	contracted	2	0.184	0.010887190366922853	1.0	0	4	animals;dictyostelids			Ig_GlcNase	Exo-beta-D-glucosaminidase Ig-fold domain			
+PF03575	contracted	2	0.19	0.011810636789646164	1.0	0	5	animals;brown-algal (PX) filaments			Peptidase_S51	Peptidase family S51			serine-type peptidase activity ; GO:0008236 | proteolysis ; GO:0006508
+PF03572	contracted	2	0.192	0.012140430994411859	1.0	0	6	animals;fungal hyphae	land plants		Peptidase_S41	Peptidase family S41			serine-type peptidase activity ; GO:0008236 | proteolysis ; GO:0006508
+PF04366	contracted	2	0.192	0.012140430994411859	1.0	0	6	streptophytes;red algae			Ysc84	Las17-binding protein actin regulator			
+PF05686	contracted	2	0.192	0.012140430994411859	1.0	0	6	animals;brown-algal (PX) filaments			Glyco_transf_90	Glycosyl transferase family 90			
+PF06437	contracted	2	0.192	0.012140430994411859	1.0	0	6	animals;brown-algal (PX) filaments			ISN1	IMP-specific 5'-nucleotidase			magnesium ion binding ; GO:0000287 | 5'-nucleotidase activity ; GO:0008253 | inosine salvage ; GO:0006190 | nucleotide metabolic process ; GO:0009117
+PF08718	contracted	2	0.192	0.012140430994411859	1.0	0	6	red algae;brown-algal (PX) filaments			GLTP	Glycolipid transfer protein (GLTP)			lipid transfer activity ; GO:0120013 | intermembrane lipid transfer ; GO:0120009 | cytoplasm ; GO:0005737
+PF01229	contracted	2	0.207	0.014422200179327745	1.0	0	4	animals;fungal hyphae			Glyco_hydro_39	Glycosyl hydrolases family 39			
+PF08531	contracted	2	0.207	0.014422200179327745	1.0	0	4	animals;dictyostelids			Bac_rhamnosid_N	Alpha-L-rhamnosidase N-terminal domain			
+PF10021	contracted	2	0.207	0.014422200179327745	1.0	0	4	animals;dictyostelids			PARG_cat_microb	Microbial-type PARG, catalytic domain			
+PF12437	contracted	2	0.207	0.014422200179327745	1.0	0	4	animals;brown-algal (PX) filaments			GSIII_N	Glutamine synthetase type III N terminal			glutamine synthetase activity ; GO:0004356
+PF18318	contracted	2	0.207	0.014422200179327745	1.0	0	4	animals;brown-algal (PX) filaments			Gln-synt_C-ter	Glutamine synthetase C-terminal domain			
+PF01120	contracted	2	0.216	0.016047153933367808	1.0	0	5	animals;brown-algal (PX) filaments			Alpha_L_fucos	Alpha-L-fucosidase			
+PF03283	contracted	2	0.216	0.016047153933367808	1.0	0	5	animals;dictyostelids			PAE	Pectinacetylesterase			hydrolase activity ; GO:0016787
+PF05028	contracted	2	0.216	0.016047153933367808	1.0	0	5	fungal hyphae;dictyostelids			PARG_cat_C	Poly (ADP-ribose) glycohydrolase (PARG), Macro domain fold			poly(ADP-ribose) glycohydrolase activity ; GO:0004649 | regulation of DNA repair ; GO:0006282
+PF10111	contracted	2	0.216	0.016047153933367808	1.0	0	5	fungal hyphae;streptophytes			Glyco_tranf_2_2	Glycosyltransferase like family 2			
+PF11700	contracted	2	0.216	0.016047153933367808	1.0	0	5	animals;dictyostelids	land plants		ATG22	Vacuole effluxer Atg22 like			
+PF00295	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;dictyostelids			Glyco_hydro_28	Glycosyl hydrolases family 28			polygalacturonase activity ; GO:0004650 | carbohydrate metabolic process ; GO:0005975
+PF00512	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;dictyostelids	land plants		HisKA	His Kinase A (phospho-acceptor) domain			phosphorelay sensor kinase activity ; GO:0000155 | signal transduction ; GO:0007165
+PF00612	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;fungal hyphae			IQ	IQ calmodulin-binding motif			protein binding ; GO:0005515
+PF00728	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;brown-algal (PX) filaments			Glyco_hydro_20	Glycosyl hydrolase family 20, catalytic domain			hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553 | carbohydrate metabolic process ; GO:0005975
+PF00933	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;dictyostelids			Glyco_hydro_3	Glycosyl hydrolase family 3 N terminal domain			hydrolase activity, hydrolyzing O-glycosyl compounds ; GO:0004553 | carbohydrate metabolic process ; GO:0005975
+PF01476	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;volvocines	land plants		LysM	LysM domain			
+PF02149	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;fungal hyphae			KA1	Kinase associated domain 1			
+PF03028	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			Dynein_heavy	Dynein heavy chain region D6 P-loop domain 			minus-end-directed microtubule motor activity ; GO:0008569 | microtubule-based movement ; GO:0007018 | dynein complex ; GO:0030286
+PF03083	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;brown-algal (PX) filaments			MtN3_slv	Sugar efflux transporter for intercellular exchange			membrane ; GO:0016020
+PF03133	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;streptophytes			TTL	Tubulin-tyrosine ligase family			protein modification process ; GO:0036211
+PF03629	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;dictyostelids			SASA	Carbohydrate esterase, sialic acid-specific acetylesterase			
+PF05351	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			GMP_PDE_delta	GMP-PDE, delta subunit			
+PF06565	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			DM10_dom	DM10 domain			
+PF06824	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;brown-algal (PX) filaments			Glyco_hydro_125	Metal-independent alpha-mannosidase (GH125)			
+PF07004	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			SHIPPO-rpt	Sperm-tail PG-rich repeat			
+PF07162	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			B9-C2	Ciliary basal body-associated, B9 protein			
+PF10211	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			Ax_dynein_light	Axonemal dynein light chain			
+PF11527	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			ARL2_Bind_BART	The ARF-like 2 binding protein BART	motif-binding		
+PF12138	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;dictyostelids			Spherulin4	Spherulation-specific family 4			
+PF12708	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;dictyostelids			Pect-lyase_RHGA_epim	Rhamnogalacturonase A/epimerase, pectate lyase-like			
+PF13757	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			VIT_2	Vault protein inter-alpha-trypsin domain			
+PF13863	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			DUF4200	Domain of unknown function (DUF4200)			
+PF13868	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			TPH	Trichohyalin-plectin-homology domain			
+PF13870	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			CCDC113_CCDC96_CC	CCDC113/CCDC96, coiled-coil			
+PF14769	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			CLAMP	Flagellar C1a complex subunit C1a-32			
+PF14772	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			NYD-SP28	Sperm tail			
+PF14845	contracted	2	0.218	0.016412060662071386	1.0	0	6	animals;brown-algal (PX) filaments			Glycohydro_20b2	beta-acetyl hexosaminidase like			
+PF16045	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			LisH_2	LisH			protein binding ; GO:0005515
+PF23387	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			TPR_IFT80_172	IFT80/172/WDR35/WDR19 TPR domain			
+PF23390	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			Beta-prop_WDR35_2nd	WDR35 second beta-propeller			
+PF23735	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			KIF9	Kinesin-like protein KIF9 domain			
+PF24652	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			CEP76_C	Centrosomal protein of 76 kDa C-terminal domain			
+PF24762	contracted	2	0.218	0.016412060662071386	1.0	0	6	fungal hyphae;dictyostelids			TPR_IF140-IFT172	IF140/IFT172 TPR domain			
+PF00083	contracted	2	0.226	0.017898070137188596	1.0	0	7	red algae;brown-algal (PX) filaments		animals;fungal hyphae	Sugar_tr	Sugar (and other) transporter			transmembrane transporter activity ; GO:0022857 | transmembrane transport ; GO:0055085 | membrane ; GO:0016020
+PF00149	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments	Pezizomycotina		Metallophos	Calcineurin-like phosphoesterase	motif-binding		hydrolase activity ; GO:0016787
+PF00550	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;streptophytes			PP-binding	Phosphopantetheine attachment site			
+PF00571	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;red algae	land plants	dictyostelids	CBS	CBS domain			
+PF00652	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			Ricin_B_lectin	Ricin-type beta-trefoil lectin domain			
+PF00701	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids		fungal hyphae	DHDPS	Dihydrodipicolinate synthetase family			lyase activity ; GO:0016829
+PF00782	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;red algae			DSPc	Dual specificity phosphatase, catalytic domain			dephosphorylation ; GO:0016311
+PF00849	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			PseudoU_synth_2	RNA pseudouridylate synthase			RNA binding ; GO:0003723 | pseudouridine synthase activity ; GO:0009982 | pseudouridine synthesis ; GO:0001522 | RNA modification ; GO:0009451
+PF00885	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			DMRL_synthase	6,7-dimethyl-8-ribityllumazine synthase			riboflavin biosynthetic process ; GO:0009231 | riboflavin synthase complex ; GO:0009349
+PF00890	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;red algae			FAD_binding_2	FAD binding domain			
+PF01053	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;red algae			Cys_Met_Meta_PP	Cys/Met metabolism PLP-dependent enzyme			pyridoxal phosphate binding ; GO:0030170 | transsulfuration ; GO:0019346
+PF01068	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			DNA_ligase_A_M	ATP dependent DNA ligase domain			DNA ligase (ATP) activity ; GO:0003910 | ATP binding ; GO:0005524 | DNA repair ; GO:0006281 | DNA recombination ; GO:0006310
+PF01189	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			Methyltr_RsmB-F	16S rRNA methyltransferase RsmB/F			
+PF01226	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			Form_Nir_trans	Formate/nitrite transporter			transmembrane transporter activity ; GO:0022857 | transmembrane transport ; GO:0055085 | membrane ; GO:0016020
+PF01327	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;brown-algal (PX) filaments			Pep_deformylase	Polypeptide deformylase			peptide deformylase activity ; GO:0042586
+PF01474	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			DAHP_synth_2	Class-II DAHP synthetase family			3-deoxy-7-phosphoheptulonate synthase activity ; GO:0003849 | aromatic amino acid biosynthetic process ; GO:0009073
+PF01490	contracted	2	0.226	0.017898070137188596	1.0	0	7	red algae;brown-algal (PX) filaments			Aa_trans	Transmembrane amino acid transporter protein			
+PF01535	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;red algae			PPR	PPR repeat			
+PF01697	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;brown-algal (PX) filaments	land plants		Glyco_transf_92	Glycosyltransferase family 92			
+PF01925	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;fungal hyphae			TauE	Sulfite exporter TauE/SafE			membrane ; GO:0016020
+PF02230	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			Abhydrolase_2	Phospholipase/Carboxylesterase			hydrolase activity ; GO:0016787
+PF02450	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;brown-algal (PX) filaments			LCAT	Lecithin:cholesterol acyltransferase			acyltransferase activity, transferring groups other than amino-acyl groups ; GO:0016747 | lipid metabolic process ; GO:0006629
+PF02678	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			Pirin	Pirin			
+PF02872	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;brown-algal (PX) filaments			5_nucleotid_C	5'-nucleotidase, C-terminal domain			hydrolase activity ; GO:0016787 | nucleotide catabolic process ; GO:0009166
+PF02897	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;fungal hyphae			Peptidase_S9_N	Prolyl oligopeptidase, N-terminal beta-propeller domain			serine-type endopeptidase activity ; GO:0004252
+PF03151	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments	land plants		TPT	Triose-phosphate Transporter family			
+PF03959	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			FSH1	Serine hydrolase (FSH1)			
+PF04116	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			FA_hydroxylase	Fatty acid hydroxylase			
+PF04564	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			U-box	U-box domain			ubiquitin-protein transferase activity ; GO:0004842 | protein ubiquitination ; GO:0016567
+PF04577	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments	land plants		Glyco_transf_61	Glycosyltransferase 61			glycosyltransferase activity ; GO:0016757
+PF05050	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;brown-algal (PX) filaments	land plants		Methyltransf_21	Methyltransferase FkbM domain			
+PF05186	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;dictyostelids			Dpy-30	Dpy-30 motif			
+PF05721	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			PhyH	Phytanoyl-CoA dioxygenase (PhyH)			
+PF07534	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;dictyostelids			TLD	TLDc domain			
+PF07699	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;volvocines			Ephrin_rec_like	Tyrosine-protein kinase ephrin type A/B receptor-like 			
+PF07728	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;brown-algal (PX) filaments			AAA_5	AAA domain (dynein-related subfamily)			ATP binding ; GO:0005524 | ATP hydrolysis activity ; GO:0016887
+PF08007	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments	land plants		JmjC_2	JmjC domain			
+PF08487	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;volvocines			VIT	Vault protein inter-alpha-trypsin domain			
+PF09423	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			PhoD	PhoD-like phosphatase			
+PF10294	contracted	2	0.226	0.017898070137188596	1.0	0	7	red algae;brown-algal (PX) filaments	land plants		Methyltransf_16	Lysine methyltransferase			
+PF10431	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			ClpB_D2-small	C-terminal, D2-small domain, of ClpB protein 			
+PF12781	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;dictyostelids			AAA_9	ATP-binding dynein motor region			
+PF12796	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;streptophytes			Ank_2	Ankyrin repeats (3 copies)			protein binding ; GO:0005515
+PF13472	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;brown-algal (PX) filaments			Lipase_GDSL_2	GDSL-like Lipase/Acylhydrolase family			
+PF13621	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments	land plants		Cupin_8	Cupin-like domain			
+PF13637	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;streptophytes			Ank_4	Ankyrin repeats (many copies)			protein binding ; GO:0005515
+PF13812	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;red algae			PPR_3	Pentatricopeptide repeat domain			
+PF13813	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids		fungal hyphae	MBOAT_2	Membrane bound O-acyl transferase family			
+PF13913	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;dictyostelids			zf-C2HC_2	zinc-finger of a C2HC-type			
+PF14295	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			PAN_4	PAN domain			
+PF17177	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			PPR_long	Pentacotripeptide-repeat region of PRORP			
+PF17871	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			AAA_lid_9	AAA lid domain			
+PF18198	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;dictyostelids			AAA_lid_11	Dynein heavy chain AAA lid domain			
+PF18199	contracted	2	0.226	0.017898070137188596	1.0	0	7	fungal hyphae;dictyostelids			Dynein_C	Dynein heavy chain C-terminal domain			
+PF21365	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;brown-algal (PX) filaments			Glyco_hydro_31_3rd	Glycosyl hydrolase family 31 C-terminal domain			
+PF22547	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			2H-SAK	Swiss Army Knife, 2H phosphoesterase domain			
+PF23276	contracted	2	0.226	0.017898070137188596	1.0	0	7	animals;dictyostelids			TPR_24	Pentatricopeptide repeat-containing protein			
+PF25372	contracted	2	0.226	0.017898070137188596	1.0	0	7	dictyostelids;streptophytes			LRR_FBXL15	F-box/LRR-repeat protein 15, leucine rich repeat domain			
