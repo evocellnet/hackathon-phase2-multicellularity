@@ -1,0 +1,81 @@
+# Department-head review of the final round-2 report (report/REPORT_v2.txt)
+
+Independent senior reviewer (Fable agent), 2026-10-30. Numbers checked against result files; figures viewed.
+
+## Summary judgement
+
+Round 2 did what I asked and what the lead asked. All eight of the lead's points were attempted (EukaryOMA;
+GPU ProstT5 and Ancestra's structure mode; simple-to-complex singly and pooled; eight dense per-event runs;
+motif-binding, cell-death and cell-type-TF sets; per-event family, architecture and recurrence tables; the
+Cox map), and my priorities 1-6 and 8 were executed. The report is honest where results are thin, and
+twice publishes the refutation of its own earlier claim.
+I spot-checked 24 numbers across §§5-9 — the PGLS coefficient, CI, lambda and seven leave-one-out p-values;
+the four confirmatory rate ratios, permutation and Stouffer p, pooled RRs; EukaryOMA agreement and
+depth-adjusted expectations; 3Di 0.655/0.167/0.314; structure-mode 23.3/20.7/21.5% with CIs;
+25,035/41,914/2,400/17%; OR 1.44/1.18/1.73/1.23; w6 0.110/0.076/0.074 vs shuffled 0.222/0.058/0.049;
+W7 66.6/72.1/63.6%; both recurrence counts; Table 1's sums. All matched; citation fixes were applied.
+Hedging is mostly correct, and in places too severe rather than too loose. The main faults are a
+figure-numbering collision, one claim contradicted by the project's own record, an unacknowledged
+dependence among the confirmatory events, and length.
+
+## Must fix
+
+1. **Figure numbering collides.** "Figure 4b" denotes both panel (b) of Figure 4 and a separate figure of
+   that name. §7.3's "(Figure 4b)" points to the architecture figure, §7.4's to Figure 4 panel (b).
+   Renumber the architecture figure as Figure 5 and renumber downstream.
+2. **A claim contradicted by your own record (§4.1).** "EukaryOMA could not serve as a sequence source
+   because its interface returns one protein per request" is wrong: results/eukaryoma_xval/summary.txt
+   reports 0.50 M sequences fetched via the bulk_retrieve API. Give the real reason or drop the sentence.
+3. **The four confirmatory events are not independent (§6.1-6.2, Figure 3a).** Three of them
+   (*Astrephomene*, *V. carteri*, *V. africanus*) sit in one panel and share the same six controls, yet
+   Stouffer's combination and the random-effects pool treat them as four independent studies.
+   DESIGN_ROUND2.md §6 promised a "one effect per panel" sensitivity; it exists for the secondary set
+   (results/r2/panels/summary.txt, RR 10.3, k = 6) but not for the confirmatory four. Run it, or say that
+   the confirmatory p is effectively a two-panel result.
+4. **State what was recommended and not done.** My priority 7 (calibration with a gene-birth simulator) was
+   not attempted, yet §6.4, §10.3 and Figure 3d's 2.2-fold bias bar still rest on one round-1 simulation;
+   add a sentence to §10.4. DESIGN_ROUND2 §6 also promised W1 split by overlapping and non-overlapping
+   species, which §5 does not give.
+5. **§7.7 and Figure 5c overstate the annotation gap.** "Most sequence-novel families carry no Pfam domain
+   at all" is supported only by the two lowest events; the figure's own range runs from 1.4% (*V. carteri*)
+   to 51% (land plants, 132 of 259). Quote the range.
+6. **Two different "expected" agreements (§5.2 vs Figure 2 caption).** The text uses the verifier's
+   24.7%/13.1%, the figure the producer's 22%. Name the estimator in each place.
+7. **§2.3 item 3 is softer than the errata.** ERRATA.txt records 7 of 10 passed, 6 of 9 excluding the null
+   control C15, which a method missing duplications would also pass. Give the 6-of-9 figure.
+
+## Should fix
+
+- §6.2 and §6.4 give different values for the same events (Fucophycidae 2.0 vs 1.84; *V. africanus* 1.27 vs
+  1.19), one as-specified and one as-implemented. Label both at first use; the Figure 3 caption is not enough.
+- Figure 1c has no tip labels, so eight cladograms carry little beyond shape. Label the named lineages.
+- §9: say that only the published LECA complex map was used; the raw co-fractionation elution profiles the
+  lead pointed to were not reanalysed.
+- §8.7: the split-half control is strongly negative in volvocines (-0.28), a further sign that that panel's
+  five crown branches cannot support the test.
+- §7.1: the inclusion rule is asymmetric (it conditions on presence in multicellular clades); say that the
+  symmetric-rule check (p = 0.0068) is what addresses this.
+- RESEARCH_TREE R2-M2 still gives p = 0.072/0.144 for P1; reconcile with §6.2.
+
+## Cuts and moves to a supplement
+
+~15,400 words plus ~1,900 of captions. Target ~9,000.
+- §8 (2,550 words) is the largest section and almost entirely negative. Keep §8.1-8.2 to a paragraph, 8.4
+  to five sentences, one paragraph each for 8.5-8.7; move windowing, throughput, per-class accuracy,
+  rescue counts and exhaustive-search detail out (~1,200).
+- §7.6-7.7 (recurrent and per-event family lists): keep the figure and three sentences, table the rest (~800).
+- §2 (956 words): compress to ~350, errata into a supplementary table.
+- §5.2's verification paragraph and §4.2's reconstruction detail: move to Methods (~450).
+- Captions: cap at 150 words each (Figure 3 is ~370, Figure 4b ~330). Saves ~700.
+- Keep §11 as is; it is what a broad audience will learn most from.
+
+## What is good
+
+The tip-versus-internal artefact (§6.3, Figure 3b-c) is the best self-criticism I have seen from this team:
+the frozen test was kept, and the report shows reversal tips scoring 21-fold by the same comparison.
+Figure 3 makes that visible in one look. The EukaryOMA comparison (§5) is the most valuable science here,
+reported against the team's own interest, including the depth adjustment that dissolves its first positive
+claim. The cell-death result is properly qualified: §7.3 says what the extra proteins are and refuses the
+easy "cell death built multicellularity" reading. The shuffled-letter control in §8.7, and applying the
+pre-registered structure-mode rule when it gave the unwanted answer, are exactly right. The
+"shown / believed / not supported" box in §10.1 should be standard practice.
