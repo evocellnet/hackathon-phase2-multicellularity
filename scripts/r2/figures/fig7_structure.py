@@ -1,4 +1,4 @@
-"""Figure 6. Protein structure predicted from sequence: accuracy, use inside Ancestra, structural novelty, divergence.
+"""Figure 7. Protein structure predicted from sequence: accuracy, use inside Ancestra, structural novelty, divergence.
 Sources:
  (a) results/r2/w5_3di_validation/per_protein_accuracy.tsv, accuracy_meta.txt
  (b) results/r2/w5/r1/xval_agreement_summary.tsv, controls_{default,3di,3di_guard}.tsv
@@ -181,7 +181,7 @@ def main():
     gs2 = gs[1, 0].subgridspec(1, 1)
     axc = fig.add_subplot(gs2[0, 0]); panel_c(axc); panel_label(axc, "c", x=-0.2)
     axd = fig.add_subplot(gs[1, 1]); panel_d(axd); panel_label(axd, "d", x=-0.2)
-    save(fig, "fig6_structure")
+    save(fig, "fig7_structure")
 
 
 if __name__ == "__main__":

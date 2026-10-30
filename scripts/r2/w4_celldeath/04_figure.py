@@ -1,11 +1,12 @@
 #!/usr/bin/env python
-"""Figure 4b (report v2): cell-death family copy numbers and NB-ARC/NACHT architectures per lineage
+"""Figure 5 (report v2; was Figure 4b before renumbering): cell-death family copy numbers and NB-ARC/NACHT architectures per lineage
 (multicellular clade vs sister), and cell-death families gained/duplicated on the dense-panel simple->complex events.
 
 Reads results/r2/w4_celldeath/{celldeath_proteins.tsv.gz, stand_proteins.tsv.gz, panels_event_celldeath.tsv,
 panels_celldeath_families.tsv} and results/r2/w4/scan/events_used.tsv. Style from scripts/r2/figures/common.py.
-Writes report/figures_v2/fig4b_celldeath_architectures.{png,pdf}; also the plotted matrices to
+Writes report/figures_v2/fig5_celldeath_architectures.{png,pdf}; also the plotted matrices to
 results/r2/w4_celldeath/fig4b_matrix_{families,stand}.tsv.
+(The matrix files keep their historical fig4b_ prefix so that source references in the report stay valid.)
 """
 import os
 import sys
@@ -194,7 +195,7 @@ def main():
                                label="expected from control branches")],
                loc="upper center", bbox_to_anchor=(0.45, -0.16), fontsize=5.5, ncol=3)
     panel_label(ax3, "c", x=-0.30, y=1.02)
-    save(fig, "fig4b_celldeath_architectures")
+    save(fig, "fig5_celldeath_architectures")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-"""Figure 5. What is gained and duplicated at simple-to-complex events: example domain families.
+"""Figure 6. What is gained and duplicated at simple-to-complex events: example domain families.
 Sources: results/r2/panels/<R>/w3_event_families.tsv (primary panels; R4, not the curated sensitivity panel),
 results/r2/panels/pooled/final_8panels/w3/{w3_event_summary.tsv, w3_recurrent_domains.tsv}.
 A family is counted for a domain if at least one of its representative proteins carries that Pfam domain
@@ -196,7 +196,7 @@ def main():
     fig_label(fig, "a", 0.01, 0.985)
     fig_label(fig, "b", 0.01, 0.335)
     fig_label(fig, "c", 0.54, 0.335)
-    save(fig, "fig5_complex_families")
+    save(fig, "fig6_complex_families")
     print(pd.DataFrame(M, index=[x[2] for x in DOMAINS], columns=ev_ids).to_string())
     print("kinase seq_novel per internal event", dict(zip([e[0] for e in internal], kin)), "dup", dup, "recurrence row", kr.to_dict())
     print("frac with pfam", dict(zip(ev_ids, np.round(frac, 1))))

@@ -15,6 +15,30 @@ KIND_LAB = {"origin": "unicellular → simple (origin)", "origin_complex": "unic
             "nested": "simple → complex", "reversal": "reversal", "other": "other (complex → complex)"}
 
 
+CLADE_LAB = {"Metazoa": "animals", "Blastocladiomycota_Amastigomycota": "hyphal fungi",
+             "Agaricomycetes_Dacrymycetes": "Agaricomycetes\n+ Dacrymycetes",
+             "Klebsormidiophyceae_Phragmoplastophyta": "Klebsormidiophyceae\n+ Phragmoplastophyta",
+             "Embryophyta": "land plants", "Gonium_Volvocaceae": "Gonium +\nVolvocaceae",
+             "Volvox_africanus_reticuliferus": "V. africanus/\nreticuliferus",
+             "Rhodymeniophycidae": "Florideophyceae", "PX_clade": "PX clade",
+             "Myxogastria_Ceratiomyxa": "Myxogastria\n+ Ceratiomyxa", "Branching_Nostocales": "branching\nNostocales"}
+TIP_FS = 3.4
+
+
+def short_species(name):
+    """Genus initial + epithet ('Volvox carteri f. nagariensis' -> 'V. carteri'); 'sp.' names keep the genus."""
+    w = str(name).split()
+    if w[0] == "Candidatus":
+        return "Ca. " + w[1]
+    if len(w) < 2 or w[1] == "sp.":
+        return f"{w[0]} sp."
+    return f"{w[0][0]}. {w[1]}"
+
+
+def clade_label(m):
+    return CLADE_LAB.get(m, m.replace("_", " "))
+
+
 def kind_of(row):
     if row.kind in ("origin", "origin_complex", "nested", "reversal"):
         return row.kind
@@ -46,6 +70,7 @@ def draw_tree(ax, R, sp, ev):
     root = read_newick(f"{P}/data/dense/{R}/guide_tree.nwk")
     tips = layout_cladogram(root)
     state = dict(zip(sp[R].code, sp[R].mc_state))
+    sname = dict(zip(sp[R].code, sp[R].species))
     e = ev[R][ev[R].k.notna()]
     emap = {m: (k, eid, n) for m, k, eid, n in zip(e.M, e.k, e.event_id, e.seq_novel)}
     for n in root.walk():
@@ -59,12 +84,24 @@ def draw_tree(ax, R, sp, ev):
                 col = event_colour(k, eid)
                 ax.plot([x0, n.x], [n.y, n.y], color=col, lw=2.6 if eid in P1_EVENTS else 1.8,
                         solid_capstyle="butt", zorder=3)
+                if n.children:  # internal event branch: clade name above the branch
+                    if n.x <= 2.5:  # stems near the root: write to the right, below the branch
+                        ax.text(x0 + 0.1, n.y - 0.3, clade_label(n.name), fontsize=TIP_FS, color=col, ha="left",
+                                va="top", zorder=5, fontweight="bold", linespacing=0.95,
+                                bbox=dict(fc="white", ec="none", pad=0.15, alpha=0.85))
+                    else:
+                        ax.text(n.x - 0.06, n.y + 0.22, clade_label(n.name), fontsize=TIP_FS, color=col,
+                                ha="right", va="bottom", zorder=5, fontweight="bold", linespacing=0.95,
+                                bbox=dict(fc="white", ec="none", pad=0.15, alpha=0.85))
             else:
                 ax.plot([x0, n.x], [n.y, n.y], color="#9a9a9a", lw=0.5, solid_capstyle="butt", zorder=1)
     xs = [t.x for t in tips]
     for t in tips:
-        ax.scatter(t.x + 0.35, t.y, s=7, color=STATE.get(state.get(t.name, ""), "white"), edgecolor="none", zorder=4)
-    ax.set_xlim(-0.3, max(xs) + 0.8)
+        ax.scatter(t.x + 0.35, t.y, s=5, color=STATE.get(state.get(t.name, ""), "white"), edgecolor="none", zorder=4)
+        tcol = event_colour(*emap[t.name][:2]) if t.name in emap else INK
+        ax.text(t.x + 0.7, t.y, short_species(sname.get(t.name, t.name)), fontsize=TIP_FS, style="italic",
+                color=tcol, va="center", ha="left", zorder=4)
+    ax.set_xlim(-0.3, (max(xs) + 0.8) * 1.75)  # right part reserved for tip labels
     ax.set_ylim(-1, len(tips))
     ax.axis("off")
     n_ev = int(e.k.notna().sum())
@@ -73,8 +110,8 @@ def draw_tree(ax, R, sp, ev):
 
 def main():
     sp, ev = load()
-    fig = plt.figure(figsize=(180 * MM, 178 * MM))
-    gs = fig.add_gridspec(3, 4, height_ratios=[0.78, 1.0, 1.0], hspace=0.36, wspace=0.12,
+    fig = plt.figure(figsize=(180 * MM, 228 * MM))
+    gs = fig.add_gridspec(3, 4, height_ratios=[0.62, 1.3, 1.3], hspace=0.27, wspace=0.12,
                           left=0.03, right=0.99, top=0.965, bottom=0.065)
     gtop = gs[0, :].subgridspec(1, 2, wspace=0.08, width_ratios=[1, 1.08])
     # ---- (a) species by state ----
@@ -160,7 +197,7 @@ def main():
     fig.legend(handles=lh, loc="lower center", ncol=4, bbox_to_anchor=(0.5, 0.0), handlelength=1.6, columnspacing=1.2)
     fig_label(fig, "a", 0.005, 0.995)
     fig_label(fig, "b", 0.49, 0.995)
-    fig_label(fig, "c", 0.005, 0.705)
+    fig_label(fig, "c", 0.005, 0.735)
     save(fig, "fig1_overview")
 
     # numbers for the caption

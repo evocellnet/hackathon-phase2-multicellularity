@@ -1,4 +1,5 @@
-FIGURE CAPTIONS, REPORT v2 (report/figures_v2/; scripts in scripts/r2/figures/, run make_all.sh)
+FIGURE CAPTIONS, REPORT v2 (report/figures_v2/; scripts in scripts/r2/figures/, run make_all.sh;
+Figure 5 is drawn by scripts/r2/w4_celldeath/04_figure.py, also called from make_all.sh)
 Colours are the same in every figure: grey = unicellular, green = simple multicellular (and origins of simple
 multicellularity), blue = complex multicellular (and simple-to-complex events), orange = reversals,
 pink = the four pre-registered (confirmatory) simple-to-complex events.
@@ -14,7 +15,8 @@ of each panel drawn as a cladogram (tips aligned; branch lengths not to scale). 
 species; coloured branches are event branches, coloured by the state they lead to. Thick pink branches are the
 four confirmatory simple-to-complex events: Astrephomene and Volvox carteri (single-species branches),
 V. africanus/reticuliferus (Volvocales) and the Fucophycidae stem (Stramenopiles). Most of each tree lies inside
-multicellular clades, which leaves 5-9 control branches per panel. Sources: data/dense/<panel>/species.tsv,
+multicellular clades, which leaves 5-9 control branches per panel. Tips are labelled with abbreviated species
+names and internal event branches with clade names (text coloured like the event). Sources: data/dense/<panel>/species.tsv,
 transitions.tsv, guide_tree.nwk; results/r2/panels/<panel>/event_table.tsv.
 
 -----------------------------------------------------------------------------------------------------------
@@ -25,9 +27,10 @@ on the six transition stems that map exactly onto the pruned tree (log scale). O
 reports 804 new families and 6,617 duplications, EukaryOMA 2,502 and 196 (3.1-fold and 34-fold differences in
 opposite directions). (c) Share of events that the other method places on the same branch. Dark bars: the six
 stems pooled; grey bars: 26 control branches inside unicellular lineages; hatched bars: the share expected for
-branches of the stems' depth and size (binomial model fitted on 86 non-stem branches). Points are single
+branches of the stems' depth and size (producer's binomial GLM fitted on 86 non-stem branches). Points are single
 branches. Ancestra's stem gains are confirmed in 29% of cases (540 of 1,859 mapped) against 11% on controls and
-22% expected; EukaryOMA's stem gains in 9% (542 of 5,750). Duplications agree in 4-8% of cases on stems and
+22% expected (producer's binomial GLM on depth and log number of tips over 86 non-stem branches; the
+independent verifier's equivalent fit on 97 branches gives 24.7%); EukaryOMA's stem gains in 9% (542 of 5,750). Duplications agree in 4-8% of cases on stems and
 controls alike. Agreement is consistency between methods, not accuracy. Sources: results/eukaryoma_xval/
 counts_per_branch.tsv, agreement_per_branch.tsv, agreement_stems_depth_adjusted.tsv.
 
@@ -79,25 +82,7 @@ modelling copy number as a share of the proteome gives +0.083 (p = 0.14). Source
 pgls_results.tsv; results/r2/verification/w4/v2_pgls_output.txt.
 
 -----------------------------------------------------------------------------------------------------------
-Figure 5. The families gained or duplicated at simple-to-complex events fit known biology, but only a small
-annotatable minority can be described. (a) Number of gene families gained (sequence-novel) or duplicated on
-each event branch that carry the given Pfam domain (transposon-domain families excluded; square-root colour
-scale; dots = 0). Columns: four volvocine germ-soma events (three single-species branches) and six internal
-simple-to-complex events; pink labels mark confirmatory events. Volvocine events carry duplicated families of
-pherophorin-like extracellular-matrix glycoproteins (DUF3707), volvocine matrix metalloproteases
-(Peptidase_M11) and guanylate cyclases; in all four events these are duplications, not new families.
-Heterocystous Nostocales carry two-component signalling families (response regulators, histidine kinases, GAF)
-and pentapeptide repeats; land plants leucine-rich-repeat and F-box families; Florideophyceae C2H2 and bZIP
-transcription factors; complex fungi (Pezizomycotina, Agaricomycetes) Zn2Cys6 transcription factors,
-transporters, short-chain dehydrogenases and cellulose-binding domains. (b) Families with a protein-kinase
-domain at the seven internal events: one sequence-novel kinase family at each of 5 of 7 events (darker bars;
-recurrence permutation p = 0.023, BH q = 0.06), against 7-41 duplicated kinase families per event (lighter bars).
-(c) Percentage of sequence-novel families with any Pfam domain (e.g. 18 of 1,300 in V. carteri, 63 of 493 in
-Fucophycidae). Sources: results/r2/panels/<panel>/w3_event_families.tsv (primary panels; R4, not the curated
-sensitivity panel); results/r2/panels/pooled/final_8panels/w3/{w3_event_summary,w3_recurrent_domains}.tsv.
-
------------------------------------------------------------------------------------------------------------
-Figure 4b. The extra cell-death proteins of multicellular lineages are mostly immune-type receptors, and the
+Figure 5. The extra cell-death proteins of multicellular lineages are mostly immune-type receptors, and the
 receptor type differs between lineages. (a) Mean number of proteins per species carrying each cell-death domain,
 in the multicellular clade (MC) of each lineage and in its closest unicellular or simpler sister clade (sis.);
 Pfam 38.2 gathering-threshold hits; dots = none. "Caspase" excludes proteins that also carry the metacaspase
@@ -117,10 +102,29 @@ Pfam-annotated families on the panel's control branches. q < 0.1: one-sided Fish
 32 branch x kind rows (exploratory). * single-species branch (tip). Only the animal origin, Florideophyceae and
 Pleodorina (doubtful ARM-repeat proteins with weak cell-death domain matches) and two tip branches exceed
 expectation. Sources: results/r2/w4_celldeath/ (fig4b_matrix_families.tsv, fig4b_matrix_stand.tsv,
-panels_event_celldeath.tsv); scripts/r2/w4_celldeath/04_figure.py.
+panels_event_celldeath.tsv); scripts/r2/w4_celldeath/04_figure.py (output fig5_celldeath_architectures.*; the
+matrix files keep their historical fig4b_ prefix).
 
 -----------------------------------------------------------------------------------------------------------
-Figure 6. Structure predicted from sequence is accurate enough to search with, but it did not improve Ancestra
+Figure 6. The families gained or duplicated at simple-to-complex events fit known biology, but only a small
+annotatable minority can be described. (a) Number of gene families gained (sequence-novel) or duplicated on
+each event branch that carry the given Pfam domain (transposon-domain families excluded; square-root colour
+scale; dots = 0). Columns: four volvocine germ-soma events (three single-species branches) and six internal
+simple-to-complex events; pink labels mark confirmatory events. All four volvocine events duplicate families of
+pherophorin-like extracellular-matrix glycoproteins (DUF3707), volvocine matrix metalloproteases
+(Peptidase_M11) and guanylate cyclases; in all four events these are duplications, not new families.
+Heterocystous Nostocales carry two-component signalling families (response regulators, histidine kinases, GAF)
+and pentapeptide repeats; land plants leucine-rich-repeat and F-box families; Florideophyceae C2H2 and bZIP
+transcription factors; complex fungi (Pezizomycotina, Agaricomycetes) Zn2Cys6 transcription factors,
+transporters, short-chain dehydrogenases and cellulose-binding domains. (b) Families with a protein-kinase
+domain at the seven internal events: one sequence-novel kinase family at each of 5 of 7 events (darker bars;
+recurrence permutation p = 0.023, BH q = 0.06), against 7-41 duplicated kinase families per event (lighter bars).
+(c) Percentage of sequence-novel families with any Pfam domain, from 1.4% (V. carteri, 18 of 1,300) to 51%
+(land plants, 132 of 259); below 21% at eight of the ten events (e.g. 63 of 493 in Fucophycidae). Sources: results/r2/panels/<panel>/w3_event_families.tsv (primary panels; R4, not the curated
+sensitivity panel); results/r2/panels/pooled/final_8panels/w3/{w3_event_summary,w3_recurrent_domains}.tsv.
+
+-----------------------------------------------------------------------------------------------------------
+Figure 7. Structure predicted from sequence is accurate enough to search with, but it did not improve Ancestra
 and gave no robust evolutionary signal. (a) Share of residues at which the 3Di structural letter predicted from
 sequence by our GPU implementation of ProstT5 equals the letter computed by Foldseek from the AlphaFold
 database model, by protein length (4,981 proteins, 2.55 million residues; overall 0.655). Blue: Swiss-Prot
@@ -149,4 +153,4 @@ sequence alignment. The shuffled control gives an effect comparable to or larger
 small positive values cannot be distinguished from prediction noise combined with tree shape. Sources:
 results/r2/w5_3di_validation/per_protein_accuracy.tsv; results/r2/w5/r1/{xval_agreement_summary,controls_<run>}.tsv;
 results/r2/verification/w5/work/glmm_results{,_exh}.txt; results/r2/w6/panel_tests.tsv; script
-scripts/r2/figures/fig6_structure.py.
+scripts/r2/figures/fig7_structure.py.
