@@ -727,6 +727,8 @@ def crops():
         "fig7_b.png": (F2 / "fig7_structure.png", (1090, 0, 2125, 840)),
         "fig7_c.png": (F2 / "fig7_structure.png", (0, 880, 1060, 1771)),
         "fig7_d.png": (F2 / "fig7_structure.png", (1090, 880, 2125, 1771)),
+        "fig8_a.png": (F2 / "fig8_recurrence_ladder.png", (0, 40, 1340, 1290)),
+        "fig8_b.png": (F2 / "fig8_recurrence_ladder.png", (1340, 40, 2240, 620)),
     }
     for name, (src, box) in jobs.items():
         im = Image.open(src).convert("RGB").crop(box)

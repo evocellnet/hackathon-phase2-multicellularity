@@ -755,6 +755,40 @@ async function build() {
     caption(s, "Data: Cox et al. 2026, LECA interactome from co-fractionation mass spectrometry.", { x: 8.6, y: 5.6, w: 4.1, h: 0.7 });
   }
   {
+    const TAG = "Added after publication at the project lead's request (exploratory)";
+    const NSRC = " Sources: results/r2/recurrence_ladder/summary.txt; results/r2/verification/recurrence_ladder/VERIFICATION.txt; report/REPORT.md section 12 (Figure 8).";
+    {
+      const s = content("Counting independent origins instead of averaging",
+        "Addendum added after publication at the project lead's request; exploratory. Instead of averaging effects across origins, count in how many independent origins (or events) a result is significant on its own and compare that count with what chance alone would give. Result: new gene families 0 of 7 origins, transcription-factor duplications 0 of 7, adhesion and signalling 0 of 7, flagellar-gene loss 0 of 6, so each origin is null on its own; counting does not rescue the nulls. Two tiers go slightly beyond chance nominally: new multi-domain architectures 2 of 7 (chance P = 0.04, Holm 0.65) and simple-to-complex steps in the focused panels 3 of 6 top-ranked (P = 0.04, Holm 0.17); neither survives correction. Caveat: this view cannot add per-event power; it avoids diluting a signal that is confined to a few origins, and each tier must be compared with its own chance expectation." + NSRC);
+      img(s, "fig8_a.png", { x: 0.5, y: 1.3, w: 6.3, h: 5.3 }, "Report Figure 8a: independent events with a significant result versus chance");
+      const R = [["0 / 7", "new gene families", C.accent1], ["0 / 7", "TF duplications", C.accent1], ["0 / 7", "adhesion, signalling", C.accent1], ["0 / 6", "flagellar loss", C.accent1]];
+      R.forEach((r, i) => {
+        const x = 7.1 + (i % 2) * 2.9, y = 1.35 + Math.floor(i / 2) * 1.0;
+        txt(s, r[0], { x, y, w: 2.7, h: 0.55, fontSize: 28, bold: true, color: r[2], valign: "bottom" });
+        txt(s, r[1], { x, y: y + 0.55, w: 2.7, h: 0.35, fontSize: 14 });
+      });
+      txt(s, [{ text: "Each origin is null on its own", options: { bold: true, breakLine: true } }, { text: "Counting does not rescue the nulls", options: {} }],
+        { x: 7.1, y: 3.4, w: 5.7, h: 0.8, fontSize: 18, color: C.accent4 });
+      txt(s, [{ text: "New domain architectures: 2/7, chance P = 0.04, Holm 0.65", options: { bullet: true, breakLine: true } },
+        { text: "Simple→complex steps (focused panels): 3/6 top-ranked, P = 0.04, Holm 0.17", options: { bullet: true } }],
+        { x: 7.1, y: 4.3, w: 5.7, h: 1.2, fontSize: 15, paraSpaceAfter: 6 });
+      caption(s, "Cannot add per-event power; it avoids diluting signals. Each tier must be compared with chance.", { x: 7.1, y: 5.55, w: 5.7, h: 0.5 });
+      txt(s, TAG, { x: 7.1, y: 6.2, w: 5.7, h: 0.4, fontSize: 12, bold: true, color: C.accent1 });
+    }
+    {
+      const s = content("Recurrent families: contractions yes, expansions no",
+        "Addendum added after publication at the project lead's request; exploratory. Question: are the same gene families expanded (or contracted) in several of the seven origins more often than a family shuffle predicts? Expansions: 42 families significant in at least two origins versus 54 expected, so no excess. Contractions: 157 versus 90 expected, but this is largely an artefact of transcriptome-based sister groups; restricted to genome-based sisters it is 29 versus 18. Two families pass correction (PDEase_I and Vint, q = 0.07). NB-ARC is expanded in animals, red algae and land plants (a nested step), but this is not beyond chance when only primary origins are used (P = 0.09). Figure shows panel (b), families expanded in the multicellular clade; panel (c) (contractions) is in the report." + NSRC);
+      img(s, "fig8_b.png", { x: 0.5, y: 1.35, w: 7.4, h: 4.7 }, "Report Figure 8b: gene families expanded in k or more origins, observed versus chance");
+      stat(s, 8.2, 1.3, 2.2, "42 vs 54", "expansions in ≥2 origins, observed vs expected", C.accent4, 28);
+      stat(s, 10.6, 1.3, 2.3, "157 vs 90", "contractions; genome-sisters only 29 vs 18", C.accent1, 28);
+      txt(s, [{ text: "Contractions inflated by transcriptome-sister artefacts", options: { bullet: true, breakLine: true } },
+        { text: "2 families pass correction: PDEase_I, Vint (q = 0.07)", options: { bullet: true, breakLine: true } },
+        { text: "NB-ARC expanded in animals, red algae, land plants (nested step); primary origins only P = 0.09", options: { bullet: true } }],
+        { x: 8.2, y: 3.35, w: 4.6, h: 2.6, fontSize: 15, paraSpaceAfter: 6 });
+      txt(s, TAG, { x: 0.6, y: 6.3, w: 7.4, h: 0.4, fontSize: 12, bold: true, color: C.accent1 });
+    }
+  }
+  {
     const s = content("Take-home messages",
       "Five take-home messages. (1) No large shared genomic signature across origins; the average protein evolutionary rate did not shift 1.5-fold or more. (2) The one confirmed signal: about 1.2-fold more cell-death proteins than expected for proteome size, mostly in complex lineages, made of lineage-specific immune and self/non-self receptors. (3) Counts of new families and duplications on a branch depend on the orthology method (29% agreement). (4) Tip branches look novel whatever their biology; compare tips with tips. (5) Predicted structure is a good search tool but did not help Ancestra and gave no robust evolutionary signal. Source: report/REPORT.md §10.1.");
     const M = [["FaGlobeEurope", C.accent1, "No shared signature", "across origins; no ≥1.5-fold rate shift"],
@@ -1031,10 +1065,11 @@ async function build() {
     s.addText([
       { text: "Final report: claude.ai/artifact/9rkyi2Xwe1VyhCgUcjZuoJ", options: { breakLine: true, hyperlink: { url: "https://claude.ai/artifact/9rkyi2Xwe1VyhCgUcjZuoJ" } } },
       { text: "Department-head review: claude.ai/artifact/NfrexbqRBFmS3A97VvTqcR", options: { breakLine: true, hyperlink: { url: "https://claude.ai/artifact/NfrexbqRBFmS3A97VvTqcR" } } },
+      { text: "Added after publication: report/REPORT.md §12 · results/r2/recurrence_ladder/", options: { breakLine: true, fontSize: 16 } },
       { text: "Repository: report/REPORT.md · RESEARCH_TREE.md · LESSONS.md · reviews/", options: { breakLine: true, fontSize: 16 } },
       { text: "Hackathon: github.com/evocellnet/ai-hackathon · [repository URL: ____]", options: { fontSize: 16 } },
     ], { placeholder: "body", fontSize: 18 });
-    s.addNotes("Links. Final report page: https://claude.ai/artifact/9rkyi2Xwe1VyhCgUcjZuoJ. Department-head review of round 1: https://claude.ai/artifact/NfrexbqRBFmS3A97VvTqcR. Repository paths: report/REPORT.md (final report), report/REPORT_SUPPLEMENT.md, report/REPORT_round1.md, RESEARCH_TREE.md, LESSONS.md, LITERATURE.md, reviews/. The public GitHub URL of this project's repository is left blank for the PI. Source: RESEARCH_TREE.md R2-M4; report/REPORT.md Data and code availability.");
+    s.addNotes("Links. Final report page: https://claude.ai/artifact/9rkyi2Xwe1VyhCgUcjZuoJ. Department-head review of round 1: https://claude.ai/artifact/NfrexbqRBFmS3A97VvTqcR. Repository paths: report/REPORT.md (final report), report/REPORT_SUPPLEMENT.md, report/REPORT_round1.md, RESEARCH_TREE.md, LESSONS.md, LITERATURE.md, reviews/. The public GitHub URL of this project's repository is left blank for the PI. Added after publication (project lead's request): report/REPORT.md section 12 and results/r2/recurrence_ladder/summary.txt. Source: RESEARCH_TREE.md R2-M4; report/REPORT.md Data and code availability.");
   }
 
   await pres.writeFile({ fileName: OUTFILE });
