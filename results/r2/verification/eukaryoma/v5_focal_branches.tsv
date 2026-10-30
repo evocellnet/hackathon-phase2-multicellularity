@@ -1,0 +1,51 @@
+branch	quantity	verifier	producer	rel_diff_pct	ok	diff_pp	n_verifier	n_producer
+Metazoa	A_gains	804.0	804.0	0.0	True			
+Metazoa	E_gains	2502.0	2502.0	0.0	True			
+Metazoa	A_losses	8992.0	8991.0	0.0	True			
+Metazoa	E_losses	6056.0	6027.0	0.5	True			
+Metazoa	A_dups	6582.0	6617.0	-0.5	True			
+Metazoa	E_dups	196.0	196.0	0.0	True			
+Metazoa	A2E_gain_frac_same	0.2163	0.218		True	-0.17	698.0	804.0
+Metazoa	E2A_gain_frac_same	0.0691	0.065		True	0.41	2344.0	2502.0
+Metazoa	A2E_dup_frac_same	0.005	0.004		True	0.1	1387.0	1395.0
+Metazoa	E2A_dup_frac_same	0.0667	0.056		True	1.07	90.0	90.0
+Klebsormidiophyceae_Phragmoplastophyta	A_gains	247.0	247.0	0.0	True			
+Klebsormidiophyceae_Phragmoplastophyta	E_gains	923.0	923.0	0.0	True			
+Klebsormidiophyceae_Phragmoplastophyta	A_losses	2491.0	2428.0	2.6	True			
+Klebsormidiophyceae_Phragmoplastophyta	E_losses	547.0	536.0	2.1	True			
+Klebsormidiophyceae_Phragmoplastophyta	A_dups	2651.0	2343.0	13.1	False			
+Klebsormidiophyceae_Phragmoplastophyta	E_dups	1147.0	1123.0	2.1	True			
+Klebsormidiophyceae_Phragmoplastophyta	A2E_gain_frac_same	0.2065	0.211		True	-0.45	247.0	247.0
+Klebsormidiophyceae_Phragmoplastophyta	E2A_gain_frac_same	0.0596	0.06		True	-0.04	923.0	923.0
+Klebsormidiophyceae_Phragmoplastophyta	A2E_dup_frac_same	0.0697	0.069		True	0.07	961.0	867.0
+Klebsormidiophyceae_Phragmoplastophyta	E2A_dup_frac_same	0.0578	0.062		True	-0.42	987.0	970.0
+Viridiplantae	A_gains	197.0	197.0	0.0	True			
+Viridiplantae	E_gains	167.0	167.0	0.0	True			
+Viridiplantae	A_losses	5639.0	5627.0	0.2	True			
+Viridiplantae	E_losses	4386.0	4243.0	3.4	True			
+Viridiplantae	A_dups	1326.0	1323.0	0.2	True			
+Viridiplantae	E_dups	254.0	287.0	-11.5	False			
+Viridiplantae	A2E_gain_frac_same	0.1168	0.117		True	-0.02	197.0	197.0
+Viridiplantae	E2A_gain_frac_same	0.0838	0.084		True	-0.02	167.0	167.0
+Viridiplantae	A2E_dup_frac_same	0.009	0.01		True	-0.1	669.0	669.0
+Viridiplantae	E2A_dup_frac_same	0.0468	0.04		True	0.68	171.0	175.0
+Amoebozoa	A_gains	934.0	934.0	0.0	True			
+Amoebozoa	E_gains	790.0	790.0	0.0	True			
+Amoebozoa	A_losses	6198.0	6181.0	0.3	True			
+Amoebozoa	E_losses	12661.0	12590.0	0.6	True			
+Amoebozoa	A_dups	3877.0	3884.0	-0.2	True			
+Amoebozoa	E_dups	2511.0	2506.0	0.2	True			
+Amoebozoa	A2E_gain_frac_same	0.1103	0.111		True	-0.07	934.0	934.0
+Amoebozoa	E2A_gain_frac_same	0.1532	0.134		True	1.92	790.0	790.0
+Amoebozoa	A2E_dup_frac_same	0.0582	0.058		True	0.02	1547.0	1551.0
+Amoebozoa	E2A_dup_frac_same	0.1041	0.114		True	-0.99	913.0	905.0
+Fungi	A_gains	32.0	32.0	0.0	True			
+Fungi	E_gains	224.0	224.0	0.0	True			
+Fungi	A_losses	3576.0	3576.0	0.0	True			
+Fungi	E_losses	1378.0	1373.0	0.4	True			
+Fungi	A_dups	597.0	597.0	0.0	True			
+Fungi	E_dups	259.0	226.0	14.6	False			
+Fungi	A2E_gain_frac_same	0.1875	0.188		True	-0.05	32.0	32.0
+Fungi	E2A_gain_frac_same	0.0179	0.018		True	-0.01	224.0	224.0
+Fungi	A2E_dup_frac_same	0.0324	0.021		True	1.14	339.0	339.0
+Fungi	E2A_dup_frac_same	0.0902	0.093		True	-0.28	122.0	107.0

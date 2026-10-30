@@ -6,3 +6,7 @@ Corrections for report v2 final edit (from figure agent, 2026-10-29 ~22:45; and 
 5. 'Kinases at 5 of 7 events' = one new kinase-domain family per event.
 6. Duplication agreement 4–8% only for the 6 internal stems; incl. 2 single-species stems: 11% and 22% (agreement_pooled.tsv).
 7. Citation audit: apply corrected reference list and the 8 rewordings (Lynch & Conery; Herrero; Durand; Shiu & Bleecker; Brunet & King; EukaryOMA citation; Pagel 1999 for lambda).
+8. EukaryOMA (verification results/r2/verification/eukaryoma/VERIFICATION.txt): agreement numbers PASS; some duplication counts approximate (±15% on 3 of 30 branch counts; producer kept single-child groups after species filtering). State counts as approximate.
+9. 'Stems agree more than controls' (29% vs 11%) is ~62% explained by depth and clade size; the rest rests mostly on Dictyostelia (53%); without it stems 21.3% vs 24.7% expected. Do not claim stems agree better.
+10. Cell-death interpretation (results/r2/w4_celldeath/summary.txt): excess = lineage-specific immune/self-nonself receptor machinery (NB-ARC-LRR plants, NB-ARC-WD40 red algae, HET/NACHT fungi, Death/NACHT/CARD animals); none in dictyostelids/volvocines; developmental PCD vs immunity not separable. Add Fig 4b.
+11. W5: structure mode fails decision rule (default kept); structural novelty exploratory result pending verification (results/r2/verification/w5/). W6: inconclusive (negative control fails).

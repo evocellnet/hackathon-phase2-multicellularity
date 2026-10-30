@@ -1,0 +1,9 @@
+direction_event	group	n_branches	same	n_mapped	frac_same	same_ge80	n_mapped_ge80	frac_same_ge80	claimed	diff_pp
+A2E_gain	stems6	6	537	1859	0.2889	427	1316	0.3245	0.29	-0.11
+A2E_gain	controls	26	1103	10753	0.1026	963	9273	0.1038	0.106	-0.34
+E2A_gain	stems6	6	553	5750	0.0962	444	3950	0.1124	0.094	0.22
+E2A_gain	controls	26	1613	10463	0.1542	1245	8110	0.1535	0.142	1.22
+A2E_dup	stems6	6	184	4145	0.0444	159	3050	0.0521	0.038	0.64
+A2E_dup	controls	26	709	14864	0.0477	685	13752	0.0498	0.045	0.27
+E2A_dup	stems6	6	178	2168	0.0821	142	1597	0.0889	0.078	0.41
+E2A_dup	controls	26	646	13219	0.0489	548	10824	0.0506	0.05	-0.11

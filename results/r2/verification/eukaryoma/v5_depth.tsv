@@ -1,0 +1,5 @@
+direction_event	obs_stems	obs_controls	exp_stems_depth_size	exp_controls_depth_size	frac_gap_explained	stem_logOR_raw	stem_logOR_adj	depth_coef	logtips_coef	n_controls_depth_matched	obs_controls_depth_matched	stem_depth_range	n_baseline
+A2E_gain	0.2889	0.1026	0.2465	0.1306	0.62	0.498	0.231	0.113	-0.211	8	0.215	6-9	97
+E2A_gain	0.0962	0.1542	0.142	0.1908	0.84	-0.536	-0.445	-0.135	-0.19	8	0.091	6-9	97
+A2E_dup	0.0444	0.0477	0.0544	0.0523	-0.64	-0.347	-0.212	-0.026	-0.553	8	0.062	6-9	97
+E2A_dup	0.0821	0.0489	0.0799	0.0676	0.37	0.045	0.03	0.052	-0.324	8	0.0445	6-9	97

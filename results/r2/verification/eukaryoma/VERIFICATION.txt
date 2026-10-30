@@ -1,0 +1,97 @@
+INDEPENDENT VERIFICATION: EukaryOMA cross-validation (results/eukaryoma_xval/summary.txt)
+=========================================================================================
+Verifier run 2026-10-30. Code: scripts/r2/verification/eukaryoma/v1..v5_*.py. Outputs: this directory.
+The producer's scripts were not used for the computation. I read them only afterwards, to explain differences.
+
+OVERALL: PASS for every headline claim. One strict-criterion FAIL: 3 of 30 duplication counts on the 5 focal
+branches differ by more than 5 %. All 20 agreement percentages and all pooled percentages are within ±2 pp.
+The count differences come from one specific step in the producer's OrthoXML filtering, described in Task 2.
+They do not change any conclusion.
+
+TASK 1. PROTEIN MAPPING SPOT-CHECK: PASS
+  * I drew 200 random mappings: 150 from the MD5 table and 50 from the RBH table. For each, I fetched the
+    EukaryOMA protein from https://eukaryoma.unil.ch/api/protein/<id>/ and compared it with our sequence in
+    data/proteomes/euk.
+  * MD5 mappings: 150/150 sequences are identical and come from the correct EukaryOMA genome.
+  * RBH mappings: 50/50 are from the correct genome, with identity >= 95.5 % (local alignment) and >= 50 %
+    coverage of both proteins.
+  * The mapping is one-to-one: no duplicate ids on either side.
+  * 1,757,405 of 2,016,931 proteins are mapped = 87.13 %, as claimed.
+  * Details: v1_mapping_spotcheck.tsv.
+
+TASK 2. INDEPENDENT PROJECTION AND RECOMPUTATION: PASS on agreement; counts PASS except 3 duplication cells
+  Method:
+  * I wrote my own streaming filter (v2) for runs/euk_fast/hogs.orthoxml and for the raw EukaryOMA OrthoXML.
+    It keeps the 125 species, strips TaxRange, taxonId and the taxonomy block, drops empty groups and
+    collapses groups left with a single child.
+  * I parsed both files with mcell.hogs on the original guide tree, which the parser prunes Ancestra-style.
+  * My pruned tree is identical to runs/eukaryoma_xval/tree_pruned.nwk: same 104 internal nodes, names and
+    clades. Neither parse violates the conservation law.
+  * Agreement was computed my own way: majority vote of the other method's ancestral gene at the node, over
+    each event's mapped members.
+  Focal branches: Metazoa and Streptophyta (Klebsormidiophyceae+Phragmoplastophyta) stems; controls
+  Viridiplantae, Amoebozoa, Fungi (v5_focal_branches.tsv).
+  * Gains: all 10 counts (A and E) match exactly.
+  * Losses: all 10 within ±3.4 %.
+  * Metazoa reproduces as claimed: Ancestra 804 gains / 6,582 dups (claimed 6,617, -0.5 %); EukaryOMA 2,502 /
+    196 (exact).
+  * Duplications: 7/10 within ±5 %. The 3 outside are:
+      - Streptophyta, Ancestra: 2,651 vs 2,343 (+13 %)
+      - Viridiplantae, EukaryOMA: 254 vs 287 (-12 %)
+      - Fungi, EukaryOMA: 259 vs 226 (+15 %)
+  * Family-level agreement (% same), 20 values: all within ±2 pp (largest difference 1.9 pp, Amoebozoa
+    E->A gains).
+    Metazoa: A->E gains 21.6 % (claimed 21.8 %); E->A gains 6.9 % (claimed 6.5 %); A->E dups 0.5 %
+    (claimed 0.4 %).
+  * Pooled over the 6 exact internal stems vs the 26 exact controls (v5_pooled.tsv), verifier vs claimed:
+      A->E gains  28.9 vs 29.0 %   (controls 10.3 vs 10.6 %)
+      E->A gains   9.6 vs  9.4 %   (controls 15.4 vs 14.2 %)
+      A->E dups    4.4 vs  3.8 %   (controls  4.8 vs  4.5 %)
+      E->A dups    8.2 vs  7.8 %   (controls  4.9 vs  5.0 %)
+    All within ±2 pp.
+  Why the duplication counts differ:
+  * The producer's filter (xval_lib._prune_group) does not collapse groups that are left with only one child
+    after the other species are removed.
+  * Its filtered files contain 106,822 (EukaryOMA) and 39,060 (Ancestra) orthologGroups whose only remaining
+    child is a paralogGroup (v4_count_unary.py).
+  * mcell.hogs cannot place such a paralogGroup above an orthologGroup that has the same MRCA. It therefore
+    merges the paralogGroup into its parent and the duplication disappears. The parser reports this as
+    n_collapsed_inconsistent: 152,549 in the producer's EukaryOMA parse vs 35,899 in mine.
+  * The duplication happened among the retained species, so it should be kept. My filter collapses the
+    one-child wrapper and keeps it.
+  * Effect: the producer's duplication counts are biased on some branches, mostly downward for EukaryOMA.
+    Examples: Diaphoretickes 151 vs 338, Alveolata, UTC clade.
+  * Gains, losses and the agreement fractions are barely affected.
+  * Suggested fix: collapse one-child groups when filtering, then rerun the counts.
+
+TASK 3. ARE DISAGREEMENTS DRIVEN BY UNMAPPED PROTEINS? NO
+  I restricted the analysis to events whose members are >= 80 % mapped (columns *_ge80 in v5_pooled.tsv and
+  v3_per_branch.tsv). Agreement barely changes:
+      A->E stem gains   28.9 -> 32.5 %   (Metazoa 21.6 -> 25.5 %)
+      controls          10.3 -> 10.4 %
+      E->A stem gains    9.6 -> 11.2 %
+      duplications       4-9 % -> 5-9 %
+  Two thirds or more of the events still disagree when nearly all members are mapped. The disagreement is
+  between the methods' family structures, not a mapping artefact. Unmapped proteins lower agreement on stems
+  by only about 2-4 pp.
+
+TASK 4. IS "STEMS AGREE MORE THAN CONTROLS" EXPLAINED BY DEPTH? PARTLY (about 60 %), NOT FULLY
+  * Controls sit closer to the root than stems: mean node depth 4.3 (range 2-7) vs 7.5 (range 6-9). Controls
+    also have more tips: mean 13 vs 6.
+  * Agreement on A->E gains rises with depth from the root: a binomial GLM on 97 non-stem internal branches
+    gives +0.11 log-odds per level.
+  * The GLM (covariates depth and log tips) predicts 24.7 % for the stems and 13.1 % for the controls. So
+    11.6 of the 18.6-pp raw gap (62 %) is expected from depth and size alone.
+  * The observed stem value (28.9 %) is still above expectation: adjusted stem log-OR +0.23, against +0.50
+    unadjusted.
+  * Controls of the same depth as the stems (depth 6-9, n = 8) agree 21.5 %, against 28.9 % on the stems.
+  * The producer's adjusted expectation is 22.0 % and mine is 24.7 %. The difference is the GLM's baseline
+    branch set (86 vs 97 branches), a modelling choice.
+  * For E->A gains the stems are lower than controls (9.6 vs 15.4 %). 84 % of that gap is expected from depth
+    and size.
+  * Duplication agreement is uniformly low (4-8 %), and depth does not explain the small stem-vs-control
+    differences there.
+  * Conclusion: the producer's statement holds as written. The raw stems-vs-controls contrast (29 vs 11 %) is
+    mostly a depth/size effect, and the small remaining stem excess for Ancestra->EukaryOMA gains rests on 6
+    branches. Dictyostelia alone is 53 %; without it the other 5 stems give 21.3 % (302/1417), below the 24.7 % six-stem expectation. Read the
+    contrast descriptively, as the summary already advises.
