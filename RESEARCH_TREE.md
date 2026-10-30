@@ -15,6 +15,18 @@ left unchanged for the record. Dependence-aware sensitivity (department-head fin
 the minimum the two-panel design can reach; carried by the R4 tip events (tip artefact). results/r2/panels_sensitivity_onepanel/.
 Final report revised to report/REPORT_v2_final.txt + REPORT_v2_SUPPLEMENT.txt (all 7 MUST FIX, SHOULD FIX, 8 audit fixes, cuts).
 
+### R2-M4 — 2026-10-30 08:31 (round-2 t ≈ 17.4 h): round 2 complete; final report published
+Final technical report (report/REPORT.md, ~9,100 words + supplement; HTML report/report.html; page
+https://claude.ai/artifact/9rkyi2Xwe1VyhCgUcjZuoJ) passed a department-head review (24/24 numbers reproduced; 7 must-fixes applied)
+and a full numbers audit (166/174 claims matched or within rounding; 8 mismatches fixed). The dependence-aware sensitivity
+for the simple→complex test shows the design could never have reached significance: with two independent panels the smallest
+attainable p (0.031) exceeds the Holm threshold (0.025). Bottom line of round 2: one supported pre-registered result (complex
+multicellular genomes carry more cell-death / immune-receptor machinery than expected for their size), two nulls, strong
+method-dependence of stem-level gene-content events, and no help from predicted protein structure at deep nodes.
+
+ProstT5 3Di prediction stopped at 271/322 proteomes after analyses were frozen (outputs not committed; regenerable).
+Not done (stated in the report): gene-birth simulator calibration; overlapping/non-overlapping split of the EukaryOMA check.
+
 ### R2-M3 — 2026-10-30 08:00 (round-2 t ≈ 16.9 h): analyses closed; two claims overturned by verification; report finalising
 The cell-death result stands but is reinterpreted: the extra cell-death proteins in complex multicellular genomes are mostly
 lineage-specific immune and self/non-self receptor machinery (NB-ARC–LRR in land plants, NB-ARC–WD40 in red algae, HET and
@@ -75,7 +87,7 @@ W4 specific families incl. ELM motif-binding domains, cell death, cell-type TFs,
 - [x] R2-1 Department-head review → reviews/round2_department_head_review.txt; public page
 - [x] R2-2 Scouting: EukaryOMA (docs/EUKARYOMA_SCOUTING.txt), Cox et al. CF-MS (docs/MARCOTTE_SCOUTING.txt), ELM interaction domains (200 Pfam)
 - [x] R2-3 GPU ProstT5 pilot (Foldseek GPU fell back to CPU: 15 prot/s; HF autoregressive: too slow; encoder+CNN: 48 prot/s, 97.1% agreement)
-- [~] R2-4 ProstT5 3Di for all proteomes (data/structure3di/all/); [x] validated: 0.655 per-residue identity vs AFDB-derived 3Di (n=4,981; chance 0.167; published 0.41–0.65), windowed 0.649; integrity PASS (results/r2/w5_3di_validation)
+- [x] R2-4 ProstT5 3Di (stopped at 271/322 proteomes after analysis freeze) (data/structure3di/all/); [x] validated: 0.655 per-residue identity vs AFDB-derived 3Di (n=4,981; chance 0.167; published 0.41–0.65), windowed 0.649; integrity PASS (results/r2/w5_3di_validation)
 - [x] R2-5 Design round 2 v1 after 3 reviews; pre-registered (tag prereg-r2)
 - [!] W4 interpretation (results/r2/w4_celldeath): the cell-death excess is mostly immune/self–non-self receptor machinery, lineage-specific: NB-ARC–LRR in land plants (+84/species vs sister), NB-ARC–WD40 in red algae, HET (+37) and NACHT–WD40/ANK in Pezizomycotina, Death/NACHT/CARD in animals; NB-ARC/NACHT = 81–86% of excess in streptophytes/red algae, 19–28% in fungi/animals; no excess in dictyostelids and volvocines; complex 138 vs simple 18 vs unicellular 22 proteins per species. Developmental PCD vs immune surveillance not separable.
 - [x] W4 (results/r2/w4): [!] P3 cell death SUPPORTED raw one-sided p=0.0047 (1.21x [1.04,1.42]; 148 genomes; LOO sign 7/7; mainly complex MC; independently re-derived PASS; symmetric rule p=0.0068, all 22 families p=0.0078; random matched sets 2.5% p<0.05; caveats: weaker without 10 largest proteomes p=0.025, proportion-of-proteome version p=0.14 → "more than expected for proteome size") · [-] P2 motif-binding null (0.98x, p=0.72) · [-] P4 TFs p=0.30 · scans: expansions not recurrent beyond chance (family-shuffle null, exploratory), contractions recurrent (p=0.001)
@@ -87,7 +99,7 @@ W4 specific families incl. ELM motif-binding domains, cell death, cell-type TFs,
 - [-] W5b structural novelty (all 8 panels; exploratory; results/r2/w5/summary.txt): ~49% of sequence-novel families have a structural homolog outside the clade; internal event branches keep more structurally new families than controls (43.7% vs 33.3%; OR 1.44 [1.31,1.58]; permutation p=0.004; search-space-adjusted OR 1.45 [1.08,1.93]), concentrated at simple→complex events (OR 1.87) vs origins 1.15; panels heterogeneous (R5 opposite). VERIFICATION (results/r2/verification/w5): arithmetic PASS but confounders FAIL — "structurally new" families are short/disordered ("no fold", not "new fold"; median 211 vs 519 aa); fully adjusted event OR 1.18 [0.93,1.49]; exhaustive search finds homologs for 21% of "new" (strict OR 1.23, p=0.07) → general event effect DROPPED; weak lead only at simple→complex events (OR ~1.5–2.3, 7 events, n.s. in fully adjusted branch model).
 - [-] W6 3Di vs AA divergence (exploratory; results/r2/w6): stems vs controls 12/21 positive (sign p=0.33); crowns +7–12% 3Di per AA change (only Fungi p=0.02) BUT shuffled-3Di negative control gives equal/larger effect → not distinguishable from ProstT5 noise × tree shape; deviation: own 3Di substitution matrix (IQ-TREE GTR20 failed)
 - [-] W7 complexes (results/r2/w7): stem duplications show no consistent preference for LECA-complex subunits (OR 0.79–1.48, none significant after BH); co-retention slightly lower in multicellular species relative to null (paired p=0.008; exploratory, weak)
-- [ ] verification · [ ] report update
+- [x] verification (P2/P3, P1/panels, EukaryOMA, structural novelty; results/r2/verification/) · [x] report (report/REPORT.md; reviews/round2_final_report_review.txt; report/numbers_audit_v2.txt)
 
 ## ROUND 1 (frozen at tag phase1-final)
 

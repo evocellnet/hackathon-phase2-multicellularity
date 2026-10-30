@@ -1,0 +1,6 @@
+[2026-10-29 23:35:02] parsed 189,824 genes, 73,392 families in 4s
+[2026-10-29 23:35:11] 56,241 gains on 16 branches, 57,027 representatives
+[2026-10-30 00:15:59] pass 1 done (2445s)
+[2026-10-30 00:16:14] pass 1: 16,602/56,241 gains have an outside hit; pass 2: 106 queries
+[2026-10-30 00:17:33] pass 2 done (79s)
+[2026-10-30 00:17:48] wrote /scratch/spascare/agentic-ai/workspaces/phase2-multicellularity/results/r2/panels/R5/tip_gain_ladder.tsv: 56,241 gains, 39,608 sequence-novel

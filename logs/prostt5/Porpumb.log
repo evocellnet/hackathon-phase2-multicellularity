@@ -1,0 +1,6 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights: 100%|██████████| 195/195 [00:00<00:00, 23891.14it/s]
+1081/13156 proteins 2156002 res 60s 35809 res/s
+3104/13156 proteins 3613958 res 121s 29829 res/s
+8992/13156 proteins 5907486 res 181s 32570 res/s
+DONE 13156 proteins 6585645 residues in 196s (33528 res/s); skipped 0 > 100000 aa
