@@ -1,0 +1,70 @@
+state	n_species	family	mean_copies	median_copies	prevalence	mean_per_10k_proteins
+complex	38	PF00656|Caspase	12.84	7	1	6.055
+complex	38	PF31181|Metacaspase	3.921	3	0.7105	2.289
+complex	38	PF01650|Legumain (VPE)	2.079	2	0.9211	1.024
+complex	38	PF00452|Bcl-2	2.5	0	0.3684	1.074
+complex	38	PF02180|BH4	0.1053	0	0.05263	0.05224
+complex	38	PF00653|BIR	2.553	1	0.6579	1.24
+complex	38	PF00619|CARD	11.45	0	0.3421	4.815
+complex	38	PF00531|Death	32.58	0	0.3684	15.15
+complex	38	PF01335|DED	3	0	0.2632	1.288
+complex	38	PF00931|NB-ARC	24.05	7	0.8684	11.97
+complex	38	PF05729|NACHT	25.16	4.5	0.7895	10.51
+complex	38	PF06985|HET	5.789	0	0.2105	4.801
+complex	38	PF14479|HeLo	0.6579	0	0.1842	0.561
+complex	38	PF04598|Gasdermin	0.3421	0	0.1579	0.1638
+complex	38	PF26164|Gasdermin (bact./fungal)	0.1579	0	0.07895	0.05078
+complex	38	PF01823|MACPF	4.684	1	0.5526	1.915
+complex	38	PF01582|TIR	19.21	1	0.5526	7.91
+complex	38	PF13676|TIR_2	18.84	2	0.6316	8.166
+complex	38	PF01027|Bax inhibitor-1	3.895	4	1	2.138
+complex	38	PF06943|zf-LSD1	0.6053	0	0.1842	0.2104
+complex	38	PF14721|AIF_C	0.5526	1	0.5263	0.3265
+complex	38	PF02452|MazF	0	0	0	0
+complex	38	total_celldeath_proteins	138.4	56	1	65.65
+simple	30	PF00656|Caspase	3.267	2.5	0.8333	2.366
+simple	30	PF31181|Metacaspase	3.167	2	0.8333	2.328
+simple	30	PF01650|Legumain (VPE)	1.467	1	0.9	1.148
+simple	30	PF00452|Bcl-2	0	0	0	0
+simple	30	PF02180|BH4	0	0	0	0
+simple	30	PF00653|BIR	0.4333	0	0.3667	0.4844
+simple	30	PF00619|CARD	0	0	0	0
+simple	30	PF00531|Death	0	0	0	0
+simple	30	PF01335|DED	0	0	0	0
+simple	30	PF00931|NB-ARC	2.2	0	0.4	1.498
+simple	30	PF05729|NACHT	1.967	0	0.4667	1.528
+simple	30	PF06985|HET	0.8333	0	0.2	0.5631
+simple	30	PF14479|HeLo	0	0	0	0
+simple	30	PF04598|Gasdermin	0	0	0	0
+simple	30	PF26164|Gasdermin (bact./fungal)	0	0	0	0
+simple	30	PF01823|MACPF	2.467	0	0.2333	2.175
+simple	30	PF01582|TIR	0.9333	0	0.4667	0.5982
+simple	30	PF13676|TIR_2	1.633	1	0.5667	1.055
+simple	30	PF01027|Bax inhibitor-1	2.367	2.5	0.9667	1.948
+simple	30	PF06943|zf-LSD1	0.3	0	0.2667	0.2079
+simple	30	PF14721|AIF_C	0.5667	0.5	0.5	0.4601
+simple	30	PF02452|MazF	0.1	0	0.03333	0.03777
+simple	30	total_celldeath_proteins	17.73	15	1	13.64
+unicellular/coded0	80	PF00656|Caspase	2.812	2	0.7875	2.138
+unicellular/coded0	80	PF31181|Metacaspase	2.35	1	0.75	1.891
+unicellular/coded0	80	PF01650|Legumain (VPE)	1.925	1.5	0.9375	1.506
+unicellular/coded0	80	PF00452|Bcl-2	0	0	0	0
+unicellular/coded0	80	PF02180|BH4	0	0	0	0
+unicellular/coded0	80	PF00653|BIR	0.475	0	0.325	0.3941
+unicellular/coded0	80	PF00619|CARD	0	0	0	0
+unicellular/coded0	80	PF00531|Death	0	0	0	0
+unicellular/coded0	80	PF01335|DED	0	0	0	0
+unicellular/coded0	80	PF00931|NB-ARC	1.812	0	0.375	1.448
+unicellular/coded0	80	PF05729|NACHT	2.312	0	0.45	1.379
+unicellular/coded0	80	PF06985|HET	0.375	0	0.125	0.1979
+unicellular/coded0	80	PF14479|HeLo	0	0	0	0
+unicellular/coded0	80	PF04598|Gasdermin	0	0	0	0
+unicellular/coded0	80	PF26164|Gasdermin (bact./fungal)	0	0	0	0
+unicellular/coded0	80	PF01823|MACPF	1.625	0	0.325	1.261
+unicellular/coded0	80	PF01582|TIR	1.738	0	0.325	1.045
+unicellular/coded0	80	PF13676|TIR_2	7.25	0	0.425	4.197
+unicellular/coded0	80	PF01027|Bax inhibitor-1	3.2	3	0.9125	2.172
+unicellular/coded0	80	PF06943|zf-LSD1	0.4625	0	0.3125	0.3887
+unicellular/coded0	80	PF14721|AIF_C	0.3375	0	0.3375	0.2942
+unicellular/coded0	80	PF02452|MazF	0	0	0	0
+unicellular/coded0	80	total_celldeath_proteins	22.46	12.5	1	15.3

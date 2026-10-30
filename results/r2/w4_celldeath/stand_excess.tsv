@@ -1,0 +1,40 @@
+event	label	stand_type	per_species_mc	per_species_sister	diff
+T_metazoa	Animals	STAND only / other	34.4	1.625	32.77
+T_metazoa	Animals	effector domain, no repeats	17.4	1.375	16.02
+T_metazoa	Animals	repeat-containing (NLR-like)	19.53	3.875	15.66
+T_metazoa	Animals	TOTAL	71.33	6.875	64.46
+T_fungi_hyphae	Fungal hyphae	STAND only / other	0.5	0	0.5
+T_fungi_hyphae	Fungal hyphae	effector domain, no repeats	2.577	0.5	2.077
+T_fungi_hyphae	Fungal hyphae	repeat-containing (NLR-like)	3.154	0.25	2.904
+T_fungi_hyphae	Fungal hyphae	TOTAL	6.231	0.75	5.481
+T_fungi_pezizomycotina	Pezizomycotina fruiting bodies	STAND only / other	0.8	0	0.8
+T_fungi_pezizomycotina	Pezizomycotina fruiting bodies	effector domain, no repeats	3.4	0	3.4
+T_fungi_pezizomycotina	Pezizomycotina fruiting bodies	repeat-containing (NLR-like)	6.4	0	6.4
+T_fungi_pezizomycotina	Pezizomycotina fruiting bodies	TOTAL	10.6	0	10.6
+T_fungi_agaricomycetes	Agaricomycete fruiting bodies	STAND only / other	1.25	0	1.25
+T_fungi_agaricomycetes	Agaricomycete fruiting bodies	effector domain, no repeats	8.25	0.5	7.75
+T_fungi_agaricomycetes	Agaricomycete fruiting bodies	repeat-containing (NLR-like)	7	0	7
+T_fungi_agaricomycetes	Agaricomycete fruiting bodies	TOTAL	16.5	0.5	16
+T_dictyostelia	Dictyostelid sorocarps	STAND only / other	0	1	-1
+T_dictyostelia	Dictyostelid sorocarps	effector domain, no repeats	0	1	-1
+T_dictyostelia	Dictyostelid sorocarps	repeat-containing (NLR-like)	1	4	-3
+T_dictyostelia	Dictyostelid sorocarps	TOTAL	1	6	-5
+T_streptophyta	Streptophyte multicellularity	STAND only / other	15	0	15
+T_streptophyta	Streptophyte multicellularity	effector domain, no repeats	9.5	0.5	9
+T_streptophyta	Streptophyte multicellularity	repeat-containing (NLR-like)	22	4	18
+T_streptophyta	Streptophyte multicellularity	TOTAL	46.5	4.5	42
+T_embryophyta	Land plants	STAND only / other	24.33	0	24.33
+T_embryophyta	Land plants	effector domain, no repeats	18.33	0	18.33
+T_embryophyta	Land plants	repeat-containing (NLR-like)	41.33	0	41.33
+T_embryophyta	Land plants	TOTAL	84	0	84
+T_rhodophyta	Red algal multicellularity (Eurhodophytina)	STAND only / other	9	0.5	8.5
+T_rhodophyta	Red algal multicellularity (Eurhodophytina)	effector domain, no repeats	0.4	0	0.4
+T_rhodophyta	Red algal multicellularity (Eurhodophytina)	repeat-containing (NLR-like)	20.4	0	20.4
+T_rhodophyta	Red algal multicellularity (Eurhodophytina)	TOTAL	29.8	0.5	29.3
+T_px_filaments	PX-clade filaments	STAND only / other	3.111	0.5	2.611
+T_px_filaments	PX-clade filaments	effector domain, no repeats	0.7778	0.5	0.2778
+T_px_filaments	PX-clade filaments	repeat-containing (NLR-like)	6.222	1	5.222
+T_px_filaments	PX-clade filaments	TOTAL	10.11	2	8.111
+T_volvocine_tgv	Volvocine colonial lineage (Gonium+Volvocaceae; path stem from Chlamydomonas_TGV)	effector domain, no repeats	0.2	0	0.2
+T_volvocine_tgv	Volvocine colonial lineage (Gonium+Volvocaceae; path stem from Chlamydomonas_TGV)	repeat-containing (NLR-like)	0.6	1	-0.4
+T_volvocine_tgv	Volvocine colonial lineage (Gonium+Volvocaceae; path stem from Chlamydomonas_TGV)	TOTAL	0.8	1	-0.2

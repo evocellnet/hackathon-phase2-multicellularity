@@ -1,0 +1,175 @@
+pfam	family	n_proteins_family	architecture	n_proteins	frac	n_species	n_species_mc	n_species_coded0	top_species
+PF00656	Caspase	984	Peptidase_C14–Pept_C14_Metacaspase	386	0.3923	124	49	75	Charbra;Ceraric;Pirofin
+PF00656	Caspase	984	Peptidase_C14	320	0.3252	55	30	25	Amphque;Ephymue;Stropur
+PF00656	Caspase	984	Pept_C14_Metacaspase–Peptidase_C14	49	0.0498	27	12	15	Euglgra;Perkmar;Mastbal
+PF00656	Caspase	984	CARD–Peptidase_C14	32	0.03252	10	10	0	Homosap;Stropur;Branbel
+PF00656	Caspase	984	DED–Peptidase_C14	15	0.01524	7	7	0	Hydrvul;Homosap;Amphque
+PF00656	Caspase	984	zf-LSD1–Peptidase_C14–Pept_C14_Metacaspase	12	0.0122	9	9	0	Selamoe;Ambotri;Arabtha
+PF00656	Caspase	984	Death–Peptidase_C14	12	0.0122	4	4	0	Ephymue;Branbel;Oscapea
+PF00656	Caspase	984	IIGP–AIG1–MMR_HSR1–Peptidase_C14–ApoL	8	0.00813	1	1	0	Amphque
+PF00656	Caspase	984	Peptidase_C14–Pept_C14_Metacaspase–Peptidase_C14	8	0.00813	7	5	2	Physpat;Laccbic;Charbra
+PF00656	Caspase	984	Peptidase_C14–Pept_C14_Metacaspase–Peptidase_C14–Pept_C14_Metacaspase	7	0.007114	4	2	2	Vauclit;Laccbic;Acanspe
+PF31181	Metacaspase	536	Peptidase_C14–Pept_C14_Metacaspase	386	0.7201	124	49	75	Charbra;Ceraric;Pirofin
+PF31181	Metacaspase	536	Pept_C14_Metacaspase–Peptidase_C14	49	0.09142	27	12	15	Euglgra;Perkmar;Mastbal
+PF31181	Metacaspase	536	Pept_C14_Metacaspase	29	0.0541	18	8	10	Mastbal;Sycocil;Euglgra
+PF31181	Metacaspase	536	zf-LSD1–Peptidase_C14–Pept_C14_Metacaspase	12	0.02239	9	9	0	Selamoe;Ambotri;Arabtha
+PF31181	Metacaspase	536	Peptidase_C14–Pept_C14_Metacaspase–Peptidase_C14	8	0.01493	7	5	2	Physpat;Laccbic;Charbra
+PF31181	Metacaspase	536	Peptidase_C14–Pept_C14_Metacaspase–Peptidase_C14–Pept_C14_Metacaspase	7	0.01306	4	2	2	Vauclit;Laccbic;Acanspe
+PF31181	Metacaspase	536	C2–Peptidase_C14–Pept_C14_Metacaspase	5	0.009328	5	0	5	Plasfal;Vitrbra;Euglgra
+PF31181	Metacaspase	536	ILEI–Pept_C14_Metacaspase	5	0.009328	2	2	0	Tieglac;Acytsub
+PF31181	Metacaspase	536	EF-hand_7–Peptidase_C14–Pept_C14_Metacaspase	2	0.003731	2	0	2	Didycos;Gefioke
+PF31181	Metacaspase	536	ANK–Peptidase_C14–Pept_C14_Metacaspase	2	0.003731	2	0	2	Acanspe;Gefioke
+PF01650	Legumain (VPE)	342	Peptidase_C13	222	0.6491	164	67	97	Mastbal;Perkmar;Tetrthe
+PF01650	Legumain (VPE)	342	Peptidase_C13–Legum_prodom	113	0.3304	76	32	44	Caullen;Physpat;Selamoe
+PF01650	Legumain (VPE)	342	Peptidase_C14–Peptidase_C13–ZZ	1	0.002924	1	1	0	Sycocil
+PF01650	Legumain (VPE)	342	Cpn60_TCP1–Peptidase_C13	1	0.002924	1	1	0	Ephymue
+PF01650	Legumain (VPE)	342	RPA_interact_N–Peptidase_C13	1	0.002924	1	1	0	Charbra
+PF01650	Legumain (VPE)	342	adh_short–KR–adh_short_C2–NPR2–Peptidase_C13	1	0.002924	1	0	1	Naeggru
+PF01650	Legumain (VPE)	342	Peptidase_C13–EGF_TEN–EGF_2–EGF_TEN–EGF_2–EGF_Teneurin–TIG	1	0.002924	1	0	1	Neovdam
+PF01650	Legumain (VPE)	342	Peptidase_C13–Sigma70_r2–Sigma70_r3–Sigma70_r4	1	0.002924	1	0	1	Chrypar
+PF01650	Legumain (VPE)	342	Peptidase_C13–UBA_7	1	0.002924	1	0	1	Telosub
+PF00452	Bcl-2	105	Bcl-2	99	0.9429	14	14	0	Nemavec;Capitel;Ephymue
+PF00452	Bcl-2	105	BH4–Bcl-2	4	0.0381	2	2	0	Homosap;Caenele
+PF00452	Bcl-2	105	Peptidase_S9–Bcl-2	1	0.009524	1	1	0	Ephymue
+PF00452	Bcl-2	105	Bcl-2–CBM_14	1	0.009524	1	1	0	Nemavec
+PF02180	BH4	4	BH4–Bcl-2	4	1	2	2	0	Homosap;Caenele
+PF00653	BIR	180	BIR	109	0.6056	71	36	35	Capitel;Guilthe;Euglgra
+PF00653	BIR	180	BIR–zf-C3HC4_3	32	0.1778	10	10	0	Capitel;Branbel;Sycocil
+PF00653	BIR	180	BIR–BIRC6–UQ_con	5	0.02778	5	5	0	Amphque;Branbel;Stropur
+PF00653	BIR	180	BIR–zf-C3HC4_3–Prok-RING_4	4	0.02222	4	4	0	Amphque;Oscapea;Homosap
+PF00653	BIR	180	BIR–UBA_BIRC2-3–zf-C3HC4_3	3	0.01667	2	2	0	Homosap;Branbel
+PF00653	BIR	180	BIR–UQ_con	3	0.01667	3	2	1	Hoilhon;Hydrvul;Acanspe
+PF00653	BIR	180	BIR–CP2–GRHL1_C	2	0.01111	1	1	0	Hoilhon
+PF00653	BIR	180	zf-C3HC–BIR	2	0.01111	2	2	0	Sycocil;Caenele
+PF00653	BIR	180	BIR–KOW7_SPT5–ZZ–SPRY–UQ_con	2	0.01111	2	0	2	Cavoapo;Vermver
+PF00653	BIR	180	ANK–BIR	1	0.005556	1	0	1	Guilthe
+PF00619	CARD	488	CARD	240	0.4918	13	13	0	Capitel;Oscapea;Branbel
+PF00619	CARD	488	CARD–NACHT	53	0.1086	2	2	0	Capitel;Branbel
+PF00619	CARD	488	CARD–Peptidase_C14	32	0.06557	10	10	0	Homosap;Stropur;Branbel
+PF00619	CARD	488	CARD–Death	21	0.04303	8	8	0	Hoilhon;Oscapea;Tricadh
+PF00619	CARD	488	CARD–NB-ARC	6	0.0123	4	4	0	Hoilhon;Branbel;Tricadh
+PF00619	CARD	488	CARD–NB-ARC–WD40	5	0.01025	5	5	0	Amphque;Sycocil;Oscapea
+PF00619	CARD	488	CARD–TIR_2	5	0.01025	1	1	0	Branbel
+PF00619	CARD	488	CARD–LRR	4	0.008197	1	1	0	Branbel
+PF00619	CARD	488	CARD_2–CARD	4	0.008197	2	2	0	Capitel;Branbel
+PF00619	CARD	488	ANK–CARD	4	0.008197	2	2	0	Branbel;Hoilhon
+PF00531	Death	1362	Death	647	0.475	14	14	0	Amphque;Ephymue;Oscapea
+PF00531	Death	1362	Death–NACHT	115	0.08443	5	5	0	Hydrvul;Stropur;Ephymue
+PF00531	Death	1362	ANK–Death	34	0.02496	8	8	0	Oscapea;Amphque;Ephymue
+PF00531	Death	1362	Death–NACHT–LRR	28	0.02056	3	3	0	Branbel;Ephymue;Amphque
+PF00531	Death	1362	ZU5–Death	28	0.02056	4	4	0	Branbel;Stropur;Oscapea
+PF00531	Death	1362	CARD–Death	21	0.01542	8	8	0	Hoilhon;Oscapea;Tricadh
+PF00531	Death	1362	TNFR_c6–Death	20	0.01468	6	6	0	Branbel;Homosap;Nemavec
+PF00531	Death	1362	TPR–Death	18	0.01322	2	2	0	Hoilhon;Tricadh
+PF00531	Death	1362	COR-A–Death	16	0.01175	5	5	0	Amphque;Oscapea;Tricadh
+PF00531	Death	1362	Death–NB-ARC–TPR	12	0.008811	2	2	0	Hydrvul;Oscapea
+PF01335	DED	117	DED	26	0.2222	9	9	0	Branbel;Nemavec;Hydrvul
+PF01335	DED	117	DED–NACHT	22	0.188	3	3	0	Hydrvul;Nemavec;Branbel
+PF01335	DED	117	DED–Peptidase_C14	15	0.1282	7	7	0	Hydrvul;Homosap;Amphque
+PF01335	DED	117	DED–Death	12	0.1026	7	7	0	Hydrvul;Branbel;Stropur
+PF01335	DED	117	DED–TPR	6	0.05128	3	3	0	Branbel;Stropur;Nemavec
+PF01335	DED	117	DED–TRADD-like_N	4	0.03419	3	3	0	Homosap;Nemavec;Stropur
+PF01335	DED	117	DED–TRADD-like_N–NHL	4	0.03419	1	1	0	Branbel
+PF01335	DED	117	DED–NCOA6_TRADD-N–TRADD-like_N–NHL	3	0.02564	1	1	0	Branbel
+PF01335	DED	117	DED–NHL	3	0.02564	3	3	0	Hoilhon;Nemavec;Branbel
+PF01335	DED	117	DED–AAA-like–TPR	2	0.01709	2	2	0	Nemavec;Stropur
+PF00931	NB-ARC	1298	NB-ARC	361	0.2781	46	32	14	Ambotri;Ceraric;Hoilhon
+PF00931	NB-ARC	1298	NB-ARC–TPR	175	0.1348	26	14	12	Hydrvul;Ectosil;Dictdic
+PF00931	NB-ARC	1298	NB-ARC–LRR	97	0.07473	14	10	4	Arabtha;Physpat;Ambotri
+PF00931	NB-ARC	1298	NB-ARC–WD40	87	0.06703	10	7	3	Choncri;Graccho;Porpumb
+PF00931	NB-ARC	1298	TIR–TIR_2–NB-ARC–LRR	39	0.03005	5	5	0	Arabtha;Ambotri;Klebnit
+PF00931	NB-ARC	1298	Rx_N–NB-ARC–LRR	32	0.02465	2	2	0	Arabtha;Ambotri
+PF00931	NB-ARC	1298	TIR–TIR_2–NB-ARC	31	0.02388	7	6	1	Arabtha;Ceraric;Physpat
+PF00931	NB-ARC	1298	TIR–TIR_2–NB-ARC–LRR–C-JID	24	0.01849	1	1	0	Arabtha
+PF00931	NB-ARC	1298	NB-ARC–NACHT	18	0.01387	8	6	2	Stropur;Paratet;Caullen
+PF00931	NB-ARC	1298	TIR–TIR_2–TIR–TIR_2–NB-ARC	18	0.01387	1	1	0	Ceraric
+PF05729	NACHT	1362	NACHT	478	0.351	36	15	21	Stropur;Sycocil;Hydrvul
+PF05729	NACHT	1362	Death–NACHT	115	0.08443	5	5	0	Hydrvul;Stropur;Ephymue
+PF05729	NACHT	1362	CARD–NACHT	53	0.03891	2	2	0	Capitel;Branbel
+PF05729	NACHT	1362	NACHT–LRR	50	0.03671	7	5	2	Ephymue;Sycocil;Amphque
+PF05729	NACHT	1362	Death–NACHT–LRR	28	0.02056	3	3	0	Branbel;Ephymue;Amphque
+PF05729	NACHT	1362	DED–NACHT	22	0.01615	3	3	0	Hydrvul;Nemavec;Branbel
+PF05729	NACHT	1362	NPHP3_N–NACHT	21	0.01542	9	7	2	Coprcin;Schicom;Minivib
+PF05729	NACHT	1362	NB-ARC–NACHT	18	0.01322	8	6	2	Stropur;Paratet;Caullen
+PF05729	NACHT	1362	NPHP3_N–NACHT–WD40	16	0.01175	11	6	5	Coprcin;Laccbic;Physpol
+PF05729	NACHT	1362	NACHT–Pentapeptide–WD40	16	0.01175	7	1	6	Paratet;Diphrot;Bodosal
+PF06985	HET	284	HET	210	0.7394	28	15	13	Neurcra;Botrcin;Physpat
+PF06985	HET	284	HET–Het-6_barrel	24	0.08451	5	5	0	Botrcin;Neurcra;Zymobre
+PF06985	HET	284	HET–ANK	22	0.07746	12	8	4	Chlarei;Botrcin;Pleosta
+PF06985	HET	284	HET–DUF8212	3	0.01056	2	2	0	Neurcra;Botrcin
+PF06985	HET	284	HET–MORN	2	0.007042	2	0	2	Heteaka;Potemal
+PF06985	HET	284	HET–DUF7104	2	0.007042	1	1	0	Botrcin
+PF06985	HET	284	HET–NPHP3_N	2	0.007042	2	2	0	Botrcin;Zymobre
+PF06985	HET	284	HET–Arm–HEAT/ARM–Arm–Arm_2–HEAT/ARM–Arm	1	0.003521	1	1	0	Pleosta
+PF06985	HET	284	uDENN–DENN–dDENN–HET–MORN	1	0.003521	1	1	0	Discmes
+PF06985	HET	284	ANK–HET–ANK	1	0.003521	1	0	1	Edapdeb
+PF14479	HeLo	25	HeLo	17	0.68	5	5	0	Pyroomp;Botrcin;Zymobre
+PF14479	HeLo	25	HeLo–DUF7580	5	0.2	4	4	0	Botrcin;Pyroomp;Neurcra
+PF14479	HeLo	25	HeLo–NPHP3_N–NACHT–DUF7791	1	0.04	1	1	0	Neurcra
+PF14479	HeLo	25	Goodbye–HeLo–Ses_B	1	0.04	1	1	0	Aspenid
+PF14479	HeLo	25	HeLo–DUF7580–PK_Tyr_Ser-Thr	1	0.04	1	1	0	Laccbic
+PF04598	Gasdermin	13	Gasdermin	7	0.5385	6	6	0	Stropur;Tricadh;Nemavec
+PF04598	Gasdermin	13	Gasdermin–Gasdermin_C	5	0.3846	1	1	0	Homosap
+PF04598	Gasdermin	13	Gasdermin–Bact_GSDM	1	0.07692	1	1	0	Stropur
+PF26164	Gasdermin (bact./fungal)	6	Bact_GSDM	5	0.8333	2	2	0	Ceraric;Branbel
+PF26164	Gasdermin (bact./fungal)	6	Gasdermin–Bact_GSDM	1	0.1667	1	1	0	Stropur
+PF01823	MACPF	473	MACPF	345	0.7294	66	26	40	Tetrthe;Cavefas;Tieglac
+PF01823	MACPF	473	MACPF–ApeC	24	0.05074	1	1	0	Stropur
+PF01823	MACPF	473	PA14–MACPF	10	0.02114	3	2	1	Tieglac;Cavefas;Vermver
+PF01823	MACPF	473	MACPF–LRR	6	0.01268	2	0	2	Chroper;BryospKO2023
+PF01823	MACPF	473	MACPF–EGF_BRNP1-3–BRINP_C	4	0.008457	2	2	0	Homosap;Branbel
+PF01823	MACPF	473	MACPF–LRR–EGF_Teneurin	4	0.008457	1	0	1	Chroper
+PF01823	MACPF	473	Chlam_PMP–MACPF	4	0.008457	2	2	0	Tieglac;Hetepal
+PF01823	MACPF	473	MACPF–Ephrin_rec_like	3	0.006342	1	1	0	Branbel
+PF01823	MACPF	473	TSP1_ADAMTS–MACPF	3	0.006342	1	0	1	Capsowc
+PF01823	MACPF	473	Ephrin_rec_like–MACPF	2	0.004228	2	0	2	Potemal;Raphhet
+PF01582	TIR	1002	TIR–TIR_2	208	0.2076	49	25	24	Capitel;Ceraric;Arabtha
+PF01582	TIR	1002	LRR–TIR	92	0.09182	5	5	0	Stropur;Homosap;Branbel
+PF01582	TIR	1002	TIR_2–TIR	92	0.09182	33	17	16	Capitel;Rigiram;Stropur
+PF01582	TIR	1002	LRR–TIR–TIR_2	73	0.07285	6	5	1	Branbel;Stropur;Homosap
+PF01582	TIR	1002	TIR	44	0.04391	10	5	5	Stropur;Ambotri;Ceraric
+PF01582	TIR	1002	TIR–TIR_2–NB-ARC–LRR	39	0.03892	5	5	0	Arabtha;Ambotri;Klebnit
+PF01582	TIR	1002	LRR–TIR_2–TIR	38	0.03792	6	4	2	Stropur;Branbel;Drosmel
+PF01582	TIR	1002	TIR–TIR_2–NB-ARC	31	0.03094	7	6	1	Arabtha;Ceraric;Physpat
+PF01582	TIR	1002	TIR–TIR_2–TIR–TIR_2	25	0.02495	4	4	0	Ceraric;Stropur;Nemavec
+PF01582	TIR	1002	TIR–TIR_2–NB-ARC–LRR–C-JID	24	0.02395	1	1	0	Arabtha
+PF13676	TIR_2	1757	TIR_2	441	0.251	63	22	41	Mylnflu;Rigiram;Cyanpar
+PF13676	TIR_2	1757	TIR–TIR_2	208	0.1184	49	25	24	Capitel;Ceraric;Arabtha
+PF13676	TIR_2	1757	TIR_2–TIR	92	0.05236	33	17	16	Capitel;Rigiram;Stropur
+PF13676	TIR_2	1757	LRR–TIR–TIR_2	73	0.04155	6	5	1	Branbel;Stropur;Homosap
+PF13676	TIR_2	1757	ANK–TIR_2	52	0.0296	14	1	13	Cyanpar;Mesovir;Paulmic
+PF13676	TIR_2	1757	TIR–TIR_2–NB-ARC–LRR	39	0.0222	5	5	0	Arabtha;Ambotri;Klebnit
+PF13676	TIR_2	1757	LRR–TIR_2–TIR	38	0.02163	6	4	2	Stropur;Branbel;Drosmel
+PF13676	TIR_2	1757	TIR–TIR_2–NB-ARC	31	0.01764	7	6	1	Arabtha;Ceraric;Physpat
+PF13676	TIR_2	1757	TIR–TIR_2–TIR–TIR_2	25	0.01423	4	4	0	Ceraric;Stropur;Nemavec
+PF13676	TIR_2	1757	TIR–TIR_2–NB-ARC–LRR–C-JID	24	0.01366	1	1	0	Arabtha
+PF01027	Bax inhibitor-1	589	Bax1-I	573	0.9728	175	74	101	Paratet;Stencoe;Tetrthe
+PF01027	Bax inhibitor-1	589	Bax1-I–BaxI_1	6	0.01019	6	2	4	Amoepar;Yarrlip;Wallmel
+PF01027	Bax inhibitor-1	589	BaxI_1–Bax1-I	3	0.005093	3	0	3	Vermver;Rhizsax;Chlovul
+PF01027	Bax inhibitor-1	589	Peptidase_S8–Bax1-I	1	0.001698	1	0	1	Rozeall
+PF01027	Bax inhibitor-1	589	Bax1-I–MoCF_biosynth–FLAD1_M	1	0.001698	1	0	1	Mesovir
+PF01027	Bax inhibitor-1	589	SH3_1–SH3_2–SH3_9–Bax1-I	1	0.001698	1	0	1	Rhodemar
+PF01027	Bax inhibitor-1	589	GST_N_2–GST_C–GST_C_2–GST_C_3–Bax1-I	1	0.001698	1	0	1	Nannsal
+PF01027	Bax inhibitor-1	589	RabGAP-TBC–Bax1-I	1	0.001698	1	0	1	Hondfer
+PF01027	Bax inhibitor-1	589	Nucleotid_trans–Bax1-I	1	0.001698	1	0	1	Chrypar
+PF01027	Bax inhibitor-1	589	TPD–Bax1-I	1	0.001698	1	0	1	Chrypar
+PF06943	zf-LSD1	84	zf-LSD1	64	0.7619	44	17	27	Spirmus;Galdsul;Trypbru
+PF06943	zf-LSD1	84	zf-LSD1–Peptidase_C14–Pept_C14_Metacaspase	12	0.1429	9	9	0	Selamoe;Ambotri;Arabtha
+PF06943	zf-LSD1	84	Chromo_shadow–zf-LSD1	2	0.02381	1	1	0	Coprpro
+PF06943	zf-LSD1	84	zf-LSD1–Peptidase_C14–Pept_C14_Metacaspase–Ribosomal_S24e	1	0.0119	1	0	1	Monobre
+PF06943	zf-LSD1	84	SIR2–zf-LSD1	1	0.0119	1	0	1	Arceint
+PF06943	zf-LSD1	84	GDA1_CD39–zf-LSD1	1	0.0119	1	0	1	Prascol
+PF06943	zf-LSD1	84	ubiquitin–zf-LSD1	1	0.0119	1	0	1	Lothglo
+PF06943	zf-LSD1	84	zf-LSD1–HECT	1	0.0119	1	0	1	Gefioke
+PF06943	zf-LSD1	84	PH–zf-LSD1–PK_Tyr_Ser-Thr–Pkinase	1	0.0119	1	0	1	Raphhet
+PF14721	AIF_C	91	Pyr_redox_2–Pyr_redox–AIF_C	49	0.5385	47	18	29	Vermver;Tieglac;Amphque
+PF14721	AIF_C	91	Pyr_redox_2–AIF_C	10	0.1099	9	5	4	Auralim;Branbel;Capitel
+PF14721	AIF_C	91	Pyr_redox_2–Pyr_redox–Amino_oxidase–AIF_C	9	0.0989	9	6	3	Oscapea;Creofra;Mucolus
+PF14721	AIF_C	91	Pyr_redox_2–Pyr_redox_3–Pyr_redox–AIF_C	7	0.07692	7	3	4	Tricadh;Hydrvul;Chroper
+PF14721	AIF_C	91	AIF_C	5	0.05495	5	2	3	Pigochi;Syssmul;Physpol
+PF14721	AIF_C	91	Pyr_redox_2–Amino_oxidase–Pyr_redox–AIF_C	1	0.01099	1	1	0	Hoilhon
+PF14721	AIF_C	91	Pyr_redox_2–Pyr_redox_3–Pyr_redox–Amino_oxidase–AIF_C	1	0.01099	1	0	1	Didycos
+PF14721	AIF_C	91	Pyr_redox_2–Pyr_redox–Amino_oxidase–DAO–AIF_C	1	0.01099	1	1	0	Allomac
+PF14721	AIF_C	91	Pyr_redox_2–Pyr_redox–DAO–AIF_C	1	0.01099	1	1	0	Allomac
+PF14721	AIF_C	91	Pyr_redox_2–Lys_Orn_oxgnase–Amino_oxidase–Pyr_redox–AIF_C	1	0.01099	1	1	0	Rhizmic
+PF02452	MazF	3	PemK_toxin	3	1	1	1	0	Phaecon

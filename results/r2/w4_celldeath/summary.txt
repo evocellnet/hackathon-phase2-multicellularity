@@ -1,0 +1,160 @@
+ROUND 2 - W4 FOLLOW-UP: WHICH CELL-DEATH FAMILIES AND DOMAIN ARCHITECTURES CARRY THE MULTICELLULAR EXCESS
+Produced 2026-10-30. DESCRIPTIVE AND EXPLORATORY ONLY. Nothing here changes the confirmatory R2-P3 result
+(results/r2/w4/summary.txt; verification results/r2/verification/w4/VERIFICATION.txt).
+Scripts: scripts/r2/w4_celldeath/01_extract.py, 02_tables.py, 03_panels.py, 04_figure.py (run with
+conda_envs/ancestra/bin/python, nice, <= 8 processes). Figure: report/figures_v2/fig4b_celldeath_architectures.{png,pdf}.
+
+WHAT WAS DONE
+- Every protein carrying >= 1 of the 22 cell-death Pfam families (data/r2_sets/cell_death.tsv) was taken from the
+  187 round-1 eukaryotic Pfam tables (Pfam-A 38.2, gathering cutoffs): 9,031 proteins. Per-species family counts
+  reproduce the W4 count matrix exactly (11,105 protein-family pairs, 0 mismatches).
+- Architecture = Pfam domains in sequence order. For readability, repeat families are merged into one token (all LRR_*
+  -> LRR; TPR_* -> TPR; WD40-like propellers -> WD40; Ank_* -> ANK) and the winged-helix sub-domains that belong to
+  the NB-ARC/NACHT module are dropped. NB-ARC and NACHT proteins (the "STAND" ATPases; 2,600 proteins) were classed by
+  their C-terminal repeat (LRR/WD40/TPR/ANK = "NLR-like") and N-terminal effector domain (TIR, coiled-coil Rx_N, HET,
+  HeLo, CARD/Death/DED/PYD, etc.).
+- Lineages = the 10 eukaryotic comparisons of the W4 Pfam-wide scans (7 primary origins + 3 nested simple-to-complex
+  events), each multicellular (MC) clade vs its sister clade (data/transitions.tsv). All data types are used, as in the
+  scans; several sisters are transcriptomes (6 of 8 animal sisters, both dictyostelid sisters) or reversals (yeasts as
+  the Pezizomycotina sister; Zygnematophyceae as the land-plant sister).
+- Dense panels: for each simple-to-complex branch (plus the unicellular-to-complex origin of animals), the gene families
+  that arose (sequence-novel) or duplicated on the branch and carry a cell-death domain, compared with the panel's
+  control branches (one-sided Fisher test, BH over 32 event x kind rows; exploratory).
+Caveat on names: Pfam "Peptidase_C14" (labelled caspase in the frozen set) also matches metacaspases. Outside animals
+492 of 633 Peptidase_C14 proteins also carry the metacaspase domain (PF31181); in animals only 5 of 351 do. In the
+figure "Caspase" = Peptidase_C14 without the metacaspase domain; "Metacaspase" = PF31181.
+
+1. OVERALL SIZE OF THE EXCESS (148 primary proteomes)
+- Mean cell-death proteins per species: complex multicellular 138 (median 56; 38 species), simple multicellular 18
+  (median 15; 30), unicellular or coded 0 22 (median 12.5; 80). Per 10,000 proteins: 66 vs 14 vs 15.
+  The excess is almost entirely a complex-multicellularity phenomenon, matching the three-state PGLS in W4.
+
+2. WHICH FAMILIES DRIVE THE EXCESS IN WHICH LINEAGE (lineage_drivers.tsv; mean proteins per species, MC vs sister)
+- Animals (266 vs 40 cell-death proteins per species; 119 vs 22 per 10k proteins). Biggest contributors to the MC-sister
+  difference: Death domain (+91; 33% of the positive difference), NACHT (+52; 19%), CARD (+33; 12%), TIR (+25; 9%),
+  caspase (+21; 8%). Death, CARD, DED, Bcl-2 and BH4 are absent from all 8 choanoflagellate sisters. Metacaspase is the
+  only family lower in animals (0.5 vs 1.9). The counts are very uneven across animals: Death domains 287 in the sponge
+  Amphimedon, 216 in Ephydatia and 211 in amphioxus, but 5-7 in C. elegans and Drosophila; NACHT 239 in the sea urchin
+  and 134 in Hydra; NB-ARC 111 in Hydra. These are the known lineage-specific innate-immunity expansions of sponges,
+  cnidarians, sea urchin and amphioxus [needs check].
+- Hyphal fungi (22 vs 11): HET (+6.9; 49%), NACHT (+4.5; 32%), NB-ARC, HeLo. Caspase-like/metacaspase proteins are
+  slightly LOWER (-2.3 each; chytrid sisters have ~6 metacaspases).
+- Pezizomycotina (59 vs 4; sister = budding yeasts): HET alone +37 (64%; Botrytis 76, Neurospora 65), then NACHT +6.6,
+  NB-ARC +4.4, HeLo +4.4. Agaricomycetes (32 vs 6): NACHT +13 (39%), metacaspase +8 (24%; Peptidase_C14 counts are the
+  same proteins), NB-ARC +3.
+- Dictyostelids: no excess (20 vs 33 per species). Only MACPF pore-formers are higher (12 vs 6); NACHT and TIR are lower.
+- Streptophytes (79 vs 28): NB-ARC +42 (51%), TIR +18 (22%). Land plants (136 vs 10; Zygnematophyceae sister has none
+  of NB-ARC): NB-ARC +84 (42%), TIR +46 (23%), TIR_2 +40 (20%; mostly the same TIR proteins), MACPF +7, metacaspase +5.
+- Red algae (43 vs 9): NB-ARC +29 (59%), TIR +7, TIR_2 +7, metacaspase +3.
+- Brown algae and relatives (PX filaments; 23 vs 20 per species, LOWER per 10k proteins: 12 vs 14): NB-ARC +8, mostly
+  in the brown algae (Fucus 26, Dictyota 21, Ectocarpus 21); TIR is lower.
+- Volvocines (18 vs 19): no excess in any family.
+So the excess is carried by NB-ARC/TIR in plants and red algae, by HET/NACHT in filamentous fungi, and by death-fold
+adaptors, NACHT and caspases in animals. The "metacaspases in algae" pattern was not found: metacaspase differences
+are +1.8 to +3.3 per species in algae and plants and negative in hyphal fungi, volvocines and animals.
+
+3. DOMAIN ARCHITECTURES (architectures_top.tsv, architectures_top_global.tsv, stand_classes.tsv, stand_excess.tsv)
+NB-ARC/NACHT proteins account for 81-86% of the cell-death excess in streptophytes and red algae, 62-67% in
+Agaricomycetes and land plants, 51% in hyphal fungi, 28% in animals and 19% in Pezizomycotina (where the excess is
+mostly stand-alone HET proteins). The dominant architecture differs by lineage:
+- Land plants: plant NLRs. NB-ARC-LRR (77 proteins in 6 species), TIR-NB-ARC-LRR (TNL; 38), Rx_N(coiled coil)-NB-ARC-
+  LRR (CNL; 32), plus many NB-ARC-only and TIR-NB-ARC fragments or truncated NLRs. Per species: 41 with LRR, 18 with an
+  N-terminal effector but no repeat, 25 with neither. Stand-alone TIR-TIR_2 proteins (TIR-only immune proteins) are 63.
+  Streptophyte sisters (Mesostigma/Chlorokybus) have a few TIR-NB-ARC-TPR proteins, none with LRR.
+- Red algae: NB-ARC-WD40 (73 proteins, all 5 MC species) and TIR-NB-ARC-WD40 (17, one species); none with LRR.
+- Brown algae and relatives: NB-ARC-TPR (50 proteins, 6 species).
+- Fungi: NPHP3_N-NACHT with or without WD40/ANK/TPR repeats (fungal NWD/NLR-like STAND proteins), Goodbye-NACHT, and in
+  Pezizomycotina also PNP_UDP-NB-ARC-TPR. HET is mostly stand-alone (HET 144 of 185 in Pezizomycotina; HET-Het-6_barrel
+  21) - HET-NACHT fusions are rare in these 5 genomes. HeLo occurs alone or in HeLo-NPHP3_N-NACHT.
+- Animals: NACHT alone (425 proteins in 10 species), Death-NACHT (115), CARD-NACHT (53), NACHT-LRR (46),
+  Death-NACHT-LRR (28); NB-ARC-TPR (91; Hydra and other non-bilaterians); one APAF1-like CARD-NB-ARC-WD40 in sponges.
+  Caspases: Peptidase_C14 alone (214), CARD-caspase (32, 10 species), DED-caspase (15, 7 species). BIR: BIR alone (36)
+  and BIR-RING (32; IAP-type). Bcl-2 mostly alone (99). Death domains are mostly alone (647) or with NACHT, ANK
+  (ankyrin-Death, 34) and other partners.
+- "Is the expansion one architecture type?" Within NB-ARC/NACHT: repeat-containing NLR-like proteins are the largest
+  single class of the STAND excess in land plants (41 of 84 per species), streptophytes (18 of 42), red algae (20 of
+  29), PX (5 of 8), Pezizomycotina (6 of 11) and hyphal fungi (3 of 5); in animals and Agaricomycetes the STAND excess
+  is spread across NLR-like, effector-only and bare NACHT proteins (animals 16 / 16 / 33 per species). Bare NB-ARC or
+  NACHT proteins are often fragments or mis-predicted gene models, so the split is approximate.
+Summed over lineages, the largest excess is in architectures typical of immune / non-self receptors (NLR-like STAND
+proteins, TIR proteins, HET), not in the core apoptotic executioners (caspase, Bcl-2, BIR), which are confined to animals.
+
+4. DENSE PANELS: SIMPLE-TO-COMPLEX BRANCHES (panels_event_celldeath.tsv, panels_celldeath_families.tsv)
+Cell-death families on event branches vs the panel's control branches (fraction of Pfam-annotated families):
+- Animal origin (R1, unicellular -> complex): 18 of 474 annotated newly-arisen families carry a cell-death domain vs
+  0.9% on control branches (odds ratio 4.4, q = 0.002); duplicated 20 of 1,139 vs 0.6% (OR 2.9, q = 0.003). New families
+  include Bcl-2 (2 families), CARD, DED/Death-caspase, Death-SEFIR (IL-17 receptor-like), RHIM-TIR_2 (TRIF-like); duplicated
+  ones include NACHT (269 genes), Death-NACHT-Roc-LRR (130), BIR-RING, TIR-LRR (Toll-like, 71) and MACPF.
+- Florideophyceae (R5): 8 duplicated cell-death families vs 1.6 expected (q = 0.018), 5 of them NB-ARC-WD40 (two with
+  TIR_2), plus metacaspase and AIF.
+- Land plants (R3): 6 duplicated (2.9 expected; q = 0.54), including one NB-ARC-coiled coil-LRR family of 377 genes (the
+  plant NLR expansion), metacaspases (incl. LSD1-metacaspase) and VPE. Chara (tip, transcriptome): 7 duplicated
+  (q = 0.08), mostly NB-ARC-LRR (922 and 654 genes).
+- Fucophycidae (R6, confirmatory P1 event): 10 duplicated (6.3 expected; q = 0.72): four NB-ARC-TPR families, two
+  metacaspase, AIF, Bax inhibitor-1, VPE, SH2-NACHT. Dictyota: 4 (q = 0.50).
+- Heterocystous cyanobacteria (R8): 16 duplicated (13.3 expected; q = 1): NACHT/NB-ARC-pentapeptide/WD40/CHAT, caspase-
+  like and metacaspase families, MazF.
+- Fungi (R2): Pezizomycotina 3 duplicated (metacaspase x2, HET) and 1 new (bacterial-type gasdermin), not enriched;
+  Agaricomycetes, Neolecta and Tremella none. Endogone (tip) 8 single-gene Peptidase_C14 families (q = 0.008); single-gene
+  tip families are unreliable (panel caveat D-P1/D-P6).
+- Volvocines (R4): none on Astrephomene, V. carteri or V. africanus; Pleodorina 4 duplicated (q = 0.017), but these are
+  ARM/HEAT-repeat proteins with weak HET/Peptidase_C14 matches and NPHP3_N-NACHT-WD40 - doubtful as cell-death genes.
+- No new (sequence-novel) cell-death family arose on any internal simple-to-complex branch except one Pezizomycotina
+  gasdermin family and 1 HET-domain family on the land-plant branch. Where cell-death families change at these events
+  they are duplications of existing families, and in plants, red and brown algae these are NB-ARC families.
+
+FUNCTION (plain language, with literature)
+- NB-ARC and NACHT proteins are STAND ATPases. With C-terminal LRR (plants, animal NLRs), WD40, TPR or ANK repeats they
+  are intracellular immune / non-self receptors: plant NLRs (TNLs and CNLs) detect pathogen effectors and trigger the
+  hypersensitive response, a localised cell death [Jones & Dangl 2006, needs check; Lam 2004, needs check]; animal NLRs
+  and APAF1 assemble inflammasomes and apoptosomes [needs check]. Fungal NLR-like proteins (NWD, HET-NACHT, HeLo-NACHT)
+  mediate heterokaryon incompatibility, a programmed death of fused cells between genetically different individuals,
+  and are proposed to act in non-self and pathogen recognition [Dyrka et al. 2014, needs check; Uehling et al. 2017,
+  needs check; Paoletti & Saupe 2009, needs check]. HET domains are the toxic effectors of incompatibility; HeLo domains
+  form membrane pores (Daskalov et al. 2016, needs check). TIR domains in plants and animals are immune signalling
+  domains and some are NADases that execute cell death [Horsefield et al. 2019, needs check]. HET-domain hits outside
+  fungi (land plants, volvocines, PX) should not be read as incompatibility genes.
+- Death, CARD and DED are death-fold adaptors that assemble caspase-activating complexes in apoptosis and inflammation,
+  but in animals they are also widely used in innate-immune signalling (e.g. MyD88, Toll/IL-1 receptor pathways)
+  [Koonin & Aravind 2002, needs check; Aravind & Koonin 2002 "Classification of the caspase-hemoglobinase fold",
+  needs check]. Caspases, Bcl-2 and IAP (BIR-RING) proteins form the core animal apoptosis machinery. Metacaspases are
+  arginine/lysine-specific proteases that regulate cell death in plants, fungi and protists [Minina et al. 2020, needs
+  check]; legumains/VPEs execute vacuolar cell death in plants [Hatsugai et al. 2004, needs check]; MACPF and gasdermins
+  are pore-forming effectors (plant MACPF/CAD1 regulates immune cell death).
+- The apoptosis machinery is ancestral to eukaryotes (Klim et al. 2018), and programmed cell death has been argued to
+  be linked to the origin of multicellularity and to complexity (Durand et al. 2016) and to virus-host arms races
+  (Iranzo et al. 2014). (These three are in LITERATURE.md.)
+
+HONEST INTERPRETATION
+- The confirmatory P3 excess is mostly an excess of immune / self-non-self recognition receptors (NB-ARC/NACHT NLR-like
+  proteins, TIR proteins, HET), together with an animal-specific expansion of death-fold adaptors and caspases. Most of
+  these proteins can trigger cell death, but in plants, red and brown algae and fungi they are best known as receptors
+  that kill infected or incompatible cells, not as developmental programmed-cell-death genes (e.g. xylem or
+  reproductive cell death, which in plants mostly uses other proteases).
+- Bigger, longer-lived multicellular bodies are thought to need more immune surveillance, and fungal colonies that fuse
+  need allorecognition. Both readings ("more cell-death machinery because multicellularity needs to kill cells" and
+  "more immune receptors because multicellular organisms are larger, longer-lived targets that fuse with non-self") are
+  compatible with these counts; the data cannot separate them. Removing NB-ARC + NACHT leaves the P3 PGLS positive
+  (W4: p = 0.018), carried mainly by animal death-fold/caspase families and TIR, which are also partly immune.
+- The pattern is lineage-specific, not a common recipe: plants and red algae expand NLR-like NB-ARC proteins with
+  different repeat types (LRR vs WD40), brown algae NB-ARC-TPR, fungi HET and NACHT-WD40/ANK, animals death-fold and
+  NACHT. Dictyostelids and volvocines show no excess.
+- NLR genes are among the most rapidly birth-death-evolving families and are hard to annotate (fragments, pseudogenes,
+  split gene models). Copy numbers vary 10-fold within lineages (Arabidopsis 164 NB-ARC vs Selaginella 20; sea urchin 239
+  NACHT vs fly 1), so lineage means are driven by a few genomes.
+
+CAVEATS
+1. Descriptive. No new test of the multicellular effect; dense-panel Fisher tests are exploratory and treat families as
+   independent.
+2. Sister clades are small (2-8 species), partly transcriptomes or reversals; the animal and dictyostelid comparisons
+   use transcriptome sisters, which under-count multidomain proteins.
+3. Domain hits are Pfam GA only; architecture fragments (NB-ARC only) are frequent. Pfam detection is better in
+   animals, plants and fungi.
+4. Dense-panel families are annotated from up to 3 representatives (union of domains), so a family can carry a
+   cell-death domain that is not shared by all members, and large NLR families are counted once regardless of size.
+
+FILES (results/r2/w4_celldeath/)
+celldeath_proteins.tsv.gz (9,031 proteins, ordered architectures), copy_number_species.tsv (187 x 22),
+copy_number_by_state.tsv, lineage_family_summary.tsv (with W4 scan lfc/q), lineage_drivers.tsv, architectures_top.tsv,
+architectures_top_global.tsv, stand_proteins.tsv.gz, stand_classes.tsv, stand_excess.tsv, panels_event_celldeath.tsv,
+panels_celldeath_families.tsv, fig4b_matrix_{families,stand}.tsv.

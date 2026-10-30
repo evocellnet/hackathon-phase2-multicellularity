@@ -1,0 +1,216 @@
+panel	event_id	event_kind	kind	family_id	n_genes	rep_species	celldeath_pfam	pfam_names	architecture	go
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007187	35	Amphque;Aphrvas;Branbel	PF00531;PF00656;PF01335	Death;Peptidase_C14;DED	PF01335+PF01335+PF01335	cysteine-type endopeptidase activity; protein binding; proteolysis; regulation of apoptotic process; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007303	25	Amphque;Halipan;Hydrvul	PF00531;PF00931;PF05729	Death;NB-ARC;NACHT;TPR_10;TPR_12	PF00531+PF00931+PF13424+PF13424+PF13374+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424	ADP binding; protein binding; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007320	3	Nemavec;Oscalob	PF00531;PF00656	Death;Peptidase_C14;CARD_2	PF00531+PF00656+PF00656	cysteine-type endopeptidase activity; protein binding; proteolysis; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007406	2	Amphque;Branbel	PF00531	Death	PF00531	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007423	20	Amphque;Branbel;Halipan	PF00531	Ank;Death;Ank_2	PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF00023	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007507	3	Branbel;Nemavec;Oscalob	PF00619	CARD	PF00619	regulation of apoptotic process
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007532	3	Clyther;Hydrvul;Oscalob	PF00931	AAA;NB-ARC;TPR_12	PF00004+PF13424	ADP binding; ATP binding; ATP hydrolysis activity
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007552	3	Branbel;Oscalob	PF00531	Ank;Death;Ank_2	PF00531+PF00023	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007664	10	Branbel;Oscalob;Sycocil	PF00531;PF00619	Death;CARD	PF00619+PF00531	protein binding; regulation of apoptotic process; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007668	9	Branbel;Homosap;Sycocil	PF00619	PDZ;CARD	PF00595+PF00595	protein binding; regulation of apoptotic process
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007680	5	Amphque;Branbel;Oscalob	PF00531	SH2;WW;Death	PF00017+PF00017+PF00397	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007863	26	Homosap;Oscalob;Sycocil	PF00452	Bcl-2	PF00452	
+R1	R1_metazoa	origin_complex	seq_novel	HOG0007867	5	Clyther;Hydrvul;Sycocil	PF00931	NB-ARC;TPR_12;HTH_animal	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424	ADP binding
+R1	R1_metazoa	origin_complex	seq_novel	HOG0008105	20	Hormcal;Nemavec;Sycocil	PF00452	Bcl-2	PF00452	
+R1	R1_metazoa	origin_complex	seq_novel	HOG0008136	11	Branbel;Halipan;Hormcal	PF00531	Death;SEFIR	PF00531+PF08357	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0008337	9	Amphque;Branbel;Oscalob	PF00531	Death;ZU5;LRRFIP	PF09738+PF00791+PF00531	protein binding; regulation of DNA-templated transcription; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0013545	3	Branbel	PF00531	Death;Ank_2;Ank_4	PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	seq_novel	HOG0013556	45	Homosap;Hydrvul;Oscalob	PF13676	RHIM;Ank_2;TIR_2;TRIF-NTD	PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796	protein binding; signal transduction
+R1	R1_codosiga	origin	seq_novel	Codohol_EP00042_Codosiga_hollandica_P005194	1	Codohol	PF13676	TIR_2	PF13676	signal transduction
+R1	R1_codosiga	origin	seq_novel	Codohol_EP00042_Codosiga_hollandica_P058045	1	Codohol	PF05729	NACHT	PF05729	
+R1	R1_metazoa	origin_complex	dup	HOG0012784	28	Amphque	PF00531;PF00656	Death;Peptidase_C14;I-set;Ig_3	PF00531+PF13927+PF13927+PF00656	cysteine-type endopeptidase activity; protein binding; proteolysis; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0012980	12	Amphque	PF00531	Death;LRR_6	PF13516+PF13516	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0013557	71	Branbel	PF01582	TIR;LRR_8;DUF4481	PF13855+PF13855+PF13855+PF13855+PF13855+PF13855+PF01582	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0013607	22	Clyther;Hormcal;Mnemlei	PF13676	TIR_2	PF13676+PF13676	signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0013683	42	Branbel	PF01823	MACPF;ApeC	PF16977	
+R1	R1_metazoa	origin_complex	dup	HOG0014745	34	Amphque;Oscalob	PF00531;PF13676	Death;TIR_2	PF13676+PF00531	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0015213	37	Amphque	PF00531	Death;LRR_6	PF00531+PF13516+PF13516+PF13516	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0015289	31	Amphque;Branbel;Halipan	PF13676	SAM_2;Ank_2;HEAT_2;TIR_2	PF13676+PF13646+PF13646	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0015426	269	Amphque	PF05729	NACHT	PF05729	
+R1	R1_metazoa	origin_complex	dup	HOG0017455	80	Amphque;Hoilhon;Tricadh	PF00531	Death;TPR_8;TPR_12	PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF00531	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0017799	37	Amphque;Branbel	PF00653	BIR;zf-C3HC4_3;UBA_BIRC2-3;RNF34L-like_3rd	PF00653+PF21290+PF13920	
+R1	R1_metazoa	origin_complex	dup	HOG0018018	37	Amphque	PF00656	ZZ;Peptidase_C14;N_BRCA1_IG	PF00569+PF16158	cysteine-type endopeptidase activity; proteolysis; zinc ion binding
+R1	R1_metazoa	origin_complex	dup	HOG0019118	130	Aphrvas;Branbel	PF00531;PF05729	Death;NACHT;Roc;LRR_14;COR-B	PF23598+PF08477+PF25497+PF00531	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0022029	103	Aphrvas	PF01823	CAP_GLY;MACPF	PF01823	
+R1	R1_metazoa	origin_complex	dup	HOG0023074	102	Amphque	PF00531	Death;Ank_2;Ank_5	PF12796+PF12796+PF12796+PF13857	protein binding; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0023242	52	Amphque;Branbel	PF01027	Bax1-I	PF01027	
+R1	R1_metazoa	origin_complex	dup	HOG0024011	51	Amphque;Branbel;Homosap	PF13676	SAM_1;MBT;SLED;TIR_2;zf-FCS_1	PF02820+PF02820+PF02820+PF02820+PF12140+PF00536	nucleus; protein binding; regulation of DNA-templated transcription; signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0024110	64	Clyther;Hoilhon	PF05729	NACHT;AAA_16;DUF4062;TPR_12;NPHP3_N;NPHP3_hel	PF13271+PF05729+PF24884+PF13424+PF13424	
+R1	R1_metazoa	origin_complex	dup	HOG0024468	176	Clyther;Hormcal;Mnemlei	PF13676	TIR_2	PF13676	signal transduction
+R1	R1_metazoa	origin_complex	dup	HOG0025209	107	Amphque	PF00531	Ank;Death;Ank_2;Ank_4	PF00531+PF12796+PF13637+PF12796+PF00023	protein binding; signal transduction
+R1	R1_salpingoeca	origin	dup	HOG0012429	7	Salphel	PF13676	TIR_2	PF13676	signal transduction
+R1	R1_salpingoeca	origin	dup	HOG0013365	3	Salpros	PF13676	Arm;TIR_2	PF00514+PF13676	protein binding; signal transduction
+R1	R1_salpingoeca	origin	dup	HOG0024468	40	Salphel	PF13676	Roc;LRR_6;TIR_2;COR-A	PF13516+PF13516+PF13516+PF13516+PF13516+PF16095	protein binding; signal transduction
+R1	R1_choanoeca	origin	dup	HOG0013365	9	Choafle;Choaper	PF13676	Arm;TIR_2	PF00514+PF00514+PF13676	protein binding; signal transduction
+R1	R1_choanoeca	origin	dup	HOG0021526	15	Choafle;Choaper	PF13676	Kre9_KNH;TIR_2	PF13676	signal transduction
+R1	R1_barroeca	origin	dup	HOG0012647	14	Barrmon	PF01582	TIR;SAM_2;Roc;LRR_6;COR-A	PF13516+PF13516+PF13516+PF13516+PF13516+PF13516+PF08477+PF16095+PF01582	protein binding; signal transduction
+R1	R1_codosiga	origin	dup	HOG0013365	18	Codohol	PF13676	TIR_2	PF13676	signal transduction
+R1	R1_codosiga	origin	dup	HOG0023242	9	Codohol	PF01027	Bax1-I	PF01027	
+R1	R1_codosiga	origin	dup	HOG0024468	24	Codohol	PF13676	SAM_1;TIR_2	PF00536+PF13676	protein binding; signal transduction
+R1	R1_codosiga	origin	dup	HOG0024945	9	Codohol	PF01027	Bax1-I	PF01027	
+R1	R1_capsaspora	origin	dup	HOG0001819	15	Capsowc	PF01823	MACPF;LRR_8;TSP1_ADAMTS	PF13855+PF13855+PF19030+PF19030+PF01823	protein binding
+R1	R1_capsaspora	origin	dup	HOG0013646	9	Capsowc	PF13676	7tm_3;Beta_helix;TIR_2	PF13229+PF00003+PF13676+PF13676	G protein-coupled receptor activity; G protein-coupled receptor signaling pathway; membrane; signal transduction
+R2	R2_fonticula	origin	seq_novel	Fontalb_A0A058ZAG1	1	Fontalb	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_pezizomycotina	nested	seq_novel	HOG0003525	7	Artholi;Fusagra;Zymobre	PF26164	Bact_GSDM	PF26164	
+R2	R2_endogone	nested	seq_novel	Endosp_RUS13947.1	1	Endosp	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_endogone	nested	seq_novel	Endosp_RUS14322.1	1	Endosp	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_endogone	nested	seq_novel	Endosp_RUS16398.1	1	Endosp	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_endogone	nested	seq_novel	Endosp_RUS16486.1	1	Endosp	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_endogone	nested	seq_novel	Endosp_RUS17547.1	1	Endosp	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_endogone	nested	seq_novel	Endosp_RUS17548.1	1	Endosp	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_endogone	nested	seq_novel	Endosp_RUS19549.1	1	Endosp	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_endogone	nested	seq_novel	Endosp_RUS21190.1	1	Endosp	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_gonapodya	origin	dup	HOG0006607	6	Gonapro	PF31181	Pept_C14_Metacaspase	PF31181	
+R2	R2_gonapodya	origin	dup	HOG0007975	4	Gonapro	PF00653	BIR	PF00653+PF00653	
+R2	R2_gonapodya	origin	dup	HOG0011501	2	Gonapro	PF01027	Bax1-I	PF01027	
+R2	R2_pezizomycotina	nested	dup	HOG0006208	6	Artholi	PF31181	NPHP3_N;Pept_C14_Metacaspase	PF24883+PF31181	
+R2	R2_pezizomycotina	nested	dup	HOG0006607	26	Artholi	PF31181	Pept_C14_Metacaspase	PF31181	
+R2	R2_pezizomycotina	nested	dup	HOG0008061	17	Artholi	PF06985	HET	PF06985	
+R2	R2_endogone	nested	dup	HOG0007729	4	Endosp	PF01823	Septin;MACPF;MMR_HSR1	PF01926+PF01823	GTP binding
+R2	R2_rev_serendipita	reversal	dup	HOG0006208	19	Sereind	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R2	R2_rev_serendipita	reversal	dup	HOG0006208	10	Sereind	PF31181	Pept_C14_Metacaspase	PF31181+PF31181	
+R2	R2_rev_serendipita	reversal	dup	HOG0007975	6	Sereind	PF00653	BIR	PF00653+PF00653	
+R3	R3_streptophyte_filaments	origin	seq_novel	HOG0003739	15	Ceraric;Charbra;Klebnit	PF00931;PF13676	NB-ARC;Sel1;TIR_2	PF13676+PF00931+PF08238+PF08238+PF08238	ADP binding; signal transduction
+R3	R3_embryophyta	nested	seq_novel	HOG0002101	30	Ceraric;Physpat;Selamoe	PF06985	HET	PF06985	
+R3	R3_chara	nested	seq_novel	Charbra_A0A388K380	1	Charbra	PF06943	zf-LSD1	PF06943	
+R3	R3_chara	nested	seq_novel	Charbra_A0A388LS46	1	Charbra	PF01823	MACPF;NPHP3_N	PF01823+PF24883	
+R3	R3_chara	nested	seq_novel	Charbra_A0A388M0G6	1	Charbra	PF00931	LRR_1;NB-ARC;LRR_14	PF00931+PF23598+PF23598+PF23598+PF23598+PF00560	ADP binding; protein binding
+R3	R3_chara	nested	seq_novel	Charbra_A0A388KSX6	1	Charbra	PF31181	Pept_C14_Metacaspase	PF31181	
+R3	R3_chara	nested	seq_novel	Charbra_A0A388KJN4	1	Charbra	PF31181	Pept_C14_Metacaspase	PF31181	
+R3	R3_chara	nested	seq_novel	Charbra_A0A388KJK9	1	Charbra	PF31181	Pept_C14_Metacaspase	PF31181	
+R3	R3_chara	nested	seq_novel	Charbra_A0A388LBS1	1	Charbra	PF31181	Pept_C14_Metacaspase	PF31181	
+R3	R3_streptophyte_filaments	origin	dup	HOG0006853	71	Ambotri;Charbra;ClosspNIES67	PF00931	ZZ;NB-ARC;LRR_14	PF00931+PF23598+PF23598	ADP binding; zinc ion binding
+R3	R3_embryophyta	nested	dup	HOG0002742	377	Ambotri	PF00931	NB-ARC;Rx_N;WHD_ROQ1;WHD_DRP;LRR_14	PF18052+PF00931+PF23559+PF23598	ADP binding
+R3	R3_embryophyta	nested	dup	HOG0006853	25	Ambotri;Selamoe	PF00931	NB-ARC	PF00931	ADP binding
+R3	R3_embryophyta	nested	dup	HOG0007701	18	Ambotri;Physpat	PF01650	Peptidase_C13	PF01650	peptidase activity; proteolysis
+R3	R3_embryophyta	nested	dup	HOG0008443	12	Ceraric;Selamoe	PF01823	MACPF	PF01823	
+R3	R3_embryophyta	nested	dup	HOG0008771	53	Ambotri;Physpat	PF00656;PF31181	Peptidase_C14;Pept_C14_Metacaspase	PF31181	cysteine-type endopeptidase activity; proteolysis
+R3	R3_embryophyta	nested	dup	HOG0011338	24	Ambotri	PF06943;PF31181	zf-LSD1;Pept_C14_Metacaspase	PF06943+PF31181	
+R3	R3_chara	nested	dup	HOG0002742	922	Charbra	PF00931	LRR_1;NB-ARC;LRR_14	PF00931+PF23598+PF23598	ADP binding; protein binding
+R3	R3_chara	nested	dup	HOG0002775	654	Charbra	PF00931	NB-ARC;LRR_14	PF00931+PF23598+PF23598+PF23598	ADP binding
+R3	R3_chara	nested	dup	HOG0003321	39	Charbra	PF01027	Bax1-I	PF01027	
+R3	R3_chara	nested	dup	HOG0003739	4	Charbra	PF00931	NB-ARC;LRR_14	PF00931+PF23598	ADP binding
+R3	R3_chara	nested	dup	HOG0008771	3	Charbra	PF31181	Pept_C14_Metacaspase	PF31181	
+R3	R3_chara	nested	dup	HOG0011338	28	Charbra	PF06943;PF31181	zf-LSD1;Pept_C14_Metacaspase	PF06943+PF31181	
+R3	R3_chara	nested	dup	HOG0012962	37	Charbra	PF01650	Peptidase_C13;Legum_prodom	PF01650+PF20985	peptidase activity; proteolysis
+R3	R3_rev_zygnematophyceae	reversal	dup	HOG0007574	26	ClosspNIES67	PF06943	zf-LSD1	PF06943+PF06943+PF06943	
+R4	R4_tetrabaena	origin	dup	HOG0002729	22	Tetrsoc	PF06985	HET;Ank_2	PF12796+PF12796+PF06985	protein binding
+R4	R4_tetrabaena	origin	dup	HOG0015537	31	Tetrsoc	PF13676	Ank;Ank_2;TIR_2	PF13676+PF12796+PF12796+PF12796+PF12796+PF12796+PF12796	protein binding; signal transduction
+R4	R4_gonium_volvocaceae	origin	dup	HOG0003059	17	Astrgub;Eudosp;Gonipec	PF06985	HET	PF06985	
+R4	R4_gonium_volvocaceae	origin	dup	HOG0006016	18	Astrgub;Eudosp;Pleosta	PF00656	Arm;Peptidase_C14;HEAT;HEAT_EZ;HEAT_2	PF00656+PF00514+PF13646+PF00514+PF13513+PF13646	cysteine-type endopeptidase activity; protein binding; proteolysis
+R4	R4_gonium_volvocaceae	origin	dup	HOG0008234	29	Astrgub;Eudosp	PF06985	WD40;HET	PF00400+PF00400+PF00400+PF00400+PF00400	protein binding
+R4	R4_sens_single_origin	sensitivity	dup	HOG0015537	35	Astrgub;Gonipec	PF13676	Beta_helix;TIR_2	PF13676	signal transduction
+R4	R4_pleodorina	nested	dup	HOG0002890	9	Pleosta	PF05729	WD40;NACHT;ANAPC4_WD40;NPHP3_N	PF05729+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	protein binding
+R4	R4_pleodorina	nested	dup	HOG0006016	9	Pleosta	PF00656	Arm;Peptidase_C14;HEAT_EZ;HEAT_2;ARM_PUB	PF00656+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514	cysteine-type endopeptidase activity; protein binding; proteolysis
+R4	R4_pleodorina	nested	dup	HOG0008234	5	Pleosta	PF06985	Arm;HET;ARM_ARMC5	PF06985+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514+PF00514	protein binding
+R4	R4_pleodorina	nested	dup	HOG0008234	4	Pleosta	PF06985	Arm;HET;HEAT_2;ARM_ARMC5	PF06985+PF00514+PF13646+PF00514+PF00514+PF00514+PF00514+PF00514	protein binding
+R5	R5_eurhodophytina	origin	dup	HOG0003747	36	Choncri	PF00931;PF13676	WD40;NB-ARC;TIR_2	PF00931+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding; signal transduction
+R5	R5_eurhodophytina	origin	dup	HOG0007823	24	Agarchi;Choncri	PF13676	TIR_2	PF13676	signal transduction
+R5	R5_florideophyceae	nested	dup	HOG0003407	12	Choncri	PF00931;PF13676	WD40;NB-ARC;TIR_2	PF00931+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding; signal transduction
+R5	R5_florideophyceae	nested	dup	HOG0003431	43	Agarchi;Choncri	PF00931	WD40;NB-ARC	PF00931+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding
+R5	R5_florideophyceae	nested	dup	HOG0003434	12	Choncri	PF00931;PF13676	WD40;NB-ARC;TIR_2	PF00931+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding; signal transduction
+R5	R5_florideophyceae	nested	dup	HOG0003747	20	Choncri	PF00931	WD40;NB-ARC	PF00931+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding
+R5	R5_florideophyceae	nested	dup	HOG0005179	6	Choncri;Delipul	PF13676	PK_Tyr_Ser-Thr;TIR_2	PF13676+PF07714	protein kinase activity; protein phosphorylation; signal transduction
+R5	R5_florideophyceae	nested	dup	HOG0007704	10	Agarchi;Graccho	PF00656;PF31181	Peptidase_C14;DM9;Pept_C14_Metacaspase	PF11901+PF11901+PF31181	cysteine-type endopeptidase activity; proteolysis
+R5	R5_florideophyceae	nested	dup	HOG0011323	12	Agarchi	PF14721	Pyr_redox_2;AIF_C	PF07992+PF14721	oxidoreductase activity; protein dimerization activity
+R5	R5_florideophyceae	nested	dup	HOG0012176	5	Choncri	PF00931	WD40;NB-ARC	PF00931+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding
+R5	R5_sens_rhodophytina	sensitivity	dup	HOG0005179	20	Agarchi;Bangsp	PF13676	PK_Tyr_Ser-Thr;TIR_2	PF13676+PF07714	protein kinase activity; protein phosphorylation; signal transduction
+R5	R5_sens_rhodophytina	sensitivity	dup	HOG0008344	23	Agarchi;Bangsp;Rhodmar	PF01027	Bax1-I	PF01027	
+R6	R6_px_filaments	origin	seq_novel	HOG0006554	99	Chryaus;Scytpro;Undapin	PF00931	NB-ARC;TPR_10;TPR_12;TPR_16	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13432+PF13424+PF13424+PF13424+PF13424	ADP binding
+R6	R6_rev_chrysoparadoxa	reversal	seq_novel	Chryaus_CAN0102845.1	1	Chryaus	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R6	R6_rev_chrysoparadoxa	reversal	seq_novel	Chryaus_CAN0207255.1	1	Chryaus	PF02452	PemK_toxin	PF02452	DNA binding
+R6	R6_px_filaments	origin	dup	HOG0017555	87	Ascnod;Phaecon	PF00656;PF31181	Peptidase_C14;Pept_C14_Metacaspase	PF00656+PF31181	cysteine-type endopeptidase activity; proteolysis
+R6	R6_px_filaments	origin	dup	HOG0021601	26	Ascnod;Chryaus;Desmher	PF14721	Pyr_redox_2;AIF_C	PF07992+PF14721	oxidoreductase activity; protein dimerization activity
+R6	R6_px_filaments	origin	dup	HOG0022404	23	Ascnod;Chryaus	PF01027	Bax1-I	PF01027	
+R6	R6_fucophycidae	nested	dup	HOG0004870	33	Ascnod;Chorlin	PF00931	NB-ARC;TPR_12	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424	ADP binding
+R6	R6_fucophycidae	nested	dup	HOG0006554	18	Ascnod;Desmher;Fucuser	PF00931	NB-ARC;TPR_10;TPR_12	PF00931+PF13424+PF13424+PF13374+PF13424+PF13424+PF13424	ADP binding
+R6	R6_fucophycidae	nested	dup	HOG0017555	12	Pelvcan	PF31181	Pept_C14_Metacaspase	PF31181	
+R6	R6_fucophycidae	nested	dup	HOG0017555	15	Ascnod	PF00656;PF31181	Peptidase_C14;Pept_C14_Metacaspase	PF00656+PF31181	cysteine-type endopeptidase activity; proteolysis
+R6	R6_fucophycidae	nested	dup	HOG0017908	3	Ascnod	PF01650	Peptidase_C13	PF01650	peptidase activity; proteolysis
+R6	R6_fucophycidae	nested	dup	HOG0020564	33	Ascnod	PF00931	NB-ARC;TPR_10;TPR_12	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13374+PF13424+PF13424+PF13424	ADP binding
+R6	R6_fucophycidae	nested	dup	HOG0020564	19	Ascnod	PF00931	NB-ARC;TPR_12;TPR_16	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13432+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424	ADP binding
+R6	R6_fucophycidae	nested	dup	HOG0021601	14	Ascnod;Desmher	PF14721	Pyr_redox_2;AIF_C	PF07992+PF14721	oxidoreductase activity; protein dimerization activity
+R6	R6_fucophycidae	nested	dup	HOG0021943	8	Ascnod;Ectosil	PF01027	Bax1-I	PF01027	
+R6	R6_fucophycidae	nested	dup	HOG0022862	10	Ascnod;Desmher	PF05729	SH2;NACHT;CHAT	PF12770+PF00017	
+R6	R6_sens_phaeophyceae	sensitivity	dup	HOG0017908	38	Ascnod	PF01650	Peptidase_C13;Legum_prodom	PF01650+PF20985	peptidase activity; proteolysis
+R6	R6_sens_phaeophyceae	sensitivity	dup	HOG0020564	142	Ascnod;Ectosil	PF00931	NB-ARC;TPR_12;WHD_APAF1	PF00931+PF21296+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424	ADP binding
+R6	R6_dictyota	nested	dup	HOG0006554	3	Dictdic	PF00931	NB-ARC;TPR_12	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424	ADP binding
+R6	R6_dictyota	nested	dup	HOG0017555	3	Dictdic	PF31181	Pept_C14_Metacaspase	PF31181	
+R6	R6_dictyota	nested	dup	HOG0020564	3	Dictdic	PF00931	NB-ARC	PF00931	ADP binding
+R6	R6_dictyota	nested	dup	HOG0021943	5	Dictdic	PF01027	Bax1-I	PF01027	
+R6	R6_rev_ectocarpus	reversal	dup	HOG0004870	5	Ectosil	PF00931	NB-ARC;TPR_7;TPR_10;TPR_12	PF00931+PF13424+PF13424+PF13424+PF13424+PF13176	ADP binding; protein binding
+R6	R6_rev_ectocarpus	reversal	dup	HOG0004953	5	Ectosil	PF00931	NB-ARC;TPR_10;TPR_12	PF00931+PF13424+PF13424+PF13374+PF13424	ADP binding
+R6	R6_rev_ectocarpus	reversal	dup	HOG0017555	5	Ectosil	PF00656;PF31181	Peptidase_C14;Pept_C14_Metacaspase	PF00656+PF31181	cysteine-type endopeptidase activity; proteolysis
+R6	R6_rev_pylaiella	reversal	dup	HOG0003642	4	Pylalit	PF00931	NB-ARC;TPR_10;TPR_12	PF00931+PF13374+PF13424+PF13424+PF13424+PF13424+PF13424	ADP binding
+R6	R6_rev_pylaiella	reversal	dup	HOG0004870	8	Pylalit	PF00931	NB-ARC;TPR_10;TPR_12	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13374	ADP binding
+R6	R6_rev_pylaiella	reversal	dup	HOG0004953	3	Pylalit	PF00931	NB-ARC;TPR_12;TPR_16	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13432+PF13424+PF13432+PF13424+PF13424+PF13424+PF13424	ADP binding
+R6	R6_rev_pylaiella	reversal	dup	HOG0020564	11	Pylalit	PF00931	NB-ARC;TPR_12;TPR_16	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13424+PF13432+PF13424+PF13424	ADP binding
+R6	R6_rev_pylaiella	reversal	dup	HOG0020564	10	Pylalit	PF00931	NB-ARC;TPR_12	PF13424+PF13424+PF13424+PF13424	ADP binding
+R6	R6_rev_chordaria	reversal	dup	HOG0004251	2	Chorlin	PF00931	NB-ARC	PF00931	ADP binding
+R6	R6_rev_chordaria	reversal	dup	HOG0006554	5	Chorlin	PF00931	NB-ARC	PF00931	ADP binding
+R6	R6_rev_chordaria	reversal	dup	HOG0020564	5	Chorlin	PF00931	NB-ARC	PF00931	ADP binding
+R6	R6_rev_chrysoparadoxa	reversal	dup	HOG0017555	36	Chryaus	PF00656;PF31181	Peptidase_C14;Pept_C14_Metacaspase	PF00656+PF31181	cysteine-type endopeptidase activity; proteolysis
+R6	R6_rev_chrysoparadoxa	reversal	dup	HOG0019638	7	Chryaus	PF00931;PF13676	LRR_1;NB-ARC;TIR_2;LRR_R13L1-DRL21	PF13676+PF00931+PF00560+PF25019	ADP binding; protein binding; signal transduction
+R6	R6_rev_chrysoparadoxa	reversal	dup	HOG0022404	21	Chryaus	PF01027	Bax1-I	PF01027	
+R7	R7_dictyostelia	origin	seq_novel	HOG0006460	40	Cavefas;Dictpur;Polyvio	PF31181	Laminin_G_3;ILEI;Pept_C14_Metacaspase	PF15711+PF15711+PF15711+PF15711+PF15711+PF31181+PF13385+PF13385	
+R7	R7_myxogastria	origin	dup	HOG0014740	15	Cerafru;Physpol	PF14721	Rieske;Pyr_redox_2;AIF_C;Reductase_C	PF07992+PF14721+PF14721+PF07992+PF14721+PF14721	2 iron, 2 sulfur cluster binding; oxidoreductase activity; protein dimerization activity
+R7	R7_sens_macromycetozoa	sensitivity	dup	HOG0021225	4	Physpol	PF01823	MACPF;DUF4189	PF01823+PF13827+PF13827	
+R7	R7_sens_macromycetozoa	sensitivity	dup	HOG0021406	116	Acytsub	PF01823	MACPF	PF01823	
+R7	R7_copromyxa	origin	dup	HOG0020984	6	Coprpro	PF06943	Chromo_shadow;zf-LSD1	PF01393+PF06943	nucleus
+R8	R8_leptolyngbya	origin	seq_novel	Leptbor_A0A1Z4J985	1	Leptbor	PF00656	WD40;Peptidase_C14	PF00656+PF00400+PF00400+PF00400+PF00400+PF00400	cysteine-type endopeptidase activity; protein binding; proteolysis
+R8	R8_sens_early_origin	sensitivity	seq_novel	HOG0003159	7	Colechth;Noduspu;Trichery	PF05729	NACHT;AAA_35;nSTAND2	PF14516	
+R8	R8_sens_early_origin	sensitivity	seq_novel	HOG0004739	2	Limnind;Spirsub	PF05729	NACHT	PF05729	
+R8	R8_sens_early_origin	sensitivity	seq_novel	HOG0005021	15	Acarmar;Calopar;Colechth	PF00656;PF05729	WD40;Peptidase_C14;NACHT	PF05729+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	cysteine-type endopeptidase activity; protein binding; proteolysis
+R8	R8_sens_early_origin	sensitivity	seq_novel	HOG0005100	5	Calopar;Colechth;Phornig	PF02452	PemK_toxin	PF02452	DNA binding
+R8	R8_heterocyst	nested	dup	HOG0002327	20	Anabcyl;Calopar	PF05729	Pentapeptide;NACHT;NNH3	PF00805+PF00805+PF00805+PF00805+PF00805+PF00805+PF00805+PF00805+PF00805	
+R8	R8_heterocyst	nested	dup	HOG0003096	4	Calopar	PF00931	NB-ARC	PF00931	ADP binding
+R8	R8_heterocyst	nested	dup	HOG0004529	13	Calopar	PF00656	EAL;Peptidase_C14;GUN4	PF00656+PF00563	cysteine-type endopeptidase activity; proteolysis
+R8	R8_heterocyst	nested	dup	HOG0005021	7	Calopar	PF05729	WD40;NACHT;CHAT	PF05729+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	protein binding
+R8	R8_heterocyst	nested	dup	HOG0006009	15	Anabcyl;Calopar	PF05729	WD40;Pentapeptide;NACHT;EAD4;NA-iREase1;NNH5;Beta-prop_WDR3_1st	PF22736+PF22722+PF00805+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	protein binding
+R8	R8_heterocyst	nested	dup	HOG0007334	7	Calopar;Nostpun	PF13676	Roc;LRR_4;TIR_2;LRR_8;COR-A;LRR_14;COR-B	PF13855+PF13855+PF13855+PF13855+PF13855+PF23598+PF13855+PF13855+PF08477+PF16095+PF25497+PF13676	protein binding; signal transduction
+R8	R8_heterocyst	nested	dup	HOG0008471	14	Calopar;Nostpun	PF00931	NB-ARC;GUN4;CHAT;AAA_16;TPR_12	PF12770+PF00931+PF13424+PF13424+PF13424	ADP binding
+R8	R8_heterocyst	nested	dup	HOG0008869	3	Scythof	PF31181	Pept_C14_Metacaspase	PF31181	
+R8	R8_heterocyst	nested	dup	HOG0008869	8	Anabcyl;Calopar	PF31181	Pept_C14_Metacaspase	PF31181	
+R8	R8_heterocyst	nested	dup	HOG0008869	7	Nostpun;Scythof	PF00656	Peptidase_C14;DUF7379	PF00656+PF24096	cysteine-type endopeptidase activity; proteolysis
+R8	R8_heterocyst	nested	dup	HOG0008871	14	Anabcyl;Scythof	PF00656;PF05729	Peptidase_C14;NACHT;HEAT_2;NNH2;WHD_NACHT_C	PF22734+PF05729+PF30651+PF13646+PF13646+PF13646+PF13646	cysteine-type endopeptidase activity; proteolysis
+R8	R8_heterocyst	nested	dup	HOG0009468	5	Anabcyl;Chlofri	PF02452	PemK_toxin	PF02452	DNA binding
+R8	R8_heterocyst	nested	dup	HOG0009645	67	Anabcyl	PF00656	Pkinase;Peptidase_C14;FGE-sulfatase	PF00069+PF03781	ATP binding; cysteine-type endopeptidase activity; protein phosphorylation; proteolysis
+R8	R8_heterocyst	nested	dup	HOG0009698	12	Anabcyl;Fiscthe	PF01027	Bax1-I	PF01027	
+R8	R8_heterocyst	nested	dup	HOG0009736	3	Scythof	PF00656	WD40;Peptidase_C14;eIF2A;nSTAND1	PF00656+PF20703+PF08662+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	cysteine-type endopeptidase activity; protein binding; proteolysis
+R8	R8_heterocyst	nested	dup	HOG0009736	5	Anabcyl;Calopar	PF00656	WD40;Peptidase_C14;nSTAND1;Beta-prop_IFT122_1st	PF20703+PF00400+PF00400+PF00400+PF23381+PF00400+PF00400+PF00400+PF00400	cysteine-type endopeptidase activity; protein binding; proteolysis
+R8	R8_branching	T_event	dup	HOG0008871	18	Chlofri	PF00931	WD40;Pentapeptide;NB-ARC;Beta-prop_IFT122_1st;Beta-prop_EML_2;Beta-prop_WDR3_1st;HTH_VMAP-M9	PF26355+PF00931+PF00805+PF00400+PF00400+PF00400+PF23414+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding
+R8	R8_branching	T_event	dup	HOG0008871	16	Chlofri	PF00931	WD40;Pentapeptide;NB-ARC;Beta-prop_IFT122_1st;Beta-prop_EML_2;Beta-prop_WDR3_1st	PF00931+PF00805+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF23414	ADP binding; protein binding
+R8	R8_oscillatoriales	origin	dup	HOG0000608	16	Limnind	PF00931	NB-ARC;AAA_22;HTH_VMAP-M9	PF26355+PF00931	ADP binding; ATP hydrolysis activity
+R8	R8_oscillatoriales	origin	dup	HOG0008002	12	Micrvag;Phornig	PF00931	GerE;NB-ARC;TPR_8;TPR_12;HTH_VMAP-M9	PF26355+PF00931+PF13424+PF13181	ADP binding; protein binding; regulation of DNA-templated transcription
+R8	R8_oscillatoriales	origin	dup	HOG0008869	11	Limnind;Lyngaes	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R8	R8_oscillatoriales	origin	dup	HOG0008869	8	Lyngaes;Phornig	PF00656;PF31181	Peptidase_C14;Pept_C14_Metacaspase	PF31181	cysteine-type endopeptidase activity; proteolysis
+R8	R8_oscillatoriales	origin	dup	HOG0008871	13	Lyngaes	PF00931	WD40;Pentapeptide;NB-ARC;AAA_16;EAD4;Beta-prop_IFT122_1st;Beta-prop_WDR3_1st;HTH_VMAP-M9	PF19959+PF00931+PF00805+PF25173+PF23381+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding
+R8	R8_oscillatoriales	origin	dup	HOG0008871	12	Lyngaes;Trichery	PF05729	NACHT;NCH2;WHD_NACHT_C	PF05729+PF30651+PF22727	
+R8	R8_oscillatoriales	origin	dup	HOG0009468	7	Phornig	PF02452	PemK_toxin	PF02452	DNA binding
+R8	R8_oscillatoriales	origin	dup	HOG0009468	3	Phornig	PF02452	PemK_toxin	PF02452	DNA binding
+R8	R8_oscillatoriales	origin	dup	HOG0009645	10	Limnind;Planaga;Trichery	PF00656;PF05729	Peptidase_C14;NACHT;HEAT_2	PF05729+PF13646+PF13646+PF13646+PF13646+PF13646+PF13646+PF13646+PF13646+PF00656	cysteine-type endopeptidase activity; proteolysis
+R8	R8_leptolyngbya	origin	dup	HOG0002649	20	Leptbor	PF00931;PF13676	NB-ARC;TPR_4;TPR_12;TIR_2	PF13676+PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF07721	ADP binding; identical protein binding; signal transduction
+R8	R8_leptolyngbya	origin	dup	HOG0003013	7	Leptbor	PF13676	TIR_2	PF13676	signal transduction
+R8	R8_leptolyngbya	origin	dup	HOG0007767	6	Leptbor	PF13676	WD40;TIR_2;Beta-prop_IFT122_1st	PF13676+PF00400+PF00400+PF00400+PF00400+PF23381+PF00400+PF00400+PF00400+PF00400	protein binding; signal transduction
+R8	R8_leptolyngbya	origin	dup	HOG0008869	14	Leptbor	PF00656;PF31181	Peptidase_C14;DUF4384;Pept_C14_Metacaspase	PF31181+PF14326	cysteine-type endopeptidase activity; proteolysis
+R8	R8_leptolyngbya	origin	dup	HOG0008871	122	Leptbor	PF00931	WD40;NB-ARC;WDR90_beta-prop_4th;Beta-prop_IFT122_1st;Beta-prop_WDR3_1st;HTH_VMAP-M9	PF26355+PF00931+PF23342+PF23381+PF00400+PF00400+PF23381+PF25173+PF00400	ADP binding; protein binding
+R8	R8_leptolyngbya	origin	dup	HOG0008871	46	Leptbor	PF05729;PF13676	NACHT;TIR_2;NCH2;WHD_NACHT_C	PF13676+PF05729+PF30651+PF22727	signal transduction
+R8	R8_pseudanabaena	origin	dup	HOG0002053	5	Pseubic	PF00656	Peptidase_C14;EAD10	PF00656+PF19954	cysteine-type endopeptidase activity; proteolysis
+R8	R8_pseudanabaena	origin	dup	HOG0008871	122	Pseubic	PF00931	WD40;NB-ARC;HTH_VMAP-M9	PF26355+PF00931+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	ADP binding; protein binding
+R8	R8_pseudanabaena	origin	dup	HOG0008871	46	Pseubic	PF05729	NACHT;NCH2;WHD_NACHT_C	PF05729+PF30651+PF22727	
+R8	R8_pseudanabaena	origin	dup	HOG0009468	6	Pseubic	PF02452	PemK_toxin	PF02452	DNA binding
+R8	R8_coleofasciculus	origin	dup	HOG0002127	18	Colechth	PF13676	WD40;CHASE2;TIR_2;Beta-prop_IFT122_1st	PF13676+PF13676+PF13676+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF23381+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400	protein binding; signal transduction
+R8	R8_coleofasciculus	origin	dup	HOG0002599	35	Colechth	PF13676	GerE;TIR_2;AAA_35;HTH_VMAP-M9	PF00196+PF13676+PF14516	regulation of DNA-templated transcription; signal transduction
+R8	R8_coleofasciculus	origin	dup	HOG0008869	11	Colechth	PF00656	Peptidase_C14	PF00656	cysteine-type endopeptidase activity; proteolysis
+R8	R8_coleofasciculus	origin	dup	HOG0008871	122	Colechth	PF00931	GerE;NB-ARC;HTH_VMAP-M9	PF26355+PF00931	ADP binding; regulation of DNA-templated transcription
+R8	R8_coleofasciculus	origin	dup	HOG0008871	19	Colechth	PF05729	NACHT;HEAT_2;NNH2;WHD_NACHT_C	PF22734+PF05729+PF30651+PF13646+PF13646+PF13646+PF13646+PF13646	
+R8	R8_coleofasciculus	origin	dup	HOG0008871	46	Colechth	PF05729	NACHT;NCH2;WHD_NACHT_C	PF05729+PF30651+PF22727	
+R8	R8_coleofasciculus	origin	dup	HOG0009377	47	Colechth	PF00656;PF00931	WD40;Peptidase_C14;NB-ARC;TPR_12;TPR_16;nSTAND1;Beta-prop_IFT122_1st;Beta-prop_EML_2	PF20703+PF00400+PF00400+PF00400+PF00400+PF00400+PF00400+PF23381+PF23414+PF00400+PF00400	ADP binding; cysteine-type endopeptidase activity; protein binding; proteolysis
+R8	R8_hyella	origin	dup	HOG0008871	5	Hyelpat	PF00931	WD40;NB-ARC;Beta-prop_IFT122_1st	PF00931+PF00400+PF00400+PF00400+PF00400+PF23381+PF00400+PF00400+PF23381	ADP binding; protein binding
+R8	R8_hyella	origin	dup	HOG0008871	4	Hyelpat	PF05729	NACHT	PF05729	
+R8	R8_hydrococcus	origin	dup	HOG0008871	5	Hydrriv	PF00931	NB-ARC;HTH_VMAP-M9	PF26355+PF00931	ADP binding
+R8	R8_hydrococcus	origin	dup	HOG0008871	4	Hydrriv	PF05729	NACHT;NCH2;WHD_NACHT_C	PF05729+PF30651+PF22727	
+R8	R8_sens_early_origin	sensitivity	dup	HOG0008002	14	Gloecit;Leptbor	PF00931	NB-ARC;TPR_10;TPR_12	PF00931+PF13424+PF13424+PF13424+PF13424+PF13424+PF13374	ADP binding
+R8	R8_sens_early_origin	sensitivity	dup	HOG0008869	75	Acarmar;Anabcyl;Colechth	PF00656;PF31181	Peptidase_C14;DUF4384;Pept_C14_Metacaspase	PF31181+PF14326	cysteine-type endopeptidase activity; proteolysis
+R8	R8_sens_early_origin	sensitivity	dup	HOG0009468	37	Alitatl;Anabcyl;Chrothe	PF02452	PemK_toxin	PF02452	DNA binding

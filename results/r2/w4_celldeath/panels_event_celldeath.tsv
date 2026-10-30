@@ -1,0 +1,119 @@
+panel	event_id	event_kind	branch	from_state	to_state	kind	n_families	n_pfam_annotated	n_celldeath	frac_celldeath_of_annotated	n_control_branches	bg_annotated	bg_celldeath	bg_frac	odds_ratio	p_one_sided	genes_in_celldeath_families	q_bh_simple_to_complex
+R1	R1_metazoa	origin_complex	Metazoa	unicellular	complex	seq_novel	717	474	18	0.03797	8	1569	14	0.008923	4.384	4.88e-05	237	0.001562
+R1	R1_salpingoeca	origin	Salpingoeca	unicellular	simple	seq_novel	2	1	0	0	8	1569	14	0.008923	0	1	0	
+R1	R1_choanoeca	origin	Choanoeca	unicellular	simple	seq_novel	520	99	0	0	8	1569	14	0.008923	0	1	0	
+R1	R1_barroeca	origin	Barrmon	unicellular	simple	seq_novel	2431	77	0	0	8	1569	14	0.008923	0	1	0	
+R1	R1_codosiga	origin	Codohol	unicellular	simple	seq_novel	14916	1022	2	0.001957	8	1569	14	0.008923	0.2178	0.9963	2	
+R1	R1_capsaspora	origin	Capsowc	unicellular	simple	seq_novel	1519	338	0	0	8	1569	14	0.008923	0	1	0	
+R1	R1_teretosporea	origin	Teretosporea	unicellular	simple	seq_novel	36	13	0	0	8	1569	14	0.008923	0	1	0	
+R1	R1_metazoa	origin_complex	Metazoa	unicellular	complex	dup	1199	1139	20	0.01756	8	7054	43	0.006096	2.914	0.0002173	1485	0.003477
+R1	R1_salpingoeca	origin	Salpingoeca	unicellular	simple	dup	228	196	3	0.01531	8	7054	43	0.006096	2.534	0.1272	50	
+R1	R1_choanoeca	origin	Choanoeca	unicellular	simple	dup	830	627	2	0.00319	8	7054	43	0.006096	0.5217	0.8924	24	
+R1	R1_barroeca	origin	Barrmon	unicellular	simple	dup	123	90	1	0.01111	8	7054	43	0.006096	1.832	0.4285	14	
+R1	R1_codosiga	origin	Codohol	unicellular	simple	dup	1385	1181	4	0.003387	8	7054	43	0.006096	0.5541	0.9208	60	
+R1	R1_capsaspora	origin	Capsowc	unicellular	simple	dup	292	273	2	0.007326	8	7054	43	0.006096	1.203	0.5041	24	
+R1	R1_teretosporea	origin	Teretosporea	unicellular	simple	dup	408	373	0	0	8	7054	43	0.006096	0	1	0	
+R2	R2_hyphae	origin	Blastocladiomycota_Amastigomycota	unicellular	simple	seq_novel	36	21	0	0	7	244	0	0		1	0	
+R2	R2_gonapodya	origin	Gonapro	unicellular	simple	seq_novel	4373	480	0	0	7	244	0	0		1	0	
+R2	R2_fonticula	origin	Fontalb	unicellular	simple	seq_novel	1912	344	1	0.002907	7	244	0	0	inf	0.585	1	
+R2	R2_pezizomycotina	nested	Pezizomycotina	simple	complex	seq_novel	417	160	1	0.00625	7	244	0	0	inf	0.396	7	1
+R2	R2_neolecta	nested	Neolirr	simple	complex	seq_novel	962	62	0	0	7	244	0	0		1	0	1
+R2	R2_agaricomycetes	nested	Agaricomycetes_Dacrymycetes	simple	complex	seq_novel	139	28	0	0	7	244	0	0		1	0	1
+R2	R2_tremella	nested	Tremmes	simple	complex	seq_novel	1849	56	0	0	7	244	0	0		1	0	1
+R2	R2_endogone	nested	Endosp	simple	complex	seq_novel	1966	172	8	0.04651	7	244	0	0	inf	0.0007747	8	0.008264
+R2	R2_rev_saccharomycotina	reversal	Saccharomycotina	simple	unicellular	seq_novel	32	22	0	0	7	244	0	0		1	0	
+R2	R2_rev_schizosaccharomyces	reversal	Schipom	simple	unicellular	seq_novel	605	203	0	0	7	244	0	0		1	0	
+R2	R2_rev_saitoella	reversal	Saitcom	simple	unicellular	seq_novel	1486	75	0	0	7	244	0	0		1	0	
+R2	R2_rev_cryptococcus	reversal	Crypneo	simple	unicellular	seq_novel	698	45	0	0	7	244	0	0		1	0	
+R2	R2_rev_rhodotorula	reversal	Rhodtor	simple	unicellular	seq_novel	1720	152	0	0	7	244	0	0		1	0	
+R2	R2_rev_serendipita	reversal	Sereind	complex	simple	seq_novel	2694	137	0	0	7	244	0	0		1	0	
+R2	R2_hyphae	origin	Blastocladiomycota_Amastigomycota	unicellular	simple	dup	394	360	0	0	7	2782	8	0.002876	0	1	0	
+R2	R2_gonapodya	origin	Gonapro	unicellular	simple	dup	930	859	3	0.003492	7	2782	8	0.002876	1.215	0.5006	12	
+R2	R2_fonticula	origin	Fontalb	unicellular	simple	dup	152	140	0	0	7	2782	8	0.002876	0	1	0	
+R2	R2_pezizomycotina	nested	Pezizomycotina	simple	complex	dup	817	772	3	0.003886	7	2782	8	0.002876	1.353	0.4397	49	1
+R2	R2_neolecta	nested	Neolirr	simple	complex	dup	165	150	0	0	7	2782	8	0.002876	0	1	0	1
+R2	R2_agaricomycetes	nested	Agaricomycetes_Dacrymycetes	simple	complex	dup	511	475	0	0	7	2782	8	0.002876	0	1	0	1
+R2	R2_tremella	nested	Tremmes	simple	complex	dup	125	102	0	0	7	2782	8	0.002876	0	1	0	1
+R2	R2_endogone	nested	Endosp	simple	complex	dup	433	379	1	0.002639	7	2782	8	0.002876	0.9173	0.6837	4	1
+R2	R2_rev_saccharomycotina	reversal	Saccharomycotina	simple	unicellular	dup	129	115	0	0	7	2782	8	0.002876	0	1	0	
+R2	R2_rev_schizosaccharomyces	reversal	Schipom	simple	unicellular	dup	303	300	0	0	7	2782	8	0.002876	0	1	0	
+R2	R2_rev_saitoella	reversal	Saitcom	simple	unicellular	dup	361	335	0	0	7	2782	8	0.002876	0	1	0	
+R2	R2_rev_cryptococcus	reversal	Crypneo	simple	unicellular	dup	197	175	0	0	7	2782	8	0.002876	0	1	0	
+R2	R2_rev_rhodotorula	reversal	Rhodtor	simple	unicellular	dup	409	371	0	0	7	2782	8	0.002876	0	1	0	
+R2	R2_rev_serendipita	reversal	Sereind	complex	simple	dup	595	496	3	0.006048	7	2782	8	0.002876	2.11	0.225	35	
+R3	R3_streptophyte_filaments	origin	Klebsormidiophyceae_Phragmoplastophyta	unicellular	simple	seq_novel	282	152	1	0.006579	6	318	1	0.003145	2.099	0.5427	15	
+R3	R3_embryophyta	nested	Embryophyta	simple	complex	seq_novel	259	132	1	0.007576	6	318	1	0.003145	2.42	0.5011	30	1
+R3	R3_chara	nested	Charbra	simple	complex	seq_novel	12793	979	7	0.00715	6	318	1	0.003145	2.283	0.3785	7	1
+R3	R3_rev_zygnematophyceae	reversal	Zygnematophyceae	simple	unicellular	seq_novel	32	12	0	0	6	318	1	0.003145	0	1	0	
+R3	R3_streptophyte_filaments	origin	Klebsormidiophyceae_Phragmoplastophyta	unicellular	simple	dup	907	820	1	0.00122	6	3839	9	0.002344	0.5196	0.856	71	
+R3	R3_embryophyta	nested	Embryophyta	simple	complex	dup	1315	1242	6	0.004831	6	3839	9	0.002344	2.066	0.1361	509	0.5443
+R3	R3_chara	nested	Charbra	simple	complex	dup	951	849	7	0.008245	6	3839	9	0.002344	3.538	0.01565	1687	0.08346
+R3	R3_rev_zygnematophyceae	reversal	Zygnematophyceae	simple	unicellular	dup	704	621	1	0.00161	6	3839	9	0.002344	0.6864	0.7771	26	
+R4	R4_tetrabaena	origin	Tetrsoc	unicellular	simple	seq_novel	1237	149	0	0	18	824	7	0.008495	0	1	0	
+R4	R4_gonium_volvocaceae	origin	Gonium_Volvocaceae	unicellular	simple	seq_novel	76	5	0	0	18	824	7	0.008495	0	1	0	
+R4	R4_sens_single_origin	sensitivity	TGV_clade	unicellular	simple	seq_novel	34	6	0	0	18	824	7	0.008495	0	1	0	
+R4	R4_astrephomene	nested	Astrgub	simple	complex	seq_novel	892	29	0	0	18	824	7	0.008495	0	1	0	1
+R4	R4_pleodorina	nested	Pleosta	simple	complex	seq_novel	1621	167	0	0	18	824	7	0.008495	0	1	0	1
+R4	R4_volvox_carteri	nested	Volvcar	simple	complex	seq_novel	1300	18	0	0	18	824	7	0.008495	0	1	0	1
+R4	R4_volvox_africanus	nested	Volvox_africanus_reticuliferus	simple	complex	seq_novel	104	4	0	0	18	824	7	0.008495	0	1	0	1
+R4	R4_tetrabaena	origin	Tetrsoc	unicellular	simple	dup	1094	811	2	0.002466	18	4580	7	0.001528	1.615	0.4021	53	
+R4	R4_gonium_volvocaceae	origin	Gonium_Volvocaceae	unicellular	simple	dup	1842	1234	3	0.002431	18	4580	7	0.001528	1.592	0.3594	64	
+R4	R4_sens_single_origin	sensitivity	TGV_clade	unicellular	simple	dup	1125	905	1	0.001105	18	4580	7	0.001528	0.7227	0.7639	35	
+R4	R4_astrephomene	nested	Astrgub	simple	complex	dup	524	305	0	0	18	4580	7	0.001528	0	1	0	1
+R4	R4_pleodorina	nested	Pleosta	simple	complex	dup	482	265	4	0.01509	18	4580	7	0.001528	10.01	0.002126	27	0.01701
+R4	R4_volvox_carteri	nested	Volvcar	simple	complex	dup	453	251	0	0	18	4580	7	0.001528	0	1	0	1
+R4	R4_volvox_africanus	nested	Volvox_africanus_reticuliferus	simple	complex	dup	712	399	0	0	18	4580	7	0.001528	0	1	0	1
+R5	R5_eurhodophytina	origin	Eurhodophytina	unicellular	simple	seq_novel	96	29	0	0	5	314	2	0.006369	0	1	0	
+R5	R5_florideophyceae	nested	Rhodymeniophycidae	simple	complex	seq_novel	709	120	0	0	5	314	2	0.006369	0	1	0	1
+R5	R5_bangiopsis	origin	Bangsp	unicellular	simple	seq_novel	1688	76	0	0	5	314	2	0.006369	0	1	0	
+R5	R5_compsopogon	origin	Compcae	unicellular	simple	seq_novel	2094	108	0	0	5	314	2	0.006369	0	1	0	
+R5	R5_sens_rhodophytina	sensitivity	Rhodophytina	unicellular	simple	seq_novel	175	59	0	0	5	314	2	0.006369	0	1	0	
+R5	R5_eurhodophytina	origin	Eurhodophytina	unicellular	simple	dup	353	308	2	0.006494	5	2137	7	0.003276	1.989	0.3162	60	
+R5	R5_florideophyceae	nested	Rhodymeniophycidae	simple	complex	dup	614	498	8	0.01606	5	2137	7	0.003276	4.968	0.00284	120	0.01817
+R5	R5_bangiopsis	origin	Bangsp	unicellular	simple	dup	194	156	0	0	5	2137	7	0.003276	0	1	0	
+R5	R5_compsopogon	origin	Compcae	unicellular	simple	dup	238	203	0	0	5	2137	7	0.003276	0	1	0	
+R5	R5_sens_rhodophytina	sensitivity	Rhodophytina	unicellular	simple	dup	505	469	2	0.004264	5	2137	7	0.003276	1.303	0.5014	43	
+R6	R6_px_filaments	origin	PX_clade	unicellular	simple	seq_novel	1100	491	1	0.002037	16	984	3	0.003049	0.6673	0.8023	99	
+R6	R6_fucophycidae	nested	Fucophycidae	simple	complex	seq_novel	493	63	0	0	16	984	3	0.003049	0	1	0	1
+R6	R6_sens_phaeophyceae	sensitivity	Phaeophyceae	simple	complex	seq_novel	314	70	0	0	16	984	3	0.003049	0	1	0	
+R6	R6_dictyota	nested	Dictdic	simple	complex	seq_novel	3656	97	0	0	16	984	3	0.003049	0	1	0	1
+R6	R6_rev_ectocarpus	reversal	Ectosil	complex	simple	seq_novel	958	39	0	0	16	984	3	0.003049	0	1	0	
+R6	R6_rev_pylaiella	reversal	Pylalit	complex	simple	seq_novel	3248	48	0	0	16	984	3	0.003049	0	1	0	
+R6	R6_rev_chordaria	reversal	Chorlin	complex	simple	seq_novel	2064	21	0	0	16	984	3	0.003049	0	1	0	
+R6	R6_rev_chrysoparadoxa	reversal	Chryaus	simple	unicellular	seq_novel	3592	785	2	0.002548	16	984	3	0.003049	0.8352	0.7347	2	
+R6	R6_px_filaments	origin	PX_clade	unicellular	simple	dup	2111	1785	3	0.001681	16	3565	10	0.002805	0.5985	0.8621	136	
+R6	R6_fucophycidae	nested	Fucophycidae	simple	complex	dup	2944	2231	10	0.004482	16	3565	10	0.002805	1.601	0.2021	165	0.7187
+R6	R6_sens_phaeophyceae	sensitivity	Phaeophyceae	simple	complex	dup	2534	2069	2	0.0009667	16	3565	10	0.002805	0.344	0.9673	180	
+R6	R6_dictyota	nested	Dictdic	simple	complex	dup	1031	558	4	0.007168	16	3565	10	0.002805	2.567	0.1096	14	0.5011
+R6	R6_rev_ectocarpus	reversal	Ectosil	complex	simple	dup	547	342	3	0.008772	16	3565	10	0.002805	3.146	0.09846	15	
+R6	R6_rev_pylaiella	reversal	Pylalit	complex	simple	dup	790	241	5	0.02075	16	3565	10	0.002805	7.532	0.001734	36	
+R6	R6_rev_chordaria	reversal	Chorlin	complex	simple	dup	530	216	3	0.01389	16	3565	10	0.002805	5.007	0.03436	12	
+R6	R6_rev_chrysoparadoxa	reversal	Chryaus	simple	unicellular	dup	604	532	3	0.005639	16	3565	10	0.002805	2.016	0.233	64	
+R7	R7_dictyostelia	origin	Dictyostelia	unicellular	simple	seq_novel	550	189	1	0.005291	9	513	2	0.003899	1.359	0.6104	40	
+R7	R7_myxogastria	origin	Myxogastria_Ceratiomyxa	unicellular	simple	seq_novel	138	70	0	0	9	513	2	0.003899	0	1	0	
+R7	R7_sens_macromycetozoa	sensitivity	Eumycetozoa	unicellular	simple	seq_novel	122	75	0	0	9	513	2	0.003899	0	1	0	
+R7	R7_copromyxa	origin	Coprpro	unicellular	simple	seq_novel	3823	438	0	0	9	513	2	0.003899	0	1	0	
+R7	R7_dictyostelia	origin	Dictyostelia	unicellular	simple	dup	696	633	0	0	9	5834	13	0.002228	0	1	0	
+R7	R7_myxogastria	origin	Myxogastria_Ceratiomyxa	unicellular	simple	dup	1297	1149	1	0.0008703	9	5834	13	0.002228	0.39	0.9195	15	
+R7	R7_sens_macromycetozoa	sensitivity	Eumycetozoa	unicellular	simple	dup	733	611	2	0.003273	9	5834	13	0.002228	1.471	0.423	120	
+R7	R7_copromyxa	origin	Coprpro	unicellular	simple	dup	870	760	1	0.001316	9	5834	13	0.002228	0.5899	0.8203	6	
+R8	R8_heterocyst	nested	Nostocales	simple	complex	seq_novel	308	53	0	0	9	326	0	0		1	0	1
+R8	R8_branching	T_event	Branching_Nostocales	complex	complex	seq_novel	9	2	0	0	9	326	0	0		1	0	
+R8	R8_oscillatoriales	origin	Oscillatoriales	unicellular	simple	seq_novel	178	32	0	0	9	326	0	0		1	0	
+R8	R8_leptolyngbya	origin	Leptbor	unicellular	simple	seq_novel	788	72	1	0.01389	9	326	0	0	inf	0.1809	1	
+R8	R8_pseudanabaena	origin	Pseubic	unicellular	simple	seq_novel	391	44	0	0	9	326	0	0		1	0	
+R8	R8_coleofasciculus	origin	Colechth	unicellular	simple	seq_novel	872	48	0	0	9	326	0	0		1	0	
+R8	R8_spirulina	origin	Spirsub	unicellular	simple	seq_novel	195	26	0	0	9	326	0	0		1	0	
+R8	R8_hyella	origin	Hyelpat	unicellular	simple	seq_novel	806	72	0	0	9	326	0	0		1	0	
+R8	R8_hydrococcus	origin	Hydrriv	unicellular	simple	seq_novel	178	25	0	0	9	326	0	0		1	0	
+R8	R8_sens_early_origin	sensitivity	Cyanophyceae_excl_Gloeobacter	unicellular	simple	seq_novel	2365	831	4	0.004813	9	326	0	0	inf	0.2656	29	
+R8	R8_heterocyst	nested	Nostocales	simple	complex	dup	1462	1139	16	0.01405	9	2485	29	0.01167	1.207	0.325	204	1
+R8	R8_branching	T_event	Branching_Nostocales	complex	complex	dup	234	202	2	0.009901	9	2485	29	0.01167	0.8469	0.6896	34	
+R8	R8_oscillatoriales	origin	Oscillatoriales	unicellular	simple	dup	1076	844	9	0.01066	9	2485	29	0.01167	0.9128	0.6551	92	
+R8	R8_leptolyngbya	origin	Leptbor	unicellular	simple	dup	325	262	6	0.0229	9	2485	29	0.01167	1.985	0.11	215	
+R8	R8_pseudanabaena	origin	Pseubic	unicellular	simple	dup	180	135	4	0.02963	9	2485	29	0.01167	2.586	0.08677	179	
+R8	R8_coleofasciculus	origin	Colechth	unicellular	simple	dup	357	281	7	0.02491	9	2485	29	0.01167	2.164	0.06603	298	
+R8	R8_spirulina	origin	Spirsub	unicellular	simple	dup	128	107	0	0	9	2485	29	0.01167	0	1	0	
+R8	R8_hyella	origin	Hyelpat	unicellular	simple	dup	181	143	2	0.01399	9	2485	29	0.01167	1.201	0.5099	9	
+R8	R8_hydrococcus	origin	Hydrriv	unicellular	simple	dup	101	87	2	0.02299	9	2485	29	0.01167	1.993	0.2824	9	
+R8	R8_sens_early_origin	sensitivity	Cyanophyceae_excl_Gloeobacter	unicellular	simple	dup	605	575	3	0.005217	9	2485	29	0.01167	0.4442	0.956	126	

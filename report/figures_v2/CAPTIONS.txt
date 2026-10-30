@@ -95,3 +95,26 @@ recurrence permutation p = 0.023, BH q = 0.06), against 7-41 duplicated kinase f
 (c) Percentage of sequence-novel families with any Pfam domain (e.g. 18 of 1,300 in V. carteri, 63 of 493 in
 Fucophycidae). Sources: results/r2/panels/<panel>/w3_event_families.tsv (primary panels; R4, not the curated
 sensitivity panel); results/r2/panels/pooled/final_8panels/w3/{w3_event_summary,w3_recurrent_domains}.tsv.
+
+-----------------------------------------------------------------------------------------------------------
+Figure 4b. The extra cell-death proteins of multicellular lineages are mostly immune-type receptors, and the
+receptor type differs between lineages. (a) Mean number of proteins per species carrying each cell-death domain,
+in the multicellular clade (MC) of each lineage and in its closest unicellular or simpler sister clade (sis.);
+Pfam 38.2 gathering-threshold hits; dots = none. "Caspase" excludes proteins that also carry the metacaspase
+domain (outside animals most Peptidase_C14 hits are metacaspases). Left labels group domains by function. Land
+plants, streptophytes and red algae gain mostly NB-ARC and TIR proteins; filamentous fungi gain HET (heterokaryon
+incompatibility) and NACHT proteins; animals gain death-fold adaptors (Death, CARD, DED), NACHT, caspases, Bcl-2
+and BIR proteins; dictyostelids and volvocines show no excess. Several sister clades are transcriptomes (animals,
+dictyostelids) or secondarily unicellular (yeasts for Pezizomycotina, Zygnematophyceae for land plants).
+(b) NB-ARC and NACHT proteins (STAND ATPases) by architecture: C-terminal LRR, WD40, TPR or ankyrin repeats
+(NLR-like immune / non-self receptors), an N-terminal effector domain without repeats (e.g. TIR, coiled coil,
+CARD, HET), or neither (often fragments). The expansions use different repeat types: LRR in land plants (plant
+NLRs), WD40 in red algae, TPR in brown algae, WD40/ankyrin with NACHT in fungi; animals are mixed. (c) Gene
+families carrying a cell-death domain that arose (hatched, upper bar) or were duplicated (plain, lower bar) on
+simple-to-complex branches of the eight focused reconstructions (and the unicellular-to-complex origin of
+animals); dark = NB-ARC/NACHT families. Ticks: number expected from the share of cell-death families among
+Pfam-annotated families on the panel's control branches. q < 0.1: one-sided Fisher test, Benjamini-Hochberg over
+32 branch x kind rows (exploratory). * single-species branch (tip). Only the animal origin, Florideophyceae and
+Pleodorina (doubtful ARM-repeat proteins with weak cell-death domain matches) and two tip branches exceed
+expectation. Sources: results/r2/w4_celldeath/ (fig4b_matrix_families.tsv, fig4b_matrix_stand.tsv,
+panels_event_celldeath.tsv); scripts/r2/w4_celldeath/04_figure.py.
