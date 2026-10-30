@@ -1,0 +1,683 @@
+panel	branch_child	role	event	kind	n	n_new	n_outside_targets	frac_new
+R1	Acanthoecida	control		novel	200	31	581519	0.155
+R1	Acanthoecida	control		old	60	1	581519	0.0167
+R1	Acanthoecida	control		shuffled	60	60	581519	1.0
+R1	Barrmon	event_tip	R1_barroeca:origin	novel	200	186	617814	0.93
+R1	Barrmon	event_tip	R1_barroeca:origin	old	60	23	617814	0.3833
+R1	Barrmon	event_tip	R1_barroeca:origin	shuffled	60	60	617814	1.0
+R1	Bilateria	other		novel	60	21	570760	0.35
+R1	Bilateria	other		old	39	0	570760	0.0
+R1	Bilateria	other		shuffled	39	39	570760	1.0
+R1	Calcarea_Homoscleromorpha	other		novel	22	1	578375	0.0455
+R1	Calcarea_Homoscleromorpha	other		old	29	0	578375	0.0
+R1	Calcarea_Homoscleromorpha	other		shuffled	29	29	578375	1.0
+R1	Capsowc	event_tip	R1_capsaspora:origin	novel	200	127	619915	0.635
+R1	Capsowc	event_tip	R1_capsaspora:origin	old	39	2	619915	0.0513
+R1	Capsowc	event_tip	R1_capsaspora:origin	shuffled	39	39	619915	1.0
+R1	Choanoeca	event	R1_choanoeca:origin	novel	200	78	600850	0.39
+R1	Choanoeca	event	R1_choanoeca:origin	old	60	7	600850	0.1167
+R1	Choanoeca	event	R1_choanoeca:origin	shuffled	60	60	600850	1.0
+R1	Choanoflagellata	control		novel	200	53	453527	0.265
+R1	Choanoflagellata	control		old	60	3	453527	0.05
+R1	Choanoflagellata	control		shuffled	60	60	453527	1.0
+R1	Choanozoa	control		novel	200	41	163347	0.205
+R1	Choanozoa	control		old	60	0	163347	0.0
+R1	Choanozoa	control		shuffled	60	60	163347	1.0
+R1	Chordata	other		novel	70	19	584435	0.2714
+R1	Chordata	other		old	25	1	584435	0.04
+R1	Chordata	other		shuffled	25	25	584435	1.0
+R1	Cnidaria	other		novel	111	31	559863	0.2793
+R1	Cnidaria	other		old	60	2	559863	0.0333
+R1	Cnidaria	other		shuffled	60	60	559863	1.0
+R1	Codohol	event_tip	R1_codosiga:origin	novel	200	182	596714	0.91
+R1	Codohol	event_tip	R1_codosiga:origin	old	60	17	596714	0.2833
+R1	Codohol	event_tip	R1_codosiga:origin	shuffled	60	60	596714	1.0
+R1	Filasterea	control		novel	33	12	579906	0.3636
+R1	Filasterea	control		old	60	1	579906	0.0167
+R1	Filasterea	control		shuffled	60	60	579906	1.0
+R1	Filozoa	control		novel	200	102	114605	0.51
+R1	Filozoa	control		old	60	3	114605	0.05
+R1	Filozoa	control		shuffled	60	60	114605	1.0
+R1	Heteroscleromorpha	other		novel	97	22	591469	0.2268
+R1	Heteroscleromorpha	other		old	12	0	591469	0.0
+R1	Heteroscleromorpha	other		shuffled	12	12	591469	1.0
+R1	Holomycota	control		novel	11	2	613814	0.1818
+R1	Holomycota	control		old	51	0	613814	0.0
+R1	Holomycota	control		shuffled	51	51	613814	1.0
+R1	Holozoa	control		novel	200	74	25365	0.37
+R1	Holozoa	control		old	60	0	25365	0.0
+R1	Holozoa	control		shuffled	60	60	25365	1.0
+R1	Hydroidolina	other		novel	200	78	584262	0.39
+R1	Hydroidolina	other		old	60	1	584262	0.0167
+R1	Hydroidolina	other		shuffled	60	60	584262	1.0
+R1	Ichthyophonida	other		novel	200	101	571712	0.505
+R1	Ichthyophonida	other		old	60	4	571712	0.0667
+R1	Ichthyophonida	other		shuffled	60	60	571712	1.0
+R1	Ichthyosporea	other		novel	40	9	559343	0.225
+R1	Ichthyosporea	other		old	60	3	559343	0.05
+R1	Ichthyosporea	other		shuffled	60	60	559343	1.0
+R1	Metazoa	event	R1_metazoa:origin_complex	novel	200	63	338468	0.315
+R1	Metazoa	event	R1_metazoa:origin_complex	old	60	0	338468	0.0
+R1	Metazoa	event	R1_metazoa:origin_complex	shuffled	60	60	338468	1.0
+R1	Opisthokonta	other		novel	191	57	10531	0.2984
+R1	Opisthokonta	other		old	19	0	10531	0.0
+R1	Opisthokonta	other		shuffled	19	19	10531	1.0
+R1	ParaHoxozoa	other		novel	200	62	478727	0.31
+R1	ParaHoxozoa	other		old	60	0	478727	0.0
+R1	ParaHoxozoa	other		shuffled	60	60	478727	1.0
+R1	Pluriformea	other		novel	8	2	608713	0.25
+R1	Pluriformea	other		old	22	2	608713	0.0909
+R1	Pluriformea	other		shuffled	22	22	608713	1.0
+R1	Porifera	other		novel	65	11	521850	0.1692
+R1	Porifera	other		old	60	1	521850	0.0167
+R1	Porifera	other		shuffled	60	60	521850	1.0
+R1	Salpingoeca	event	R1_salpingoeca:origin	novel	2	1	598817	0.5
+R1	Salpingoeca	event	R1_salpingoeca:origin	old	3	0	598817	0.0
+R1	Salpingoeca	event	R1_salpingoeca:origin	shuffled	3	3	598817	1.0
+R1	Salpingoecidae	control		novel	200	77	500656	0.385
+R1	Salpingoecidae	control		old	60	3	500656	0.05
+R1	Salpingoecidae	control		shuffled	60	60	500656	1.0
+R1	Silicea	other		novel	33	8	572123	0.2424
+R1	Silicea	other		old	25	1	572123	0.04
+R1	Silicea	other		shuffled	25	25	572123	1.0
+R1	Tentaculata	other		novel	200	68	595187	0.34
+R1	Tentaculata	other		old	60	1	595187	0.0167
+R1	Tentaculata	other		shuffled	60	60	595187	1.0
+R1	Teretosporea	event	R1_teretosporea:origin	novel	36	12	539408	0.3333
+R1	Teretosporea	event	R1_teretosporea:origin	old	60	2	539408	0.0333
+R1	Teretosporea	event	R1_teretosporea:origin	shuffled	60	60	539408	1.0
+R1	Uniplacotomia	other		novel	200	101	605400	0.505
+R1	Uniplacotomia	other		old	60	2	605400	0.0333
+R1	Uniplacotomia	other		shuffled	60	60	605400	1.0
+R2	Agaricales	other		novel	62	27	372841	0.4355
+R2	Agaricales	other		old	16	1	372841	0.0625
+R2	Agaricales	other		shuffled	16	16	372841	1.0
+R2	Agaricomycetes	other		novel	200	60	325162	0.3
+R2	Agaricomycetes	other		old	31	0	325162	0.0
+R2	Agaricomycetes	other		shuffled	31	31	325162	1.0
+R2	Agaricomycetes_Dacrymycetes	event	R2_agaricomycetes:nested	novel	139	58	314934	0.4173
+R2	Agaricomycetes_Dacrymycetes	event	R2_agaricomycetes:nested	old	7	1	314934	0.1429
+R2	Agaricomycetes_Dacrymycetes	event	R2_agaricomycetes:nested	shuffled	7	7	314934	1.0
+R2	Agaricomycotina	other		novel	59	27	299917	0.4576
+R2	Agaricomycotina	other		old	2	0	299917	0.0
+R2	Agaricomycotina	other		shuffled	2	2	299917	1.0
+R2	Amastigomycota	other		novel	134	61	95332	0.4552
+R2	Amastigomycota	other		old	16	0	95332	0.0
+R2	Amastigomycota	other		shuffled	16	16	95332	1.0
+R2	Aphelida_Eumycota	control		novel	60	17	37962	0.2833
+R2	Aphelida_Eumycota	control		old	26	0	37962	0.0
+R2	Aphelida_Eumycota	control		shuffled	26	26	37962	1.0
+R2	Ascomycota	other		novel	131	50	270916	0.3817
+R2	Ascomycota	other		old	16	1	270916	0.0625
+R2	Ascomycota	other		shuffled	16	16	270916	1.0
+R2	Basidiomycota	other		novel	116	31	279728	0.2672
+R2	Basidiomycota	other		old	8	1	279728	0.125
+R2	Basidiomycota	other		shuffled	8	8	279728	1.0
+R2	Blastocladiomycota_Amastigomycota	event	R2_hyphae:origin	novel	36	5	76722	0.1389
+R2	Blastocladiomycota_Amastigomycota	event	R2_hyphae:origin	old	35	0	76722	0.0
+R2	Blastocladiomycota_Amastigomycota	event	R2_hyphae:origin	shuffled	35	35	76722	1.0
+R2	Chytridiomycetes	control		novel	92	39	383575	0.4239
+R2	Chytridiomycetes	control		old	8	1	383575	0.125
+R2	Chytridiomycetes	control		shuffled	8	8	383575	1.0
+R2	Crypneo	other		novel	200	156	394164	0.78
+R2	Crypneo	other		old	16	6	394164	0.375
+R2	Crypneo	other		shuffled	16	16	394164	1.0
+R2	Dikarya	other		novel	200	60	149522	0.3
+R2	Dikarya	other		old	11	0	149522	0.0
+R2	Dikarya	other		shuffled	11	11	149522	1.0
+R2	Endosp	event_tip	R2_endogone:nested	novel	200	165	391967	0.825
+R2	Endosp	event_tip	R2_endogone:nested	old	23	12	391967	0.5217
+R2	Endosp	event_tip	R2_endogone:nested	shuffled	23	23	391967	1.0
+R2	Eumycota	control		novel	193	72	45380	0.3731
+R2	Eumycota	control		old	17	1	45380	0.0588
+R2	Eumycota	control		shuffled	17	17	45380	1.0
+R2	Fontalb	event_tip	R2_fonticula:origin	novel	200	128	395228	0.64
+R2	Fontalb	event_tip	R2_fonticula:origin	old	36	2	395228	0.0556
+R2	Fontalb	event_tip	R2_fonticula:origin	shuffled	36	36	395228	1.0
+R2	Fungi	control		novel	50	12	31629	0.24
+R2	Fungi	control		old	22	0	31629	0.0
+R2	Fungi	control		shuffled	22	22	31629	1.0
+R2	Gonapro	event_tip	R2_gonapodya:origin	novel	200	143	387327	0.715
+R2	Gonapro	event_tip	R2_gonapodya:origin	old	60	3	387327	0.05
+R2	Gonapro	event_tip	R2_gonapodya:origin	shuffled	60	60	387327	1.0
+R2	Holomycota	other		novel	89	19	8733	0.2135
+R2	Holomycota	other		old	46	0	8733	0.0
+R2	Holomycota	other		shuffled	46	46	8733	1.0
+R2	Mucoromycota	other		novel	30	9	368988	0.3
+R2	Mucoromycota	other		old	8	0	368988	0.0
+R2	Mucoromycota	other		shuffled	8	8	368988	1.0
+R2	Mucoromycota_Dikarya	other		novel	79	31	117388	0.3924
+R2	Mucoromycota_Dikarya	other		old	10	0	117388	0.0
+R2	Mucoromycota_Dikarya	other		shuffled	10	10	117388	1.0
+R2	Mucoromycotina	other		novel	6	2	381169	0.3333
+R2	Mucoromycotina	other		old	2	0	381169	0.0
+R2	Mucoromycotina	other		shuffled	2	2	381169	1.0
+R2	Neolirr	event_tip	R2_neolecta:nested	novel	200	143	395607	0.715
+R2	Neolirr	event_tip	R2_neolecta:nested	old	12	4	395607	0.3333
+R2	Neolirr	event_tip	R2_neolecta:nested	shuffled	12	12	395607	1.0
+R2	Pezizales	other		novel	91	37	381730	0.4066
+R2	Pezizales	other		old	7	0	381730	0.0
+R2	Pezizales	other		shuffled	7	7	381730	1.0
+R2	Pezizomycotina	event	R2_pezizomycotina:nested	novel	200	72	313752	0.36
+R2	Pezizomycotina	event	R2_pezizomycotina:nested	old	29	0	313752	0.0
+R2	Pezizomycotina	event	R2_pezizomycotina:nested	shuffled	29	29	313752	1.0
+R2	Polyporales_Agaricales	other		novel	200	93	360203	0.465
+R2	Polyporales_Agaricales	other		old	27	1	360203	0.037
+R2	Polyporales_Agaricales	other		shuffled	27	27	360203	1.0
+R2	Rhodtor	other		novel	200	120	392965	0.6
+R2	Rhodtor	other		old	14	0	392965	0.0
+R2	Rhodtor	other		shuffled	14	14	392965	1.0
+R2	Rotosphaerida	control		novel	23	5	378226	0.2174
+R2	Rotosphaerida	control		old	60	1	378226	0.0167
+R2	Rotosphaerida	control		shuffled	60	60	378226	1.0
+R2	Saccharomycotina	other		novel	32	11	380635	0.3438
+R2	Saccharomycotina	other		old	3	1	380635	0.3333
+R2	Saccharomycotina	other		shuffled	3	3	380635	1.0
+R2	Saitcom	other		novel	200	175	394004	0.875
+R2	Saitcom	other		old	14	2	394004	0.1429
+R2	Saitcom	other		shuffled	14	14	394004	1.0
+R2	Schipom	other		novel	200	147	396054	0.735
+R2	Schipom	other		old	8	1	396054	0.125
+R2	Schipom	other		shuffled	8	8	396054	1.0
+R2	Sereind	other		novel	200	128	389575	0.64
+R2	Sereind	other		old	40	5	389575	0.125
+R2	Sereind	other		shuffled	40	40	389575	1.0
+R2	Sordariomycetes	other		novel	99	49	377301	0.4949
+R2	Sordariomycetes	other		old	9	1	377301	0.1111
+R2	Sordariomycetes	other		shuffled	9	9	377301	1.0
+R2	Taphrinomycotina	other		novel	25	11	378773	0.44
+R2	Taphrinomycotina	other		old	7	1	378773	0.1429
+R2	Taphrinomycotina	other		shuffled	7	7	378773	1.0
+R2	Tremellales	other		novel	200	111	386105	0.555
+R2	Tremellales	other		old	5	2	386105	0.4
+R2	Tremellales	other		shuffled	5	5	386105	1.0
+R2	Tremmes	event_tip	R2_tremella:nested	novel	200	175	393063	0.875
+R2	Tremmes	event_tip	R2_tremella:nested	old	28	8	393063	0.2857
+R2	Tremmes	event_tip	R2_tremella:nested	shuffled	28	28	393063	1.0
+R2	Ustilaginomycotina_Agaricomycotina	other		novel	38	12	287885	0.3158
+R2	Ustilaginomycotina_Agaricomycotina	other		old	10	1	287885	0.1
+R2	Ustilaginomycotina_Agaricomycotina	other		shuffled	10	10	287885	1.0
+R2	Wallemiomycotina_Agaricomycotina	other		novel	32	13	294660	0.4062
+R2	Wallemiomycotina_Agaricomycotina	other		old	3	0	294660	0.0
+R2	Wallemiomycotina_Agaricomycotina	other		shuffled	3	3	294660	1.0
+R2	Yarrowia_Saccharomyces	control		novel	11	3	388770	0.2727
+R2	Yarrowia_Saccharomyces	control		old	1	0	388770	0.0
+R2	Yarrowia_Saccharomyces	control		shuffled	1	1	388770	1.0
+R2	Zoopagomycota	other		novel	6	2	379066	0.3333
+R2	Zoopagomycota	other		old	5	0	379066	0.0
+R2	Zoopagomycota	other		shuffled	5	5	379066	1.0
+R2	chytridiomyceta	control		novel	36	10	369780	0.2778
+R2	chytridiomyceta	control		old	32	2	369780	0.0625
+R2	chytridiomyceta	control		shuffled	32	32	369780	1.0
+R2	leotiomyceta	other		novel	200	69	344621	0.345
+R2	leotiomyceta	other		old	42	1	344621	0.0238
+R2	leotiomyceta	other		shuffled	42	42	344621	1.0
+R2	saccharomyceta	other		novel	62	19	293265	0.3065
+R2	saccharomyceta	other		old	15	1	293265	0.0667
+R2	saccharomyceta	other		shuffled	15	15	293265	1.0
+R2	sordariomyceta	other		novel	146	52	365573	0.3562
+R2	sordariomyceta	other		old	25	1	365573	0.04
+R2	sordariomyceta	other		shuffled	25	25	365573	1.0
+R3	Anydrophyta	other		novel	96	51	140602	0.5312
+R3	Anydrophyta	other		old	60	8	140602	0.1333
+R3	Anydrophyta	other		shuffled	60	60	140602	1.0
+R3	Charbra	event_tip	R3_chara:nested	novel	200	139	436771	0.695
+R3	Charbra	event_tip	R3_chara:nested	old	60	2	436771	0.0333
+R3	Charbra	event_tip	R3_chara:nested	shuffled	60	60	436771	1.0
+R3	Chlorophyta	control		novel	38	20	435412	0.5263
+R3	Chlorophyta	control		old	60	1	435412	0.0167
+R3	Chlorophyta	control		shuffled	60	60	435412	1.0
+R3	Chlorophyta_Streptophyta	other		novel	200	91	7111	0.455
+R3	Chlorophyta_Streptophyta	other		old	60	0	7111	0.0
+R3	Chlorophyta_Streptophyta	other		shuffled	60	60	7111	1.0
+R3	Coleochaetophyceae_Anydrophyta	other		novel	83	43	123899	0.5181
+R3	Coleochaetophyceae_Anydrophyta	other		old	60	5	123899	0.0833
+R3	Coleochaetophyceae_Anydrophyta	other		shuffled	60	60	123899	1.0
+R3	Embryophyta	event	R3_embryophyta:nested	novel	200	107	221284	0.535
+R3	Embryophyta	event	R3_embryophyta:nested	old	46	5	221284	0.1087
+R3	Embryophyta	event	R3_embryophyta:nested	shuffled	46	46	221284	1.0
+R3	Euphyllophyta	other		novel	92	57	303800	0.6196
+R3	Euphyllophyta	other		old	60	9	303800	0.15
+R3	Euphyllophyta	other		shuffled	60	60	303800	1.0
+R3	Klebsormidiophyceae_Phragmoplastophyta	event	R3_streptophyte_filaments:origin	novel	200	61	73142	0.305
+R3	Klebsormidiophyceae_Phragmoplastophyta	event	R3_streptophyte_filaments:origin	old	60	0	73142	0.0
+R3	Klebsormidiophyceae_Phragmoplastophyta	event	R3_streptophyte_filaments:origin	shuffled	60	60	73142	1.0
+R3	Magnoliopsida	other		novel	138	103	379532	0.7464
+R3	Magnoliopsida	other		old	60	10	379532	0.1667
+R3	Magnoliopsida	other		shuffled	60	60	379532	1.0
+R3	Mesangiospermae	other		novel	43	25	406897	0.5814
+R3	Mesangiospermae	other		old	30	6	406897	0.2
+R3	Mesangiospermae	other		shuffled	30	30	406897	1.0
+R3	Mesostigmatophyceae_Chlorokybophyceae	control		novel	54	10	441315	0.1852
+R3	Mesostigmatophyceae_Chlorokybophyceae	control		old	60	1	441315	0.0167
+R3	Mesostigmatophyceae_Chlorokybophyceae	control		shuffled	60	60	441315	1.0
+R3	Mesotaeniaceae	control		novel	17	5	441347	0.2941
+R3	Mesotaeniaceae	control		old	13	0	441347	0.0
+R3	Mesotaeniaceae	control		shuffled	13	13	441347	1.0
+R3	Setaphyta	other		novel	51	34	421976	0.6667
+R3	Setaphyta	other		old	26	2	421976	0.0769
+R3	Setaphyta	other		shuffled	26	26	421976	1.0
+R3	Spermatophyta	other		novel	156	105	339125	0.6731
+R3	Spermatophyta	other		old	48	9	339125	0.1875
+R3	Spermatophyta	other		shuffled	48	48	339125	1.0
+R3	Streptophyta	control		novel	200	66	43078	0.33
+R3	Streptophyta	control		old	60	0	43078	0.0
+R3	Streptophyta	control		shuffled	60	60	43078	1.0
+R3	Streptophytina	other		novel	155	40	89291	0.2581
+R3	Streptophytina	other		old	60	1	89291	0.0167
+R3	Streptophytina	other		shuffled	60	60	89291	1.0
+R3	Tracheophyta	other		novel	64	29	270687	0.4531
+R3	Tracheophyta	other		old	60	6	270687	0.1
+R3	Tracheophyta	other		shuffled	60	60	270687	1.0
+R3	Zygnematophyceae	other		novel	32	16	390697	0.5
+R3	Zygnematophyceae	other		old	33	0	390697	0.0
+R3	Zygnematophyceae	other		shuffled	33	33	390697	1.0
+R3	Zygnematophycidae	control		novel	38	7	417427	0.1842
+R3	Zygnematophycidae	control		old	55	1	417427	0.0182
+R3	Zygnematophycidae	control		shuffled	55	55	417427	1.0
+R3	core_chlorophytes	control		novel	146	35	443135	0.2397
+R3	core_chlorophytes	control		old	60	1	443135	0.0167
+R3	core_chlorophytes	control		shuffled	60	60	443135	1.0
+R4	Astrephomene_Volvocaceae	other		novel	48	17	198064	0.3542
+R4	Astrephomene_Volvocaceae	other		old	16	2	198064	0.125
+R4	Astrephomene_Volvocaceae	other		shuffled	16	16	198064	1.0
+R4	Astrgub	event_tip	R4_astrephomene:nested	novel	200	153	271054	0.765
+R4	Astrgub	event_tip	R4_astrephomene:nested	old	36	11	271054	0.3056
+R4	Astrgub	event_tip	R4_astrephomene:nested	shuffled	36	36	271054	1.0
+R4	CS_clade	control		novel	200	50	28124	0.25
+R4	CS_clade	control		old	60	0	28124	0.0
+R4	CS_clade	control		shuffled	60	60	28124	1.0
+R4	Chlaeus	other		novel	200	142	270702	0.71
+R4	Chlaeus	other		old	60	15	270702	0.25
+R4	Chlaeus	other		shuffled	60	60	270702	1.0
+R4	Chlainc	other		novel	200	135	268490	0.675
+R4	Chlainc	other		old	60	16	268490	0.2667
+R4	Chlainc	other		shuffled	60	60	268490	1.0
+R4	Chlamydomonadales	control		novel	200	50	41471	0.25
+R4	Chlamydomonadales	control		old	60	0	41471	0.0
+R4	Chlamydomonadales	control		shuffled	60	60	41471	1.0
+R4	Chlamydomonas	control		novel	200	71	235464	0.355
+R4	Chlamydomonas	control		old	60	1	235464	0.0167
+R4	Chlamydomonas	control		shuffled	60	60	235464	1.0
+R4	Chlamydomonas_TGV	control		novel	145	68	118417	0.469
+R4	Chlamydomonas_TGV	control		old	60	2	118417	0.0333
+R4	Chlamydomonas_TGV	control		shuffled	60	60	118417	1.0
+R4	Chlapri	other		novel	200	109	268952	0.545
+R4	Chlapri	other		old	60	6	268952	0.1
+R4	Chlapri	other		shuffled	60	60	268952	1.0
+R4	Chlarei	other		novel	200	182	267131	0.91
+R4	Chlarei	other		old	60	34	267131	0.5667
+R4	Chlarei	other		shuffled	60	60	267131	1.0
+R4	Chlasch	other		novel	200	134	269327	0.67
+R4	Chlasch	other		old	60	14	269327	0.2333
+R4	Chlasch	other		shuffled	60	60	269327	1.0
+R4	Chlovul	other		novel	200	131	274109	0.655
+R4	Chlovul	other		old	60	6	274109	0.1
+R4	Chlovul	other		shuffled	60	60	274109	1.0
+R4	Coccsub	other		novel	200	150	274974	0.75
+R4	Coccsub	other		old	60	6	274974	0.1
+R4	Coccsub	other		shuffled	60	60	274974	1.0
+R4	Dunasal	other		novel	200	153	268252	0.765
+R4	Dunasal	other		old	60	23	268252	0.3833
+R4	Dunasal	other		shuffled	60	60	268252	1.0
+R4	Edapdeb	other		novel	200	121	265643	0.605
+R4	Edapdeb	other		old	60	0	265643	0.0
+R4	Edapdeb	other		shuffled	60	60	265643	1.0
+R4	Gonipec	other		novel	200	154	268464	0.77
+R4	Gonipec	other		old	60	11	268464	0.1833
+R4	Gonipec	other		shuffled	60	60	268464	1.0
+R4	Gonium_Volvocaceae	event	R4_gonium_volvocaceae:origin	novel	76	31	181786	0.4079
+R4	Gonium_Volvocaceae	event	R4_gonium_volvocaceae:origin	old	35	5	181786	0.1429
+R4	Gonium_Volvocaceae	event	R4_gonium_volvocaceae:origin	shuffled	35	35	181786	1.0
+R4	Ostrtau	other		novel	200	117	277019	0.585
+R4	Ostrtau	other		old	45	9	277019	0.2
+R4	Ostrtau	other		shuffled	45	45	277019	1.0
+R4	Pleosta	event_tip	R4_pleodorina:nested	novel	200	161	269313	0.805
+R4	Pleosta	event_tip	R4_pleodorina:nested	old	39	12	269313	0.3077
+R4	Pleosta	event_tip	R4_pleodorina:nested	shuffled	39	39	269313	1.0
+R4	Raphsub	other		novel	200	105	271395	0.525
+R4	Raphsub	other		old	60	4	271395	0.0667
+R4	Raphsub	other		shuffled	60	60	271395	1.0
+R4	Reinhardtinia	control		novel	200	45	99318	0.225
+R4	Reinhardtinia	control		old	60	1	99318	0.0167
+R4	Reinhardtinia	control		shuffled	60	60	99318	1.0
+R4	Sangaur	other		novel	200	137	273215	0.685
+R4	Sangaur	other		old	60	13	273215	0.2167
+R4	Sangaur	other		shuffled	60	60	273215	1.0
+R4	TGV_clade	other		novel	34	21	167695	0.6176
+R4	TGV_clade	other		old	54	1	167695	0.0185
+R4	TGV_clade	other		shuffled	54	54	167695	1.0
+R4	Tetrsoc	event_tip	R4_tetrabaena:origin	novel	200	158	270651	0.79
+R4	Tetrsoc	event_tip	R4_tetrabaena:origin	old	60	11	270651	0.1833
+R4	Tetrsoc	event_tip	R4_tetrabaena:origin	shuffled	60	60	270651	1.0
+R4	Trebouxiophyceae	control		novel	44	10	264341	0.2273
+R4	Trebouxiophyceae	control		old	60	1	264341	0.0167
+R4	Trebouxiophyceae	control		shuffled	60	60	264341	1.0
+R4	Volvafr	other		novel	200	179	271477	0.895
+R4	Volvafr	other		old	26	20	271477	0.7692
+R4	Volvafr	other		shuffled	26	26	271477	1.0
+R4	Volvcar	event_tip	R4_volvox_carteri:nested	novel	200	170	270410	0.85
+R4	Volvcar	event_tip	R4_volvox_carteri:nested	old	37	15	270410	0.4054
+R4	Volvcar	event_tip	R4_volvox_carteri:nested	shuffled	37	37	270410	1.0
+R4	Volvocaceae	other		novel	199	93	211752	0.4673
+R4	Volvocaceae	other		old	34	5	211752	0.1471
+R4	Volvocaceae	other		shuffled	34	34	211752	1.0
+R4	Volvox_africanus_reticuliferus	event	R4_volvox_africanus:nested	novel	104	69	257755	0.6635
+R4	Volvox_africanus_reticuliferus	event	R4_volvox_africanus:nested	old	11	5	257755	0.4545
+R4	Volvox_africanus_reticuliferus	event	R4_volvox_africanus:nested	shuffled	11	11	257755	1.0
+R4	Volvret	other		novel	200	195	271020	0.975
+R4	Volvret	other		old	57	39	271020	0.6842
+R4	Volvret	other		shuffled	57	57	271020	1.0
+R4	Yamauni	other		novel	200	189	268500	0.945
+R4	Yamauni	other		old	42	19	268500	0.4524
+R4	Yamauni	other		shuffled	42	42	268500	1.0
+R4	core_chlorophytes	other		novel	200	81	7723	0.405
+R4	core_chlorophytes	other		old	44	1	7723	0.0227
+R4	core_chlorophytes	other		shuffled	44	44	7723	1.0
+R5	Bangiaceae	other		novel	200	92	153973	0.46
+R5	Bangiaceae	other		old	35	1	153973	0.0286
+R5	Bangiaceae	other		shuffled	35	35	153973	1.0
+R5	Bangsp	event_tip	R5_bangiopsis:origin	novel	200	173	181947	0.865
+R5	Bangsp	event_tip	R5_bangiopsis:origin	old	57	15	181947	0.2632
+R5	Bangsp	event_tip	R5_bangiopsis:origin	shuffled	57	57	181947	1.0
+R5	Chlorophyta	other		novel	22	10	164490	0.4545
+R5	Chlorophyta	other		old	8	0	164490	0.0
+R5	Chlorophyta	other		shuffled	8	8	164490	1.0
+R5	Compcae	event_tip	R5_compsopogon:origin	novel	200	165	183271	0.825
+R5	Compcae	event_tip	R5_compsopogon:origin	old	44	8	183271	0.1818
+R5	Compcae	event_tip	R5_compsopogon:origin	shuffled	44	44	183271	1.0
+R5	Cyanidiophyceae	control		novel	11	4	171377	0.3636
+R5	Cyanidiophyceae	control		old	11	0	171377	0.0
+R5	Cyanidiophyceae	control		shuffled	11	11	171377	1.0
+R5	Eurhodophytina	event	R5_eurhodophytina:origin	novel	96	25	115203	0.2604
+R5	Eurhodophytina	event	R5_eurhodophytina:origin	old	29	1	115203	0.0345
+R5	Eurhodophytina	event	R5_eurhodophytina:origin	shuffled	29	29	115203	1.0
+R5	Galdieria	control		novel	200	113	176359	0.565
+R5	Galdieria	control		old	20	2	176359	0.1
+R5	Galdieria	control		shuffled	20	20	176359	1.0
+R5	Gracilariaceae	other		novel	200	96	171506	0.48
+R5	Gracilariaceae	other		old	42	11	171506	0.2619
+R5	Gracilariaceae	other		shuffled	42	42	171506	1.0
+R5	Proteorhodophytina	control		novel	37	9	157342	0.2432
+R5	Proteorhodophytina	control		old	43	1	157342	0.0233
+R5	Proteorhodophytina	control		shuffled	43	43	157342	1.0
+R5	Pyropia	other		novel	200	95	167129	0.475
+R5	Pyropia	other		old	60	9	167129	0.15
+R5	Pyropia	other		shuffled	60	60	167129	1.0
+R5	Rhodophyta	control		novel	173	64	64274	0.3699
+R5	Rhodophyta	control		old	17	0	64274	0.0
+R5	Rhodophyta	control		shuffled	17	17	64274	1.0
+R5	Rhodophyta_Rhodelphidia	other		novel	14	2	49712	0.1429
+R5	Rhodophyta_Rhodelphidia	other		old	28	0	49712	0.0
+R5	Rhodophyta_Rhodelphidia	other		shuffled	28	28	49712	1.0
+R5	Rhodophytina	other		novel	175	58	82721	0.3314
+R5	Rhodophytina	other		old	50	1	82721	0.02
+R5	Rhodophytina	other		shuffled	50	50	82721	1.0
+R5	Rhodymeniophycidae	event	R5_florideophyceae:nested	novel	200	73	151054	0.365
+R5	Rhodymeniophycidae	event	R5_florideophyceae:nested	old	58	1	151054	0.0172
+R5	Rhodymeniophycidae	event	R5_florideophyceae:nested	shuffled	58	58	151054	1.0
+R5	Stylonemataceae	control		novel	200	89	173568	0.445
+R5	Stylonemataceae	control		old	36	2	173568	0.0556
+R5	Stylonemataceae	control		shuffled	36	36	173568	1.0
+R6	Ascnod	other		novel	200	196	498829	0.98
+R6	Ascnod	other		old	60	33	498829	0.55
+R6	Ascnod	other		shuffled	60	60	498829	1.0
+R6	Aureano	other		novel	200	125	509838	0.625
+R6	Aureano	other		old	60	3	509838	0.05
+R6	Aureano	other		shuffled	60	60	509838	1.0
+R6	Bacillariophycidae	control		novel	200	74	492848	0.37
+R6	Bacillariophycidae	control		old	60	1	492848	0.0167
+R6	Bacillariophycidae	control		shuffled	60	60	492848	1.0
+R6	Bacillariophyta	control		novel	200	56	481159	0.28
+R6	Bacillariophyta	control		old	60	0	481159	0.0
+R6	Bacillariophyta	control		shuffled	60	60	481159	1.0
+R6	Caferoe	other		novel	200	81	512899	0.405
+R6	Caferoe	other		old	60	0	512899	0.0
+R6	Caferoe	other		shuffled	60	60	512899	1.0
+R6	Chorlin	other		novel	200	191	504353	0.955
+R6	Chorlin	other		old	60	30	504353	0.5
+R6	Chorlin	other		shuffled	60	60	504353	1.0
+R6	Chorten	other		novel	200	188	508033	0.94
+R6	Chorten	other		old	60	28	508033	0.4667
+R6	Chorten	other		shuffled	60	60	508033	1.0
+R6	Chryaus	other		novel	200	126	502843	0.63
+R6	Chryaus	other		old	60	10	502843	0.1667
+R6	Chryaus	other		shuffled	60	60	502843	1.0
+R6	Desmher	other		novel	200	192	504583	0.96
+R6	Desmher	other		old	38	21	504583	0.5526
+R6	Desmher	other		shuffled	38	38	504583	1.0
+R6	Dictdic	event_tip	R6_dictyota:nested	novel	200	194	501489	0.97
+R6	Dictdic	event_tip	R6_dictyota:nested	old	60	19	501489	0.3167
+R6	Dictdic	event_tip	R6_dictyota:nested	shuffled	60	60	501489	1.0
+R6	Dictyotophycidae	other		novel	17	6	484475	0.3529
+R6	Dictyotophycidae	other		old	27	4	484475	0.1481
+R6	Dictyotophycidae	other		shuffled	27	27	484475	1.0
+R6	Dictyotophycidae_Fucophycidae	other		novel	200	115	286025	0.575
+R6	Dictyotophycidae_Fucophycidae	other		old	60	4	286025	0.0667
+R6	Dictyotophycidae_Fucophycidae	other		shuffled	60	60	286025	1.0
+R6	Discmes	other		novel	200	177	495681	0.885
+R6	Discmes	other		old	60	25	495681	0.4167
+R6	Discmes	other		shuffled	60	60	495681	1.0
+R6	Discosporangiales	other		novel	63	42	482391	0.6667
+R6	Discosporangiales	other		old	34	6	482391	0.1765
+R6	Discosporangiales	other		shuffled	34	34	482391	1.0
+R6	Ectocarpales	other		novel	200	140	439000	0.7
+R6	Ectocarpales	other		old	60	11	439000	0.1833
+R6	Ectocarpales	other		shuffled	60	60	439000	1.0
+R6	Ectosil	other		novel	200	186	505171	0.93
+R6	Ectosil	other		old	47	9	505171	0.1915
+R6	Ectosil	other		shuffled	47	47	505171	1.0
+R6	Fragcyl	other		novel	200	122	503280	0.61
+R6	Fragcyl	other		old	60	9	503280	0.15
+R6	Fragcyl	other		shuffled	60	60	503280	1.0
+R6	Fucaceae	other		novel	200	163	454593	0.815
+R6	Fucaceae	other		old	60	17	454593	0.2833
+R6	Fucaceae	other		shuffled	60	60	454593	1.0
+R6	Fucophycidae	event	R6_fucophycidae:nested	novel	200	131	322873	0.655
+R6	Fucophycidae	event	R6_fucophycidae:nested	old	60	12	322873	0.2
+R6	Fucophycidae	event	R6_fucophycidae:nested	shuffled	60	60	322873	1.0
+R6	Fucuser	other		novel	200	198	501074	0.99
+R6	Fucuser	other		old	60	40	501074	0.6667
+R6	Fucuser	other		shuffled	60	60	501074	1.0
+R6	Gyrista	other		novel	200	46	8424	0.23
+R6	Gyrista	other		old	46	0	8424	0.0
+R6	Gyrista	other		shuffled	46	46	8424	1.0
+R6	Halopan	other		novel	200	192	504309	0.96
+R6	Halopan	other		old	60	26	504309	0.4333
+R6	Halopan	other		shuffled	60	60	504309	1.0
+R6	Heteaka	other		novel	200	132	508176	0.66
+R6	Heteaka	other		old	60	4	508176	0.0667
+R6	Heteaka	other		shuffled	60	60	508176	1.0
+R6	Laminariales	other		novel	51	34	488666	0.6667
+R6	Laminariales	other		old	21	3	488666	0.1429
+R6	Laminariales	other		shuffled	21	21	488666	1.0
+R6	Nannsal	other		novel	200	126	512518	0.63
+R6	Nannsal	other		old	60	10	512518	0.1667
+R6	Nannsal	other		shuffled	60	60	512518	1.0
+R6	Ochrophyta	control		novel	200	50	45991	0.25
+R6	Ochrophyta	control		old	60	0	45991	0.0
+R6	Ochrophyta	control		shuffled	60	60	45991	1.0
+R6	Oomycota	control		novel	200	63	483756	0.315
+R6	Oomycota	control		old	60	1	483756	0.0167
+R6	Oomycota	control		shuffled	60	60	483756	1.0
+R6	PX_clade	event	R6_px_filaments:origin	novel	200	67	162909	0.335
+R6	PX_clade	event	R6_px_filaments:origin	old	60	0	162909	0.0
+R6	PX_clade	event	R6_px_filaments:origin	shuffled	60	60	162909	1.0
+R6	Pelacal	other		novel	200	118	504915	0.59
+R6	Pelacal	other		old	60	10	504915	0.1667
+R6	Pelacal	other		shuffled	60	60	504915	1.0
+R6	Pelagomonadaceae	control		novel	200	31	493430	0.155
+R6	Pelagomonadaceae	control		old	60	1	493430	0.0167
+R6	Pelagomonadaceae	control		shuffled	60	60	493430	1.0
+R6	Pelvcan	other		novel	200	142	497336	0.71
+R6	Pelvcan	other		old	60	41	497336	0.6833
+R6	Pelvcan	other		shuffled	60	60	497336	1.0
+R6	Phaecon	other		novel	200	147	494850	0.735
+R6	Phaecon	other		old	60	9	494850	0.15
+R6	Phaecon	other		shuffled	60	60	494850	1.0
+R6	Phaeophyceae	other		novel	200	94	247093	0.47
+R6	Phaeophyceae	other		old	60	3	247093	0.05
+R6	Phaeophyceae	other		shuffled	60	60	247093	1.0
+R6	Phaeophyceae_Schizocladia	other		novel	200	82	225930	0.41
+R6	Phaeophyceae_Schizocladia	other		old	60	5	225930	0.0833
+R6	Phaeophyceae_Schizocladia	other		shuffled	60	60	225930	1.0
+R6	Phaetri	other		novel	200	122	510891	0.61
+R6	Phaetri	other		old	60	5	510891	0.0833
+R6	Phaetri	other		shuffled	60	60	510891	1.0
+R6	Phytinf	other		novel	200	170	503796	0.85
+R6	Phytinf	other		old	26	4	503796	0.1538
+R6	Phytinf	other		shuffled	26	26	503796	1.0
+R6	Potemal	other		novel	200	116	494414	0.58
+R6	Potemal	other		old	60	8	494414	0.1333
+R6	Potemal	other		shuffled	60	60	494414	1.0
+R6	Pylalit	other		novel	200	197	500261	0.985
+R6	Pylalit	other		old	60	40	500261	0.6667
+R6	Pylalit	other		shuffled	60	60	500261	1.0
+R6	Sacclat	other		novel	200	191	502850	0.955
+R6	Sacclat	other		old	60	42	502850	0.7
+R6	Sacclat	other		shuffled	60	60	502850	1.0
+R6	Saprpar	other		novel	200	127	501283	0.635
+R6	Saprpar	other		old	60	4	501283	0.0667
+R6	Saprpar	other		shuffled	60	60	501283	1.0
+R6	Schiisc	other		novel	200	195	500160	0.975
+R6	Schiisc	other		old	60	23	500160	0.3833
+R6	Schiisc	other		shuffled	60	60	500160	1.0
+R6	Scytpro	other		novel	200	161	493184	0.805
+R6	Scytpro	other		old	60	27	493184	0.45
+R6	Scytpro	other		shuffled	60	60	493184	1.0
+R6	Thalpse	other		novel	200	122	509634	0.61
+R6	Thalpse	other		old	60	5	509634	0.0833
+R6	Thalpse	other		shuffled	60	60	509634	1.0
+R6	Tribmin	other		novel	200	139	503255	0.695
+R6	Tribmin	other		old	60	8	503255	0.1333
+R6	Tribmin	other		shuffled	60	60	503255	1.0
+R6	Undapin	other		novel	200	185	507139	0.925
+R6	Undapin	other		old	28	9	507139	0.3214
+R6	Undapin	other		shuffled	28	28	507139	1.0
+R7	Acytosteliaceae	other		novel	103	29	331156	0.2816
+R7	Acytosteliaceae	other		old	24	2	331156	0.0833
+R7	Acytosteliaceae	other		shuffled	24	24	331156	1.0
+R7	Acytosteliales	other		novel	98	35	319197	0.3571
+R7	Acytosteliales	other		old	38	4	319197	0.1053
+R7	Acytosteliales	other		shuffled	38	38	319197	1.0
+R7	Amoebozoa	other		novel	200	52	26828	0.26
+R7	Amoebozoa	other		old	60	0	26828	0.0
+R7	Amoebozoa	other		shuffled	60	60	26828	1.0
+R7	Archamoebae	control		novel	129	24	313457	0.186
+R7	Archamoebae	control		old	60	0	313457	0.0
+R7	Archamoebae	control		shuffled	60	60	313457	1.0
+R7	Cavosteliaceae	control		novel	22	4	320971	0.1818
+R7	Cavosteliaceae	control		old	42	1	320971	0.0238
+R7	Cavosteliaceae	control		shuffled	42	42	320971	1.0
+R7	Coprpro	event_tip	R7_copromyxa:origin	novel	200	137	340488	0.685
+R7	Coprpro	event_tip	R7_copromyxa:origin	old	60	7	340488	0.1167
+R7	Coprpro	event_tip	R7_copromyxa:origin	shuffled	60	60	340488	1.0
+R7	Dictyostelia	event	R7_dictyostelia:origin	novel	200	83	263189	0.415
+R7	Dictyostelia	event	R7_dictyostelia:origin	old	60	0	263189	0.0
+R7	Dictyostelia	event	R7_dictyostelia:origin	shuffled	60	60	263189	1.0
+R7	Dictyosteliaceae	other		novel	97	21	310132	0.2165
+R7	Dictyosteliaceae	other		old	26	4	310132	0.1538
+R7	Dictyosteliaceae	other		shuffled	26	26	310132	1.0
+R7	Dictyosteliales	other		novel	103	44	299924	0.4272
+R7	Dictyosteliales	other		old	32	3	299924	0.0938
+R7	Dictyosteliales	other		shuffled	32	32	299924	1.0
+R7	Dictyostelium	other		novel	200	112	320666	0.56
+R7	Dictyostelium	other		old	32	8	320666	0.25
+R7	Dictyostelium	other		shuffled	32	32	320666	1.0
+R7	Discosea	control		novel	45	5	317376	0.1111
+R7	Discosea	control		old	60	0	317376	0.0
+R7	Discosea	control		shuffled	60	60	317376	1.0
+R7	Elardia	control		novel	200	70	300451	0.35
+R7	Elardia	control		old	60	4	300451	0.0667
+R7	Elardia	control		shuffled	60	60	300451	1.0
+R7	Eumycetozoa	other		novel	122	25	225127	0.2049
+R7	Eumycetozoa	other		old	60	0	225127	0.0
+R7	Eumycetozoa	other		shuffled	60	60	225127	1.0
+R7	Evosea	control		novel	167	46	134167	0.2754
+R7	Evosea	control		old	60	0	134167	0.0
+R7	Evosea	control		shuffled	60	60	134167	1.0
+R7	Holozoa	control		novel	32	2	338044	0.0625
+R7	Holozoa	control		old	30	0	338044	0.0
+R7	Holozoa	control		shuffled	30	30	338044	1.0
+R7	Mastigamoebida	control		novel	14	1	333184	0.0714
+R7	Mastigamoebida	control		old	12	0	333184	0.0
+R7	Mastigamoebida	control		shuffled	12	12	333184	1.0
+R7	Myxogastria_Ceratiomyxa	event	R7_myxogastria:origin	novel	138	43	317870	0.3116
+R7	Myxogastria_Ceratiomyxa	event	R7_myxogastria:origin	old	60	1	317870	0.0167
+R7	Myxogastria_Ceratiomyxa	event	R7_myxogastria:origin	shuffled	60	60	317870	1.0
+R7	Opisthokonta	other		novel	44	11	329104	0.25
+R7	Opisthokonta	other		old	60	0	329104	0.0
+R7	Opisthokonta	other		shuffled	60	60	329104	1.0
+R7	Tubulinea	control		novel	128	31	287149	0.2422
+R7	Tubulinea	control		old	60	0	287149	0.0
+R7	Tubulinea	control		shuffled	60	60	287149	1.0
+R7	Variosea	control		novel	200	80	307447	0.4
+R7	Variosea	control		old	60	0	307447	0.0
+R7	Variosea	control		shuffled	60	60	307447	1.0
+R8	Acaryochloridales	control		novel	10	4	178110	0.4
+R8	Acaryochloridales	control		old	18	1	178110	0.0556
+R8	Acaryochloridales	control		shuffled	18	18	178110	1.0
+R8	Aphanothecaceae	control		novel	22	19	177387	0.8636
+R8	Aphanothecaceae	control		old	8	1	177387	0.125
+R8	Aphanothecaceae	control		shuffled	8	8	177387	1.0
+R8	Branching_Nostocales	other		novel	9	5	176814	0.5556
+R8	Chroococcales	control		novel	16	10	171433	0.625
+R8	Chroococcales	control		old	23	4	171433	0.1739
+R8	Chroococcales	control		shuffled	23	23	171433	1.0
+R8	Chroococcidiopsidales	control		novel	8	7	177827	0.875
+R8	Chroococcidiopsidales	control		old	9	1	177827	0.1111
+R8	Chroococcidiopsidales	control		shuffled	9	9	177827	1.0
+R8	Colechth	event_tip	R8_coleofasciculus:origin	novel	200	175	180777	0.875
+R8	Colechth	event_tip	R8_coleofasciculus:origin	old	60	6	180777	0.1
+R8	Colechth	event_tip	R8_coleofasciculus:origin	shuffled	60	60	180777	1.0
+R8	Cyanophyceae	control		novel	200	125	8709	0.625
+R8	Cyanophyceae	control		old	27	1	8709	0.037
+R8	Cyanophyceae	control		shuffled	27	27	8709	1.0
+R8	Cyanophyceae_excl_Gloeobacter	other		novel	200	112	13089	0.56
+R8	Cyanophyceae_excl_Gloeobacter	other		old	60	0	13089	0.0
+R8	Cyanophyceae_excl_Gloeobacter	other		shuffled	60	60	13089	1.0
+R8	Hydrriv	event_tip	R8_hydrococcus:origin	novel	178	140	183443	0.7865
+R8	Hydrriv	event_tip	R8_hydrococcus:origin	old	42	4	183443	0.0952
+R8	Hydrriv	event_tip	R8_hydrococcus:origin	shuffled	42	42	183443	1.0
+R8	Hyelpat	event_tip	R8_hyella:origin	novel	200	167	180764	0.835
+R8	Hyelpat	event_tip	R8_hyella:origin	old	60	12	180764	0.2
+R8	Hyelpat	event_tip	R8_hyella:origin	shuffled	60	60	180764	1.0
+R8	Leptbor	event_tip	R8_leptolyngbya:origin	novel	200	137	181249	0.685
+R8	Leptbor	event_tip	R8_leptolyngbya:origin	old	60	6	181249	0.1
+R8	Leptbor	event_tip	R8_leptolyngbya:origin	shuffled	60	60	181249	1.0
+R8	Melainabacteria_Cyanophyceae	other		novel	28	6	6221	0.2143
+R8	Melainabacteria_Cyanophyceae	other		old	22	0	6221	0.0
+R8	Melainabacteria_Cyanophyceae	other		shuffled	22	22	6221	1.0
+R8	Microcoleaceae	other		novel	16	6	168070	0.375
+R8	Microcoleaceae	other		old	7	0	168070	0.0
+R8	Microcoleaceae	other		shuffled	7	7	168070	1.0
+R8	Nostoc	other		novel	8	6	175289	0.75
+R8	Nostoc	other		old	2	2	175289	1.0
+R8	Nostoc	other		shuffled	2	2	175289	1.0
+R8	Nostocaceae	other		novel	116	77	163993	0.6638
+R8	Nostocaceae	other		old	18	3	163993	0.1667
+R8	Nostocaceae	other		shuffled	18	18	163993	1.0
+R8	Nostocales	event	R8_heterocyst:nested	novel	200	132	128029	0.66
+R8	Nostocales	event	R8_heterocyst:nested	old	60	3	128029	0.05
+R8	Nostocales	event	R8_heterocyst:nested	shuffled	60	60	128029	1.0
+R8	Nostocales_Chroococcidiopsis	control		novel	93	53	118047	0.5699
+R8	Nostocales_Chroococcidiopsis	control		old	60	6	118047	0.1
+R8	Nostocales_Chroococcidiopsis	control		shuffled	60	60	118047	1.0
+R8	Oscillatoriales	event	R8_oscillatoriales:origin	novel	178	115	156605	0.6461
+R8	Oscillatoriales	event	R8_oscillatoriales:origin	old	60	6	156605	0.1
+R8	Oscillatoriales	event	R8_oscillatoriales:origin	shuffled	60	60	156605	1.0
+R8	Oscillatoriophycideae	control		novel	35	16	140229	0.4571
+R8	Oscillatoriophycideae	control		old	60	2	140229	0.0333
+R8	Oscillatoriophycideae	control		shuffled	60	60	140229	1.0
+R8	Pleurocapsales	control		novel	28	17	171729	0.6071
+R8	Pleurocapsales	control		old	60	2	171729	0.0333
+R8	Pleurocapsales	control		shuffled	60	60	171729	1.0
+R8	Pseubic	event_tip	R8_pseudanabaena:origin	novel	200	141	183197	0.705
+R8	Pseubic	event_tip	R8_pseudanabaena:origin	old	60	8	183197	0.1333
+R8	Pseubic	event_tip	R8_pseudanabaena:origin	shuffled	60	60	183197	1.0
+R8	Spirsub	event_tip	R8_spirulina:origin	novel	195	133	183475	0.6821
+R8	Spirsub	event_tip	R8_spirulina:origin	old	60	8	183475	0.1333
+R8	Spirsub	event_tip	R8_spirulina:origin	shuffled	60	60	183475	1.0
+R8	Synechococcales	control		novel	1	0	181701	0.0
+R8	Synechococcales	control		old	7	1	181701	0.1429
+R8	Synechococcales	control		shuffled	7	7	181701	1.0

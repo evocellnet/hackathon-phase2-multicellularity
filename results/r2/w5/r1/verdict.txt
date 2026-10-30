@@ -1,0 +1,19 @@
+W5 task A verdict (generated 2026-10-29 19:24 by scripts/r2/w5/r1_verdict.py)
+[3di] (1) deep-node controls recovered 1/3 vs default 1/3; lost elsewhere: none
+      components C03: a=False;b=True -> a=False;b=True; C06: a=True;b=True;c=False -> a=True;b=True;c=False; C07: a=True;b=True;c=True -> a=True;b=True;c=True
+      -> improved: False
+      PRIMARY gain ancestra->eukaryoma: 301/1455 = 0.2069 vs default 344/1475 = 0.2332; difference -2.63 pp [95% CI -5.63, +0.36]
+      secondary gain eukaryoma->ancestra: 314/3175 = 0.0989 vs default 353/3175 = 0.1112; difference -1.23 pp [95% CI -2.74, +0.28]
+      PRIMARY dup  ancestra->eukaryoma: 8/1931 = 0.0041 vs default 9/1745 = 0.0052; difference -0.10 pp [95% CI -0.54, +0.34]
+      secondary dup  eukaryoma->ancestra: 6/188 = 0.0319 vs default 7/188 = 0.0372; difference -0.53 pp [95% CI -4.22, +3.16]
+      -> (2) EukaryOMA agreement not lowered: False
+      VERDICT 3di: does NOT replace the default
+[3di_guard] (1) deep-node controls recovered 1/3 vs default 1/3; lost elsewhere: none
+      components C03: a=False;b=True -> a=False;b=True; C06: a=True;b=True;c=False -> a=True;b=True;c=False; C07: a=True;b=True;c=True -> a=True;b=True;c=True
+      -> improved: False
+      PRIMARY gain ancestra->eukaryoma: 311/1445 = 0.2152 vs default 344/1475 = 0.2332; difference -1.80 pp [95% CI -4.82, +1.23]
+      secondary gain eukaryoma->ancestra: 318/3175 = 0.1002 vs default 353/3175 = 0.1112; difference -1.10 pp [95% CI -2.61, +0.41]
+      PRIMARY dup  ancestra->eukaryoma: 9/1825 = 0.0049 vs default 9/1745 = 0.0052; difference -0.02 pp [95% CI -0.49, +0.44]
+      secondary dup  eukaryoma->ancestra: 7/188 = 0.0372 vs default 7/188 = 0.0372; difference +0.00 pp [95% CI -3.83, +3.83]
+      -> (2) EukaryOMA agreement not lowered: False
+      VERDICT 3di_guard: does NOT replace the default

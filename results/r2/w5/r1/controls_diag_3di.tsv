@@ -1,0 +1,4 @@
+method	pfam	n_pf_hogs	n_families	pf_hog_origin_levels	family_gain_branches	dup_branches	dups_on_Metazoa	dups_on_Choanozoa
+3di	PF01049	12	4	ParaHoxozoa:5; Eukaryota:4; Opisthokonta:2; Filozoa:1	ParaHoxozoa:1; Filozoa:1; Opisthokonta:1; Eukaryota:1	Filozoa:189; Sycocil:133; Choanoflagellata:89; Minivib:65; Silicea:60; Ichthyosporea:56; Calcarea_Homoscleromorpha:49; Amphque:47; Oscalob:45; Halipan:43	42	13
+3di	PF00362	62	2	Eukaryota:62	Eukaryota:2	Holozoa:40; Oscalob:17; Opisthokonta:11; Amphque:11; Filozoa:7; Homosap:6; Tentaculata:6; Calcarea_Homoscleromorpha:6; Sycocil:6; Chordata:6	5	0
+3di	PF00907	86	3	Opisthokonta:81; Holozoa:4; Filasterea:1	Filasterea:1; Holozoa:1; Opisthokonta:1	Cnidaria:7; Metazoa:7; Homosap:6; Clyther:5; Ichthyophonida:5; Bilateria:4; Oscalob:4; Hydroidolina:3; Sycocil:3; Drosmel:3	7	0

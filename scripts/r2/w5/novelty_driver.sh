@@ -16,7 +16,7 @@ while [ $(date +%s) -lt $DEADLINE ]; do
     left=$((left+1))
     L=results/r2/panels/$R
     [ -e $L/work/ladder/classified.parquet ] && [ -e $L/work/ladder/per_query.parquet ] && [ -e $L/branch_table.tsv ] && [ -e $L/event_table.tsv ] || continue
-    miss=0; for f in data/dense/$R/proteomes/*; do s=$(basename $f); s=${s%.*}; [ -e data/structure3di/all/$s.3di.fa.done ] || miss=1; done
+    miss=0; for f in data/dense/$R/proteomes/*; do s=$(basename $f); s=${s%.*}; [ "$R:$s" = "R4:Eudosp" ] && continue; [ -e data/structure3di/all/$s.3di.fa.done ] || miss=1; done  # Eudosp never queued for 3Di (struct_novelty.ALLOW_MISSING)
     [ $miss -eq 0 ] || continue
     echo "[$(date -Iseconds)] $R: start"
     ( [ -e results/r2/w5/novelty/$R/sample.tsv ] || $PY scripts/r2/w5/struct_novelty.py prep $R ) && \

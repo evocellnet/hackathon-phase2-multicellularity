@@ -1,0 +1,12 @@
+{
+ "status": "done",
+ "finished": "2026-10-30T05:12:43+0100",
+ "md5": {
+  "branches.tsv": "783e11419c35f5a5f6fe3c8740dc9bdf",
+  "families.tsv": "8278fa153dd051c7d79609c135cb9179",
+  "hits.tsv.gz": "48733e9c83b8d4900a60b88d6e67a15b",
+  "sample.tsv": "b83d050ba27532859ea58ad63aaf0cec",
+  "sample_info.json": "2d636c1e2080079af13d951423ab41d2",
+  "search_info.json": "5b26107fe2c7b72e5a4495728b7c0ec7"
+ }
+}

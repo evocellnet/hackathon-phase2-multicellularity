@@ -68,8 +68,14 @@ def panel_species(R):
     return sorted(f.rsplit(".", 1)[0] for f in os.listdir(os.path.join(ROOT, "data/dense", R, "proteomes")))
 
 
+#: species whose 3Di was never queued for ProstT5 (not in data/structure3di/order_r2b.txt): searched without them
+#: (their proteins are neither queries nor targets); recorded in sample_info.json
+ALLOW_MISSING = {"R4": {"Eudosp"}}
+
+
 def three_di_ready(R):
-    return [s for s in panel_species(R) if not os.path.exists(os.path.join(D3, f"{s}.3di.fa.done"))]
+    return [s for s in panel_species(R) if not os.path.exists(os.path.join(D3, f"{s}.3di.fa.done"))
+            and s not in ALLOW_MISSING.get(R, set())]
 
 
 def clades(R):
@@ -143,6 +149,8 @@ def cmd_prep(R):
         for pid, a in read_fa(os.path.join(ROOT, "data/dense", R, "proteomes", f"{s}.fa")):
             pid = pid.split("|")[1] if pid.startswith(("sp|", "tr|")) else pid
             aa[pid] = a.upper()
+        if s in ALLOW_MISSING.get(R, set()):
+            continue
         for pid, x in read_fa(os.path.join(D3, f"{s}.3di.fa")):
             ss[pid] = x.upper()
     log(f"{R}: {len(aa):,} proteins, {len(ss):,} with 3Di")
@@ -150,7 +158,9 @@ def cmd_prep(R):
     # panel DB (all proteins with 3Di of matching length)
     pairs = [(p, aa[p], ss[p]) for p in aa if p in ss and len(ss[p]) == len(aa[p])]
     ids = build_db(pairs, os.path.join(wd, "db", "panel"), logf)
-    json.dump(dict(n_proteins=len(aa), n_in_db=len(ids)), open(os.path.join(wd, "db", "info.json"), "w"))
+    json.dump(dict(n_proteins=len(aa), n_in_db=len(ids), species_without_3di=sorted(ALLOW_MISSING.get(R, set()))),
+              open(os.path.join(wd, "db", "info.json"), "w"))
+    json.dump(dict(species_without_3di=sorted(ALLOW_MISSING.get(R, set()))), open(os.path.join(od, "sample_info.json"), "w"))
     # query DB: real reps (Q|gene) + shuffled reps of the 'old' sample (S|gene)
     qp, seen = [], set()
     for r in S[S["has_3di"]].itertuples():

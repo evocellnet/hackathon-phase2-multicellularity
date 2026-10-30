@@ -1,0 +1,23 @@
+{
+ "status": "done",
+ "finished": "2026-10-30T05:14:55+0100",
+ "md5": {
+  "summary.txt": "5ae79b3b721111dec6127655a9598977",
+  "decision_operationalisation.txt": "c5e7e16eccb934a32ba70a6d3aa53417",
+  "novelty_summary/by_kind.tsv": "194842d946e43676e0151b280be60e60",
+  "novelty_summary/controls.tsv": "be5768d1b19303539f9dd8734a1a0a18",
+  "novelty_summary/per_branch.tsv": "b84f075d89db02bf19a611b4a165317c",
+  "novelty_summary/per_panel.tsv": "b1931247862ecd27b53dcd3519fb2858",
+  "novelty_summary/pooled.tsv": "fe6ce6ded2eeeb4fc3f1d7d93228c45c",
+  "r1/verdict.txt": "36b4319fb31ce63ebd466ac4d79a1d4a",
+  "r1/DONE.json": "1382e2732bafd629b3a4f36a3e35f9e3",
+  "novelty/R1/DONE.json": "85f7757cbc8c9506d765da035913bcbb",
+  "novelty/R2/DONE.json": "e9078ae6d90e8354b3bab912385ccd14",
+  "novelty/R3/DONE.json": "a6d99ae5b3a4015f0874957a5a7e560c",
+  "novelty/R4/DONE.json": "aba8e26fcfb363727a0ecfad5b7c8a19",
+  "novelty/R5/DONE.json": "caa577ed10f3698526979230cea0d2fb",
+  "novelty/R6/DONE.json": "c6036b014325c4ae6311ece775239101",
+  "novelty/R7/DONE.json": "64c492c9c564a6c58f3109bbe449ec85",
+  "novelty/R8/DONE.json": "25c002ed24d3e6a9808f91ab94b99415"
+ }
+}

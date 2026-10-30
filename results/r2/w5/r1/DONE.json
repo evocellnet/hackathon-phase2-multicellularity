@@ -1,0 +1,19 @@
+{
+ "status": "done",
+ "finished": "2026-10-29T19:24:11+0100",
+ "md5": {
+  "controls_3di.tsv": "b120ad2d4a208b091bf61b77e2241ef5",
+  "controls_3di_guard.tsv": "9080300e00be3e8d881d4284c85e10fb",
+  "controls_default.tsv": "97cbeceb93cf98d5c9550fe85f786817",
+  "controls_diag_3di.tsv": "c4dc938a849dd224f5c3f6ac834029e9",
+  "controls_diag_3di_guard.tsv": "2eb54f4a52f5c6e268df962c38172329",
+  "controls_diag_default.tsv": "b909737f5617deddcc7765c769bb3f2a",
+  "counts_per_branch.tsv": "493669b4fecdc15328d38c9048b7ac88",
+  "counts_wide.tsv": "4da71ac98e3d301418a5a77cf50c96cd",
+  "run_summary.tsv": "6d89241f1da904a84463ca5e9151fd81",
+  "verdict.txt": "36b4319fb31ce63ebd466ac4d79a1d4a",
+  "xval_agreement_per_branch.tsv": "7b11903a6fe8796e93a0c9928c75185d",
+  "xval_agreement_summary.tsv": "b4e2098b3dd8fdc265509f9fb7da018d",
+  "xval_events.tsv.gz": "3576bcffdda47b3ad8ff759d529f7c88"
+ }
+}

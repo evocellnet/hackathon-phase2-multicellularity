@@ -1,0 +1,20 @@
+W5 task A - operational reading of the pre-registered decision rule (DESIGN_ROUND2.md §3/§6)
+Written 2026-10-29 18:27 CET, BEFORE any structure-rescued Ancestra output existed (R1 3Di still being computed).
+Seen at this time: default R1 run (runs/r2/R1) controls C01-C08 (results/r2/w5/r1/controls_default.tsv:
+C03 no, C06 no [component c fails], C07 yes); nothing on EukaryOMA agreement for R1 yet.
+
+Rule: the 3Di-rescued output replaces the default for R1 only if it (1) improves the deep-node positive controls
+and (2) does not lower EukaryOMA agreement.
+
+(1) "Improves": the number of recovered controls among C03, C06, C07 (round-1 rules, panel aliases, scored by
+    scripts/r2/w5/r1_compare.py identically for both runs) is higher than for the default, and no control among
+    C01-C08 recovered by the default is lost. Equal counts = not improved. Component-level changes (a/b/c) and the
+    diagnostic placement of the PF01049 / PF00362 / PF00907 lineages are reported but do not decide.
+(2) "Does not lower": for Ancestra -> EukaryOMA agreement (fraction 'same' among mapped events; definitions and
+    code of results/eukaryoma_xval), on the Metazoa and Choanozoa stems pooled (29 R1 species present in
+    EukaryOMA, pruned R1 tree), the point estimate for gains and the point estimate for duplications are each
+    >= the default's. The reverse direction (EukaryOMA -> Ancestra) and other internal branches are reported as
+    secondary; a two-proportion 95 % CI of the difference is reported for information.
+Both runs: preset fast, same S0/S2 stages (copied cached stages; identical stage keys), patched Leiden wrapper.
+The guard variant (--family-rescue-guard) is evaluated with the same rule; if both variants pass, the one with
+the higher pooled stem gain agreement would be preferred (not expected to matter).

@@ -1,0 +1,177 @@
+W5 - STRUCTURE (ProstT5 3Di) IN ANCESTRA AND STRUCTURAL NOVELTY OF STEM GAINS
+=============================================================================
+Written 2026-10-30 05:20 CET. Scripts: scripts/r2/w5/ (make_3di_fasta.py, run_r1_3di_chain.sh,
+run_ancestra_patched_extra.sh, r1_compare.py, r1_verdict.py, struct_novelty.py, novelty_driver.sh,
+novelty_stats.py, novelty_by_kind.py). Logs: logs/w5/. Everything here is exploratory except the
+pre-registered W5 decision rule. Its reading was fixed in decision_operationalisation.txt (18:27 CET), before any
+structure-rescued output existed.
+
+MAIN POINTS
+* Structure mode does not help Ancestra at the deep nodes of R1. It recovers the same deep-node controls as the
+  default (C07 yes, C03 no, C06 no), and its stem events agree slightly less often with EukaryOMA.
+  Verdict under the pre-registered rule: the default R1 output stays. Structure is used only post hoc.
+* About half of the "sequence-novel" gained families are not structurally novel. Foldseek (3Di+AA) finds a
+  structural homolog outside the clade for 32-65 % of them, depending on the panel (median about 49 %). On internal event branches the fraction that
+  stays structurally new is higher than on control branches: 44 % vs 33 %, Mantel-Haenszel OR 1.44
+  [1.31, 1.58]. With a branch-level permutation test, one-sided p = 0.004. After adjusting for search-space size,
+  the OR is 1.45 [1.08, 1.93]. The excess comes mostly from simple->complex (nested) events, OR 1.87
+  [1.63, 2.13]. Origins of simple multicellularity give OR 1.15 [1.02, 1.30].
+
+A. ANCESTRA --family-rescue 3di ON PANEL R1 (Holozoa, 37 proteomes, 628,756 proteins)
+---------------------------------------------------------------------------------------
+Inputs. ProstT5 3Di (own GPU implementation) for all 37 species was concatenated in Ancestra's gene order
+(runs/r2/R1_3di_input/R1.3di.fa). 628,648 of 628,756 proteins (99.98 %) have a 3Di string, with 0 length
+mismatches, 0 duplicates and 0 invalid letters. The 108 missing proteins are Amphimedon proteins over 3,000 aa;
+the rescue skips them. Runs: runs/r2/R1_3di (--family-rescue 3di) and runs/r2/R1_3di_guard (+
+--family-rescue-guard). Both use preset fast, 12 threads and the patched Leiden wrapper. Ancestra's stage keys
+depend only on input md5s and configs, so the S0 families and S2 scores of the default run (runs/r2/R1) were
+copied in and skipped (keys identical: input 2ba3d89c..., families b975b335..., scores ad74bdd1...). Only the
+rescue, merge and output stages were recomputed. Both runs pass verify_orthoxml.
+
+What the rescue did. It searched 128,704 small-family queries against 31,498 representatives of 3,368 large
+families, with Foldseek 3Di+AA in 190 s, giving 624,381 hits. It then attached 25,035 small families (41,914
+genes) to 2,400 large families. The guard confirmed only 4,180 of the 25,035 attachments (17 %) and detached the
+other 20,855.
+
+(i) Positive controls (round-1 rules unchanged, panel aliases Fungi->Holomycota and
+Apusomonadida_Opisthokonta->Eukaryota, scored identically on all three runs; r1/controls_*.tsv)
+                    C01 C02 C03 C04 C05 C06 C07 C08   deep-node C03/C06/C07
+    default         yes yes no  yes yes no  yes no    1/3
+    3di             yes yes no  yes yes no  yes no    1/3
+    3di + guard     yes yes no  yes yes no  yes no    1/3
+  None of the components changed. In all three runs C03 fails component (a): there is no PF01049 PF-HOG with its
+  origin on the Metazoa stem. C06 fails component (c): there is no integrin loss on the Choanoflagellata stem,
+  which round 1 showed to be biologically wrong because Didymoeca has a real integrin beta. C07 passes in all
+  three runs.
+  Diagnostic (r1/controls_diag_*.tsv): with 3Di, the cadherin (PF01049) lineages split differently. Some
+  PF-HOGs now originate at ParaHoxozoa (5) and Opisthokonta (2) instead of only at Holozoa/Eukaryota. None
+  originates on the Metazoa stem, so C03 still fails.
+
+(ii) Agreement with EukaryOMA. The 29 R1 species in EukaryOMA were used, on the pruned R1 tree, with the same
+definitions and code as results/eukaryoma_xval (classify_gain / classify_dup). The value is the fraction 'same'
+among mapped events, Metazoa and Choanozoa stems pooled (r1/xval_agreement_summary.tsv).
+                                      default            3di                3di + guard
+    Ancestra gains -> EukaryOMA       344/1475 = 23.3%   301/1455 = 20.7%   311/1445 = 21.5%
+    Ancestra dups  -> EukaryOMA         9/1745 =  0.52%    8/1931 =  0.41%    9/1825 =  0.49%
+    EukaryOMA gains -> Ancestra       353/3175 = 11.1%   314/3175 =  9.9%   318/3175 = 10.0%
+    EukaryOMA dups  -> Ancestra         7/188  =  3.7%     6/188  =  3.2%     7/188  =  3.7%
+  Per stem, default vs 3di, for gains: Metazoa 28.3 % vs 25.1 %, Choanozoa 16.9 % vs 15.0 %.
+  On other internal branches, gains go from 28.2 % to 26.8 % (3di) and 27.5 % (guard).
+  Differences for gains: 3di -2.6 percentage points [95 % CI -5.6, +0.4]; guard -1.8 [-4.8, +1.2]. Neither
+  difference is individually significant, but every direction points down and none points up.
+  The default reproduces the round-1 W1 picture: 28 % of Metazoa-stem gains are confirmed, and well under 1 % of
+  Metazoa-stem duplications.
+
+(iii) Event counts (r1/counts_per_branch.tsv, counts_wide.tsv, run_summary.tsv)
+                                      default     3di         3di + guard
+    singleton genes                   168,470     155,231     162,923  (26.8 % / 24.7 % / 25.9 % of genes)
+    families (incl. singletons)       194,220     179,856     187,914
+    internal branches: gains           24,826      23,645      24,067
+                       losses         141,881     152,524     144,866
+                       duplications    77,600      82,527      79,583
+    Metazoa stem   gains/dups/losses  1217/4384/6877   1163/4686/7318   1196/4357/7013
+    Choanozoa stem gains/dups/losses   807/3392/2847    809/4206/3024    794/3783/2876
+  The rescue merges remote homologs into larger families. This removes some gains and singletons, but it adds
+  duplications and losses (+7 % internal losses, +24 % Choanozoa-stem duplications without the guard). That is the
+  same precision loss that Ancestra's own OrthoBench benchmark showed (F -5.0).
+
+(iv) Runtime. Default run from scratch: 2,671 s of stages on 16 threads (S0 1,238 s, S2 1,326 s, merge 86 s,
+  output 22 s). Structure mode adds a rescue stage of 263 s (12 threads; Foldseek 190 s) plus a merge of the same
+  length. The guard needs a second merge, 190 s instead of 85 s. A full run would take about +10 % (3di) or +14 %
+  (guard) on CPU. The ProstT5 3Di itself is the expensive part: several GPU hours for R1, which this agent did not
+  time.
+
+VERDICT (r1/verdict.txt). Neither variant meets either half of the rule. The deep-node controls did not improve
+(1/3 = 1/3), and EukaryOMA agreement went down. The default R1 output is kept, and --family-rescue 3di is not
+used for R1. R2 was not tested, as §6 of the design specifies (R1 only).
+
+B. STRUCTURAL NOVELTY OF GAINED FAMILIES (all 8 panels)
+-------------------------------------------------------
+Method (struct_novelty.py). Sequence-novel gains come from the panel agent's gain ladder (read-only:
+results/r2/panels/<R>/work/ladder; 'seq_novel' = no DIAMOND hit outside the clade in the panel plus 187
+round-1 proteomes).
+* Sampling: for every laddered branch, up to 200 sequence-novel families were drawn (seed 11). Each family is
+  represented by the same <= 3 representatives the ladder used.
+* Database: one Foldseek database per panel holds all panel proteins with ProstT5 3Di. Precomputed 3Di was
+  imported by running `foldseek base:createdb` on the AA FASTA and on the 3Di FASTA (both with --shuffle 0, so the
+  keys agree) and renaming the second database to <db>_ss. This is the same method as ancestra.structure.build_db,
+  and the key order was checked against the lookup.
+* Targets: for each branch, the panel proteins of all species outside the clade (createsubdb of db, db_ss and
+  db_h).
+* Search: foldseek search --alignment-type 2 (3Di+AA), -e 1e-3, default sensitivity, max-seqs 1000.
+* Classification: a family is "structurally old" if any representative has a hit with E < 1e-3 that covers at
+  least 50 % of the query; otherwise it is "structurally new".
+* Search time: 2-40 min per panel on 12 CPUs.
+* Events: M branches of origin, origin_complex and nested events. Internal events are the primary set. Tip events
+  are descriptive only, because their gains are species-specific orphans.
+* Controls: the panel agent's control branches.
+* Statistics (novelty_stats.py): Fisher test per panel; Mantel-Haenszel across panels; branch-label permutation
+  within panels; and a logistic GLM with log(number of outside target proteins) and panel as covariates, with SEs
+  clustered by branch.
+
+Search controls (novelty_summary/controls.tsv):
+  Positive control: sequence-old gains on the same branches whose DIAMOND outside hit is a panel species (up to 60
+    per branch). Foldseek finds them in 77-96 % of cases: R1 94.5 %, R2 92.4 %, R3 93.5 %, R4 80.9 %, R5 90.3 %,
+    R6 77.1 %, R7 96.4 %, R8 90.9 %. Most misses are on tips and transcriptome species. The search is therefore
+    slightly less sensitive than DIAMOND on some sequence-detectable homologs, mainly fragments.
+  Negative control: the same queries with AA and 3Di shuffled by one shared permutation. They gave 0 hits passing
+    the threshold for all 9,747 shuffled families (up to 3 representatives each) in all panels.
+
+Sequence-novel families with a structural homolog outside the clade (all branches): R1 59 %, R2 48 %, R3 53 %,
+R4 37 %, R5 50 %, R6 33 %, R7 65 %, R8 32 % (n = 2,128-8,531 per panel). The size of the sequence-novel class is
+therefore roughly halved at the structure level. This is close to the round-1 hint, now without the AFDB
+coverage limit.
+
+Events vs controls, structurally new fraction among sampled sequence-novel families (novelty_summary/per_panel.tsv)
+  panel  internal events      controls          OR [95% CI]         Fisher p   perm p (branch, 1-sided)
+  R1     154/438 = 35.2 %     392/1244 = 31.5 % 1.18 [0.93, 1.49]   0.17       0.14 (4 vs 8 branches)
+  R2     135/375 = 36.0 %     158/465  = 34.0 % 1.09 [0.81, 1.47]   0.56       0.48
+  R3     168/400 = 42.0 %     143/493  = 29.0 % 1.77 [1.33, 2.36]   6e-5       0.14
+  R4     100/180 = 55.6 %     294/989  = 29.7 % 2.95 [2.11, 4.14]   6e-11      0.07
+  R5      98/296 = 33.1 %     279/621  = 44.9 % 0.61 [0.45, 0.82]   7e-4       0.76
+  R6     198/400 = 49.5 %     274/1000 = 27.4 % 2.60 [2.03, 3.33]   8e-15      0.10
+  R7     126/338 = 37.3 %     263/937  = 28.1 % 1.52 [1.16, 2.00]   0.002      0.07
+  R8     247/378 = 65.3 %     251/413  = 60.8 % 1.22 [0.90, 1.64]   0.19       0.29
+  pooled 1226/2805 = 43.7 %   2054/6162 = 33.3 %  MH OR 1.44 [1.31, 1.58]; permutation p = 0.004 (one-sided),
+         0.022 (two-sided); adjusted GLM OR 1.45 [1.08, 1.93], p = 0.013. Heterogeneity is strong (Breslow-Day
+         p < 1e-4; R5 goes the other way).
+  By event kind (novelty_by_kind.py; post hoc):
+    simple->complex (nested; 7 events in 6 panels): 51.7 % new; MH OR 1.87 [1.63, 2.13]; adjusted OR 1.89
+      [1.13, 3.18]. Embryophyta 54 %, Fucophycidae 66 %, Volvox africanus/reticuliferus 66 %, Nostocales 66 %,
+      Agaricomycetes 42 %, Florideophyceae (Rhodymeniophycidae) 37 %, Pezizomycotina 36 %.
+    origins (uni->simple, plus Metazoa; 12 events): 37.4 % new; MH OR 1.15 [1.02, 1.30]; adjusted OR 1.16
+      [0.91, 1.47]. Metazoa stem 31.5 %.
+  Tip events (23 tips): 78.5 % structurally new. These are dominated by species-specific orphans, likely
+    including gene-model artefacts, and are not comparable with internal branches.
+Reading: on internal event branches, sequence-novel families are somewhat more often structurally novel than on
+control branches. The effect is concentrated in simple->complex transitions. Only panel-level permutation is
+robust to branch clustering, and with 2-4 events per panel no single panel is significant. The pooled estimate is
+exploratory and was not pre-registered.
+
+CAVEATS
+* ProstT5 3Di is predicted from sequence. Its per-residue agreement with AlphaFold-derived 3Di is 0.655
+  (w5_3di_validation), and 0.626 on non-Swiss-Prot protists. Remote structural homologs whose 3Di is badly
+  predicted will be missed, so "structurally new" is an upper bound. Conversely, ProstT5 may assign similar 3Di to
+  low-complexity or repeat regions; the 50 % query-coverage rule and the shuffled control (0 hits) limit this.
+* "Outside the clade" means the panel only (25-40 proteomes, as specified). The sequence ladder used the panel
+  plus 187 round-1 proteomes. Deep branches have few outside species: for example, the R1 Holozoa control has 3
+  outside species and Opisthokonta has 1. Search-space size was adjusted for in the GLM and had no detectable
+  effect (OR per log target 1.0).
+* Sampling: up to 200 families per branch, so large branches are subsampled. All families of a branch share its
+  history, so family-level Fisher p-values are anticonservative; use the branch-permutation and clustered-GLM
+  results.
+* R4: Eudosp (an AUGUSTUS proteome) was never queued for ProstT5. Its proteins are neither queries nor targets,
+  which is recorded in novelty/R4/sample_info.json.
+* Event branches for task B are the panel agent's event table (kinds origin, origin_complex and nested; reversals,
+  sensitivity and T_event codings excluded). Controls are the panel agent's control set; branches inside crowns
+  are not controls.
+* Task A rests on one panel and one Ancestra preset (fast). The EukaryOMA comparison shares input proteomes with
+  EukaryOMA, so it is a cross-method check and not independent data (see W1).
+
+FILES
+results/r2/w5/decision_operationalisation.txt; r1/ (controls_*.tsv, controls_diag_*.tsv,
+xval_agreement_summary.tsv, xval_agreement_per_branch.tsv, xval_events.tsv.gz, counts_per_branch.tsv,
+counts_wide.tsv, run_summary.tsv, verdict.txt, DONE.json); novelty/<R>/ (sample.tsv, hits.tsv.gz, families.tsv,
+branches.tsv, search_info.json, DONE.json); novelty_summary/ (per_branch.tsv, per_panel.tsv, pooled.tsv,
+controls.tsv, by_kind.tsv). Runs: runs/r2/R1_3di, runs/r2/R1_3di_guard, runs/r2/R1_3di_input.
+Work files (Foldseek DBs, parsed caches): results/r2/w5/work/.

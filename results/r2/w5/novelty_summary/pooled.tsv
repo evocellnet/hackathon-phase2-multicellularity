@@ -1,0 +1,2 @@
+n_panels	event_new	event_n	control_new	control_n	event_frac_new	control_frac_new	MH_OR	MH_OR_lo	MH_OR_hi	MH_test_p	breslow_day_homogeneity_p	branch_mean_diff	perm_p_greater	perm_p_two_sided	adj_model	adj_n_families	adj_n_branches	adj_OR_event_adj	adj_OR_lo	adj_OR_hi	adj_p	adj_OR_per_log_target	adj_p_log_target
+8	1226	2805	2054	6162	0.4371	0.3333	1.439	1.31	1.582	2.1871393585115584e-14	3.3306690738754696e-16	0.0887	0.0041	0.0221	new ~ is_event + log_targets + C(panel) (logit; SE clustered by branch)	8967	74	1.445	1.081	1.931	0.012959481046559635	1.005	0.9307317482926641
